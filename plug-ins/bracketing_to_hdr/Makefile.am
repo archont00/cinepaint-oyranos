@@ -45,12 +45,12 @@ INCLUDES = \
 	-I$(includedir)
 
 LDADD = \
-	$(X_LIBS) \
 	$(top_builddir)/lib/libcinepaint.la \
 	./br_core/libbr_core.la \
 	./FL_adds/libfl_adds.la \
 	./gui/libgui.la \
 	$(FLTK_LIBS) \
+	$(X_LIBS) \
 	-lc
 
 DEPS = \

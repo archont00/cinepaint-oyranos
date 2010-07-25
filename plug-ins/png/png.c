@@ -942,7 +942,7 @@ save_image (gchar  *filename,	        /* I - File to save to */
 	respin_cmap (pp, info, image_ID); /* fix up transparency */
 	break;
     default:
-        g_message ("%s\nImage type can't be saved as PNG", filename);
+        g_message ("%s\nImage type can't be saved as PNG %d", filename, type);
         return 0;
   };
 
