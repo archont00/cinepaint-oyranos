@@ -19,12 +19,16 @@
 
 #include "iccjpeg.h"
 #include <stdlib.h>			/* define malloc() */
-# if HAVE_OY
+
+#if HAVE_OY
+# if OYRANOS_NVERSION > 107
+#include <oyranos.h>
+# else
 #include <oyranos/oyranos.h>
 # endif
-
-#ifndef OYRANOS_VERSION
-#define OYRANOS_VERSION 0
+# ifndef OYRANOS_VERSION
+# define OYRANOS_VERSION 0
+# endif
 #endif
 
 /*

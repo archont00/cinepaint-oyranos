@@ -47,8 +47,16 @@ extern "C" {
 #include "lib/wire/libtile.h"
 #include "plugin_pdb.h"
 #include "libgimp/stdplugins-intl.h"
-#ifdef HAVE_OY
+
+#if HAVE_OY
+# if OYRANOS_NVERSION > 107
+#include <oyranos.h>
+# else
 #include <oyranos/oyranos.h>
+# endif
+# ifndef OYRANOS_VERSION
+# define OYRANOS_VERSION 0
+# endif
 #endif
 }
 

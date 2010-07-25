@@ -478,21 +478,17 @@ AC_ARG_ENABLE(print, [  --disable-print         build without print support (req
   fi
 
 dnl Test for Oyranos; beku
-dnl  AC_PATH_PROG(OY_CONFIG, [$PKG_CONFIG oyranos_monitor --exists], no)
   AC_PATH_PROG(OY_CONFIG, oyranos-config, no)
     if test "x$OY_CONFIG" != "xno"; then
+        OYRANOS="`$OY_CONFIG --version`"
+        OYRANOS_NVERSION="`$OY_CONFIG --num-version`"
         pkg-config --exists oyranos_monitor
         if test $? -eq 0; then
           OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --ld_x_flags | sed  s/-O.\//`"
         else
           OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --ldflags | sed  s/-O.\//`"
         fi
-        OYRANOS_CFLAGS="-DHAVE_OY `$OY_CONFIG --cflags | sed  s/-O.\//`"
-        OYRANOS="`$OY_CONFIG --version`"
-dnl     OY_CONFIG="$PKG_CONFIG oyranos_monitor"
-dnl     OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --libs`"
-dnl     OYRANOS_CFLAGS="-DHAVE_OY `$OY_CONFIG --cflags`"
-dnl     OYRANOS="`$OY_CONFIG --modversion`"
+        OYRANOS_CFLAGS="-DHAVE_OY -DOYRANOS_NVERSION=$OYRANOS_NVERSION `$OY_CONFIG --cflags | sed  s/-O.\//`"
     else
       AC_MSG_WARN([
 *** Check for oyranos-config failed.
@@ -795,6 +791,7 @@ AC_SUBST(OPENEXR)
 AC_SUBST(OPENEXR_LIBS)
 AC_SUBST(OPENEXR_INCLUDES)
 AC_SUBST(OYRANOS)
+AC_SUBST(OYRANOS_NVERSION)
 AC_SUBST(OYRANOS_CFLAGS)
 AC_SUBST(OYRANOS_LIBS)
 AC_SUBST(LIBJPEG_LIB)

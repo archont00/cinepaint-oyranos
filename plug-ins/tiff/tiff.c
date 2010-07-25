@@ -168,8 +168,15 @@ static char Version_[] = "v1.5.1";
 #include "info.h"
 #include "gui.h"
 
-#ifdef HAVE_OY
+#if HAVE_OY
+# if OYRANOS_NVERSION > 107
+#include <oyranos.h>
+# else
 #include <oyranos/oyranos.h>
+# endif
+# ifndef OYRANOS_VERSION
+# define OYRANOS_VERSION 0
+# endif
 #endif
 
 /*** struct definitions ***/
