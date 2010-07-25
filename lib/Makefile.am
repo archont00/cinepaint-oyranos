@@ -92,7 +92,7 @@ library_include_HEADERS = $(wildcard *.h)
 
 ## libcinepaint_la_LDFLAGS = -version-info $(MAJOR_VERSION):$(MINOR_VERSION):$(MICRO_VERSION)
 
-libcinepaint_la_LDFLAGS = -version-info $(MAJOR_VERSION):$(MINOR_VERSION):0
+libcinepaint_la_LDFLAGS = -version-info $(MAJOR_VERSION):$(MINOR_VERSION):0 -lm -lX11
 
 
 INCLUDES = $(X_CFLAGS) \

@@ -422,8 +422,8 @@ cinepaint_LDADD = \
 
 cinepaint_remote_LDADD = \
 	$(GTK_LIBS) \
-	$(X_LIBS) \
-	$(XMU_LIB)
+	$(XMU_LIB) \
+	$(X_LIBS) -lX11
 
 ## DEPS = $(top_builddir)/lib/libcinepainti.a
 
