@@ -1,0 +1,168 @@
+IOL - Image Operation Language
+by Sean Ridenour
+
+For simplicity, all values in IOL are 32-bit floating-point numbers.
+For CinePaint, they are converted to the necessary format by the
+interpreter plug-in automatically.
+
+For normal images, values will fall between 0.0 and 1.0, though
+IOL does not care if they exceed this range (such as for HDR
+imagery). When converting to images that aren't in 32-bit floating-
+point format, pixel values are automatically clipped.
+
+Each line ends with a semi-colon (";").
+
+Putting a variable, a mathematical expression, or a keyword that
+returns a value by itself on a line will cause the contents of
+the variable, the expression's result, or the keyword's returned
+value to be sent to stderr. For example:
+	a = 3 + 5;
+	a;
+	(0.9 - 0.4);
+	abs(a);
+will result in
+	8
+	0.5
+	8
+on stderr.
+
+Variables:
+	Variables are case-sensitive. Foo and fOO are completely
+	different variables.
+
+	Variable names must start with a letter.
+
+	Variables do not have to be declared before they are used.
+
+	Variables retain their values across pixels, but not across
+	operations. In other words, if you apply an IOL program to
+	an image, the variables will keep their values until the
+	last pixel of the image has been processed, at which point
+	they will be thrown away.
+
+	For the CinePaint IOL plug-in, there is a limit of 50
+	variables, excluding the ones that are built-in.
+
+	Although one could theoretically use reserved keywords for
+	variable names, and the parser does not explicitly disallow
+	it, because of the way the parser is written it won't work.
+	The program
+		sqrt = 124;
+		a = sqrt;
+	results in a syntax error.
+
+	Multiple variable assignments are not allowed, so doing
+	something like
+		a = b = c = 3;
+	throws a syntax error.
+
+Arithmetic operations:
+	+	add
+	-	subtract
+	*	multiply
+	/	divide. Division by zero results in zero.
+
+	The correct order of operations is followed when parsing
+	expressions. (3 * 4 + 3) will be treated as if it were
+	((3 * 4) + 3), etc.
+
+IF statements:
+	IOL's IF statement supports the following comparisons:
+		==	equal to
+		!=	not equal to
+		>	greater than
+		<	less than
+		>=	greater than or equal to
+		<=	less than or equal to
+
+	The syntax of the IF statement is:
+
+		if X comparison Y { statements } else { statements }
+
+			or
+
+		if X comparison Y { statements }
+
+	where X and Y are either expressions, numbers, or variables.
+
+Keywords:
+	The arguments to the keywords are in brackets, and all are
+	required.
+
+	input [red] [green] [blue] [alpha]
+		Get the Red, Green, Blue, and Alpha values for
+		the current pixel in the current layer, and
+		put them in red, green, blue, and alpha,
+		respectively.
+
+		If the current image doesn't have an alpha channel,
+		then the alpha variable gets ignored.
+
+	output [red] [green] [blue] [alpha]
+		Take the red, gree, blue, and alpha variables,
+		and use their values for the current pixel in
+		the current layer.
+
+		If the current image doesn't have an alpha channel,
+		then the alpha variable gets ignored.
+
+	if
+		Read the above section on IF statements.
+
+	else
+		Read the above section on IF statements.
+
+	size [x] [y]
+		Puts the width of the image (in pixels) in x, and the
+		height of the image (in pixels) in y.
+
+	pos [x] [y]
+		Gets the X and Y coordinates of the current pixel, and
+		puts them in x and y, respectively.
+
+	sqrt ( [val] )
+		Return the square root of val.
+
+	abs ( [val] )
+		Return the absolute value of val.
+
+	sin ( [val] )
+		Return the sine of val.
+
+	cos ( [val] )
+		Return the cosine of val.
+
+	tan ( [val] )
+		Return the tangent of val.
+
+	log ( [val] )
+		Returns the natural logarithm of val.
+
+	log10 ( [val] )
+		Returns the base-10 logarithm of val.
+
+	pow ( [x], [y] )
+		Returns the value of x raised to the power of y.
+
+	clip ( [val] )
+		If val is less than 0.0, clip returns 0.0.
+		If val is greater than 1.0, clip returns 1.0.
+		If val is within the range of 0.0 to 1.0, clip
+		returns val.
+
+	min ( [x], [y] )
+		Compares x against y, and returns the one with the
+		lowest value. If x and y are the same, x is returned.
+
+	max ( [x], [y] )
+		Compares x against y, and returns the one with the
+		highest value. If x and y are the same, x is returned.
+
+A program to multiply an image by its own alpha channel would look
+something like this:
+	input r g b a;
+	r = r * a;
+	g = g * a;
+	b = b * a;
+	output r g b a;
+

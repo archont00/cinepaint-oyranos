@@ -1,0 +1,323 @@
+#! /bin/sh
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+exec_prefix_set=no
+datarootdir=@datarootdir@
+#plug_in_dir=$(pkg-config --variable programplugindir cinepaint-gtk)
+plug_in_dir=@programplugindir@
+programdotdir=@programdotdir@
+programdatadir=@programdatadir@
+datadir=@datadir@
+include_dir=@includedir@/cinepaint
+
+usage()
+{
+  cat <<EOF
+This is CinePaint @VERSION@ external compilation helper.
+
+Usage: cinepainttool [OPTION]...
+
+General options:
+  --help                  print this message
+  --quiet, --silent       don't echo build commands
+  --version               print the version of CinePaint associated with this script
+  -n, --just-print, --dry-run, --recon
+                          don't actually run any commands; just print them
+Developer options:
+  --cflags                print the compiler flags that are necessary to
+                          compile a plug-in
+  --libs                  print the linker flags that are necessary to link a
+                          plug-in
+  --prefix=PREFIX         use PREFIX instead of the installation prefix that
+                          CinePaint was built when computing the output for --cflags
+                          and --libs
+  --exec-prefix=PREFIX    use PREFIX instead of the installation exec prefix
+                          that CinePaint was built when computing the output for
+                          --cflags and --libs
+
+The --cflags and --libs options can be appended with -noui to get appropriate
+settings for plug-ins which do not use GTK+.
+
+User options:
+  --build plug-in.c               build a plug-in from a source file
+  --install plug-in.c             same as --build, but installs the built
+                                  plug-in as well
+  --install-bin plug-in           install a compiled plug-in
+  --install-script script.scm     install a script-fu script
+
+The --install options can be prefixed with --install-admin instead to install
+a plug-in or script in the site directory instead of a user directory.
+
+For plug-ins which do not use GTK+, the --build and --install options can be
+appended with -noui for appropriate settings. For plug-ins that use GTK+ but
+not libcinepaintui, append -nocinepaintui.
+
+All binary build and install options can be appended with -strip to discard
+debugging information.
+EOF
+
+  exit $1
+}
+
+noarg="\
+Error: Need a plug-in source file to build"
+
+notfound="\
+Error: Couldn't find source file to build"
+
+quiet=no
+donothing=no
+
+if test $# -eq 0; then
+  usage 1
+fi
+
+if test x${GTK_CONFIG+set} != xset ; then
+  gtk_cflags="@GTK_CFLAGS@ -I$include_dir"
+  gtk_libs='@GTK_LIBS@'
+#  gtk_cflags="$(pkg-config --cflags gtk+-2.0) -I$include_dir"
+#  gtk_libs='$(pkg-config --libs gtk+-2.0)'
+else
+  gtk_cflags=`$GTK_CONFIG --cflags`
+  gtk_libs=`$GTK_CONFIG --libs`
+fi
+
+if test x${INSTALL+set} != xset ; then
+  INSTALL='@INSTALL@'
+fi
+
+if test x${CC+set} != xset ; then
+  cc='@CC@'
+else
+  cc="$CC"
+fi
+
+if test x${CFLAGS+set} != xset ; then
+  cflags='@CFLAGS@'
+else
+  cflags="$CFLAGS"
+fi
+
+if test x${LDFLAGS+set} != xset ; then
+  ldflags='@LDFLAGS@'
+else
+  ldflags="$LDFLAGS"
+fi
+
+if test x${LIBS+set} != xset ; then
+  libs=""
+else
+  libs="$LIBS"
+fi
+
+while test $# -gt 0; do
+  case "$1" in
+  -*=*) optarg=`echo "$1" | sed 's/[-_a-zA-Z0-9]*=//'` ;;
+  *) optarg= ;;
+  esac
+
+  case $1 in
+    --version)
+      echo @VERSION@
+      exit 0
+      ;;
+    --help)
+      usage 0
+      ;;
+    --quiet | --silent)
+      quiet=yes
+      ;;
+    -n | --just-print | --dry-run | --recon)
+      donothing=yes
+      ;;
+    --prefix=*)
+      prefix=$optarg
+      if test $exec_prefix_set = no ; then
+        exec_prefix=$optarg
+      fi
+      ;;
+    --prefix)
+      echo $prefix
+      ;;
+    --exec-prefix=*)
+      exec_prefix=$optarg
+      exec_prefix_set=yes
+      ;;
+    --exec-prefix)
+      echo $exec_prefix
+      ;;
+    --cflags | --cflags-noui | --cflags-nocinepaintui)
+      case $1 in
+        --cflags | --cflags-nocinepaintui)
+          my_gtk_cflags=$gtk_cflags ;;
+        --cflags-noui)
+          my_gtk_cflags="`echo $gtk_cflags | sed 's/^.*\(-I[^ ]*glib[^ ]*  *-I[^ ]*\).*$/\1/'`  -I$include_dir";;
+      esac
+      if test @includedir@ != /usr/include ; then
+        includes=-I@includedir@
+        for i in $my_gtk_cflags ; do
+          if test $i = -I@includedir@ ; then
+             includes=""
+          fi
+        done
+      fi
+      echo $includes -I@includedir@/cinepaint $my_gtk_cflags
+      ;;
+    --cflags-local)
+      my_gtk_cflags=$gtk_cflags
+      echo -I@abs_top_srcdir@ -I@abs_top_srcdir@/lib $my_gtk_cflags
+      ;;
+    --libs | --libs-nocinepaintui)
+      my_gtk_libs=
+      libdirs=-L@libdir@
+#      libdirs="-L$(pkg-config --variable libdir cinepaint-gtk)"
+      for i in $gtk_libs ; do
+        if test $i != -L@libdir@ ; then
+#        if test $i != -L$(pkg-config --variable libdir cinepaint-gtk) ; then
+          if test -z "$my_gtk_libs" ; then
+            my_gtk_libs="$i"
+          else
+            my_gtk_libs="$my_gtk_libs $i"
+          fi
+        fi
+      done
+      case $1 in
+        --libs)
+#          echo $libdirs -lcinepaintui -lcinepaint $my_gtk_libs ;;
+#        --libs-nocinepaintui)
+          echo $libdirs -lcinepaint -lcinepaintHalf $my_gtk_libs ;;
+      esac
+      ;;
+    --libs-local)
+      my_gtk_libs=
+      for i in $gtk_libs ; do
+        if test -z "$my_gtk_libs" ; then
+          my_gtk_libs="$i"
+        else
+          my_gtk_libs="$my_gtk_libs $i"
+        fi
+      done
+      export `cat @abs_top_srcdir@/lib/libcinepaint.la | grep dlname | sed s/\'//g`
+      echo @abs_top_srcdir@/lib/.libs/$dlname $my_gtk_libs
+      ;;
+    --libs-noui)
+      glib_ldflags=`echo $gtk_libs | sed -e 's/^.*-lgdk[^ ]* *\(-L[^ ]*\).*$/\1/' -e 's/^.* -lgdk[^ ]* .*$//'`
+      if test -z "$glib_ldflags" ; then
+        glib_ldflags=`echo $gtk_libs | sed 's/^ *\(-L[^ ]*\) .*$/\1/'`
+      fi 
+      glib_libs="$glib_ldflags `echo $gtk_libs | sed 's/^.*\(-lglib[^ ]*\).*$/\1/'`"
+      my_glib_libs=
+      libdirs=-L@libdir@
+      for i in $glib_libs ; do
+        if test $i != -L@libdir@ ; then
+          if test -z "$my_glib_libs" ; then
+            my_glib_libs="$i"
+          else
+            my_glib_libs="$my_glib_libs $i"
+          fi
+        fi
+      done
+      echo -L@libdir@ -lcinepaint -lcinepaintHalf $my_glib_libs
+      ;;
+    --install-dir)
+      echo "$plug_in_dir/plug-ins"
+      ;;
+    --install-bin | --install-admin-bin \
+    | --install-bin-strip | --install-admin-bin-strip \
+    | --install-script | --install-admin-script)
+      case $1 in
+        --install-bin)
+          install_cmd="@INSTALL_PROGRAM@"
+          install_dir="$HOME/$programdotdir/plug-ins"
+          ;;
+        --install-bin-strip)
+          install_cmd="@INSTALL_PROGRAM@ -s"
+          install_dir="$HOME/$programdotdir/plug-ins"
+          ;;
+        --install-admin-bin)
+          install_cmd="@INSTALL_PROGRAM@"
+          install_dir="$plug_in_dir/plug-ins"
+          ;;
+        --install-admin-bin-strip)
+          install_cmd="@INSTALL_PROGRAM@ -s"
+          install_dir="$plug_in_dir/plug-ins"
+          ;;
+        --install-script)
+          install_cmd="@INSTALL_DATA@"
+          install_dir="$HOME/$programdotdir/scripts"
+          ;;
+        --install-admin-script)
+          install_cmd="@INSTALL_DATA@"
+          install_dir="$programdatadir/scripts"
+          ;;
+      esac
+      shift
+      if test "x$1" != "x"; then
+        if test -r "$1"; then
+          cmd="$install_cmd $1 $install_dir/$1"
+          test $quiet = "yes" || echo $cmd
+          test $donothing = "yes" || exec $cmd
+        else
+          echo "${notfound}" 1>&2
+          exit 1
+        fi  
+      else
+        echo "${noarg}" 1>&2
+        exit 1
+      fi
+      ;;
+    --build | --install | --install-admin | --build-strip | --install-strip \
+    | --install-admin-strip | --build-nocinepaintui | --install-nocinepaintui \
+    | --install-admin-nocinepaintui | --build-nocinepaintui-strip \
+    | --install-nocinepaintui-strip | --install-admin-nocinepaintui-strip \
+    | --build-noui | --install-noui | --install-admin-noui \
+    | --build-noui-strip | --install-noui-strip | --install-admin-noui-strip)
+      opt=`echo $1 | sed 's/-strip$//'`
+      if test "x$opt" != "x$1" ; then
+        cflags=`echo $cflags | sed -e 's/-g //g' -e 's/ -g//g'`
+      fi
+      case $opt in
+        --build | --build-noui | --build-nocinepaintui)
+          install_dir=. ;;
+        --install | --install-noui | --install-nocinepaintui)
+          install_dir="$HOME/$programdotdir/plug-ins" ;;
+        --install-admin | --install-admin-noui | --install-admin-nocinepaintui)
+          install_dir="$plug_in_dir/plug-ins" ;;
+      esac
+      noui=`echo $opt | sed 's/^.*\(noui\)$/\1/'`
+      nocinepaintui=`echo $opt | sed 's/^.*\(nocinepaintui\)$/\1/'`
+      if test "$noui" = "noui" ; then
+        cinepaint_cflags=`$0 --cflags-noui`
+        cinepaint_libs=`$0 --libs-noui`
+      elif test "$nocinepaintui" = "nocinepaintui" ; then
+        cinepaint_cflags=`$0 --cflags-nocinepaintui`
+        cinepaint_libs=`$0 --libs-nocinepaintui`
+      else
+        cinepaint_cflags=`$0 --cflags`
+        cinepaint_libs=`$0 --libs`
+      fi
+      shift
+      if test "x$1" != "x"; then
+        if test -r "$1"; then
+          dest=`echo $1 | sed -e 's#.*/\([^/].*\)$#\1#' -e 's/\.[^.]*$//'`
+          cmd="$cc $cflags $cinepaint_cflags -o $install_dir/$dest $1 $ldflags $cinepaint_libs $libs"
+          test $quiet = "yes" || echo $cmd
+          test $donothing = "yes" || exec $cmd
+        else
+          echo "${notfound}" 1>&2
+          exit 1
+        fi  
+      else
+        echo "${noarg}" 1>&2
+        exit 1
+      fi
+      ;;
+    *)
+      usage 1
+      ;;
+  esac
+  shift
+done
+
+

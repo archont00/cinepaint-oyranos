@@ -1,0 +1,5065 @@
+# translation of cinepaint_eu.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinepaint_eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-11 13:37+0100\n"
+"PO-Revision-Date: 2007-10-31 11:32+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/about_dialog.c:187 app/main.c:252
+msgid "About"
+msgstr "Honi buruz"
+
+#: app/about_dialog.c:278
+msgid "To ask questions or report bugs visit www.CinePaint.org"
+msgstr ""
+"Galderak egiteko edo erroreei buruz berri emateko joan honako gunera: www."
+"CinePaint.org"
+
+#: app/airbrush.c:147
+msgid "Rate:"
+msgstr "Tasa:"
+
+#: app/airbrush.c:160 app/smudge.c:97
+msgid "Pressure:"
+msgstr "Presioa:"
+
+#: app/app_procs.c:139
+msgid "script-fu error: server mode not available\n"
+msgstr "script-fu errorea: zerbitzari modua ez dago erabilgarri\n"
+
+#: app/app_procs.c:151
+msgid "extension_script_fu_server"
+msgstr "script_fu_hedapen_zerbitzaria"
+
+#: app/app_procs.c:440
+msgid "CinePaint Startup"
+msgstr "CinePaint-en abioa"
+
+#. xcf uses wire buffer!
+#. initialize the xcf file format routines
+#. initialize colour management
+#: app/app_procs.c:602
+msgid "Looking for data files"
+msgstr "Datu-fitxategiak bilatzen"
+
+#: app/app_procs.c:840
+msgid "Really Quit?"
+msgstr "Benetan irten nahi duzu?"
+
+#: app/app_procs.c:858
+msgid "Really quit? -- Not all is saved."
+msgstr "Benetan irten nahi duzu? -- Ez da guztia gorde."
+
+#: app/depth/bezier_select.c:352
+msgid "tried to edit on open bezier curve"
+msgstr "Bezier kurba irekia editatzen saiatu da"
+
+#: app/depth/bezier_select.c:560
+msgid "Encountered orphaned bezier control point"
+msgstr "Bezier-en kontrol-puntu umezurtza aurkitu da"
+
+#: app/depth/bezier_select.c:909
+msgid "bad bezier segment"
+msgstr "Okerreko Bezier segmentua"
+
+#: app/depth/bezier_select.c:926
+#, c-format
+msgid "unknown coordinate space: %d"
+msgstr "koordenatu espazial ezezaguna: %d"
+
+#: app/depth/bezier_select.c:1063
+msgid "tried to convert an open bezier curve"
+msgstr "Bezier kurba irekia bihurtzea saiatu da"
+
+#: app/depth/bezier_select.c:1350 app/depth/bezier_select.c:1449
+#: app/depth/bezier_select.c:1546 app/depth/bezier_select.c:1647
+#: app/depth/bezier_select.c:1745
+#, c-format
+msgid "cannot properly scanline convert bezier curve: %d"
+msgstr "ezin da bezier kurbaren bihurketa zehaztu: %d"
+
+#: app/depth/bezier_select.c:1837
+msgid "bezier_convert_helper bad precision"
+msgstr "bezier_convert_helper okerreko doitasuna"
+
+#: app/drawable.c:665
+msgid "unnamed"
+msgstr "izengabea"
+
+#. translate items
+#: app/blend.c:367
+msgid "FG to BG (RGB)"
+msgstr "Aur.Planoa Atz.Planora (GBU)"
+
+#: app/blend.c:368
+msgid "FG to BG (HSV)"
+msgstr "Aur.Planoa Atz.Planora (ÑSB)"
+
+#: app/blend.c:369
+msgid "FG to Transparent"
+msgstr "Aur.Planoa gardenera"
+
+#: app/blend.c:370
+msgid "Custom (from editor)"
+msgstr "Editore pertsonalizatua"
+
+#: app/blend.c:372 app/gradient.c:784
+msgid "Linear"
+msgstr "Lineala"
+
+#: app/blend.c:373
+msgid "Bi-Linear"
+msgstr "Bilineala"
+
+#: app/blend.c:374
+msgid "Radial"
+msgstr "Erradiala"
+
+#: app/blend.c:375
+msgid "Square"
+msgstr "Karratua"
+
+#: app/blend.c:376
+msgid "Conical (symmetric)"
+msgstr "Konikoa (simetrikoa)"
+
+#: app/blend.c:377
+msgid "Conical (asymmetric)"
+msgstr "Konikoa (asimetrikoa)"
+
+#: app/blend.c:378
+msgid "Log"
+msgstr "Egunkaria"
+
+#: app/blend.c:379
+msgid "Film Log"
+msgstr "Filmaren egunkaria"
+
+#: app/blend.c:381
+msgid "Shapeburst (angular)"
+msgstr "Formaren araberakoa (angularra)"
+
+#: app/blend.c:382
+msgid "Shapeburst (spherical)"
+msgstr "Formaren araberakoa (esferikoa)"
+
+#: app/blend.c:383
+msgid "Shapeburst (dimpled)"
+msgstr "Formaren araberakoa (zulotxoduna)"
+
+#: app/blend.c:385 app/depth/commands.c:1487
+msgid "None"
+msgstr "Bat ere ez"
+
+#: app/blend.c:386
+msgid "Sawtooth wave"
+msgstr "Uhin horzduna"
+
+#: app/blend.c:387
+msgid "Triangular wave"
+msgstr "Uhin triangeluarra"
+
+#. the main label
+#: app/blend.c:393
+msgid "Blend Options"
+msgstr "Nahasketaren aukerak"
+
+#. the opacity scale
+#: app/blend.c:403 app/depth/brush_select.c:348 app/layers_dialog.c:768
+#: app/tool_options.c:549
+msgid "Opacity:"
+msgstr "Opakutasuna:"
+
+#. the offset scale
+#: app/blend.c:421
+msgid "Offset:"
+msgstr "Desplazamendua:"
+
+#. the paint mode menu
+#: app/blend.c:439 app/depth/brush_select.c:333 app/bucket_fill.c:187
+#: app/layers_dialog.c:745
+msgid "Mode:"
+msgstr "Modua:"
+
+#. the blend mode menu
+#: app/blend.c:452
+msgid "Blend:"
+msgstr "Nahastea:"
+
+#. the gradient type menu
+#: app/blend.c:465
+msgid "Gradient:"
+msgstr "Gradientea:"
+
+#. the repeat option
+#: app/blend.c:479
+msgid "Repeat:"
+msgstr "Errepikatu:"
+
+#. max depth scale
+#: app/blend.c:521
+msgid "Max depth:"
+msgstr "Geh. sakonera:"
+
+#. threshold scale
+#: app/blend.c:540 app/rect_select.c:233 app/tool_options.c:292
+msgid "Threshold:"
+msgstr "Atalasea:"
+
+#: app/blend.c:593
+msgid "Blend: Invalid for indexed images."
+msgstr "Nahastea: ez du balio irudi indexatuetan."
+
+#: app/blend.c:665
+msgid "Blend operation failed."
+msgstr "Nahastea eragiketak huts egin du."
+
+#: app/blend.c:1329
+#, c-format
+msgid "gradient_render_pixel(): unknown gradient type %d"
+msgstr "gradient_render_pixel(): %d gradiente mota ezezaguna"
+
+#: app/blend.c:1477
+#, c-format
+msgid "gradient_fill_region(): unknown blend mode %d"
+msgstr "gradient_fill_region(): %d nahaste mota ezezaguna"
+
+#: app/blend.c:1518
+#, c-format
+msgid "gradient_fill_region(): unknown gradient type %d"
+msgstr "gradient_fill_region(): %d gradiente mota ezezaguna"
+
+#: app/blend.c:1540
+#, c-format
+msgid "gradient_fill_region(): unknown repeat mode %d"
+msgstr "gradient_fill_region(): %d errepikatze mota ezezaguna"
+
+#: app/store_frame_manager.c:177
+msgid "There is no Flipbook. Add with <Imagemenu>->File->Flipbook->Create"
+msgstr ""
+"Ez dago liburu bizidunik. Gehitu <IrudiMenua> ->Fitxategia->Liburu biziduna-"
+">Sortu menuarekin"
+
+#: app/store_frame_manager.c:234
+msgid "Auto Save"
+msgstr "Gorde automatikoki"
+
+#: app/store_frame_manager.c:235
+msgid "Set AofI"
+msgstr "Ezarri Erag.Area"
+
+#. Area of Interesst
+#: app/store_frame_manager.c:237
+msgid "AofI"
+msgstr "Eragiketa-area"
+
+#: app/store_frame_manager.c:239
+msgid "Play Backwards"
+msgstr "Erreproduzitu atzerantz"
+
+#: app/store_frame_manager.c:240 app/menus.c:458
+msgid "Flip Backward"
+msgstr "Irauli atzerantz"
+
+#: app/store_frame_manager.c:241 app/menus.c:463
+msgid "Stop"
+msgstr "Gelditu"
+
+#: app/store_frame_manager.c:242 app/menus.c:457
+msgid "Flip Forward"
+msgstr "Irauli aurrerantz"
+
+#: app/store_frame_manager.c:243 app/menus.c:461
+msgid "Play Forward"
+msgstr "Erreproduzitu aurrerantz"
+
+#. "readonly" abbreviation
+#: app/store_frame_manager.c:246 app/store_frame_manager.c:1833
+msgid "RO"
+msgstr "IS"
+
+#. "advance" abbreviation
+#: app/store_frame_manager.c:248
+msgid "Adv"
+msgstr "Aur."
+
+#: app/store_frame_manager.c:249
+msgid "F"
+msgstr "I"
+
+#. "background" abbreviation
+#: app/store_frame_manager.c:251 app/store_frame_manager.c:1845
+#: app/store_frame_manager.c:1901
+msgid "Bg"
+msgstr "AtzPl"
+
+#: app/store_frame_manager.c:253
+msgid "Filename"
+msgstr "Fitxategi-izena"
+
+#: app/store_frame_manager.c:256
+msgid ""
+"You need to have saved the filename out first, also it should probably be of "
+"the form FILE.0001.EXT"
+msgstr ""
+"Aurrenik fitxategi-izena gorde behar duzu, FITXATEGIA.0001.LUZPN erakoa "
+"adibidez"
+
+#: app/store_frame_manager.c:287 app/store_frame_manager.c:1723
+#, c-format
+msgid "Flipbook for %s"
+msgstr "%s(r)en liburu biziduna"
+
+#: app/store_frame_manager.c:329
+msgid "Saves all stores not marked RO before removing them from list"
+msgstr ""
+"IS (irakurtzeko soilik) bezala markatuta ez dauden biltegi guztiak gordetzen "
+"ditu zerrendatik ezabatu aurretik"
+
+#: app/store_frame_manager.c:340
+msgid "Sets the area of interest"
+msgstr "Eragiketaren area ezartzen du"
+
+#: app/store_frame_manager.c:351
+msgid "Enable area of interest"
+msgstr "Gaitu eragiketaren area"
+
+#: app/store_frame_manager.c:363
+msgid ""
+"Loads a new frame (current frame number - step size) into each store marked "
+"A."
+msgstr ""
+"Fotograma berria kargatzen du (uneko fotograma zenbakia - urrats-tamaina) A-"
+"rekin markatutako biltegi bakoitzean."
+
+#: app/store_frame_manager.c:372
+msgid "Step size"
+msgstr "Urrats-tamaina"
+
+#: app/store_frame_manager.c:383
+msgid ""
+"Loads a new frame (current frame number + step size) into each store marked "
+"A."
+msgstr ""
+"Fotograma berria kargatzen du (uneko fotograma zenbakia - urrats-tamaina) A-"
+"rekin markatutako biltegi bakoitzean."
+
+#: app/store_frame_manager.c:438
+msgid ""
+"RO - read only. This store will not be saved\n"
+"A - advance. This store is affected by the advance controls\n"
+"F - flip. This store is affected by the flip book controls\n"
+"Bg - background. This is the src in a clone and the bg in the onionskin\n"
+"* - modified. This store has been modified"
+msgstr ""
+"IS - irakurtzeko soilik. Biltegi hau ezingo da gorde\n"
+"A - aurreratua. Biltegi honek kontrol aurretatuak erabiliko ditu\n"
+"I - irauli. Biltegi honek liburu bizidunaren kontrolak erabiltzen ditu\n"
+"AP - atzeko planoa. Klon baten iturria da, eta irudi-gainjartzean atzeko "
+"planoa da.\n"
+"* - aldatua. Biltegia aldatu egin da"
+
+#: app/store_frame_manager.c:461
+msgid "onionskin"
+msgstr "irudi-gainjartzea"
+
+#: app/store_frame_manager.c:470
+msgid "Checked when onionskining is on"
+msgstr "Egiaztatu irudi-gainjartzea aktibo dagoen"
+
+#: app/store_frame_manager.c:489
+msgid ""
+"Sets the opacity for onion skinning.\n"
+"LMB to drag slider\n"
+"MMB to jump"
+msgstr ""
+"Irudi-gainjartzearen opakotasuna ezartzen du.\n"
+"Saguaren ezker-botoia graduatzailea arrastatzeko\n"
+"Saguaren erdiko botoia salto egiteko"
+
+#: app/store_frame_manager.c:493
+msgid "Bg/Fg"
+msgstr "AtzPl/AurPl"
+
+#: app/store_frame_manager.c:502
+msgid "Flips between the fg and bg store"
+msgstr "Biltegiaren aurreko eta atzeko planoaren arteko modua aldatzen du"
+
+#: app/store_frame_manager.c:515 app/store_frame_manager.c:540
+msgid "SRC DIR"
+msgstr "Jatorrizko direktorioa"
+
+#: app/store_frame_manager.c:519 app/store_frame_manager.c:554
+msgid "DEST DIR"
+msgstr "Helburuko direktorioa"
+
+#: app/store_frame_manager.c:548
+msgid "Src dir and file name"
+msgstr "Jatorrizko direktorioa eta fitxategi-izena"
+
+#: app/store_frame_manager.c:579
+msgid "Dest dir and file name"
+msgstr "Helburuko direktorioa eta fitxategi-izena"
+
+#: app/store_frame_manager.c:631 app/store_frame_manager.c:714
+msgid "Nothing to Play."
+msgstr "Ez dago ezer erreproduzitzeko."
+
+#: app/store_frame_manager.c:751
+#, fuzzy
+msgid "Fps"
+msgstr "Eragiketak"
+
+#: app/store_frame_manager.c:788 app/store_frame_manager.c:820
+msgid "Nothing to Flip."
+msgstr "Ez dago ezer iraultzeko."
+
+#: app/store_frame_manager.c:926 app/store_frame_manager.c:937
+msgid "Could not load image."
+msgstr "Ezin izan da irudia kargatu."
+
+#: app/store_frame_manager.c:1280 app/store_frame_manager.c:2146
+#: app/store_frame_manager.c:2192
+msgid "Frame numbers can not be negative."
+msgstr "Fotograma kopurua ezin da negatiboa izan."
+
+#: app/store_frame_manager.c:2315
+msgid "Load next frames"
+msgstr "Kargatu hurrengo fotogramak"
+
+#: app/store_frame_manager.c:2316
+msgid "Load previous frames"
+msgstr "Kargatu aurreko fotogramak"
+
+#: app/store_frame_manager.c:2317
+msgid "Load copies of current frame"
+msgstr "Kargatu uneko fotogramaren kopiak"
+
+#. Action area
+#: app/store_frame_manager.c:2318 app/store_frame_manager.c:2592
+#: app/channel_ops.c:127 app/depth/color_select.c:355 app/depth/commands.c:422
+#: app/depth/commands.c:1579 app/cms.c:2799 app/convert.c:536
+#: app/expose_image.c:255 app/interface.c:1312 app/interface.c:1502
+msgid "OK"
+msgstr "Ados"
+
+#: app/store_frame_manager.c:2326 app/store_frame_manager.c:2603
+msgid "New Store Option"
+msgstr "Biltegi berriaren aukera"
+
+#. readonly
+#: app/store_frame_manager.c:2345
+msgid "readonly"
+msgstr "irakurtzeko soilik"
+
+#. num of store
+#: app/store_frame_manager.c:2353 app/by_color_select.c:442 app/menus.c:607
+msgid "Add"
+msgstr "Gehitu"
+
+#: app/store_frame_manager.c:2364
+msgid "stores"
+msgstr "biltegiak"
+
+#: app/store_frame_manager.c:2601
+msgid "Store Option"
+msgstr "Biltegiaren aukera"
+
+#: app/store_frame_manager.c:2755 app/layers_dialog.c:674
+#: app/layers_dialog.c:707 app/layers_dialog.c:3414 app/menus.c:622
+msgid "New Layer"
+msgstr "Geruza berria"
+
+#: app/depth/brightness_contrast.c:613
+msgid "Brightness-Contrast Options"
+msgstr "Distira/Kontrastea aukerak"
+
+#: app/depth/brightness_contrast.c:660
+msgid "Brightness-Contrast does not operate on indexed drawables."
+msgstr "Distirak/Kontrasteak ez du marrazgai indexatuetan funtzionatzen."
+
+#: app/depth/brightness_contrast.c:718 app/menus.c:522
+msgid "Brightness-Contrast"
+msgstr "Distira/Kontrastea"
+
+#. Create the brightness scale widget
+#: app/depth/brightness_contrast.c:735
+msgid "Brightness"
+msgstr "Distira"
+
+#. Create the contrast scale widget
+#: app/depth/brightness_contrast.c:769
+msgid "Contrast"
+msgstr "Kontrastea"
+
+#. The preview toggle
+#: app/depth/brightness_contrast.c:807 app/depth/color_balance.c:1194
+#: app/depth/curves.c:1051 app/depth/gamma_expose.c:796
+#: app/depth/hue_saturation.c:1305 app/depth/levels.c:3764
+#: app/depth/posterize.c:599 app/depth/threshold.c:1299
+msgid "Preview"
+msgstr "Aurrebista"
+
+#: app/depth/brightness_contrast.c:865
+msgid "brightness_contrast_preview(): No image map"
+msgstr "brightness_contrast_preview(): ez dago irudi-maparik"
+
+#: app/brush_edit.c:205
+msgid "Brush Editor"
+msgstr "Brotxa-editorea"
+
+#. table for sliders/labels
+#: app/brush_edit.c:240
+msgid "-1:1"
+msgstr "-1:1"
+
+#. brush radius scale
+#. the feather radius scale
+#: app/brush_edit.c:249 app/tool_options.c:208
+msgid "Radius:"
+msgstr "Erradioa:"
+
+#. brush hardness scale
+#: app/brush_edit.c:266
+msgid "Hardness:"
+msgstr "Gogortasuna:"
+
+#. brush aspect ratio scale
+#: app/brush_edit.c:282
+msgid "Aspect Ratio:"
+msgstr "Aspektu-erlazioa:"
+
+#. brush angle scale
+#: app/brush_edit.c:298 app/measure.c:328
+msgid "Angle:"
+msgstr "Angelua:"
+
+#: app/depth/brush_select.c:252
+msgid "Brush Selection"
+msgstr "Brotxaren hautapena"
+
+#: app/depth/brush_select.c:321 app/pattern_select.c:137
+msgid "Active"
+msgstr "Aktibo"
+
+#: app/depth/brush_select.c:323
+msgid "(0x0)"
+msgstr "(0x0)"
+
+#: app/depth/brush_select.c:365
+msgid "Spacing:"
+msgstr "Tartea:"
+
+#. The noise toggle
+#: app/depth/brush_select.c:380
+msgid "Noise"
+msgstr "Zarata"
+
+#: app/depth/brush_select.c:393
+msgid "Noise Freq:"
+msgstr "Zarataren maiztasuna:"
+
+#: app/depth/brush_select.c:415
+msgid "Strength:"
+msgstr "Indarra:"
+
+#: app/depth/brush_select.c:435
+msgid "Sharpness:"
+msgstr "Zorroztasuna:"
+
+#: app/depth/brush_select.c:455
+msgid "Edit Brush"
+msgstr "Editatu brotxa"
+
+#: app/depth/brush_select.c:464
+msgid "New Brush"
+msgstr "Brotxa berria"
+
+#. The action area
+#. The close push button
+#. The close button
+#: app/depth/brush_select.c:481 app/by_color_select.c:535
+#: app/depth/color_select.c:350 app/gradient.c:851 app/layers_dialog.c:392
+#: app/measure.c:332 app/menus.c:467 app/palette.c:227 app/palette.c:233
+#: app/tips_dialog.c:113 app/tools.c:749
+msgid "Close"
+msgstr "Itxi"
+
+#: app/depth/brush_select.c:482
+msgid "Refresh"
+msgstr "Freskatu"
+
+#: app/depth/brush_select.c:640
+msgid "failed to run brush callback function"
+msgstr "huts egin du brotxaren atzera-deia funtzioa exekutatzean"
+
+#: app/depth/brush_select.c:879
+msgid "display_brush_get_row_funcs: bad precision"
+msgstr "display_brush_get_row_funcs: okerreko doitasuna"
+
+#: app/depth/brush_select.c:1383
+msgid "Active brush is not generated\n"
+msgstr "Ez da brotxa aktiborik sortu\n"
+
+#. the main label
+#: app/bucket_fill.c:141
+msgid "Bucket Fill Options"
+msgstr "Tresna betegarriaren aukerak"
+
+#: app/bucket_fill.c:149
+msgid "Fill Opacity"
+msgstr "Betegarriaren opakutasuna"
+
+#: app/bucket_fill.c:168
+msgid "Fill Threshold"
+msgstr "Betegarriaren atalasea"
+
+#. the sample merged toggle
+#. the sample merged toggle button
+#: app/bucket_fill.c:198 app/depth/color_picker.c:120 app/rect_select.c:158
+#: app/tool_options.c:277
+msgid "Sample Merged"
+msgstr "Batutako lagina"
+
+#: app/bucket_fill.c:290
+msgid "Bucket Fill operation failed."
+msgstr "Tresna betegarriaren eragiketak huts egin du."
+
+#: app/bucket_fill.c:376 app/bucket_fill.c:487
+msgid "bad fill type"
+msgstr "okerreko betegarri mota"
+
+#: app/by_color_select.c:441
+msgid "Replace"
+msgstr "Ordeztu"
+
+#: app/by_color_select.c:443 app/layers_dialog.c:702 app/tool_options.c:969
+msgid "Subtract"
+msgstr "Kenketa"
+
+#: app/by_color_select.c:444
+msgid "Intersect"
+msgstr "Gurutzatu"
+
+#: app/by_color_select.c:462
+msgid "By Color Selection"
+msgstr "Kolore hautapenaren arabera"
+
+#. Create the selection mode radio box
+#: app/by_color_select.c:486
+msgid "Selection Mode"
+msgstr "Hautapen mota"
+
+#: app/by_color_select.c:509
+msgid "Fuzziness Threshold"
+msgstr "Lausoaren atalasea"
+
+#. The reset push button
+#: app/by_color_select.c:525
+msgid "Reset"
+msgstr "Berrezarri"
+
+#: app/depth/channel.c:202
+#, c-format
+msgid "%s copy"
+msgstr "%s(r)en kopia"
+
+#: app/depth/channel.c:590
+msgid "Selection Mask"
+msgstr "Hautapen-maskara"
+
+#: app/depth/channel.c:727 app/depth/channel.c:1951
+#: app/depth/color_picker.c:638
+msgid "bad precision"
+msgstr "okerreko doitasuna"
+
+#: app/depth/channel.c:890
+msgid "channel_bounds: bad precision"
+msgstr "channel_bounds: okerreko doitasuna"
+
+#: app/depth/channel.c:1025
+msgid "channel_is_empty: bad precision"
+msgstr "channel_is_empty: okerreko doitasuna"
+
+#: app/depth/channel.c:1190
+msgid "channel_add_segment: bad precision"
+msgstr "channel_add_segment: okerreko doitasuna"
+
+#: app/depth/channel.c:1334
+msgid "channel_sub_segment: bad precision"
+msgstr "channel_sub_segment: okerreko doitasuna"
+
+#: app/depth/channel.c:1468
+msgid "channel_inter_segment: bad precision"
+msgstr "channel_inter_segment: okerreko doitasuna"
+
+#: app/channel_ops.c:115 app/menus.c:530
+msgid "Offset"
+msgstr "Desplazatu"
+
+#: app/channel_ops.c:136 app/depth/color_select.c:356 app/depth/commands.c:432
+#: app/depth/commands.c:1599 app/cms.c:2804 app/convert.c:537
+#: app/gradient.c:1506 app/gradient.c:4550 app/gradient.c:4907
+#: app/interface.c:1321 app/depth/plug_in.c:3805
+msgid "Cancel"
+msgstr "Utzi"
+
+#: app/channel_ops.c:153
+msgid "Offset X:"
+msgstr "X desplazamendua:"
+
+#: app/channel_ops.c:163
+msgid "Offset Y:"
+msgstr "Y desplazamendua:"
+
+#. the wrap around option
+#: app/channel_ops.c:175
+msgid "Wrap-Around"
+msgstr "Itzulbiratu"
+
+#. The fill options
+#: app/channel_ops.c:180
+msgid "Fill Options"
+msgstr "Betegarriaren aukerak"
+
+#: app/channel_ops.c:187 app/depth/commands.c:298 app/depth/commands.c:588
+#: app/layers_dialog.c:3365
+msgid "Background"
+msgstr "Atzeko planoa"
+
+#: app/channel_ops.c:198 app/depth/commands.c:610 app/layers_dialog.c:3367
+msgid "Transparent"
+msgstr "Gardena"
+
+#. the by half height and half width offtion
+#: app/channel_ops.c:209
+msgid "Offset by (x/2),(y/2)"
+msgstr "Desplazatu (x/2),(y/2)"
+
+#. translate menu items
+#: app/channels_dialog.c:226 app/channels_dialog.c:233
+#: app/channels_dialog.c:1961
+msgid "New Channel"
+msgstr "Kanal berria"
+
+#: app/channels_dialog.c:227 app/channels_dialog.c:234
+msgid "Raise Channel"
+msgstr "Igo kanala"
+
+#: app/channels_dialog.c:228 app/channels_dialog.c:235
+msgid "Lower Channel"
+msgstr "Jaitsi kanala"
+
+#: app/channels_dialog.c:229 app/channels_dialog.c:236
+msgid "Duplicate Channel"
+msgstr "Bikoiztu kanala"
+
+#: app/channels_dialog.c:230 app/channels_dialog.c:237
+msgid "Delete Channel"
+msgstr "Ezabatu kanala"
+
+#: app/channels_dialog.c:231
+msgid "Channel To Selection"
+msgstr "Kanala hautapenera"
+
+#: app/channels_dialog.c:528 app/gimage.c:234
+msgid "channels_dialog_update: gimage has FORMAT_NONE"
+msgstr "channels_dialog_update: gimage-k FORMAT_NONE du"
+
+#: app/channels_dialog.c:1087 app/depth/color_balance.c:1126
+#: app/depth/color_picker.c:182 app/cms.c:638 app/gimage.c:3307
+#: app/histogram_tool.c:368 app/depth/levels.c:3377
+#, c-format
+msgid "Red"
+msgstr "Gorria"
+
+#: app/channels_dialog.c:1088 app/depth/color_balance.c:1153
+#: app/depth/color_picker.c:183 app/cms.c:639 app/gimage.c:3308
+#: app/histogram_tool.c:369 app/depth/levels.c:3378
+#, c-format
+msgid "Green"
+msgstr "Berdea"
+
+#: app/channels_dialog.c:1089 app/depth/color_balance.c:1180
+#: app/depth/color_picker.c:184 app/cms.c:640 app/gimage.c:3309
+#: app/histogram_tool.c:370 app/depth/levels.c:3379
+#, c-format
+msgid "Blue"
+msgstr "Urdina"
+
+#: app/channels_dialog.c:1090 app/depth/color_picker.c:181
+#: app/depth/color_picker.c:190 app/cms.c:619 app/gimage.c:3310
+#: app/histogram_tool.c:371 app/depth/levels.c:3380 app/menus.c:531
+#, c-format
+msgid "Alpha"
+msgstr "Alfa"
+
+#: app/channels_dialog.c:1169 app/cms.c:579 app/depth/info_window.c:519
+#, c-format
+msgid "Gray"
+msgstr "Grisa"
+
+#: app/channels_dialog.c:1170
+msgid "Indexed"
+msgstr "Indexatua"
+
+#: app/channels_dialog.c:1932
+msgid "New Channel Options"
+msgstr "Kanal berriaren aukerak"
+
+#. the name entry hbox, label and entry
+#: app/channels_dialog.c:1951
+msgid "Channel name: "
+msgstr "Kanalaren izena: "
+
+#. the opacity scale
+#: app/channels_dialog.c:1965
+msgid "Display Opacity: "
+msgstr "Bistaratu opakutasuna: "
+
+#: app/channels_dialog.c:2227
+msgid "Channel Attributes"
+msgstr "Kanal-atributuak"
+
+#: app/channels_dialog.c:2248
+msgid "Channel name:"
+msgstr "Kanalaren izena:"
+
+#: app/channels_dialog.c:2267
+msgid "Display Opacity"
+msgstr "Bistaratu opakutasuna"
+
+#: app/channels_dialog.c:2288 app/depth/commands.c:2101
+msgid "Enable RGBM painting"
+msgstr "Gaitu RGBM modua"
+
+#: app/channels_dialog.c:2298
+msgid "Matte color for RGBM paint"
+msgstr "RGBM moduaren kolore distiragabea"
+
+#. use channel as opacity
+#: app/channels_dialog.c:2317
+msgid "Use this channel as opacity"
+msgstr "Erabili kanal hau opakotasun gisa"
+
+#: app/clone.c:273
+msgid "Aligned"
+msgstr "Lerrokatuta"
+
+#: app/clone.c:274
+msgid "Non Aligned"
+msgstr "Lerrokatu gabe"
+
+#: app/clone.c:275
+msgid "Registered"
+msgstr "Erregistratuta"
+
+#. the main label
+#: app/clone.c:291
+msgid "Clone Tool Options"
+msgstr "Klonatzeko tresnaren aukerak"
+
+#. the radio frame and box
+#: app/clone.c:296
+msgid "Alignment"
+msgstr "Lerrokatzea"
+
+#. add the offset entry
+#: app/clone.c:318
+msgid ""
+"Use the arrow keys to move the background around and change the offset to "
+"the foreground.\n"
+"The 'Shift' and 'Alt/Meta' keys modify the progress to 5 and 25 pixels."
+msgstr ""
+"Erabili teklatuko geziak atzeko planoa mugitzeko eta desplazamendua aurreko "
+"planora aldatzeko.\n"
+"'Maius' eta 'Alt/Meta' teklek progresioa 5 eta 25 pixeletan aldatzen dute."
+
+#: app/clone.c:319
+msgid "Offset (x,y)"
+msgstr "Desplazatu (x,y)"
+
+#. transformation
+#: app/clone.c:352 app/depth/transform_core.c:2062
+msgid "Transformation"
+msgstr "Eraldatzea"
+
+#: app/clone.c:366
+msgid "Rotate\t"
+msgstr "Biratu\t"
+
+#: app/clone.c:384
+msgid "Scale\t\t"
+msgstr "Eskalatu\t\t"
+
+#: app/depth/color_balance.c:926
+msgid "Color Balance Options"
+msgstr "Kolore-balantzearen aukerak"
+
+#: app/depth/color_balance.c:974
+msgid "Color balance operates only on RGB color drawables."
+msgstr ""
+"Kolore-balantzeak GBU koloreko marrazgaietan bakarrik funtzionatzen du."
+
+#: app/depth/color_balance.c:1042 app/depth/dodgeburn.c:177
+msgid "Shadows"
+msgstr "Itzalak"
+
+#: app/depth/color_balance.c:1043 app/depth/dodgeburn.c:176
+msgid "Midtones"
+msgstr "Tarteko tonuak"
+
+#: app/depth/color_balance.c:1044 app/depth/dodgeburn.c:175
+msgid "Highlights"
+msgstr "Tonu argiak"
+
+#: app/depth/color_balance.c:1054 app/menus.c:520
+msgid "Color Balance"
+msgstr "Kolore-balantzea"
+
+#: app/depth/color_balance.c:1070
+msgid "Color Levels: "
+msgstr "Kolore-mailak: "
+
+#. Create the cyan-red scale widget
+#: app/depth/color_balance.c:1109 app/cms.c:648 app/cms.c:652
+#, c-format
+msgid "Cyan"
+msgstr "Cyana"
+
+#. Create the magenta-green scale widget
+#: app/depth/color_balance.c:1136 app/cms.c:649 app/cms.c:653
+#, c-format
+msgid "Magenta"
+msgstr "Magenta"
+
+#. Create the yellow-blue scale widget
+#: app/depth/color_balance.c:1163 app/cms.c:650 app/cms.c:654
+#, c-format
+msgid "Yellow"
+msgstr "Horia"
+
+#. The preserve luminosity toggle
+#: app/depth/color_balance.c:1203
+msgid "Preserve Luminosity"
+msgstr "Mantendu argitasuna"
+
+#: app/depth/color_balance.c:1287
+msgid "color_balance_preview(): No image map"
+msgstr "color_balance_preview(): ez dago irudi-maparik"
+
+#. the main label
+#: app/depth/color_picker.c:115
+msgid "Color Picker Options"
+msgstr "Kolore-hautatzailearen aukerak"
+
+#: app/depth/color_picker.c:162 app/menus.c:573
+msgid "Color Picker"
+msgstr "Kolore-hautatzailea"
+
+#: app/depth/color_picker.c:164 app/crop.c:713 app/depth/info_window.c:157
+#: app/measure.c:326 app/rotate_tool.c:78 app/scale_tool.c:80
+#: app/shear_tool.c:81
+msgid "UNKNOWN"
+msgstr "EZEZAGUNA"
+
+#: app/depth/color_picker.c:176 app/depth/color_picker.c:185
+#: app/depth/color_picker.c:191
+msgid "Hex Triplet"
+msgstr "Hirukote hamaseitarra"
+
+#: app/depth/color_picker.c:180
+msgid "Index"
+msgstr "Indizea"
+
+#: app/depth/color_picker.c:189
+msgid "Intensity"
+msgstr "Intentsitatea"
+
+#: app/depth/color_picker.c:370 app/depth/color_picker.c:380
+#: app/depth/color_picker.c:381 app/depth/color_picker.c:382
+#: app/depth/color_picker.c:383 app/depth/color_picker.c:384
+#: app/depth/color_picker.c:392 app/depth/color_picker.c:421
+#: app/depth/color_picker.c:431 app/depth/color_picker.c:432
+#: app/depth/color_picker.c:433 app/depth/color_picker.c:434
+#: app/depth/color_picker.c:435 app/depth/color_picker.c:443
+#: app/depth/color_picker.c:472 app/depth/color_picker.c:473
+#: app/depth/color_picker.c:477 app/depth/color_picker.c:478
+#: app/depth/color_picker.c:479 app/depth/color_picker.c:480
+#: app/depth/color_picker.c:481 app/depth/color_picker.c:482
+#: app/depth/color_picker.c:490 app/depth/color_picker.c:491
+#: app/depth/color_picker.c:519 app/depth/color_picker.c:520
+#: app/depth/color_picker.c:524 app/depth/color_picker.c:525
+#: app/depth/color_picker.c:526 app/depth/color_picker.c:527
+#: app/depth/color_picker.c:528 app/depth/color_picker.c:529
+#: app/depth/color_picker.c:537 app/depth/color_picker.c:538
+#: app/depth/color_picker.c:566 app/depth/color_picker.c:567
+#: app/depth/color_picker.c:571 app/depth/color_picker.c:572
+#: app/depth/color_picker.c:573 app/depth/color_picker.c:574
+#: app/depth/color_picker.c:575 app/depth/color_picker.c:576
+#: app/depth/color_picker.c:584 app/depth/color_picker.c:585
+#: app/depth/color_picker.c:604 app/depth/color_picker.c:605
+#: app/depth/color_picker.c:606 app/depth/color_picker.c:607
+#: app/depth/color_picker.c:608 app/depth/color_picker.c:609
+#: app/depth/color_picker.c:610
+#, c-format
+msgid "N/A"
+msgstr "E/E"
+
+#: app/depth/color_picker.c:399 app/depth/color_picker.c:450
+#: app/depth/color_picker.c:496 app/depth/color_picker.c:543
+#: app/depth/color_picker.c:590
+msgid "bad format"
+msgstr "okerreko formatua"
+
+#: app/depth/color_select.c:200
+msgid "Color Selection"
+msgstr "Kolore-hautapena"
+
+#: app/depth/color_select.c:351
+msgid "Revert to Old Color"
+msgstr "Itzuli kolore zaharrera"
+
+#: app/depth/commands.c:410
+msgid "New Image"
+msgstr "Irudi berria"
+
+#: app/depth/commands.c:454 app/depth/commands.c:1641 app/tool_options.c:357
+msgid "Width:"
+msgstr "Zabalera:"
+
+#: app/depth/commands.c:460 app/depth/commands.c:1647 app/tool_options.c:375
+msgid "Height:"
+msgstr "Altuera:"
+
+#: app/depth/commands.c:483
+msgid "Image Type"
+msgstr "Irudi mota"
+
+#: app/depth/commands.c:492 app/depth/commands.c:1684
+msgid "RGB"
+msgstr "GBU"
+
+#: app/depth/commands.c:503 app/depth/commands.c:1694
+#: app/depth/info_window.c:138
+msgid "Grayscale"
+msgstr "Gris-eskala"
+
+#. added by IMAGEWORKS (doug creel 02/20/02)
+#: app/depth/commands.c:515
+msgid "Precision"
+msgstr "Doitasuna"
+
+#: app/depth/commands.c:579
+msgid "Fill Type"
+msgstr "Betegarri mota"
+
+#: app/depth/commands.c:599 app/layers_dialog.c:3366
+msgid "White"
+msgstr "Zuria"
+
+#: app/depth/commands.c:621 app/layers_dialog.c:3368
+msgid "Foreground"
+msgstr "Aurreko planoa"
+
+#: app/depth/commands.c:632
+msgid "No Fill"
+msgstr "Ez bete"
+
+#: app/depth/commands.c:765
+msgid "Error: Levels of undo must be zero or greater."
+msgstr "Errorea: desegitearen maila zero edo handiagoa izan behar du."
+
+#: app/depth/commands.c:771
+msgid "Error: Marching speed must be 50 or greater."
+msgstr ""
+"Errorea: inurri (marra) animatuen habiadura 50 edo handiagoa izan behar du."
+
+#: app/depth/commands.c:777
+msgid "Error: Default width must be one or greater."
+msgstr "Errorea: zabalera lehenetsia bat edo handiagoa izan behar du."
+
+#: app/depth/commands.c:783
+msgid "Error: Default height must be one or greater."
+msgstr "Errorea: altuera lehenetsia bat baino handiagoa izan behar du."
+
+#: app/depth/commands.c:804
+msgid ""
+"The display profile is set to [none]. Color management will be switched off "
+"for all displays."
+msgstr ""
+"Pantailaren profila [bat ere ez] balioarekin ezarrita dago. Kolore-kudeaketa "
+"desaktibatu egingo da pantaila guztietan."
+
+#: app/depth/commands.c:1081
+msgid "You will need to restart for these changes to take effect."
+msgstr "Berrabiarazi egin behar da aldaketa hauek eragina izateko."
+
+#: app/depth/commands.c:1469
+msgid "Light Checks"
+msgstr "Koadrikula argiak"
+
+#: app/depth/commands.c:1470
+msgid "Mid-Tone Checks"
+msgstr "Tarteko tonodun koadrikulak"
+
+#: app/depth/commands.c:1471
+msgid "Dark Checks"
+msgstr "Koadrikula ilunak"
+
+#: app/depth/commands.c:1472
+msgid "White Only"
+msgstr "Zuria soilik"
+
+#: app/depth/commands.c:1473
+msgid "Gray Only"
+msgstr "Grisa soilik"
+
+#: app/depth/commands.c:1474
+msgid "Black Only"
+msgstr "Beltza soilik"
+
+#: app/depth/commands.c:1475
+msgid "Small Checks"
+msgstr "Koadrikula txikiak"
+
+#: app/depth/commands.c:1476
+msgid "Medium Checks"
+msgstr "Tartekoa koadrikulak"
+
+#: app/depth/commands.c:1477
+msgid "Large Checks"
+msgstr "Koadrikula handiak"
+
+#: app/depth/commands.c:1478
+msgid "Temp folder:"
+msgstr "Aldi baterako karpeta:"
+
+#: app/depth/commands.c:1479
+msgid "Swap folder:"
+msgstr "Trukatze-karpeta:"
+
+#: app/depth/commands.c:1480
+msgid "Brushes folder:"
+msgstr "Brotxen karpeta:"
+
+#: app/depth/commands.c:1481
+msgid "Gradients folder:"
+msgstr "Gradienteen karpeta:"
+
+#: app/depth/commands.c:1482
+msgid "Patterns folder:"
+msgstr "Ereduen karpeta:"
+
+#: app/depth/commands.c:1483
+msgid "Palettes folder:"
+msgstr "Paleten karpeta:"
+
+#: app/depth/commands.c:1484
+msgid "Frame Manager folder:"
+msgstr "Fotograma-kudeatzailearen karpeta:"
+
+#: app/depth/commands.c:1485
+msgid "Plug-ins folder:"
+msgstr "Plugin-en karpeta:"
+
+#: app/depth/commands.c:1486 app/depth/commands.c:2080
+msgid "ICC Profiles folder:"
+msgstr "ICC profilen karpeta:"
+
+#: app/depth/commands.c:1488
+msgid "Small"
+msgstr "Txikia"
+
+#: app/depth/commands.c:1489
+msgid "Medium"
+msgstr "Tartekoa"
+
+#: app/depth/commands.c:1490
+msgid "Large"
+msgstr "Handia"
+
+#: app/depth/commands.c:1566
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: app/depth/commands.c:1589 app/depth/curves.c:1031 app/menus.c:464
+#: app/menus.c:501 app/menus.c:611
+msgid "Save"
+msgstr "Gorde"
+
+#. Display page
+#: app/depth/commands.c:1613
+msgid "Display settings"
+msgstr "Pantailaren ezarpenak"
+
+#: app/depth/commands.c:1626
+msgid "Image size"
+msgstr "Irudiaren tamaina"
+
+#: app/depth/commands.c:1675
+msgid "Image type"
+msgstr "Irudi mota"
+
+#: app/depth/commands.c:1709
+msgid "Image precision"
+msgstr "Irudiaren doitasuna"
+
+#: app/depth/commands.c:1718
+msgid "U8"
+msgstr "U8"
+
+#: app/depth/commands.c:1729
+msgid "U16"
+msgstr "U16"
+
+#: app/depth/commands.c:1740
+msgid "FLOAT"
+msgstr "MUGIKORRA"
+
+#: app/depth/commands.c:1750
+msgid "FLOAT16"
+msgstr "MUGIKORRA16"
+
+#: app/depth/commands.c:1764
+msgid "BFP"
+msgstr "FPB"
+
+#: app/depth/commands.c:1779
+msgid "Gamut alarm:"
+msgstr "Kolore-gamaren alarma:"
+
+#: app/depth/commands.c:1798
+msgid "Preview size:"
+msgstr "Aurrebistaren tamaina:"
+
+#: app/depth/commands.c:1821
+msgid "Cubic interpolation"
+msgstr "Interpolazio kubikoa"
+
+#: app/depth/commands.c:1834
+msgid "Transparency Type"
+msgstr "Gardentasun mota"
+
+#: app/depth/commands.c:1858
+msgid "Check Size"
+msgstr "Koadrikula-tamaina"
+
+#: app/depth/commands.c:1884 app/cms.c:691
+#, c-format
+msgid "Display"
+msgstr "Pantaila"
+
+#. Interface
+#: app/depth/commands.c:1888
+msgid "Interface settings"
+msgstr "Interfazearen ezarpenak"
+
+#: app/depth/commands.c:1901
+msgid "Levels of undo:"
+msgstr "Desegite maila:"
+
+#: app/depth/commands.c:1915
+msgid "Resize window on zoom"
+msgstr "Aldatu leihoaren tamaina zoom egitean"
+
+#: app/depth/commands.c:1924
+msgid "Show Rulers By Default"
+msgstr "Erakutsi erregelak lehenespenez"
+
+#. Don't show the Auto-save button until we really
+#. have auto-saving in the gimp.
+#.
+#. button = gtk_check_button_new_with_label(_("Auto save"));
+#. gtk_toggle_button_set_state (GTK_TOGGLE_BUTTON (button),
+#. auto_save);
+#. gtk_box_pack_start (GTK_BOX (vbox), button, FALSE, FALSE, 0);
+#. gtk_signal_connect (GTK_OBJECT (button), "toggled",
+#. (GtkSignalFunc) file_prefs_toggle_callback,
+#. &auto_save);
+#. gtk_widget_show (button);
+#.
+#: app/depth/commands.c:1946
+msgid "Disable cursor updating"
+msgstr "Desgaitu kurtsorearen eguneratzea"
+
+#: app/depth/commands.c:1955
+msgid "Show tool tips"
+msgstr "Erakutsi aholkuak"
+
+#: app/depth/commands.c:1968
+msgid "Marching ants speed:"
+msgstr "Inurrien abiadura:"
+
+#: app/depth/commands.c:1982
+msgid "Interface"
+msgstr "Interfazea"
+
+#. Environment
+#: app/depth/commands.c:1986
+msgid "Environment settings"
+msgstr "Ingurune-ezarpena"
+
+#: app/depth/commands.c:1996
+msgid "Conservative memory usage"
+msgstr "Memoria-erabilera zuhurra"
+
+#: app/depth/commands.c:2009
+msgid "Tile cache size (bytes):"
+msgstr "Irudien cachearen tamaina (byte):"
+
+#: app/depth/commands.c:2023
+msgid "Install colormap (8-bit only)"
+msgstr "Instalatu kolore-mapa (8-bit soilik)"
+
+#: app/depth/commands.c:2032
+msgid "Colormap cycling (8-bit only)"
+msgstr "Kolore-maparen zikloa (8-bit soilik)"
+
+#: app/depth/commands.c:2043
+msgid "Environment"
+msgstr "Ingurunea"
+
+#. Directories
+#: app/depth/commands.c:2047
+msgid "Folder settings"
+msgstr "Karpeta-ezarpenak"
+
+#: app/depth/commands.c:2087
+msgid "Folders"
+msgstr "Karpetak"
+
+#. Global Settings
+#: app/depth/commands.c:2091
+msgid "Global Setting"
+msgstr "Ezarpen globala"
+
+#.
+#. button = gtk_check_button_new_with_label(_("Show brush dialog"));
+#. gtk_toggle_button_set_state (GTK_TOGGLE_BUTTON (button),
+#. enable_brush_dialog);
+#. gtk_box_pack_start (GTK_BOX (vbox), button, FALSE, FALSE, 0);
+#. gtk_signal_connect (GTK_OBJECT (button), "toggled",
+#. (GtkSignalFunc) file_prefs_toggle_callback,
+#. &enable_brush_dialog);
+#. gtk_widget_show (button);
+#. button = gtk_check_button_new_with_label(_("Show layer dialog"));
+#. gtk_toggle_button_set_state (GTK_TOGGLE_BUTTON (button),
+#. enable_layer_dialog);
+#. gtk_box_pack_start (GTK_BOX (vbox), button, FALSE, FALSE, 0);
+#. gtk_signal_connect (GTK_OBJECT (button), "toggled",
+#. (GtkSignalFunc) file_prefs_toggle_callback,
+#. &enable_layer_dialog);
+#. gtk_widget_show (button);
+#.
+#: app/depth/commands.c:2129
+msgid "Enable paste in center of display"
+msgstr "Gaitu itsastea pantailaren zentruan"
+
+#: app/depth/commands.c:2138
+msgid "Enable tmp saving"
+msgstr "Gaitu aldi baterako gordetzea"
+
+#: app/depth/commands.c:2147
+msgid "Enable Channel Revert"
+msgstr "Gaitu leheneratzeko kanala"
+
+#: app/depth/commands.c:2156
+msgid "Default Brush"
+msgstr "Brotxa lehenetsia"
+
+#: app/depth/commands.c:2177
+msgid "Global Settings"
+msgstr "Ezarpen globalak"
+
+#. Color management
+#: app/depth/commands.c:2182 app/depth/commands.c:2741
+msgid "Color Management"
+msgstr "Kolore-kudeaketa"
+
+#. profile setting box
+#: app/depth/commands.c:2193
+msgid "General Settings"
+msgstr "Ezarpen orokorrak"
+
+#. whether to use Oyranos
+#: app/depth/commands.c:2210
+msgid "Copy Oyranos Settings"
+msgstr "Kopiatu Oyranos-en ezarpenak"
+
+#: app/depth/commands.c:2222
+msgid "Oyranos Config"
+msgstr "Oyranos-en konfigurazioa"
+
+#. whether to manage by default
+#: app/depth/commands.c:2234
+msgid "Colormanage new displays By Default"
+msgstr "Kudeatu pantaila berrien koloreak lehenetsi gisa"
+
+#. profile setting box
+#: app/depth/commands.c:2245
+msgid "Profile Settings"
+msgstr "Profilaren ezarpenak"
+
+#. image profiles
+#: app/depth/commands.c:2261
+msgid "Assumed Image Profile:"
+msgstr "Esleitutako irudiaren profila:"
+
+#: app/depth/commands.c:2268 app/depth/commands.c:2318
+#: app/depth/commands.c:2368 app/depth/commands.c:2417 app/cms.c:1214
+#: app/cms.c:2706 app/layers_dialog.c:888
+msgid "[none]"
+msgstr "[bat ere ez]"
+
+#. editing/workspace profiles
+#: app/depth/commands.c:2311
+msgid "Editing Profile:"
+msgstr "Editatu profila:"
+
+#. display profiles
+#: app/depth/commands.c:2361
+msgid "Display Profile:"
+msgstr "Pantailaren profila:"
+
+#. Proof profile
+#: app/depth/commands.c:2410
+msgid "Proof Profile:"
+msgstr "Probako profila:"
+
+#. default intent
+#: app/depth/commands.c:2460
+msgid "Default Rendering Intent:"
+msgstr "Errendatzeko modu lehenetsia:"
+
+#: app/depth/commands.c:2467 app/cms.c:2752 app/menus.c:491
+msgid "Perceptual"
+msgstr "Pertzeptiboa"
+
+#: app/depth/commands.c:2479 app/cms.c:2758 app/menus.c:492
+msgid "Relative Colorimetric"
+msgstr "Koloremetria erlatiboa"
+
+#. Create the saturation scale widget
+#: app/depth/commands.c:2491 app/cms.c:643 app/cms.c:647 app/cms.c:2764
+#: app/depth/curves.c:777 app/depth/hue_saturation.c:1267 app/menus.c:493
+#: app/tool_options.c:973
+#, c-format
+msgid "Saturation"
+msgstr "Saturazioa"
+
+#: app/depth/commands.c:2503 app/cms.c:2770 app/menus.c:494
+msgid "Absolute Colorimetric"
+msgstr "Koloremetria absolutua"
+
+#. default cms flags
+#: app/depth/commands.c:2526
+msgid "Default Transform Calculation:"
+msgstr "Eraldatze-kalkulu lehenetsia:"
+
+#: app/depth/commands.c:2533
+msgid "CMM default"
+msgstr "CMM lehenetsia"
+
+#: app/depth/commands.c:2545
+msgid "dont Precalculate"
+msgstr "aurrez ez kalkulatu"
+
+#: app/depth/commands.c:2557
+msgid "High Resolution"
+msgstr "Bereizmen altua"
+
+#: app/depth/commands.c:2569
+msgid "Low Resolution"
+msgstr "Bereizmen baxua"
+
+#: app/depth/commands.c:2582
+msgid "No Conversion"
+msgstr "Ez bihurtu"
+
+#. whether to blackpoint compensate by default
+#: app/depth/commands.c:2606
+msgid "Black Point Compensation by default"
+msgstr "Puntu-beltzaren konpentsazioa lehenetsi gisa"
+
+#. default behaviour box
+#: app/depth/commands.c:2617
+msgid "Default Behaviour"
+msgstr "Portaera lehenetsia"
+
+#. upon opening image
+#: app/depth/commands.c:2633
+msgid "When Opening Image:"
+msgstr "Irudia irekitzean:"
+
+#: app/depth/commands.c:2640
+msgid "Assign No Profile"
+msgstr "Esleitu 'Profilik gabe'"
+
+#: app/depth/commands.c:2652
+msgid "Assign Assumed Image Profile"
+msgstr "Esleitu 'Esleitutako irudiaren profila'"
+
+#: app/depth/commands.c:2664
+msgid "Prompt for Profile"
+msgstr "Eskatu profila"
+
+#. colorspace mismatch
+#: app/depth/commands.c:2686
+msgid "Editing profile missmatch:"
+msgstr "Profila koloremetrikoa falta denean:"
+
+#: app/depth/commands.c:2695
+msgid "Prompt"
+msgstr "Galdetu"
+
+#: app/depth/commands.c:2707
+msgid "Convert Automatically"
+msgstr "Bihurtu automatikoki"
+
+#: app/depth/commands.c:2719
+msgid "Keep Image Profile"
+msgstr "Mantendu irudi-profila"
+
+#: app/depth/commands.c:2996
+msgid "Border Selection"
+msgstr "Ertzen hautapena"
+
+#: app/depth/commands.c:2996
+msgid "Border selection by:"
+msgstr "Ertzen hautapena:"
+
+#: app/depth/commands.c:3010
+msgid "Feather Selection"
+msgstr "Difuminatu hautapena"
+
+#: app/depth/commands.c:3010
+msgid "Feather selection by:"
+msgstr "Difuminatu hautapena:"
+
+#: app/depth/commands.c:3024
+msgid "Grow Selection"
+msgstr "Handitu hautapena"
+
+#: app/depth/commands.c:3024
+msgid "Grow selection by:"
+msgstr "Handitu hautapena:"
+
+#: app/depth/commands.c:3038
+msgid "Shrink Selection"
+msgstr "Uzkurtu hautapena"
+
+#: app/depth/commands.c:3038
+msgid "Shrink selection by:"
+msgstr "Uzkurtu hautapena:"
+
+#: app/depth/commands.c:3084
+msgid ""
+"Cannot colormanage this display.\n"
+"Either image or display profile are undefined.\n"
+"You can assign an image profile via Image/Assign ICC Profile...\n"
+"You can set a display profile via File/Preferences/Color Management"
+msgstr ""
+"Ezin da pantaila honen koloreak kudeatu.\n"
+"Irudiaren edo pantailaren profila definitu gabe dago.\n"
+"Irudiaren profila 'Irudia/Esleitu ICC profila...' menuarekin eslei dezakezu\n"
+"Pantailaren profila 'Fitxategia/Hobespenak/Kolore-kudeaketa' menuan ezar "
+"dezakezu."
+
+#: app/depth/commands.c:3100
+msgid ""
+"Cannot blackpoint compensate this display.\n"
+"Either image or display profile are undefined.\n"
+"You can assign an image profile via Image/Assign ICC Profile...\n"
+"You can set a display profile via File/Preferences/Color Management"
+msgstr ""
+"Ezin da pantaila hau puntu-beltzarekin konpentsatu\n"
+"Irudiaren edo pantailaren profila definitu gabe dago.\n"
+"Irudiaren profila 'Irudia/Esleitu ICC profila...' menuarekin eslei dezakezu\n"
+"Pantailaren profila 'Fitxategia/Hobespenak/Kolore-kudeaketa' menuan ezar "
+"dezakezu."
+
+#: app/depth/commands.c:3116
+msgid ""
+"Cannot simulate paper on this display.\n"
+"Either image or display profile are undefined.\n"
+"You can assign an image profile via Image/Assign ICC Profile...\n"
+"You can set a display profile via File/Preferences/Color Management"
+msgstr ""
+"Ezin da papera simulatu pantaila honetan.\n"
+"Irudiaren edo pantailaren profila definitu gabe dago.\n"
+"Irudiaren profila 'Irudia/Esleitu ICC profila...' menuarekin eslei dezakezu\n"
+"Pantailaren profila 'Fitxategia/Hobespenak/Kolore-kudeaketa' menuan ezar "
+"dezakezu."
+
+#: app/depth/commands.c:3132 app/depth/commands.c:3147
+msgid ""
+"Cannot proof this display.\n"
+"Either image, proof or display profile are undefined.\n"
+"You can assign an image profile via Image/Assign ICC Profile...\n"
+"You can set a display profile via File/Preferences/Color Management"
+msgstr ""
+"Ezin da pantaila hau probatu.\n"
+"Irudiaren edo leihoaren profila definitu gabe dago.\n"
+"Irudiaren profila 'Irudia/Esleitu ICC profila...' menuarekin eslei dezakezu\n"
+"Pantailaren profila 'Fitxategia/Hobespenak/Kolore-kudeaketa' menuan ezar "
+"dezakezu."
+
+#: app/depth/commands.c:3697
+msgid ""
+"Cannot convert this image, because it has not profile assigned. Assign one "
+"first via Image>Assign ICC Profile..."
+msgstr ""
+"Ezin da irudi hau bihurtu, ez duelako profilik esleituta. Aurrenik esleitu "
+"bat 'Irudia>Esleitu ICC profila' menua erabiliz."
+
+#: app/depth/commands.c:3736
+msgid "Image Resize"
+msgstr "Irudiaren tamaina aldatu"
+
+#: app/depth/commands.c:3789
+msgid "Image Scale"
+msgstr "Irudi-eskala"
+
+#: app/depth/commands.c:4162
+msgid "Resize Error: Both width and height must be greater than zero."
+msgstr ""
+"Tamaina aldatzean errorea: zabalerak eta altuerak zero baino handiagoa izan "
+"behar dute."
+
+#: app/depth/commands.c:4192
+msgid "Scale Error: Both width and height must be greater than zero."
+msgstr ""
+"Eskalatze-errorea: zabalerak eta altuerak zero baino handiagoa izan behar "
+"dute."
+
+#: app/cms.c:198
+#, c-format
+msgid "%s:%d %s() entry->profile->cache_key allready freed or empty"
+msgstr "%s:%d %s() sarrera->profila->cache-a jadanik askatuta edo hutsik"
+
+#: app/cms.c:203
+#, c-format
+msgid "%s:%d %s() entry->profile->handle allready freed or empty"
+msgstr "%s:%d %s() sarrera->profila->heldulekua jadanik askatuta edo hutsik"
+
+#: app/cms.c:285 app/cms.c:441
+#, c-format
+msgid "Cannot open selected ICC assumed image profile: %s"
+msgstr "Ezin da hautatutako irudiaren ICC profila kolorimetrikoa ireki: %s"
+
+#: app/cms.c:296 app/cms.c:454
+#, c-format
+msgid "Cannot open selected ICC editing profile: %s"
+msgstr "Ezin da hautatutako ICC profilaren editorea ireki: %s"
+
+#: app/cms.c:307
+#, c-format
+msgid "Cannot open selected ICC display profile: %s"
+msgstr "Ezin da hautatutako pantailaren ICC profila ireki: %s"
+
+#: app/cms.c:313
+#, c-format
+msgid "Selected display profile is not a display profile: %s"
+msgstr "Hautatutako pantailaren profila ez da pantaila-profila: %s"
+
+#: app/cms.c:329 app/cms.c:495
+#, c-format
+msgid "Cannot open selected ICC default proof profile: %s"
+msgstr "Ezin da hautatutako probako ICC profila lehenetsia ireki: %s"
+
+#: app/cms.c:376
+#, c-format
+msgid "WARNING: "
+msgstr ""
+
+#: app/cms.c:379
+#, c-format
+msgid "!!! ERROR: "
+msgstr ""
+
+#: app/cms.c:473
+msgid ""
+"Oyranos cannot find display ICC profile.\n"
+"  Using sRGB instead."
+msgstr ""
+"Oyranos-ek ezin du pantailaren ICC profila aurkitu\n"
+"  GBU estandarra erabiliko da."
+
+#: app/cms.c:559 app/cms.c:573
+#, c-format
+msgid "XYZ"
+msgstr "XYZ"
+
+#: app/cms.c:560 app/cms.c:574
+#, c-format
+msgid "Lab"
+msgstr "Lab"
+
+#: app/cms.c:575
+#, c-format
+msgid "Luv"
+msgstr "Luv"
+
+#: app/cms.c:576
+#, c-format
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#: app/cms.c:577
+#, c-format
+msgid "Yxy"
+msgstr "Yxy"
+
+#: app/cms.c:578
+#, c-format
+msgid "Rgb"
+msgstr "Gbu"
+
+#: app/cms.c:580
+#, c-format
+msgid "Hsv"
+msgstr "Ñsb"
+
+#: app/cms.c:581
+#, c-format
+msgid "Hls"
+msgstr "Ñas"
+
+#: app/cms.c:582
+#, c-format
+msgid "Cmyk"
+msgstr "Cmhb"
+
+#: app/cms.c:583
+#, c-format
+msgid "Cmy"
+msgstr "Cmh"
+
+#: app/cms.c:584
+#, c-format
+msgid "2color"
+msgstr "2kolore"
+
+#: app/cms.c:585
+#, c-format
+msgid "3color"
+msgstr "3kolore"
+
+#: app/cms.c:586
+#, c-format
+msgid "4color"
+msgstr "4kolore"
+
+#: app/cms.c:587
+#, c-format
+msgid "5color"
+msgstr "5kolore"
+
+#: app/cms.c:588
+#, c-format
+msgid "6color"
+msgstr "6kolore"
+
+#: app/cms.c:589
+#, c-format
+msgid "7color"
+msgstr "7kolore"
+
+#: app/cms.c:590
+#, c-format
+msgid "8color"
+msgstr "8kolore"
+
+#: app/cms.c:591
+#, c-format
+msgid "9color"
+msgstr "9kolore"
+
+#: app/cms.c:592
+#, c-format
+msgid "10color"
+msgstr "10kolore"
+
+#: app/cms.c:593
+#, c-format
+msgid "11color"
+msgstr "11kolore"
+
+#: app/cms.c:594
+#, c-format
+msgid "12color"
+msgstr "12kolore"
+
+#: app/cms.c:595
+#, c-format
+msgid "13color"
+msgstr "13kolore"
+
+#: app/cms.c:596
+#, c-format
+msgid "14color"
+msgstr "14kolore"
+
+#: app/cms.c:597
+#, c-format
+msgid "15color"
+msgstr "15kolore"
+
+#: app/cms.c:623
+#, c-format
+msgid "CIE X"
+msgstr "CIE X"
+
+#: app/cms.c:624 app/cms.c:635
+#, c-format
+msgid "CIE Y (Luminance)"
+msgstr "CIE Y (luminantzia)"
+
+#: app/cms.c:625
+#, c-format
+msgid "CIE Z"
+msgstr "CIE Z"
+
+#: app/cms.c:626 app/cms.c:629
+#, c-format
+msgid "CIE *L"
+msgstr "CIE *L"
+
+#: app/cms.c:627
+#, c-format
+msgid "CIE *a"
+msgstr "CIE *a"
+
+#: app/cms.c:628
+#, c-format
+msgid "CIE *b"
+msgstr "CIE *b"
+
+#: app/cms.c:630
+#, c-format
+msgid "CIE *u"
+msgstr "CIE *u"
+
+#: app/cms.c:631
+#, c-format
+msgid "CIE *v"
+msgstr "CIE *v"
+
+#: app/cms.c:632
+#, c-format
+msgid "Luminance Y"
+msgstr "Y luminantzia"
+
+#: app/cms.c:633
+#, c-format
+msgid "Colour b"
+msgstr "b kolorea"
+
+#: app/cms.c:634
+#, c-format
+msgid "Colour r"
+msgstr "r kolorea"
+
+#: app/cms.c:636
+#, c-format
+msgid "CIE x"
+msgstr "CIE x"
+
+#: app/cms.c:637
+#, c-format
+msgid "CIE y"
+msgstr "CIE y"
+
+#: app/cms.c:641 app/cms.c:651 app/palette.c:1532
+#, c-format
+msgid "Black"
+msgstr "Beltza"
+
+#. Create the hue scale widget
+#: app/cms.c:642 app/cms.c:645 app/depth/hue_saturation.c:1199
+#: app/tool_options.c:972
+#, c-format
+msgid "Hue"
+msgstr "Ñabardura"
+
+#: app/cms.c:644 app/histogram_tool.c:367 app/depth/levels.c:3376
+#: app/tool_options.c:975
+#, c-format
+msgid "Value"
+msgstr "Balioa"
+
+#. Create the lightness scale widget
+#: app/cms.c:646 app/depth/hue_saturation.c:1233
+#, c-format
+msgid "Lightness"
+msgstr "Argitasuna"
+
+#: app/cms.c:655 app/cms.c:657 app/cms.c:660 app/cms.c:675
+#, c-format
+msgid "1. Colour"
+msgstr "1. kolorea"
+
+#: app/cms.c:656 app/cms.c:658 app/cms.c:661 app/cms.c:676
+#, c-format
+msgid "2. Colour"
+msgstr "2. kolorea"
+
+#: app/cms.c:659 app/cms.c:662 app/cms.c:677
+#, c-format
+msgid "3. Colour"
+msgstr "3. kolorea"
+
+#: app/cms.c:663 app/cms.c:678
+#, c-format
+msgid "4. Colour"
+msgstr "4. kolorea"
+
+#: app/cms.c:690
+#, c-format
+msgid "Input"
+msgstr "Sarrera"
+
+#: app/cms.c:692
+#, c-format
+msgid "Output"
+msgstr "Irteera"
+
+#: app/cms.c:693
+#, c-format
+msgid "Link"
+msgstr "Esteka"
+
+#: app/cms.c:694
+#, c-format
+msgid "Abstract"
+msgstr "Abstraktua"
+
+#: app/cms.c:695
+#, c-format
+msgid "ColorSpace"
+msgstr "Kolore-espazioa"
+
+#: app/cms.c:696
+#, c-format
+msgid "NamedColor"
+msgstr "Izendun kolorea"
+
+#: app/cms.c:781
+#, c-format
+msgid "Description:    "
+msgstr "Azalpena:    "
+
+#: app/cms.c:797
+#, c-format
+msgid "Product:        "
+msgstr "Produktua:       "
+
+#: app/cms.c:806
+#, c-format
+msgid "Manufacturer:   "
+msgstr "Hornitzailea:   "
+
+#: app/cms.c:814
+#, c-format
+msgid "Model:          "
+msgstr "Modeloa:       "
+
+#: app/cms.c:824
+#, c-format
+msgid "Copyright:      "
+msgstr "Copyright-a:    "
+
+#: app/cms.c:835
+#, c-format
+msgid "Device Class:   "
+msgstr "Gailu-klasea:   "
+
+#: app/cms.c:838
+#, c-format
+msgid "Color Space:    "
+msgstr "Kolore-espazioa:   "
+
+#: app/cms.c:841
+#, c-format
+msgid "PCS Space:      "
+msgstr "PCS espazioa:   "
+
+#: app/cms.c:2841
+msgid "Select Profile and Intent"
+msgstr "Hautatu profila eta modua"
+
+#: app/cms.c:2849
+msgid ""
+"Please select the profile to convert to and the rendering intent to use:"
+msgstr "Hautatu profila (profil horretara bihurtzeko) eta errendatze-modua:"
+
+#: app/cms.c:2857
+msgid "Profile:"
+msgstr "Profila:"
+
+#: app/cms.c:2864
+msgid "Rendering Intent:"
+msgstr "Errendatze-modua:"
+
+#. whether to blackpoint compensate
+#: app/cms.c:2872 app/menus.c:495
+msgid "Black Point Compensation"
+msgstr "Puntu-beltzaren konpentsazioa"
+
+#: app/cms.c:2949
+#, c-format
+msgid "Select Image Profile"
+msgstr "Hautatu irudi-profila"
+
+#: app/cms.c:2950
+#, c-format
+msgid "Select Proof Profile"
+msgstr "Hautatu probako profila"
+
+#: app/cms.c:2972
+msgid "[The currently assigned profile is: [none]]"
+msgstr "(unean esleitutako profila: [bat ere ez])"
+
+#: app/cms.c:2975
+#, c-format
+msgid "[The currently assigned profile is: %s]"
+msgstr "(unean esleitutako profila: %s)"
+
+#: app/cms.c:2987
+msgid "Please select the new image profile to assign:"
+msgstr "Hautatu irudi-profil berria esleitzeko:"
+
+#: app/cms.c:2989
+msgid "Please select the new proof profile to assign:"
+msgstr "Hautatu probako profil berria esleitzeko:"
+
+#: app/cms.c:3029
+msgid ""
+"You set the image profile to [none]. Colormanagement will be\n"
+"switched off for all displays of this image."
+msgstr ""
+"Irudi-profila [bat ere ez] balioarekin ezarri da. Kolore-kudeaketa\n"
+"desaktibatu egingo da irudiaren pantaila guztietan."
+
+#: app/cms.c:3032
+msgid ""
+"You set the proof profile to [none]. Proofing will be\n"
+"not available off for all displays of this image."
+msgstr ""
+"Probako profila [bat ere ez] balioarekin ezarri da. Proba ez da\n"
+"erabilgarri egongo irudiaren pantaila guztietan."
+
+#: app/cms.c:3087 app/cms.c:3236
+msgid "Select Profile"
+msgstr "Hautatu profila"
+
+#. message
+#: app/cms.c:3095
+msgid "Please select the image profile to assign to the image:"
+msgstr "Hautatu irudi-profila irudiari esleitzeko:"
+
+#: app/cms.c:3103
+msgid "Profile: "
+msgstr "Profila: "
+
+#: app/cms.c:3112
+msgid "The assumed image profile: [none]"
+msgstr "Esleitutako irudi-profila: [bat ere ez]"
+
+#: app/cms.c:3115
+#, c-format
+msgid "The assumed image profile: %s"
+msgstr "Esleitutako irudi-profila: %s"
+
+#. default check box
+#: app/cms.c:3126
+msgid "always use default profile"
+msgstr "erabili beti profila lehenetsia"
+
+#. message
+#: app/cms.c:3244
+msgid ""
+"The profile that was assigned to this image does not match your editing "
+"profile."
+msgstr ""
+"Irudiari esleitutako profila ez dator bat editatzen ari zaren profilarekin."
+
+#: app/cms.c:3253
+msgid "Editing profile:"
+msgstr "Editatu profila:"
+
+#: app/cms.c:3263
+msgid "Assigned profile:"
+msgstr "Esleitutako profila:"
+
+#. alway convert checkbox
+#: app/cms.c:3274
+msgid "Always convert automatically without asking"
+msgstr "Bihurtu beti automatikoki galdetu gabe"
+
+#: app/cms.c:3285
+msgid "Yes"
+msgstr "Bai"
+
+#: app/cms.c:3290
+msgid "No"
+msgstr "Ez"
+
+#: app/convert.c:116
+msgid "indexed image support has been dropped for the moment"
+msgstr "indexatutako irudien euskarria jaregin egin da oraingoz"
+
+#: app/convert.c:577
+msgid ""
+"Note:  You are attempting to convert an image\n"
+"with alpha/layers.  It is recommended that you quantize\n"
+"to no more than 255 colors if you wish to make\n"
+"a transparent or animated GIF from it.\n"
+" \n"
+"This message will not be shown again\n"
+"until after restart."
+msgstr ""
+"Oharra: alfa/kanalak dituen irudi bat bihurtzen\n"
+"saiatzen ari zara. 255 kolore baino gehiago ez\n"
+"erabiltzea gomendatzen da (bertatik GIF \n"
+"gardena edo animatua sortzea nahi izanez\n"
+"gero).\n"
+"\n"
+"Mezu hau ez da berriro agertuko\n"
+"berrabiaraz arte."
+
+#: app/convert.c:588
+msgid "Indexed Color Conversion"
+msgstr "Kolore indexatuaren bihurketa"
+
+#: app/convert.c:594
+msgid "Palette Options"
+msgstr "Paletaren aukerak"
+
+#: app/convert.c:611
+msgid "Generate optimal palette: "
+msgstr "Sortu paleta optimoa: "
+
+#: app/convert.c:619
+msgid "# of colors: "
+msgstr "kolore kopurua: "
+
+#: app/convert.c:653
+msgid "Use WWW-optimised palette"
+msgstr "Erabili WWWren paleta optimizatua"
+
+#: app/convert.c:668
+msgid "Use custom palette"
+msgstr "Erabili paleta pertsonalizatua"
+
+#: app/convert.c:692
+msgid "Use black/white (1-bit) palette"
+msgstr "Erabili beltza/zuria paleta (bit 1)"
+
+#: app/convert.c:702
+msgid "Dither Options"
+msgstr "Bilbe-aukerak"
+
+#: app/convert.c:716
+msgid "Enable Floyd-Steinberg dithering"
+msgstr "Gaitu Floyd-Steinberg bilbatzea"
+
+#: app/convolve.c:135
+msgid "Blur"
+msgstr "Lausotu"
+
+#: app/convolve.c:136
+msgid "Sharpen"
+msgstr "Enfokatu"
+
+#: app/convolve.c:137
+msgid "Custom"
+msgstr "Pertsonalizatua"
+
+#. the main label
+#: app/convolve.c:148
+msgid "Convolver Options"
+msgstr "Konboluzio-aukerak"
+
+#: app/convolve.c:156
+msgid "Pressure"
+msgstr "Presioa"
+
+#: app/crop.c:513
+msgid "Crop Tool Options"
+msgstr "Ebaki tresnaren aukerak"
+
+#. create the info dialog
+#: app/crop.c:711
+msgid "Crop Information"
+msgstr "Ebaki tresnaren informazioa"
+
+#. add the information fields
+#: app/crop.c:716
+msgid "X Origin: "
+msgstr "X jatorria: "
+
+#: app/crop.c:717
+msgid "Y Origin: "
+msgstr "Y jatorria: "
+
+#: app/crop.c:718
+msgid "Width: "
+msgstr "Zabalera: "
+
+#: app/crop.c:719
+msgid "Height: "
+msgstr "Altuera: "
+
+#: app/depth/curves.c:627
+msgid "Curves Options"
+msgstr "Kurben aukerak"
+
+#: app/depth/curves.c:700
+msgid "Curves for indexed drawables cannot be adjusted."
+msgstr "Marrazgai indexatuentzako kurbak ezin dira doitu."
+
+#: app/depth/curves.c:709
+msgid "Curves for this image type cannot be adjusted."
+msgstr "Irudi mota honen kurbak ezin dira doitu."
+
+#: app/depth/curves.c:908 app/menus.c:525
+msgid "Curves"
+msgstr "Kurbak"
+
+#: app/depth/curves.c:923
+msgid "Modify Curves for Channel: "
+msgstr "Aldatu kanal honen kurbak:"
+
+#. The option menu for selecting the drawing method
+#: app/depth/curves.c:1014
+msgid "Curve Type: "
+msgstr "Kurba mota: "
+
+#: app/depth/curves.c:1023 app/menus.c:500
+msgid "Load"
+msgstr "Kargatu"
+
+#: app/depth/curves.c:1536
+msgid "curves_preview(): No image map"
+msgstr "curves_preview(): ez dago irudi-maparik"
+
+#: app/depth/curves.c:2123
+msgid "Load Curves"
+msgstr "Kargatu kurbak"
+
+#: app/depth/curves.c:2138
+msgid "Save Curves"
+msgstr "Gorde kurbak"
+
+#: app/depth/curves.c:2147
+msgid "Load/Save Curves"
+msgstr "Kargatu/Gorde kurbak"
+
+#: app/depth/curves.c:2189 app/depth/curves.c:2207
+#, c-format
+msgid "Unable to open file: %s"
+msgstr "Ezin da fitxategia ireki: %s"
+
+#: app/depth/curves.c:2195
+#, c-format
+msgid "Error in reading file %s"
+msgstr "Errorea %s fitxategia irakurtzean"
+
+#: app/depth/desaturate.c:78
+msgid "Desaturate operates only on RGB color drawables."
+msgstr "Desasetuk GBU koloreko marrazgaietan bakarrik funtzionatzen du."
+
+#: app/devices.c:366
+msgid "devices_rc_update called multiple times for not present device\n"
+msgstr "devices_rc_update hainbat aldiz deitu du ez dagoen gailu bati buruz\n"
+
+#: app/devices.c:745
+msgid "Device Status"
+msgstr "Gailuaren egoera"
+
+#: app/depth/dodgeburn.c:172
+msgid "Dodge"
+msgstr "Zuritu"
+
+#: app/depth/dodgeburn.c:172
+msgid "Burn"
+msgstr "Belztu"
+
+#: app/depth/dodgeburn.c:196
+msgid "Exposure:"
+msgstr "Esposizioa:"
+
+#. the type (dodge or burn)
+#: app/depth/dodgeburn.c:216
+msgid "Type"
+msgstr "Mota"
+
+#. mode (highlights, midtones, or shadows)
+#: app/depth/dodgeburn.c:227
+msgid "Mode"
+msgstr "Modua"
+
+#: app/depth/equalize.c:51
+msgid "Equalize does not operate on indexed drawables."
+msgstr "Ekualizatzeak ez du marrazgai indexatuetan funtzionatzen."
+
+#. the main label
+#: app/eraser.c:86
+msgid "Eraser Options"
+msgstr "Borragomaren aukerak"
+
+#. the hard toggle
+#: app/eraser.c:91
+msgid "Hard edge"
+msgstr "Ertz gogorra"
+
+#. the incremental toggle
+#: app/eraser.c:100 app/tool_options.c:636
+msgid "Incremental"
+msgstr "Inkrementala"
+
+#: app/expose_image.c:256
+msgid "Reset (LDR)"
+msgstr "Berrezarri (LDR)"
+
+#: app/expose_image.c:265
+msgid "Expose View"
+msgstr "Erakusketa ikuspegia"
+
+#. Create the expose scale widget
+#: app/expose_image.c:287 app/menus.c:497
+msgid "Expose"
+msgstr "Erakusketa"
+
+#: app/expose_image.c:323
+msgid "offset"
+msgstr "desplazamendua"
+
+#. Create the gamma scale widget
+#: app/expose_image.c:358
+msgid "Gamma"
+msgstr "Gamma"
+
+#: app/fileops.c:433
+#, c-format
+msgid "load handler \"%s\" does not take the standard load handler args"
+msgstr ""
+"\"%s\" kudeatzailearen kargak ez du kudeatzaileen karga estandarraren "
+"argumenturik hartzen."
+
+#: app/fileops.c:445
+#, c-format
+msgid "attempt to register non-existant load handler \"%s\""
+msgstr "existitzen ez den \"%s\" kudeatzailearen karga erregistratzen saiatzen"
+
+#: app/fileops.c:479
+#, c-format
+msgid "save handler \"%s\" does not take the standard save handler args"
+msgstr ""
+"\"%s\" kudeatzailea gordetzeak ez du kudeatzaileen gordetze estandarraren "
+"argumenturik hartzen."
+
+#: app/fileops.c:491
+#, c-format
+msgid "attempt to register non-existant save handler \"%s\""
+msgstr ""
+"existitzen ez den \"%s\" kudeatzailearen gordeketa erregistratzen saiatzen"
+
+#: app/fileops.c:495
+#, c-format
+msgid "save_handler: %s\n"
+msgstr "kudeatzaile-gordeketa: %s\n"
+
+#: app/fileops.c:529
+msgid "Warning"
+msgstr "Abisua"
+
+#: app/fileops.c:541
+msgid "Do you really want to revert to saved?"
+msgstr "Nahi duzu gordetakora leheneratzea?"
+
+#. char path[MAX_PATH];
+#. strcpy(path,GetDirHome());
+#. strcat(path,"/x.png");
+#: app/fileops.c:569 app/fileops.c:605
+msgid "Load Image"
+msgstr "Kargatu irudia"
+
+#: app/fileops.c:612
+msgid "Open Options"
+msgstr "Irekitzeko aukerak"
+
+#: app/fileops.c:620 app/fileops.c:740 app/fileops.c:824
+msgid "Determine file type:"
+msgstr "Zehaztu fitxategi-mota:"
+
+#: app/fileops.c:691 app/fileops.c:713 app/fileops.c:786 app/fileops.c:808
+msgid "Save Image"
+msgstr "Gorde irudia"
+
+#: app/fileops.c:732 app/fileops.c:816
+msgid "Save Options"
+msgstr "Gorde aukerak"
+
+#: app/fileops.c:1338
+msgid "Open failed: "
+msgstr "Huts egin du irekitzean: "
+
+#: app/fileops.c:1438
+msgid "Save failed: "
+msgstr "Huts egin du gordetzean:"
+
+#: app/fileops.c:1470
+#, c-format
+msgid "%s is an irregular file (%s)"
+msgstr "%s fitxategi irregularra da (%s)"
+
+#: app/fileops.c:1487
+msgid "Save failed22: "
+msgstr "Huts egin du gordetzean: "
+
+#: app/fileops.c:1544
+msgid " exists, overwrite?"
+msgstr " badago. Gainidatzi?"
+
+#: app/fileops.c:1545
+#, c-format
+msgid "%s exists, overwrite?"
+msgstr "'%s' badago. Gainidatzi nahi duzu?"
+
+#: app/fileops.c:1551
+msgid "File Exists!"
+msgstr "Fitxategia badago!"
+
+#: app/fileops.c:1600
+msgid "Save failed3: "
+msgstr "Huts egin du gordetzean: "
+
+#: app/flip_tool.c:74
+msgid "Horizontal"
+msgstr "Horizontala"
+
+#: app/flip_tool.c:75
+msgid "Vertical"
+msgstr "Bertikala"
+
+#. the main label
+#: app/flip_tool.c:85
+msgid "Flip Tool Options"
+msgstr "Irauli tresnaren aukerak"
+
+#: app/floating_sel.c:112
+msgid ""
+"Cannot anchor this layer because\n"
+"it is not a floating selection."
+msgstr ""
+"Ezin da geruza hau ainguratu,\n"
+"hautapen mugikorra ez delako."
+
+#: app/floating_sel.c:180
+msgid ""
+"Cannot create a new layer from the floating\n"
+"selection because it belongs to a\n"
+"layer mask or channel."
+msgstr ""
+"Ezin da geruza berria sortu hautapen\n"
+"mugikorretik, hau geruza-maskara edo\n"
+"kanal batena delako."
+
+#: app/depth/gamma_expose.c:708
+msgid "Expose Image"
+msgstr "Erakutsi irudia"
+
+#. Create the expose scale widget
+#: app/depth/gamma_expose.c:724
+msgid "expose"
+msgstr "erakusketa"
+
+#. Create the gamma scale widget
+#: app/depth/gamma_expose.c:758
+msgid "gamma"
+msgstr "gamma"
+
+#: app/depth/gamma_expose.c:807
+msgid "Clamp"
+msgstr "Mugatu"
+
+#: app/gdisplay.c:215
+msgid ""
+"Cannot colormanage this display.\n"
+"Either image or display profile are undefined.\n"
+". To avoid this message switch off automatic colormanagement in File/"
+"Preferences/Color Management"
+msgstr ""
+"Ezin dira pantaila honen koloreak kudeatu.\n"
+"Irudiaren edo pantailaren profila definitu gabe dago.\n"
+"Mezu hau saihesteko desgaitu kolore-kudeaketa automatikoa 'Fitxategia/"
+"Hobespenak/Kolore-kudeaketa' menuan."
+
+#: app/gdisplay.c:247
+msgid "A"
+msgstr "A"
+
+#: app/gdisplay.c:261
+msgid "[no icc profile assigned]"
+msgstr "[ez dago icc profilik esleituta]"
+
+#: app/gdisplay.c:273
+msgid " | proof: "
+msgstr " | proba: "
+
+#: app/gdisplay.c:275
+msgid " (empty)"
+msgstr " (hutsa)"
+
+#: app/gdisplay_ops.c:374
+#, c-format
+msgid "Changes made to %s.  Close anyway?"
+msgstr "%s aldatuta dago. Itxi dena den?"
+
+#: app/gimage_mask.c:221
+msgid ""
+"Unable to cut/copy because the selected\n"
+"region is empty."
+msgstr ""
+"Ezin da ez ebaki, ez moztu\n"
+"hautatutako eskualdea hutsik dagoelako."
+
+#: app/gimage_mask.c:328
+msgid "Float Selection: No selection to float."
+msgstr "Hautapen mugikorra: ez dago mugitzeko hautapenik."
+
+#. Create a new layer from the buffer
+#: app/gimage_mask.c:339
+msgid "Floated Layer"
+msgstr "Geruza mugikorra"
+
+#: app/gimage_mask.c:482
+msgid ""
+"The active layer has no alpha channel\n"
+"to convert to a selection."
+msgstr ""
+"Geruza aktiboak ez du alfa kanalik\n"
+"hautapenera bihurtzeko."
+
+#: app/gimage_mask.c:501
+msgid ""
+"The active layer has no mask\n"
+"to convert to a selection."
+msgstr ""
+"Geruza aktiboak ez du maskararik\n"
+"hautapenera bihurtzeko."
+
+#: app/gimage_mask.c:550
+msgid "No selection to stroke!"
+msgstr "Ez dago trazatzeko hautapenik."
+
+#: app/brush.c:261
+#, c-format
+msgid "Unknown version %d in \"%s\"\n"
+msgstr "%d bertsioa ezeguna \"%s\"(e)n\n"
+
+#: app/brush.c:292
+msgid "Error in brush file...aborting."
+msgstr "Errorea brotxa-fitxategian... abortatzen."
+
+#: app/brush.c:298 app/depth/brushgenerated.c:134 app/gimage.c:3377
+#: app/palette.c:835 app/palette.c:966 app/palette.c:970 app/palette.c:1480
+msgid "Untitled"
+msgstr "Izengabea"
+
+#: app/brush.c:318
+msgid "Brush file appears to be truncated."
+msgstr "Brotxa-fitxategia trunkatuta dagoela dirudi."
+
+#: app/brush.c:342
+#, c-format
+msgid "Unknown brush format version #%d in \"%s\"\n"
+msgstr "\"%2$s\" brotxa-formatuaren %1$d. bertsioa ezezaguna\n"
+
+#: app/brushlist.c:206
+#, c-format
+msgid "Warning: failed to load brush \"%s\""
+msgstr "Abisua: huts egin du \"%s\" brotxa kargatzean"
+
+#: app/brushlist.c:319
+msgid "Couldn't find any brushes, creating a default brush!\n"
+msgstr "Ezin izan da brotxarik aurkitu, brotxa lehenetsia sortzen.\n"
+
+#: app/depth/brushgenerated.c:175
+#, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr "Ezin izan da '%s' irakurtzeko ireki: %s"
+
+#: app/depth/brushgenerated.c:187
+#, c-format
+msgid "Fatal parse error in brush file '%s': Not a GIMP brush file."
+msgstr ""
+"Analisi-errore larria '%s' brotxa-fitxategian: ez da GIMPen brotxa-"
+"fitxategia."
+
+#: app/depth/brushgenerated.c:202
+#, c-format
+msgid "Fatal parse error in brush file '%s': Unknown GIMP brush version."
+msgstr ""
+"Analisi-errore larria '%s' brotxa-fitxategian: GIMPen brotxa-bertsioa "
+"ezezaguna da."
+
+#. if (error && *error == NULL)
+#: app/depth/brushgenerated.c:354
+#, c-format
+msgid "Error while reading brush file '%s': %s"
+msgstr "Errorea '%s' brotxa-fitxategia irakurtzean: %s"
+
+#. gimp_filename_to_utf8
+#: app/depth/brushgenerated.c:356
+msgid "File is truncated"
+msgstr "Fitxategia trunkatuta dago"
+
+#: app/gimage.c:625
+msgid "gimage_resize: width and height must be positive"
+msgstr "gimage_resize: zabalera eta altuera balio positiboak eduki behar dute"
+
+#: app/gimage.c:1047
+msgid "gimage_replace_painthit: not a valid combination\n"
+msgstr "gimage_replace_painthit: konbinazio baliogabea\n"
+
+#: app/gimage.c:1247
+msgid "Unable to project indexed image."
+msgstr "Ezin da indexatutako irudia proiektatu."
+
+#: app/gimage.c:2014
+msgid "Layer cannot be raised any further"
+msgstr "Ezin da geruza gorago igo."
+
+#: app/gimage.c:2083
+msgid "Layer cannot be lowered any further"
+msgstr "Ezin da geruza gehiago jaitsi."
+
+#: app/gimage.c:2123
+msgid ""
+"There are not enough visible layers for a merge.\n"
+"There must be at least two."
+msgstr ""
+"Ez daude batzeko behar adina geruza ikusgai.\n"
+"Gutxienez bi behar dira."
+
+#: app/gimage.c:2267 app/gimage.c:2309 app/gimage.c:2541 app/gimage.c:2581
+msgid "gimage_merge_layers: could not allocate merge layer"
+msgstr "gimage_merge_layers: ezin izan da batzeko geruza esleitu"
+
+#: app/gimage.c:2359 app/gimage.c:2628
+msgid "gimage_merge_layers attempting to merge incompatible layers\n"
+msgstr "gimage_merge_layers: geruza bateraezinak bateratzen saiatu da\n"
+
+#: app/gimage.c:2716 app/gimage.c:2797
+msgid "gimage_add_layer: attempt to add layer to wrong image"
+msgstr "gimage_add_layer: okerreko irudiari geruza gehitzen saiatu da"
+
+#: app/gimage.c:2727 app/gimage.c:2808
+msgid "gimage_add_layer: trying to add layer to image twice"
+msgstr "gimage_add_layer: irudiari geruza bi aldiz gehitzen saiatu da"
+
+#: app/gimage.c:3054
+msgid "Channel cannot be raised any further"
+msgstr "Kanala ezin izan da gorago igo."
+
+#: app/gimage.c:3103
+msgid "Channel cannot be lowered any further"
+msgstr "Ezin izan da kanala gehiago jaitsi."
+
+#: app/gimage.c:3124
+msgid "gimage_add_channel: attempt to add channel to wrong image"
+msgstr "gimage_add_channel: okerreko irudiari kanala gehitzen saiatu da"
+
+#: app/gimage.c:3135
+msgid "gimage_add_channel: trying to add channel to image twice"
+msgstr "gimage_add_channel: irudiari kanala bi aldiz gehitzen saiatu da"
+
+#: app/rc.c:381 app/rc.c:396
+msgid "warning: no home directory."
+msgstr "abisua: ez dago etxeko direktorioa."
+
+#. Make a new floating layer
+#: app/global_edit.c:311
+msgid "Pasted Layer"
+msgstr "Itsatsitako geruza"
+
+#: app/global_edit.c:658
+msgid "Paste Named Buffer"
+msgstr "Itsatsi izendun bufferra"
+
+#: app/global_edit.c:672
+msgid "Select a buffer to paste:"
+msgstr "Hautatu bufferra itsateko:"
+
+#: app/global_edit.c:690
+msgid "Replace Current Selection"
+msgstr "Ordeztu uneko hautapena"
+
+#: app/global_edit.c:756
+msgid "Cut Named"
+msgstr "Ebaki izenduna"
+
+#: app/global_edit.c:756 app/global_edit.c:785
+msgid "Enter a name for this buffer"
+msgstr "Sartu buffer honen izena"
+
+#: app/global_edit.c:785
+msgid "Copy Named"
+msgstr "Kopiatu izenduna"
+
+#: app/gradient.c:621
+msgid "Default"
+msgstr "Lehenetsia"
+
+#: app/gradient.c:785
+msgid "Curved"
+msgstr "Kurbaduna"
+
+#: app/gradient.c:786
+msgid "Sinuosidal"
+msgstr "Sinusoidala"
+
+#: app/gradient.c:787
+msgid "Spherical (increasing)"
+msgstr "Esferikoa (gehitzen)"
+
+#: app/gradient.c:788
+msgid "Spherical (decreasing)"
+msgstr "Esferikoa (gutxitzen)"
+
+#: app/gradient.c:790
+msgid "Plain RGB"
+msgstr "GBU soila"
+
+#: app/gradient.c:791
+msgid "HSV (counter-clockwise hue)"
+msgstr "ÑSB (ñabardura erlojuaren kontrako noranzkoan)"
+
+#: app/gradient.c:792
+msgid "HSV (clockwise hue)"
+msgstr "ÑSB (erlojuaren noranzko ñabardura)"
+
+#: app/gradient.c:818
+msgid "Gradient Editor"
+msgstr "Gradientearen editorea"
+
+#. Gradients list box
+#: app/gradient.c:865
+msgid "Gradients"
+msgstr "Gradienteak"
+
+#. Buttons for gradient functions
+#: app/gradient.c:900 app/gradient.c:1329
+msgid "New gradient"
+msgstr "Gradiente berria"
+
+#: app/gradient.c:905 app/gradient.c:1383
+msgid "Copy gradient"
+msgstr "Kopiatu gradientea"
+
+#: app/gradient.c:910 app/gradient.c:1466
+msgid "Delete gradient"
+msgstr "Ezabatu gradientea"
+
+#: app/gradient.c:915 app/gradient.c:1603
+msgid "Save as POV-Ray"
+msgstr "Gorde POV-Ray gisa"
+
+#: app/gradient.c:920
+msgid "Refresh gradients"
+msgstr "Freskatu gradienteak"
+
+#. Zoom buttons
+#: app/gradient.c:934
+msgid "Zoom all"
+msgstr "Handiagotu dena"
+
+#: app/gradient.c:938
+msgid "Zoom -"
+msgstr "Zooma -"
+
+#: app/gradient.c:942
+msgid "Zoom +"
+msgstr "Zooma +"
+
+#: app/gradient.c:971
+msgid "Instant update"
+msgstr "Berehalako eguneratzea"
+
+#: app/gradient.c:1330
+msgid "Enter a name for the new gradient"
+msgstr "Sartu gradiente berriaren izena"
+
+#: app/gradient.c:1331
+msgid "untitled"
+msgstr "izengabea"
+
+#: app/gradient.c:1348
+msgid "ed_do_new_gradient_callback(): oops, received NULL in call_data"
+msgstr "ed_do_new_gradient_callback(): datuetan NULL jaso da"
+
+#: app/gradient.c:1384
+msgid "Enter a name for the copied gradient"
+msgstr "Sartu kopiatutako gradientearen izena"
+
+#: app/gradient.c:1405
+msgid "ed_do_copy_gradient_callback(): oops, received NULL in call_data"
+msgstr "ed_do_copy_gradient_callback(): datuetan NULL jaso da"
+
+#. Question
+#: app/gradient.c:1480
+msgid "Are you sure you want to delete"
+msgstr "Ziur zaude zerrendatik eta diskotik"
+
+#: app/gradient.c:1486
+#, c-format
+msgid "\"%s\" from the list and from disk?"
+msgstr "\"%s\" ezabatzea nahi duzula?"
+
+#. Buttons
+#: app/gradient.c:1497 app/menus.c:608 app/palette.c:226
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: app/gradient.c:1722
+#, c-format
+msgid "Zoom factor: %d:1    Displaying [%0.6f, %0.6f]"
+msgstr "Zoom-faktorea: %d:1    bistaratzen [%0.6f, %0.6f]"
+
+#: app/gradient.c:2223
+msgid "Drag: move    Shift+drag: move & compress"
+msgstr ""
+"Arrastatu: aldatu lekuz    Maius+arrastatu: aldatu lekuz eta konprimitu"
+
+#: app/gradient.c:2225 app/gradient.c:2227
+msgid "Click: select    Shift+click: extend selection"
+msgstr "Egin klik:    Maius+klik: luzatu hautapena"
+
+#: app/gradient.c:2232
+msgid "Click: select    Shift+click: extend selection    Drag: move"
+msgstr ""
+"Egin klik: hautatu    Maius+klik: luzatu hautapena    Arrastatu: aldatu lekuz"
+
+#: app/gradient.c:2237
+#, c-format
+msgid "control_do_hint: oops, in_handle is true yet we got handle type %d"
+msgstr "control_do_hint: 'in_handle' egia da orain, %d. motako heldulekua dago"
+
+#: app/gradient.c:2242
+msgid ""
+"Click: select    Shift+click: extend selection    Drag: move    Shift+drag: "
+"move & compress"
+msgstr ""
+"Egin klik: hautatu    Maius+klik: luzatu hautapena    Arrastatu: aldatu "
+"lekuz    Maius+arrastatu: aldatu lekuz eta konprimitu"
+
+#: app/gradient.c:2341
+#, c-format
+msgid ""
+"control_button_press(): oops, in_handle is true yet we got handle type %d"
+msgstr ""
+"control_button_press(): 'in_handle' egia da orain, %d. mota heldulekua dago"
+
+#: app/gradient.c:2385
+#, c-format
+msgid "control_point_in_handle(): oops, can not handle drag mode %d"
+msgstr "control_point_in_handle(): ezin da %d. arrastatze-modua kudeatu"
+
+#: app/gradient.c:2446 app/gradient.c:2455
+#, c-format
+msgid "Handle position: %0.6f"
+msgstr "Heldulekuaren posizioa: %0.6f"
+
+#: app/gradient.c:2472
+#, c-format
+msgid "Distance: %0.6f"
+msgstr "Distantzia: %0.6f"
+
+#: app/gradient.c:2932
+msgid "Left endpoint's color"
+msgstr "Ezkerreko amaiera-puntuaren kolorea"
+
+#: app/gradient.c:2944 app/gradient.c:2986
+msgid "Load from"
+msgstr "Kargatu hemendik"
+
+#: app/gradient.c:2947
+msgid "Left neighbor's right endpoint"
+msgstr "Ezkerreko alboaren eskuineko amaiera-puntua"
+
+#: app/gradient.c:2948
+msgid "Right endpoint"
+msgstr "Eskuineko amaiera-puntua"
+
+#: app/gradient.c:2958 app/gradient.c:3000
+msgid "Save to"
+msgstr "Gorde hemen"
+
+#: app/gradient.c:2974
+msgid "Right endpoint's color"
+msgstr "Eskuineko amaiera-puntuaren kolorea"
+
+#: app/gradient.c:2989
+msgid "Right neighbor's left endpoint"
+msgstr "Eskuineko alboaren ezkerreko amaiera-puntua"
+
+#: app/gradient.c:2990
+msgid "Left endpoint"
+msgstr "Ezkerreko amaiera-puntua"
+
+#: app/gradient.c:3112
+msgid "Selection operations"
+msgstr "Hautapen-eragiketak"
+
+#: app/gradient.c:3264
+msgid "Blending function for segment"
+msgstr "Segmentuaren nahaste-funtzioa"
+
+#: app/gradient.c:3266
+msgid "Coloring type for segment"
+msgstr "Segmentuaren koloreztatze-mota"
+
+#: app/gradient.c:3268
+msgid "Split segment at midpoint"
+msgstr "Zatitu segmentua erditik"
+
+#: app/gradient.c:3270 app/gradient.c:4497
+msgid "Split segment uniformly"
+msgstr "Zatitu segmentua modu uniformean"
+
+#: app/gradient.c:3272
+msgid "Delete segment"
+msgstr "Ezabatu segmentua"
+
+#: app/gradient.c:3274
+msgid "Re-center segment's midpoint"
+msgstr "Zentratu berriro segmentuaren erdiko puntua"
+
+#: app/gradient.c:3276
+msgid "Re-distribute handles in segment"
+msgstr "Banatu berriro heldulekuak segmentuan"
+
+#: app/gradient.c:3278
+msgid "Flip segment"
+msgstr "Irauli segmentua"
+
+#: app/gradient.c:3280 app/gradient.c:4854
+msgid "Replicate segment"
+msgstr "Egin segmentuaren erreplika"
+
+#: app/gradient.c:3283
+msgid "Blending function for selection"
+msgstr "Hautapenaren nahaste-funtzioa"
+
+#: app/gradient.c:3285
+msgid "Coloring type for selection"
+msgstr "Hautapenaren koloreztatze-mota"
+
+#: app/gradient.c:3287
+msgid "Split segments at midpoints"
+msgstr "Zatitu segmentuak erditik"
+
+#: app/gradient.c:3289 app/gradient.c:4498
+msgid "Split segments uniformly"
+msgstr "Zatitu segmentuak modu uniformean"
+
+#: app/gradient.c:3291
+msgid "Delete selection"
+msgstr "Ezabatu hautapena"
+
+#: app/gradient.c:3293
+msgid "Re-center midpoints in selection"
+msgstr "Zentratu berriro erdiko puntuak hautapenean"
+
+#: app/gradient.c:3295
+msgid "Re-distribute handles in selection"
+msgstr "Banatu berriro heldulekuak hautapenean"
+
+#: app/gradient.c:3297
+msgid "Flip selection"
+msgstr "Irauli hautapena"
+
+#: app/gradient.c:3299 app/gradient.c:4855
+msgid "Replicate selection"
+msgstr "Egin hautapenaren erreplika"
+
+#: app/gradient.c:3611
+msgid "FG color"
+msgstr "AurPl-aren kolorea"
+
+#: app/gradient.c:3846 app/gradient.c:3914
+msgid "(Varies)"
+msgstr "(Hainbat)"
+
+#: app/gradient.c:4012
+msgid "Blend endpoints' colors"
+msgstr "Nahastu amaiera-puntuen koloreak"
+
+#: app/gradient.c:4025
+msgid "Blend endpoints' opacity"
+msgstr "Nahastu amaiera-puntuen opakutasuna"
+
+#: app/gradient.c:4263
+msgid "Left endpoint color"
+msgstr "Ezkerreko amaiera-puntuaren kolorea"
+
+#: app/gradient.c:4364
+msgid "Right endpoint color"
+msgstr "Eskuineko amaiera-puntuaren kolorea"
+
+#. Instructions
+#: app/gradient.c:4512
+msgid "Please select the number of uniform parts"
+msgstr "Hautatu zati uniformeen kopurua"
+
+#: app/gradient.c:4518
+msgid "in which you want to split the selected segment"
+msgstr "zatitu behar den hautatutako segmentua."
+
+#: app/gradient.c:4519
+msgid "in which you want to split the segments in the selection"
+msgstr "zatitu behar diren segmentuak hautapenean."
+
+#. Buttons
+#: app/gradient.c:4541
+msgid "Split"
+msgstr "Zatitu"
+
+#. Instructions
+#: app/gradient.c:4869
+msgid "Please select the number of times"
+msgstr "Hautatu zenbat aldiz egin behar den"
+
+#: app/gradient.c:4875
+msgid "you want to replicate the selected segment"
+msgstr "hautatutako segmentuaren erreplika"
+
+#: app/gradient.c:4876
+msgid "you want to replicate the selection"
+msgstr "hautapenaren erreplika"
+
+#. Buttons
+#: app/gradient.c:4898
+msgid "Replicate"
+msgstr "Egin erreplika"
+
+#: app/gradient.c:5400
+#, c-format
+msgid "grad_load_gradient(): invalid number of segments in \"%s\""
+msgstr "grad_load_gradient(): \"%s\"(r)en segmentu kopuru baliogabea"
+
+#: app/gradient.c:5452
+#, c-format
+msgid "Corrupt segment %d in gradient file '%s'."
+msgstr "%d. segmentua okerra '%s' gradiente-fitxategian."
+
+#: app/gradient.c:5463
+#, c-format
+msgid ""
+"grad_load_gradient(): badly formatted gradient segment %d in \"%s\" --- bad "
+"things may happen soon"
+msgstr ""
+"grad_load_gradient(): \"%2$s\"(r)en %1$d. gradiente segmentuak okerreko "
+"formatua du. Okerreko gauzak gerta daiteke."
+
+#: app/gradient.c:5498
+msgid "grad_save_gradient(): can not save gradient with NULL filename"
+msgstr ""
+"grad_save_gradient(): ezin da fitxategi-izena hutsa duen gradientea gorde"
+
+#: app/gradient.c:5504
+#, c-format
+msgid "grad_save_gradient(): can't open \"%s\""
+msgstr "grad_save_gradient(): ezin da \"%s\" ireki"
+
+#: app/histogram_tool.c:178
+msgid "Histogram Options"
+msgstr "Histogramaren aukerak"
+
+#: app/histogram_tool.c:224
+msgid "Histogram does not operate on indexed drawables."
+msgstr "Histogramak ez du marrazgai indexatuetan funtzionatzen."
+
+#: app/histogram_tool.c:359
+msgid "Mean: "
+msgstr "Batezbestekoa: "
+
+#: app/histogram_tool.c:360
+msgid "Std Dev: "
+msgstr "Desb. est.:"
+
+#: app/histogram_tool.c:361
+msgid "Median: "
+msgstr "Mediana: "
+
+#: app/histogram_tool.c:362
+msgid "Pixels: "
+msgstr "Pixelak: "
+
+#: app/histogram_tool.c:363
+msgid "Intensity: "
+msgstr "Intentsitatea: "
+
+#: app/histogram_tool.c:364
+msgid "Count: "
+msgstr "Zenbat:"
+
+#: app/histogram_tool.c:365
+msgid "Percentile: "
+msgstr "Pertzentila: "
+
+#: app/histogram_tool.c:384
+msgid "Histogram"
+msgstr "Histograma"
+
+#: app/histogram_tool.c:403
+msgid "Information on Channel: "
+msgstr "Kanalari buruzko informazioa: "
+
+#: app/depth/hue_saturation.c:981
+msgid "Hue-Saturation Options"
+msgstr "Ñabarduraren/Saturazioaren aukerak"
+
+#: app/depth/hue_saturation.c:1029
+msgid "Hue-Saturation operates only on RGB color drawables."
+msgstr ""
+"Ñabardurak/Saturazioak GBU koloreko marrazgaietan bakarrik funtzionatzen du."
+
+#: app/depth/hue_saturation.c:1111
+msgid "Master"
+msgstr "Maisua"
+
+#: app/depth/hue_saturation.c:1112
+msgid "R"
+msgstr "G"
+
+#: app/depth/hue_saturation.c:1113
+msgid "Y"
+msgstr "H"
+
+#: app/depth/hue_saturation.c:1114
+msgid "G"
+msgstr "B"
+
+#: app/depth/hue_saturation.c:1115
+msgid "C"
+msgstr "C"
+
+#: app/depth/hue_saturation.c:1116
+msgid "B"
+msgstr "U"
+
+#: app/depth/hue_saturation.c:1117
+msgid "M"
+msgstr "M"
+
+#: app/depth/hue_saturation.c:1126 app/menus.c:523
+msgid "Hue-Saturation"
+msgstr "Ñabardura/Saturazioa"
+
+#: app/depth/hue_saturation.c:1189
+msgid "Hue / Lightness / Saturation Adjustments"
+msgstr "Ñabardura / argitasuna/ saturazioa doitzea"
+
+#: app/depth/hue_saturation.c:1411
+msgid "hue_saturation_preview(): No image map"
+msgstr "hue_saturation_preview(): ez dago irudi-maparik"
+
+#: app/info_dialog.c:214
+msgid "General"
+msgstr "Orokorra"
+
+#: app/install.c:127
+msgid "Install"
+msgstr "Instalatu"
+
+#: app/install.c:128
+msgid "Ignore"
+msgstr "Ez ikusi egin"
+
+#: app/install.c:129 app/menus.c:454
+msgid "Quit"
+msgstr "Irten"
+
+#: app/install.c:429
+msgid "Continue"
+msgstr "Jarraitu"
+
+#: app/install.c:437
+msgid "Installation Log"
+msgstr "Instalazioaren egunkaria"
+
+#: app/install.c:478
+msgid ""
+"User Installation Log\n"
+"\n"
+msgstr ""
+"Erabiltzailearen instalazioaren egunkaria\n"
+"\n"
+
+#: app/install.c:485
+msgid ""
+"\n"
+"Installation failed!\n"
+msgstr ""
+"\n"
+"Instalazioak huts egin du.\n"
+
+#: app/install.c:488 app/install.c:518
+msgid ""
+"\n"
+"Installation successful!\n"
+msgstr ""
+"\n"
+"Ongi instalatu da.\n"
+
+#: app/install.c:498
+msgid " does not exist.  Cannot install.\n"
+msgstr " ez da existitzen. Ezin da instalatu.\n"
+
+#: app/install.c:504
+msgid ""
+" has invalid permissions.\n"
+"Cannot install."
+msgstr ""
+" baimen baliogabeak ditu.\n"
+"Ezin da instalatu."
+
+#: app/install.c:524
+msgid ""
+"\n"
+"Installation failed.  Contact system administrator.\n"
+msgstr ""
+"\n"
+"Instalazioak huts egin du. Jarri sistemako administratzailearekin "
+"harremanetan.\n"
+
+#: app/depth/info_window.c:61
+#, c-format
+msgid "Using GdkRgb - we'll get back to you"
+msgstr "GdkRgb erabiltzen - laster itzuliko da"
+
+#: app/depth/info_window.c:137
+msgid "Static Gray"
+msgstr "Gris estatikoa"
+
+#: app/depth/info_window.c:139
+msgid "Static Color"
+msgstr "Kolore estatikoa"
+
+#: app/depth/info_window.c:140
+msgid "Pseudo Color"
+msgstr "Sasikolorea"
+
+#: app/depth/info_window.c:141
+msgid "True Color"
+msgstr "Benetako kolorea"
+
+#: app/depth/info_window.c:142
+msgid "Direct Color"
+msgstr "Kolore zuzena"
+
+#: app/depth/info_window.c:152
+#, c-format
+msgid "%s: Window Info"
+msgstr "%s: leihoaren informazioa"
+
+#. add the information fields
+#: app/depth/info_window.c:172
+msgid "Dimensions (w x h): "
+msgstr "Neurriak (ZxA): "
+
+#: app/depth/info_window.c:173
+msgid "Scale Ratio: "
+msgstr "Eskalatze-erlazioa: "
+
+#: app/depth/info_window.c:175
+msgid "Visual Class: "
+msgstr "Bisual-mota: "
+
+#: app/depth/info_window.c:176
+msgid "Visual Depth: "
+msgstr "Bisual-sakonera: "
+
+#: app/depth/info_window.c:178
+msgid "Shades of Color: "
+msgstr "Kolore mailak: "
+
+#: app/depth/info_window.c:180
+msgid "Shades: "
+msgstr "Itzaldurak: "
+
+#: app/depth/info_window.c:182
+msgid "Shades of Gray: "
+msgstr "Gris mailak: "
+
+#: app/depth/info_window.c:185
+msgid "Value at xy: "
+msgstr "Balioa (xy): "
+
+#: app/depth/info_window.c:186
+msgid "Color Channels: "
+msgstr "Kolore-kanalak: "
+
+#: app/depth/info_window.c:521
+msgid "Indexed Color"
+msgstr "Kolore indexatua"
+
+#: app/interface.c:476
+msgid ""
+"Foreground & background colors.  The small black and white squares reset "
+"colors.  The small arrows swap colors.  Double click to change colors."
+msgstr ""
+"Aurreko eta atzeko planonoko koloreak. Lauki txiki beltzak eta zuriak "
+"koloreak berrezartzen dituzte. Gezi txikiak koloreak trukatzen ditu. Klik "
+"bikoitza eginez koloreak aldatzen ditu."
+
+#: app/interface.c:700
+msgid "Select rectangular regions"
+msgstr "Hautatu eskualde laukizuzenak"
+
+#: app/interface.c:701
+msgid "Select elliptical regions"
+msgstr "Hautatu eskualde eliptikoak"
+
+#: app/interface.c:702
+msgid "Select hand-drawn regions"
+msgstr "Hautatu eskuz marraztutako eskualdeak"
+
+#: app/interface.c:704
+msgid "Select contiguous regions"
+msgstr "Hautatu alboko eskualdeak"
+
+#: app/interface.c:705
+msgid "Select regions using Bezier curves"
+msgstr "Hautatu eskualdeak Bezier kurbak erabiliz"
+
+#: app/interface.c:706
+msgid "Select shapes from image"
+msgstr "Hautatu formak iruditik"
+
+#: app/interface.c:708
+msgid "Move layers & selections"
+msgstr "Aldatu lekuz geruzak eta hautapenak"
+
+#: app/interface.c:709
+msgid "Zoom in & out"
+msgstr "Handiagotu eta txikiagotu"
+
+#: app/interface.c:710
+msgid "Crop the image"
+msgstr "Ebaki irudia"
+
+#: app/interface.c:712
+msgid "Transform the layer or selection (rotate, scale, share, perspective)"
+msgstr ""
+"Eraldatu geruza edo hautaketa (biratu, eskalatu, partekatu, perspektiba)"
+
+#: app/interface.c:713
+msgid "Flip the layer or selection"
+msgstr "Irauli geruza edo hautapena"
+
+#: app/interface.c:714
+msgid "Add text to the image"
+msgstr "Gehitu testua irudiari"
+
+#: app/interface.c:715
+msgid "Spline"
+msgstr "Spline"
+
+#: app/interface.c:717
+msgid "Pick colors from the image"
+msgstr "Hautatu koloreak iruditik"
+
+#: app/interface.c:718
+msgid "Fill with a color or pattern"
+msgstr "Bete kolore edo eredu batez"
+
+#: app/interface.c:719
+msgid "Fill with a color gradient"
+msgstr "Bete kolore-gradiente batekin"
+
+#: app/interface.c:721
+msgid "Draw sharp pencil strokes"
+msgstr "Marraztu arkatz-doiaren traza"
+
+#: app/interface.c:722
+msgid "Paint fuzzy brush strokes"
+msgstr "Margotu brotxakada lausoak"
+
+#: app/interface.c:723
+msgid "Erase to background or transparency"
+msgstr "Ezabatu atzeko planoa edo gardentasuna"
+
+#: app/interface.c:725
+msgid "Airbrush with variable pressure"
+msgstr "Aerografoa presio aldagarriarekin"
+
+#: app/interface.c:726
+msgid "Clone image regions"
+msgstr "Klonatu irudiaren eskualdea"
+
+#: app/interface.c:727
+msgid "Blur or sharpen"
+msgstr "Lausotu edo enfokatu"
+
+#: app/interface.c:729
+msgid "Dodge or burn"
+msgstr "Zuritu edo belztu"
+
+#: app/interface.c:730 app/menus.c:585
+msgid "Smudge"
+msgstr "Zirriborroa egin"
+
+#: app/interface.c:731
+msgid "Measure"
+msgstr "Neurtu"
+
+#: app/interface.c:732
+msgid "Spline Edit"
+msgstr "Spline-ren edizioa"
+
+#: app/interface.c:1459
+#, c-format
+msgid "Message repeated %d times."
+msgstr "%d aldiz errepikatutako mezua."
+
+#: app/interface.c:1472
+msgid "Too many massages. Giving up."
+msgstr "Mezu gehiegi. Bertan behera utziko da."
+
+#: app/internal_procs.c:88
+msgid "Internal Procedures"
+msgstr "Barne-prozedurak"
+
+#: app/internal_procs.c:88
+msgid "Tool procedures"
+msgstr "Tresna-prozedurak"
+
+#: app/internal_procs.c:115
+msgid "GDisplay procedures"
+msgstr "GDisplay prozedurak"
+
+#: app/internal_procs.c:129
+msgid "Edit procedures"
+msgstr "Edizioko prozedurak"
+
+#: app/internal_procs.c:140
+msgid "GImage procedures"
+msgstr "GImage prozedurak"
+
+#: app/internal_procs.c:211
+msgid "GImage mask procedures"
+msgstr "GImage maskara-prozedurak"
+
+#: app/internal_procs.c:233
+msgid "Layer procedures"
+msgstr "Geruza-prozedurak"
+
+#: app/internal_procs.c:265
+msgid "Channel procedures"
+msgstr "Kanal-prozedurak"
+
+#: app/internal_procs.c:283
+msgid "Drawable procedures"
+msgstr "Marrazgaien prozedurak"
+
+#: app/internal_procs.c:310
+msgid "Floating selections"
+msgstr "Hautapen mugikorrak"
+
+#: app/internal_procs.c:318
+msgid "Undo"
+msgstr "Desegin"
+
+#: app/internal_procs.c:325
+msgid "Palette"
+msgstr "Paleta"
+
+#: app/internal_procs.c:337
+msgid "Interface procedures"
+msgstr "Interfazeko prozedurak"
+
+#: app/internal_procs.c:361
+msgid "Image procedures"
+msgstr "Irudiaren prozedurak"
+
+#: app/internal_procs.c:386
+msgid "Channel ops"
+msgstr "Kanalaren eragiketak"
+
+#: app/internal_procs.c:396
+msgid "Procedural database"
+msgstr "Prozeduren datu-basea"
+
+#: app/internal_procs.c:409
+msgid "Shared Memory Images"
+msgstr "Memorian partekatutako irudiak"
+
+#: app/depth/layer.c:215
+msgid "Zero width or height layers not allowed."
+msgstr "Zero balioa duten zabalera edo altuerako geruzik ez dira onartzen."
+
+#: app/depth/layer.c:313
+msgid "layer_copy: could not allocate new layer"
+msgstr "layer_copy: ezin izan da geruza berria esleitu"
+
+#: app/depth/layer.c:385
+msgid "layer_from_tiles: could not allocate new layer"
+msgstr "layer_from_tiles: ezin izan da geruza berria esleitu"
+
+#: app/layer_select.c:105
+msgid "Layer Select"
+msgstr "Geruza-hautapena"
+
+#. the layer name label
+#: app/layer_select.c:141
+msgid "Layer"
+msgstr "Geruza"
+
+#: app/layers_dialog.c:326
+msgid "Layers & Channels"
+msgstr "Geruzak eta kanalak"
+
+#. The GIMP image option menu
+#: app/layers_dialog.c:352
+msgid "Image:"
+msgstr "Irudia:"
+
+#: app/layers_dialog.c:374 app/menus.c:542
+msgid "Layers"
+msgstr "Geruzak"
+
+#: app/layers_dialog.c:380
+msgid "Channels"
+msgstr "Kanalak"
+
+#: app/layers_dialog.c:675 app/layers_dialog.c:708 app/menus.c:545
+msgid "Raise Layer"
+msgstr "Igo geruza"
+
+#: app/layers_dialog.c:676 app/layers_dialog.c:709 app/menus.c:546
+msgid "Lower Layer"
+msgstr "Jaitsi geruza"
+
+#: app/layers_dialog.c:677 app/layers_dialog.c:710
+msgid "Duplicate Layer"
+msgstr "Bikoiztu geruza"
+
+#: app/layers_dialog.c:678 app/layers_dialog.c:711
+msgid "Delete Layer"
+msgstr "Ezabatu geruza"
+
+#: app/layers_dialog.c:679 app/layers_dialog.c:4010
+msgid "Scale Layer"
+msgstr "Eskalatu geruza"
+
+#: app/layers_dialog.c:680 app/layers_dialog.c:4138
+msgid "Resize Layer"
+msgstr "Aldatu geruza tamainaz"
+
+#: app/layers_dialog.c:681
+msgid "Add Layer Mask"
+msgstr "Gehitu geruza-maskara"
+
+#: app/layers_dialog.c:682
+msgid "Apply Layer Mask"
+msgstr "Aplikatu geruza-maskara"
+
+#: app/layers_dialog.c:683 app/layers_dialog.c:712 app/menus.c:547
+msgid "Anchor Layer"
+msgstr "Ainguratu geruza"
+
+#: app/layers_dialog.c:684 app/menus.c:548
+msgid "Merge Visible Layers"
+msgstr "Batu ikusgai dauden geruzak"
+
+#: app/layers_dialog.c:685 app/menus.c:549
+msgid "Flatten Image"
+msgstr "Lautu irudia"
+
+#: app/layers_dialog.c:687 app/menus.c:550
+msgid "Alpha To Selection"
+msgstr "Alfa hautapenera"
+
+#: app/layers_dialog.c:689 app/menus.c:551
+msgid "Mask To Selection"
+msgstr "Maskara hautapenera"
+
+#: app/layers_dialog.c:690 app/menus.c:553
+msgid "Make Layer"
+msgstr "Sortu geruza"
+
+#: app/layers_dialog.c:691
+msgid "Save Layer"
+msgstr "Gorde geruza"
+
+#: app/layers_dialog.c:692
+msgid "Load Layer"
+msgstr "Kargatu geruza"
+
+#: app/layers_dialog.c:695 app/tool_options.c:958
+msgid "Normal"
+msgstr "Normala"
+
+#. option_items[i].label = _("Dissolve"); ++i;
+#: app/layers_dialog.c:697
+msgid "Multiply"
+msgstr "Biderkatu"
+
+#: app/layers_dialog.c:698 app/tool_options.c:965
+msgid "Screen"
+msgstr "Pantaila"
+
+#: app/layers_dialog.c:699 app/tool_options.c:966
+msgid "Overlay"
+msgstr "Gainjarri"
+
+#: app/layers_dialog.c:700 app/tool_options.c:967
+msgid "Difference"
+msgstr "Diferentzia"
+
+#: app/layers_dialog.c:701 app/tool_options.c:968
+msgid "Addition"
+msgstr "Batuketa"
+
+#: app/layers_dialog.c:703 app/tool_options.c:970
+msgid "Darken Only"
+msgstr "Ilundu bakarrik"
+
+#: app/layers_dialog.c:704 app/tool_options.c:971
+msgid "Lighten Only"
+msgstr "Argitu bakarrik"
+
+#: app/layers_dialog.c:756
+msgid "Keep Trans."
+msgstr "Mantendu gardentasuna"
+
+#: app/layers_dialog.c:931
+msgid "layersD->layer_widgets not empty!"
+msgstr "layersD->layer_widgets ez dago hutsik."
+
+#: app/layers_dialog.c:2247 app/layers_dialog.c:3120 app/layers_dialog.c:3595
+msgid "Floating Selection"
+msgstr "Hautapen mugikorra"
+
+#: app/layers_dialog.c:3256
+msgid "new_layer_query_ok_callback: could not allocate new layer"
+msgstr "new_layer_query_ok_callback: ezin izan da geruza berria esleitu"
+
+#: app/layers_dialog.c:3369
+msgid "Fur/Voo Chan"
+msgstr "Fur/Voo Chan"
+
+#: app/layers_dialog.c:3385
+msgid "New Layer Options"
+msgstr "Geruza berriaren aukerak"
+
+#. the name entry hbox, label and entry
+#: app/layers_dialog.c:3404 app/layers_dialog.c:3588
+msgid "Layer name:"
+msgstr "Geruza-izena:"
+
+#: app/layers_dialog.c:3419
+msgid "Layer width:"
+msgstr "Geruza-zabalera:"
+
+#: app/layers_dialog.c:3433
+msgid "Layer height:"
+msgstr "Geruza-altuera:"
+
+#. the radio frame and box
+#: app/layers_dialog.c:3448
+msgid "Layer Fill Type"
+msgstr "Geruzaren betegarri-mota"
+
+#: app/layers_dialog.c:3570
+msgid "Edit Layer Attributes"
+msgstr "Editatu geruza-atributuak"
+
+#: app/layers_dialog.c:3731
+msgid "White (Full Opacity)"
+msgstr "Zuria (opakutasun osoa)"
+
+#: app/layers_dialog.c:3732
+msgid "Black (Full Transparency)"
+msgstr "Beltza (gardentasun osoa)"
+
+#: app/layers_dialog.c:3733
+msgid "Layer's Alpha Channel"
+msgstr "Geruzaren alfa kanala"
+
+#: app/layers_dialog.c:3734
+msgid "Use Aux Channel"
+msgstr "Erabili kanal lagungarria"
+
+#: app/layers_dialog.c:3744
+msgid "Add Mask Options"
+msgstr "Maskara gehitzearen aukerak"
+
+#. the name entry hbox, label and entry
+#: app/layers_dialog.c:3760
+msgid "Initialize Layer Mask To:"
+msgstr "Hasieratu geruza-maskara:"
+
+#: app/layers_dialog.c:3879
+msgid "Layer Mask Options"
+msgstr "Geruza-maskararen aukerak"
+
+#. the name entry hbox, label and entry
+#: app/layers_dialog.c:3896
+msgid "Apply layer mask?"
+msgstr "Aplikatu geruza-maskara?"
+
+#: app/layers_dialog.c:3959 app/layers_dialog.c:4087
+msgid "Invalid width or height.  Both must be positive."
+msgstr "Zabalera edo altuera baliogabea. Biak positiboa izan behar dute."
+
+#: app/layers_dialog.c:4279
+msgid "Expanded as necessary"
+msgstr "Behar adina zabalduta"
+
+#: app/layers_dialog.c:4280
+msgid "Clipped to image"
+msgstr "Irudiaren arabera moztuta"
+
+#: app/layers_dialog.c:4281
+msgid "Clipped to bottom layer"
+msgstr "Beheko geruzaren arabera moztuta"
+
+#: app/layers_dialog.c:4292
+msgid "Layer Merge Options"
+msgstr "Geruzak batzeko aukerak"
+
+#: app/layers_dialog.c:4309
+msgid "Final, merged layer should be:"
+msgstr "Batutako amaierako geruza honelakoa:"
+
+#: app/layers_dialog.c:4311
+msgid "Final, anchored layer should be:"
+msgstr "Ainguratutako amaierako geruza honelakoa:"
+
+#: app/depth/levels.c:3321
+msgid "Levels Options"
+msgstr "Mailen aukerak"
+
+#: app/depth/levels.c:3389
+msgid "Levels for indexed drawables cannot be adjusted."
+msgstr "Marrazgai indexatuen mailak ezin dira doitu."
+
+#: app/depth/levels.c:3569
+msgid "Select Blackpoint"
+msgstr "Hautatu puntu-beltza"
+
+#: app/depth/levels.c:3570
+msgid "Select Grayaxis"
+msgstr "Hautatu ardatz-grisak"
+
+#: app/depth/levels.c:3571
+msgid "Select Whitepoint"
+msgstr "Hautatu puntu-zuria"
+
+#: app/depth/levels.c:3579 app/menus.c:526
+msgid "Levels"
+msgstr "Mailak"
+
+#: app/depth/levels.c:3595
+msgid "Modify Levels for Channel: "
+msgstr "Aldatu mailak kanalerako: "
+
+#: app/depth/levels.c:3616
+msgid "Input Levels: "
+msgstr "Sarrerako mailak: "
+
+#: app/depth/levels.c:3705
+msgid "Output Levels: "
+msgstr "Irteerako mailak: "
+
+#: app/measure.c:130
+msgid "Use Info Window"
+msgstr "Erabili informazio-leihoa"
+
+#: app/measure.c:324 app/tool_options.c:505
+msgid "Measure Tool"
+msgstr "Neurtzeko tresna"
+
+#: app/measure.c:327
+msgid "Distance:"
+msgstr "Distantzia:"
+
+#: app/measure.c:515 app/measure.c:519
+msgid "pixels"
+msgstr "pixel"
+
+#: app/measure.c:515 app/measure.c:520
+msgid "degrees"
+msgstr "gradu"
+
+#: app/menus.c:438
+msgid "Help"
+msgstr "Laguntza"
+
+#: app/menus.c:439
+msgid "About..."
+msgstr "Honi buruz..."
+
+#: app/menus.c:440
+msgid "Bugs & Kudos..."
+msgstr "Erroreak eta abileziak..."
+
+#: app/menus.c:441
+msgid "Tips..."
+msgstr "Aholkuak..."
+
+#: app/menus.c:442
+msgid "File"
+msgstr "Fitxategia"
+
+#: app/menus.c:443
+msgid "New..."
+msgstr "Berria..."
+
+#: app/menus.c:444
+msgid "New From"
+msgstr "Berria hemendik"
+
+#: app/menus.c:445
+msgid "Open..."
+msgstr "Ireki..."
+
+#: app/menus.c:446
+msgid "Acquire"
+msgstr "Eskuratu"
+
+#: app/menus.c:447
+msgid "Preferences..."
+msgstr "Hobespenak..."
+
+#: app/menus.c:448 app/menus.c:598
+msgid "Dialogs"
+msgstr "Elkarrizketa-koadroak"
+
+#: app/menus.c:449 app/menus.c:600
+msgid "Palette..."
+msgstr "Paleta..."
+
+#: app/menus.c:450 app/menus.c:601
+msgid "Gradient Editor..."
+msgstr "Gradiente-editorea..."
+
+#: app/menus.c:451 app/menus.c:603
+msgid "Tool Options..."
+msgstr "Tresnen aukerak..."
+
+#: app/menus.c:452
+msgid "Device Status..."
+msgstr "Gailuaren egoera..."
+
+#: app/menus.c:453
+msgid "Device Dialog"
+msgstr "Gailuaren elkarrizketa-koadroa"
+
+#: app/menus.c:455
+msgid "Flipbook"
+msgstr "Liburu biziduna"
+
+#: app/menus.c:456
+msgid "Create"
+msgstr "Sortu"
+
+#: app/menus.c:459
+msgid "Frame Forward"
+msgstr "Fotograma aurrera"
+
+#: app/menus.c:460
+msgid "Frame Backward"
+msgstr "Fotograma atzera"
+
+#: app/menus.c:462
+msgid "Play Backward"
+msgstr "Erreproduzitu atzerantz"
+
+#: app/menus.c:465
+msgid "Save as..."
+msgstr "Gorde honela..."
+
+#: app/menus.c:466
+msgid "SaveFile copy as..."
+msgstr "Gorde kopia honela..."
+
+#: app/menus.c:468
+msgid "Redo"
+msgstr "Berregin"
+
+#: app/menus.c:469
+msgid "Cut"
+msgstr "Ebaki"
+
+#: app/menus.c:470
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: app/menus.c:471
+msgid "Paste"
+msgstr "Itsatsi"
+
+#: app/menus.c:472
+msgid "Paste Into"
+msgstr "Itsatsi hemen"
+
+#: app/menus.c:473
+msgid "Clear"
+msgstr "Garbitu"
+
+#: app/menus.c:474
+msgid "Fill"
+msgstr "Bete"
+
+#: app/menus.c:475
+msgid "Stroke"
+msgstr "Trazatu"
+
+#: app/menus.c:476
+msgid "Paste Named"
+msgstr "Itsatsi izendatua"
+
+#: app/menus.c:477
+msgid "Select"
+msgstr "Hautatu"
+
+#: app/menus.c:478
+msgid "Toggle"
+msgstr "Txandakatu"
+
+#: app/menus.c:479 app/menus.c:517
+msgid "Invert"
+msgstr "Alderantzikatu"
+
+#: app/menus.c:480
+msgid "Float"
+msgstr "Mugikorra"
+
+#: app/menus.c:481
+msgid "Grow"
+msgstr "Hazi"
+
+#: app/menus.c:482
+msgid "Shrink"
+msgstr "Uzkurtu"
+
+#: app/menus.c:483
+msgid "Save To Channel"
+msgstr "Gorde kanalean"
+
+#: app/menus.c:484
+msgid "By Color..."
+msgstr "Kolorearen arabera..."
+
+#: app/menus.c:485
+msgid "View"
+msgstr "Ikusi"
+
+#: app/menus.c:486
+msgid "Colormanage Display"
+msgstr "Kudeatu pantailaren koloreak"
+
+#: app/menus.c:487
+msgid "Proof Display"
+msgstr "Probako pantaila"
+
+#: app/menus.c:488
+msgid "Simulatate Paper"
+msgstr "Simulatu papera"
+
+#: app/menus.c:489
+msgid "Gamut Check Display"
+msgstr "Pantailaren kolore-gamaren kontrola"
+
+#: app/menus.c:490
+msgid "Rendering Intent"
+msgstr "Errendatze-modua"
+
+#: app/menus.c:496
+msgid "Look Profiles..."
+msgstr "Itxuraren profilak..."
+
+#: app/menus.c:498
+msgid "Pan Zoom Window"
+msgstr "Zoom panoramikoaren leihoa"
+
+#: app/menus.c:499
+msgid "Zoom Bookmarks"
+msgstr "Zoomaren laster-markak"
+
+#: app/menus.c:502
+msgid "Zoom In"
+msgstr "Handiagotu"
+
+#: app/menus.c:503
+msgid "Zoom Out"
+msgstr "Txikiagotu"
+
+#: app/menus.c:504
+msgid "Zoom"
+msgstr "Zooma"
+
+#: app/menus.c:505
+msgid "Window Info..."
+msgstr "Leihoaren informazioa..."
+
+#: app/menus.c:506
+#, fuzzy
+msgid "Show Guides"
+msgstr "Atxiki gidei"
+
+#: app/menus.c:507
+#, fuzzy
+msgid "Show Rulers"
+msgstr "Erakutsi erregelak lehenespenez"
+
+#: app/menus.c:508
+msgid "Toggle Rulers"
+msgstr "Txandakatu erregelak"
+
+#: app/menus.c:509
+msgid "Toggle Guides"
+msgstr "Txandakatu gidak"
+
+#: app/menus.c:510
+msgid "Snap To Guides"
+msgstr "Atxiki gidei"
+
+#: app/menus.c:511
+msgid "Slide Show"
+msgstr "Diapositiba-aurkezpena"
+
+#: app/menus.c:512
+msgid "New View"
+msgstr "Ikuspegi berria"
+
+#: app/menus.c:513
+msgid "Shrink Wrap"
+msgstr "Doitu leihoa irudira"
+
+#: app/menus.c:514 app/menus.c:533
+msgid "Image"
+msgstr "Irudia"
+
+#: app/menus.c:515
+msgid "Colors"
+msgstr "Koloreak"
+
+#: app/menus.c:516
+msgid "Equalize"
+msgstr "Ekualizatu"
+
+#: app/menus.c:518 app/depth/posterize.c:563
+msgid "Posterize"
+msgstr "Posterizatu"
+
+#: app/menus.c:519 app/rect_select.c:216 app/depth/threshold.c:1201
+msgid "Threshold"
+msgstr "Atalasea"
+
+#: app/menus.c:521
+msgid "Color Correction"
+msgstr "Kolore-zuzenketa"
+
+#: app/menus.c:524
+msgid "Gamma-Expose"
+msgstr "Gamma"
+
+#: app/menus.c:527
+msgid "Desaturate"
+msgstr "Desasetu"
+
+#: app/menus.c:528
+msgid "Channel Ops"
+msgstr "Kanalaren eragiketak"
+
+#: app/menus.c:529
+msgid "Duplicate"
+msgstr "Bikoiztu"
+
+#: app/menus.c:532 app/menus.c:552
+msgid "Add Alpha Channel"
+msgstr "Gehitu alfa kanala"
+
+#: app/menus.c:539
+msgid "Convert using ICC Profile..."
+msgstr "Bihurtu ICC profila erabiliz..."
+
+#: app/menus.c:540
+msgid "Assign ICC Profile..."
+msgstr "Esleitu ICC profila..."
+
+#: app/menus.c:541
+msgid "Assign ICC Proof Profile..."
+msgstr "Esleitu ICC probako profila..."
+
+#: app/menus.c:543
+msgid "Stroke Splines"
+msgstr "Trazatu spline-ak"
+
+#: app/menus.c:544 app/menus.c:602
+msgid "Layers & Channels..."
+msgstr "Geruzak eta kanalak..."
+
+#: app/menus.c:554
+msgid "Rotate"
+msgstr "Biratu"
+
+#: app/menus.c:555
+msgid "270 degrees"
+msgstr "270 gradu"
+
+#: app/menus.c:556
+msgid "180 degrees"
+msgstr "180 gradu"
+
+#: app/menus.c:557
+msgid "90 degrees"
+msgstr "90 gradu"
+
+#: app/menus.c:558
+msgid "Tools"
+msgstr "Tresnak"
+
+#: app/menus.c:559
+msgid "Select Tools"
+msgstr "Hautapen tresnak"
+
+#: app/menus.c:560
+msgid "Rect Select"
+msgstr "Hautapen laukizuzena"
+
+#: app/menus.c:561
+msgid "Ellipse Select"
+msgstr "Hautapen eliptikoa"
+
+#: app/menus.c:562
+msgid "Free Select"
+msgstr "Hautapen librea"
+
+#: app/menus.c:563
+msgid "Fuzzy Select"
+msgstr "Hurbilketazko hautapena"
+
+#: app/menus.c:564
+msgid "Bezier Select"
+msgstr "Bezier hautapena"
+
+#: app/menus.c:565 app/tool_options.c:162
+msgid "Intelligent Scissors"
+msgstr "Guraize adimendunak"
+
+#: app/menus.c:566
+msgid "Transform Tools"
+msgstr "Eraldatzeko tresnak"
+
+#: app/menus.c:567
+msgid "Move"
+msgstr "Lekuz aldatu"
+
+#: app/menus.c:568
+msgid "Magnify"
+msgstr "Handitu"
+
+#: app/menus.c:569
+msgid "Crop"
+msgstr "Ebaki"
+
+#. the radio frame and box
+#: app/menus.c:570 app/transform_tool.c:100
+msgid "Transform"
+msgstr "Eraldatu"
+
+#: app/menus.c:571
+msgid "Flip"
+msgstr "Irauli"
+
+#: app/menus.c:572
+msgid "Text"
+msgstr "Testua"
+
+#: app/menus.c:574
+msgid "Splines"
+msgstr "Spline-ak"
+
+#: app/menus.c:575
+msgid "Paint Tools"
+msgstr "Margotzeko tresnak"
+
+#: app/menus.c:576 app/tool_options.c:481
+msgid "Bucket Fill"
+msgstr "Bete"
+
+#: app/menus.c:577
+msgid "Blend"
+msgstr "Nahastu"
+
+#: app/menus.c:578 app/tool_options.c:487
+msgid "Paintbrush"
+msgstr "Pintzela"
+
+#: app/menus.c:579 app/tool_options.c:485
+msgid "Pencil"
+msgstr "Arkatza"
+
+#: app/menus.c:580 app/tool_options.c:489
+msgid "Eraser"
+msgstr "Borragoma"
+
+#: app/menus.c:581 app/tool_options.c:491
+msgid "Airbrush"
+msgstr "Aerografoa"
+
+#: app/menus.c:582
+msgid "Clone"
+msgstr "Klonatu"
+
+#: app/menus.c:583
+msgid "Convolve"
+msgstr "Konboluzioa"
+
+#: app/menus.c:584 app/tool_options.c:501
+msgid "Dodge or Burn"
+msgstr "Zuritu edo belztu"
+
+#: app/menus.c:586
+msgid "Default Colors"
+msgstr "Kolore lehenetsiak"
+
+#: app/menus.c:587
+msgid "Swap Colors"
+msgstr "Trukatu koloreak"
+
+#: app/menus.c:588
+msgid "Increase Brush Radius (+1)"
+msgstr "Handitu brotxaren erradioa (+1)"
+
+#: app/menus.c:589
+msgid "Decrease Brush Radius (-1)"
+msgstr "Txikitu brotxaren erradioa (-1)"
+
+#: app/menus.c:590
+msgid "Increase clone x offset "
+msgstr "Handitu klonaren X desplazamendua "
+
+#: app/menus.c:591
+msgid "Decrease clone x offset"
+msgstr "Txikitu klonaren X desplazamendua"
+
+#: app/menus.c:592
+msgid "Increase clone y offset "
+msgstr "Handitu klonaren y desplazamendua "
+
+#: app/menus.c:593
+msgid "Decrease clone y offset "
+msgstr "Txikitu klonaren y desplazamendua "
+
+#: app/menus.c:594
+msgid "Toogle Onionskin "
+msgstr "Txandakatu irudi-gainjartzea "
+
+#: app/menus.c:595
+msgid "Filters"
+msgstr "Iragazkiak"
+
+#: app/menus.c:596
+msgid "Re-show last"
+msgstr "Erakutsi azkena"
+
+#: app/menus.c:597
+msgid "Repeat last"
+msgstr "Errepikatu azkena"
+
+#: app/menus.c:599
+msgid "Brushes..."
+msgstr "Brotxak..."
+
+#: app/menus.c:604
+msgid "Automatic"
+msgstr "Automatikoa"
+
+#: app/menus.c:605
+msgid "By extension"
+msgstr "Luzapenaren arabera"
+
+#: app/menus.c:606
+msgid "Store"
+msgstr "Biltegiratu"
+
+#: app/menus.c:609
+msgid "Raise"
+msgstr "Goratu"
+
+#: app/menus.c:610
+msgid "Lower"
+msgstr "Beheratu"
+
+#: app/menus.c:612
+msgid "Save All"
+msgstr "Gorde denak"
+
+#: app/menus.c:613
+msgid "Revert"
+msgstr "Leheneratu"
+
+#: app/menus.c:614
+msgid "Revert to Saved"
+msgstr "Leheneratu gordetakora"
+
+#: app/menus.c:615
+msgid "Change Frame"
+msgstr "Aldatu fotograma"
+
+#: app/menus.c:616
+msgid "Dir"
+msgstr "Direktorioa"
+
+#: app/menus.c:617
+msgid "Recent Src"
+msgstr "Erabilitako azken iturburua"
+
+#: app/menus.c:618
+msgid "Recent Dest"
+msgstr "Erabilitako azken helburua"
+
+#: app/menus.c:619
+msgid "Load Smart"
+msgstr "Kargatu"
+
+#: app/menus.c:620
+msgid "Effects"
+msgstr "Efektuak"
+
+#: app/menus.c:621
+msgid "Apply Last Filter"
+msgstr "Aplikatu azken iragazkia"
+
+#: app/menus.c:623
+msgid "Copy Layer"
+msgstr "Kopiatu geruza"
+
+#: app/menus.c:624
+msgid "Layer Mode"
+msgstr "Geruza-modua"
+
+#: app/menus.c:625
+msgid "Merge Visible"
+msgstr "Batu ikusgaiak"
+
+#: app/menus.c:626
+msgid "none"
+msgstr "bat ere ez"
+
+#: app/menus.c:627
+msgid "All"
+msgstr "Denak"
+
+#: app/menus.c:628
+msgid "Short cuts"
+msgstr "Laster-teklak"
+
+#: app/menus.c:629
+msgid "Toolbox"
+msgstr "Tresna-kutxa"
+
+#: app/menus.c:630
+msgid "Transforms"
+msgstr "Eraldaketak"
+
+#: app/move.c:423
+msgid "Move Tool Options"
+msgstr "Lekuz aldatzeko tresnaren aukerak"
+
+#: app/depth/paint_core_16.c:231
+msgid "No brushes available for use with this tool."
+msgstr "Ez dago brotxa erabilgarririk tresna honekin erabiltzeko."
+
+#: app/paintbrush.c:196
+msgid "Fade Out"
+msgstr "Iraungitu"
+
+#: app/paintbrush.c:246
+msgid "Gradient"
+msgstr "Gradientea"
+
+#. the gradient type
+#: app/paintbrush.c:279
+msgid "Type:"
+msgstr "Mota:"
+
+#: app/paintbrush.c:293
+msgid "Once Forward"
+msgstr "Bat aurrera"
+
+#: app/paintbrush.c:294
+msgid "Once Backward"
+msgstr "Bat atzera"
+
+#: app/paintbrush.c:295
+msgid "Loop Sawtooth"
+msgstr "Horzdun-begizta"
+
+#: app/paintbrush.c:296
+msgid "Loop Triangle"
+msgstr "Triangeluzko begizta"
+
+#: app/palette.c:224
+msgid "New"
+msgstr "Berria"
+
+#: app/palette.c:225
+msgid "Edit"
+msgstr "Editatu"
+
+#: app/palette.c:230 app/palette.c:1086
+msgid "New Palette"
+msgstr "Paleta berria"
+
+#: app/palette.c:231
+msgid "Delete Palette"
+msgstr "Ezabatu paleta"
+
+#: app/palette.c:232
+msgid "Refresh Palettes"
+msgstr "Freskatu paletak"
+
+#: app/palette.c:249
+msgid "Color Palette"
+msgstr "Kolore-paleta"
+
+#: app/palette.c:282
+msgid "Ops"
+msgstr "Eragiketak"
+
+#: app/palette.c:303
+msgid "Active Color Name"
+msgstr "Kolore aktiboaren izena"
+
+#: app/palette.c:1086
+msgid "Enter a name for new palette"
+msgstr "Sartu izena paleta berriarentzat"
+
+#: app/pattern_select.c:118
+msgid "Pattern Selection"
+msgstr "Eredu-hautapena"
+
+#: app/patterns.c:222
+#, c-format
+msgid "Unknown GIMP version #%d in \"%s\"\n"
+msgstr "GIMPen %d. bertsio ezezaguna \"%s\"(e)n\n"
+
+#: app/patterns.c:251
+msgid "Error in GIMP pattern file...aborting."
+msgstr "Errorea GIMPeko eredu-fitxategian...abortatzen."
+
+#: app/patterns.c:258
+msgid "Unnamed"
+msgstr "Izengabea"
+
+#: app/patterns.c:269
+msgid "GIMP pattern file appears to be truncated."
+msgstr "GIMPeko eredu-fitxategia trunkatuta dagoela dirudi."
+
+#: app/pencil.c:80
+msgid "Pencil Options"
+msgstr "Arkatzaren aukerak"
+
+#: app/depth/plug_in.c:709
+msgid "shmget failed...disabling shared memory tile transport\n"
+msgstr ""
+"shmget-ek huts egin du...memorian partekatutako lauzen garraioa desgaitzen\n"
+
+#: app/depth/plug_in.c:715
+msgid "shmat failed...disabling shared memory tile transport\n"
+msgstr ""
+"shmat-ek huts egin du...memorian partekatutako lauzen garraioa desgaitzen\n"
+
+#: app/depth/plug_in.c:728
+#, c-format
+msgid "Searching plug-ins in path: %s\n"
+msgstr "Plugin-ak bilatzen bide honetan: %s\n"
+
+#: app/depth/plug_in.c:742
+msgid "Resource configuration"
+msgstr "Baliabideen konfigurazioa"
+
+#: app/depth/plug_in.c:748
+msgid "Plug-ins"
+msgstr "Plugin-ak"
+
+#: app/depth/plug_in.c:750
+#, c-format
+msgid "plugin count = %i\n"
+msgstr "plugin kopurua = %i\n"
+
+#: app/depth/plug_in.c:761
+#, c-format
+msgid "query plug-in: \"%s\"\n"
+msgstr "plugin-aren kontsulta: \"%s\"\n"
+
+#: app/depth/plug_in.c:812
+msgid "Extensions"
+msgstr "Luzapenak"
+
+#: app/depth/plug_in.c:1155
+#, c-format
+msgid "unable to locate plug-in: \"%s\""
+msgstr "ezin da plugin-a aurkitu: \"%s\""
+
+#: app/depth/plug_in.c:1249
+msgid "unable to open pipe"
+msgstr "ezin da kanalizazioa ireki"
+
+#: app/depth/plug_in.c:1289
+msgid "PlugInRun failed!\n"
+msgstr "PlugInRun-ek huts egin du.\n"
+
+#: app/depth/plug_in.c:1348
+#, c-format
+msgid "unable to run plug-in: %s\n"
+msgstr "ezin da plugin-a exekutatu: %s\n"
+
+#: app/depth/plug_in.c:1798 app/depth/plug_in.c:1805 app/depth/plug_in.c:1809
+msgid ""
+"plug_in_handle_message(): received a config message (should not happen)\n"
+msgstr ""
+"plug_in_handle_message(): konfigurazioko mezua jaso da (ez luke gertatu "
+"behar)\n"
+
+#: app/depth/plug_in.c:1820
+msgid ""
+"plug_in_handle_message(): received a temp proc run message (should not "
+"happen)\n"
+msgstr ""
+"plug_in_handle_message(): aldi baterako prozesuaren exekuzioko mezua jaso da "
+"(ez luke gertatu behar)\n"
+
+#: app/depth/plug_in.c:1874 app/depth/plug_in.c:1883 app/depth/plug_in.c:1954
+#: app/depth/plug_in.c:2030 app/depth/plug_in.c:2039
+msgid "plug_in_handle_tile_req: ERROR"
+msgstr "plug_in_handle_tile_req: ERROREA"
+
+#: app/depth/plug_in.c:1890
+#, c-format
+msgid "expected tile data and received: %d\n"
+msgstr "Lauzaren datuak espero ziren eta hau jaso da: %d\n"
+
+#: app/depth/plug_in.c:1905 app/depth/plug_in.c:1968
+msgid "plug-in requested invalid drawable (killing)\n"
+msgstr "plugin-ak marrazgai baliogabea eskatu du (hiltzen)\n"
+
+#: app/depth/plug_in.c:1924 app/depth/plug_in.c:1988
+msgid "plug-in requested invalid tile (killing)\n"
+msgstr "plugin-ak lauza baliogabea eskatu du (hiltzen)\n"
+
+#. THIS IS PROBABLY NOT CORRECT -josh
+#: app/depth/plug_in.c:2124
+#, c-format
+msgid "PDB lookup failed on %s\n"
+msgstr "PDBren bilaketak huts egin du %s(e)n\n"
+
+#: app/depth/plug_in.c:2197
+msgid "plug_in_handle_proc_run: ERROR"
+msgstr "plug_in_handle_proc_run: ERROREA"
+
+#: app/depth/plug_in.c:2235 app/depth/plug_in.c:2248 app/depth/plug_in.c:2263
+#: app/depth/plug_in.c:2276 app/depth/plug_in.c:2291
+#, c-format
+msgid ""
+"plug-in \"%s\" attempted to install procedure \"%s\" which does not take the "
+"standard plug-in args"
+msgstr ""
+"\"%s\" plugin-ak \"%s\" prozedura instalatzen saiatu da, baina prozedurak ez "
+"du plugin estandarren argumenturik jasotzen"
+
+#: app/depth/plug_in.c:2299
+#, c-format
+msgid ""
+"plug-in \"%s\" attempted to install procedure \"%s\" in an invalid menu "
+"location.  Use either \"<Toolbox>\", \"<Image>\", \"<Load>\", or \"<Save>\"."
+msgstr ""
+"\"%s\" plugin-ak \"%s\" prozedura instalatzen saiatu da baliogabeko menu "
+"baten kokalekuan. Erabili \"<Tresna-kutxa>\", \"<Irudia>\" edo \"<Gorde>\". "
+
+#: app/depth/plug_in.c:2319
+#, c-format
+msgid ""
+"plug_in \"%s\" attempted to install procedure \"%s\" which fails to comply "
+"with the array parameter passing standard.  Argument %d is noncompliant."
+msgstr ""
+"\"%s\" plugin-ak \"%s\" prozedura instalatzen saiatu da, baina huts egiten "
+"du matrizedun parametro estandarra pasatzean. %d argumentua ez dator bat."
+
+#: app/depth/plug_in.c:2674
+#, c-format
+msgid "Loading plug-in: %s\n"
+msgstr "Plugin-a kargatzen: %s\n"
+
+#: app/depth/plug_in.c:2913
+msgid "Uh-oh, no active gdisplay for the plug-in!"
+msgstr "Ez dago gdisplay aktiborik plugin-arentzako."
+
+#: app/depth/plug_in.c:2932
+msgid "Uh-oh, no active gdisplay for the temporary procedure!"
+msgstr "Ez dago gdisplay aktiborik aldi baterako prozedurarentzako."
+
+#: app/depth/plug_in.c:3244 app/depth/plug_in.c:3402 app/depth/plug_in.c:3486
+#: app/depth/plug_in.c:3560
+msgid "the \"region\" arg type is not currently supported"
+msgstr "Unean ez dago \"eskualdea\" argumentu mota onartuta"
+
+#: app/depth/posterize.c:466
+msgid "Posterize Options"
+msgstr "Posterizatzeko aukerak"
+
+#: app/depth/posterize.c:519
+msgid "Posterize does not operate on indexed drawables."
+msgstr "Posterizatzeak ez du marrazgai indexatuetan funtzionatzen."
+
+#: app/depth/posterize.c:578
+msgid "Posterize Levels: "
+msgstr "Posterizatzeko mailak: "
+
+#: app/depth/posterize.c:630
+msgid "posterize_preview(): No image map"
+msgstr "posterize_preview(): ez dago irudi-maparik"
+
+#: app/procedural_db.c:669
+msgid "Incorrect arguments passed to procedural_db_run_proc"
+msgstr "Argumentu baliogabeak eman zaizkio 'procedural_db_run_proc'eri"
+
+#: app/rect_select.c:120
+msgid "Rectangular Select Options"
+msgstr "Hautapen laukizuzenen aukerak"
+
+#: app/rect_select.c:123
+msgid "Elliptical Selection Options"
+msgstr "Hautapen eliptikoen aukerak"
+
+#: app/rect_select.c:126
+msgid "Free-hand Selection Options"
+msgstr "Pultsuzko hautapenen aukerak"
+
+#: app/rect_select.c:129
+msgid "Fuzzy Selection Options"
+msgstr "Hurbilketazko hautapenen aukerak"
+
+#: app/rect_select.c:132
+msgid "Bezier Selection Options"
+msgstr "Bezier hautapenen aukerak"
+
+#: app/rect_select.c:135
+msgid "Intelligent Scissors Options"
+msgstr "Guraize adimendunen aukerak"
+
+#: app/rect_select.c:138
+msgid "By-Color Select Options"
+msgstr "Kolorezko hautapenen aukerak"
+
+#. create the antialiasing toggle button
+#: app/rect_select.c:173 app/depth/text_tool.c:507 app/tool_options.c:241
+msgid "Antialiasing"
+msgstr "Antialiasing-a"
+
+#. the feather toggle button
+#: app/rect_select.c:183 app/tool_options.c:197
+msgid "Feather"
+msgstr "Difuminatu"
+
+#: app/rect_select.c:195
+msgid "Feather Radius"
+msgstr "Difuminatu erradioa"
+
+#: app/resize.c:106
+msgid "Scale"
+msgstr "Eskalatu"
+
+#: app/resize.c:110
+msgid "Resize"
+msgstr "Aldatu tamaina"
+
+#: app/resize.c:126
+msgid "New width:"
+msgstr "Zabalera berria:"
+
+#: app/resize.c:143
+msgid "New height:"
+msgstr "Altuera berria:"
+
+#: app/resize.c:160
+msgid "X ratio:"
+msgstr "X erlazioa:"
+
+#: app/resize.c:177
+msgid "Y ratio:"
+msgstr "Y erlazioa:"
+
+#: app/resize.c:196
+msgid "X Offset:"
+msgstr "X desplazamendua:"
+
+#: app/resize.c:213
+msgid "Y Offset:"
+msgstr "Y desplazamendua:"
+
+#. the constrain toggle button
+#: app/resize.c:230
+msgid "Constrain Ratio"
+msgstr "Murriztu erlazioa"
+
+#: app/rotate_tool.c:76
+msgid "Rotation Information"
+msgstr "Biratze-informazioa"
+
+#: app/rotate_tool.c:79
+msgid "Angle: "
+msgstr "Angelua: "
+
+#: app/scale_tool.c:78
+msgid "Scaling Information"
+msgstr "Eskalatze-informazioa"
+
+#: app/scale_tool.c:81
+msgid "Original Width: "
+msgstr "Jatorrizko zabalera: "
+
+#: app/scale_tool.c:82
+msgid "Original Height: "
+msgstr "Jatorrizko altuera: "
+
+#: app/scale_tool.c:83
+msgid "Current Width: "
+msgstr "Uneko zabalera: "
+
+#: app/scale_tool.c:84
+msgid "Current Height: "
+msgstr "Uneko altuera: "
+
+#: app/scale_tool.c:85
+msgid "X Scale Ratio: "
+msgstr "X eskala-erlazioa: "
+
+#: app/scale_tool.c:86
+msgid "Y Scale Ratio: "
+msgstr "Y eskala-erlazioa: "
+
+#: app/shear_tool.c:79
+msgid "Shear Information"
+msgstr "Zizailamendu-informazioa"
+
+#: app/shear_tool.c:82
+msgid "X Shear Magnitude: "
+msgstr "X zizailamendua: "
+
+#: app/shear_tool.c:83
+msgid "Y Shear Magnitude: "
+msgstr "Y zizailamendua: "
+
+#: app/depth/text_tool.c:224
+msgid "Text Tool Options"
+msgstr "Testu-tresnaren aukerak"
+
+#: app/depth/text_tool.c:304
+msgid "Note: No fonts found.  Text tool not available."
+msgstr ""
+"Oharra: ez da letra-tiporik aurkitu. Testuaren tresna ez dago erabilgarri."
+
+#: app/depth/text_tool.c:434
+msgid "Text Tool"
+msgstr "Testuaren tresna"
+
+#: app/depth/text_tool.c:539
+msgid "Foundry"
+msgstr "Isurketa"
+
+#: app/depth/text_tool.c:540
+msgid "Weight"
+msgstr "Pisua"
+
+#: app/depth/text_tool.c:541
+msgid "Slant"
+msgstr "Zeiharra"
+
+#: app/depth/text_tool.c:542
+msgid "Set width"
+msgstr "Ezarri zabalera"
+
+#: app/depth/text_tool.c:543
+msgid "Spacing"
+msgstr "Tartea"
+
+#: app/depth/text_tool.c:544
+msgid "Registry"
+msgstr "Erregistroa"
+
+#: app/depth/text_tool.c:545
+msgid "Encoding"
+msgstr "Kodeketa"
+
+#. Create the border text hbox, border text, and label
+#: app/depth/text_tool.c:611
+msgid "Border"
+msgstr "Ertza"
+
+#: app/depth/text_tool.c:2209
+msgid "Text Layer"
+msgstr "Testu-geruza"
+
+#: app/depth/text_tool.c:2266
+msgid "text_render: could not allocate image"
+msgstr "text_render: ezin izan da irudia esleitu"
+
+#: app/depth/threshold.c:1217
+msgid "Threshold Range: "
+msgstr "Atalase-barrutia:"
+
+#: app/depth/threshold.c:1356
+msgid "threshold_preview(): No image map"
+msgstr "threshold_preview(): ez dago irudi-maparik"
+
+#. write here the name of the file with the translated tips
+#: app/tips_dialog.c:49
+msgid "tips.txt"
+msgstr "aholkuak.txt"
+
+#: app/tips_dialog.c:68
+msgid "Tip of the day"
+msgstr "Eguneko aholkua"
+
+#: app/tips_dialog.c:119
+msgid "Next"
+msgstr "Hurrengoa"
+
+#: app/tips_dialog.c:126
+msgid "Previous"
+msgstr "Aurrekoa"
+
+#: app/tips_dialog.c:133
+msgid "Show tips at startup"
+msgstr "Erakutsi aholkuak abiaraztean"
+
+#. this tool has no special options
+#: app/tool_options.c:128 app/tools.c:837
+msgid "This tool has no options."
+msgstr "Tresna honek ez du aukerarik."
+
+#: app/tool_options.c:152
+msgid "Rectangular Selection"
+msgstr "Hautapen laukizuzena"
+
+#: app/tool_options.c:154
+msgid "Elliptical Selection"
+msgstr "Hautapen eliptikoa"
+
+#: app/tool_options.c:156
+msgid "Free-Hand Selection"
+msgstr "Pultsuzko hautapena"
+
+#: app/tool_options.c:158
+msgid "Fuzzy Selection"
+msgstr "Hurbilketazko hautapena"
+
+#: app/tool_options.c:160
+msgid "Bezier Selection"
+msgstr "Bezier hautapena"
+
+#: app/tool_options.c:164
+msgid "By-Color Selection"
+msgstr "Kolorezko hautapena"
+
+#: app/tool_options.c:165
+msgid "ERROR: Unknown Select Tool Type"
+msgstr "ERROREA: hautapen tresna mota ezezaguna"
+
+#: app/tool_options.c:318
+msgid "Fixed Size / Aspect Ratio"
+msgstr "Tamaina finkoa / Aspektu-erlazioa"
+
+#: app/tool_options.c:388
+msgid "Unit:"
+msgstr "Unitatea:"
+
+#: app/tool_options.c:483
+msgid "Blend Tool"
+msgstr "Nahasteko tresna"
+
+#: app/tool_options.c:493
+msgid "Clone Tool"
+msgstr "Klonatzeko tresna"
+
+#: app/tool_options.c:495
+msgid "Convolver"
+msgstr "Konboluzioa"
+
+#: app/tool_options.c:498
+msgid "Ink Tool"
+msgstr "Tintaren tresna"
+
+#: app/tool_options.c:503
+msgid "Smudge Tool"
+msgstr "Zirriborratzeko tresna"
+
+#: app/tool_options.c:509 app/tool_options.c:511
+msgid "ERROR: Unknown Paint Tool Type"
+msgstr "ERROREA: margotzeko tresna mota ezezaguna"
+
+#: app/tool_options.c:746
+msgid "Pressure Sensitivity"
+msgstr "Presio-sentikortasuna"
+
+#: app/tool_options.c:765
+msgid "Opacity"
+msgstr "Opakutasuna"
+
+#: app/tool_options.c:788
+msgid "Hardness"
+msgstr "Gogortasuna"
+
+#: app/tool_options.c:808
+msgid "Rate"
+msgstr "Tasa"
+
+#: app/tool_options.c:832
+msgid "Size"
+msgstr "Tamaina"
+
+#: app/tool_options.c:853 app/tool_options.c:974
+msgid "Color"
+msgstr "Kolorea"
+
+#: app/tool_options.c:959
+msgid "Dissolve"
+msgstr "Disolbatu"
+
+#: app/tool_options.c:960
+msgid "Behind"
+msgstr "Atzean"
+
+#: app/tool_options.c:961
+msgid "Multiply (Burn)"
+msgstr "Biderkatu (belztu)"
+
+#: app/tool_options.c:963
+msgid "Divide (Dodge)"
+msgstr "Zatitu (zuritu)"
+
+#: app/tools.c:754
+msgid "Tool Options"
+msgstr "Tresna-aukerak"
+
+#: app/depth/transform_core.c:153
+msgid ""
+"Transformations do not work on\n"
+"layers that contain layer masks."
+msgstr ""
+"Eraldaketek ez dute funtzionatzen\n"
+"geruza-maskarak dituzten geruzetan."
+
+#: app/transform_tool.c:80
+msgid "Rotation"
+msgstr "Biraketa"
+
+#: app/transform_tool.c:81
+msgid "Scaling"
+msgstr "Eskalatzea"
+
+#: app/transform_tool.c:82
+msgid "Shearing"
+msgstr "Zizailamendua"
+
+#: app/transform_tool.c:83
+msgid "Perspective"
+msgstr "Perspektiba"
+
+#. the main label
+#: app/transform_tool.c:95
+msgid "Transform Tool Options"
+msgstr "Eraldatzeko tresnaren aukerak"
+
+#. the smoothing toggle button
+#: app/transform_tool.c:121
+msgid "Smoothing"
+msgstr "Leuntasuna"
+
+#. (*(xcf_loaders[info.file_version])) (&info);
+#: app/depth/xcf.c:365
+msgid ""
+"This XCF file is not supported by CinePaint. You may convert to tiff and try "
+"again."
+msgstr ""
+"CinePaint-ek ez du XCF fitxategi hau onartzen. Tiff formatura bihurtu eta "
+"saiatu berriro."
+
+#: app/depth/xcf.c:377
+#, c-format
+msgid "XCF error: unsupported XCF file version %d encountered"
+msgstr "XCF errorea: onartu gabeko XCFren %d bertsioa aurkitu da"
+
+#: app/depth/xcf.c:427
+#, c-format
+msgid "open failed on %s: %s\n"
+msgstr "huts egin du '%s' irekitzean: %s\n"
+
+#: app/depth/xcf.c:1379
+msgid ""
+"XCF warning: version 0 of XCF file format\n"
+"did not save indexed colormaps correctly.\n"
+"Substituting grayscale map."
+msgstr ""
+"XCF abisua: XCF fitxategi-formatuaren 0 bertsioak\n"
+"ez ditu kolore-mapa indexatuak behar bezala gorde.\n"
+"Gris-eskalako mapa ordezkatuko da."
+
+#: app/depth/xcf.c:1410
+#, c-format
+msgid "unknown compression type: %d"
+msgstr "konpresio mota ezezaguna: %d"
+
+#: app/depth/xcf.c:1441
+#, c-format
+msgid "unexpected/unknown image property: %d (skipping)"
+msgstr "irudiaren propietate ustegabea/ezezaguna: %d (saltatzen)"
+
+#: app/depth/xcf.c:1524
+msgid "there is already a spline being init'd."
+msgstr "jadanik badago spline bat hasieratzen."
+
+#: app/depth/xcf.c:1581
+#, c-format
+msgid "unexpected/unknown layer property: %d (skipping)"
+msgstr "geruzaren propietate ustegabea/ezezaguna: %d (saltatzen)"
+
+#: app/depth/xcf.c:1647
+#, c-format
+msgid "unexpected/unknown channel property: %d (skipping)"
+msgstr "kanalaren propietate ustegabea/ezezaguna: %d (saltatzen)"
+
+#: app/depth/xcf.c:2032
+#, c-format
+msgid "unable to read tile data from xcf file: %d ( %d ) bytes read"
+msgstr ""
+"ezin da lauzaren daturik irakurri xcf fitxategitik: %d (%d) byte irakurrita"
+
+#~ msgid "Drawable cannot handle all colours."
+#~ msgstr "Marrazgaiak ezin du kolore guztiak kudeatu."

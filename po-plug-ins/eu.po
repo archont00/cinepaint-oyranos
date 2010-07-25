@@ -1,0 +1,4077 @@
+# translation of cinepaint-std-plugins_eu.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinepaint-std-plugins_eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-30 12:51+0200\n"
+"PO-Revision-Date: 2007-10-31 10:59+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/export.c:181 lib/export.c:217
+msgid "can't handle layers"
+msgstr "ezin ditu geruzak kudeatu"
+
+#: lib/export.c:182 lib/export.c:191 lib/export.c:200
+msgid "Merge Visible Layers"
+msgstr "Batu ikusgai dauden geruzak"
+
+#: lib/export.c:190
+msgid "can't handle layer offsets, size or opacity"
+msgstr "ezin ditu geruzen desplazamenduak, tamaina edo opakutasuna kudeatu"
+
+#: lib/export.c:199 lib/export.c:208
+msgid "can only handle layers as animation frames"
+msgstr "geruzak animazio-marko gisa bakarrik kudea ditzake"
+
+#: lib/export.c:200 lib/export.c:209
+msgid "Save as Animation"
+msgstr "Gorde animazio gisa"
+
+#: lib/export.c:209 lib/export.c:218 lib/export.c:227
+msgid "Flatten Image"
+msgstr "Berdindu irudia"
+
+#: lib/export.c:226
+msgid "can't handle transparency"
+msgstr "ezin du gardentasuna kudeatu"
+
+#: lib/export.c:235
+msgid "can only handle RGB images"
+msgstr "GBU irudiak bakarrik kudea ditzake"
+
+#: lib/export.c:236 lib/export.c:264 lib/export.c:273
+msgid "Convert to RGB"
+msgstr "Bihurtu GBUra"
+
+#: lib/export.c:244
+msgid "can only handle grayscale images"
+msgstr "gris-eskalako irudiak bakarrik kudea ditzake"
+
+#: lib/export.c:245 lib/export.c:264 lib/export.c:285
+msgid "Convert to Grayscale"
+msgstr "Bihurtu gris-eskalara"
+
+#: lib/export.c:253
+msgid "can only handle indexed images"
+msgstr "indexatutako irudiak bakarrik kudea ditzake"
+
+#: lib/export.c:254 lib/export.c:273 lib/export.c:283
+msgid ""
+"Convert to Indexed using default settings\n"
+"(Do it manually to tune the result)"
+msgstr ""
+"Bihurtu indexatura ezarpen lehenetsiak erabiliz\n"
+"(egin eskuz emaitza doitzeko)"
+
+#: lib/export.c:263
+msgid "can only handle RGB or grayscale images"
+msgstr "GBU edo gris-eskalako irudiak bakarrik kudea ditzake"
+
+#: lib/export.c:272
+msgid "can only handle RGB or indexed images"
+msgstr "GBU edo indexatutako irudiak bakarrik kudea ditzake"
+
+#: lib/export.c:282
+msgid "can only handle grayscale or indexed images"
+msgstr "gris-eskalako edo indexatutako irudiak bakarrik kudea ditzake"
+
+#: lib/export.c:293
+msgid "needs an alpha channel"
+msgstr "alfa kanala behar du"
+
+#: lib/export.c:294
+msgid "Add Alpha Channel"
+msgstr "Gehitu alfa kanala"
+
+#.
+#. *  Plug-ins must have called gtk_init () before calling gimp_export ().
+#. *  Otherwise bad things will happen now!!
+#.
+#. the dialog
+#: lib/export.c:367
+msgid "Confirm Save"
+msgstr "Berretsi gordetzea"
+
+#: lib/export.c:371
+msgid "Confirm"
+msgstr "Berretsi"
+
+#. Button #2
+#: lib/export.c:373 lib/export.c:434 plug-ins/bmp/bmpwrite.c:570
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:414
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:140
+#: plug-ins/cineon/cineon.c:884 plug-ins/edge/edge.c:966
+#: plug-ins/gauss_rle/gauss_rle.c:329 plug-ins/gfig/gfig.c:3952
+#: plug-ins/gfig/gfig.c:4099 plug-ins/gfig/gfig.c:4446
+#: plug-ins/gfig/gfig.c:4529 plug-ins/gfig/gfig.c:5040
+#: plug-ins/jpeg/jpeg.c:785 plug-ins/mblur/mblur.c:1351
+#: plug-ins/noisify/noisify.c:590 plug-ins/pdf/pdf_dialog.cxx:165
+#: plug-ins/png/png.c:1523 plug-ins/rawphoto/rawphoto.c:423
+#: plug-ins/screenshot/screenshot.c:378 plug-ins/sgi/sgi.c:818
+#: plug-ins/snoise/snoise.c:679 plug-ins/sobel/sobel.c:272
+#: plug-ins/spread/spread.c:442 plug-ins/tga/tga.c:1412 plug-ins/tiff/gui.c:86
+#: plug-ins/tiff/gui.c:279 plug-ins/unsharp/unsharp.c:1276
+msgid "Cancel"
+msgstr "Utzi"
+
+#: lib/export.c:387
+#, c-format
+msgid ""
+"You are about to save %s as %s.\n"
+"This will not save the visible layers."
+msgstr ""
+"%s honela gordetzera zoaz: %s\n"
+"Horrek ez ditu ikusgai dauden geruzak gordeko."
+
+#.
+#. *  Plug-ins must have called gtk_init () before calling gimp_export ().
+#. *  Otherwise bad things will happen now!!
+#.
+#. the dialog
+#: lib/export.c:425
+msgid "Export File"
+msgstr "Esportatu fitxategia"
+
+#: lib/export.c:430
+msgid "Export"
+msgstr "Esportatu"
+
+#: lib/export.c:432
+msgid "Ignore"
+msgstr "Ez ikusi egin"
+
+#: lib/export.c:449
+msgid ""
+"Your image should be exported before it can be saved for the following "
+"reasons:"
+msgstr ""
+"Zure irudia esportatu egin behar da, gorde aurretik, arrazoi hauengatik:"
+
+#. the footline
+#: lib/export.c:512
+msgid "The export conversion won't modify your original image."
+msgstr "Esportatze-bihurketak ez du jatorrizko irudia aldatuko."
+
+#: lib/export.c:580
+msgid "a layer mask"
+msgstr "geruza-maskara"
+
+#: lib/export.c:582
+msgid "a channel (saved selection)"
+msgstr "kanala (gordetako hautapena)"
+
+#: lib/fl_i18n/fl_i18n.cxx:204
+msgid "osX locale obtained: "
+msgstr "lortutako osX lokala: "
+
+#: lib/fl_i18n/fl_i18n.cxx:207
+msgid "osX locale not obtained"
+msgstr "ez da osX lokala lortu"
+
+#: lib/fl_i18n/fl_i18n.cxx:328
+msgid "try to set LANG"
+msgstr "saiatu LANG ezartzen"
+
+#: lib/fl_i18n/fl_i18n.cxx:347
+msgid "try locale in "
+msgstr "saiatu lokala: "
+
+#: lib/fl_i18n/fl_i18n.cxx:356
+msgid "set codeset for"
+msgstr "ezarri honen kode-multzoa:"
+
+#: lib/fl_i18n/fl_i18n.cxx:392
+msgid "Add to Favorites"
+msgstr "Gehitu gogokoetan"
+
+#: lib/fl_i18n/fl_i18n.cxx:393
+msgid "All Files (*)"
+msgstr "Fitxategi denak (*)"
+
+#: lib/fl_i18n/fl_i18n.cxx:394
+msgid "Custom Filter"
+msgstr "Iragazki pertsonalizatua"
+
+#: lib/fl_i18n/fl_i18n.cxx:395
+msgid "Please choose an existing file!"
+msgstr "Aukeratu existitzen den fitxategia."
+
+#: lib/fl_i18n/fl_i18n.cxx:396
+msgid "Favorites"
+msgstr "Gogokoak"
+
+#: lib/fl_i18n/fl_i18n.cxx:397
+msgid "Filename"
+msgstr "Fitxategi-izena"
+
+#: lib/fl_i18n/fl_i18n.cxx:398
+msgid "Manage Favorites"
+msgstr "Kudeatu gogokoak"
+
+#: lib/fl_i18n/fl_i18n.cxx:400
+msgid "My Computer"
+msgstr "Ordenagailua"
+
+#: lib/fl_i18n/fl_i18n.cxx:402
+msgid "Filesystems"
+msgstr "Fitxategi-sistemak"
+
+#: lib/fl_i18n/fl_i18n.cxx:404
+msgid "New Directory?"
+msgstr "Direktorio berria?"
+
+#. gtk_widget_show (xframe);
+#. Start building the frame for the preview area
+#: lib/fl_i18n/fl_i18n.cxx:405 plug-ins/gfig/gfig.c:1904
+#: plug-ins/gfig/gfig.c:3975
+msgid "Preview"
+msgstr "Aurrebista"
+
+#. Fl_Menu_Button* o
+#: lib/fl_i18n/fl_i18n.cxx:407 plug-ins/bracketing_to_hdr/gui/gui.cxx:1189
+#: plug-ins/gfig/gfig.c:3946 plug-ins/gfig/gfig.c:5275
+msgid "Save"
+msgstr "Gorde"
+
+#: lib/fl_i18n/fl_i18n.cxx:409
+msgid "Show:"
+msgstr "Erakutsi:"
+
+#: plug-ins/bmp/bmpread.c:50 plug-ins/psd/psd.c:1757 plug-ins/xwd/xwd.c:439
+#, c-format
+msgid "Loading %s:"
+msgstr "%s kargatzen:"
+
+#: plug-ins/bmp/bmpread.c:62
+#, c-format
+msgid "%s: can't open \"%s\""
+msgstr "%s: ezin da ireki \"%s\""
+
+#: plug-ins/bmp/bmpread.c:73 plug-ins/bmp/bmpread.c:81
+#: plug-ins/bmp/bmpread.c:86 plug-ins/bmp/bmpread.c:93
+#: plug-ins/bmp/bmpread.c:106
+#, c-format
+msgid "%s: %s is not a valid BMP file"
+msgstr "%s: '%s' ez da baliozko BMP fitxategia."
+
+#: plug-ins/bmp/bmpread.c:118 plug-ins/bmp/bmpread.c:136
+#: plug-ins/bmp/bmpread.c:156 plug-ins/bmp/bmpread.c:174
+#: plug-ins/bmp/bmpread.c:192 plug-ins/bmp/bmpread.c:197
+#: plug-ins/bmp/bmpread.c:202
+#, c-format
+msgid "%s: error reading BMP file header"
+msgstr "%s: errorea BMP fitxategi-goiburua irakurtzean"
+
+#: plug-ins/bmp/bmpread.c:277
+#, c-format
+msgid "%s: bad colormap"
+msgstr "%s: okerreko kolore-mapa"
+
+#.
+#. * Create the "background" layer to hold the image...
+#.
+#. (char*) "CMYK"
+#. Create the "background" layer to hold the image...
+#.
+#. * Create the "background" layer to hold the image...
+#.
+#: plug-ins/bmp/bmpread.c:319 plug-ins/bmp/bmpread.c:326
+#: plug-ins/bmp/bmpread.c:333 plug-ins/cineon/cineon.c:564
+#: plug-ins/gfig/gfig.c:2851 plug-ins/gfig/gfig.c:3204 plug-ins/hdr/hdr.c:303
+#: plug-ins/jpeg/jpeg.c:384 plug-ins/openexr/openexr.cxx:448
+#: plug-ins/png/png.c:598 plug-ins/print/print-lcms-funcs.c:748
+#: plug-ins/psd/psd.c:2147 plug-ins/rawphoto/rawphoto.c:326
+#: plug-ins/sgi/sgi.c:411 plug-ins/tga/tga.c:955
+msgid "Background"
+msgstr "Atzeko planoa"
+
+#: plug-ins/bmp/bmpwrite.c:109
+msgid "BMP: cannot operate on unknown image types or alpha images"
+msgstr "BMP: ezin da irudi-mota ezezagunekin edo alfa irudiekin jardun"
+
+#: plug-ins/bmp/bmpwrite.c:172
+#, c-format
+msgid "Can't open %s"
+msgstr "Ezin da %s ireki"
+
+#: plug-ins/bmp/bmpwrite.c:184 plug-ins/xwd/xwd.c:543
+#, c-format
+msgid "Saving %s:"
+msgstr "%s gordetzen:"
+
+#: plug-ins/bmp/bmpwrite.c:563
+msgid "Save as BMP"
+msgstr "Gorde BMP gisa"
+
+#. Action area
+#.
+#. * OK/cancel buttons...
+#.
+#. Button #1
+#. Action area
+#: plug-ins/bmp/bmpwrite.c:568 plug-ins/cineon/cineon.c:876
+#: plug-ins/edge/edge.c:957 plug-ins/gauss_rle/gauss_rle.c:320
+#: plug-ins/gfig/gfig.c:4099 plug-ins/gfig/gfig.c:4444
+#: plug-ins/gfig/gfig.c:4527 plug-ins/gfig/gfig.c:4832
+#: plug-ins/jpeg/jpeg.c:776 plug-ins/mblur/mblur.c:1342
+#: plug-ins/noisify/noisify.c:581 plug-ins/pdf/pdf_dialog.cxx:160
+#: plug-ins/png/png.c:1521 plug-ins/rawphoto/rawphoto.c:422
+#: plug-ins/screenshot/screenshot.c:376 plug-ins/sgi/sgi.c:809
+#: plug-ins/snoise/snoise.c:669 plug-ins/sobel/sobel.c:263
+#: plug-ins/spread/spread.c:433 plug-ins/tga/tga.c:1403 plug-ins/tiff/gui.c:84
+#: plug-ins/tiff/gui.c:277 plug-ins/unsharp/unsharp.c:1274
+msgid "OK"
+msgstr "Ados"
+
+#. parameter settings
+#: plug-ins/bmp/bmpwrite.c:579
+msgid "Save Options"
+msgstr "Gorde aukerak"
+
+#: plug-ins/bmp/bmpwrite.c:587
+msgid "RLE encoded"
+msgstr "RLE kodetzea"
+
+#. To get this menupath atom in the ~.po file
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:161
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:543
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1573
+msgid "Bracketing to HDR"
+msgstr "HDR-ra sailkatzen"
+
+#. To avoid unsubtantial multi-line entries in the .po-file due to '\n' format
+#. chars we define coherent strings without format specifiers separately.
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:302
+msgid "More than one layer in image."
+msgstr "Hainbat geruza irudian."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:303
+msgid "No layer in image."
+msgstr "Geruzarik ez irudian."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:304
+msgid "Image contains no data."
+msgstr "Irudiak ez dauka daturik."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:305
+msgid "Not an RGB image."
+msgstr "Ez da GBU irudia."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:306
+msgid "Image has other dimension than the previous loaded images:"
+msgstr "Irudi honen dimentsioak eta aurrez kargatutakoarenak desberdinak dira:"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:307
+msgid "Image has other data type than the previous loaded images:"
+msgstr "Irudi honen datu mota eta aurrez kargatutakoarenak desberdinak dira:"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:308
+msgid "Image has different RGB/Gray layout."
+msgstr "Irudiak GBU/gris geruza desberdina du."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:309
+msgid "16-bit input data"
+msgstr "16 bit-eko sarrerako datuak"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:310
+msgid "Downsampling to 8-bit will happen"
+msgstr "8 bit-era murriztea gerta daiteke"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:349
+#, c-format
+msgid "Sorry, input images of data type '%s' are not supported."
+msgstr "Sarrerako irudiaren '%s' motako datuak ez daude onartuta."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:414
+msgid "Downsample"
+msgstr "Murriztu"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:414
+msgid "No more warn"
+msgstr "Abisu gehiagorik ez"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:659
+#, c-format
+msgid "Precision #%d ('%s') not supported."
+msgstr "%d zehaztasuna ('%s') ez dago onartuta."
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:668
+msgid "Could not create a new image"
+msgstr "Ezin izan da irudi berria sortu"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:381
+msgid "&File"
+msgstr "&Fitxategia"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:382
+msgid "Open Image(s)..."
+msgstr "Ireki irudia(k)..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:383
+msgid "Clear Image Container"
+msgstr "Garbitu irudiaren ontzia"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:384
+msgid "Clear external response curves"
+msgstr "Garbitu kanpoko erantzun-kurbak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:385
+msgid "Quit"
+msgstr "Irten"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:387
+msgid "Make"
+msgstr "Egin"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:388
+msgid "Init Calctor"
+msgstr "Hasieratu Calctor"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:389
+msgid "Compute Response "
+msgstr "Kalkulatu erantzuna "
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:390
+msgid "Compute HDR"
+msgstr "Kalkulatu HDR"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:391
+msgid "Compute log HDR"
+msgstr "Kalkulatu HDR-ren egunkaria"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:392
+msgid "Weight curve 'Response comp.'"
+msgstr "'Erantzun-kalk.' pisu-kurba"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:393
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:401
+msgid "Identity"
+msgstr "Identitatea"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:394
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:402
+msgid "Identity with 0-borders"
+msgstr "Identitatea 0 ertzekin"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:395
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:403
+msgid "Triangle"
+msgstr "Triangelua"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:396
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:404
+msgid "Sinus"
+msgstr "Sinua"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:397
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:405
+msgid "Identity_0_Param"
+msgstr "Identitatea_0_param"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:398
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:406
+msgid "Triangle_Param"
+msgstr "Triangelu_param"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:400
+msgid "Weight curve 'HDR merging'"
+msgstr "'HDR batzea' pisu-kurba"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:408
+msgid "Report  (console)"
+msgstr "Txostena (kontsola)"
+
+#. Fl_IntInput_Slider* input_ydim_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:409
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:612
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1487
+msgid "Images"
+msgstr "Irudiak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:410
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:429
+msgid "Numerics"
+msgstr "Zenbakizkoak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:411
+msgid "Calctor's Numerics"
+msgstr "Calctor-en zenbakizkoak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:412
+msgid "Indices"
+msgstr "Indizeak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:413
+msgid "Pack"
+msgstr "Paketea"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:414
+msgid "Status Response Curves"
+msgstr "Erantzun-kurben egoera"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:415
+msgid "Weight Functions"
+msgstr "Pisu-funtzioak"
+
+#. Fl_Group* tab_exif_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:416
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:648
+msgid "Offsets"
+msgstr "Desplazamenduak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:417
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:168
+msgid "Intersection area"
+msgstr "Ebakiduraren area"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:420
+msgid "&Tools"
+msgstr "&Tresnak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:421
+msgid "Follow-up Curves..."
+msgstr "Jarraitu kurbak..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:422
+msgid "Response Curves..."
+msgstr "Erantzun-kurbak..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:423
+msgid "Histogram..."
+msgstr "Histograma..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:424
+msgid "Displacements"
+msgstr "Desplazamenduak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:425
+msgid "Offset Computation..."
+msgstr "Desplazamenduaren kalkulua..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:426
+msgid "TestSuite..."
+msgstr "ProbaSuitea..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:427
+msgid "EventDebugger..."
+msgstr "Gertaeren arazketa..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:430
+msgid "Pack-Format"
+msgstr "Pakete-formatua"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:431
+msgid "Single Images + interleave"
+msgstr "Irudi bakunak + tartekatzea"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:432
+msgid "Channel-wise"
+msgstr "Kanal-zuhurra"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:435 plug-ins/gfig/gfig.c:3986
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:436
+msgid "Show time setting bar"
+msgstr "Erakutsi denboraren ezarpen-barra"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:437
+msgid "Show Offset bar"
+msgstr "Erakutsi desplazamendu-barra"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:438
+msgid "Auto-update follow-up curves"
+msgstr "Eguneratu automatikoki kurben jarraipena"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:439
+msgid "Auto-load last external response curves at start"
+msgstr "Kargatu automatikoki kanpoko erantzun-kurbak abioan"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:440
+msgid "Downsample 16-bit input images"
+msgstr "Murriztu 16 bit-era sarrerako irudiak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:441
+msgid "Method for solving the least square fit"
+msgstr "Metodoa gutxieneko karratua ebazteko"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:442
+msgid "auto (try QR; if rank defect use SVD)"
+msgstr "automatikoa (saiatu QR, akatsen heinean erabili SVD)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:443
+msgid "QR (abborts if rank defect)"
+msgstr "QR (akatsen heinean abortatu)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:444
+msgid "SVD (a bit faster than 'auto' if QR fails)"
+msgstr "SVD ('auto' baino piskat azkarragoa QR-ek huts egitean)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:445
+msgid "testmode (QR + SVD + compare)"
+msgstr "proba-modua (QR+SVD+konparatu)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:447
+msgid "Method for Z-Matrix generation"
+msgstr "Metodoa Z matrizea sortzeko"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:448
+msgid "selection along refpic line (recommended!)"
+msgstr "hautapena irud-erref lerroan (gomendatua)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:449
+msgid "overlapp criterion (default until version 0.5.1)"
+msgstr "teilakatzeko irizpidea (lehenetsia 0.5.1 bertsiorarte)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:451
+msgid "Enforce progress refreshes"
+msgstr "Derrigortu progresioa freskatzea"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:452
+msgid "Auto-save settings at plug-in end"
+msgstr "Gorde automatikoki ezarpenak plugin-a amaitzean"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:453
+msgid "Save current settings"
+msgstr "Gorde uneko ezarpenak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:454
+msgid "Default settings"
+msgstr "Ezarpen lehenetsiak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:455
+msgid "Reset window positions"
+msgstr "Berrezarri leihoaren posizioa"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:457 plug-ins/mblur/mblur.c:1359
+#: plug-ins/print/print-lcms-options.c:248
+msgid "Help"
+msgstr "Laguntza"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:458
+msgid "About..."
+msgstr "Honi buruz..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:459
+msgid "HDR-Tutorial...."
+msgstr "HDR tutoretza..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:613
+msgid ""
+"Table of input images, ordered by average brightness per pixel. Column "
+"'Brightness' shows the relative brightness compared to the darkest image. "
+"Column 'Wk-Range' shows the percentage of pixels within the working range."
+msgstr ""
+"Sarrerako irudien taula, pixeleko batez besteko distiraren arabera "
+"ordenatua. 'Distira' zutabeak distira erlatiboa erakusten du, irudi "
+"ilunenarekin konparatuz. 'Wk-heina' zutabeak laneko heinaren pixelen "
+"ehunekoa erakusten du."
+
+#. Fl_Group* tab_images_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:633
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:675
+msgid "EXIF"
+msgstr "EXIF"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:649
+msgid ""
+"Offset of the images. Column 1 lists the computed value - computed against "
+"the image at position \"to pos\". Column 3 shows the global offset relative "
+"to the first active image."
+msgstr ""
+"Irudien desplazamendua. 1. zutabeak kalkulatutako balioa zerrendatzen du, "
+"\"posiziora\" posizioko irudiaren aurka kalkulatua. 3. zutabeak "
+"desplazamendu globala erakusten du aurreneko irudi aktiboarekiko."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:672
+msgid "Times by:"
+msgstr "Denbora:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:676
+msgid ""
+"Determines exposure times from the EXIF data. For shutter speeds = 0 result "
+"times = 0!"
+msgstr ""
+"EXIF datuen esposizio-denborak zehazten ditu. Gortinaren abiadura = 0 "
+"izateko emaitzeko denbora = 0."
+
+#. Fl_Round_Button* radio_timesByEXIF_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:683
+msgid "Stops"
+msgstr "Puntuak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:684
+msgid "Generates times for all images using the current \"stops\" value."
+msgstr "Irudi guztien denborak sortzen ditu uneko \"puntuak\" balioa erabiliz."
+
+#. Fl_Round_Button* radio_timesByStop_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:690
+msgid "Stops active"
+msgstr "Puntu aktiboa"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:691
+msgid ""
+"Generates times for the *activated* images using the current \"stops\" value."
+msgstr ""
+"Aktibatutako irudien denborak sortzen ditu uneko \"puntuak\" balioa erabiliz."
+
+#. StopvalueChoicer* stopvalueChoicer_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:711
+msgid "normed"
+msgstr "normaldu"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:712
+msgid "Scales times so, that the first time of a series becomes 1."
+msgstr "Denborak eskalatzen ditu, serieko aurreneko denbora 1 bihurtuz."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:724
+msgid "use offsets"
+msgstr "erabili desplazamenduak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:725
+msgid "If checked, computed offsets are used in HDR calculator initalisation."
+msgstr ""
+"Gaitzen bada, kalkulatutako desplazamenduak HDR hasieratzeko kalkuluetan "
+"erabiliko dira."
+
+#. Fl_Check_Button* bttn_use_offsets_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:730
+msgid "Compute Offsets"
+msgstr "Kalkulatu desplazamenduak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:731
+msgid "Computes offsets (displacements) for all activated images."
+msgstr "Aktibatutako irudi guztien desplazamenduak kalkulatzen ditu."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:751
+msgid "Init"
+msgstr "Hasieratu"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:752
+msgid "Init the HDR-Calculator with the activated input images"
+msgstr "Hasieratu HDR kalkulagailua aktibatutako sarrerako irudiekin"
+
+#. InitCalctorButton* o
+#. Fl_Value_Slider* slider_smoothing_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:764
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1154
+msgid "Compute Response"
+msgstr "Kalkulatu erantzuna"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:765
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1155
+msgid "Compute the response curves"
+msgstr "Kalkulatu erantzun-kurbak"
+
+#. ComputeResponseButton* bttn_init_calctor_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:777
+msgid "HDR"
+msgstr "HDR"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:778
+msgid ""
+"Assemble the HDR image using the \"using next\" response curves. If they are "
+"incomplete, they are computed before, except \"use external curves\" is on."
+msgstr ""
+"Muntatu HDR irudia \"hurrengoa erabiltzen\" erantzun-kurbak erabiliz. Osatu "
+"gabekoak badira, aurrez kalkulatuko dira, baldin eta \"erabili kanpoko kurbak"
+"\" ez badago aktibatuta."
+
+#. HDRButton* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:791
+msgid "M"
+msgstr "M"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:792
+msgid "Mark cropped (zero-weighted, unresolved) HDR-values by contrast colors"
+msgstr ""
+"Markatu moztuta (zero-pisuduna, ebatzi gabea) HDR balioak koloreen "
+"kontrastearen arabera"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:970
+msgid "using next"
+msgstr "hurrengoa erabiltzen"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:971
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:165
+msgid "computed"
+msgstr "kalkulatua"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:972
+msgid "external"
+msgstr "kanpokoa"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:973
+msgid "calctor's"
+msgstr "calctor-en"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1006
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1042
+msgid "All channels"
+msgstr "Kanal guztiak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1007
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1043
+msgid "R channel"
+msgstr "G kanala"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1008
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1044
+msgid "G channel"
+msgstr "B kanala"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1009
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1045
+msgid "B channel"
+msgstr "U kanala"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1109
+msgid "Response Curves (Br2HDR)"
+msgstr "Erantzun-kurbak (Br2HDR)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1112
+msgid ""
+"Red, green, blue the (inverse) response curves for the R, G, B channel: "
+"exposure X over pixel value z. White the weight function for HDR-merging, "
+"dark gray the weight function for response computation (the white can hide "
+"the dark). --- Type \"1\", \"2\"... to see the single curves, \"0\" shows "
+"all."
+msgstr ""
+"G, B,eta U kanalen gorria, berdea eta urdina (alderantzizko) erantzun-"
+"kurbak: z balioko pixelaren gaineko X esposizioa. HDR batzeko 'zuria' pisu-"
+"funtzioa, erantzuna kalkulatzeko 'gris iluna' pisu-funtzioa (zuriak iluna "
+"ezkuta dezake). --- Idatzi \"1\", \"2\", ... kurba bakunak ikusteko, \"0\" "
+"teklak guztiak erakusten ditu."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1130
+msgid "Spot Points"
+msgstr "Pikorta puntuak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1131
+msgid ""
+"Number of spots to select for response curve computation (vertical sections "
+"through the follow-up curves diagram)"
+msgstr ""
+"Hautatuko den pikorta kopurua erantzun-kurbak kalkulatzeko (sekzio "
+"bertikalak kurben jarraipenen diagraman zehar)"
+
+#. Fl_Value_Slider* slider_grid_points_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1143 plug-ins/jpeg/jpeg.c:818
+msgid "Smoothing"
+msgstr "Leuntasuna"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1144
+msgid "Smoothing coefficient for response curve computation"
+msgstr "Erantzun-kurba kalkulatzeko leuntasunaren koefizientea"
+
+#. ComputeResponseButton* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1167
+msgid "Use external curves"
+msgstr "Erabili kanpoko kurbak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1168
+msgid "Deactivate the response curve computing stuff"
+msgstr "Desaktibatu erantzun-kurbak kalkulatzea"
+
+#. Fl_Group* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1175
+msgid "Plotted:"
+msgstr "Bilbatua:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1176
+msgid "Select the curves to plot"
+msgstr "Hautatu kurbak bilbatzeko"
+
+#. Fl_Choice* choice_plot_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1182 plug-ins/gfig/gfig.c:3567
+msgid "Load"
+msgstr "Kargatu"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1183
+msgid ""
+"Load external response curves from file. For \"load all\" the filename "
+"endings \"_R\", \"_G_\", \"_B\" are handled automatically (removed & "
+"completed)."
+msgstr ""
+"Kargatu kanpoko erantzun-kurbak fitxategitik. \"Kargatu denak\" kasuan \"_G"
+"\", \"_B\" eta \"_U\" amaiera duten fitxategi-izenak automatikoki kudeatuko "
+"dira (kenduta eta osatuta)."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1190
+msgid ""
+"Save the PLOTTED response curves to file. The filenames are completed "
+"automatically by the channel endings \"_R\", \"_G\", \"_B\"."
+msgstr ""
+"Gorde bilbatutako erantzun-kurbak fitxategian. Fitxategiak automatikoki "
+"osatzen dira kanalaren \"_G\", \"_B\" eta \"_U\" amaieren arabera."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1197
+msgid "Select the response curves using next for HDR merging"
+msgstr "Hautatu erantzun-kurbak hurrengoa erabiliz HDR batzeko"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1199
+msgid "Curves using next:"
+msgstr "Kurbak hurrengoa erabiliz:"
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1201
+msgid "external:"
+msgstr "kanpokoa:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1202
+msgid "Make all external response curves to \"using next\" curves"
+msgstr "Egin kanpoko erantzun-kurba guztiak 'kurba \"hurrengoa erabiliz\"'"
+
+#. Fl_Button* button_extern_all_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1207
+msgid "computed:"
+msgstr "kalkulatua:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1208
+msgid "Make all computed response curves to \"using next\" curves"
+msgstr ""
+"Egin kalkulatutako erantzun-kurba guztiak 'kurbak \"hurrengoa erabiliz\"'"
+
+#. Fl_Light_Button* radio_computed_[0]
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1214
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1221
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1297
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1674
+msgid "R"
+msgstr "G"
+
+#. Fl_Light_Button* radio_computed_[1]
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1231
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1237
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1298
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1675
+msgid "G"
+msgstr "B"
+
+#. Fl_Light_Button* radio_computed_[2]
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1246
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1252
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1299
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1676
+msgid "B"
+msgstr "U"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1304
+msgid "Follow-up Curves (Br2HDR)"
+msgstr "Kurben jarraipena (Br2HDR)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1308
+msgid "Follow-up curves for the chosen reference image and channel"
+msgstr "Aukeratutako irudi eta kanalen erreferentzien kurben jarraipena"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1323
+msgid "Ref-Img"
+msgstr "Irud-Erref"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1324
+msgid "Reference image for calculation of follow-up curves"
+msgstr "Irudi-erreferentzia kurben jarraipena kalkulatzeko"
+
+#. RefpicChoicer* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1337
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1706
+msgid "Channel"
+msgstr "Kanala"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1338
+msgid "Channel for which follow-up curves shall be displayed"
+msgstr "Kanala, bere kurben jarraipena bistaratzeko"
+
+#. Fl_Choice* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1343
+msgid "Compute"
+msgstr "Kalkulatu"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1344
+msgid "Compute follow-up curves"
+msgstr "Kalkulatu kurben jarraipena"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1386
+msgid "XY-Slope"
+msgstr "XY malda"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1387
+msgid "Random Values"
+msgstr "Ausazko balioak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1392 plug-ins/mblur/mblur.c:1419
+msgid "Linear"
+msgstr "Lineala"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1393
+msgid "Cosinus"
+msgstr "Kosinua"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1436
+msgid "uint8"
+msgstr "uint8"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1437
+msgid "uint16"
+msgstr "uint16"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1444
+msgid "TestSuite (Br2HDR)"
+msgstr "ProbaSuitea (Br2HDR)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1448
+msgid "Add Test Images"
+msgstr "Gehitu probako irudiak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1449
+msgid ""
+"Create a simulated series of bracketed exposures and add it to the image "
+"container. The therein used exposure times correspond a 'stop' value of 1."
+msgstr ""
+"Sortu sailkatutako esposizioen simulatutako serieak eta gehitu irudi-"
+"ontziari. Hor erabilitako esposizioko denbora 'puntua'ren 1 balioari dagokio."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1451
+msgid "x-dim"
+msgstr "x dim."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1452
+msgid "x-dimension of the images"
+msgstr "Irudien x dimentsioa"
+
+#. Fl_IntInput_Slider* input_xdim_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1469
+msgid "y-dim"
+msgstr "y dim."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1470
+msgid "y-dimension of the imagess"
+msgstr "Irudien y dimentsioa"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1488
+msgid "Number of images of a series"
+msgstr "Serieko irudi kopurua"
+
+#. Fl_Value_Slider* input_N_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1498
+msgid "Clear image container before"
+msgstr "Garbitu irudi-ontzia aurrenik"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1499
+msgid "Clear image container before adding"
+msgstr "Garbitu irudi-ontzia gehitu aurretik"
+
+#. Fl_Check_Button* check_clear_old_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1503
+msgid "Radiance Scene"
+msgstr "Dirdiraren Eszena"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1504
+msgid "Simulated Radiance Scene"
+msgstr "Simulatutako dirdiraren eszena"
+
+#. Fl_Choice* choice_scene_
+#. Fl_Choice* choice_response_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1509
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1518
+msgid "Details..."
+msgstr "Xehetasunak..."
+
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1512
+msgid "Response Function"
+msgstr "Erantzun-funtzioa"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1513
+msgid "The (simulated) response function used for image generation"
+msgstr "Erantzun-funtzioa (simulatua) irudia sortzean erabiltzeko"
+
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1521 plug-ins/gfig/gfig.c:3156
+msgid "Add"
+msgstr "Gehitu"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1522
+msgid "Add the above specified test images"
+msgstr "Gehitu gainean zehaztutako irudi probak"
+
+#. Fl_Button* bttn_add_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1525
+msgid "123... Images"
+msgstr "123... irudiak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1526
+msgid "Add images with 1,2,3... values"
+msgstr "Gehitu irudiak 1,2,3... balioekin"
+
+#. Fl_Button* bttn_add_simple_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1529
+msgid "Bad Images"
+msgstr "Irudi txarrak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1530
+msgid ""
+"Creates an image series, which produces an exception while response "
+"computation."
+msgstr ""
+"Irudien serieak sortzen ditu, salbuespena sortzen duelarik erantzuna "
+"kalkulatzean."
+
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1534
+msgid "Data type"
+msgstr "Datu mota"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1535
+msgid "Data type of the images"
+msgstr "Irudien datu mota"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1568
+msgid "About \"Bracketing to HDR\""
+msgstr "\"HDR-ra sailkatzea\" buruz"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1573
+msgid "Version"
+msgstr "Bertsioa"
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1576
+msgid "Plugin for CinePaint"
+msgstr "CinePaint-en plugin-a"
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1579
+msgid "(c) 2005/06  Hartmut Sbosny"
+msgstr "(c) 2005/06  Hartmut Sbosny"
+
+#. Fl_Output* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1587
+msgid ""
+"Merges bracketed exposures of a (still) scene into one High Dynamic Range "
+"image (radiance map)"
+msgstr ""
+"Eszena baten sailkatutako esposizioak HDR (Barruti Dinamiko Altua) irudian "
+"batzen ditu (dirdira mapa)"
+
+#. Fl_Box* o
+#. Action area
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1591
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1640
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168 plug-ins/gfig/gfig.c:1971
+#: plug-ins/gfig/gfig.c:2031 plug-ins/iol/interface.c:340
+#: plug-ins/script-fu/script-fu-console.c:216
+msgid "Close"
+msgstr "Itxi"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1616
+msgid "HDR-Tutorial"
+msgstr "HDR tutoretza"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1618
+msgid "HDR-Tutorial..."
+msgstr "HDR tutoretza..."
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1622
+msgid "An english tutorial you will find at:"
+msgstr "Ingelesezko tutoretzaren helbidea:"
+
+#. Fl_Output* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1637
+msgid "Eine deutsche Anleitung finden Sie unter:"
+msgstr "Alemanezko tutoretzaren helbidea:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1673
+msgid "all"
+msgstr "denak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1689
+msgid "Histogram (Br2HDR)"
+msgstr "Histograma (Br2HDR)"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1692
+msgid "Histogram: percentage of pixels with value x"
+msgstr "Histograma: pixelen ehunekoa x balioarekin"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1707
+msgid "Channel for which histogram shall be displayed"
+msgstr "Kanala, bere histograma bistaratzeko"
+
+#. Fl_Choice* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1713
+msgid "Image"
+msgstr "Irudia"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:120
+#, c-format
+msgid "Could not read response curve file \"%s\"."
+msgstr "Ezin izan da erantzun-kurbaren \"%s\" fitxategia sortu."
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:139
+#, c-format
+msgid "A file \"%s\" already exists."
+msgstr "\"%s\" izeneko fitxategia badago lehendik ere."
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:140
+msgid "Overwrite"
+msgstr "Gainidatzi"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:140
+msgid "Overwrite all"
+msgstr "Gainidatzi denak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:174
+msgid "Save response curves under basename..."
+msgstr "Gorde erantzun-kurbak oinarrizko izenarekin..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:239
+#, c-format
+msgid "Load response curve for channel %c"
+msgstr "Kargatu %c kanalaren erantzun-kurbak"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:259
+msgid "Load all response curves. Choose basename"
+msgstr "Kargatu erantzun-kurba guztiak. Aukeratu oinarrizko izena"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:309
+msgid "Open Images for Bracketing to HDR"
+msgstr "Ireki irudiak HDR-ra sailkatzeko"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:66
+#: plug-ins/pdf/pdf_dialog.cxx:92
+msgid "0"
+msgstr "0"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:67
+#: plug-ins/pdf/pdf_dialog.cxx:93
+msgid "1"
+msgstr "1"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:68
+#: plug-ins/pdf/pdf_dialog.cxx:94
+msgid "2"
+msgstr "2"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:108
+msgid "Offset Computation (Br2HDR)"
+msgstr "Desplazamenduaren kalkulua (Br2HDR)"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:112
+msgid "Parameters"
+msgstr "Parametroak"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:114
+msgid "Start size M of the Search areas (M x M)"
+msgstr "Hasierako M tamaina bilaketako arean (M x M)"
+
+#. Fl_Int_Input* input_M_start_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:126
+msgid "Start size N of the Correlation areas (N x N)"
+msgstr "Hasierako N tamaina korrelazio arean (N x N)"
+
+#. Fl_Int_Input* input_N_start_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:138
+msgid "Maximum number of Search areas in each dimension"
+msgstr "Bilaketako areen gehienezko kopurua dimentsio bakoitzean"
+
+#. Fl_Int_Input* input_max_num_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:150
+msgid "Size to subtract from Search areas after each cycle"
+msgstr "Tamaina bilaketako areatik kentzeko begizta bakoitzaren ondoren"
+
+#. Fl_Int_Input* input_subtr_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:162
+msgid "Size to add to Correlation areas after each cycle"
+msgstr "Tamaina korrelazio areei gehiteko begizta bakoitzaren ondoren"
+
+#. Fl_Int_Input* input_add_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:174
+msgid "Minimum accepted correlation coefficient [-1...+1]"
+msgstr "Onartutako gutxieneko korrelazio koefizientea [-1...+1]"
+
+#. Fl_Group* grp_input_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:188
+msgid "Default values"
+msgstr "Balio lehenetsiak"
+
+#. Fl_Button* bttn_default_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:191
+msgid "verbose (console)"
+msgstr "Xehatua (kontsola)"
+
+#. Fl_Group* o
+#. ImageNumberChoice* choice_imgB_
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:199
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:227
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:238
+msgid "Single Run"
+msgstr "Exekuzio bakuna"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:201
+msgid "Image A"
+msgstr "A irudia"
+
+#. ImageNumberChoice* choice_imgA_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:214
+msgid "Image B"
+msgstr "B irudia"
+
+#. Fl_Tabs* o
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:235
+msgid "Run for all active images"
+msgstr "Exekutatu irudi aktibo denekin"
+
+#: plug-ins/bracketing_to_hdr/gui/br_messages_gui.cpp:112
+msgid "Image ignored."
+msgstr "Irudia baztertuta."
+
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:167
+msgid "Name"
+msgstr "Izena"
+
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:168
+msgid "Pixel"
+msgstr "Pixel"
+
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:169
+#: plug-ins/rawphoto/rawphoto.c:408
+msgid "Brightness"
+msgstr "Distira"
+
+#. "Wk-Range" for 'working range'
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:171
+msgid "Wk-Range"
+msgstr "Wk heina"
+
+#. "Time" for 'exposure time'
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:173
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:179
+#: plug-ins/snoise/snoise.c:584
+msgid "Time"
+msgstr "Denbora"
+
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:166
+msgid "to pos"
+msgstr "posiziora"
+
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:167
+msgid "active offset"
+msgstr "aktibatu desplaz."
+
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:176
+msgid "Shutter speed [s]"
+msgstr "Gortinaren abiadura (s)"
+
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:177
+msgid "Aperture"
+msgstr "Irekiera"
+
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:178
+msgid "ISO"
+msgstr "ISO"
+
+#: plug-ins/bracketing_to_hdr/gui/StopvalueChoicer.cpp:41
+msgid ""
+"Here you can generate exposure times increasing by a constant factor F=2^"
+"(stop). F is stated traditionally by specifying the exponent \"stop\", which "
+"corresponds to differences of aperture values."
+msgstr ""
+"Esposizioko denbora F=2^(puntua) faktore konstantearekin sor dezakezu. 'F' "
+"\"puntua\" berretzailea zehaztuz adierazten da, non \"puntua\" irekieraren "
+"balioen diferentziei dagiokio."
+
+#. hint, that the shown computed curves reflect no more current params
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:295
+msgid "outdated"
+msgstr "zaharkitua"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:411
+msgid "no curves"
+msgstr "kurbarik ez"
+
+#. The following response curves are missed
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:423
+msgid "missing:"
+msgstr "falta da:"
+
+#. ****************************************************************************
+#. static elements:
+#. *****************************************************************************
+#. Title of the response curve diagrams
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+msgid "Using next"
+msgstr "Hurrengoa erabiliz"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+msgid "Computed"
+msgstr "Kalkulatua"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+msgid "External"
+msgstr "Kanpokoa"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+msgid "Calctor's"
+msgstr "Calctor"
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:47
+msgid "Please provide first a complete set of \"using next\" response curves."
+msgstr "Aurrenik eman erantzun-kurben \"hurrengoa erabiliz\" multzo osoa."
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:50
+#: plug-ins/bracketing_to_hdr/br_core/FollowUpValues_RGB_U8.cpp:106
+#: plug-ins/bracketing_to_hdr/br_core/FollowUpValues_RGB_U16_as_U8.cpp:105
+msgid "Computing follow-up values..."
+msgstr "Balioen jarraipena kalkulatzen..."
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:572
+msgid "Image to add has other dimension than the existing image(s):"
+msgstr "Gehitzeko irudiak beste irudien baino dimentsio bat gehiago dauka:"
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:573
+msgid "Image to add has other type than the existing image(s):"
+msgstr "Gehitzeko irudiak beste irudien mota desberdina du:"
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:574
+msgid "Image to add has other data type than the existing image(s):"
+msgstr "Gehitzeko irudiak beste irudien datu mota desberdina du:"
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:579
+#, c-format
+msgid "Images of data type \"%s\" can not be added."
+msgstr "\"%s\" datu motako irudiak ezin dira gehitu."
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:586
+#, c-format
+msgid "Images of type \"%s\" can not be added."
+msgstr "\"%s\" motako irudiak ezin dira gehitu."
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:1258
+msgid "Computing response functions..."
+msgstr "Erantzun-funtzioak kalkulatzen..."
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U8.cpp:122
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U16_as_U8.cpp:130
+msgid "Computing response curves..."
+msgstr "Erantzun-kurbak kalkulatzen..."
+
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U8.cpp:164
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U16_as_U8.cpp:168
+#, c-format
+msgid ""
+"Exception while computing of response curves.\n"
+"\tProbably unsuitable image data.\n"
+"\tContext: %s"
+msgstr ""
+"Salbuespena erantzun-kurbak kalkulatzean.\n"
+"\tBaliteke irudiaren datuak desegokiak izatea.\n"
+"\tTestuingurua: %s"
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U8.cpp:222
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U16.cpp:120
+msgid "Merging HDR image..."
+msgstr "HDR irudia batzen..."
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U8.cpp:524
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U16.cpp:331
+msgid "Merging logarithmic HDR image..."
+msgstr "HDR irudi logaritmikoa batzen..."
+
+#. progress info text
+#: plug-ins/bracketing_to_hdr/br_core/testtools.cpp:39
+msgid "Computing simulated images..."
+msgstr "Simulatutako irudia kalkulatzen..."
+
+#. ============================================
+#. Local helpers to centralize some messages
+#. ============================================
+#: plug-ins/bracketing_to_hdr/br_core/Run_DisplcmFinder.cpp:41
+msgid "Compute Displacements..."
+msgstr "Desplazamenduak kalkulatzen..."
+
+#: plug-ins/bracketing_to_hdr/br_core/Run_DisplcmFinder.cpp:48
+#, c-format
+msgid "Sorry, could not compute offset: image #%d <=> image #%d. Error %d."
+msgstr ""
+"Ezin izan da desplazamendua kalkulatu: %d. irudia <=> %d. irudia. %d. "
+"errorea."
+
+#: plug-ins/cineon/cineon.c:501 plug-ins/cineon/cineon.c:503
+#: plug-ins/iff/iff.c:956 plug-ins/jpeg/jpeg.c:305 plug-ins/png/png.c:433
+#: plug-ins/png/png.c:435 plug-ins/sgi/sgi.c:364 plug-ins/sgi/sgi.c:366
+#: plug-ins/tga/tga.c:382
+msgid "Loading"
+msgstr "Kargatzen"
+
+#: plug-ins/cineon/cineon.c:709 plug-ins/cineon/cineon.c:711
+#: plug-ins/hdr/hdr.c:461 plug-ins/iff/iff.c:1360 plug-ins/jpeg/jpeg.c:504
+#: plug-ins/png/png.c:846 plug-ins/png/png.c:848 plug-ins/sgi/sgi.c:626
+#: plug-ins/sgi/sgi.c:628 plug-ins/tga/tga.c:1138 plug-ins/tiff/tiff.c:2880
+#: plug-ins/tiff/tiff.c:2881
+msgid "Saving"
+msgstr "Gordetzen"
+
+#: plug-ins/cineon/cineon.c:891
+msgid "Conversion"
+msgstr "Bihurketa"
+
+#: plug-ins/cineon/cineon.c:908 plug-ins/rawphoto/rawphoto.c:407
+msgid "Gamma"
+msgstr "Gamma"
+
+#: plug-ins/cineon/cineon.c:921
+msgid "Hi there"
+msgstr "Kaixo"
+
+#: plug-ins/cineon/cineon.c:927 plug-ins/edge/edge.c:1059
+#: plug-ins/gfig/gfig.c:3339
+msgid "Black"
+msgstr "Beltza"
+
+#: plug-ins/cineon/cineon.c:938 plug-ins/gfig/gfig.c:2853
+#: plug-ins/gfig/gfig.c:3340
+msgid "White"
+msgstr "Zuria"
+
+#: plug-ins/cineon/cineon.c:952
+msgid "  Reset  "
+msgstr "  Berrezarri  "
+
+#. translation workaround
+#: plug-ins/collect/collect.cpp:126
+msgid "File"
+msgstr "Fitxategia"
+
+#: plug-ins/collect/collect.cpp:126
+msgid "New From"
+msgstr "Berria hemendik"
+
+#: plug-ins/collect/collect.cpp:126
+msgid "Collect..."
+msgstr "Bildu..."
+
+#: plug-ins/collect/collect.cpp:242
+msgid ""
+"The \"rawphoto\" plugin won't work because there is no \"dcraw\" executable "
+"in your path."
+msgstr ""
+"\"rawphoto\" plugin-ak ez du funtzionatuko ez dagoelako \"dcraw\" "
+"exekutagarririk bide-izenean."
+
+#: plug-ins/collect/collect.cpp:275
+msgid "Select images"
+msgstr "Hautatu irudiak"
+
+#: plug-ins/collect/collect.cpp:295
+msgid "Collect"
+msgstr "Bildu"
+
+#: plug-ins/dbbrowser/dbbrowser.c:87
+msgid "Scripts"
+msgstr "Script-ak"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+msgid "Procedure Browser (init)"
+msgstr "Prozedura arakatzailea"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr "Bilatu:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr "Bilatu izenaren arabera"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by summary"
+msgstr "Bilatu laburpenaren arabera"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Aplikatu"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+msgid "Name :"
+msgstr "Izena:"
+
+#. show the short description (aka Blurb)
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+msgid "Summary :"
+msgstr "Laburpena:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr "Sarrera:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr "Irteera:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+msgid "Author :"
+msgstr "Egilea:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+msgid "Date :"
+msgstr "Data:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+msgid "Copyright :"
+msgstr "Copyright-a:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "Procedure Browser (by name - please wait)"
+msgstr "Prozedura arakatzailea (izenaren arabera, itxaron)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "Procedure Browser (by summary - please wait)"
+msgstr "Prozedura arakatzailea (laburpenaren arabera, itxaron)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "Procedure Browser (please wait)"
+msgstr "Prozedura arakatzailea (itxaron)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "Procedure Browser"
+msgstr "Prozedura arakatzailea"
+
+#: plug-ins/edge/edge.c:174
+msgid "Edge"
+msgstr "Ertza"
+
+#: plug-ins/edge/edge.c:175 plug-ins/sobel/sobel.c:145
+msgid "Edge-Detect"
+msgstr "Detektatu ertzak"
+
+#: plug-ins/edge/edge.c:237
+msgid "Edge detection..."
+msgstr "Ertza detektatzea..."
+
+#: plug-ins/edge/edge.c:950
+msgid "Edge Detection"
+msgstr "Ertz-detekzioa"
+
+#. parameter settings
+#: plug-ins/edge/edge.c:975
+msgid "Edge Detection Options"
+msgstr "Ertza detektatzeko aukerak"
+
+#.
+#. Label, scale, entry for	evals.amount
+#.
+#: plug-ins/edge/edge.c:988 plug-ins/unsharp/unsharp.c:1308
+msgid "Amount:"
+msgstr "Kopurua:"
+
+#: plug-ins/edge/edge.c:1041
+msgid "Wrap"
+msgstr "Itzulbiratu"
+
+#: plug-ins/edge/edge.c:1050
+msgid "Smear"
+msgstr "Lohitu"
+
+#: plug-ins/gauss_rle/gauss_rle.c:155
+msgid "Blur"
+msgstr "Lausotu"
+
+#: plug-ins/gauss_rle/gauss_rle.c:156
+msgid "Gaussian Blur"
+msgstr "Gauss-en lausotzea"
+
+#: plug-ins/gauss_rle/gauss_rle.c:197 plug-ins/gauss_rle/gauss_rle.c:268
+msgid "gauss_rle: cannot operate on other than 8-/16-bit images."
+msgstr "gauss_rle: ezin da 8/16 bit-eko ez diren irudiekin eragiketarik egin."
+
+#: plug-ins/gauss_rle/gauss_rle.c:240 plug-ins/gauss_rle/gauss_rle.c:313
+msgid "RLE Gaussian Blur"
+msgstr "RLE Gauss-en lausotzea"
+
+#. parameter settings
+#.
+#. * Compression type...
+#.
+#. parameter settings
+#: plug-ins/gauss_rle/gauss_rle.c:338 plug-ins/jpeg/jpeg.c:794
+#: plug-ins/noisify/noisify.c:599 plug-ins/png/png.c:1532
+#: plug-ins/sgi/sgi.c:829 plug-ins/sobel/sobel.c:281
+#: plug-ins/spread/spread.c:451 plug-ins/unsharp/unsharp.c:1285
+msgid "Parameter Settings"
+msgstr "Parametroen ezarpenak"
+
+#: plug-ins/gauss_rle/gauss_rle.c:346
+msgid "Blur Horizontally"
+msgstr "Lausotu horizontalki"
+
+#: plug-ins/gauss_rle/gauss_rle.c:354
+msgid "Blur Vertically"
+msgstr "Lausotu bertikalki"
+
+#: plug-ins/gauss_rle/gauss_rle.c:365
+msgid "Blur Radius: "
+msgstr "Lausotze-erradioa: "
+
+#: plug-ins/gbr/gbr.c:503
+msgid "Need a flat Gray image."
+msgstr "Gris soileko irudia behar da."
+
+#: plug-ins/gfig/gfig.c:682
+msgid "<Image>/Filters/Render/Gfig..."
+msgstr "<Image>/Iragazkiak/Errendatuak/Gfig..."
+
+#: plug-ins/gfig/gfig.c:837
+#, c-format
+msgid ""
+"No gfig-path in gimprc:\n"
+"You need to add an entry like\n"
+"(gfig-path \"%s\")\n"
+"to your %s file."
+msgstr ""
+"Ez dago gfig-path gimprc fitxategian:\n"
+"Honelako sarrera bat gehitu behar duzu\n"
+"(gfig-path \"%s\")\n"
+"zure %s fitxategian."
+
+#: plug-ins/gfig/gfig.c:854
+msgid "gfig-path misconfigured - the following directories were not found"
+msgstr "gfig-path gaizki konfiguratua. Ondorengo direktorioak ez dira aurkitu"
+
+#: plug-ins/gfig/gfig.c:1077
+msgid "First Gfig"
+msgstr "Lehen Gfig-a"
+
+#: plug-ins/gfig/gfig.c:1477
+#, c-format
+msgid "Error opening: %s"
+msgstr "Errorea irekitzean: %s"
+
+#: plug-ins/gfig/gfig.c:1479
+msgid "Could not save."
+msgstr "Ezin izan da gorde."
+
+#: plug-ins/gfig/gfig.c:1578
+msgid "Save Gfig drawing"
+msgstr "Gorde Gfig marrazkia"
+
+#. More Buttons
+#: plug-ins/gfig/gfig.c:1933 plug-ins/gfig/gfig.c:5315
+msgid "Edit"
+msgstr "Editatu"
+
+#: plug-ins/gfig/gfig.c:1938
+msgid "Edit Gfig object collection"
+msgstr "Editatu Gfig objektu-bilduma"
+
+#: plug-ins/gfig/gfig.c:1941
+msgid "Merge"
+msgstr "Batu"
+
+#: plug-ins/gfig/gfig.c:1946
+msgid "Merge Gfig Object collection into the current edit session"
+msgstr "Batu Gfig objektu-bilduma uneko editatze-saioan"
+
+#: plug-ins/gfig/gfig.c:1985
+msgid "Number of Sides/Points/Turns:"
+msgstr "Alde/Puntu/Angeluen kopurua:"
+
+#: plug-ins/gfig/gfig.c:2001
+msgid "Clockwise"
+msgstr "Erlojuaren noranzkoan"
+
+#: plug-ins/gfig/gfig.c:2002
+msgid "Anti-Clockwise"
+msgstr "Erlojuaren noranzkoaren aurka"
+
+#: plug-ins/gfig/gfig.c:2006
+msgid "Orientation:"
+msgstr "Orientazioa:"
+
+#: plug-ins/gfig/gfig.c:2026
+msgid "Bezier Settings"
+msgstr "Bezier ezarpenak"
+
+#: plug-ins/gfig/gfig.c:2046
+msgid "Closed"
+msgstr "Itxita"
+
+#: plug-ins/gfig/gfig.c:2051
+msgid "Close curve on completion"
+msgstr "Itxi kurba osatutakoan"
+
+#: plug-ins/gfig/gfig.c:2056
+msgid "Show Line Frame"
+msgstr "Erakutsi marraren markoa"
+
+#: plug-ins/gfig/gfig.c:2061
+msgid "Draws lines between the control points. Only during curve creation"
+msgstr "Marraztu marrak kontrol-puntuen artean. Kurba sortzean soilik"
+
+#: plug-ins/gfig/gfig.c:2077
+msgid "Regular Polygon Number of Sides"
+msgstr "Poligono erregularra: aldeen kopurua"
+
+#: plug-ins/gfig/gfig.c:2089
+msgid "Star Number of Points"
+msgstr "Izarra: puntuen kopurua"
+
+#: plug-ins/gfig/gfig.c:2101
+msgid "Spiral Number of Points"
+msgstr "Espirala: puntuen kopurua"
+
+#: plug-ins/gfig/gfig.c:2125
+msgid "Ops"
+msgstr "Erag."
+
+#: plug-ins/gfig/gfig.c:2138
+msgid "Create line"
+msgstr "Sortu marra"
+
+#: plug-ins/gfig/gfig.c:2143
+msgid "Create circle"
+msgstr "Sortu zirkulua"
+
+#: plug-ins/gfig/gfig.c:2148
+msgid "Create ellipse"
+msgstr "Sortu elipsea"
+
+#: plug-ins/gfig/gfig.c:2153
+msgid "Create arc"
+msgstr "Sortu arkua"
+
+#: plug-ins/gfig/gfig.c:2162
+msgid "Create reg polygon"
+msgstr "Sortu poligono erregularra"
+
+#: plug-ins/gfig/gfig.c:2170
+msgid "Create star"
+msgstr "Sortu izarra"
+
+#: plug-ins/gfig/gfig.c:2179
+msgid "Create spiral"
+msgstr "Sortu espirala"
+
+#: plug-ins/gfig/gfig.c:2189
+msgid "Create bezier curve. Shift + Button ends object creation."
+msgstr ""
+"Sortu bezier kurba. Maius + botoia sakatuz gero, objektuaren sorrera "
+"amaituko da."
+
+#: plug-ins/gfig/gfig.c:2195
+msgid "Move an object"
+msgstr "Aldatu objektua lekuz"
+
+#: plug-ins/gfig/gfig.c:2200
+msgid "Move a single point"
+msgstr "Aldatu puntu bakarra lekuz"
+
+#: plug-ins/gfig/gfig.c:2205
+msgid "Copy an object"
+msgstr "Kopiatu objektua"
+
+#: plug-ins/gfig/gfig.c:2210
+msgid "Delete an object"
+msgstr "Ezabatu objektua"
+
+#: plug-ins/gfig/gfig.c:2373 plug-ins/gfig/gfig.c:2808
+#: plug-ins/gfig/gfig.c:4016
+msgid "Brush"
+msgstr "Brotxa"
+
+#: plug-ins/gfig/gfig.c:2374
+msgid "Airbrush"
+msgstr "Aerografoa"
+
+#: plug-ins/gfig/gfig.c:2375
+msgid "Pencil"
+msgstr "Arkatza"
+
+#: plug-ins/gfig/gfig.c:2376 plug-ins/gfig/gfig.c:3202
+msgid "Pattern"
+msgstr "Eredua"
+
+#: plug-ins/gfig/gfig.c:2383
+msgid ""
+"Use the brush/pencil or the airbrush when drawing on the image. Pattern "
+"paints with currently selected brush with a pattern. Only applies to circles/"
+"ellipses if Approx. Circles/Ellipses toggle is set."
+msgstr ""
+"Erabili brotxa, arkatza edo aerografoa irudian marraztean. Ereduak une "
+"horretan hautatuta dagoen brotxarekin eta eredu batekin margotzen du. 'Gutxi "
+"gorabeherako zirkuluak/elipseak' aukerak ezarrita egon behar du, zirkulu eta "
+"elipseei aplikatzeko."
+
+#: plug-ins/gfig/gfig.c:2789
+msgid "Original"
+msgstr "Jatorrizkoa"
+
+#: plug-ins/gfig/gfig.c:2790 plug-ins/gfig/gfig.c:3577
+msgid "New"
+msgstr "Berria"
+
+#: plug-ins/gfig/gfig.c:2791
+msgid "Multiple"
+msgstr "Hainbat"
+
+#: plug-ins/gfig/gfig.c:2796
+msgid "Draw all objects on one layer (original or new) or one object per layer"
+msgstr ""
+"Marraztu objektu guztiak geruza batean (jatorrizkoan nahiz berrian) edo "
+"objektu bat geruza bakoitzean"
+
+#: plug-ins/gfig/gfig.c:2801
+msgid "Draw on:"
+msgstr "Marraztu hemen:"
+
+#: plug-ins/gfig/gfig.c:2810
+msgid "Selection"
+msgstr "Hautapena"
+
+#: plug-ins/gfig/gfig.c:2812
+msgid "Selection+Fill"
+msgstr "Hautapena+Bete"
+
+#: plug-ins/gfig/gfig.c:2839
+msgid ""
+"Draw type. Either a brush or a selection. See brush page or selection page "
+"for more options"
+msgstr ""
+"Marrazki-mota. Brotxa edo hautapena. Ikusi brotxaren orria edo hautapenaren "
+"orria aukera gehiago ikusteko"
+
+#: plug-ins/gfig/gfig.c:2843
+msgid "Using:"
+msgstr "Erabiltzen:"
+
+#: plug-ins/gfig/gfig.c:2850
+msgid "Transparent"
+msgstr "Gardena"
+
+#: plug-ins/gfig/gfig.c:2852 plug-ins/gfig/gfig.c:3203
+msgid "Foreground"
+msgstr "Aurreko planoa"
+
+#: plug-ins/gfig/gfig.c:2854 plug-ins/gfig/gfig.c:5302
+msgid "Copy"
+msgstr "Kopiatu"
+
+#: plug-ins/gfig/gfig.c:2858
+msgid ""
+"Layer background type. Copy causes previous layer to be copied before the "
+"draw is performed"
+msgstr ""
+"Geruzaren atzeko plano mota. Kopiatuz gero, aurreko geruza kopiatu egingo da "
+"marrazkia burutu aurretik"
+
+#: plug-ins/gfig/gfig.c:2863
+msgid "With Background of:"
+msgstr "Honen atzeko planoarekin:"
+
+#: plug-ins/gfig/gfig.c:2866
+msgid "Reverse Line"
+msgstr "Alderantzizko marra"
+
+#: plug-ins/gfig/gfig.c:2873
+msgid "Draw lines in reverse order"
+msgstr "Marraztu marrak alderantzizko ordenean"
+
+#: plug-ins/gfig/gfig.c:2881
+msgid "Scale to Image"
+msgstr "Eskalatu irudira"
+
+#: plug-ins/gfig/gfig.c:2889
+msgid "Scale drawings to images size"
+msgstr "Eskalatu irudiak irudien tamainara"
+
+#: plug-ins/gfig/gfig.c:2911
+msgid "Approx. Circles/Ellipses"
+msgstr "Gutxi gorabeherako zirkuluak/elipseak"
+
+#: plug-ins/gfig/gfig.c:2918
+msgid ""
+"Approx. circles & ellipses using lines. Allows the use of brush fading with "
+"these types of objects."
+msgstr ""
+"Gutxi gorabeherako zirkuluak eta elipseak marren bidez. Objektu-mota hauekin "
+"brotxa-iraungitzea erabiltzeko aukera ematen du."
+
+#: plug-ins/gfig/gfig.c:2953
+msgid "Gfig brush selection"
+msgstr "Gfig brotxa-hautapena"
+
+#: plug-ins/gfig/gfig.c:2994
+msgid "Fade out:"
+msgstr "Iraungitu:"
+
+#: plug-ins/gfig/gfig.c:3017
+msgid "Gradient:"
+msgstr "Gradientea:"
+
+#: plug-ins/gfig/gfig.c:3037
+msgid "Pressure:"
+msgstr "Presioa:"
+
+#: plug-ins/gfig/gfig.c:3055
+msgid "No Options..."
+msgstr "Aukerarik ez..."
+
+#. Start of new brush selection code
+#: plug-ins/gfig/gfig.c:3070
+msgid "Set Brush..."
+msgstr "Ezarri brotxa..."
+
+#: plug-ins/gfig/gfig.c:3157
+msgid "Subtract"
+msgstr "Kenketa"
+
+#: plug-ins/gfig/gfig.c:3158
+msgid "Replace"
+msgstr "Ordeztu"
+
+#: plug-ins/gfig/gfig.c:3159
+msgid "Intersect"
+msgstr "Gurutzatu"
+
+#: plug-ins/gfig/gfig.c:3163
+msgid "Selection Type:"
+msgstr "Hautapen mota:"
+
+#. 2
+#: plug-ins/gfig/gfig.c:3167
+msgid "Antialiasing"
+msgstr "Antialiasing-a"
+
+#. 3
+#: plug-ins/gfig/gfig.c:3176
+msgid "Feather"
+msgstr "Difuminatu"
+
+#: plug-ins/gfig/gfig.c:3194 plug-ins/unsharp/unsharp.c:1299
+msgid "Radius:"
+msgstr "Erradioa:"
+
+#: plug-ins/gfig/gfig.c:3208
+msgid "Fill Type:"
+msgstr "Betegarri mota:"
+
+#: plug-ins/gfig/gfig.c:3221
+msgid "Fill Opacity:"
+msgstr "Betegarriaren opakutasuna:"
+
+#: plug-ins/gfig/gfig.c:3229
+msgid "Each Selection"
+msgstr "Hautapen bakoitza"
+
+#: plug-ins/gfig/gfig.c:3230
+msgid "All Selections"
+msgstr "Hautapen guztiak"
+
+#: plug-ins/gfig/gfig.c:3234
+msgid "Fill after:"
+msgstr "Bete honen ondoren:"
+
+#: plug-ins/gfig/gfig.c:3241
+msgid "Segment"
+msgstr "Segmentua"
+
+#: plug-ins/gfig/gfig.c:3242
+msgid "Sector"
+msgstr "Sektorea"
+
+#: plug-ins/gfig/gfig.c:3246
+msgid "Arc as:"
+msgstr "Arkua honela:"
+
+#. Put buttons in
+#: plug-ins/gfig/gfig.c:3300
+msgid "Show Image"
+msgstr "Erakutsi irudia"
+
+#: plug-ins/gfig/gfig.c:3311
+msgid "Reload Image"
+msgstr "Birkargatu irudia"
+
+#: plug-ins/gfig/gfig.c:3323
+msgid "Rectangle"
+msgstr "Laukizuzena"
+
+#: plug-ins/gfig/gfig.c:3324
+msgid "Polar"
+msgstr "Polarra"
+
+#: plug-ins/gfig/gfig.c:3325
+msgid "Isometric"
+msgstr "Isometrikoa"
+
+#: plug-ins/gfig/gfig.c:3329
+msgid "Grid Type:"
+msgstr "Sareta-mota:"
+
+#: plug-ins/gfig/gfig.c:3338
+msgid "Normal"
+msgstr "Normala"
+
+#: plug-ins/gfig/gfig.c:3341
+msgid "Grey"
+msgstr "Grisa"
+
+#: plug-ins/gfig/gfig.c:3342
+msgid "Darker"
+msgstr "Ilunago"
+
+#: plug-ins/gfig/gfig.c:3343
+msgid "Lighter"
+msgstr "Argiago"
+
+#: plug-ins/gfig/gfig.c:3344
+msgid "Very Dark"
+msgstr "Oso iluna"
+
+#: plug-ins/gfig/gfig.c:3348
+msgid "Grid Color:"
+msgstr "Saretaren kolorea:"
+
+#: plug-ins/gfig/gfig.c:3352
+msgid "Max Undo:"
+msgstr "Gehienezko desegitea:"
+
+#: plug-ins/gfig/gfig.c:3360
+msgid "Show Position"
+msgstr "Erakutsi posizioa"
+
+#: plug-ins/gfig/gfig.c:3371
+msgid "Hide Control Points"
+msgstr "Ezkutatu kontrol-puntuak"
+
+#: plug-ins/gfig/gfig.c:3383
+msgid "Show Tooltips"
+msgstr "Erakutsi argibideak"
+
+#: plug-ins/gfig/gfig.c:3393 plug-ins/gfig/gfig.c:4827
+msgid "About"
+msgstr "Honi buruz"
+
+#: plug-ins/gfig/gfig.c:3415
+msgid "Grid"
+msgstr "Sareta"
+
+#: plug-ins/gfig/gfig.c:3426
+msgid "Snap to Grid"
+msgstr "Atxiki saretari"
+
+#: plug-ins/gfig/gfig.c:3434
+msgid "Display Grid"
+msgstr "Bistaratu sareta"
+
+#: plug-ins/gfig/gfig.c:3445
+msgid "Lock on Grid"
+msgstr "Blokeatu sareta"
+
+#: plug-ins/gfig/gfig.c:3460
+msgid "Grid Spacing:"
+msgstr "Saretaren tartea:"
+
+#: plug-ins/gfig/gfig.c:3525
+msgid "Object"
+msgstr "Objektua"
+
+#. Put buttons in
+#: plug-ins/gfig/gfig.c:3556
+msgid "Rescan"
+msgstr "Bilatu berriro"
+
+#: plug-ins/gfig/gfig.c:3561
+msgid "Select directory and rescan Gfig object collection"
+msgstr "Hautatu karpeta eta bilatu berriro Gfig objektu-bilduma"
+
+#: plug-ins/gfig/gfig.c:3572
+msgid "Load a single Gfig object collection"
+msgstr "Kargatu Gfig objektu-bilduma soila"
+
+#: plug-ins/gfig/gfig.c:3581
+msgid "Create a new Gfig object collection for editing"
+msgstr "Sortu Gfig objektu-bilduma berria editatzeko"
+
+#: plug-ins/gfig/gfig.c:3587 plug-ins/gfig/gfig.c:5040
+msgid "Delete"
+msgstr "Ezabatu"
+
+#: plug-ins/gfig/gfig.c:3591
+msgid "Delete currently selected Gfig Object collection"
+msgstr "Ezabatu unean hautatutako Gfig objektu-bilduma"
+
+#. Position labels
+#: plug-ins/gfig/gfig.c:3705
+msgid "XY Position:"
+msgstr "XY posizioa:"
+
+#: plug-ins/gfig/gfig.c:3726
+msgid "Object Details"
+msgstr "Objektuaren xehetasunak"
+
+#: plug-ins/gfig/gfig.c:3755
+msgid "Collection Details"
+msgstr "Bildumaren xehetasunak"
+
+#: plug-ins/gfig/gfig.c:3762
+msgid "Draw Name:"
+msgstr "Marrazkiaren izena:"
+
+#: plug-ins/gfig/gfig.c:3768
+msgid "Filename:"
+msgstr "Fitxategi-izena:"
+
+#: plug-ins/gfig/gfig.c:3774 plug-ins/gfig/gfig.c:3780
+msgid "(none)"
+msgstr "(bat ere ez)"
+
+#. Start buildng the dialog up
+#: plug-ins/gfig/gfig.c:3937
+msgid "GFig"
+msgstr "Gfig"
+
+#: plug-ins/gfig/gfig.c:3942
+msgid "Done"
+msgstr "Eginda"
+
+#: plug-ins/gfig/gfig.c:3944 plug-ins/gfig/gfig.c:4011
+msgid "Paint"
+msgstr "Margotu"
+
+#: plug-ins/gfig/gfig.c:3948
+msgid "Clear"
+msgstr "Garbitu"
+
+#: plug-ins/gfig/gfig.c:3950
+msgid "Undo"
+msgstr "Desegin"
+
+#: plug-ins/gfig/gfig.c:4024
+msgid "Select"
+msgstr "Hautatu"
+
+#: plug-ins/gfig/gfig.c:4029 plug-ins/mblur/mblur.c:1376
+#: plug-ins/pdf/pdf_dialog.cxx:134
+msgid "Options"
+msgstr "Aukerak"
+
+#: plug-ins/gfig/gfig.c:4092
+#, c-format
+msgid ""
+"%d unsaved Gfig objects.\n"
+"Continue with exiting?"
+msgstr ""
+"Gorde gabeko %d Gfig objektu daude.\n"
+"Irten egin nahi duzu?"
+
+#: plug-ins/gfig/gfig.c:4094
+msgid "Warning"
+msgstr "Abisua"
+
+#: plug-ins/gfig/gfig.c:4439
+msgid "Enter Gfig Entry Name"
+msgstr "Idatzi Gfig objektuaren izena"
+
+#: plug-ins/gfig/gfig.c:4463
+msgid "Gfig Object Name:"
+msgstr "Gfig objektuaren izena:"
+
+#. the dialog
+#: plug-ins/gfig/gfig.c:4522
+msgid "Rescan for Gfig Objects"
+msgstr "Bilatu berriro Gfig objektuak"
+
+#: plug-ins/gfig/gfig.c:4540
+msgid "Add Gfig Path"
+msgstr "Gehitu Gfig-en bide-izena"
+
+#. Load a single object
+#: plug-ins/gfig/gfig.c:4618
+msgid "Load Gfig object"
+msgstr "Kargatu Gfig objektua"
+
+#: plug-ins/gfig/gfig.c:4643
+msgid "Error in copy layer for onlayers"
+msgstr "Errorea onlayers-erako geruza kopiatzean"
+
+#. RGBA or GRAYA type
+#. opacity
+#. mode
+#: plug-ins/gfig/gfig.c:4675
+msgid "Error in creating layer"
+msgstr "Errorea geruzak sortzean"
+
+#: plug-ins/gfig/gfig.c:4754
+#, c-format
+msgid "Gfig Layer %d"
+msgstr "%d Gfig geruza"
+
+#: plug-ins/gfig/gfig.c:4851
+msgid "Gfig - GIMP plug-in"
+msgstr "Gfig - GIMP plugin-a"
+
+#: plug-ins/gfig/gfig.c:4856
+msgid "Release 1.3"
+msgstr "1.3 bertsioa"
+
+#: plug-ins/gfig/gfig.c:4866
+msgid "Email alt@picnic.demon.co.uk"
+msgstr "Helb.elek: alt@picnic.demon.co.uk"
+
+#: plug-ins/gfig/gfig.c:4876
+msgid "Isometric grid By Rob Saunders"
+msgstr "Sareta isometrikoa: Rob Saunders"
+
+#: plug-ins/gfig/gfig.c:4909
+msgid "New gfig object"
+msgstr "Gfig objektu berria"
+
+#: plug-ins/gfig/gfig.c:5031
+#, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\"%s\" from the list and from disk?"
+msgstr ""
+"Ziur zaude \"%s\" ezabatu nahi duzula\n"
+"zerrendatik eta diskotik?"
+
+#: plug-ins/gfig/gfig.c:5035
+msgid "Delete Gfig Drawing"
+msgstr "Ezabatu Gfig marrazkia"
+
+#: plug-ins/gfig/gfig.c:5063 plug-ins/gfig/gfig.c:5103
+#, c-format
+msgid "<NONE>"
+msgstr "<BAT ERE EZ>"
+
+#: plug-ins/gfig/gfig.c:5141
+msgid "Editing read-only object - you will not be able to save it"
+msgstr "Irakurtzeko soilik den objektua editatzen - ezingo duzu gorde"
+
+#. Create new entry with name + copy at end & copy object into it
+#: plug-ins/gfig/gfig.c:5244
+#, c-format
+msgid "%s copy"
+msgstr "%s(r)en kopia"
+
+#: plug-ins/gfig/gfig.c:5289
+msgid "Save as..."
+msgstr "Gorde honela..."
+
+#: plug-ins/gfig/gfig.c:6172
+msgid "Error reading file"
+msgstr "Errorea fitxategia irakurtzean"
+
+#: plug-ins/gfig/gfig.c:6529
+msgid "Hey where has the object gone ?"
+msgstr "Nora joan ote da objektua ?"
+
+#. load image
+#: plug-ins/hdr/hdr.c:319
+msgid "Loading "
+msgstr "Kargatzen "
+
+#: plug-ins/hdr/hdr.c:452
+msgid "HDR supports only 32-bit IEEE Float RGB image type."
+msgstr "HDR-ek 32 bit-eko IEEE mugikorreko GBU irudi motak onartzen ditu."
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:195
+msgid "Image Profile..."
+msgstr "Irudiaren profila..."
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:196
+msgid "Proof Profile..."
+msgstr "Probako profila..."
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:197
+msgid "Watch Colours 3D..."
+msgstr "Begiratu 3D koloreak..."
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:198
+msgid "Watch Colours 3D.2..."
+msgstr "Begiratu 3D.2 koloreak..."
+
+#: plug-ins/iff/iff.c:1053
+msgid "Z-Buffer"
+msgstr "Z bufferra"
+
+#: plug-ins/iff/iff.c:1336
+msgid "Greyscale images are not supported\n"
+msgstr "Gris-eskalako irudiak ez daude onartuta\n"
+
+#: plug-ins/iol/interface.c:40
+msgid "IOL - Image Operation Language"
+msgstr "IOL - Irudien Eragiketa-Hizkuntza"
+
+#: plug-ins/iol/interface.c:73
+msgid "Load..."
+msgstr "Kargatu..."
+
+#: plug-ins/iol/interface.c:81
+msgid "Save..."
+msgstr "Gorde..."
+
+#: plug-ins/iol/interface.c:89
+msgid "Go!"
+msgstr "Joan!"
+
+#: plug-ins/iol/interface.c:97
+msgid "Help..."
+msgstr "Laguntza..."
+
+#: plug-ins/iol/interface.c:112
+msgid "Stay Open"
+msgstr "Mantendu irekita"
+
+#: plug-ins/iol/interface.c:152
+msgid "Load File..."
+msgstr "Kargatu fitxategia..."
+
+#: plug-ins/iol/interface.c:183
+msgid "Save File..."
+msgstr "Gorde fitxategia..."
+
+#: plug-ins/iol/interface.c:229
+msgid "IOL Help"
+msgstr "IOL laguntza"
+
+#: plug-ins/iol/interface.c:245
+msgid "Some Information About Variables"
+msgstr "Aldagaiei buruzko informazioa"
+
+#: plug-ins/iol/interface.c:268
+msgid ""
+"There can be up to 50 variables.\n"
+"\n"
+"Variables are always 32-bit floating-point.\n"
+"\n"
+"Variables can have any name of any length, as long as its name\n"
+"a)Does not have spaces in it, and contains only alphanumeric\n"
+"   characters\n"
+"b)Starts with a letter\n"
+"c)Is not already used by a keyword\n"
+"\n"
+"Variables do not have to be declared before they can be used.\n"
+"\n"
+"Variable names are case sensitive"
+msgstr ""
+"Gehienez 50 aldagai egon daizteke.\n"
+"\n"
+"Aldagaiak beti 32 bit-eko koma mugikorrekoak dira.\n"
+"\n"
+"Aldagaiek edozein izen eduki dezakete\n"
+"a)Izenak ezin du zuriunerik eduki, eta karaktere alfanumerikoak\n"
+"    soilik eduki ditzake\n"
+"b)Hizki batekin hasi behar du\n"
+"c)Eta ezin du gako-hitz baten izena erabili\n"
+"\n"
+"Aldagaiek ez dira deklaratzen erabili aurretik.\n"
+"\n"
+"Aldagaien izenetan maiuskulak eta minuskulak bereizten dira"
+
+#: plug-ins/iol/interface.c:270
+msgid "Variables"
+msgstr "Aldagaiak"
+
+#: plug-ins/iol/interface.c:277
+msgid "IOL Keywords"
+msgstr "IOL gako-hitzak"
+
+#: plug-ins/iol/interface.c:299
+msgid ""
+"There are two kinds of keywords: those that return a floating-point\n"
+"number and can therefor be used in mathematical expressions (such\n"
+"as sqrt, clip, etc.), and those that do not (input, output, and size).\n"
+"\n"
+"IF...ELSE statements must be in the form of:\n"
+"\tif condition { statements } else { statements }\n"
+"or\n"
+"\tif condition { statements }\n"
+"\n"
+"*** Keywords that _can't_ be used in expressions ***\n"
+"\n"
+"input\n"
+"Parameters: red green blue alpha\n"
+"Fetch the image's red, green, blue, and alpha values, convert\n"
+"them to floating-point if necessary, and then stick them in their\n"
+"respective variables.\n"
+"\n"
+"output\n"
+"Parameters: red green blue alpha\n"
+"Take the parameters and use their values for the image's\n"
+"respective channels.\n"
+"\n"
+"size\n"
+"Parameters: x y\n"
+"Load the image's width and height into the x and y\n"
+"variables, respectively.\n"
+"\n"
+"pos\n"
+"Parameters: x y\n"
+"Fetches the coordinates of the current pixel; the X axis goes in x,\n"
+"the Y axis goes in y.\n"
+"\n"
+"*** Keywords that _can_ be used in expressions ***\n"
+"\n"
+"clip\n"
+"Parameters: val\n"
+"If val is less than 0.0, clip returns 0.0. If val is greater than 1.0,\n"
+"val returns 1.0. Otherwise, clip returns val.\n"
+"\n"
+"sqrt\n"
+"Parameters: val\n"
+"Compute the square root of val, and then return it.\n"
+"\n"
+"abs\n"
+"Parameters: val\n"
+"Calculates the absolute value of val, and then returns it.\n"
+"\n"
+"sin\n"
+"Parameters: val\n"
+"Return the sine of val.\n"
+"\n"
+"cos\n"
+"Parameters: val\n"
+"Return the cosine of val\n"
+"\n"
+"tan\n"
+"Parameters: val\n"
+"Return the tangent of val\n"
+"\n"
+"log\n"
+"Parameters: val\n"
+"Return the natural logarithm of val\n"
+"\n"
+"log10\n"
+"Parameters: val\n"
+"Return the base-10 logarithm of val\n"
+"\n"
+"pow\n"
+"Parameters: x y\n"
+"Return the value of x raised to the power of y\n"
+"\n"
+"min\n"
+"Parameters: x y\n"
+"If x is less than y, returns x. If y is less than x, returns y. If x and y\n"
+"are the same, returns x.\n"
+"\n"
+"max\n"
+"Parameters: x y\n"
+"If x is greater than y, returns x. If y is greater than x, returns y. If x\n"
+"and y are the same, returns x."
+msgstr ""
+"Bi gako-hitz mota daude: koma mugikorra, zenbakiak eta\n"
+"itzultzen dutenak eta horrela matematikako adierazpenetan\n"
+"erabil daiteke (sqrt, clip e.a.); eta itzultzen ez dituztenak\n"
+"(sarrera, irteera eta tamaina).\n"
+"\n"
+"IF...ELSE instrukzioak honelakoa izaten da:\n"
+"\tif baldintza {instrukzioak} else {instrukzioak}\n"
+"edo\n"
+"\tif baldintza {instrukzioak}\n"
+"\n"
+"*** Adierazpenetan ezin diren erabili gako-hitzak ***\n"
+"\n"
+"input\n"
+"Parametroak: gorria berdea urdina alfa\n"
+"Irudiaren kolore gorriaren, berdearen, urdinaren eta alfaren balioak,\n"
+"gero puntu mugikorrera bihurtuko ditu behar izanez gero, eta ondoren\n"
+"hauek dagokien aldagaietan jarri.\n"
+"\n"
+"output\n"
+"Parametroak: gorria berdea urdina eta alfa\n"
+"Parametroak hartu eta beraien balioak irudiari\n"
+"dagokien kanaletan erabiltzeko.\n"
+"\n"
+"size\n"
+"Parametroak: x y\n"
+"Irudiaren zabalera eta altuera kargatzen ditu x eta y aldagaietan.\n"
+"\n"
+"pos\n"
+"Parametroak: x y\n"
+"Uneko pixelaren koordenatuak hartzen du; X ardatza x aldagaian,\n"
+"Y ardatza y aldagaian.\n"
+"\n"
+"clip\n"
+"Parametroak: balioa\n"
+"Balioa 0.0 baino txikiagoa bada, 'moztu'-k (clip) 0.0 balioa itzultzen du,\n"
+"balioa 1.0 baino handiagoa bada 1.0 itzultzen du. Bestela 'moztu'k balioa "
+"itzultzen du.\n"
+"\n"
+"sqrt\n"
+"Balioaren erro karratua kalkulatzen du.\n"
+"\n"
+"abs\n"
+"Parametroak: balioa\n"
+"Balioaren balio absolutua kalkulatzen du.\n"
+"\n"
+"sin\n"
+"Parametroak: balioa\n"
+"Balioaren sinua itzultzen du\n"
+"\n"
+"cos\n"
+"Parametroak: balioa\n"
+"Balioaren kosinua itzultzen du\n"
+"\n"
+"tan\n"
+"Parametroak: balioa\n"
+"Balioaren tangentea itzultzen du\n"
+"\n"
+"log\n"
+"Parametroak: balioa\n"
+"Balioaren logaritmo naturala itzultzen du\n"
+"\n"
+"log10\n"
+"Parametroak: balioa\n"
+"Balioaren logaritmo hamartarra itzultzen du\n"
+"\n"
+"pow\n"
+"Parametroak: x y\n"
+"X ber Y itzultzen du\n"
+"\n"
+"min\n"
+"Parametroak: x y\n"
+"X balioa y baino txikiagoa bada, x itzultzen du. Y balioa x baino txikiagoa\n"
+"bada, y itzultzen du. Biak berdinak badira x itzuliko du.\n"
+"\n"
+"max\n"
+"Parametroak: x y\n"
+"X balioa y baino handiagoa bada, x itzuliko du. Y balioa x baino handiagoa\n"
+"bada, y itzuliko du. Biak berdinak badira x itzuliko du."
+
+#: plug-ins/iol/interface.c:301
+msgid "Keywords"
+msgstr "Gako-hitzak"
+
+#: plug-ins/iol/interface.c:308
+msgid "Miscellaneous"
+msgstr "Hainbat"
+
+#: plug-ins/iol/interface.c:317
+msgid ""
+"IOL - Image Operation Language\n"
+"\n"
+"Author: Sean Ridenour <s__ridenour@distortedpictures.com>\n"
+"\n"
+"Website: http://iol.kewlpc.org\n"
+"\n"
+"Copyright (C) 2003 Sean Ridenour. Released under the terms of the GNU "
+"General Public License. Read the included file COPYING for more information."
+msgstr ""
+"IOL - Irudia Eragiketa Hizkuntza\n"
+"\n"
+"Egilea: Sean Ridenour <s__ridenour@distortedpictures.com>\n"
+"\n"
+"Web gunea: http://iol.kewlpc.org\n"
+"\n"
+"Copyright (c) 2003 Sean Ridenour. GNU Lizentzia Publiko Orokorraren pean "
+"argitaratua. Irakurri txertatutako COPYING fitxategia informazio gehiagorako."
+
+#: plug-ins/iol/interface.c:326
+msgid "Misc."
+msgstr "Hainbat"
+
+#: plug-ins/jpeg/jpeg.c:769
+msgid "Save as Jpeg"
+msgstr "Gorde Jpeg gisa"
+
+#: plug-ins/jpeg/jpeg.c:802
+msgid "Quality"
+msgstr "Kalitatea"
+
+#: plug-ins/jpeg/jpeg.c:834
+msgid "Optimize"
+msgstr "Optimizatu"
+
+#: plug-ins/mblur/mblur.c:211 plug-ins/mblur/mblur.c:1335
+msgid "Motion Blur"
+msgstr "Mugimendu-lausotzea"
+
+#: plug-ins/mblur/mblur.c:1082
+msgid "Bluring..."
+msgstr "Lausotzea..."
+
+#: plug-ins/mblur/mblur.c:1385
+msgid "Length"
+msgstr "Luzera"
+
+#. ***
+#: plug-ins/mblur/mblur.c:1406
+msgid "Blur Type"
+msgstr "Lausotze mota"
+
+#: plug-ins/mblur/mblur.c:1420
+msgid "Radial"
+msgstr "Erradiala"
+
+#: plug-ins/mblur/mblur.c:1421
+msgid "Zoom"
+msgstr "Zooma"
+
+#. ***
+#: plug-ins/mblur/mblur.c:1447
+msgid "Angle"
+msgstr "Angelua"
+
+#: plug-ins/noisify/noisify.c:137
+msgid "Noise"
+msgstr "Zarata"
+
+#: plug-ins/noisify/noisify.c:138 plug-ins/noisify/noisify.c:574
+msgid "Noisify"
+msgstr "Gehitu zarata"
+
+#: plug-ins/noisify/noisify.c:207
+msgid "Adding Noise..."
+msgstr "Zarata gehitzen..."
+
+#: plug-ins/noisify/noisify.c:607
+msgid "Independent"
+msgstr "Independentea"
+
+#: plug-ins/noisify/noisify.c:624 plug-ins/noisify/noisify.c:630
+#, c-format
+msgid "Gray"
+msgstr "Grisa"
+
+#: plug-ins/noisify/noisify.c:632
+#, c-format
+msgid "Alpha"
+msgstr "Alfa"
+
+#: plug-ins/noisify/noisify.c:638 plug-ins/noisify/noisify.c:648
+#, c-format
+msgid "1. Channel"
+msgstr "1. kanala"
+
+#: plug-ins/noisify/noisify.c:640 plug-ins/noisify/noisify.c:650
+#, c-format
+msgid "2. Channel"
+msgstr "2. kanala"
+
+#: plug-ins/noisify/noisify.c:642 plug-ins/noisify/noisify.c:652
+#, c-format
+msgid "3. Channel"
+msgstr "3. kanala"
+
+#: plug-ins/noisify/noisify.c:654
+#, c-format
+msgid "4. Channel"
+msgstr "4. kanala"
+
+#: plug-ins/noisify/noisify.c:662
+#, c-format
+msgid "Channel #%d"
+msgstr "%d. kanala"
+
+#: plug-ins/openexr/openexr.cxx:209 plug-ins/openexr/openexr.cxx:212
+#, c-format
+msgid "Loading %s"
+msgstr "%s kargatzen"
+
+#: plug-ins/openexr/openexr.cxx:749
+msgid "Please convert the image to float before saving as OpenEXR\n"
+msgstr "Bihurtu irudia mugikorrera OpenEXR gisa gorde aurretik\n"
+
+#: plug-ins/openexr/openexr.cxx:762
+msgid "OpenEXR dont supports different layer geometries!"
+msgstr "OpenEXR formatuak ez du geruza geometriko desberdinak onartzen."
+
+#: plug-ins/openexr/openexr.cxx:825
+#, c-format
+msgid ""
+"Found non supported gamma of %.02f %.02f %.02f!\n"
+"Your ICC image profile needs a gamma of 1.0 ."
+msgstr ""
+"Onartzen ez den  %.02f %.02f %.02f gamma aurkitu da.\n"
+"ICC irudi-profilak 1.0 balioko gamma behar du."
+
+#: plug-ins/openexr/openexr.cxx:833
+msgid "Adding of colour primaries to EXR failed."
+msgstr "Huts egin du kolore primarioak EXR-i gehitzean."
+
+#: plug-ins/openexr/openexr.cxx:875 plug-ins/openexr/openexr.cxx:878
+#, c-format
+msgid "Saving %s"
+msgstr "%s gordetzen"
+
+#: plug-ins/pdf/pdf_dialog.cxx:25
+msgid "Ghostscript"
+msgstr "Ghostscript"
+
+#: plug-ins/pdf/pdf_dialog.cxx:26
+msgid "xPDF"
+msgstr "xPDF"
+
+#: plug-ins/pdf/pdf_dialog.cxx:51
+msgid "TIFF cmyk/rgb"
+msgstr "TIFF cmyk/gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:52
+msgid "PSD cmyk/rgb"
+msgstr "PSD cmyk/gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:53
+msgid "PPM rgb"
+msgstr "PPM gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:54
+msgid "PS rgb"
+msgstr "PS gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:55
+msgid "PNG48 rgb"
+msgstr "PNG48 gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:56 plug-ins/pdf/pdf_dialog.cxx:81
+msgid "[none]"
+msgstr "[bat ere ez]"
+
+#: plug-ins/pdf/pdf_dialog.cxx:71
+msgid "Cmyk"
+msgstr "Cmyk"
+
+#: plug-ins/pdf/pdf_dialog.cxx:72
+msgid "Rgb"
+msgstr "Gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:82
+msgid "AA4"
+msgstr "AA4"
+
+#: plug-ins/pdf/pdf_dialog.cxx:83
+msgid "AA4+Interpolation"
+msgstr "AA4+interpolazioa"
+
+#: plug-ins/pdf/pdf_dialog.cxx:119
+msgid "gv (ghostscript)"
+msgstr "gv (ghostscript)"
+
+#: plug-ins/pdf/pdf_dialog.cxx:120
+msgid "xpdf"
+msgstr "xpdf"
+
+#: plug-ins/pdf/pdf_dialog.cxx:121
+msgid "Acroread"
+msgstr "Acroread"
+
+#: plug-ins/pdf/pdf_dialog.cxx:132
+msgid "PDF Load Settings"
+msgstr "PDF kargatzearen ezarpenak"
+
+#: plug-ins/pdf/pdf_dialog.cxx:142
+msgid "Interpreter Command:"
+msgstr "Komando interpretatzailea:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:171
+msgid "Ghostscript Options"
+msgstr "Ghostscript aukerak"
+
+#: plug-ins/pdf/pdf_dialog.cxx:174
+msgid "Intermediate Format:"
+msgstr "Tarteko formatua:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:182
+msgid "TIFF rgb"
+msgstr "TIFF gbu"
+
+#: plug-ins/pdf/pdf_dialog.cxx:184
+msgid "Select Colorspace:"
+msgstr "Hautatu kolore-espazioa:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:195
+msgid "Resolution:"
+msgstr "Bereizmena:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:204
+msgid "Soften:"
+msgstr "Moteldu:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:207
+msgid "Graphics"
+msgstr "Grafikoak"
+
+#: plug-ins/pdf/pdf_dialog.cxx:212
+msgid "Text"
+msgstr "Testua"
+
+#: plug-ins/pdf/pdf_dialog.cxx:217
+msgid "GridFitTT"
+msgstr "GridFitTT"
+
+#: plug-ins/pdf/pdf_dialog.cxx:226
+msgid "View (external)"
+msgstr "Ikusi (kanpokoa)"
+
+#: plug-ins/pdf/pdf_dialog.cxx:234
+msgid "View"
+msgstr "Ikusi"
+
+#: plug-ins/pdf/pdf_dialog.cxx:235
+msgid "View the document in an external viewer."
+msgstr "Ikusi dokumentua kanpoko ikustailean."
+
+#: plug-ins/png/png.c:1516
+msgid "Save as PNG"
+msgstr "Gorde PNG gisa"
+
+#: plug-ins/png/png.c:1545
+msgid "Interlacing (Adam7)"
+msgstr "Gurutzelarkatu (Adam7)"
+
+#: plug-ins/png/png.c:1554
+msgid "Save background color"
+msgstr "Gorde atzeko planoaren kolorea"
+
+#: plug-ins/png/png.c:1563
+msgid "Save gamma"
+msgstr "Gorde gamma"
+
+#: plug-ins/png/png.c:1572
+msgid "Save layer offset"
+msgstr "Gorde geruzaren desplazamendua"
+
+#: plug-ins/png/png.c:1581
+msgid "Save resolution"
+msgstr "Gorde bereizmena"
+
+#: plug-ins/png/png.c:1590
+msgid "Save creation time"
+msgstr "Gorde sortze-denbora"
+
+#: plug-ins/png/png.c:1607
+msgid "Compression Level:"
+msgstr "Konpresio-maila:"
+
+#: plug-ins/print/print-lcms-funcs.c:515
+#, c-format
+msgid "Profile %s can not be found or is not readable."
+msgstr "%s profila ezin da aurkitu edo irakurri."
+
+#: plug-ins/print/print-lcms-funcs.c:526
+#, c-format
+msgid "Profile %s is incorrect."
+msgstr "%s profila ez da zuzena."
+
+#: plug-ins/print/print-lcms-funcs.c:651
+msgid "separating ..."
+msgstr "bereizten..."
+
+#. test for device class
+#: plug-ins/print/print-lcms-funcs.c:1012
+#: plug-ins/print/print-lcms-options.c:1238
+#: plug-ins/print/print-lcms-options.c:1553
+#: plug-ins/print/print-lcms-options.c:1572
+#, c-format
+msgid "Work Space"
+msgstr "Laneko espazioa"
+
+#: plug-ins/print/print-lcms-funcs.c:1016
+msgid ""
+"Your \"Work Space Profile\" is eighter not valid or does not exist. If in "
+"doubt clear the text in the \"Work Space Profile\" entry. This will switch "
+"to standard sRGB mode."
+msgstr ""
+"\"Laneko espazioaren profila\" ez da baliozkoa edo ez du existitzen. "
+"Zalantzarik edukiz gero, ezabatu \"Laneko espazioaren profila\" sarrera. "
+"Honek sGBU modu estandarrera itzuliko du."
+
+#. &&
+#. icSig4colorData != cmsGetColorSpace(hOut)
+#: plug-ins/print/print-lcms-funcs.c:1025
+msgid "Your \"Separation Profile\" is not in CMYK color space."
+msgstr "\"Bereizketaren profila\" ez da CMYK kolore-espaziokoa."
+
+#: plug-ins/print/print-lcms-funcs.c:1027
+#: plug-ins/print/print-lcms-options.c:1246
+#: plug-ins/print/print-lcms-options.c:1550
+#: plug-ins/print/print-lcms-options.c:1571
+#, c-format
+msgid "Separation"
+msgstr "Bereizketa"
+
+#: plug-ins/print/print-lcms-funcs.c:1035
+msgid "Your \"Separation Profile\" is eighter not valid or does not exist."
+msgstr "\"Bereizketaren profila\" ez da baliozkoa edo ez du existitzen."
+
+#: plug-ins/print/print-lcms-funcs.c:1043
+msgid "Your \"Linearisation Profile\" does not exist."
+msgstr "\"Linealizazioaren profila\" ez da existitzen."
+
+#: plug-ins/print/print-lcms-funcs.c:1048
+#: plug-ins/print/print-lcms-options.c:1254
+#: plug-ins/print/print-lcms-options.c:1556
+#: plug-ins/print/print-lcms-options.c:1573
+#, c-format
+msgid "Linearisation"
+msgstr "Linealizazioa"
+
+#: plug-ins/print/print-lcms-funcs.c:1053
+msgid "Your \"Linearisation Profile\" is not valid."
+msgstr "\"Linealizazioaren profila\" ez da baliozkoa."
+
+#: plug-ins/print/print-lcms-funcs.c:1101
+#, c-format
+msgid "drawable type %d is not supported for direct printing."
+msgstr "%d. motako marrazgaia ez dago onartuta zuzenean inprimatzeko."
+
+#. ... and ask for an filename
+#: plug-ins/print/print-lcms-options.c:230
+#: plug-ins/print/print-lcms-options.c:1360
+#, c-format
+msgid "Save as"
+msgstr "Gorde honela"
+
+#: plug-ins/print/print-lcms-options.c:231
+msgid "Select filename"
+msgstr "Hautatu fitxategi-izena"
+
+#: plug-ins/print/print-lcms-options.c:233
+msgid "Chose Profile"
+msgstr "Aukeratu profila"
+
+#. gtk_widget_show (file_help_button);
+#: plug-ins/print/print-lcms-options.c:256
+msgid "Shows some helpful information."
+msgstr "Erakutsi laguntzako informazioa"
+
+#: plug-ins/print/print-lcms-options.c:343
+msgid "Direct printing"
+msgstr "Zuzeneko inprimaketa"
+
+#: plug-ins/print/print-lcms-options.c:350
+msgid ""
+"Do NOT separate this image by an ICC profile.\n"
+"This button is useful in the following cases:\n"
+"- CMYK 8/16-bit - You have allready separated image data and dont need any "
+"separation\n"
+"- RGB 8/16-bit - to let gutenprint do the separation."
+msgstr ""
+"Ez bereiztu irudi hau ICC profil baten arabera.\n"
+"Botoi hau erabilgarria izan daiteke honako kasuetan:\n"
+"- CMYK 8/16 bit - Irudiaren datuak jadanik bereiztuta daude, eta ez du "
+"bereizketareik behar\n"
+"- GBU 8/26 bit - guterprint-ek bereiztu ditzala."
+
+#: plug-ins/print/print-lcms-options.c:355
+msgid "RGB"
+msgstr "GBU"
+
+#. gtk_widget_add_accelerator (color_mode_rgb_radiobutton, "toggled", accel_group,
+#. GDK_r, GDK_MOD1_MASK,
+#. GTK_ACCEL_VISIBLE);
+#: plug-ins/print/print-lcms-options.c:366
+msgid "CMYK"
+msgstr "CMYK"
+
+#: plug-ins/print/print-lcms-options.c:384
+msgid "Profiles"
+msgstr "Profilak"
+
+#: plug-ins/print/print-lcms-options.c:406
+msgid "Editing Space Profile"
+msgstr "Edizioko espazioaren profila"
+
+#: plug-ins/print/print-lcms-options.c:415
+msgid "Separation Profile"
+msgstr "Bereizketaren profila"
+
+#: plug-ins/print/print-lcms-options.c:424
+msgid "Linearisation Profile"
+msgstr "Linealizazioaren profila"
+
+#: plug-ins/print/print-lcms-options.c:449
+msgid ""
+"This is the workspace profile.--- You dont need to change if Your image is "
+"in RGB mode. ---\n"
+"If needed, select here an profile which matches to the current images "
+"workspace."
+msgstr ""
+"Hau laneko arearen profila da. Ez daukazu aldatu beharrik irudia GBU moduan "
+"badago.\n"
+"Behar izanez gero, uneko irudien laneko arearekin bat datorren profila "
+"hautatu."
+
+#: plug-ins/print/print-lcms-options.c:459
+msgid ""
+"This is the separation profile. You need to select an Printer / CMYK profile "
+"to be able to do high quality separation of Your image data.\n"
+"--- Currently You need an profile here to be able to print at all. ---\n"
+"Profiles have the icc or icm extension. On mac/windows You can search for "
+"profiles in Your system folders. On any system You can download profiles "
+"from the Adobe website <http://www.adobe.com/support/downloads/main.html>.\n"
+"As the quality of the data output depends highly on Your profile chosen, the "
+"best is to do an third party calibration of Your special printer. Otherwise "
+"You can use any generic output profile and may or may not have to tweak the "
+"settings in the second dialog."
+msgstr ""
+"Hau bereizketako profila da. Inprimagailuaren edo CMYKren profila hautatu "
+"behar da irudiaren datuak kalitate handiz bereizteko.\n"
+"Profila bat behar da erabat inprimatzeko.\n"
+"Profilak 'icc' edo 'icm' luzapena dute. Adobe-ren web gunetik <http://www."
+"adobe.com/support/downloads/main.html> deskarga ditzakezu profilak. \n"
+"Irteerako datuen kalitatea aukeratutako profilaren arabera dagoenez, "
+"egokiena hirugarren batek inprimagailu bereziaren kalibrazioa egitea da. "
+"Bestela, irteerako profila orokorra erabil dezakezu, bigarren elkarrizketa-"
+"koadroko ezarpenak ukitu gabe."
+
+#: plug-ins/print/print-lcms-options.c:472
+msgid ""
+"This is the linearisation profile.\n"
+"--- You need it only if You used CinePaints linearisation option while "
+"calibrating Your printer. ---\n"
+"If needed, select here an profile which belongs to the current printer "
+"profile."
+msgstr ""
+"Hau linealizazioko profila da.\n"
+"Inprimagailua kalibratzean linealizazioko aukera erabiltzean soilik da "
+"beharrezkoa profila hau.\n"
+"Behar izanez gero, inprimagailuaren uneko profilari dagokion profila hautatu "
+"hemen."
+
+#: plug-ins/print/print-lcms-options.c:482
+#: plug-ins/print/print-lcms-options.c:495
+#: plug-ins/print/print-lcms-options.c:508
+msgid "...\n"
+msgstr "...\n"
+
+#: plug-ins/print/print-lcms-options.c:490
+msgid "Select a new profile for Your workspace."
+msgstr "Hautatu profila berria laneko espaziotik"
+
+#: plug-ins/print/print-lcms-options.c:503
+msgid "Select a new profile for separation."
+msgstr "Hautatu profila berria bereizketatik."
+
+#: plug-ins/print/print-lcms-options.c:518
+msgid "Select a new profile for linearisation."
+msgstr "Hautatu profila berria linealizaziotik."
+
+#: plug-ins/print/print-lcms-options.c:523
+msgid "Select rendering intent:"
+msgstr "Hautatu errendatzeko helburua:"
+
+#: plug-ins/print/print-lcms-options.c:538
+msgid "Perceptual"
+msgstr "Pertzeptiboa"
+
+#: plug-ins/print/print-lcms-options.c:545
+msgid ""
+"Hue hopefully maintained (but not required), lightness and saturation "
+"sacrificed to maintain the perceived color. White point changed to result in "
+"neutral grays. Intended for images.\n"
+"In lcms: Default intent of profiles is used"
+msgstr ""
+"Ñabardura mantenduta dagoen arren (ez da derrigorrezkoa), argitasuna eta "
+"saturazioa sakrifikatzen dira kolore perteptiboa mantentzeko. Puntu zuria "
+"aldatuta gris neutraletan egoteko. Irudientzako soilik.\n"
+"lcms: profilen xede lehenetsia erabiltzen ari da."
+
+#: plug-ins/print/print-lcms-options.c:547
+msgid "Relative colorimetric"
+msgstr "Koloremetria erlatiboa"
+
+#: plug-ins/print/print-lcms-options.c:554
+msgid ""
+"Within and outside gamut; same as Absolute Colorimetric. White point changed "
+"to result in neutral grays.\n"
+"In lcms: If adequate table is present in profile, then, it is used. Else "
+"reverts to perceptual intent."
+msgstr ""
+"Barneko eta kanpoko kolore-gama, Koloremetria absolutuaren berdina. Puntu "
+"zuria aldatuta gris neutraletan doitzeko.\n"
+"lcms: profilan taula egokirik egonez gero, erabili egingo da. Bestela "
+"helburu pertzeptiboa aldatzen du."
+
+#: plug-ins/print/print-lcms-options.c:556
+msgid "Saturation"
+msgstr "Saturazioa"
+
+#: plug-ins/print/print-lcms-options.c:563
+msgid ""
+"Hue and saturation maintained with lightness sacrificed to maintain "
+"saturation. White point changed to result in neutral grays. Intended for "
+"business graphics (make it colorful charts, graphs, overheads, ...)\n"
+"In lcms: If adequate table is present in profile, then, it is used. Else "
+"reverts to perceptual intent."
+msgstr ""
+"Ñabardura eta saturazioa mantendu egiten diren arren, argitasuna sakrifikatu "
+"egiten da saturazioa mantentzeko. Puntu zuria aldatuta gris neutraletan "
+"doitzeko. Diseinuaren mundura zuzendua (diagrama koloretsuak, grafikoak, "
+"goiburukoak...)\n"
+"lcms: profilan taula egokirik egonez gero, erabili egingo da. Bestela "
+"helburu pertzeptiboa aldatzen du."
+
+#: plug-ins/print/print-lcms-options.c:565
+msgid "Absolute colorimetric"
+msgstr "Koloremetria absolutua"
+
+#: plug-ins/print/print-lcms-options.c:572
+msgid ""
+"Within the destination device gamut; hue, lightness and saturation are "
+"maintained. Outside the gamut; hue and lightness are maintained, saturation "
+"is sacrificed. White point for source and destination; unchanged. Intended "
+"for spot colors (Pantone, TruMatch, logo colors, ...)\n"
+"In lcms: relative colorimetric intent is used with undoing of chromatic "
+"adaptation."
+msgstr ""
+"Helburuko gailuko kolore-gaman ñabardura, argitasuna eta saturazioa "
+"mantentzen dira. Kolore-gamatik kanpo ñabardura eta argitasuna mantentzen "
+"dira, saturazioa sakrifikatuz. Iturburuko eta helburuko puntu zuria aldatu "
+"gabe mantentzen da. Pikortadun koloretan erabiltzeko (Pantone, TruMatch, "
+"logotipoen koloreak, ...)\n"
+"lcms: koloremetria erlatiboko helburua erabiliko da, doitasun kromatikoa "
+"deseginez."
+
+#: plug-ins/print/print-lcms-options.c:574
+msgid "Options:"
+msgstr "Aukerak:"
+
+#: plug-ins/print/print-lcms-options.c:596
+msgid "Matrix Input"
+msgstr "Matrize sarrera"
+
+#: plug-ins/print/print-lcms-options.c:603
+msgid ""
+"CLUT ignored on input profile, matrix-shaper used instead (for speed, and "
+"debugging purposes)"
+msgstr ""
+"Ez ikusi egin zaio CLUT-i sarrerako profilan, matrize-forma sortzailea "
+"erabiliko da horren ordez(abiadura eta arazketarako)"
+
+#: plug-ins/print/print-lcms-options.c:605
+msgid "Matrix Output"
+msgstr "Matrize irteera"
+
+#: plug-ins/print/print-lcms-options.c:612
+msgid ""
+"CLUT ignored on output profile, matrix-shaper used instead (for speed, and "
+"debugging purposes)"
+msgstr ""
+"Ez ikusi egin zaio CLUT-i irteerako profilan, matrize-forma sortzailea "
+"erabiliko da horren ordez(abiadura eta arazketarako)"
+
+#: plug-ins/print/print-lcms-options.c:614
+msgid "Matrix only"
+msgstr "Matrizea soilik"
+
+#: plug-ins/print/print-lcms-options.c:621
+msgid "Both input and output are forced to matrix-shaper."
+msgstr "Bai sarrera bai irteera matrize-forma sortzailera bultzatu dira."
+
+#: plug-ins/print/print-lcms-options.c:623
+msgid "Null transform"
+msgstr "Eraldaketa hutsa"
+
+#: plug-ins/print/print-lcms-options.c:630
+msgid ""
+"Don't transform anyway, only apply pack/unpack routines (usefull to "
+"deactivate color correction but keep formatting capabilities)"
+msgstr ""
+"Ez eraldatu gehiago, paketatze/despaketatze errutina soilik aplikatu "
+"(kolorearen zuzenketa desaktibatzeko baina formatuaren gaitasuna mantentzeko "
+"egokia)"
+
+#: plug-ins/print/print-lcms-options.c:646
+msgid "High resolution precalculation"
+msgstr "Bereizmen altuko aurre-kalkulua"
+
+#: plug-ins/print/print-lcms-options.c:653
+msgid ""
+"Use 48 points instead of 33 for device-link CLUT precalculation. Not needed "
+"but for the most extreme cases of mismatch of \"impedance\" between profiles."
+msgstr ""
+"Erabili 48 puntu 33 ordez CLUT aurre-kalkuluan. Beharrezkoa ez izan arren, "
+"profilen arteko 'inpedantzia' falta diren kasuetan erabiltzen da."
+
+#: plug-ins/print/print-lcms-options.c:655
+msgid "Middle resolution precalculation"
+msgstr "Tarteko bereizmenaren aurre-kalkulua"
+
+#: plug-ins/print/print-lcms-options.c:662
+msgid "Use 33 points for device-link CLUT precalculation. Standard."
+msgstr "Erabili 33 puntu CLUT aurre-kalkuluan. Estandarra."
+
+#: plug-ins/print/print-lcms-options.c:664
+msgid "Low resolution precalculation"
+msgstr "Bereizmen baxuko aurre-kalkulua"
+
+#: plug-ins/print/print-lcms-options.c:671
+msgid ""
+"Use lower resolution table. Usefull when memory is a preciated resource."
+msgstr ""
+"Erabili bereizmen baxuko taula. Oso erabilgarria memoria baliabidea urria "
+"denean."
+
+#: plug-ins/print/print-lcms-options.c:673
+msgid "No precalculation"
+msgstr "Aurre-kalkulurik ez"
+
+#: plug-ins/print/print-lcms-options.c:680
+msgid ""
+"By default, lcms smelt luts into a device-link CLUT. This speedup whole "
+"transform greatly. If you don't wanna this, and wish every value to be "
+"translated to PCS and back to output space, include this flag."
+msgstr ""
+"Lehenetsi gisa, lcms-ek taularen bilaketa galdetzen du CLUT gailuan. "
+"Eraldaketa asko bizkortzen du. Ez baduzu hau nahi, eta balio bakoitza PCSra "
+"bihurtzea eta kanpora bidaltzea nahi baduzu, txertatu bandera hau."
+
+#: plug-ins/print/print-lcms-options.c:689
+msgid "Black point compensation"
+msgstr "Puntu beltzaren konpentsazioa"
+
+#: plug-ins/print/print-lcms-options.c:695
+msgid ""
+"BPC does scale full image across gray axis in order to accommodate the "
+"darkest tone origin media can render to darkest tone destination media can "
+"render."
+msgstr ""
+"Puntu beltzaren konpentsazioak irudi osoa gris ardatzean zehar eskalatzen "
+"du, errenda dezakeen jatorrizkoaren tonu iluna  errenda dezakeena "
+"helburukoaren tonu ilunera doitzeko."
+
+#: plug-ins/print/print-lcms-options.c:697
+msgid "Preserve Black"
+msgstr "Mantendu beltza"
+
+#: plug-ins/print/print-lcms-options.c:704
+msgid ""
+"Preserve Black channel of a Cmyk image to maintain K information. Useful "
+"only for Cmyk->Cmyk conversion."
+msgstr ""
+"Mantendu CMYK irudiaren kanal beltza K informazioa mantentzeko. Erabilgarria "
+"Cmyk->Cmyk bihurketarako soilik."
+
+#: plug-ins/print/print-lcms-options.c:706
+#: plug-ins/print/print-lcms-options.c:1664
+msgid "Print Options"
+msgstr "Inprimatzeko aukerak"
+
+#: plug-ins/print/print-lcms-options.c:725
+msgid "use printer linearisation"
+msgstr "erabili inprimagailuaren linealizazioa"
+
+#: plug-ins/print/print-lcms-options.c:733
+msgid ""
+"This option is only usefull to linearise an printer before an calibration.  "
+"Print out an test chart and look for sufficiant coverage at bright and light "
+"patches. After this is good for all printing colors, set the gamma values by "
+"repeatedly printing out an usefull chart. You can use this sliders to give "
+"bright patches recognisable difference. The same should appear to the dark "
+"patches."
+msgstr ""
+"Aukera hau oso erabilgarria da inprimagailua kalibratu aurretik "
+"linealizatzeko. Inprimatu probako diagrama bat eta begiratu estaldurak "
+"nahiko distira eta argitasuna duen. Ondoren, inprimazioko kolore "
+"guztientzako ona da gammaren balioak ezartzea hainbat aldiz diagrama bat "
+"inprimatuz. Diapositiba hauek erabil ditzakezu distirari desberdinatsun "
+"nabarmenak emateko. Gauza bera iluntasunarekin."
+
+#: plug-ins/print/print-lcms-options.c:738
+msgid "MinBrightness settings"
+msgstr "Gut. distiraren ezarpenak"
+
+#: plug-ins/print/print-lcms-options.c:754
+#: plug-ins/print/print-lcms-options.c:805
+#: plug-ins/print/print-lcms-options.c:857
+msgid "Cyan:"
+msgstr "Cyana:"
+
+#: plug-ins/print/print-lcms-options.c:763
+#: plug-ins/print/print-lcms-options.c:814
+#: plug-ins/print/print-lcms-options.c:866
+msgid "Magenta:"
+msgstr "Magenta:"
+
+#: plug-ins/print/print-lcms-options.c:772
+#: plug-ins/print/print-lcms-options.c:823
+#: plug-ins/print/print-lcms-options.c:875
+msgid "Yellow:"
+msgstr "Horia:"
+
+#: plug-ins/print/print-lcms-options.c:781
+#: plug-ins/print/print-lcms-options.c:832
+#: plug-ins/print/print-lcms-options.c:884
+msgid "Black:"
+msgstr "Beltza:"
+
+#: plug-ins/print/print-lcms-options.c:790
+msgid "MaxBrightness settings"
+msgstr "Geh. distiraren ezarpenak"
+
+#: plug-ins/print/print-lcms-options.c:842
+msgid "Gamma settings"
+msgstr "Gamma-ren ezarpenak"
+
+#: plug-ins/print/print-lcms-options.c:894
+msgid "Linearisation Options"
+msgstr "Linealizazio-aukerak"
+
+#: plug-ins/print/print-lcms-options.c:909
+msgid "Chancel"
+msgstr "Utzi"
+
+#: plug-ins/print/print-lcms-options.c:919
+msgid "Ok"
+msgstr "Ados"
+
+#: plug-ins/print/print-lcms-options.c:928
+msgid "Reset"
+msgstr "Berrezarri"
+
+#: plug-ins/print/print-lcms-options.c:934
+msgid "reset rendering intend and options to defaults"
+msgstr "berrezarri errendatze-saiakera eta aukerak lehenetsira"
+
+#: plug-ins/print/print-lcms-options.c:936
+msgid "Save Tiff"
+msgstr "Gorde Tiff"
+
+#: plug-ins/print/print-lcms-options.c:942
+msgid "Save as separated tiff including the separation profile"
+msgstr "Gorde bereiztutako tiff gisa, bereizketako profilarekin batera"
+
+#: plug-ins/print/print-lcms-options.c:1663
+msgid "You need to be in \""
+msgstr "Hemen kokatu behar zara: \""
+
+#: plug-ins/print/print-lcms-options.c:1663
+msgid "Direct print"
+msgstr "Zuzeneko inprimaketa"
+
+#: plug-ins/print/print-lcms-options.c:1664
+msgid ""
+"\" mode in order to linearise an printer.\n"
+"This can be done in the tab \""
+msgstr ""
+"\" moduan inprimagailua linealizatzeko.\n"
+"Honako fitxan egin daiteke: \""
+
+#: plug-ins/print/print-image-gimp.c:412
+msgid "Printing..."
+msgstr "Inprimatzea..."
+
+#: plug-ins/print/print.c:155
+msgid "<Image>/File/Print..."
+msgstr "<Image>/Fitxategia/Inprimatu..."
+
+#: plug-ins/print/print.c:160
+msgid "Print..."
+msgstr "Inprimatu..."
+
+#: plug-ins/psd/psd.c:1630 plug-ins/psd/psd.c:1680
+msgid "Unnamed channel"
+msgstr "Kanal izengabea"
+
+#: plug-ins/rawphoto/rawphoto.c:204
+#, c-format
+msgid ""
+"The \"rawphoto\" plugin won't work because there is no \"%s\" executable in "
+"your path."
+msgstr ""
+"\"rawphoto\" plugin-ak ez du funtzionatzen ez dagoelako \"%s\" "
+"exekutagarririk bide-izenean."
+
+#: plug-ins/rawphoto/rawphoto.c:400
+msgid "Quick interpolation"
+msgstr "Interpolazio azkarra"
+
+#: plug-ins/rawphoto/rawphoto.c:401
+msgid "Half-size interpolation"
+msgstr "Tamaina erdiko interpolazioa"
+
+#: plug-ins/rawphoto/rawphoto.c:402
+msgid "Four color interpolation"
+msgstr "Lau koloretako interpolazioa"
+
+#: plug-ins/rawphoto/rawphoto.c:403
+msgid "Grayscale document"
+msgstr "Gris-eskalako dokumentua"
+
+#: plug-ins/rawphoto/rawphoto.c:404
+msgid "Automatic white balance"
+msgstr "Zuri-balantze automatikoa"
+
+#: plug-ins/rawphoto/rawphoto.c:405
+msgid "Camera white balance"
+msgstr "Kameraren zuri-balantzea"
+
+#: plug-ins/rawphoto/rawphoto.c:406
+msgid "Convert to WideRGB"
+msgstr "Bihurtu GBUZabalera"
+
+#: plug-ins/rawphoto/rawphoto.c:409
+msgid "Red Multiplier"
+msgstr "Gorri biderkatzailea"
+
+#: plug-ins/rawphoto/rawphoto.c:410
+msgid "Blue Multiplier"
+msgstr "Urdin biderkatzailea"
+
+#: plug-ins/rawphoto/rawphoto.c:418
+msgid "Raw Photo Loader 1.0"
+msgstr "Formaturik gabeko argazki kargatzailea 1.0"
+
+#: plug-ins/rawphoto/rawphoto.c:466
+msgid "bit depth:"
+msgstr "bit sakonera:"
+
+#: plug-ins/rotate/rotate.c:165
+msgid "<Image>/Layers/Rotate/90 degrees"
+msgstr "<Image>/Geruzak/Biratu/90 gradu"
+
+#: plug-ins/rotate/rotate.c:176
+msgid "<Image>/Layers/Rotate/180 degrees"
+msgstr "<Image>/Geruzak/Biratu/180 gradu"
+
+#: plug-ins/rotate/rotate.c:187
+msgid "<Image>/Layers/Rotate/270 degrees"
+msgstr "<Image>/Geruzak/Biratu/270 gradu"
+
+#: plug-ins/rotate/rotate.c:199
+msgid "<Image>/Image/Transforms/Rotate/90 degrees"
+msgstr "<Image>/Irudia/Eraldatuak/Biratu/90 gradu"
+
+#: plug-ins/rotate/rotate.c:210
+msgid "<Image>/Image/Transforms/Rotate/180 degrees"
+msgstr "<Image>/Irudia/Eraldatuak/Biratu/180 gradu"
+
+#: plug-ins/rotate/rotate.c:221
+msgid "<Image>/Image/Transforms/Rotate/270 degrees"
+msgstr "<Image>/Irudia/Eraldatuak/Biratu/270 gradu"
+
+#: plug-ins/rotate/rotate.c:530
+msgid "You can not rotate the whole image if there's a selection."
+msgstr "Ezin duzu irudi osoa biratu hautapena eginda badago."
+
+#: plug-ins/rotate/rotate.c:537
+msgid "You can not rotate the whole image if there's a floating selection."
+msgstr "Ezin duzu irudi osoa biratu hautapen mugikorra eginda badago."
+
+#: plug-ins/rotate/rotate.c:547
+msgid "Sorry, channels and masks can not be rotated."
+msgstr "Kanalak eta maskarak ezin dira biratu."
+
+#: plug-ins/rotate/rotate.c:553
+msgid "Rotating..."
+msgstr "Biratzen..."
+
+#: plug-ins/screenshot/screenshot.c:141
+msgid "<Toolbox>/File/Acquire/Screen Shot..."
+msgstr "<Toolbox>/Fitxategia/Eskuratu/Pantaila-argazkia..."
+
+#: plug-ins/screenshot/screenshot.c:146
+msgid "Screen Shot..."
+msgstr "Pantaila-argazkia..."
+
+#. main dialog
+#: plug-ins/screenshot/screenshot.c:371
+msgid "Screen Shot"
+msgstr "Pantaila-argazkia"
+
+#. single window
+#: plug-ins/screenshot/screenshot.c:394
+msgid "Grab"
+msgstr "Kapturatu"
+
+#: plug-ins/screenshot/screenshot.c:402
+msgid "Single Window"
+msgstr "Leiho bakarra"
+
+#: plug-ins/screenshot/screenshot.c:416
+msgid "With Decorations"
+msgstr "Apaingarriekin"
+
+#. root window
+#: plug-ins/screenshot/screenshot.c:432
+msgid "Whole Screen"
+msgstr "Pantaila osoa"
+
+#: plug-ins/screenshot/screenshot.c:448
+msgid "after"
+msgstr "geroago"
+
+#: plug-ins/screenshot/screenshot.c:460
+msgid "Seconds Delay"
+msgstr "Atzerapena (s)"
+
+#: plug-ins/script-fu/script-fu.c:1152 plug-ins/script-fu/script-fu.c:1153
+msgid "Re-read all available scripts"
+msgstr "Berriz irakurri erabilgarri dauden script guztiak"
+
+#: plug-ins/script-fu/script-fu-console.c:172
+msgid "Script-Fu console mode allows only interactive invocation"
+msgstr "Script-Fu kontsola-moduak dei elkarreragileak soilik baimentzen ditu"
+
+#: plug-ins/script-fu/script-fu-console.c:203
+msgid "Script-Fu Console"
+msgstr "Script-Fu kontsola"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:224
+msgid "SIOD Output"
+msgstr "SIOD irteera"
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:307
+msgid "Current Command"
+msgstr "Uneko komandoa"
+
+#: plug-ins/script-fu/script-fu-console.c:328
+msgid "Browse..."
+msgstr "Arakatu..."
+
+#: plug-ins/script-fu/script-fu-console.c:600
+msgid "Unable to open SIOD output pipe"
+msgstr "Ezin da SIOD irteerako kanalizazioa ireki"
+
+#: plug-ins/script-fu/script-fu-console.c:604
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Ezin da korrontea ireki SIOD irteerako kanalizazioan"
+
+#: plug-ins/script-fu/script-fu-console.c:649
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+"Script-Fu-ren ebaluatze-moduak dei ez-elkarreragileak soilik baimentzen ditu"
+
+#: plug-ins/sgi/sgi.c:777
+msgid "No Compression"
+msgstr "Konpresiorik gabe"
+
+#: plug-ins/sgi/sgi.c:778
+msgid "RLE Compression"
+msgstr "RLE konpresioa"
+
+#: plug-ins/sgi/sgi.c:779
+msgid ""
+"Advanced RLE\n"
+"(Not supported by SGI)"
+msgstr ""
+"RLE aurreratua\n"
+"(SGIk ez du onartzen)"
+
+#: plug-ins/sgi/sgi.c:800
+msgid "SGI Options"
+msgstr "SGIren aukerak"
+
+#: plug-ins/snoise/snoise.c:195
+msgid "Render"
+msgstr "Errendatu"
+
+#: plug-ins/snoise/snoise.c:196 plug-ins/snoise/snoise.c:553
+msgid "Solid Noise"
+msgstr "Zarata solidoa"
+
+#: plug-ins/snoise/snoise.c:313
+msgid "Solid Noise..."
+msgstr "Zarata solidoa..."
+
+#. Entry #1
+#: plug-ins/snoise/snoise.c:565
+msgid "Seed"
+msgstr "Hazia"
+
+#. Entry #2
+#: plug-ins/snoise/snoise.c:594
+msgid "Detail"
+msgstr "Xehetasunak"
+
+#. Check button #1
+#: plug-ins/snoise/snoise.c:611
+msgid "Turbulent"
+msgstr "Zurrunbilotsua"
+
+#. Check button #2
+#: plug-ins/snoise/snoise.c:620
+msgid "Tilable"
+msgstr "Mosaikoan jar daiteke"
+
+#. Scale #1
+#: plug-ins/snoise/snoise.c:629
+msgid "X Size"
+msgstr "X tamaina"
+
+#. Scale #2
+#: plug-ins/snoise/snoise.c:649
+msgid "Y Size"
+msgstr "Y tamaina"
+
+#: plug-ins/sobel/sobel.c:146
+msgid "Sobel"
+msgstr "Sobel"
+
+#: plug-ins/sobel/sobel.c:256
+msgid "Sobel Edge Detection"
+msgstr "Sobel ertz-detekzioa"
+
+#: plug-ins/sobel/sobel.c:289
+msgid "Sobel Horizontally"
+msgstr "Sobel horizontalki"
+
+#: plug-ins/sobel/sobel.c:297
+msgid "Sobel Vertically"
+msgstr "Sobel bertikalki"
+
+#: plug-ins/sobel/sobel.c:305
+msgid "Keep sign of result (one direction only)"
+msgstr "Mantendu emaitzaren zeinua (norabide bakarrean soilik)"
+
+#: plug-ins/sobel/sobel.c:435
+msgid "Sobel Edge Detect"
+msgstr "Sobel ertz-detekzioa"
+
+#: plug-ins/spread/spread.c:136 plug-ins/spread/spread.c:426
+msgid "Spread"
+msgstr "Sakabanatu"
+
+#: plug-ins/spread/spread.c:204
+msgid "Spreading..."
+msgstr "Sakabanatzen..."
+
+#. Horizontal Amount
+#: plug-ins/spread/spread.c:463
+msgid "Horizontal Spread Amount"
+msgstr "Sakabanatze horizontalaren kopurua"
+
+#. Vertical Amount
+#: plug-ins/spread/spread.c:500
+msgid "Vertical Spread Amount"
+msgstr "Sakabanatze bertikalaren kopurua"
+
+#: plug-ins/tga/tga.c:1396
+msgid "Save as Tga"
+msgstr "Gorde Tga gisa"
+
+#. regular tga parameter settings
+#: plug-ins/tga/tga.c:1421
+msgid "Targa Options"
+msgstr "Targa aukerak"
+
+#. rle
+#: plug-ins/tga/tga.c:1430
+msgid "RLE compression"
+msgstr "RLE konpresioa"
+
+#: plug-ins/tiff/gui.c:70 plug-ins/tiff/gui.c:79
+msgid "Save as TIFF"
+msgstr "Gorde TIFF gisa"
+
+#. compression
+#: plug-ins/tiff/gui.c:102 plug-ins/tiff/gui.c:127 plug-ins/tiff/gui.c:309
+msgid "Compression"
+msgstr "Konpresioa"
+
+#: plug-ins/tiff/gui.c:106
+msgid "_None"
+msgstr "_Bat ere ez"
+
+#: plug-ins/tiff/gui.c:107
+msgid "_LZW"
+msgstr "_LZW"
+
+#: plug-ins/tiff/gui.c:108
+msgid "_Pack Bits"
+msgstr "_Paketatu bitak"
+
+#: plug-ins/tiff/gui.c:109
+msgid "_Deflate"
+msgstr "_Hustu"
+
+#: plug-ins/tiff/gui.c:110
+msgid "_JPEG"
+msgstr "_JPEG"
+
+#: plug-ins/tiff/gui.c:111
+msgid "_JP2000"
+msgstr "_JP2000"
+
+#: plug-ins/tiff/gui.c:112
+msgid "_Adobe"
+msgstr "_Adobe"
+
+#. fillorder
+#: plug-ins/tiff/gui.c:117 plug-ins/tiff/gui.c:143 plug-ins/tiff/gui.c:356
+msgid "Fill Order"
+msgstr "Betetze ordena"
+
+#: plug-ins/tiff/gui.c:121
+msgid "_LSB to MSB"
+msgstr "_LSB-tik MSB-ra"
+
+#: plug-ins/tiff/gui.c:122
+msgid "_MSB to LSB"
+msgstr "_MSB-tik LSB-ra"
+
+#: plug-ins/tiff/gui.c:131 plug-ins/tiff/gui.c:312
+msgid "None"
+msgstr "Bat ere ez"
+
+#: plug-ins/tiff/gui.c:132 plug-ins/tiff/gui.c:314
+msgid "LZW"
+msgstr "LZW"
+
+#: plug-ins/tiff/gui.c:133 plug-ins/tiff/gui.c:317
+msgid "Pack Bits"
+msgstr "Paketatu bitak"
+
+#. #ifdef ZIP_SUPPORT
+#: plug-ins/tiff/gui.c:134 plug-ins/tiff/gui.c:320
+msgid "Deflate"
+msgstr "Hustu"
+
+#. #ifdef JPEG_SUPPORT
+#: plug-ins/tiff/gui.c:135 plug-ins/tiff/gui.c:343
+msgid "JPEG"
+msgstr "JPEG"
+
+#: plug-ins/tiff/gui.c:136 plug-ins/tiff/gui.c:347
+msgid "JP2000"
+msgstr "JP2000"
+
+#. #endif
+#: plug-ins/tiff/gui.c:137 plug-ins/tiff/gui.c:350
+msgid "Adobe"
+msgstr "Adobe"
+
+#: plug-ins/tiff/gui.c:147 plug-ins/tiff/gui.c:359
+msgid "LSB to MSB"
+msgstr "LSB-tik MSB-ra"
+
+#: plug-ins/tiff/gui.c:148 plug-ins/tiff/gui.c:360
+msgid "MSB to LSB"
+msgstr "MSB-tik LSB-ra"
+
+#: plug-ins/tiff/gui.c:161 plug-ins/tiff/gui.c:403
+msgid "Comment:"
+msgstr "Iruzkina:"
+
+#: plug-ins/tiff/gui.c:272
+msgid "Save as Tiff"
+msgstr "Gorde Tiff gisa"
+
+#. attach profile
+#. LIST_FRAME (_("ICC Profile data"))
+#: plug-ins/tiff/gui.c:290
+msgid "ICC Profile data"
+msgstr "ICC profilaren datuak"
+
+#: plug-ins/tiff/gui.c:300
+msgid "embedd ICC Profile"
+msgstr "kapsulatutako ICC profila"
+
+#: plug-ins/tiff/gui.c:301
+msgid "dont attach ICC color data"
+msgstr "ez erantsi ICC koloreen daturik"
+
+#. #endif
+#. #ifdef LOGLUV_SUPPORT
+#: plug-ins/tiff/gui.c:323
+msgid "SGILOG (32-bit)"
+msgstr "SGILOG (32-bit)"
+
+#. #ifdef PIXARLOG_SUPPORT
+#: plug-ins/tiff/gui.c:337
+msgid "PixarLOG (11-bit)"
+msgstr "PixarLOG (11-bit)"
+
+#. premultiply
+#: plug-ins/tiff/gui.c:366
+msgid "Transparency Computation"
+msgstr "Gardentasunaren kalkulua"
+
+#: plug-ins/tiff/gui.c:369
+#, c-format
+msgid "Premultiply Colour (associate)"
+msgstr "Aurrebiderkatu kolorea"
+
+#: plug-ins/tiff/gui.c:373
+msgid "Dont Premultiply"
+msgstr "Ez aurrebiderkatu"
+
+#: plug-ins/tiff/gui.c:384
+msgid "Write Separate Planes per Channel"
+msgstr "Idatzi plano bereiztuak kanaleko"
+
+#: plug-ins/tiff/gui.c:401
+msgid "Artist:"
+msgstr "Artista:"
+
+#: plug-ins/tiff/gui.c:402
+msgid "Copyright:"
+msgstr "Copyright-a:"
+
+#: plug-ins/tiff/gui.c:530
+msgid "Your string is too long.\n"
+msgstr "Esaldia luzeegia da.\n"
+
+#: plug-ins/tiff/info.c:156
+#, c-format
+msgid "Description:    "
+msgstr "Azalpena:    "
+
+#: plug-ins/tiff/info.c:171
+#, c-format
+msgid "Product:        "
+msgstr "Produktua:    "
+
+#: plug-ins/tiff/info.c:177
+#, c-format
+msgid "Manufacturer:   "
+msgstr "Hornitzailea:    "
+
+#: plug-ins/tiff/info.c:182
+#, c-format
+msgid "Model:          "
+msgstr "Modeloa:      "
+
+#: plug-ins/tiff/info.c:189
+#, c-format
+msgid "Copyright:      "
+msgstr "Copyright-a:    "
+
+#: plug-ins/tiff/info.c:729
+msgid "layer"
+msgstr "geruza"
+
+#: plug-ins/tiff/tiff.c:457
+#, c-format
+msgid "created with CinePaint"
+msgstr "CinePaint-ekin sortua"
+
+#: plug-ins/tiff/tiff.c:823 plug-ins/tiff/tiff.c:1546
+msgid "Opening"
+msgstr "Irekitzen"
+
+#: plug-ins/tiff/tiff.c:830
+#, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr "Ezin izan da '%s' ireki irakurtzeko: %s"
+
+#: plug-ins/tiff/tiff.c:896
+#, c-format
+msgid ""
+"WARNING! This Image has %d bits per channel. CinePaint \n"
+"can only handle 32 bit, so it will be converted for you.\n"
+"Information will be lost because of this conversion."
+msgstr ""
+"ABISUA: irudi honek %d bit ditu kanaleko.\n"
+"CinePaint-ek 32 bit soilik kudea ditzakenez, bihurtu egingo da.\n"
+"BIhurketa dela eta informazioa gal daiteke."
+
+#: plug-ins/tiff/tiff.c:1267
+msgid "TIFF Channel"
+msgstr "TIFF kanala"
+
+#: plug-ins/tiff/tiff.c:2906
+#, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr "Ezin izan da '%s' ireki idazteko: %s"
+
+#: plug-ins/tiff/tiff.c:3066
+msgid ""
+"The TIFF format only supports comments in\n"
+"7bit ASCII encoding. No comment is saved."
+msgstr ""
+"TIFF formatuak 7 biteko ASCII kodetzea duten\n"
+"iruzkinak soilik onartzen ditu. Ez da iradokizunik gorde."
+
+#: plug-ins/unsharp/unsharp.c:196
+msgid "Unsharp Mask..."
+msgstr "Desenfokatze-maskara..."
+
+#: plug-ins/unsharp/unsharp.c:197
+msgid "Enhance"
+msgstr "Hobetu"
+
+#: plug-ins/unsharp/unsharp.c:298
+msgid "Blurring..."
+msgstr "Lausotzen..."
+
+#: plug-ins/unsharp/unsharp.c:404
+msgid "Merging..."
+msgstr "Batzen..."
+
+#: plug-ins/unsharp/unsharp.c:1269
+msgid "Unsharp Mask"
+msgstr "Desenfokatze-maskara"
+
+#: plug-ins/unsharp/unsharp.c:1317
+msgid "Threshold:"
+msgstr "Atalasea:"
+
+#: plug-ins/xwd/xwd.c:382
+msgid "can't open file for reading"
+msgstr "ezin da fitxategia irakurtzeko ireki"
+
+#: plug-ins/xwd/xwd.c:389
+msgid "can't open file as XWD file"
+msgstr "ezin da fitxategia XWD fitxategi gisa ireki"
+
+#: plug-ins/xwd/xwd.c:411
+msgid "can't get memory for colormap"
+msgstr "ezin da memoria gehiago lortu kolore-maparako"
+
+#: plug-ins/xwd/xwd.c:430
+msgid "can't read color entries"
+msgstr "ezin dira kolore-sarrerak irakurri"
+
+#: plug-ins/xwd/xwd.c:490
+#, c-format
+msgid ""
+"load_image (xwd): XWD-file %s has format %d, depth %d\n"
+"and bits per pixel %d.\n"
+"Currently this is not supported.\n"
+msgstr ""
+"load_image (xwd): %s XWD fitxategiak %d formatua, %d sakonera\n"
+"eta %d bit pixel ditu.\n"
+"Une honetan hori ez da onartzen.\n"
+
+#: plug-ins/xwd/xwd.c:517
+msgid "XWD save cannot handle images with alpha channels"
+msgstr "Alfa kanalak dituzten irudiak ezin dira XWD gisa gorde."
+
+#: plug-ins/xwd/xwd.c:528
+msgid "cannot operate on unknown image types"
+msgstr "ezin da irudi-mota ezezagunekin lan egin"
+
+#: plug-ins/xwd/xwd.c:537
+msgid "can't open file for writing"
+msgstr "Ezin da fitxategia idazteko ireki"
+
+#: plug-ins/xwd/xwd.c:1242
+msgid "EOF encountered on "
+msgstr "EOF aurkitu da hemen: "
+
+#: plug-ins/xwd/xwd.c:1340 plug-ins/xwd/xwd.c:1502 plug-ins/xwd/xwd.c:1699
+#: plug-ins/xwd/xwd.c:1950
+msgid "EOF encountered on reading"
+msgstr "EOF aurkitu da irakurtzean"
+
+#: plug-ins/xwd/xwd.c:1388
+msgid "No memory for mapping colors"
+msgstr "Ez dago memoriarik koloreak mapatzeko"
+
+#: plug-ins/xwd/xwd.c:2074
+msgid "Error during writing indexed/grey image"
+msgstr "Errorea irudi indexatu/grisa idaztean"
+
+#: plug-ins/xwd/xwd.c:2163
+msgid "Error during writing rgb image"
+msgstr "Errorea GBU irudia idaztean"

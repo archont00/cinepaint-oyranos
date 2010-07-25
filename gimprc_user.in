@@ -1,0 +1,15 @@
+# This is your personal cinepaintrc file.  Any variable defined in this file
+# takes precedence over the value defined in the system-wide cinepaintrc:
+# @cinepaintdatadir@/cinepaintrc
+#
+# Take a look at that file if you want to see some of the options that
+# can be set here.
+
+# Most values can be set automatically within cinepaint, if you press
+# the "save" button after changing some options in the Preferences
+# dialog box.  You can also edit this file by hand, and cinepaint will
+# always try to do the right thing when saving new options after you
+# have edited this file.
+
+(show-tips no)
+

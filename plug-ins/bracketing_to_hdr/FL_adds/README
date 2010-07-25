@@ -1,0 +1,18 @@
+The ./FL_adds directory contains some general (not Br2Hdr specific) additions 
+to FLTK. These are Greg Ercolano's table widgets
+	Fl_Table.H
+	Fl_Table.cxx
+	Fl_Table_Row.H
+	Fl_Table_Row.cxx 
+and my stuff
+	Fl_Cartesius.hpp
+	Fl_Cartesius.cpp
+	CurveTnt.hpp (TNT special)
+	fl_eventnames.hpp
+	fl_eventnames.cpp
+	fl_print_event.hpp
+	fl_print_event.cpp
+        fl_misc.hpp
+        fl_misc.cpp
+plus my old "ys_*" debug helpers for compatibility.
+

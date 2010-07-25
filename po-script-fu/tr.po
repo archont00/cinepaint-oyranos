@@ -1,0 +1,1575 @@
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Fatih Demir <kabalak@gtranslator.org>, 2001.
+# Alper Ersoy <aersoy@tfz.net>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP 1.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2001-07-18 13:43+0300\n"
+"Last-Translator: Alper Ersoy <aersoy@tfz.net>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-9\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu Konsolu"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Kapat"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD Çýktýsý"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu Konsolu"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Þu Anki Komut"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Gözat..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "SIOD çýkýþ veriyolu açýlamadý"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "SIOD çýkýþ veriyoluna akýþ açýlamadý"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu deðerlendirme modu sadece etkileþimsiz çaðrýma olanak tanýr"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Gözat..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Tarih:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Y Bulanýklýðý"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Yazar:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Tarih:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Telif Hakký:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "DB Browser (please wait)"
+msgstr "Gözat..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+#, fuzzy
+msgid "DB Browser"
+msgstr "Gözat..."
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Arkaplan Rengi"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Aydýnlanma (derece)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Yarýçap (piksel)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Gölge"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Küre Rengi"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu konsolu sadece etkileþimli çaðrýma olanak tanýr"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Program Argümanlarý"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu Renk Seçimi"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu Dosya Seçimi"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu Desen Seçimi"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu Gradyan Secimi"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu Fýrça Seçimi"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Öntanýmlý Deðerlere Döndür"
+
+#~ msgid "About"
+#~ msgstr "Hakkýnda"
+
+#~ msgid "OK"
+#~ msgstr "Tamam"
+
+#~ msgid "Cancel"
+#~ msgstr "Ýptal"
+
+#~ msgid "NOT SET"
+#~ msgstr "SEÇÝLÝ DEÐÝL"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Seçtiðiniz yazýtiplerinden en az biri geçersiz.\n"
+#~ "Lütfen ayarlarýný kontrol edin.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Resim Tipleri:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu Yazýtipi Seçimi"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "%s çalýþtýrýlýrken Script-Fu hatasý\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu Sunucu Ayarlarý"
+
+#~ msgid "Server Port:"
+#~ msgstr "Sunucu Portu:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Sunucu Kütüðü:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Konsol..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Sunucu..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Tüm programlarý tekrar oku"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Tazele..."
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Düzenle/Görüneni Kopyala"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Filtreler/Bulanýk/Döþenebilir Bulanýklýk..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/Simya/Kumaþlaþtýr..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/Simya/Her Diðer Satýrý Sil..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script-Fu/Simya/Predatör..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/Simya/Maskeyi Yumuþat..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/Simya/Örgü..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/3B Dýþ Hat..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Yaratýk Parlamasý..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Yaratýk Lambasý..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Temel I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Temel II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Harman..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Ýnekleþme..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Tebeþir..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Kýymýkla..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Krom..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Çizgi Roman..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Havalý Metal..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Buzlu..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Cilalý..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Parýltýlý Sýcaklýk..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Gradyan Kabartý..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Lamba..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Parçacýk Ýzi..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Yýldýz Patlamasý..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Yýldýzdelen..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/Alfadan Logoya/Kaplamalý..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/Animatörler/Harmanla..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/Animatörler/Hafif Dalgalandýr..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/Animatörler/Seçimden AnimResim'e..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/Animatörler/Dönen Yerküre..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/Animatörler/Dalgalar..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/Süs/Kabartý Ekle..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/Süs/Sýnýr Ekle..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/Süs/Kahve Lekesi..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/Süs/Bulanýk Sýnýr..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/Süs/Eski Resim..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/Süs/Yuvarlak Köþeler..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/Süs/Slayt..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/Hesap/Devre..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/Hesap/Lav..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/Hesap/Çizgi Nova..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/Hesap/Izgara Sistemi Yap..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/Seçim/Seçime Zarar Ver..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/Seçim/Dýþ Çizgiyi Soldur..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/Seçim/Yuvarlat..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/Seçim/Fýrçaya..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/Seçim/Resme..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/Gölge/Düþen Gölge..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/Gölge/Perspektif..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/Gölge/Xach-Etkisi..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/Þablon Ýþlemleri/Oy..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/Þablon Ýþlemleri/Krom Yap..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/Araçlar/ASCII'den Resim Katmanýna..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/Araçlar/HSV Grafiðini Çiz..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/Araçlar/Resmin Yapýsýný Göster..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Düðmeler/Yuvarlak Düðme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Düðmeler/Basit Kabartýlý Düðme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/3B Dýþ Çizgi..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Yaratýk Parlamasý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Yaratýk Lambasý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Temel I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Temel II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Harman..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Ýnekleþme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Oyuk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Tebeþir..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Kýymýkla..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Krom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Çizgi Roman..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Havalý Metal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Kristal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Buzlu..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Cilalý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Parlayan Sýcaklýk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Gradyan Kabartý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Lamba..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Gazete Metni..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Parçacýk Ýzleri..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/SOTA Krom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Hýzlý Metin..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Yýldýz Patlamasý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Yýldýzdelen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Metin Çemberi..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Kaplamalý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logolar/Web Baþlýðý"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Fýrça Yap/Eliptik, Yumuþak Geçiþli..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Fýrça Yap/Eliptik..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Fýrça Yap/Dörtgen, Yumuþak Geçiþli..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Fýrça Yap/Dörtgen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Çeþitli/Küre..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Desenler/Kamuflaj..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Desenler/Düzalan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Desenler/Alan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Desenler/Harita Hesapla..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Desenler/Dönen Döþeme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Desenler/Hafif Dönüþlü (döþenebilir)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Araçlar/ASCII'den Resme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Araçlar/Seçimli Gradyan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Araçlar/Yazýtipi Haritasý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Yaratýk Parlamasý/Ok..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Yaratýk Parlamasý/Madde "
+#~ "Ými..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Yaratýk Parlamasý/Düðme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Yaratýk Parlamasý/Yatay "
+#~ "Ayraç..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Kabartýlý Desen/Ok..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Kabartýlý Desen/Madde Ými..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Kabartýlý Desen/Düðme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Kabartýlý Desen/Baþlýk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Kabartýlý Desen/Yatay "
+#~ "Ayraç..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Gimp.Org/Büyük Baþlýk..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Gimp.Org/Genel Tüp "
+#~ "Ýsimler..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Gimp.Org/Küçük Baþlýk..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Gimp.Org/Tüp Düðme Ýsmi..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Gimp.Org/Tüp Alt-Düðme "
+#~ "Ýsmi..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Sayfasý Temalarý/Gimp.Org/Tüp Alt-Alt-Düðme "
+#~ "Ýsmi..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP Hatalarý"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP Elkitabý"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP Haberleri"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/Belge"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/Ýndir"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/GIMP Sanatý"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/Baðlantýlar"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/E-Posta Listeleri"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/Kaynaklar"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/Gimp-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP.ORG/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/Eklem Listesi"
+
+#~ msgid "Add Background"
+#~ msgstr "Arkaplan Ekle"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Düþen Gölge Ekle"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Gölge Ekle"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Boyutlandýrma Ýzni"
+
+#~ msgid "Amplitude"
+#~ msgstr "Boyut"
+
+#~ msgid "Angle"
+#~ msgstr "Açý"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Tüm Kopyalar Ýçin Anim-Filtre"
+
+#~ msgid "Antialias"
+#~ msgstr "Örtüþmeönleyici"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Oluþturulan Katman Maskesini Uygula"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Katman Maskesini Uygulua (veya iptal et)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "OtoKes"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimut"
+
+#~ msgid "BG Opacity"
+#~ msgstr "AP Saydamsýzlýðý"
+
+#~ msgid "Background Image"
+#~ msgstr "Arkaplan Resmi"
+
+#~ msgid "Bar Height"
+#~ msgstr "Çubuk Yüksekliði"
+
+#~ msgid "Bar Length"
+#~ msgstr "Çubuk Uzunluðu"
+
+#~ msgid "Base Color"
+#~ msgstr "Temel Renk"
+
+#, fuzzy
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Temel Yarýçap (piksel)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Davranýþ"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Kabartý Yüksekliði (Keskinlik)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Kabartý Geniþliði"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Harman Gradyaný (Dýþ çizgi)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Harman Gradyaný (Metin)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Harman Modu"
+
+#~ msgid "Block Size"
+#~ msgstr "Blok Büyüklüðü"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Bulanma Oraný"
+
+#~ msgid "Blur Border"
+#~ msgstr "Bulanma Sýnýrý"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Yatay Bulanýklýk"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Bulanma Yarýçapý"
+
+#~ msgid "Blur Type"
+#~ msgstr "Bulanma Cinsi"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Dikey Bulanýklýk"
+
+#~ msgid "Blur X"
+#~ msgstr "X Bulanýklýðý"
+
+#~ msgid "Blur Y"
+#~ msgstr "Y Bulanýklýðý"
+
+#~ msgid "Border Color"
+#~ msgstr "Çevre Rengi"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Çevre Büyüklüðü (piksel)"
+
+#~ msgid "Border Size"
+#~ msgstr "Çevre Büyüklüðü"
+
+#~ msgid "Border X Size"
+#~ msgstr "Çevre X Büyüklüðü"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Çevre Y Büyüklüðü"
+
+#~ msgid "Border"
+#~ msgstr "Çevre"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Önbellek Miktarý (Metin Yüksekliði Yüzdesi)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Kabartý Haritasý (Alfa Katmaný) Bulanýklýk Yarýçapý"
+
+#~ msgid "Burst Color"
+#~ msgstr "Patlama Rengi"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Yükselen Metni Oy"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Beyaz Alanlarý Oy"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Hücre Boyutu (piksel)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Tebeþir Rengi"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Kýymýklama Miktarý"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Krom Dengesi"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Krom Etkeni"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Krom Parlaklýðý"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Krom Matlýðý"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Krom Beyaz Alanlarý"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Devre Tohumu"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Seçilmemiþ Maske Alanýný Temizle"
+
+#~ msgid "Color 1"
+#~ msgstr "1. Renk"
+
+#~ msgid "Color 2"
+#~ msgstr "2. Renk"
+
+#~ msgid "Color 3"
+#~ msgstr "3. Renk"
+
+#~ msgid "Color"
+#~ msgstr "Renk"
+
+#~ msgid "Columns"
+#~ msgstr "Sütunlar"
+
+#~ msgid "Create New Image"
+#~ msgstr "Yeni Resim Oluþtur"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Gölge Oluþtur"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Seçimli Gradyan"
+
+#~ msgid "Dark Color"
+#~ msgstr "Koyu Renk"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Sadece Karart\n"
+#~ "(Sadece cok fazla beyaz alanlý resimler için daha iyi)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Öntanýmlý Kabartý Haritasý Ayarlarý"
+
+#~ msgid "Defocus"
+#~ msgstr "Odak Dýþýna Çýkar"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Renkteki Fark Miktarý"
+
+#~ msgid "Density (%)"
+#~ msgstr "Yoðunluk (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Derinlik"
+
+#~ msgid "Description"
+#~ msgstr "Açýklama"
+
+#~ msgid "Detail Level"
+#~ msgstr "Detay Seviyesi"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Detay Ortada"
+
+#~ msgid "Diameter"
+#~ msgstr "Çevre"
+
+#~ msgid "Down"
+#~ msgstr "Aþaðý"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Düþen Gölgenin Bulanýklýk Yarýçapý"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Düþen Gölgenin Rengi"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Düþen Gölgenin Saydamsýzlýðý"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Düþen Gölgenin X Ofseti"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Düþen Gölgenin Y Ofseti"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Düþen Gölge"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Kenar Miktarý"
+
+#~ msgid "Edge Only"
+#~ msgstr "Sadece Kenar"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Kenar Yarýçapý"
+
+#~ msgid "Edge Width"
+#~ msgstr "Kenar Geniþliði"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Etki Büyüklüðü (piksel * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Effet Büyüklüðü (piksel * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Etki Büyüklüðü (piksel * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Etki Büyüklüðü (piksel * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Etki Büyüklüðü (piksel)"
+
+#~ msgid "Elevation"
+#~ msgstr "Kaldýrma"
+
+#~ msgid "End Blend"
+#~ msgstr "Bitiþ Harmaný"
+
+#~ msgid "End X"
+#~ msgstr "Bitiþ X"
+
+#~ msgid "End Y"
+#~ msgstr "Bitiþ Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Son Harman"
+
+#~ msgid "Environment Map"
+#~ msgstr "Çevre Kaplamasý"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Çizmeden Önce Sil"
+
+#~ msgid "Erase"
+#~ msgstr "Sil"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Sil/Doldur"
+
+#~ msgid "Even"
+#~ msgstr "Çift"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Çift/Tek"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "OP-AP-RDD"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "ÖP-AP-KYM"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "ÖP-Þeffaf"
+
+#~ msgid "Fade Away"
+#~ msgstr "Soldur"
+
+#~ msgid "Fade From %"
+#~ msgstr "Baþlama %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "Bitiþ %"
+
+#~ msgid "Feathering"
+#~ msgstr "Yumuþak Geçiþ"
+
+#~ msgid "Filename"
+#~ msgstr "Dosya Ýsmi"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Doldurma Açýsý"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Arkplaný Desenle Doldur"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Arkaplan Rengiyle Doldur"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Arkaplanla Doldur"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Resmi Düzleþtir"
+
+#~ msgid "Font Color"
+#~ msgstr "Yazýtipi Rengi"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Yazýtipi Boyu (piksel)"
+
+#~ msgid "Font"
+#~ msgstr "Yazýtipi"
+
+#~ msgid "Fonts"
+#~ msgstr "Yazýtipleri"
+
+#~ msgid "Foreground Color"
+#~ msgstr "ÖP Rengi"
+
+#~ msgid "Frame Color"
+#~ msgstr "Çerçeve Rengi"
+
+#~ msgid "Frame Size"
+#~ msgstr "Çerçeve Boyutu"
+
+#~ msgid "Frames"
+#~ msgstr "Kare Sayýsý"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Üst-Soldan Aþaðý-Saða"
+
+#~ msgid "Glow Color"
+#~ msgstr "Parlama Rengi"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Parlama Yarýçapý"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Parlama Büyüklüðü (piksel * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Gradyan"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Parçacýklýlýk (1 Küçük Olmak Üzere)"
+
+#~ msgid "Granularity"
+#~ msgstr "Parçacýklýlýk"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Grafik Ölçeði"
+
+#~ msgid "Grids X"
+#~ msgstr "Izgara X"
+
+#~ msgid "Grids Y"
+#~ msgstr "Izgara Y"
+
+#~ msgid "Height"
+#~ msgstr "Yükseklik"
+
+#~ msgid "Hexagons"
+#~ msgstr "Altýgenler"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Parlama Dengesi"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Parlama Rengi"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Parlama Saydamsýzlýðý"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Parlama X Ofseti"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Parlama Y Ofseti"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Çarpma Oraný"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Renk Oraný"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Resim Yüksekliði"
+
+#~ msgid "Image Size"
+#~ msgstr "Resim Boyutu"
+
+#~ msgid "Image Width"
+#~ msgstr "Resim Geniþliði"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Oyulacak Resim"
+
+#~ msgid "Index Image"
+#~ msgstr "Katalog Resmi"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "n Renge Katalogla (0 = KYM kal)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Katman Ýsimlerini Yaz"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Ara Kareler"
+
+#~ msgid "Interpolate"
+#~ msgstr "Aradeðerleme"
+
+#~ msgid "Invert direction"
+#~ msgstr "Yönü Tersine Çevir"
+
+#~ msgid "Invert"
+#~ msgstr "Tersine Çevir"
+
+#~ msgid "Keep Background"
+#~ msgstr "Arkaplaný Sakla"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Vurma Katmanýný Sakla"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Seçimi Sakla"
+
+#~ msgid "Land Height"
+#~ msgstr "Alan Yüksekliði"
+
+#~ msgid "Left"
+#~ msgstr "Sol"
+
+#~ msgid "Looped"
+#~ msgstr "Dönüþlü"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Alt Renk (Etken)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Alt Renk"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Alt-Sað rengi"
+
+#~ msgid "Make New Background"
+#~ msgstr "Yeni Arkaplan Yap"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Saydamsýzlýðý Maskele"
+
+#~ msgid "Mask Size"
+#~ msgstr "Maske Boyutu"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Azami Bulanýklýk Yarýçapý"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Mozayik Döþeme Tipi"
+
+#~ msgid "Mottle"
+#~ msgstr "Benekle"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Arkaplan yok (sadece ayrý katman için)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Basýlý Deðil (Aktif)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Basýlý Deðil"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Kuþak Sayýsý"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Renk Sayýsý"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Kopya Sayýsý"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Kare Sayýsý"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Çizgi Sayýsý"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Dönüþ Sayýsý"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "X Döþemelerin Sayýsý"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Y Döþemelerin Sayýsý"
+
+#~ msgid "Number"
+#~ msgstr "Sayý"
+
+#~ msgid "Octagons"
+#~ msgstr "Sekizgenler"
+
+#~ msgid "Odd"
+#~ msgstr "Tek"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Ofset (piksel)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Ofset Yarýçapý"
+
+#~ msgid "Offset X"
+#~ msgstr "X Ofset"
+
+#~ msgid "Offset Y"
+#~ msgstr "Y Ofset"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Ofset (piksel * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Yaðlama Maskesi Büyüklüðü"
+
+#~ msgid "Opacity"
+#~ msgstr "Saydamsýzlýk"
+
+#~ msgid "Orientation"
+#~ msgstr "Konum"
+
+#~ msgid "Outer Border"
+#~ msgstr "Dýþ Sýnýr"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Dýþ Çizgi Bulanýklýk Yarýçapý"
+
+#~ msgid "Outline Color"
+#~ msgstr "Dýþ Çizgi Rengi"
+
+#~ msgid "Outline Size"
+#~ msgstr "Dýþ Çizgi Boyutu"
+
+#~ msgid "Pad Color"
+#~ msgstr "Tampon Rengi"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Tampon Saydamsýzlýðý"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Metin Çevresinde Tampon Alan"
+
+#~ msgid "Padding X"
+#~ msgstr "X'te Tampon"
+
+#~ msgid "Padding Y"
+#~ msgstr "Y'de Tampon"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Þeffaf Alanlar Ýçin Tampon"
+
+#~ msgid "Padding"
+#~ msgstr "Tampon"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Desen (Dýþ Çizgi)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Desen (Üstüne Koyma)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Desen (Metin)"
+
+#~ msgid "Pattern"
+#~ msgstr "Desen"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Kalem Yarýçapý / Tekerlek Yarýçapý [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Piksel Miktarý"
+
+#~ msgid "Pixelize"
+#~ msgstr "Pikselleþtir"
+
+#~ msgid "Pressed"
+#~ msgstr "Basýlý"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Çeyrek Boyut"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Yarýçap"
+
+#~ msgid "Random Seed"
+#~ msgstr "Raslantýsallýk Tohumu"
+
+#~ msgid "Randomness"
+#~ msgstr "Raslantýsallýk"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Ufuða Göreli Uzaklýk"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Gölgenin Göreli Uzunluðu"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Göreli Yarýçap"
+
+#~ msgid "Remove Background"
+#~ msgstr "Arkaplaný Kaldýr"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Düðüm Boþluðu"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Düðüm Geniþliði"
+
+#~ msgid "Right"
+#~ msgstr "Sað"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Dalgacýklandýrma Þiddeti"
+
+#~ msgid "Roughness"
+#~ msgstr "Engebe Miktarý"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Yuvarlaklýk Oraný"
+
+#~ msgid "Rows"
+#~ msgstr "Satýrlar"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Satýr/Sütun"
+
+#~ msgid "Scale X"
+#~ msgstr "X Ölçeði"
+
+#~ msgid "Scale Y"
+#~ msgstr "Y Ölçeði"
+
+#~ msgid "Sea Depth"
+#~ msgstr "Deniz Derinliði"
+
+#~ msgid "Seed"
+#~ msgstr "Tohum"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Renkle Seçme Alt Eþiði"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Ayrý Katman"
+
+#~ msgid "Sepia"
+#~ msgstr "Renksiz"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Gölge Bulanýklýðý Yarýçapý"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Gölge Rengi"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Gölge Koyuluðu"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Gölge Derinliði"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Gölge Aðýrlýðý (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Gölge X Ofseti"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Gölge Y Ofseti"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Keskinlik (derece)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Eðme Uzaklýðý"
+
+#~ msgid "Size"
+#~ msgstr "Boyut"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Yatay Olarak Yumuþat"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Dikey Olarak Yumuþat"
+
+#~ msgid "Smooth"
+#~ msgstr "Yumuþat"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Katmanlar Arasý Boþluk"
+
+#~ msgid "Spacing"
+#~ msgstr "Boþluk"
+
+#~ msgid "Spots density X"
+#~ msgstr "X'te Noktalarýn Yoðunluðu"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Y'de Noktalarýn Yoðunluðu"
+
+#~ msgid "Spread"
+#~ msgstr "Etrafa Saç"
+
+#~ msgid "Squares"
+#~ msgstr "Kareler"
+
+#~ msgid "Stains"
+#~ msgstr "Lekeler"
+
+#~ msgid "Start Angle"
+#~ msgstr "Baþlama Açýsý"
+
+#~ msgid "Start Blend"
+#~ msgstr "Baþlama Harmaný"
+
+#~ msgid "Start X"
+#~ msgstr "Baþlama X"
+
+#~ msgid "Start Y"
+#~ msgstr "Baþlama Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Baþlama Harmaný"
+
+#~ msgid "Supersample"
+#~ msgstr "Üstörneklem"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Metin Rengi (Aktif)"
+
+#~ msgid "Text Color"
+#~ msgstr "Metin Rengi"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Metin Deseni"
+
+#~ msgid "Text"
+#~ msgstr "Metin"
+
+#~ msgid "Thickness"
+#~ msgstr "Kalýnlýk"
+
+#~ msgid "Thread Density"
+#~ msgstr "Ýplik Yoðunluðu"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Ýplik Sertliði"
+
+#~ msgid "Thread Length"
+#~ msgstr "Ýplik Uzunluðu"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Alt Eþik (Büyük 1<-->255 Küçük)"
+
+#~ msgid "Tile"
+#~ msgstr "Döþe"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Þeffaf Arkaplan"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Soldan Saða Çevir"
+
+#~ msgid "Up"
+#~ msgstr "Yukarý"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Üst Renk (Aktif)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Üst Renk"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Üst-Sol Renk"
+
+#~ msgid "Use Brush"
+#~ msgstr "Fýrça"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Etkin Gradyaný Kullan"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Artan Seçim Kullan"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Deseni Üstüne Koy"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Dýþ Çizgi için Gradyan yerine Desen kullan"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Metin için Gradyan yerine Desen kullan"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "Aþaðýdakiler Yerine Seçimi Kullan"
+
+#~ msgid "Wavelength"
+#~ msgstr "Dalgaboyu"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Tekerlek Yarýçapý (hipo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Döndürme Miktarý"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Döndürme Açýsý"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Kuþaklarýn Geniþliði"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Boþluklarýn Geniþliði"
+
+#~ msgid "Width"
+#~ msgstr "Geniþlik"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Kopya Üzerinde Çalýþ"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/Geliþtirici ÇSS"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/GIMP Eðitim Yazýlarý"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Xtns/Web Tarayýcý/Kullanýcý ÇSS"
+
+#~ msgid ""
+#~ "Burn-In: Need two layers in total!\n"
+#~ "        A foreground text layer with transparency\n"
+#~ "        and a background layer.\n"
+#~ msgstr ""
+#~ "Ýçe Doðru Yan: Toplam iki katmana ihtiyaç var!\n"
+#~ "               Þeffaflýðý olan önplan yazý katmaný\n"
+#~ "               ve bir arkaplan katmaný\n"
+
+#~ msgid "Add Glowing"
+#~ msgstr "Parlama Ekle"
+
+#~ msgid "After Glow"
+#~ msgstr "Parýltý Sonrasý"
+
+#~ msgid "Corona Width"
+#~ msgstr "Korona Geniþliði"
+
+#~ msgid "Fadeout Width"
+#~ msgstr "Solma Geniþliði"
+
+#~ msgid "Fadeout"
+#~ msgstr "Solma"
+
+#~ msgid "Prepare for GIF"
+#~ msgstr "GIF Ýçin Hazýrla"
+
+#~ msgid "Speed (pixels/frame)"
+#~ msgstr "Hýz (piksel/kare)"

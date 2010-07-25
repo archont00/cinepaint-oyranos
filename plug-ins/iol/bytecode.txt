@@ -1,0 +1,126 @@
+IOL bytecode
+
+by Sean Ridenour
+
+Each program gets three arrays: one for code, one for variables, and one
+for the stack.
+
+The array for code is a union, of the type
+	union {
+		int i;		/* for instructions and variable indexes */
+		float f;	/* for other operands */
+	}
+
+The stack array and variable array are floats.
+
+Comparison for conditional branching is done by subtraction, so that
+	if expression1 > expression2
+would result in expression2 being subtracted from expression1, and the
+result of this subtraction being pushed onto the stack.
+
+Instructions:
+
+0x00	halt. Stops execution.
+
+0x01	add. Fetches 2 values off the stack, adds them, then pushes the sum
+	back onto the stack
+
+0x02	subtract. Fetches 2 values off the stack. It takes the first value
+	taken off the stack (which would have been the last pushed onto it),
+	and subtracts it from the second.
+
+0x03	multiply. Pops 2 values off the stack, multiplies them together, then
+	pushes the result back onto the stack.
+
+0x04	divide. Gets 2 values from the stack. The second value taken off the
+	stack (the first one pushed on) is divided by the first value taken
+	off the stack. Divide by zero results in zero. The result is then
+	pushed onto the stack.
+
+0x05	input. Has 4 operands, all of them indexes into the variables array.
+	They are in the order of red, green, blue, and alpha.
+
+0x06	output. Has 4 operands, all of them indexes into the variables array.
+	They are in the order of red, green, blue, and alpha.
+
+0x07	size. Has 2 operands, both indexes into the variables array. The first
+	is the variable where the X size will go, the second is the variable
+	where the Y size will go.
+
+0x08	push variable. Has one operand, an index into the variables array.
+	Takes the contents of the variable and pushes them onto the stack.
+
+0x09	pop variable. Has one operand, an index into the variables array.
+	Pops a number off the stack and puts it in the specified variable.
+
+0x0A	square root. Pops a value off the stack, pushes its square root onto the
+	stack.
+
+0x0B	absolute value. Gets a number from the stack, then pushes its absolute
+	value onto the stack.
+
+0x0C	sine. Pops a number off the stack, then pushes its sine onto the stack.
+
+0x0D	cosine. Pop a number off the stack, push its cosine onto the stack.
+
+0x0E	tangent. Fetches a number from the stack, computes its tangent,
+	then pushes the tangent onto the stack.
+
+0x0F	logarithm. Get a number off the stack, compute its natural logarithm,
+	then push that logarithm onto the stack.
+
+0x10	logarithm. Get a number off the stack, compute its base-10 logarithm,
+	then push that logarithm onto the stack.
+
+0x11	power. Fetch 2 values from the stack. Raise the first taken off the
+	stack to the power of the second value, then push the result
+	onto the stack.
+
+0x12	clip. Fetches a number from the stack, clips it to fall within the
+	range of 0.0 - 1.0, then pushes it back onto the stack.
+
+0x13	minimum. Pops 2 numbers from the stack, then pushes which ever one
+	is least back onto the stack. If both values are the same, then
+	their value is pushed onto the stack.
+
+0x14	maximum. Pops 2 numbers off of the stack, then pushes which ever one
+	is greater back onto the stack. If both values are the same, then
+	their value is pushed onto the stack.
+
+0x15	push value. Has one operand. The operand is pushed onto the stack.
+
+0x16	negate. Pop a value off the stack, invert it, then push it back on.
+
+0x17	debug. Pop a value off the stack, send it to stderr, then push it
+	back, on.
+
+0x18	get position. Has 2 operands, both indexes into the variables array.
+	The first operand is the X-axis coordinate, the second is the Y-axis
+	coordinate.
+
+0x19	jump if less. Has 1 operand, the jump location. Pops 1 value off the
+	stack, if it is less than zero, the program counter is set to the
+	same value as the operand.
+
+0x1A	jump if greater. Has 1 operand, the jump location. Pops 1 value off
+	the stack, if it is greater than zero, the program counter is set
+	to the same value as the operand.
+
+0x1B	jump if equal. Has 1 operand, the jump location. Pops 1 value off
+	the stack, if it is zero, the program counter is set to the same
+	value as the operand.
+
+0x1C	jump if not equal. Has 1 operand, the jump location. Pops 1 value
+	off the stack, if it is not zero, the program counter is set to the
+	same value as the operand.
+
+0x1D	jump if less or equal. Has 1 operand, the jump location. Pops 1
+	value off the stack, if it is less than or equal to zero, the
+	program counter is set to the same value as the operand.
+
+0x1E	jump if greater or equal. Has 1 operand, the jump location. Pops 1
+	value off the stack, if it is greater than or equal to zero, the
+	program counter is set to the same value as the operand.
+
+0x1F	jump unconditionally. Has 1 operand, the jump location. The program
+	counter is set to the same value as the operand.

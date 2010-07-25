@@ -1,0 +1,1106 @@
+# Norwegian (Nynorsk) GIMP translation.
+# Copyright (C) 2001 Karl Trygve Kalleberg
+# Karl Trygve Kalleberg <karltk@users.sourceforge.net>, 2001
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-script-fu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2000-09-07 20:17+02:00\n"
+"Last-Translator: Karl Trygve Kalleberg <karltk@users.sourceforge.net>\n"
+"Language-Team: Norwegian (Nynorsk) <nn@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu konsoll"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Lukk"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD resultat"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu konsoll"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Gjeldande kommando"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Bla gjennom ..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Kan ikkje opne SIOD utskriftsrøyr."
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Kan ikkje opne ein straum på SIOD utskrifsrøyret"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu evalueringsmodus tillét kun ikkje-interaktiv køyring"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Bla gjennom ..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Namn:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Blur Y"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Forfattar:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Dato:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Opphavsrett:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "DB Browser (please wait)"
+msgstr "Bla gjennom ..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+#, fuzzy
+msgid "DB Browser"
+msgstr "Bla gjennom ..."
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Lyssetjing (grader)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Radius (pixels)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Skugge"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Farge på kule"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu konsollen tillét kun interaktiv køyring"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Skiptargument"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Scrupt-Fu fargeutval"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu filval"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu& mønsterval"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Scrip-Fu gradientval"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu penselval"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Gjenopprett standardinnstillingar"
+
+#~ msgid "About"
+#~ msgstr "Om"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "NOT SET"
+#~ msgstr "IKKJE SETT"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Minst ein av fontane du har vald er korrupt.\n"
+#~ "Vennlegst undersøk innstillingane dine.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Biletetypar:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu fontval"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Script-Fu feil ved køyring\n"
+#~ "%s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu tenarinnstillingar"
+
+#~ msgid "Server Port:"
+#~ msgstr "Tenarport"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Tenarloggfil:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Konsoll..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Tenar..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Last inn alle tilgjengelege skript på nytt"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Gjenoppfrisk"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Edit/Kopier Synleg"
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alpha to Logo/Framand Glød..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alpha to Logo/Framand Neon..."
+
+#~ msgid "Add Background"
+#~ msgstr "Legg til bakgrunn"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Legg til droppskugge"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Legg til skugge"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Tillat endring av storleik"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplitude"
+
+#~ msgid "Angle"
+#~ msgstr "Vinkel"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Anim-Filter for alle kopiar"
+
+#~ msgid "Antialias"
+#~ msgstr "Antialiasing"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Legg på generert lagmaske"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Legg på lagmaske (eller forkast)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "AutoKlipp"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimuth"
+
+#~ msgid "BG Opacity"
+#~ msgstr "BG Transparens"
+
+#~ msgid "Background Image"
+#~ msgstr "Bakgrunnsbilete"
+
+#~ msgid "Bar Height"
+#~ msgstr "Søylehøgd"
+
+#~ msgid "Bar Length"
+#~ msgstr "Søylelengd"
+
+#~ msgid "Base Color"
+#~ msgstr "Basefarge"
+
+#, fuzzy
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Baseradius (pixel)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Åtferd"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Forhøgningshøgd (Skarpleik)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Forhøgningsbreidd"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Blandingsgradient (omriss)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Blangingsgradient (tekst)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Blandingsmodus"
+
+#~ msgid "Block Size"
+#~ msgstr "Blokkstorleik"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Blurmengd"
+
+#~ msgid "Blur Border"
+#~ msgstr "Blur kant"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Blur horisontalt"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Blurradius"
+
+#~ msgid "Blur Type"
+#~ msgstr "Blurtype"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Blur vertikalt"
+
+#~ msgid "Blur X"
+#~ msgstr "Blur X"
+
+#~ msgid "Blur Y"
+#~ msgstr "Blur Y"
+
+#~ msgid "Border Color"
+#~ msgstr "Kantfarge"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Kantstorleik (pixels)"
+
+#~ msgid "Border Size"
+#~ msgstr "Kantstorleik"
+
+#~ msgid "Border X Size"
+#~ msgstr "Kant X storleik"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Kant Y storleik"
+
+#~ msgid "Border"
+#~ msgstr "Kant"
+
+#~ msgid "Burst Color"
+#~ msgstr "Eksplosjonsfarge:"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Riss inn heva tekst"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Riss inn kvite område"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Cellestorleik (pixels)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Krittfarge"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Sprekkmengd"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Krombalanse:"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Kromfaktor"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Kromlysstyrke:"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Krommetting"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Krom kvite område"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Kretsfrø"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Nullstill ikke-vald maskeområde"
+
+#~ msgid "Color 1"
+#~ msgstr "Farge 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Farge 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Farge 3"
+
+#~ msgid "Color"
+#~ msgstr "Farge"
+
+#~ msgid "Columns"
+#~ msgstr "Kolonnar"
+
+#~ msgid "Create New Image"
+#~ msgstr "Lag nytt bilete"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Lagskugge"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Eigendefinert gradient"
+
+#~ msgid "Dark Color"
+#~ msgstr "Mørk farge"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Berre mørkne\n"
+#~ "(Betre, men bare for bilete med mykje kvit)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Standard bumpmapinnstillingar"
+
+#~ msgid "Defocus"
+#~ msgstr "Avfokusér"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Deltaverdi for farge"
+
+#~ msgid "Density (%)"
+#~ msgstr "Tettleik (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Djupne"
+
+#~ msgid "Description"
+#~ msgstr "Skildring"
+
+#~ msgid "Detail Level"
+#~ msgstr "Detaljnivå"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Detalj i midten"
+
+#~ msgid "Diameter"
+#~ msgstr "Diameter"
+
+#~ msgid "Down"
+#~ msgstr "Ned"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Droppskugge blurradius"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Droppskuggefarge"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Droppskuggetransparens"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Dropskugge X offset"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Dropskugge Y offset"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Droppskugge"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Kantmengd"
+
+#~ msgid "Edge Only"
+#~ msgstr "Berre kant"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Kantradius"
+
+#~ msgid "Edge Width"
+#~ msgstr "Kantbreidd"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Effektstorleik (pixels * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Effektstorleik (pixels * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Effektstorleik (pixels * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Effektstorleik (pixels * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Effektstorleik (pixels)"
+
+#~ msgid "Elevation"
+#~ msgstr "Forhøgning"
+
+#~ msgid "End Blend"
+#~ msgstr "Slutt blanding"
+
+#~ msgid "End X"
+#~ msgstr "Slutt X"
+
+#~ msgid "End Y"
+#~ msgstr "Slutt Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Avsluttande blanding"
+
+#~ msgid "Environment Map"
+#~ msgstr "Environment Map"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Visk ut før teikning"
+
+#~ msgid "Erase"
+#~ msgstr "Viskelær"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Viskelær/Fyll"
+
+#~ msgid "Even"
+#~ msgstr "Jamn"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Jamn/Odde"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "FG-BG-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "FG-BG-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "FG-Gjennomsiktig "
+
+#~ msgid "Feathering"
+#~ msgstr "Gjer kantane diffuse"
+
+#~ msgid "Filename"
+#~ msgstr "Filnamn"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Fyllvinkel"
+
+#, fuzzy
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Fyll BG med mønster"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Fyll med BG farge"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Fyll med BG"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Flatgjer bilete"
+
+#~ msgid "Font Color"
+#~ msgstr "Skriftfarge"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Skriftstorleik (pixels)"
+
+#~ msgid "Font"
+#~ msgstr "Skrifttype"
+
+#~ msgid "Fonts"
+#~ msgstr "Skrifttypar"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Framgrunnsfarge"
+
+#~ msgid "Frame Color"
+#~ msgstr "Rammefarge"
+
+#~ msgid "Frame Size"
+#~ msgstr "Rammestorleik"
+
+#~ msgid "Frames"
+#~ msgstr "Rammer"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Frå øvre venstre til nedre høgre"
+
+#~ msgid "Glow Color"
+#~ msgstr "Glødfarge"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Glødradius"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Glødstorleik (pixels * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Gradient"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Granularitet (1 er lav)"
+
+#, fuzzy
+#~ msgid "Granularity"
+#~ msgstr "Granularitet"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Grafskalering"
+
+#~ msgid "Grids X"
+#~ msgstr "Rutenett X"
+
+#~ msgid "Grids Y"
+#~ msgstr "Rutenett Y"
+
+#~ msgid "Height"
+#~ msgstr "Høgd"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Opplysingsbalanse"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Opplysingsfarge"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Opplysingstransparens"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Opplysing X offset"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Opplysing Y offset"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Treffrate"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Nyanserate"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "BiletehÃ¸gd"
+
+#~ msgid "Image Size"
+#~ msgstr "Biletestorleik"
+
+#~ msgid "Image Width"
+#~ msgstr "Biletebreidd"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Bilete å skjære ut"
+
+#~ msgid "Index Image"
+#~ msgstr "Indeksér bilete"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Indeks til n fargar (0 = forbli RGB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Sett inn lagnamn"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Mellomlagsrammer"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpolér"
+
+#~ msgid "Invert direction"
+#~ msgstr "Reversér retning"
+
+#~ msgid "Invert"
+#~ msgstr "Reversér"
+
+#~ msgid "Keep Background"
+#~ msgstr "Behald bakgrunn"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Behald bump-lag"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Belald val"
+
+#~ msgid "Land Height"
+#~ msgstr "Landhøgd"
+
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#~ msgid "Looped"
+#~ msgstr "Repetert"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Lavaste farge (aktiv)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Lavaste farge"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Farge nede til venstre"
+
+#~ msgid "Make New Background"
+#~ msgstr "Lag ny bakgrunn"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Masketransparens"
+
+#~ msgid "Mask Size"
+#~ msgstr "Maskestorleik"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Maksimum blurradius"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Mosaikkbrikketype"
+
+#~ msgid "Mottle"
+#~ msgstr "Flekket"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Inga bakgrunn (berre for separate lag)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Ikkje trykt (aktiv)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Ikkje trykt"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Antal band"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Antal fargar"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Antal kopiar"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Antal rammer"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Antal linjer"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Antal kvervlar"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "Antal X brikker"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Antal Y brikker"
+
+#~ msgid "Number"
+#~ msgstr "Nummer"
+
+#~ msgid "Odd"
+#~ msgstr "Odde"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Offset (pixels)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Offset radius"
+
+#~ msgid "Offset X"
+#~ msgstr "Offset X"
+
+#~ msgid "Offset Y"
+#~ msgstr "Offset Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Offsets (pixels * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Oljelegg maskvidde"
+
+#~ msgid "Opacity"
+#~ msgstr "Transparens"
+
+#~ msgid "Orientation"
+#~ msgstr "Retning"
+
+#~ msgid "Outer Border"
+#~ msgstr "Ytre kantlinje"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Omriss blurradius"
+
+#~ msgid "Outline Color"
+#~ msgstr "Omrissfarge"
+
+#~ msgid "Outline Size"
+#~ msgstr "Omrisstorleik"
+
+#~ msgid "Pad Color"
+#~ msgstr "Pad fargar"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Pad transparens"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Padding rundt tekst"
+
+#~ msgid "Padding X"
+#~ msgstr "Padding X"
+
+#~ msgid "Padding Y"
+#~ msgstr "Padding Y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Padding for transparente område"
+
+#~ msgid "Padding"
+#~ msgstr "Padding"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Mønster (omriss)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Mønster (overlag)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Mønster (tekst)"
+
+#~ msgid "Pattern"
+#~ msgstr "Mønster"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Penradius / hjulradius [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Pixelmengd"
+
+#~ msgid "Pixelize"
+#~ msgstr "Pixelstorleik"
+
+#~ msgid "Pressed"
+#~ msgstr "Trykt"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Kvartstorleik"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Radius"
+
+#~ msgid "Random Seed"
+#~ msgstr "Tilfeldighetsfrø"
+
+#~ msgid "Randomness"
+#~ msgstr "Tilfeldig"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Relativ avstand til horisont"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Relativ lengd på skugge"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Relativ radius"
+
+#~ msgid "Remove Background"
+#~ msgstr "Ta vekk bakgrunn"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Båndmellomrom"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Båndbreidd"
+
+#~ msgid "Right"
+#~ msgstr "Høgre"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Krusningsstyrke"
+
+#~ msgid "Roughness"
+#~ msgstr "Ruleik"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Rundrate"
+
+#~ msgid "Rows"
+#~ msgstr "Rader"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Rader/Kolonner"
+
+#~ msgid "Scale X"
+#~ msgstr "Skala X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Skala Y"
+
+#, fuzzy
+#~ msgid "Sea Depth"
+#~ msgstr "Skuggedjupne"
+
+#~ msgid "Seed"
+#~ msgstr "Frø"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Velg-frå-farge terskel"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Separat lag"
+
+#~ msgid "Sepia"
+#~ msgstr "Sepia"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Skuggeblurradius"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Skuggefarge:"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Grad av mørke for skugge"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Skuggedjupne"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Skuggevekt (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Skugge X offset"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Skugge Y offset:"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Skarpleik (grader)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Skjæringslengd"
+
+#~ msgid "Size"
+#~ msgstr "Storleik"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Jamn ut horisontalt"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Jamn ut vertikalt"
+
+#~ msgid "Smooth"
+#~ msgstr "Jamn"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Mellomrom mellom lag"
+
+#~ msgid "Spacing"
+#~ msgstr "Mellomrom"
+
+#~ msgid "Spots density X"
+#~ msgstr "Flekktettleik X"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Flekktettleik Y"
+
+#~ msgid "Spread"
+#~ msgstr "Spreiing"
+
+#~ msgid "Squares"
+#~ msgstr "Firkantar"
+
+#~ msgid "Stains"
+#~ msgstr "Flekkar"
+
+#~ msgid "Start Angle"
+#~ msgstr "Startvinkel"
+
+#~ msgid "Start Blend"
+#~ msgstr "Start blanding"
+
+#~ msgid "Start X"
+#~ msgstr "Start X"
+
+#~ msgid "Start Y"
+#~ msgstr "Start Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Startar blanding"
+
+#~ msgid "Supersample"
+#~ msgstr "Supersample"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Tekstfarge (aktiv)"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekstfarge"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Nytt mønster"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Thickness"
+#~ msgstr "Tjukkleik"
+
+#~ msgid "Thread Density"
+#~ msgstr "Trådtettleik"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Trådintensitet"
+
+#~ msgid "Thread Length"
+#~ msgstr "Trådlengd"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Terskel (Større 1<-->255 Mindre)"
+
+#~ msgid "Tile"
+#~ msgstr "Brikke"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Gjennomsiktig bakgrunn"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Snu frå venstre til høgre"
+
+#~ msgid "Up"
+#~ msgstr "Opp"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Øvste farge (aktiv)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Øvste farge"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Farge øvst til venstre"
+
+#~ msgid "Use Brush"
+#~ msgstr "Bruk pensel"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Bruk gjeldande gradient"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Bruk vaksande val"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Bruk mønsteroverlag"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Bruk mønster for omriss istaden for gradient"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Bruk mønster for tekst i plassen for gradient"
+
+#~ msgid "Wavelength"
+#~ msgstr "Bølgjelengd"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Hjulradius (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Kvervlemengd"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Kvervlevinkel"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Breidd på band"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Breidd av biletet"
+
+#~ msgid "Width"
+#~ msgstr "Breidd"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Arbeid på kopi"

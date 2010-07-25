@@ -1,0 +1,1031 @@
+dnl Process this file with autoconf to produce a configure script.
+
+prefix=/usr/local
+
+AC_INIT(gimprc.in)
+AM_CONFIG_HEADER(lib/config.h)
+
+dnl Initialize automake stuff
+dnl $Format: "MAJOR_VERSION=$ReleaseMajorVersion$" $
+MAJOR_VERSION=0
+dnl $Format: "MINOR_VERSION=$ReleaseMinorVersion$" $
+MINOR_VERSION=25
+dnl $Format: "MICRO_VERSION=$ReleaseMicroVersion$" $
+MICRO_VERSION=0
+dnl $Format: "RNH_VERSION=$ReleaseRNHVersion$" $
+RNH_VERSION=28b01   
+dnl VERSION=$MAJOR_VERSION.$MINOR_VERSION.$MICRO_VERSION.$RNH_VERSION
+dnl PROGRAM_VERSION=$MAJOR_VERSION.$MINOR_VERSION
+PROGRAM_VERSION=$MAJOR_VERSION.$MINOR_VERSION.$MICRO_VERSION
+
+AM_INIT_AUTOMAKE(cinepaint, $PROGRAM_VERSION)
+AM_SANITY_CHECK
+
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_PROG_CXX
+AC_PROG_CPP
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+AC_PROG_LN_S
+AC_PROG_LIBTOOL
+
+AM_MAINTAINER_MODE
+AC_C_BIGENDIAN
+
+AC_HEADER_DIRENT
+AC_HEADER_STDC
+AC_HEADER_SYS_WAIT
+AC_HEADER_TIME
+AC_CHECK_HEADER(sys/time.h, AC_DEFINE(HAVE_SYS_TIME_H))
+AC_CHECK_HEADER(sys/times.h, AC_DEFINE(HAVE_SYS_TIMES_H))
+AC_CHECK_HEADER(unistd.h, AC_DEFINE(HAVE_UNISTD_H))
+AC_TYPE_PID_T
+AC_TYPE_SIGNAL
+AC_FUNC_VPRINTF
+AC_FUNC_ALLOCA
+
+dnl desktop install
+AC_ARG_WITH(desktop-dir,
+  [  --with-desktop=dir      specify the path to install desktop file],
+  [desktopdir="$withval"], [desktopdir=""])
+if test -z "$desktopdir"; then
+  desktopdir=$datadir/applications
+fi
+DESKTOP_DIR="$desktopdir"
+AC_SUBST(DESKTOP_DIR)
+
+AC_ARG_WITH(pixmap-dir,
+  [  --with-pixmap=dir       specify the path to install desktop pixmap file],
+  [pixmapdir="$withval"], [pixmapdir=""])
+if test -z "$pixmapdir"; then
+  pixmapdir=$datadir/pixmaps
+fi
+PIXMAP_DIR="$pixmapdir"
+AC_SUBST(PIXMAP_DIR)
+
+cinepaint_save_PKG_CONFIG_PATH="$PKG_CONFIG_PATH"
+echo ""
+echo PKG_CONFIG_PATH = $PKG_CONFIG_PATH
+echo ""
+if test -z "$PKG_CONFIG_PATH"; then 
+  PKG_CONFIG_PATH="$libdir/pkgconfig"
+else
+  PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$libdir/pkgconfig"
+fi
+
+
+dnl Check for sys/select.h
+AC_MSG_CHECKING([fd_set and sys/select])
+AC_TRY_COMPILE([#include <sys/types.h>],
+        [fd_set readMask, writeMask;], cinepaint_ok=yes, cinepaint_ok=no)
+if test $cinepaint_ok = no; then
+    AC_HEADER_EGREP(fd_mask, sys/select.h, cinepaint_ok=yes)
+    if test $cinepaint_ok = yes; then
+        AC_DEFINE(HAVE_SYS_SELECT_H)
+    fi
+fi
+AC_MSG_RESULT($cinepaint_ok)
+if test $cinepaint_ok = no; then
+    AC_DEFINE(NO_FD_SET)
+fi
+
+dnl flex check; beku 
+if test -z "$FLEX_LIBS"; then
+    AC_CHECK_LIB(fl,yywrap, [FLEX_LIBS='-lfl', FLEX=flex],
+                                         AC_MSG_RESULT([none]))
+fi
+
+dnl pthreads check; beku 
+if test -z "$THREAD_LIBS"; then
+    AC_CHECK_LIB(pthread,pthread_create, THREAD_LIBS='-lpthread',
+                                         AC_MSG_RESULT([none]))
+    if test -n "$THREAD_LIBS"; then
+      AC_CHECK_HEADER(pthread.h,THREAD='pthread',)
+    fi
+fi
+
+dnl check for pkg-config
+export PKG_CONFIG_PATH
+AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
+if test "x$PKG_CONFIG" == "xno"; then
+  AC_MSG_WARN([
+*** Check for pkg-config failed. Many packages requires it.
+*** You can download it from http://pkgconfig.sourceforge.net/  .])
+  ERROR=1
+fi
+
+
+use_gtk2=1
+dnl test for gtk1; beku
+AC_ARG_ENABLE(gtk1, [  --enable-gtk1           enable gtk1 support [[default=no]]],
+if eval "test x$enable_gtk1 = xyes"; then
+  use_gtk2=0
+fi)
+
+  AC_DEFUN([AC_CINEPAINT_CHECK],
+  [
+    AC_LANG(C)
+	AM_PATH_GTK(1.2.8,,
+        [AC_MSG_WARN(Test for GTK failed. See the file 'INSTALL' for help.);
+         ERROR=1])
+        X_LIBS="$GTK_LIBS $LDFLAGS"
+        X_CFLAGS="$GTK_CFLAGS $CPPFLAGS"
+  ])
+
+if test -n "$use_gtk2"; then
+      GTK2_CONFIG="$PKG_CONFIG gtk+-2.0"
+      gtk2_version=`$GTK2_CONFIG --modversion`
+      if expr "$gtk2_version" \>= 2.0.0 >/dev/null; then
+        AC_MSG_RESULT([checking for Gtk2... (version $gtk2_version) yes])
+        GTK_LIBS=`$GTK2_CONFIG --libs`
+        GTK_CFLAGS=`$GTK2_CONFIG --cflags`
+      else
+        AC_MSG_WARN([
+*** Check for Gtk2 failed.
+*** You can download it from http://www.gtk.org/  .])
+        ERROR=1
+      fi
+      X_LIBS="$GTK_LIBS $LDFLAGS"
+      X_CFLAGS="$GTK_CFLAGS $CPPFLAGS"
+else
+  dnl Test for GLIB; beku
+  AC_PATH_PROG(GLIB_CONFIG, glib-config, no)
+    if test "x$GLIB_CONFIG" != "xno"; then
+      GLIB_CONFIG="$GLIB_CONFIG"
+      GLIB_LIBS=`$GLIB_CONFIG --libs`
+      GLIB_CFLAGS=`$GLIB_CONFIG --cflags`
+      CPPFLAGS="$CPPFLAGS $GLIB_CFLAGS"
+      LIBS="$LIBS $GLIB_LIBS"
+    else
+      AC_MSG_WARN([
+*** Check for glib-config failed. 
+*** You can download Glib from http://www.gtk.org/  .
+*** As well check if the glib-devel or similiar package is installed on your
+*** distribution.])
+      ERROR=1
+    fi
+
+  dnl check for inline
+  AC_MSG_CHECKING([for inline definition in glibconfig.h])
+  AC_EGREP_CPP(glib_defines_inline,
+  [#include <glibconfig.h>
+  #ifdef inline
+     glib_defines_inline
+  #endif
+  ], have_glib_inline=yes, have_glib_inline=no)
+  AC_MSG_RESULT($have_glib_inline)
+  if test "$have_glib_inline" = "no"; then
+    AC_C_INLINE
+  fi
+  AC_CINEPAINT_CHECK
+fi
+
+
+AC_ARG_ENABLE(debug, [  --enable-debug          turn on debugging [[default=no]]],
+if eval "test x$enable_debug = xyes"; then
+  DEBUGFLAG="-g -Wall --pedantic"
+dnl --pedantic prevents OpenEXR from compiling
+fi)
+
+if test -n "$DEBUGFLAG"; then
+  CFLAGS="-DDEBUG $DEBUGFLAG `echo $CFLAGS | sed s/-O.//`"
+  CXXFLAGS="-DDEBUG $DEBUGFLAG `echo $CXXFLAGS | sed s/-O.//`"
+  CPPFLAGS="`echo $CPPFLAGS | sed s/-O.\//`"
+fi
+
+AC_ARG_ENABLE(debug, [  --enable-profile        turn on profiling [[default=no]]],
+if eval "test x$enable_profile = xyes"; then
+  DEBUGFLAG="$DEBUGFLAG -p"
+fi)
+
+if test -n "$DEBUGFLAG"; then
+  CFLAGS="-DDEBUG $DEBUGFLAG `echo $CFLAGS | sed s/-O.//`"
+  CXXFLAGS="-DDEBUG $DEBUGFLAG `echo $CXXFLAGS | sed s/-O.//`"
+  CPPFLAGS="`echo $CPPFLAGS | sed s/-O.\//`"
+fi
+
+
+AC_ARG_ENABLE(ansi, [  --enable-ansi           turn on strict ansi [[default=no]]], , enable_ansi=no)
+
+AM_CONDITIONAL(STATICLIBS, test x$enable_static = xyes)
+
+dnl Possibly change default programdotdir from .cinepaint
+programdotdir=.cinepaint
+AC_ARG_ENABLE(programdotdir, [  --enable-programdotdir=DIR    change default programdotdir from .cinepaint to DIR],
+if eval "test x$enable_programdotdir != x"; then
+  if eval "test x$enable_programdotdir != xyes"; then
+    programdotdir=$enable_programdotdir
+  fi
+fi)
+
+dnl Possibly change default precision from 16 bit
+precision=PRECISION_U16
+AC_ARG_ENABLE(precision, [  --enable-precision={u8,u16,half,float}  set the data precision [[default=u16]]],
+if eval "test x$enable_precision != x"; then
+  if eval "test x$enable_precision == xu8"; then
+    precision=PRECISION_U8
+  fi
+  if eval "test x$enable_precision == xu16"; then
+    precision=PRECISION_U16
+  fi
+  if eval "test x$enable_precision == xhalf"; then
+    precision=PRECISION_FLOAT16
+  fi
+  if eval "test x$enable_precision == xfloat"; then
+    precision=PRECISION_FLOAT
+  fi
+fi)
+
+if eval "test x$GCC = xyes"; then
+  if echo "$CFLAGS" | grep "\-Wall" > /dev/null 2> /dev/null; then
+    CFLAGS="$CFLAGS"
+  else
+    CFLAGS="$CFLAGS -Wall"
+  fi
+
+  if eval "test x$enable_ansi = xyes"; then
+    if echo "$CFLAGS" | grep "\-ansi" > /dev/null 2> /dev/null; then
+      CFLAGS="$CFLAGS"
+    else
+      CFLAGS="$CFLAGS -ansi"
+    fi
+
+    if echo "$CFLAGS" | grep "\-pedantic" > /dev/null 2> /dev/null; then
+      CFLAGS="$CFLAGS"
+    else
+      CFLAGS="$CFLAGS -pedantic"
+    fi
+  fi
+fi
+
+cinepaint_save_CPPFLAGS="$CPPFLAGS"
+cinepaint_save_LDFLAGS="$LDFLAGS"
+cinepaint_save_LIBS="$LIBS"
+
+CPPFLAGS="$CPPFLAGS $GTK_CFLAGS -I$includedir"
+LDFLAGS="$LDFLAGS `echo $GTK_LIBS | sed 's/\(.*\)\(-lgtk.*\)/\1/'`"
+LIBS="$LIBS $GTK_LIBS -L$libdir"
+
+case $host_os in
+darwin* | rhapsody*)
+OSX_ICC_EFFECT_PROFILE_PATH="/Library/ColorSync/Profiles"
+OSX_ICC_PROFILE_PATHS=":/Library/ColorSync/Profiles/Displays:/Applications/CinePaint.app/Contents/Resources/share/color/icc:~/Library/ColorSync/Profiles"
+APPLE=$host_os
+LDFLAGS="$LDFLAGS -L/sw/lib -flat_namespace -undefined suppress -framework Carbon -framework ApplicationServices -lintl -liconv "
+cinepaint_save_CPPFLAGS="$cinepaint_save_CPPFLAGS -I/sw/include -no-cpp-precomp -D_REGEX_RE_COMP"
+cinepaint_save_LDFLAGS="$cinepaint_save_LDFLAGS -L/sw/lib -flat_namespace -undefined suppress -framework Carbon -framework ApplicationServices -lintl -liconv "
+;;
+esac
+
+dnl i18n stuff
+ALL_LINGUAS="ca cs da de el en_GB es eu fi fr ga gl hu hr it ja ko lt nl nn no pl pt pt_BR ro ru sk sl sv tr uk zh_CN zh_TW"
+
+dnl AC_PROG_INTLTOOL
+AM_GLIB_GNU_GETTEXT
+if eval "test x$USE_NLS = xyes"; then
+  ENABLE_NLS="#define ENABLE_NLS 1"
+fi
+
+dnl ****** Graphics Library Checks ******
+dnl Test for libtiff
+if test -z "$LIBTIFF_LIB"; then
+    AC_MSG_CHECKING(for TIFF support)
+    AC_CHECK_LIB(tiff,TIFFOpen,,
+    [AC_MSG_WARN([*** TIFF dev lib not found ***]);ERROR=1], -lz -ljpeg)
+    AC_CHECK_HEADER(tiff.h,
+	TIFF='tiff'; LIBTIFF_LIB='-ltiff -lz -ljpeg',
+	[AC_MSG_WARN(*** TIFF dev header tiff.h not found ***);ERROR=1])
+    AC_CHECK_HEADER(tiffio.h,
+          TIFF='tiff'; LIBTIFF_LIB='-ltiff -ljpeg -lz',
+	  [AC_MSG_WARN(*** TIFF dev header tiffio.h not found ***);ERROR=1])
+fi
+
+  export PKG_CONFIG_PATH
+  AC_PATH_PROG(OPENEXR_CONFIG, pkg-config, no)
+    if test "x$OPENEXR_CONFIG" != "xno"; then
+      OPENEXR_CONFIG="$OPENEXR_CONFIG OpenEXR"
+      openexr_version=`$OPENEXR_CONFIG --modversion`
+      if expr "$openexr_version" \>= 1.0.0 >/dev/null; then
+        AC_MSG_RESULT([checking for OpenEXR... (version $openexr_version) yes])
+        OPENEXR_LIBS=`$OPENEXR_CONFIG --libs | sed  s/-O.\//`
+        OPENEXR_INCLUDES=`$OPENEXR_CONFIG --cflags | sed  s/-O.\//`
+      else
+        dnl second Test for OpenEXR
+        AC_MSG_CHECKING(for openexr support)
+        AC_LANG(C++)
+        AC_CHECK_HEADER(OpenEXR/half.h,,[AC_MSG_WARN([
+*** OpenEXR dev header half.h not found
+*** install OpenEXR and development packages or
+*** download from http://www.openexr.org ]);ERROR=1])
+        OPENEXR_INCLUDES="-I/usr/include/OpenEXR -I/opt/local/include/OpenEXR -I${includedir}/OpenEXR"
+      fi
+    else
+      AC_MSG_WARN([
+*** Check for pkg-config failed. OpenEXR requires it?.
+*** You can download it from http://pkgconfig.sourceforge.net/  .])
+    fi
+
+
+dnl Test for JPEG
+if test -z "$LIBJPEG_LIB"; then
+    AC_MSG_CHECKING(for JPEG support)
+    AC_CHECK_LIB(jpeg,jinit_memory_mgr,LIBJPEG_LIB='-ljpeg',
+                 [AC_MSG_WARN(*** JPEG ***);ERROR=1],)
+fi
+
+dnl Test for libz
+  if test -z "$LIBZ"; then
+    AC_CHECK_LIB(z, gzsetparams,
+      [AC_CHECK_HEADER(zlib.h,
+	LIBZ='-lz',
+	[AC_MSG_WARN(*** PNG plug-in will not be built (ZLIB header files not found) ***)])],
+      [AC_MSG_WARN(*** PNG plug-in will not be built (ZLIB library not found) ***)])
+  fi
+
+dnl pkg-config Test for libpng
+  export PKG_CONFIG_PATH
+  AC_PATH_PROG(PNG_CONFIG, pkg-config, no)
+    if test "x$PNG_CONFIG" != "xno"; then
+      PNG_CONFIG="$PNG_CONFIG libpng"
+      libpng_version=`$PNG_CONFIG --modversion`
+      if expr $libpng_version \>= 1.0.0 >/dev/null; then
+        AC_MSG_RESULT([checking for libpng... (version $libpng_version) yes])
+        LIBPNG=`$PNG_CONFIG --libs | sed  s/-O.\//`
+        PNG_INCLUDES=`$PNG_CONFIG --cflags | sed  s/-O.\//`
+      else
+        dnl second Test for libpng
+        if test -z "$LIBPNG" && test -n "$LIBZ"; then
+          AC_CHECK_LIB(png, png_read_info,
+            [AC_CHECK_HEADER(png.h,
+      	png_ok=yes,
+      	png_ok=no)],
+            [AC_MSG_WARN(*** PNG plug-in will not be built (PNG library not found) ***)], -lz -lm)
+          if test "$png_ok" = yes; then
+            AC_MSG_CHECKING([for png_structp in png.h])
+            AC_TRY_COMPILE([#include <png.h>],
+              [png_structp pp; png_infop info; png_colorp cmap; png_create_read_struct;],
+              png_ok=yes,
+              png_ok=no)
+            AC_MSG_RESULT($png_ok)
+            if test "$png_ok" = yes; then
+              PNG='png'$EXEEXT; LIBPNG="-lpng $LIBZ"
+            else
+              AC_MSG_WARN(*** PNG plug-in will not be built (PNG library is too old) ***)
+            fi
+          else
+            AC_MSG_WARN(*** PNG plug-in will not be built (PNG header file not found) ***)
+          fi
+        fi
+      fi
+    else
+      AC_MSG_WARN([
+*** Check for pkg-config failed. OpenEXR requires it?.
+*** You can download it from http://pkgconfig.sourceforge.net/  .])
+    fi
+
+dnl Test for libpng
+
+dnl Test for LCMS
+dnl beku 
+LCMS_REQUIRED_VERSION=1.16
+  export PKG_CONFIG_PATH
+  AC_PATH_PROG(LCMS_CONFIG, pkg-config, no)
+    if test "x$LCMS_CONFIG" != "xno"; then
+      LCMS_CONFIG="$LCMS_CONFIG lcms"
+      AC_MSG_CHECKING(for lcms >= $LCMS_REQUIRED_VERSION)
+      lcms_version=`$LCMS_CONFIG --modversion`
+      if expr $lcms_version \>= $LCMS_REQUIRED_VERSION >/dev/null; then
+        AC_MSG_RESULT([yes (version $lcms_version)])
+        LCMS_LIB=`$LCMS_CONFIG --libs | sed  s/-O.\//`
+        LCMS_LIBS=`$LCMS_CONFIG --libs-only-L | sed  s/-O.\//`
+        LCMS_CFLAGS=`$LCMS_CONFIG --cflags | sed  s/-O.\//`
+        LDFLAGS="$LCMS_LIBS $LDFLAGS"
+        CPPFLAGS="$LCMS_CFLAGS $CPPFLAGS"
+        CFLAGS="$LCMS_CFLAGS $CFLAGS"
+      else
+        AC_MSG_WARN([
+*** liblcms version $lcms_version is too old or not available.
+*** You need at least version $LCMS_REQUIRED_VERSION .])
+      fi
+    else
+      AC_MSG_WARN([
+*** Check for pkg-config failed. LittleCMS requires it?.
+*** You can download it from http://pkgconfig.sourceforge.net/  .])
+    fi
+dnl second try because lcms uses pkgconfig since 1.13 but we support 1.12 too
+dnl stefan klein: check for littlecms
+if test -z "$LCMS_LIB"; then
+    AC_MSG_CHECKING(for littlecms support)
+    AC_CHECK_LIB(lcms,cmsOpenProfileFromFile,LCMS_LIB='-llcms',
+                 [AC_MSG_WARN(*** littlecms ***);ERROR=1],)
+fi
+
+dnl Test for Xmu
+  if test -z "$XMU_LIB"; then
+    AC_CHECK_LIB(Xmu, XmuClientWindow,
+      [AC_CHECK_HEADER(X11/Xmu/WinUtil.h,
+    CINEPAINT_REMOTE="cinepaint-remote"; XMU_LIB='-lXmu -lXt -lSM -lICE',
+    [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU header file not found) ***)])],
+    [AC_CHECK_LIB(Xmu, XmuUpdateMapHints,
+      [AC_CHECK_HEADER(X11/Xmu/WinUtil.h,
+        CINEPAINT_REMOTE="cinepaint-remote"; XMU_LIB='-lXmu -lXt',
+        [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU header file not found) ***)])],
+    [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU library not found) ***)], -lXt)], -lXt -lSM -lICE)
+  fi
+
+dnl Test for gutenprint
+dnl beku: adapted from gimp and modified - This is for the print plug-in
+GUTENPRINT_REQUIRED_VERSION=5.0.0
+AC_ARG_ENABLE(print, [  --disable-print         build without print support (requires libgutenprint)])
+  if test "x$enable_print" != "xno"; then
+    export PKG_CONFIG_PATH
+    AC_PATH_PROG(PRINT_CONFIG, pkg-config, no)
+    if test "x$PRINT_CONFIG" != "xno"; then
+      if test -n "$use_gtk2"; then
+        PRINT_CONFIG="$PRINT_CONFIG gutenprintui2"
+        echo try gutenprintui2
+      else
+        PRINT_CONFIG="$PRINT_CONFIG gutenprintui"
+        echo try gutenprintui
+      fi
+      AC_MSG_CHECKING(for gutenprint >= $GUTENPRINT_REQUIRED_VERSION)
+      print_version=`$PRINT_CONFIG --modversion`
+      if expr $print_version \>= $GUTENPRINT_REQUIRED_VERSION >/dev/null; then
+        AC_MSG_RESULT([yes (version $print_version)])
+        PRINT='print'
+        PRINT_LIBS=`$PRINT_CONFIG --libs | sed  s/-O.\//`
+        PRINT_CFLAGS=`$PRINT_CONFIG --cflags | sed  s/-O.\//`
+      else
+        AC_MSG_WARN([
+*** libgutenprint version $print_version is too old or not available.
+*** You need at least version $GUTENPRINT_REQUIRED_VERSION .])
+      fi
+    else
+      AC_MSG_WARN([
+*** Check for pkg-config failed. Gutenprint requires it?.
+*** You can download it from http://pkgconfig.sourceforge.net/  .])
+    fi
+  fi
+  if test x$enable_print != xno && test -z $PRINT ; then
+    AC_MSG_WARN([
+*** Check for libgutenprint failed. Try setting the PKG_CONFIG_PATH variable.
+*** You may download it from
+*** http://gutenprint.sourceforge.net/ . Take an developers release.
+*** They are numberd beginning with $GUTENPRINT_REQUIRED_VERSION .
+*** You can build without printing support by passing
+*** --disable-print to configure (but you won't be able to print then).])
+  fi
+
+dnl Test for Oyranos; beku
+dnl  AC_PATH_PROG(OY_CONFIG, [$PKG_CONFIG oyranos_monitor --exists], no)
+  AC_PATH_PROG(OY_CONFIG, oyranos-config, no)
+    if test "x$OY_CONFIG" != "xno"; then
+        pkg-config --exists oyranos_monitor
+        if test $? -eq 0; then
+          OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --ld_x_flags | sed  s/-O.\//`"
+        else
+          OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --ldflags | sed  s/-O.\//`"
+        fi
+        OYRANOS_CFLAGS="-DHAVE_OY `$OY_CONFIG --cflags | sed  s/-O.\//`"
+        OYRANOS="`$OY_CONFIG --version`"
+dnl     OY_CONFIG="$PKG_CONFIG oyranos_monitor"
+dnl     OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --libs`"
+dnl     OYRANOS_CFLAGS="-DHAVE_OY `$OY_CONFIG --cflags`"
+dnl     OYRANOS="`$OY_CONFIG --modversion`"
+    else
+      AC_MSG_WARN([
+*** Check for oyranos-config failed.
+*** You can download Oyranos from http://www.oyranos.org/  .])
+    fi
+
+dnl Test for FLTK; beku
+AC_ARG_WITH(fltk-config, [  --with-fltk-config=PATH/fltk-config complete file name], FLTK_CONFIG="$withval", FLTK_CONFIG="")
+if test -z "$FLTK_CONFIG"; then
+    AC_PATH_PROG(FLTK_CONFIG, fltk-config, no)
+fi
+    if test "x$FLTK_CONFIG" = "xno"; then
+      AC_PATH_PROG(FLTK_UTF8_CONFIG, fltk-utf8-config, no)
+      FLTK_LIB="fltk"
+      if test "x$FLTK_UTF8_CONFIG" != "xno"; then
+        FLTK_CONFIG="$FLTK_UTF8_CONFIG"
+        FLTK_UTF8="yes"
+        FLTK_LIB="fltk-utf8"
+      fi
+    fi
+    if test "x$FLTK_CONFIG" != "xno"; then
+      FLTK_CONFIG="$FLTK_CONFIG"
+        FLTK_LDFLAGS="`$FLTK_CONFIG --use-images --ldflags | sed \"$STRIPOPT\"`"
+        FLTK_LIBS_PURE="`echo $FLTK_LDFLAGS | sed  's/-O.// ; s/-isysroot /-L/ ; s/-arch ppc// ; s/-arch i386//'`"
+        FLTK_LIBS="\$(top_builddir)/lib/fl_i18n/libcinepaint_fl_i18n.la $FLTK_LIBS_PURE"
+        FLTK_CFLAGS=`$FLTK_CONFIG --cxxflags | sed  's/-O.// ; s/-isysroot /-L/ ; s/-arch ppc// ; s/-arch i386//'`
+    else
+      AC_MSG_WARN([
+*** Check for fltk-config failed. Depending plug-ins may not compile.
+*** You can download FLTK from http://www.fltk.org/  .])
+      ERROR=1
+    fi
+
+dnl Check for shared memory
+AC_CHECK_HEADER(sys/ipc.h, AC_DEFINE(HAVE_IPC_H), no_sys_ipc=yes)
+AC_CHECK_HEADER(sys/shm.h, AC_DEFINE(HAVE_SHM_H), no_sys_shm=yes)
+if test "$ac_cv_header_sys_shm_h" = "yes"; then
+  AC_MSG_CHECKING(whether shmctl IPC_RMID allowes subsequent attaches)
+  AC_TRY_RUN([
+	#include <sys/types.h>
+	#include <sys/ipc.h>
+	#include <sys/shm.h>
+	int main()
+	{
+	  int id;
+	  char *shmaddr;
+	id = shmget (IPC_PRIVATE, 4, IPC_CREAT | 0777);
+	if (id == -1)
+	  exit (2);
+	  shmaddr = shmat (id, 0, 0);
+	  shmctl (id, IPC_RMID, 0);
+	  if ((char*) shmat (id, 0, 0) == (char*) -1)
+	  {
+	    shmdt (shmaddr);
+	    exit (1);
+	  }
+	  shmdt (shmaddr);
+	  shmdt (shmaddr);
+	  exit (0);
+	}
+    ],
+    AC_DEFINE(IPC_RMID_DEFERRED_RELEASE)
+      AC_MSG_RESULT(yes),
+    AC_MSG_RESULT(no),
+    AC_MSG_RESULT(assuming no))
+fi
+
+
+dnl Test For Python
+AM_PATH_PYTHON
+AC_ARG_WITH(python,[  --with-python=path       Set location of Python executable],[ PYBIN="$withval"], [PYBIN=])
+dnl First figure out the name of the Python executable
+if test -z "$PYBIN"; then
+AC_CHECK_PROGS(PYTHON, python python2.5 python2.4 python2.3 python2.2 python2.1 python2.0 python1.6 python1.5 python1.4 python)
+else
+PYTHON="$PYBIN"
+fi
+
+if test -n "$PYTHON"; then
+    AC_MSG_CHECKING(for Python prefix)
+    PYPREFIX=`($PYTHON -c "import sys; print sys.prefix") 2>/dev/null`
+    AC_MSG_RESULT($PYPREFIX)
+    AC_MSG_CHECKING(for Python exec-prefix)
+    PYEPREFIX=`($PYTHON -c "import sys; print sys.exec_prefix") 2>/dev/null`
+    PYLIBNAME=`($PYTHON -c "import sys; print sys.lib") 2>/dev/null`
+    AC_MSG_RESULT($PYEPREFIX)
+    dnl Note: I could not think of a standard way to get the version string 
+    dnl from different versions. This trick pulls it out of the file location 
+    dnl for a standard library file.
+    AC_MSG_CHECKING(for Python version)
+    dnl Need to do this hack since autoconf replaces __file__ with the 
+    dnl name of the configure file
+    filehack="file__"
+    PYVERSION=`($PYTHON -c "import string,operator; print operator.getitem(string.split(string.__$filehack,'/'),-2)")`
+    AC_MSG_RESULT($PYVERSION)
+    dnl Set the include directory
+    AC_MSG_CHECKING(for Python header files)
+    if test -r $PYPREFIX/include/$PYVERSION/Python.h; then
+        PYINCLUDE="-I$PYPREFIX/include/$PYVERSION -I$PYEPREFIX/$PYLIBNAME/$PYVERSION/config"
+    fi
+    if test -z "$PYINCLUDE"; then
+        if test -r $PYPREFIX/include/Py/Python.h; then
+            PYINCLUDE="-I$PYPREFIX/include/Py -I$PYEPREFIX/$PYLIBNAME/python/lib"
+        fi
+    fi
+    AC_MSG_RESULT($PYINCLUDE)
+    dnl Set the library directory blindly.  This probably won't work 
+    dnl with older versions
+    AC_MSG_CHECKING(for Python library)
+    dirs="$PYVERSION/config $PYVERSION/lib python/lib"
+    for i in $dirs; do
+        if test -d $PYEPREFIX/$PYLIBNAME/$i; then
+           PYLIB="-L$PYEPREFIX/$PYLIBNAME/$i"
+           break
+        fi
+    done
+    if test -n "`echo $PYEPREFIX | grep ramework`"; then
+      PYLIB="-L$PYEPREFIX"
+      PYLINK="-framework Python"
+    fi
+    if test -z "$PYLIB"; then
+        AC_MSG_RESULT(Not found (in $PYEPREFIX/$PYLIBNAME/..: $dirs))
+    else
+        AC_MSG_RESULT($PYLIB)
+        AC_ARG_ENABLE(pygimp, [  --disable-pygimp        experimental python support (avoid Phyton)])
+        if test "x$enable_pygimp" = "xno"; then
+          echo "... disabling pygimp"
+        else
+          PYGIMP=pygimp
+        fi
+        if test -n "$PYGIMP"; then
+        PYSCRIPT_INSTALL=`echo $pythondir | sed 's,\${,%{, ; s/prefix/_prefix/ ; s/lib/%{_lib}/'`
+        fi
+    fi
+    dnl Check for really old versions
+    if test -z "$PYLINK"; then
+      if test -r $PYLIB/libPython.a; then
+         PYLINK="-lModules -lPython -lObjects -lParser"
+      else
+         PYLINK="-l$PYVERSION"
+      fi
+    fi
+fi
+dnl END of Python Test
+
+
+AC_LANG_CPLUSPLUS
+
+dnl fltk dependend plug-ins
+AC_MSG_CHECKING([fltk dependend plug-ins ])
+if test -n "$FLTK_LIBS" && test -n "$FLTK_CFLAGS"; then
+    BRACKETING='bracketing_to_hdr'
+    COLLECT='collect'
+	PDF='pdf'
+       FLTK="$BRACKETING $COLLECT $PDF"
+    AC_MSG_RESULT([yes "$BRACKETING" "$COLLECT" "$PDF"])
+else
+    AC_MSG_RESULT([no FLTK based plug-ins will be build (bracketing_to_hdr,...)])
+fi
+
+
+if test -n "$FLTK_LIBS" && test -n "$FLTK_CFLAGS"; then
+    dnl
+    dnl determine how fltk was configured
+    dnl - we require fltk to have thread support enabled (--enable-threads)
+    dnl   we check for the lock and unlock methods and assume threads are enabled if they exist
+    dnl
+
+    tmp_CXXFLAGS="$CXXFLAGS"
+    tmp_LIBS="$LIBS"
+
+    CXXFLAGS="$CXXFLAGS $FLTK_CFLAGS"
+    LIBS="$FLTK_LDFLAGS"
+
+    AC_MSG_CHECKING([whether fltk was compiled with thread support (--enable-threads)])
+
+    tmp_FLTK_THREAD_SUP=no
+    AC_LINK_IFELSE([
+        AC_LANG_PROGRAM([
+                #include <FL/Fl.H>
+                ],
+                [
+                        Fl::lock() ;
+                        Fl::unlock() ;
+                ])],
+        [tmp_FLTK_THREAD_SUP=yes],
+        [tmp_FLTK_THREAD_SUP=no]
+    )
+
+    if test x$tmp_FLTK_THREAD_SUP = xyes; then
+        AC_MSG_RESULT([yes])
+    else
+        AC_MSG_RESULT([no])
+        AC_MSG_WARN([
+*** No threads support in FLTK 
+*** Configure FLTK with the --enable-threads option and recompile.])
+    fi
+
+    CXXFLAGS=$tmp_CXXFLAGS
+    LIBS=$tmp_LIBS
+fi
+
+
+dnl pthread dependend plug-ins
+AC_MSG_CHECKING([thread dependend plug-ins ])
+if test "$THREAD"; then
+  AC_ARG_ENABLE(icc_examin, [  --disable-icc_examin    skip inbuild ICC Examin])
+  if test "x$enable_icc_examin" = "xno"; then
+    echo "... disabling inbuild ICC Examin"
+    ICC_EXAMIN=''
+  else
+    if test x$tmp_FLTK_THREAD_SUP = xyes; then
+      AC_CONFIG_SUBDIRS(plug-ins/icc_examin/icc_examin)
+      ICC_EXAMIN='icc_examin'
+      USE_THREADS="-DUSE_THREADS"
+      AC_MSG_RESULT([yes "$ICC_EXAMIN"])
+      MAKEFILE_ICC_EXAMIN=plug-ins/icc_examin/Makefile
+    else
+      ICC_EXAMIN=''
+    fi
+  fi
+else
+    AC_MSG_RESULT([no thread dependent plug-ins will be build (icc_examin,...)])
+fi
+THREAD_PLUG_INS="$ICC_EXAMIN"
+
+
+dnl flex dependend plug-ins
+AC_MSG_CHECKING([flex dependend plug-ins ])
+if test "$FLEX"; then
+    IOL='iol'
+    FLEX="$IOL"
+    AC_MSG_RESULT([yes "$IOL"])
+else
+    AC_MSG_RESULT([no FLEX dependent plug-ins will be build (iol,...)])
+fi
+
+
+X_LIBS="$LDFLAGS $X_LIBS"
+X_CFLAGS="$CPPFLAGS $X_CFLAGS"
+
+CPPFLAGS="$cinepaint_save_CPPFLAGS"
+LDFLAGS="$cinepaint_save_LDFLAGS"
+LIBS="$cinepaint_save_LIBS"
+PKG_CONFIG_PATH="$cinepaint_save_PKG_CONFIG_PATH"
+programdatadir=$datadir/cinepaint/$VERSION
+programplugindir=$libdir/cinepaint/$VERSION
+localedir=${prefix}/${DATADIRNAME}/locale
+brushdatabig="`ls -1 $srcdir/data/brushes/big | grep -v Makefile | grep -v CVS | grep -v data\/brushes\/big`"
+brushdata="`ls -1 $srcdir/data/brushes | grep -v Makefile | grep -v CVS | grep -v data\/brushes | grep -v '^big$'`"
+curvedata=`ls -1 $srcdir/data/curves | grep -v Makefile |grep -v CVS`
+gradientdata=`ls -1 $srcdir/data/gradients | grep -v Makefile |grep -v CVS`
+palettedata=`ls -1 $srcdir/data/palettes | grep -v Makefile |grep -v CVS`
+patterndata=`ls -1 $srcdir/data/patterns | grep -v Makefile |grep -v CVS`
+ioldata=`ls -1 $srcdir/plug-ins/iol/examples | grep -v Makefile |grep -v CVS`
+brushdata=`echo $brushdata`
+brushdatabig=`echo $brushdatabig`
+curvedata=`echo $curvedata`
+gradientdata=`echo $gradientdata`
+palettedata=`echo $palettedata`
+patterndata=`echo $patterndata`
+ioldata=`echo $ioldata`
+
+dnl This is for making the rpm's
+dnl rsr: AC_PATH_PROGS(RPMBUILD, rpmbuild, :)
+AC_PATH_PROGS(RPMBUILD, rpm, :)
+
+AC_SUBST(MAJOR_VERSION)
+AC_SUBST(MINOR_VERSION)
+AC_SUBST(MICRO_VERSION)
+AC_SUBST(RNH_VERSION)
+AC_SUBST(VERSION)
+AC_SUBST(precision)
+AC_SUBST(programdotdir)
+AC_SUBST(platform)
+AC_SUBST(prefix)
+AC_SUBST(programdatadir)
+AC_SUBST(programplugindir)
+AC_SUBST(programincludedir)
+AC_SUBST(programsysconfdir)
+AC_SUBST(localedir)
+AC_SUBST(brushdata)
+AC_SUBST(brushdatabig)
+AC_SUBST(curvedata)
+AC_SUBST(gradientdata)
+AC_SUBST(palettedata)
+AC_SUBST(patterndata)
+AC_SUBST(ioldata)
+AC_SUBST(X_LIBS)
+AC_SUBST(X_CFLAGS)
+AC_SUBST(PRINT)
+AC_SUBST(PRINT_LIBS)
+AC_SUBST(PRINT_CFLAGS)
+AC_SUBST(TIFF)
+AC_SUBST(LIBTIFF_LIB)
+AC_SUBST(THREAD_LIBS)
+AC_SUBST(THREAD_CFLAGS)
+AC_SUBST(USE_THREADS)
+AC_SUBST(OPENEXR)
+AC_SUBST(OPENEXR_LIBS)
+AC_SUBST(OPENEXR_INCLUDES)
+AC_SUBST(OYRANOS)
+AC_SUBST(OYRANOS_CFLAGS)
+AC_SUBST(OYRANOS_LIBS)
+AC_SUBST(LIBJPEG_LIB)
+AC_SUBST(LCMS_LIB)
+AC_SUBST(CINEPAINT_REMOTE)
+AC_SUBST(XMU_LIB)
+AC_SUBST(FLTK_LIBS_PURE)
+AC_SUBST(FLTK_LIBS)
+AC_SUBST(FLTK_CFLAGS)
+AC_SUBST(FLTK_CONFIG)
+AC_SUBST(BRACKETING)
+AC_SUBST(COLLECT)
+AC_SUBST(ICC_EXAMIN)
+AC_SUBST(IOL)
+AC_SUBST(PDF)
+AC_SUBST(LIBPNG)
+AC_SUBST(PNG_INCLUDES)
+AC_SUBST(PYINCLUDE)
+AC_SUBST(PYLIB)
+AC_SUBST(PYLINK)
+AC_SUBST(PYGIMP)
+AC_SUBST(PYSCRIPT_INSTALL)
+AC_SUBST(OSX_ICC_PROFILE_PATHS)
+AC_SUBST(OSX_ICC_EFFECT_PROFILE_PATH)
+AC_SUBST(ENABLE_NLS)
+
+dnl Output the Makefiles
+AC_OUTPUT(
+Makefile
+user_install
+gimprc
+gimprc_user
+cinepainttool
+cinepaint-gtk.pc
+cinepaint.spec
+lib/version.h
+lib/Makefile
+lib/wire/Makefile
+lib/fl_i18n/Makefile
+libgimp/Makefile
+libgimp/gimpintl.h
+libhalf/Makefile
+plug-ins/Makefile
+plug-ins/blur/Makefile
+plug-ins/bmp/Makefile
+plug-ins/bracketing_to_hdr/Makefile
+plug-ins/bracketing_to_hdr/br_core/Makefile
+plug-ins/bracketing_to_hdr/FL_adds/Makefile
+plug-ins/bracketing_to_hdr/gui/Makefile
+plug-ins/bracketing_to_hdr/jhead/Makefile
+plug-ins/cineon/Makefile
+plug-ins/collect/Makefile
+plug-ins/compose/Makefile
+plug-ins/dbbrowser/Makefile
+plug-ins/decompose/Makefile
+plug-ins/dicom/Makefile
+plug-ins/edge/Makefile
+plug-ins/fits/Makefile
+plug-ins/gauss_rle/Makefile
+plug-ins/gbr/Makefile
+plug-ins/gifload/Makefile
+plug-ins/hdr/Makefile
+$MAKEFILE_ICC_EXAMIN
+plug-ins/iff/Makefile
+plug-ins/iol/Makefile
+plug-ins/iol/examples/Makefile
+plug-ins/jpeg/Makefile
+plug-ins/mblur/Makefile
+plug-ins/median/Makefile
+plug-ins/minimum/Makefile
+plug-ins/noisify/Makefile
+plug-ins/openexr/Makefile
+plug-ins/pic/Makefile
+plug-ins/pdf/Makefile
+plug-ins/png/Makefile
+plug-ins/pnm/Makefile
+plug-ins/print/Makefile
+plug-ins/psd/Makefile
+plug-ins/psd_save/Makefile
+plug-ins/pygimp/Makefile
+plug-ins/pygimp/doc/Makefile
+plug-ins/pygimp/plug-ins/Makefile
+plug-ins/script-fu/Makefile
+plug-ins/script-fu/scripts/Makefile
+plug-ins/rawphoto/Makefile
+plug-ins/retinex/Makefile
+plug-ins/rotate/Makefile
+plug-ins/screenshot/Makefile
+plug-ins/sgi/Makefile
+plug-ins/sharpen/Makefile
+plug-ins/snoise/Makefile
+plug-ins/sobel/Makefile
+plug-ins/spread/Makefile
+plug-ins/tga/Makefile
+plug-ins/tiff/Makefile
+plug-ins/unsharp/Makefile
+plug-ins/xwd/Makefile
+po/Makefile.in
+po-plug-ins/Makefile.in
+po-plug-ins/Makefile
+po-script-fu/Makefile.in
+po-script-fu/Makefile
+app/Makefile
+app/depth/Makefile
+data/Makefile
+data/brushes/Makefile
+data/curves/Makefile
+data/gradients/Makefile
+data/palettes/Makefile
+data/patterns/Makefile
+,
+chmod +x cinepainttool
+chmod +x user_install  
+)
+
+cat plug-ins/openexr/Makefile | sed s/--pedantic//g > plug-ins/openexr/Makefile.tmp
+mv plug-ins/openexr/Makefile.tmp plug-ins/openexr/Makefile
+
+echo ""
+echo "================================================================="
+echo "              Configuration Results"
+echo ""
+echo "GTK CinePaint Version $PROGRAM_VERSION"
+echo ""
+echo ""
+echo "General dependencies:"
+if test -n "$use_gtk2"; then
+echo "   Gtk2 toolkit                 yes    $gtk2_version"
+else
+gtk1_version=`gtk-config --version`
+echo "   Gtk1 toolkit                 yes    $gtk1_version"
+fi
+if test "$CINEPAINT_REMOTE"; then
+  if test "$APPLE"; then
+echo "   DnD support                  yes?   X11/Xmu"
+  else
+echo "   DnD support                  yes    X11/Xmu"
+  fi
+else
+echo "   DnD support                  no"
+fi
+if test "$LCMS_LIB"; then
+echo "   littleCMS                    yes    lcms $lcms_version"
+else
+echo "   littleCMS                    no     !! CinePaint will not build without !!"
+fi
+if test "$OYRANOS"; then
+echo "   Oyranos                      yes    oyranos $OYRANOS"
+else
+echo "   Oyranos                      no"
+fi
+
+echo ""
+echo "Plug-ins with external dependencies:"
+if test "$PYGIMP"; then
+echo "   Python plug-in:              yes    $PYVERSION"
+else
+echo "   Python plug-in:              no"
+fi
+if test "$OPENEXR_INCLUDES"; then
+echo "   OpenEXR plug-in:             yes    OpenEXR $openexr_version"
+else
+echo "   OpenEXR plug-in:             no     !! CinePaint will not build without !!"
+fi
+if test "$TIFF"; then
+echo "   Tiff plug-in:                yes"
+else
+echo "   Tiff plug-in:                no     !! CinePaint will not build without !!"
+fi
+if test "$LIBPNG"; then
+echo "   PNG plug-in:                 yes    libpng $libpng_version"
+else
+echo "   PNG plug-in:                 no"
+fi
+if test "$LIBJPEG_LIB"; then
+echo "   Jpeg plug-in:                yes"
+else
+echo "   Jpeg plug-in:                no     !! CinePaint will not build without !!"
+fi
+if test "$PRINT"; then
+echo "   Print plug-in:               yes    Gutenprint $print_version"
+else
+echo "   Print plug-in:               no"
+fi
+if test "$FLTK"; then
+echo "   FLTK dependent plug-ins:     yes    $FLTK"
+else
+echo "   FLTK dependent plug-ins:     no     !! CinePaint will not build without !!"
+fi
+if test "$THREAD"; then
+echo "   Thread dependent plug-ins:   yes    $THREAD_PLUG_INS"
+else
+echo "   Thread dependent plug-ins:   no     internal ICC Examin can not build"
+fi
+if test "$FLEX"; then
+echo "   Flex dependent plug-ins:     yes    $FLEX"
+else
+echo "   Flex dependent plug-ins:     no"
+fi
+
+if test "$DEBUGFLAG"; then
+echo ""
+echo "Paths:"
+echo "   prefix:              $prefix"
+echo "   programdotdir:       $programdotdir"
+echo "   programdatadir:      $programdatadir"
+echo "   programplugindir:    $programplugindir"
+echo "   DATADIRNAME:         $DATADIRNAME"
+echo "   localedir:           $localedir"
+echo "   pixmapdir:           $pixmapdir"
+echo "   desktopdir:          $desktopdir"
+echo "   PYSCRIPT_INSTALL:    $PYSCRIPT_INSTALL"
+echo ""
+echo "Compiler options:"
+echo "   X_CFLAGS:            $X_CFLAGS"
+echo "   X_LIBS:              $X_LIBS"
+fi
+echo "================================================================="
+echo ""
+
+if test "$ERROR"; then
+  AC_MSG_ERROR(
+!!! An ERROR occured !!!
+    Please check the above messages to see why.
+    For bug reports please include the complete above output.
+)
+else
+echo "Now type 'make' and 'make install' / 'make rpm' to build the package and "
+echo "install. The unix command is 'cinepaint'."
+if test "$APPLE"; then
+echo "osX Users: Possibly you need to start X11 first for"
+echo "           running 'cinepaint' from the commandline."
+fi
+fi

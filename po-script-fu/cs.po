@@ -1,0 +1,1539 @@
+# Czech translation of GIMP script-fu 1.2.3.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+#  This file is distributed under the same license as the CinePaint package.
+# Stanislav Brabec <utx@penguin.cz>, 2000-2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-script-fu 1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2008-10-16 19:01+0100\n"
+"Last-Translator: Milan Knizek <knizek@volny.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Konzole skript-fu"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Zavřít"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "Výstup SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+msgid "Script-Fu Console - "
+msgstr "Konzole skript-fu - "
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+"Vývoj interaktivního schématu\n"
+"\n"
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Aktuální příkaz"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Procházet..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Nepodařilo se otevřít výstupní rouru SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Nepodařilo se otevřít proud na výstupní rouru SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Pouze neinteraktivní spuštění umožňuje režim provádění Skript-fu"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+msgid "DB Browser (init)"
+msgstr "Prohlížeč DB (inicializace)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr "Hledat :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr "Hledat podle jména"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr "Hledat podle popisu"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Použít"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+msgid "Name :"
+msgstr "Jméno :"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+msgid "Blurb :"
+msgstr "Popis :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr "Vstup :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr "Výstup :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+msgid "Author :"
+msgstr "Autor :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+msgid "Date :"
+msgstr "Datum :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+msgid "Copyright :"
+msgstr "Copyright :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "Prohlížeč DB (podle jména - prosím čekejte)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "Prohlížeč DB (podle popisu - prosím čekejte)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "Prohlížeč DB (prosím čekejte)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "Prohlížeč DB"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Barva pozadí"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Osvětlení (stupně)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Radius (in pixels)"
+msgstr "Poloměr (v pixelech)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Shadow?"
+msgstr "Stín?"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Barva koule"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Pouze interaktivní spuštění umožňuje režim konzole Skript-fu"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Skript-fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Skript-fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Argumenty skriptu"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Skript-fu výběr barvy"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Skript-fu výběr souboru"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Skript-fu výběr vzorku"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Skript-fu výběr přechodu"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Skript-fu výběr stopy"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Nastavit na implicitní hodnoty"
+
+#~ msgid "About"
+#~ msgstr "O programu"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Zrušit"
+
+#~ msgid "NOT SET"
+#~ msgstr "NENÍ URČENO"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Nejméně jedno ze zvolených písem je neplatné.\n"
+#~ "Zkontrolujte si nastavení.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Typy obrázku:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Výběr písma Skript-fu"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Chyba Skript-fu během vykonávání\n"
+#~ " %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Volby serveru Skript-fu"
+
+#~ msgid "Server Port:"
+#~ msgstr "Port serveru:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Žurnálový soubor serveru:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Konzole..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Server..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Znovu načíst všechny dostupné skripty"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Zaktualizovat"
+
+#~ msgid "Help:"
+#~ msgstr "Nápověda:"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Úpravy/Kopírovat viditelné"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Filtry/Rozostření/Dlaždicovatelné rozostření..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Skript-fu/Alchymie/Plátno..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Skript-fu/Alchymie/Vymazat každou jinou řadu..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Skript-fu/Alchymie/Predator..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Skript-fu/Alchymie/Maskovat rozostření..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Skript-fu/Alchymie/Protkat..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/3D obrys..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Mimozemská záře..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Mimozemský neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Základní I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Základní II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Smíchání..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Fleky..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Křída..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Odštípnutí..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Barvy..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Komická kniha..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Zchladlý kov..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Mrazivo..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Lesk..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Sálající záře..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Šikmý přechod..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Stopa částic..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Pronikání hvězd..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Popraskáný povrch..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Skript-fu/Alfa do loga/Texturovat..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Skript-fu/Animátory/Mísení..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Skript-fu/Animátory/Čeření..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Skript-fu/Animátory/Výběr do animovaného obrázku..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Skript-fu/Animátory/Rotující koule..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Skript-fu/Animátory/Vlny..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Přidat zkosení..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Přidat okraj..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Skvrny od kávy..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Neostrý okraj..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Stará fotografie..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Oblé rohy..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Skript-fu/Dekorace/Diapozitiv..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Skript-fu/Vyobrazení/Okruh..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Skript-fu/Vyobrazení/Láva..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Skript-fu/Vyobrazení/Čárová nova..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Skript-fu/Vyobrazení/Vytvořit systém mříží..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Skript-fu/Výběr/Nouzový výběr..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Skript-fu/Výběr/Pozvolný obrys..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Skript-fu/Výběr/Zaoblit..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Skript-fu/Výběr/Do stopy..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Skript-fu/Výběr/Do obrázku..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Skript-fu/Stín/Vrhnout stín..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Skript-fu/Stín/Perspektiva..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Skript-fu/Stín/Efekt Xach..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Skript-fu/Stín/Šablony/Vyřezat..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Skript-fu/Stín/Šablony/Pochromovat..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Skript-fu/Pomůcky/ASCII to vrstvy obrázku..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Skript-fu/Pomůcky/Nakreslit HSV graf..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Skript-fu/Pomůcky/Zobrazit strukturu obrázku..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Tlačítka/Oblé tlačítko..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Tlačítka/Jednoduché zkosené tlačítko..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/3D obrys..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Mimozemská záře..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Mimozemský neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Základní I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Základní II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Smíchání..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Fleky..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Řezba..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Křída..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Odštípnutí..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Barvy..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Komická kniha..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Zchladlý kov..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Krystal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Mrazivo..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Lesk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Sálající záře..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Šikmý přechod..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Novinový text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Stopa částic..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/SOTA barvy..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Rychlý text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Pronikání hvězd..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Popraskáný povrch..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Textový kruh..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Texturovat..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Loga/Hlavička webového titulku..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vytvořit štětec/Eliptický, neostrý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vytvořit štětec/Eliptický..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vytvořit štětec/Obdélníkový, neostrý..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vytvořit štětec/Obdélníkový..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Různé/Koule..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/3D klikatice..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Kamufláž..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Rovina..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Země..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Zobrazit mapu..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Vířivá dlaždice..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Víry (dlaždicovatelné)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Kotálnice..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Vzorky/Klikatice..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Pomůcky/ASCII do obrázku..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Pomůcky/Vlastní přechod..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Pomůcky/Znaková mapa..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Mimozemská záře/Šipka..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Mimozemská záře/Puntík..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Mimozemská záře/Tlačítko..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Rozš./Skript-fu/Témata z webu/Mimozemská záře/Vodorovná čára..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Zkosený vzor/Šipka..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Zkosený vzor/Puntík..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Zkosený vzor/Tlačítko..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Zkosený vzor/Nadpis..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Rozš./Skript-fu/Témata z webu/Zkosený vzor/Vodorovná čára..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Gimp.org/Velká hlavička..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Rozš./Skript-fu/Témata z webu/Gimp.org/Obecné nápisy na "
+#~ "trubici..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "<Toolbox>/Rozš./Skript-fu/Témata z webu/Gimp.org/Malá hlavička..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Rozš./Skript-fu/Témata z webu/Gimp.org/Nápis tlačítka na "
+#~ "trubici..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Rozš./Skript-fu/Témata z webu/Gimp.org/Nápis podtlačítka na "
+#~ "trubici..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Rozš./Skript-fu/Témata z webu/Gimp.org/Nápis podpodtlačítka na "
+#~ "trubici..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Chyby programu GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Manuál k programu GIMP"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP novinky"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Dokumentace"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Získání programu"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/GIMP umění"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Odkazy"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Mailové listy"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Zdroje"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Program GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Gimp-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/GIMP.ORG/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Registr modulů"
+
+#~ msgid "Add Background"
+#~ msgstr "Přidat pozadí"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Přidat vržený stín"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Přidat stín"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Povolit změnu velikosti"
+
+#~ msgid "Amplitude"
+#~ msgstr "Rozkmit"
+
+#~ msgid "Angle"
+#~ msgstr "Úhel"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Animační filtr na všechny kopie"
+
+#~ msgid "Antialias"
+#~ msgstr "Vyhlazování"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Použít vygenerovanou masku vrstvy"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Použít masku vrstvy (nebo zahodit)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "Automatické oříznutí"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimut"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Krytí pozadí"
+
+#~ msgid "Background Image"
+#~ msgstr "Obrázek v pozadí"
+
+#~ msgid "Bar Height"
+#~ msgstr "Výška kusu"
+
+#~ msgid "Bar Length"
+#~ msgstr "Délka kusu"
+
+#~ msgid "Base Color"
+#~ msgstr "Barva základny"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Poloměr základny (pixely)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Chování"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Výška zkosení (ostrost)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Šířka zkosení"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Přechod mísení (obrys)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Přechod mísení (text)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Režim mísení"
+
+#~ msgid "Block Size"
+#~ msgstr "Velikost bloku"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Míra rozostření"
+
+#~ msgid "Blur Border"
+#~ msgstr "Hranice rozostření"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Rozostřit vodorovně"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Poloměr rozostření"
+
+#~ msgid "Blur Type"
+#~ msgstr "Typ rozmáznutí"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Rozostřit svisle"
+
+#~ msgid "Blur X"
+#~ msgstr "Rozostření X"
+
+#~ msgid "Blur Y"
+#~ msgstr "Rozostření Y"
+
+#~ msgid "Border Color"
+#~ msgstr "Barva okraje"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Velikost okraje (pixely)"
+
+#~ msgid "Border Size"
+#~ msgstr "Velikost okraje"
+
+#~ msgid "Border X Size"
+#~ msgstr "Velikost X okraje"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Velikost Y okraje"
+
+#~ msgid "Border"
+#~ msgstr "Obvod"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Velikost bufferu (% výšky textu)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Poloměr rozostření mapy vyvýšení (alfa vrtsty)"
+
+#~ msgid "Burst Color"
+#~ msgstr "Barva pronikání"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Text vyřezaný do výšky"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Vyřezaný bílý text"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Velikost buňky (pixely)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Barva křídy"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Velikost odštípnutí"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Vyváženost chromování"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Faktor chromování"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Světlost chromování"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Systost chromování"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Pochromovat bílé oblasti"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Hnízdo okruhu"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Vymazat nevybrané oblast masky"
+
+#~ msgid "Color 1"
+#~ msgstr "Barva 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Barva 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Barva 3"
+
+#~ msgid "Color"
+#~ msgstr "Barva"
+
+#~ msgid "Columns"
+#~ msgstr "Sloupce"
+
+#~ msgid "Create New Image"
+#~ msgstr "Vytvořit nový obrázek"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Vytvořit stín"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Vlastní přechod"
+
+#~ msgid "Dark Color"
+#~ msgstr "Tmavá barva"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Pouze ztmavení\n"
+#~ "(lepší, ale pouze na obrázky s množstvím bílé)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Implicitní nastavení mapy vyvýšení"
+
+#~ msgid "Defocus"
+#~ msgstr "Rozostření"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Delta hodnota barvy"
+
+#~ msgid "Density (%)"
+#~ msgstr "Hustota (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Hloubka"
+
+#~ msgid "Description"
+#~ msgstr "Popis"
+
+#~ msgid "Detail Level"
+#~ msgstr "Podrobná úroveň"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Detail uprostřed"
+
+#~ msgid "Diameter"
+#~ msgstr "Průměr"
+
+#~ msgid "Down"
+#~ msgstr "Dolů"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Poloměr rozostření vrženého stínu"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Barva vrženého stínu"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Krytí vrženého stínu"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "X posun vrženého stínu"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Y posun vrženého stínu"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Vrhat stín"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Míra hran"
+
+#~ msgid "Edge Only"
+#~ msgstr "Pouze hrany"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Poloměr hran"
+
+#~ msgid "Edge Width"
+#~ msgstr "Šířka hran"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Velikost efektu (pixely * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Velikost efektu (pixely * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Velikost efektu (pixely * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Velikost efektu (pixely * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Velikost efektu (pixely)"
+
+#~ msgid "Elevation"
+#~ msgstr "Zdvih"
+
+#~ msgid "End Blend"
+#~ msgstr "Splývání konce"
+
+#~ msgid "End X"
+#~ msgstr "Konec X"
+
+#~ msgid "End Y"
+#~ msgstr "Konec Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Koncové splývání"
+
+#~ msgid "Environment Map"
+#~ msgstr "Mapování prostředí"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Smazat před kreslením"
+
+#~ msgid "Erase"
+#~ msgstr "Smazat"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Smazat/Vyplnit"
+
+#~ msgid "Even"
+#~ msgstr "Sudé"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Sudé/Liché"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "Popředí-pozadí-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "Popředí-pozadí-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "Průhledné popředí"
+
+#~ msgid "Fade Away"
+#~ msgstr "Pohasínání"
+
+#~ msgid "Fade From %"
+#~ msgstr "Pohasnout z %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "Pohasnout na   %"
+
+#~ msgid "Feathering"
+#~ msgstr "Neostrost"
+
+#~ msgid "Filename"
+#~ msgstr "Jméno souboru"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Úhel vyplňování"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Vyplnit pozadí vzorkem"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Vyplnit barvou pozadí"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Vyplnit pozadím"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Sloučit obraz"
+
+#~ msgid "Font Color"
+#~ msgstr "Barva písma"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Velikost písma (pixely)"
+
+#~ msgid "Font"
+#~ msgstr "Písmo"
+
+#~ msgid "Fonts"
+#~ msgstr "Písma"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Barva pozadí"
+
+#~ msgid "Frame Color"
+#~ msgstr "Barva rámečku"
+
+#~ msgid "Frame Size"
+#~ msgstr "Velikost rámečku"
+
+#~ msgid "Frames"
+#~ msgstr "Počet políček"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Odshora zleva dolů doprava"
+
+#~ msgid "Glow Color"
+#~ msgstr "Barva záře"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Poloměr záře"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Velikost záře (pixely * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Přechod"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Zrnitost (1 je malá)"
+
+#~ msgid "Granularity"
+#~ msgstr "Zrnitost"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Měřítko grafu"
+
+#~ msgid "Grids X"
+#~ msgstr "X mříž"
+
+#~ msgid "Grids Y"
+#~ msgstr "Y mříž"
+
+#~ msgid "Height"
+#~ msgstr "Výška"
+
+#~ msgid "Hexagons"
+#~ msgstr "Šestiúhelníky"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Vyvážení světel"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Barva světel"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Krytí světel"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "X posun světel"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Y posun světel"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Poměrná četnost"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Četnost odstínů"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Výška obrázku"
+
+#~ msgid "Image Size"
+#~ msgstr "Velikost obrázku"
+
+#~ msgid "Image Width"
+#~ msgstr "Šířka obrázku"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Obrázek k vyřezání"
+
+#~ msgid "Index Image"
+#~ msgstr "Indexový obrázek"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Indexovaný v n barvách (0 = nechat RGB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Vložit jména vrstev"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Mezilehlá políčka"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpolovat"
+
+#~ msgid "Invert direction"
+#~ msgstr "Obrátit směr"
+
+#~ msgid "Invert"
+#~ msgstr "Invertovat"
+
+#~ msgid "Keep Background"
+#~ msgstr "Zachovat pozadí"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Zachovat vrstvu vyvýšení"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Zachovat výběr"
+
+#~ msgid "Land Height"
+#~ msgstr "Výška země"
+
+#~ msgid "Left"
+#~ msgstr "Doleva"
+
+#~ msgid "Looped"
+#~ msgstr "Smyčka"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Dolní barva (aktivní)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Dolní barva"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Pravá dolní barva"
+
+#~ msgid "Make New Background"
+#~ msgstr "Vytvořit nové pozadí"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Krytí masky"
+
+#~ msgid "Mask Size"
+#~ msgstr "Velikost masky"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Nejvyšší poloměr rozostření"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Typ dlaždicování mozaiky"
+
+#~ msgid "Mottle"
+#~ msgstr "Skvrnka"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Bez pozadí (pouze pro samostatné vrstvy)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Nestisknuto (aktivní)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Nestisknuto"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Počet pruhů"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Počet barev"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Počet kopií"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Počet políček"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Počet čar"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Počet opakování víru"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "X počet dlaždic"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Y počet dlaždic"
+
+#~ msgid "Number"
+#~ msgstr "Počet"
+
+#~ msgid "Octagons"
+#~ msgstr "Osmiúhelníky"
+
+#~ msgid "Odd"
+#~ msgstr "Liché"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Posun (pixely)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Poloměr posunu"
+
+#~ msgid "Offset X"
+#~ msgstr "Posun X"
+
+#~ msgid "Offset Y"
+#~ msgstr "Posun Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Posuny (pixely * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Velikost masky olejomalby"
+
+#~ msgid "Opacity"
+#~ msgstr "Krytí"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientace"
+
+#~ msgid "Outer Border"
+#~ msgstr "Vnější hranice"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Poloměr rozostření obrysu"
+
+#~ msgid "Outline Color"
+#~ msgstr "Barva obrysu"
+
+#~ msgid "Outline Size"
+#~ msgstr "Velikost obrysu"
+
+#~ msgid "Pad Color"
+#~ msgstr "Barva výplně"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Krytí výplně"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Výplň okolo textu"
+
+#~ msgid "Padding X"
+#~ msgstr "Výplň X"
+
+#~ msgid "Padding Y"
+#~ msgstr "Výplň Y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Výplň pro průhledné oblasti"
+
+#~ msgid "Padding"
+#~ msgstr "Výplň"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Vzorek (obrys)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Vzorek (překrytí)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Vzorek (text)"
+
+#~ msgid "Pattern"
+#~ msgstr "Vzorek"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Poloměr pera / kolečka [0,0:1,0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Velikost pixelů"
+
+#~ msgid "Pixelize"
+#~ msgstr "Pixelizace"
+
+#~ msgid "Pressed"
+#~ msgstr "Stisknuto"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Čtvrtinová velikost"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Poloměr"
+
+#~ msgid "Random Seed"
+#~ msgstr "Náhodné hnízdo"
+
+#~ msgid "Randomness"
+#~ msgstr "Náhodnost"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Poměrná vzdálenost obzoru"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Poměrná délka stínu"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Poměrný poloměr"
+
+#~ msgid "Remove Background"
+#~ msgstr "Odstranit pozadí"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Rozestup pásek"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Šířka pásky"
+
+#~ msgid "Right"
+#~ msgstr "Doprava"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Síla čeření"
+
+#~ msgid "Roughness"
+#~ msgstr "Výraznost"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Poměr zaoblení"
+
+#~ msgid "Rows"
+#~ msgstr "Řady"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Řady/sloupce"
+
+#~ msgid "Scale X"
+#~ msgstr "Zvětšení X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Zvětšení Y"
+
+#~ msgid "Sea Depth"
+#~ msgstr "Hloubka moře"
+
+#~ msgid "Seed"
+#~ msgstr "Hnízdo"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Práh výběru podle barvy"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Oddělená vrstva"
+
+#~ msgid "Sepia"
+#~ msgstr "Sépie"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Poloměr neostrosti stínu"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Barva stínu"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Tmavost stínu"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Hloubka stínu"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Míra stínu (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "X posun stínu"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Y posun stínu"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Ostrost (stupně)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Délka střihu"
+
+#~ msgid "Size"
+#~ msgstr "Velikost"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Vyhladit vodorovně"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Vyhladit svisle"
+
+#~ msgid "Smooth"
+#~ msgstr "Plynulá"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Rozestup mezi vrstvami"
+
+#~ msgid "Spacing"
+#~ msgstr "Rozestup"
+
+#~ msgid "Spots density X"
+#~ msgstr "X hustota teček"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Y hustota teček"
+
+#~ msgid "Spread"
+#~ msgstr "Rozprostření"
+
+#~ msgid "Squares"
+#~ msgstr "Čtverce"
+
+#~ msgid "Stains"
+#~ msgstr "Skvrny"
+
+#~ msgid "Start Angle"
+#~ msgstr "Počáteční úhel"
+
+#~ msgid "Start Blend"
+#~ msgstr "Počátek mísení"
+
+#~ msgid "Start X"
+#~ msgstr "X počátek"
+
+#~ msgid "Start Y"
+#~ msgstr "Y počátek"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Počáteční mísení"
+
+#~ msgid "Supersample"
+#~ msgstr "Převzorkování"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Barva textu (aktivní)"
+
+#~ msgid "Text Color"
+#~ msgstr "Barva textu"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Vzorek textu"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Thickness"
+#~ msgstr "Tloušťka"
+
+#~ msgid "Thread Density"
+#~ msgstr "Hustota vlákna"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Intenzita vlákna"
+
+#~ msgid "Thread Length"
+#~ msgstr "Délka vlákna"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Práh (větší 1<-->255 menší)"
+
+#~ msgid "Tile"
+#~ msgstr "Dlaždice"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Průhledné pozadí"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Točit zleva doprava"
+
+#~ msgid "Up"
+#~ msgstr "Nahoru"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Horní barva (aktivní)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Horní barva"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Levá horní barva"
+
+#~ msgid "Use Brush"
+#~ msgstr "Použít stopu"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Použít aktuální přechod"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Použít rostoucí výběr"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Použít překrytí vzorků"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Použít na obrysy vzorku místo přechodu"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Použít na text vzorku místo přechodu"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "Použít hranice výběru místo níže uvedeného"
+
+#~ msgid "Wavelength"
+#~ msgstr "Vlnová délka"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Poloměr kola (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Míra víření"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Úhel víru"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Šířka pruhů"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Šířka mezer"
+
+#~ msgid "Width"
+#~ msgstr "Šířka"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Pracovat na kopii"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Otázky (FAQ) vývojářů"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Výuka programu GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Rozš./Webový prohlížeč/Otázky (FAQ) uživatelů"

@@ -1,0 +1,131 @@
+curvedatadir = $(programdatadir)/curves
+
+brushdata =
+curvedata =
+gradientdata =
+palettedata =
+patterndata =
+
+curvedata_DATA = @curvedata@
+
+EXTRA_DIST = $(curvedata_DATA)
+
+.PHONY: files
+
+FILES =\
+	D100ev0 \
+    Makefile.am \
+	astiav1 \
+	basic-curve_141 \
+	basic-curve_152 \
+	basic-curve_159 \
+	bh_filmcurve1 \
+	bh_filmcurve2 \
+	bright_2 \
+	bright_3 \
+	bright_4 \
+	courbeA \
+	courbeB \
+	curve039 \
+	curve114d \
+	custom_jt \
+	custom_jt1 \
+	custom_jt3 \
+	DavidFmidtoneBoostA \
+	ev_0_custom \
+	EV3-4.0 \
+	ev_3_custom_normal \
+	ev_5_custom_normal \
+	ev_7_custom_contrast \
+	ev_7_custom_less \
+	ev_7_custom_normal \
+	FG_baseline_conservative_v3 \
+	FG_baseline_v3 \
+	FG_ev3_v2 \
+	FG_ev3_v3 \
+	FG_ev3_v34 \
+	FG_ev5_v2 \
+	FG_ev5_v3 \
+	FG_point_and_shoot \
+	FG_point_and_shoot_conservative_v31 \
+	FG_point_and_shoot_conservative_v32 \
+	FG_point_and_shoot_v31 \
+	FG_point_and_shoot_v32 \
+	FG_provia_v3 \
+	FG_provia_v31 \
+	FG_provia_v32 \
+	FG_provia_v33 \
+	FG_provia_v34 \
+	FG_provia_v40 \
+	FGs_Provia_v34 \
+	FGs_White_Wedding_v35 \
+	FG_white_wedding_v3 \
+	FG_white_wedding_v31 \
+	FG_white_wedding_v32 \
+	FG_white_wedding_v33 \
+	FG_white_wedding_v34 \
+	FG_white_wedding_v35 \
+	Fotogenic_Provia_v3.3 \
+	Fuji_Astia \
+	Fuji_Superia_Reala \
+	henk1-03 \
+	jt_all_around1-1-03 \
+	jt_all-in-1Curve \
+	jt_auto \
+	jt_custom_color12-31-02 \
+	JTs_All_In_One \
+	KGM_Agfa_Optima \
+	KGM_fotogenetic_ev3_v34_5 \
+	KGM_fotogenetic_ev3_v34_6 \
+	KGM_fotogenetic_ev3_v43 \
+	KGM_oldskools_mtb_v1_3 \
+	Klaus_1 \
+	Klaus_2 \
+	Klaus_3 \
+	Makefile \
+	Makefile.am \
+	Makefile.in \
+	OldSkoOLs_dlt \
+	OldSkoOLs_Midtone_Enhance_v3h \
+	oldskools_mtb_v1 \
+	oldskools_mtc_v1 \
+	Oldskools_mte_v2.14d \
+	Oldskools_mte_v2.14h \
+	Oldskools_mte_v3 \
+	OldSkoOLs_mte_v3.1 \
+	Oldskools_mte_v3h \
+	OldSkoOLs_Normal_v2 \
+	Optima2 \
+	Optimav1 \
+	Provia-4.0 \
+	provia_d70 \
+	P+S-4.0 \
+	README.curves \
+	s_bright_1 \
+	s_bright_2 \
+	s_bright_3 \
+	s_bright_4 \
+	s_dark_1 \
+	s_dark_2 \
+	s_dark_3 \
+	s_dark_4 \
+	s_high \
+	s_low \
+	s_low_bright_3 \
+	s_low_bright_4 \
+	s_low_dark_3 \
+	s_low_dark_4 \
+	s_med \
+	sReala \
+	sReala_12 \
+	sReala2 \
+	sReala_2alpha \
+	sRealav1 \
+	sReala_v2a_120505 \
+	sReala_version2 \
+	v2 \
+	v2h \
+	v3 \
+	v3h \
+	v3hb \
+	Velvia

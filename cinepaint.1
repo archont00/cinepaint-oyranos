@@ -1,0 +1,102 @@
+.\" 
+.TH "CinePaint" "1" "January 1, 2005" "Robin.Rowe@MovieEditor.com" "Version-$VERSION"
+.SH "NAME"
+CinePaint \- 32\-bit image painting and retouching
+
+
+.SH "SYNOPSIS"
+cinepaint [option ...] [files ...]
+
+
+.SH "DESCRIPTION"
+CinePaint is different from other painting tools because it supports deep color depth image formats up to 32\-bit per channel deep. For comparison, GIMP is limited 8\-bit, and Photoshop to 16\-bit. To avoid bit depth confusion, note that 48\-bit scanners are 16\-bit per channel and 24\-bit monitors are 8\-bit per channel. Like with audio, extra image bits can hold higher fidelity. 
+
+CinePaint supports high fidelity image formats such as 32\-bit TIFF, 10\-bit log Cineon, and 16\-bit half float OpenEXR. It also supports less exotic formats such as JPEG, GIF and PNG. For historical reasons, CinePaint's native format is 16\-bit XCF, a variant of the GIMP format. Internally, CinePaint works in 8\-bit unsigned, 16\-bit unsigned, 16\-bit binary fixed point, 16\-bit chopped float, or 32\-bit IEEE float. Support for 16\-bit half float is coming.
+
+CinePaint includes a built\-in flipbook for playback of image sequences. It does not yet support audio playback or synchronized 24fps playback. It doesn't yet support editing, DV, M\-JPEG, AVI, Quicktime, or MPEG.
+
+CinePaint runs on all popular flavors of Linux and on Mac OS X as an X11 application. A native Mac Aqua port of CinePaint is in development. The Windows port of CinePaint is currently broken, but may be available again in 2005.
+
+.SH "OPTIONS"
+From cinepaint \-\-help
+
+Usage: cinepaint [option ...] [files ...]
+Valid options are:
+  \-h \-\-help              Output this help.
+  \-v \-\-version           Output version info.
+  \-b \-\-batch <commands>  Run in batch mode.
+  \-n \-\-no\-interface      Run without a user interface.
+  \-\-no\-data              Do not load patterns, gradients, palettes, brushes.
+  \-\-verbose              Show startup messages.
+  \-\-no\-splash            Do not show the startup window.
+  \-\-no\-splash\-image      Do not add an image to the startup window.
+  \-\-no\-shm               Do not use shared memory between GIMP and its plugins.
+  \-\-no\-xshm              Do not use the X Shared Memory extension.
+  \-\-console\-messages     Display warnings to console instead of a dialog box.
+  \-\-debug\-handlers       Enable debugging signal handlers.
+  \-\-display <display>    Use the designated X display.
+
+The no\-interface mode has never worked, but a new architecture called img_img is under development to provide headless operation.
+.SH "ENVIRONMENT"
+DISPLAY \- default host and display number.
+
+XENVIRONMENT \- name of a resource file that overrides the global resources stored in the RESOURCE_MANAGER property
+.SH "FILES"
+$PREFIX/bin/cinepaint \- program
+
+$HOME/.cinepaint \- user configuration/data
+
+$PREFIX/lib/cinepaint/$VERSION \- plug\-ins, etc.
+
+$PREFIX/share/cinepaint/$VERSION \- configuration/data
+
+gtkrc \- GTK config settings
+
+menurc \- keybindings
+
+pluginrc \- plugin initialization values
+
+$HOME/.cinepaint/tmp \- temp space default
+
+brushes \- brush files
+
+palettes \- palette files
+ 
+patterns \- pattern files
+ 
+gradients \- gradient files
+
+scripts \- scripts used in Script\-Fu 
+
+gflares \- gflare files
+
+gfig \- gfig files
+.SH "SEE ALSO"
+
+.SH "COPYRIGHT"
+CinePaint was originally based on GIMP 1.0.4, but has had many independent contributions and has adopted code from other open source projects. This code is a mixture of GPL, LGPL and BSD licenses. Copyrights are to the original authors, which are many.
+
+For information about open source licenses see www.opensource.org.
+.SH "SUGGESTIONS AND BUG REPORTS"
+Report bugs or feature suggestions to the mailing list at cinepaint\-developers@lists.sourceforge.net or the online bug\-tracking system available at http://sourceforge.net/projects/cinepaint/. Anyone can post to the developers list, but posting to the bug\-tracker requires logging into SourceForge. Patches are welcome and can be submitted to the SourceForge site.
+
+When reporting bugs please include description, instructions to reproduce the bug, version number of CinePaint and OS version.
+.SH "OTHER INFO"
+CinePaint began in 1998 as a project sponsored by motion picture technology company Silicon Grail (later acquired by Apple) and visual effects studio Rhythm & Hues. The goal was to add deep paint to GIMP. By 2000 a CVS branch of GIMP known as Film Gimp offered that feature.
+
+GIMP had begun in 1995 as a class project at the University of California Berkeley, but the original student developers left GIMP after graduation. The GIMP student effort was mostly taken over by hackers who wanted to further the GNU cause. In 2000 the GIMP hackers and Silicon Grail ceased work on the Hollywood\-based development of GIMP. Although everyone at GIMP (mostly based in Germany) thought it was dead, Film Gimp development continued independently in Hollywood at Rhythm & Hues and then spread to Sony Pictures Imageworks.
+
+On July 4, 2002, Film Gimp was released to the general public on SourceForge. Many more developers joined the project. A year later the project was renamed CinePaint. The current developers of CinePaint have never had any affiliation with the GIMP project.
+
+www.cinepaint.org
+.SH "AUTHORS"
+Programmers at Rhythm & Hues, Sony Pictures Imageworks, DreamWorks, ILM, other companies, and universities have
+contributed to CinePaint's development.
+
+For a list of authors see www.cinepaint.org.
+
+Robin Rowe 
+
+CinePaint project leader 
+
+<Robin.Rowe@MovieEditor.com>

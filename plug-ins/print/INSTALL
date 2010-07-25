@@ -1,0 +1,32 @@
+
+Übersetzen der Quelldateien:
+
+    Falls die gimp-print Bibliothek nicht gefunden wird, die
+    PKG_CONFIG_PATH Umgebungvariable mit:
+     export PKG_CONFIG_PATH=/opt/local/lib/pkgconfig:
+     (den Pfad bitte anpassen)
+    Die Dateien müssen im plug-in Verzeichnis CinePaints unter print eingestellt
+    sein. Befehle im obersten Verzeichniss des CinePaint Verzeichnissbaumes
+    (eventuell das configure.in Script anpassen) : 
+      automake;
+      autoconf;
+      configure;
+      make;
+      make install;
+
+
+Setup:
+
+    for the case configure is not detecting gimp-print, set the 
+    PKG_CONFIG_PATH environment variable with:
+     export PKG_CONFIG_PATH=/opt/local/lib/pkgconfig:
+     (adapt this example to Your correct path)
+    The files need to be in CinePaints plug-in directory under print.
+    Execute following commands in the top level directory of CinePaint,
+    (eventually adapt Your configure.in script) :
+      automake;
+      autoconf;
+      configure;
+      make;
+      make install;
+

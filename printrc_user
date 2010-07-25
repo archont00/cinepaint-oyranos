@@ -1,0 +1,41 @@
+#PRINTRCv4 written by Gutenprint 5.0.0 - 22 Jul 2006
+
+Global-Settings:
+  Current-Printer: "Printer"
+  Show-All-Paper-Sizes: False
+  PrintingSystem "Autodetect"
+  PrintCommand ""
+  QueueSelect ""
+  RawOutputFlag ""
+  ScanOnStartup "False"
+  ScanPrintersCommand ""
+End-Global-Settings:
+  
+Printer: "Printer" "ps2"
+  Command-Type: 0
+  Queue-Name: ""
+  Output-Filename: ""
+  Extra-Printer-Options: ""
+  Custom-Command: ""
+  Scaling: 100.000
+  Orientation: -1
+  Autosize-Roll-Paper: 0
+  Unit: 0
+  Left: 0
+  Top: 0
+  Custom_Page_Width: 612
+  Custom_Page_Height: 792
+  Parameter STPUICopyCount Int True 1
+  Parameter PageSize String True "Letter"
+  Parameter PrintingMode String True "Color"
+  Parameter ColorCorrection String True "None"
+  Parameter ChannelBitDepth String True "8"
+  Parameter InputImageType String True "RGB"
+  Parameter Brightness Double True 1.000000
+  Parameter Contrast Double True 1.000000
+  Parameter LinearContrast Boolean True False
+  Parameter Saturation Double True 1.000000
+  Parameter DitherAlgorithm String True "None"
+  Parameter Quality String True "Standard"
+  Parameter ImageType String True "TextGraphics"
+

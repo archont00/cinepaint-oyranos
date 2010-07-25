@@ -1,0 +1,2 @@
+The ./br_core directory contains the GUI independent part (independent 
+of Fltk as well as of Gtk).

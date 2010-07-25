@@ -1,0 +1,1520 @@
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Yuri Syrota <rasta@renome.rovno.ua>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-std-plugins-1.1.19\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2000-03-10 11:26+0200\n"
+"Last-Translator: Yuri Syrota <rasta@renome.rovno.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=koi8-u\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Консоль Скрипт-Фу"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Закрити"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "Вив╕д SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Консоль Скрипт-Фу"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Поточна команда"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Переглянути..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Неможливо в╕дкрити канал виводу SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Неможливо в╕дкрити пот╕к на канал╕ виводу SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Режим виконання Скрипт-Фу дозволя╓ лише не╕нтерактивну роботу"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Переглянути..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Дата:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Розмивання по Y"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Автор:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Дата:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Авторське право:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "DB Browser (please wait)"
+msgstr "Переглянути..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+#, fuzzy
+msgid "DB Browser"
+msgstr "Переглянути..."
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Кол╕р тла"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Осв╕тлення (в ╜радусах)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Рад╕ус (в п╕кселях)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Т╕нь"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Кол╕р сфери"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Консольний режим Скрипт-Фу дозволя╓ лише ╕нтерактивну роботу"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Скрипт-Фу/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Скрипт-Фу: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Аргументи скрипту"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Виб╕р кольору Скрипт-Фу"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Виб╕р файлу Скрипт-Фу"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Виб╕р в╕зерунку Скрипт-Фу"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Виб╕р град╕╓нту Скрипт-Фу"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Виб╕р пензля Скрипт-Фу"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Скасувати"
+
+#~ msgid "About"
+#~ msgstr "Про"
+
+#~ msgid "OK"
+#~ msgstr "Гаразд"
+
+#~ msgid "Cancel"
+#~ msgstr "В╕дмова"
+
+#~ msgid "NOT SET"
+#~ msgstr "НЕ ВИЗНАЧЕНО"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Принаймн╕ один з вибраних вами шрифт╕в нев╕рний.\n"
+#~ "Будь ласка, перев╕рте ваш╕ настройки.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Типи зображень:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Виб╕р шрифту Скрипт-Фу"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Помилка Скрипт-Фу п╕д час виконання\n"
+#~ " %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Параметри сервера Скрипт-Фу"
+
+#~ msgid "Server Port:"
+#~ msgstr "Порт сервера:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Журнальний файл сервера:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Розширення/Скрипт-Фу/Консоль..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Розширення/Скрипт-Фу/Сервер..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Перечитати ус╕ ╕снуюч╕ скрипти"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Розширення/Скрипт-Фу/Поновити"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Редагування/Коп╕ювати видим╕"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Ф╕льтри/Розмивання/Суц╕льне розмивання..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Скрипт-Фу/Алх╕м╕я/Полотно..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Скрипт-Фу/Алх╕м╕я/Очистити кожен ╕нший рядок..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Скрипт-Фу/Алх╕м╕я/Хижак..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Скрипт-Фу/Алх╕м╕я/Нер╕зка маска..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Скрипт-Фу/Алх╕м╕я/Сплет╕ння..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Тривим╕рний контур..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Чуже сяйво..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Чужий неон..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Основа I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Основа II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Сум╕ш..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Плямиста корова..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Крейда..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Уламки..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Toolbox>/Скрипт-Фу/Альфа у емблему/Хром..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Toolbox>/Скрипт-Фу/Альфа у емблему/Ком╕кс..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Холодний метал..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Мороз..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/╫лянс..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Гаряче сяйво..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Град╕╓нтна фаска..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Неон..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Сл╕д частинки..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Вибух зор╕..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Зоряне тло..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Скрипт-Фу/Альфа у емблему/Текстура..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Скрипт-Фу/Ан╕матори/Сум╕ш..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Скрипт-Фу/Ан╕матори/Бриж╕..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Скрипт-Фу/Ан╕матори/Вид╕лення у ан╕моване зображення..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Скрипт-Фу/Ан╕матори/Куля, що оберта╓ться..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Скрипт-Фу/Ан╕матори/Хвил╕..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Додати фаску..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Додати облям╕вку..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Кавова пляма..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Неч╕тк╕ кра╖..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Старе фото..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Заокруглити кути..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Скрипт-Фу/Декор/Слайд..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Скрипт-Фу/В╕зуал╕зац╕я/Плата..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Скрипт-Фу/В╕зуал╕зац╕я/Лава..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Скрипт-Фу/В╕зуал╕зац╕я/Л╕н╕йна нова..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Скрипт-Фу/В╕зуал╕зац╕я/Зробити с╕ткову систему..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Скрипт-Фу/Вид╕лення/Спотворити вид╕лення..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Скрипт-Фу/Вид╕лення/Вивести контур..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Скрипт-Фу/Вид╕лення/Кругле..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Скрипт-Фу/Вид╕лення/В пензель..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Скрипт-Фу/Вид╕лення/В зображення"
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Скрипт-Фу/Т╕нь/В╕дкинути т╕нь..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Скрипт-Фу/Т╕нь/Перспектива..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Скрипт-Фу/Т╕нь/Xach-ефект..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Скрипт-Фу/Параметри трафарету/Вир╕зати..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Скрипт-Фу/Параметри трафарету/Хромувати..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Скрипт-Фу/Утил╕ти/ASCII у шар зображення..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Скрипт-Фу/Утил╕ти/Побудувати HSV-граф╕к..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Скрипт-Фу/Утил╕ти/Показати структуру зображення..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Кнопки/Кругла кнопка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Кнопки/Проста випукла кнопка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Тривим╕рний контур..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Чуже сяйво..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Чужий неон..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Основа I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Основа II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Сум╕ш..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Плямиста корова..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Вир╕зана..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Крейда..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Уламки..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Хром..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Ком╕кс..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Холодний метал..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Кристал..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Мороз..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/╫лянс..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Гаряче сяйво..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Град╕╓нтна фаска..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Неон..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Газетний текст..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Сл╕д частинки..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/SOTA Хром..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Швидк╕сний текст..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Вибух зор╕..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Зоряне тло..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Текст по колу..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Текстура..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Емблеми/Заголовок WWW-стор╕нки..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Зробити пензель/Ел╕птичний розмитий..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Зробити пензель/Ел╕птичний..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Зробити пензель/Примокутний розмитий..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Зробити пензель/Примокутний..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Р╕зне/Сфера..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/В╕зерунки/Камуфляж..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/В╕зерунки/Р╕внина..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/В╕зерунки/Земля..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/В╕зерунки/В╕зуал╕зац╕я мапи..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/В╕зерунки/Трохо╕да..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Утил╕ти/ASCII у зображення..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Утил╕ти/Користувацький град╕╓нт..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Розш./Скрипт-Фу/Утил╕ти/Мапа шрифту..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Чуже сяйво/Стр╕лка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Чуже сяйво/Маркер..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Чуже сяйво/Кнопка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Розш./Теми стор╕нок WWW/Чуже сяйво/Горизонтальна л╕н╕йка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Опуклий в╕зерунок/Стр╕лка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Опуклий в╕зерунок/Маркер..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Опуклий в╕зерунок/Кнопка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Опуклий в╕зерунок/Заголовок..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Розш./Теми стор╕нок WWW/Опуклий в╕зерунок/Горизонтальна "
+#~ "л╕н╕йка..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Gimp.Org/Великий заголовок..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Розш./Теми стор╕нок WWW/Gimp.Org/Позначки головно╖ труби..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Gimp.Org/Малий заголовок..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr "<Toolbox>/Розш./Теми стор╕нок WWW/Gimp.Org/Позначка кнопки труби..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Розш./Теми стор╕нок WWW/Gimp.Org/Позначка п╕дкнопки труби..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Розш./Теми стор╕нок WWW/Gimp.Org/Позначка п╕дп╕дкнопки труби..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Помилки GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Кер╕вництво GIMP"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Новини GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/Документац╕я"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/Звантаження"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/Мистецтво GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/Посилання"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/Списки розсилки"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/Ресурси"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/GIMP.ORG/GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Gimp-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Ре╓стр доповнень"
+
+#~ msgid "Add Background"
+#~ msgstr "Додати тло"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Додати падаючу т╕нь"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Додати т╕нь"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Дозволити зм╕ну розм╕ру"
+
+#~ msgid "Amplitude"
+#~ msgstr "Ампл╕туда"
+
+#~ msgid "Angle"
+#~ msgstr "Кут"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Ан╕мац╕йний ф╕льр для вс╕х коп╕й"
+
+#~ msgid "Antialias"
+#~ msgstr "Згладжування"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Застосувати створену маску шару"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Застосувати маску шару (чи в╕дмовитись)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "Автокадрування"
+
+#~ msgid "Azimuth"
+#~ msgstr "Азимут"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Непрозор╕сть тла"
+
+#~ msgid "Background Image"
+#~ msgstr "Зображення на тл╕"
+
+#~ msgid "Bar Height"
+#~ msgstr "Висота рядка"
+
+#~ msgid "Bar Length"
+#~ msgstr "Довжина рядка"
+
+#~ msgid "Base Color"
+#~ msgstr "Основний кол╕р"
+
+#, fuzzy
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Основний рад╕ус (п╕ксел╕)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Повед╕нка"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Висота фаски (р╕зк╕сть)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Ширина фаски"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Град╕╓нт (контур)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Град╕╓нт (текст)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Режим зм╕шування"
+
+#~ msgid "Block Size"
+#~ msgstr "Розм╕р блоку"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Степ╕нь розмивання"
+
+#~ msgid "Blur Border"
+#~ msgstr "Розмивання рамки"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Горизонтальне розмивання"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Рад╕ус розмивання"
+
+#~ msgid "Blur Type"
+#~ msgstr "Тип розмивання"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Вертикальне розмивання"
+
+#~ msgid "Blur X"
+#~ msgstr "Розмивання по X"
+
+#~ msgid "Blur Y"
+#~ msgstr "Розмивання по Y"
+
+#~ msgid "Border Color"
+#~ msgstr "Кол╕р облям╕вки"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Розм╕р облям╕вки (в п╕кселях)"
+
+#~ msgid "Border Size"
+#~ msgstr "Розм╕р облям╕вки"
+
+#~ msgid "Border X Size"
+#~ msgstr "Розм╕р рамки по X"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Розм╕р рамки по Y"
+
+#~ msgid "Border"
+#~ msgstr "Рамка"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Розм╕р буферу (% висоти тексту)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Рад╕ус розмивання рель╓фу (альфа-канал)"
+
+#~ msgid "Burst Color"
+#~ msgstr "Кол╕р вибуху"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Вир╕зати п╕днятий текст"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Вир╕зати б╕л╕ д╕лянки"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Розм╕р ком╕рки (в п╕кселях)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Кол╕р крейди"
+
+#~ msgid "Chip Amount"
+#~ msgstr "К╕льк╕сть уламк╕в"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Баланс хрому"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Фактор хрому"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Св╕тл╕сть хрому"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Насичен╕сть хрому"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Б╕л╕ д╕лянки хрому"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Гн╕здо кола"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Очистити невибран╕ д╕лянки маски"
+
+#~ msgid "Color 1"
+#~ msgstr "Кол╕р 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Кол╕р 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Кол╕р 3"
+
+#~ msgid "Color"
+#~ msgstr "Кол╕р"
+
+#~ msgid "Columns"
+#~ msgstr "Стовпчики"
+
+#~ msgid "Create New Image"
+#~ msgstr "Створення нового зображення"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Створити т╕нь"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "╤нший град╕╓нт"
+
+#~ msgid "Dark Color"
+#~ msgstr "Темний кол╕р"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Зам╕на темним\n"
+#~ "(Краще, але т╕льки для зображень з великою к╕льк╕стю б╕лого)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Типов╕ установки рель╓фу"
+
+#~ msgid "Defocus"
+#~ msgstr "Зняти фокус"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Дельта значенння кольору"
+
+#~ msgid "Density (%)"
+#~ msgstr "Щ╕льг╕сть (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Глибина"
+
+#~ msgid "Description"
+#~ msgstr "Опис"
+
+#~ msgid "Detail Level"
+#~ msgstr "Р╕вень деталей"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Детал╕ в середин╕"
+
+#~ msgid "Diameter"
+#~ msgstr "Д╕аметер"
+
+#~ msgid "Down"
+#~ msgstr "Вниз"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Рад╕ус розмивання т╕н╕"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Кол╕р т╕н╕"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Непрозор╕сть т╕н╕"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Зм╕щення в╕дкидання т╕н╕ по X"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Зм╕щення в╕дкидання т╕н╕ по Y"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Падаюча т╕нь"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Розм╕р гран╕"
+
+#~ msgid "Edge Only"
+#~ msgstr "Лише грань"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Рад╕ус гран╕"
+
+#~ msgid "Edge Width"
+#~ msgstr "Ширина гран╕"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Розм╕р ефекту (п╕ксел╕ * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Розм╕р ефекту (п╕ксел╕ * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Розм╕р ефекту (п╕ксел╕ * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Розм╕р ефекту (п╕ксел╕ * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Розм╕р ефекту (п╕ксел╕)"
+
+#~ msgid "Elevation"
+#~ msgstr "П╕двищення"
+
+#~ msgid "End Blend"
+#~ msgstr "К╕нець затемнення"
+
+#~ msgid "End X"
+#~ msgstr "К╕нець X"
+
+#~ msgid "End Y"
+#~ msgstr "К╕нець Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Завершення зм╕шування"
+
+#~ msgid "Environment Map"
+#~ msgstr "В╕дображення середовища"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Очистити перед малюванням"
+
+#~ msgid "Erase"
+#~ msgstr "Очистити"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Очистити/заповнити"
+
+#~ msgid "Even"
+#~ msgstr "Парн╕"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Парн╕/непарн╕"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "План-тло-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "План-тло-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "План-прозоре"
+
+#~ msgid "Fade Away"
+#~ msgstr "Згасання"
+
+#~ msgid "Fade From %"
+#~ msgstr "Згасання з (%)"
+
+#~ msgid "Fade To   %"
+#~ msgstr "Згасання до (%)"
+
+#~ msgid "Feathering"
+#~ msgstr "Розмивання"
+
+#~ msgid "Filename"
+#~ msgstr "Назва файлу"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Кут заповнення"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Заповнити тло в╕зерунком"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Заповнити кольором тла"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Заповнити кольором тла"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Звести зображення"
+
+#~ msgid "Font Color"
+#~ msgstr "Кол╕р шрифту"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Розм╕р шрифту (п╕ксел╕)"
+
+#~ msgid "Font"
+#~ msgstr "Шрифт"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифти"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Кол╕р переднього плану"
+
+#~ msgid "Frame Color"
+#~ msgstr "Кол╕р кадру"
+
+#~ msgid "Frame Size"
+#~ msgstr "Розм╕р кадру"
+
+#~ msgid "Frames"
+#~ msgstr "Кадри"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "З верхнього л╕вого до нижнього правого"
+
+#~ msgid "Glow Color"
+#~ msgstr "Кол╕р сяйва"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Рад╕ус сяйва"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Розм╕р сяйва (п╕ксел╕ * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Град╕╓нт"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Зернистисть (1 -- низька)"
+
+#~ msgid "Granularity"
+#~ msgstr "Зернистисть"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Масштаб граф╕ка"
+
+#~ msgid "Grids X"
+#~ msgstr "С╕тка по X"
+
+#~ msgid "Grids Y"
+#~ msgstr "Стка по Y"
+
+#~ msgid "Height"
+#~ msgstr "Висота"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Баланс виблиск╕в"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Кол╕р виблиск╕в"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Щ╕льн╕сть виблиск╕в"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Зм╕щення блик╕в по X"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Зм╕щення блик╕в по Y"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Показник потраплянь"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Показник в╕дт╕нку"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Висота зображення"
+
+#~ msgid "Image Size"
+#~ msgstr "Розм╕р зображення"
+
+#~ msgid "Image Width"
+#~ msgstr "Ширина зображення"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Щображенян в ╜равюру"
+
+#~ msgid "Index Image"
+#~ msgstr "╤ндексоване зображення"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "╤ндексувати до N кольор╕в (0 - залишити RGB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Вставити назви шар╕в"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Пром╕жков╕ кадри"
+
+#~ msgid "Interpolate"
+#~ msgstr "╤нтерполяц╕я"
+
+#~ msgid "Invert direction"
+#~ msgstr "Зворотн╕й напрямок"
+
+#~ msgid "Invert"
+#~ msgstr "╤нвертувати"
+
+#~ msgid "Keep Background"
+#~ msgstr "Лишити тло"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Зберегти шар рель╓фу"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Лишити вид╕лення"
+
+#~ msgid "Land Height"
+#~ msgstr "Висота земл╕"
+
+#~ msgid "Left"
+#~ msgstr "Л╕воруч"
+
+#~ msgid "Looped"
+#~ msgstr "Цикл╕чне"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Нижн╕й кол╕р (активний)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Нижн╕й кол╕р"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Нижн╕й правий кол╕р"
+
+#~ msgid "Make New Background"
+#~ msgstr "Зробити нове тло"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Непрозор╕сть маски"
+
+#~ msgid "Mask Size"
+#~ msgstr "Розм╕р маски"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Максимальний рад╕ус розмивання"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Тип елементу моза╖ки"
+
+#~ msgid "Mottle"
+#~ msgstr "Накраплення"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Без тла (лише для окремого шару)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Не натисеута (активна)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Не натиснута"
+
+#~ msgid "Number of Bands"
+#~ msgstr "К╕льк╕сть зв'язк╕в"
+
+#~ msgid "Number of Colors"
+#~ msgstr "К╕льк╕сть кольор╕в"
+
+#~ msgid "Number of Copies"
+#~ msgstr "К╕льк╕сть коп╕й"
+
+#~ msgid "Number of Frames"
+#~ msgstr "К╕льк╕сть кадр╕в"
+
+#~ msgid "Number of Lines"
+#~ msgstr "К╕льк╕сть рядк╕в"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "К╕льк╕сть повтор╕в для виру"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "К╕льк╕сть розр╕з╕в по X"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "К╕льк╕сть розр╕з╕в по Y"
+
+#~ msgid "Number"
+#~ msgstr "К╕льк╕сть"
+
+#~ msgid "Odd"
+#~ msgstr "Непарн╕"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Зм╕щення (у п╕кселях)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Рад╕ус зм╕щення"
+
+#~ msgid "Offset X"
+#~ msgstr "Зм╕щення по X"
+
+#~ msgid "Offset Y"
+#~ msgstr "Зм╕щення по Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Зм╕щення (точок * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Розм╕р маски ол╕йно╖ фарби"
+
+#~ msgid "Opacity"
+#~ msgstr "Непрозор╕сть"
+
+#~ msgid "Orientation"
+#~ msgstr "Ор╕╓нтац╕я"
+
+#~ msgid "Outer Border"
+#~ msgstr "Зовн╕шня рамка"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Рад╕ус розмиття контура"
+
+#~ msgid "Outline Color"
+#~ msgstr "Кол╕р контура"
+
+#~ msgid "Outline Size"
+#~ msgstr "Розм╕р контура"
+
+#~ msgid "Pad Color"
+#~ msgstr "Кол╕р заповнення"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Непрозор╕сть заповнення"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Заповнення навколо тексту"
+
+#~ msgid "Padding X"
+#~ msgstr "Заповнення X"
+
+#~ msgid "Padding Y"
+#~ msgstr "Заповнення Y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Заповнення для прозорих д╕лянок"
+
+#~ msgid "Padding"
+#~ msgstr "Заповнення"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "В╕зерунок (контур)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "В╕зерунок (перекривання)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "В╕зерунок (текст)"
+
+#~ msgid "Pattern"
+#~ msgstr "В╕зерунок"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Рад╕ус ол╕вця / рад╕ус колеса [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "К╕льк╕сть п╕ксел╕в"
+
+#~ msgid "Pixelize"
+#~ msgstr "П╕ксел╕зац╕я"
+
+#~ msgid "Pressed"
+#~ msgstr "Натиснута"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Розм╕р чверт╕"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Рад╕ус"
+
+#~ msgid "Random Seed"
+#~ msgstr "Основа випадковост╕"
+
+#~ msgid "Randomness"
+#~ msgstr "Випадков╕сть"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "В╕дносна в╕дстань до горизонту"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "В╕дносна довжина т╕н╕"
+
+#~ msgid "Relative Radius"
+#~ msgstr "В╕дносний рад╕ус"
+
+#~ msgid "Remove Background"
+#~ msgstr "Видалити тло"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "╤нтервал стр╕чки"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Ширина стр╕чки"
+
+#~ msgid "Right"
+#~ msgstr "Праворуч"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Сила бриж╕в"
+
+#~ msgid "Roughness"
+#~ msgstr "Шорстк╕сть"
+
+#~ msgid "Round Ratio"
+#~ msgstr "В╕дношення кут╕в"
+
+#~ msgid "Rows"
+#~ msgstr "Рядки"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Рядки/Стовпчики"
+
+#~ msgid "Scale X"
+#~ msgstr "Масштаб X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Масштаб Y"
+
+#, fuzzy
+#~ msgid "Sea Depth"
+#~ msgstr "Глибина т╕н╕"
+
+#~ msgid "Seed"
+#~ msgstr "Швидк╕сть"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Пор╕г вибору за кол╕ром"
+
+#~ msgid "Separate Layer"
+#~ msgstr "В╕╕д╕лити шар"
+
+#~ msgid "Sepia"
+#~ msgstr "Сеп╕я"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Рад╕ус розмивання т╕н╕"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Кол╕р т╕н╕"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Темнота т╕н╕"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Глибина т╕н╕"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Вага т╕н╕ (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Зм╕щення т╕н╕ по X"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Зм╕щення т╕н╕ по Y"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Р╕зк╕сть (в ╜радусах)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Довжина зсуву"
+
+#~ msgid "Size"
+#~ msgstr "Розм╕р"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Згладити горизонтально"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Згладити вертикально"
+
+#~ msgid "Smooth"
+#~ msgstr "Згладити"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "╤нтервал м╕ж шарами"
+
+#~ msgid "Spacing"
+#~ msgstr "╤нтервал"
+
+#~ msgid "Spots density X"
+#~ msgstr "Щ╕льн╕сть плям по X"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Щ╕льн╕сть плям по Y"
+
+#~ msgid "Spread"
+#~ msgstr "Розповсюдження"
+
+#~ msgid "Squares"
+#~ msgstr "Квадрати"
+
+#~ msgid "Stains"
+#~ msgstr "Плями"
+
+#~ msgid "Start Angle"
+#~ msgstr "Початковий кут"
+
+#~ msgid "Start Blend"
+#~ msgstr "Початок зм╕шування"
+
+#~ msgid "Start X"
+#~ msgstr "Початок по X"
+
+#~ msgid "Start Y"
+#~ msgstr "Початок по Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Початок зм╕шування"
+
+#~ msgid "Supersample"
+#~ msgstr "╤нтерполювати"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Кол╕р тексту (активний)"
+
+#~ msgid "Text Color"
+#~ msgstr "Кол╕р тексту"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Текстовий в╕зерунок"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Thickness"
+#~ msgstr "Товщина"
+
+#~ msgid "Thread Density"
+#~ msgstr "Щ╕льн╕сть нитки"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "╤нтенсивн╕сть нитки"
+
+#~ msgid "Thread Length"
+#~ msgstr "Довжина нитки"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Пор╕г (б╕льший 1<-->255 менший)"
+
+#~ msgid "Tile"
+#~ msgstr "Плитка"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Прозоре тло"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Обертати зл╕ва направо"
+
+#~ msgid "Up"
+#~ msgstr "Вгору"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Гор╕шн╕й кол╕р (активний)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Гор╕шн╕й кол╕р"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Гор╕шн╕й л╕вий кол╕р"
+
+#~ msgid "Use Brush"
+#~ msgstr "Використовувати пензель"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Використовувати поточний град╕╓нт"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Використовувати зростаюче вид╕лення"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Використовувати перекривання в╕зерунк╕в"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Використовувати для контуру в╕зерунок зам╕сть град╕╓нту"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Використовувати для тексту в╕зерунок зам╕сть град╕╓нту"
+
+#~ msgid "Wavelength"
+#~ msgstr "Довжина хвил╕"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Рад╕ус колеса (г╕по < 0 < еп╕)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "К╕льк╕сть вир╕в"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Кут виру"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Ширина стр╕чок"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Ширина пром╕жк╕в"
+
+#~ msgid "Width"
+#~ msgstr "Ширина"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Працювати з коп╕╓ю"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Част╕ питання розробник╕в"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Уроки GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Розш./Перегляд WWW/Част╕ питання користувач╕в"

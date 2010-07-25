@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<GTK-Interface>
+
+<project>
+  <name>Iolgui</name>
+  <program_name>iolgui</program_name>
+  <directory></directory>
+  <source_directory>src</source_directory>
+  <pixmaps_directory>pixmaps</pixmaps_directory>
+  <language>C</language>
+  <gnome_support>False</gnome_support>
+  <gettext_support>True</gettext_support>
+</project>
+
+<widget>
+  <class>GtkWindow</class>
+  <name>iol_window</name>
+  <signal>
+    <name>delete_event</name>
+    <handler>on_iol_window_delete_event</handler>
+    <last_modification_time>Fri, 14 Feb 2003 05:04:17 GMT</last_modification_time>
+  </signal>
+  <signal>
+    <name>show</name>
+    <handler>on_iol_window_show</handler>
+    <data>script_text</data>
+    <last_modification_time>Fri, 14 Feb 2003 07:07:42 GMT</last_modification_time>
+  </signal>
+  <title>IOL - Image Operation Language</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_NONE</position>
+  <modal>False</modal>
+  <allow_shrink>False</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+
+  <widget>
+    <class>GtkVBox</class>
+    <name>vbox1</name>
+    <homogeneous>False</homogeneous>
+    <spacing>0</spacing>
+
+    <widget>
+      <class>GtkScrolledWindow</class>
+      <name>scrolledwindow1</name>
+      <hscrollbar_policy>GTK_POLICY_NEVER</hscrollbar_policy>
+      <vscrollbar_policy>GTK_POLICY_ALWAYS</vscrollbar_policy>
+      <hupdate_policy>GTK_UPDATE_CONTINUOUS</hupdate_policy>
+      <vupdate_policy>GTK_UPDATE_CONTINUOUS</vupdate_policy>
+      <child>
+	<padding>0</padding>
+	<expand>True</expand>
+	<fill>True</fill>
+      </child>
+
+      <widget>
+	<class>GtkText</class>
+	<name>script_text</name>
+	<width>640</width>
+	<height>440</height>
+	<can_focus>True</can_focus>
+	<editable>True</editable>
+	<text></text>
+      </widget>
+    </widget>
+
+    <widget>
+      <class>GtkHButtonBox</class>
+      <name>hbuttonbox1</name>
+      <layout_style>GTK_BUTTONBOX_DEFAULT_STYLE</layout_style>
+      <spacing>30</spacing>
+      <child_min_width>85</child_min_width>
+      <child_min_height>27</child_min_height>
+      <child_ipad_x>7</child_ipad_x>
+      <child_ipad_y>0</child_ipad_y>
+      <child>
+	<padding>0</padding>
+	<expand>True</expand>
+	<fill>True</fill>
+      </child>
+
+      <widget>
+	<class>GtkButton</class>
+	<name>load_button</name>
+	<can_default>True</can_default>
+	<has_default>True</has_default>
+	<can_focus>True</can_focus>
+	<signal>
+	  <name>clicked</name>
+	  <handler>on_load_button_clicked</handler>
+	  <data>script_text</data>
+	  <last_modification_time>Fri, 14 Feb 2003 06:20:14 GMT</last_modification_time>
+	</signal>
+	<label>Load...</label>
+	<relief>GTK_RELIEF_NORMAL</relief>
+      </widget>
+
+      <widget>
+	<class>GtkButton</class>
+	<name>save_button</name>
+	<can_default>True</can_default>
+	<can_focus>True</can_focus>
+	<signal>
+	  <name>clicked</name>
+	  <handler>on_save_button_clicked</handler>
+	  <data>script_text</data>
+	  <last_modification_time>Fri, 14 Feb 2003 06:20:23 GMT</last_modification_time>
+	</signal>
+	<label>Save...</label>
+	<relief>GTK_RELIEF_NORMAL</relief>
+      </widget>
+
+      <widget>
+	<class>GtkButton</class>
+	<name>go_button</name>
+	<can_default>True</can_default>
+	<can_focus>True</can_focus>
+	<signal>
+	  <name>clicked</name>
+	  <handler>on_go_button_clicked</handler>
+	  <data>iol_window</data>
+	  <last_modification_time>Sat, 15 Feb 2003 06:28:32 GMT</last_modification_time>
+	</signal>
+	<label>Go!</label>
+	<relief>GTK_RELIEF_NORMAL</relief>
+      </widget>
+
+      <widget>
+	<class>GtkButton</class>
+	<name>help_button</name>
+	<can_default>True</can_default>
+	<can_focus>True</can_focus>
+	<signal>
+	  <name>clicked</name>
+	  <handler>on_help_button_clicked</handler>
+	  <last_modification_time>Mon, 24 Feb 2003 20:57:49 GMT</last_modification_time>
+	</signal>
+	<label>Help...</label>
+	<relief>GTK_RELIEF_NORMAL</relief>
+      </widget>
+    </widget>
+
+    <widget>
+      <class>GtkHBox</class>
+      <name>hbox1</name>
+      <homogeneous>False</homogeneous>
+      <spacing>0</spacing>
+      <child>
+	<padding>0</padding>
+	<expand>True</expand>
+	<fill>True</fill>
+      </child>
+
+      <widget>
+	<class>GtkCheckButton</class>
+	<name>keepopen_check_button</name>
+	<can_focus>True</can_focus>
+	<signal>
+	  <name>toggled</name>
+	  <handler>on_keepopen_check_button_toggled</handler>
+	  <last_modification_time>Wed, 26 Feb 2003 06:22:46 GMT</last_modification_time>
+	</signal>
+	<label>Stay Open</label>
+	<active>False</active>
+	<draw_indicator>True</draw_indicator>
+	<child>
+	  <padding>0</padding>
+	  <expand>False</expand>
+	  <fill>False</fill>
+	  <pack>GTK_PACK_END</pack>
+	</child>
+      </widget>
+    </widget>
+  </widget>
+</widget>
+
+<widget>
+  <class>GtkFileSelection</class>
+  <name>load_file_select</name>
+  <border_width>10</border_width>
+  <title>Load File...</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_NONE</position>
+  <modal>False</modal>
+  <allow_shrink>False</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+  <show_file_op_buttons>True</show_file_op_buttons>
+
+  <widget>
+    <class>GtkButton</class>
+    <child_name>FileSel:ok_button</child_name>
+    <name>load_ok_button</name>
+    <can_default>True</can_default>
+    <can_focus>True</can_focus>
+    <signal>
+      <name>clicked</name>
+      <handler>on_load_ok_button_clicked</handler>
+      <last_modification_time>Fri, 14 Feb 2003 05:17:57 GMT</last_modification_time>
+    </signal>
+    <label>OK</label>
+    <relief>GTK_RELIEF_NORMAL</relief>
+  </widget>
+
+  <widget>
+    <class>GtkButton</class>
+    <child_name>FileSel:cancel_button</child_name>
+    <name>load_cancel_button</name>
+    <can_default>True</can_default>
+    <can_focus>True</can_focus>
+    <signal>
+      <name>clicked</name>
+      <handler>on_load_cancel_button_clicked</handler>
+      <last_modification_time>Fri, 14 Feb 2003 05:18:20 GMT</last_modification_time>
+    </signal>
+    <label>Cancel</label>
+    <relief>GTK_RELIEF_NORMAL</relief>
+  </widget>
+</widget>
+
+<widget>
+  <class>GtkFileSelection</class>
+  <name>save_file_selection</name>
+  <border_width>10</border_width>
+  <title>Save File...</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_NONE</position>
+  <modal>False</modal>
+  <allow_shrink>False</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+  <show_file_op_buttons>True</show_file_op_buttons>
+
+  <widget>
+    <class>GtkButton</class>
+    <child_name>FileSel:ok_button</child_name>
+    <name>save_ok_button</name>
+    <can_default>True</can_default>
+    <can_focus>True</can_focus>
+    <signal>
+      <name>clicked</name>
+      <handler>on_save_ok_button_clicked</handler>
+      <last_modification_time>Fri, 14 Feb 2003 05:19:04 GMT</last_modification_time>
+    </signal>
+    <label>OK</label>
+    <relief>GTK_RELIEF_NORMAL</relief>
+  </widget>
+
+  <widget>
+    <class>GtkButton</class>
+    <child_name>FileSel:cancel_button</child_name>
+    <name>save_cancel_button</name>
+    <can_default>True</can_default>
+    <can_focus>True</can_focus>
+    <signal>
+      <name>clicked</name>
+      <handler>on_save_cancel_button_clicked</handler>
+      <last_modification_time>Fri, 14 Feb 2003 05:19:22 GMT</last_modification_time>
+    </signal>
+    <label>Cancel</label>
+    <relief>GTK_RELIEF_NORMAL</relief>
+  </widget>
+</widget>
+
+<widget>
+  <class>GtkWindow</class>
+  <name>iol_help_window</name>
+  <title>IOL Help</title>
+  <type>GTK_WINDOW_TOPLEVEL</type>
+  <position>GTK_WIN_POS_NONE</position>
+  <modal>False</modal>
+  <allow_shrink>False</allow_shrink>
+  <allow_grow>True</allow_grow>
+  <auto_shrink>False</auto_shrink>
+
+  <widget>
+    <class>GtkVBox</class>
+    <name>vbox2</name>
+    <homogeneous>False</homogeneous>
+    <spacing>0</spacing>
+
+    <widget>
+      <class>GtkNotebook</class>
+      <name>help_notebook</name>
+      <can_focus>True</can_focus>
+      <show_tabs>True</show_tabs>
+      <show_border>True</show_border>
+      <tab_pos>GTK_POS_TOP</tab_pos>
+      <scrollable>False</scrollable>
+      <tab_hborder>2</tab_hborder>
+      <tab_vborder>2</tab_vborder>
+      <popup_enable>False</popup_enable>
+      <child>
+	<padding>0</padding>
+	<expand>True</expand>
+	<fill>True</fill>
+      </child>
+
+      <widget>
+	<class>GtkFrame</class>
+	<name>variable_tidbits_frame</name>
+	<label>Some Information About Variables</label>
+	<label_xalign>0</label_xalign>
+	<shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	<widget>
+	  <class>GtkScrolledWindow</class>
+	  <name>scrolledwindow2</name>
+	  <hscrollbar_policy>GTK_POLICY_NEVER</hscrollbar_policy>
+	  <vscrollbar_policy>GTK_POLICY_AUTOMATIC</vscrollbar_policy>
+	  <hupdate_policy>GTK_UPDATE_CONTINUOUS</hupdate_policy>
+	  <vupdate_policy>GTK_UPDATE_CONTINUOUS</vupdate_policy>
+
+	  <widget>
+	    <class>GtkText</class>
+	    <name>variable_tidbits_text</name>
+	    <width>400</width>
+	    <can_focus>True</can_focus>
+	    <editable>False</editable>
+	    <text>There can be up to 50 variables.
+
+Variables are always 32-bit floating-point.
+
+Variables can have any name of any length, as long as its name
+a)Does not have spaces in it, and contains only alphanumeric
+   characters
+b)Starts with a letter
+c)Is not already used by a keyword
+
+Variables do not have to be declared before they can be used.
+
+Variable names are case sensitive</text>
+	  </widget>
+	</widget>
+      </widget>
+
+      <widget>
+	<class>GtkLabel</class>
+	<child_name>Notebook:tab</child_name>
+	<name>variables_help_label</name>
+	<label>Variables</label>
+	<justify>GTK_JUSTIFY_CENTER</justify>
+	<wrap>False</wrap>
+	<xalign>0.5</xalign>
+	<yalign>0.5</yalign>
+	<xpad>0</xpad>
+	<ypad>0</ypad>
+      </widget>
+
+      <widget>
+	<class>GtkFrame</class>
+	<name>keywords_help_frame</name>
+	<label>IOL Keywords</label>
+	<label_xalign>0</label_xalign>
+	<shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	<widget>
+	  <class>GtkScrolledWindow</class>
+	  <name>scrolledwindow3</name>
+	  <hscrollbar_policy>GTK_POLICY_NEVER</hscrollbar_policy>
+	  <vscrollbar_policy>GTK_POLICY_ALWAYS</vscrollbar_policy>
+	  <hupdate_policy>GTK_UPDATE_CONTINUOUS</hupdate_policy>
+	  <vupdate_policy>GTK_UPDATE_CONTINUOUS</vupdate_policy>
+
+	  <widget>
+	    <class>GtkText</class>
+	    <name>keywords_help_text</name>
+	    <can_focus>True</can_focus>
+	    <editable>False</editable>
+	    <text>There are two kinds of keywords: those that return a floating-point
+number and can therefor be used in mathematical expressions (such
+as sqrt, clip, etc.), and those that do not (input, output, and size).
+
+IF...ELSE statements must be in the form of:
+	if condition { statements } else { statements }
+or
+	if condition { statements }
+
+*** Keywords that _can't_ be used in expressions ***
+
+input
+Parameters: red green blue alpha
+Fetch the image's red, green, blue, and alpha values, convert
+them to floating-point if necessary, and then stick them in their
+respective variables.
+
+output
+Parameters: red green blue alpha
+Take the parameters and use their values for the image's
+respective channels.
+
+size
+Parameters: x y
+Load the image's width and height into the x and y
+variables, respectively.
+
+pos
+Parameters: x y
+Fetches the coordinates of the current pixel; the X axis goes in x,
+the Y axis goes in y.
+
+*** Keywords that _can_ be used in expressions ***
+
+clip
+Parameters: val
+If val is less than 0.0, clip returns 0.0. If val is greater than 1.0,
+val returns 1.0. Otherwise, clip returns val.
+
+sqrt
+Parameters: val
+Compute the square root of val, and then return it.
+
+abs
+Parameters: val
+Calculates the absolute value of val, and then returns it.
+
+sin
+Parameters: val
+Return the sine of val.
+
+cos
+Parameters: val
+Return the cosine of val
+
+tan
+Parameters: val
+Return the tangent of val
+
+log
+Parameters: val
+Return the natural logarithm of val
+
+log10
+Parameters: val
+Return the base-10 logarithm of val
+
+pow
+Parameters: x y
+Return the value of x raised to the power of y
+
+min
+Parameters: x y
+If x is less than y, returns x. If y is less than x, returns y. If x and y
+are the same, returns x.
+
+max
+Parameters: x y
+If x is greater than y, returns x. If y is greater than x, returns y. If x
+and y are the same, returns x.</text>
+	  </widget>
+	</widget>
+      </widget>
+
+      <widget>
+	<class>GtkLabel</class>
+	<child_name>Notebook:tab</child_name>
+	<name>keywords_help_label</name>
+	<label>Keywords</label>
+	<justify>GTK_JUSTIFY_CENTER</justify>
+	<wrap>False</wrap>
+	<xalign>0.5</xalign>
+	<yalign>0.5</yalign>
+	<xpad>0</xpad>
+	<ypad>0</ypad>
+      </widget>
+
+      <widget>
+	<class>GtkFrame</class>
+	<name>misc_help_frame</name>
+	<label>Miscellaneous</label>
+	<label_xalign>0</label_xalign>
+	<shadow_type>GTK_SHADOW_ETCHED_IN</shadow_type>
+
+	<widget>
+	  <class>GtkLabel</class>
+	  <name>misc_text_label</name>
+	  <label>IOL - Image Operation Language
+
+Author: Sean Ridenour &lt;s__ridenour@distortedpictures.com&gt;
+
+Website: http://iol.kewlpc.org
+
+Film Gimp website: http://www.filmgimp.org
+
+Copyright (C) 2003 Sean Ridenour. Released under the terms of the GNU General Public License. Read the included file COPYING for more information.</label>
+	  <justify>GTK_JUSTIFY_LEFT</justify>
+	  <wrap>True</wrap>
+	  <xalign>0.5</xalign>
+	  <yalign>0.5</yalign>
+	  <xpad>0</xpad>
+	  <ypad>0</ypad>
+	</widget>
+      </widget>
+
+      <widget>
+	<class>GtkLabel</class>
+	<child_name>Notebook:tab</child_name>
+	<name>misc_help_label</name>
+	<label>Misc.</label>
+	<justify>GTK_JUSTIFY_CENTER</justify>
+	<wrap>False</wrap>
+	<xalign>0.5</xalign>
+	<yalign>0.5</yalign>
+	<xpad>0</xpad>
+	<ypad>0</ypad>
+      </widget>
+    </widget>
+
+    <widget>
+      <class>GtkHButtonBox</class>
+      <name>hbuttonbox2</name>
+      <layout_style>GTK_BUTTONBOX_DEFAULT_STYLE</layout_style>
+      <spacing>30</spacing>
+      <child_min_width>85</child_min_width>
+      <child_min_height>27</child_min_height>
+      <child_ipad_x>7</child_ipad_x>
+      <child_ipad_y>0</child_ipad_y>
+      <child>
+	<padding>0</padding>
+	<expand>False</expand>
+	<fill>False</fill>
+      </child>
+
+      <widget>
+	<class>GtkButton</class>
+	<name>help_close_button</name>
+	<can_default>True</can_default>
+	<has_default>True</has_default>
+	<can_focus>True</can_focus>
+	<signal>
+	  <name>clicked</name>
+	  <handler>on_help_close_button_clicked</handler>
+	  <last_modification_time>Fri, 28 Feb 2003 00:47:36 GMT</last_modification_time>
+	</signal>
+	<label>Close</label>
+	<relief>GTK_RELIEF_NORMAL</relief>
+      </widget>
+    </widget>
+  </widget>
+</widget>
+
+</GTK-Interface>

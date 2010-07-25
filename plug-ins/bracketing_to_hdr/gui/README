@@ -1,0 +1,4 @@
+The ./gui directory contains the Fltk-based GUI stuff of the plug-in. The GUI
+was developed using Fltk's visual editor FLUID. The corresponding meta files 
+(.fl-files) are "gui.fl" and "EventTestWinClass.fl".
+

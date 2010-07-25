@@ -1,0 +1,1556 @@
+# French translation of gimp-script-fu.
+# Copyright (C) 2000-2002 Free Software Foundation, Inc.
+# David Monniaux <monniaux@arbouse.ens.fr>, 2000.
+# maintainer: Christophe Merlet (RedFox) <christophe@merlet.net>, 2000-2002.
+# Raymond Ostertag <r.ostertag@caramail.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-script-fu 1.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2002-08-28 14:20+0200\n"
+"Last-Translator: Raymond Ostertag <r.ostertag@caramail.com>\n"
+"Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Console pour Script-Fu"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Fermer"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "Sortie SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Console pour Script-Fu"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Commande courante"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Parcourir..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Incapable d'ouvrir le tampon de sortie SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Impossible d'ouvrir un flot sur le tampon de sortie SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+"Le mode d'évaluation du Script-Fu autorise uniquement un appel noninteractif"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Navigateur BD (init...)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "Rechercher :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "Rechercher par nom"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by blurb"
+msgstr "Rechercher par blurb"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Appliquer"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Nom :"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Flou :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "Entrée :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "Sortie :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Auteur :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Date :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Copyright :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "Navigateur BD (par nom - Veuillez patienter)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "Navigateur BD (par blurb - veuillez patienter)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "Navigateur BD (veuillez patienter)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "Navigateur BD"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Éclairage (degrés)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Rayon (pixels)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Ombre"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Couleur de la sphère"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr ""
+#~ "Le mode console pour Script-Fu n'autorise que des appels interactifs"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu : %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Paramètres du script"
+
+#~ msgid "%s:"
+#~ msgstr "%s :"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Sélection de la Couleur pour le Script-Fu"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Sélection du fichier (Script-Fu)"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Sélection des motifs (Script-Fu)"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Sélection des dégradés (Script-Fu)"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Sélection des brosses pour le Script-Fu"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Remettre aux valeurs par défaut"
+
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#~ msgid "OK"
+#~ msgstr "Valider"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "NOT SET"
+#~ msgstr "NON DÉFINI"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Au moins une fonte que vous avez choisie est invalide.\n"
+#~ "Veuillez vérifier vos paramètres.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Types d'images :"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Sélection de la police du Script-Fu"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Erreur Script-Fu durant l'exécution\n"
+#~ "de %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Options du serveur du Script-Fu"
+
+#~ msgid "Server Port:"
+#~ msgstr "Port du serveur :"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Fichier de log du serveur :"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Console..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Serveur..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Relire la liste des scripts disponibles"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Rafraîchir"
+
+#~ msgid "Help:"
+#~ msgstr "Aide :"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Édition/Copier visible"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Filtres/Flou/Flou mosaique..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/Alchimie/Clothify..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/Alchimie/Supprime une colonne/rangée sur deux..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script-Fu/Alchimie/Predator..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/Alchimie/Unsharp Mask..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/Alchimie/Weave..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/3D Outline..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Alien Glow..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Alien Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Basic I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Basic II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Blended..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Bovination..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Craie..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Chip Away..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Chrome..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Comic Book..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Cool Metal..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Frosty..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Glossy..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Glowing Hot..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Gradient Bevel..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Particle Trace..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Starburst..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Starscape..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/Alpha vers Logo/Textured..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/Animators/Blend..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/Animators/Rippling..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/Animators/Sélection vers AnimImage..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/Animators/Spinning Globe..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/Animators/Waves..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/Décor/Add Bevel..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/Décor/Ajouter une bordure..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/Décor/Taches de café..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/Décor/Bordure floue..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/Décor/Vieille photo..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/Décor/Coins arrondis..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/Décor/Pellicule..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/Rendu/Circuit..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/Rendu/Lave..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/Rendu/Line Nova..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/Rendu/Créer un système de grille..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/Sélection/Distress Selection..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/Sélection/Fade Outline..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/Sélection/Arrondi..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/Sélection/Vers brosse..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/Sélection/Vers image..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/Ombre/Drop-Shadow..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/Ombre/Perspective..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/Ombre/Effet (Xach)..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/Pochoir/Carve-It..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/Pochoir/Chrome-It..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/Utilitaires/ASCII vers calque d'image..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/Utilitaires/Dessiner graphique HSV..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/Utilitaires/Afficher la structure de l'image..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Boutons/Bouton arrondi..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Boutons/Bouton à bordure simple..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/3D Outline..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Alien Glow..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Alien Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Basic I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Basic II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Blended..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Bovination..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Carved..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Craie..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Chip Away..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Chrome..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Comic Book..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Cool Metal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Crystal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Frosty..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Glossy..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Glowing Hot..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Gradient Bevel..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Newsprint Text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Particle Trace..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/SOTA Chrome..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Speed Text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Starburst..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Starscape..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Text Circle..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Textured..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Logos/Web Title Header..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Créer brosse/Élliptique, plume..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Créer brosse/Élliptique..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Créer brosse/Rectangulaire, plume..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Créer brosse/Rectangulaire..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Divers/Sphère..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/3D Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Camouflage..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Flatland..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Land..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Render Map..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Swirl-Tile..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Swirly (tileable)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Trochoid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Motifs/Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Utilitaires/ASCII vers image..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Utilitaires/Dégradé personnalisé..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Utilitaires/Carte de police..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Thèmes Web/Alien Glow/Flèche..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Thèmes Web/Alien Glow/Puce..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Thèmes Web/Alien Glow/Bouton..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Thèmes Web/Alien Glow/Tiret..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Motif à bordures biseautées/Flèche..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Motif à bordures biseautées/Puce..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Motif à bordures biseautées/Bouton..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Motif à bordures biseautées/Titre..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Motif à bordures biseautées/Tiret..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Thèmes Web/Gimp.Org/Gros titre..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Gimp.Org/Étiquettes 'tube' "
+#~ "générales..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "<Toolbox>/Exts/Script-Fu/Thèmes Web/Gimp.Org/Petit titre..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Gimp.Org/Titre de bouton 'tube'..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Gimp.Org/Titre de sous-bouton "
+#~ "'tube'..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Exts/Script-Fu/Thèmes Web/Gimp.Org/Titre de sous-sous-bouton "
+#~ "'tube'..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Bugs GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Manuel GIMP"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Nouvelles GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/Documentation"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/Téléchargement"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/Art GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/Liens"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/Listes de diffusions"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/Ressources"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/GIMP.ORG/The GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Gimp-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Base de greffons"
+
+#~ msgid "Add Background"
+#~ msgstr "Ajouter un arrière-plan"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Ajouter une ombre décalée"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Ajouter une ombre"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Permettre le redimensionnement"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplitude"
+
+#~ msgid "Angle"
+#~ msgstr "Angle"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Filtre-Anim pour toutes les copies"
+
+#~ msgid "Antialias"
+#~ msgstr "Anti-crénelage"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Appliquer le calque de masque généré"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Appliquer le calque de masque (ou rejète)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "Rognage automatique"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimuth"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Opacité de l'Arr. Plan"
+
+#~ msgid "Background Image"
+#~ msgstr "Image d'arrière-plan"
+
+#~ msgid "Bar Height"
+#~ msgstr "Hauteur de la barre"
+
+#~ msgid "Bar Length"
+#~ msgstr "Longueur de la barre"
+
+#~ msgid "Base Color"
+#~ msgstr "Couleur de base"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Rayon de base (pixels)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Comportement"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Hauteur de la bordure (finesse)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Largeur de la bordure"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Mélange les dégradés (contours)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Mélange les contours (Texte)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Mode mélange"
+
+#~ msgid "Block Size"
+#~ msgstr "Taile de bloc"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Quantité de flou"
+
+#~ msgid "Blur Border"
+#~ msgstr "Bord de flou"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Rendre flou horizontalement"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Rayon du flou"
+
+#~ msgid "Blur Type"
+#~ msgstr "Type de flou"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Rendre flou verticalement"
+
+#~ msgid "Blur X"
+#~ msgstr "Flou X"
+
+#~ msgid "Blur Y"
+#~ msgstr "Flou Y"
+
+#~ msgid "Border Color"
+#~ msgstr "Couleur de bordure"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Taille de bordure (pixels)"
+
+#~ msgid "Border Size"
+#~ msgstr "Taille de bordure"
+
+#~ msgid "Border X Size"
+#~ msgstr "Taille de la bordure en X"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Taille de la bordure en Y"
+
+#~ msgid "Border"
+#~ msgstr "Bordure"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Quantité de mémoire (% Hauteur de texte)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Bosselage (Calque Alpha) Rayon de flou"
+
+#~ msgid "Burst Color"
+#~ msgstr "Couleur d'explosion"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Sculpter texte agrandi"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Sculpter zone blanches"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Taille des cellules (pixels)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Couleur de craie"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Quantité d'éclats"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Balance du chrome"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Facteur de chrome"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Luminosité du chrome"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Saturation du chrome"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Zone blanches du chrome"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Initialisation circuit"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Effacer zones non sélectionnées du masque "
+
+#~ msgid "Color 1"
+#~ msgstr "Couleur 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Couleur 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Couleur 3"
+
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#~ msgid "Columns"
+#~ msgstr "Colonnes"
+
+#~ msgid "Create New Image"
+#~ msgstr "Créer une nouvelle image"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Créer une ombre"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Dégradé personnalisé"
+
+#~ msgid "Dark Color"
+#~ msgstr "Couleur sombre"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Seulement assombrir\n"
+#~ "(Meilleur, mais seulement pour des images avec beaucoup de Blanc)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Réglages par défaut du bosselage"
+
+#~ msgid "Defocus"
+#~ msgstr "Diverger"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Différence de couleur"
+
+#~ msgid "Density (%)"
+#~ msgstr "Densité (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Profondeur"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "Detail Level"
+#~ msgstr "Niveau de détail"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Dtail au milieu"
+
+#~ msgid "Diameter"
+#~ msgstr "Diamètre"
+
+#~ msgid "Down"
+#~ msgstr "Bas"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Rayon de flou pour dégradé d'ombre"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Couleur de dégradé d'ombre"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Opacité de dégradé d'ombre"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Décalage X de dégradé d'ombre"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Décalage Y de dégradé d'ombre"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Dégradé d'ombre"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Bords quantité"
+
+#~ msgid "Edge Only"
+#~ msgstr "Seulement des bords"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Rayon des bords"
+
+#~ msgid "Edge Width"
+#~ msgstr "Largeur des bords"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Taille de l'effet (pixels * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Taille de l'effet (pixels * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Taille de l'effet (pixels * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Taille de l'effet (pixels * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Taille de l'effet (pixels)"
+
+#~ msgid "Elevation"
+#~ msgstr "Élévation"
+
+#~ msgid "End Blend"
+#~ msgstr "Mélange final"
+
+#~ msgid "End X"
+#~ msgstr "Fin X"
+
+#~ msgid "End Y"
+#~ msgstr "Fin Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Mélange final"
+
+#~ msgid "Environment Map"
+#~ msgstr "Carte d'environnement"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Effacer avant de dessiner"
+
+#~ msgid "Erase"
+#~ msgstr "Effacer"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Effacer/Remplir"
+
+#~ msgid "Even"
+#~ msgstr "Pair"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Pair/Impair"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "Avp-Arp-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "Avp-Arp-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "Avp Transparent"
+
+#~ msgid "Fade Away"
+#~ msgstr "Affaiblissement"
+
+#~ msgid "Fade From %"
+#~ msgstr "Affaiblissement depuis %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "Affaiblissement vers %"
+
+#~ msgid "Feathering"
+#~ msgstr "Plumage"
+
+#~ msgid "Filename"
+#~ msgstr "Nom de fichier"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Angle de remplissage"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Remplir l'AP avec un motif"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Remplir avec la couleur d'AP"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Remplir avec l'AP"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Aplatir image"
+
+#~ msgid "Font Color"
+#~ msgstr "Couleur de la police"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Taille de la police (pixels)"
+
+#~ msgid "Font"
+#~ msgstr "Police"
+
+#~ msgid "Fonts"
+#~ msgstr "Polices"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Couleur de premier plan"
+
+#~ msgid "Frame Color"
+#~ msgstr "Couleur de la trame"
+
+#~ msgid "Frame Size"
+#~ msgstr "Taille de trame"
+
+#~ msgid "Frames"
+#~ msgstr "Trames"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Depuis de Haut-Gauche vers le Bas-Droit"
+
+#~ msgid "Glow Color"
+#~ msgstr "Couleur de la lueur"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Rayon de la lueur"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Taille de la lueur (pixels * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Dégradé"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Granularité (1 est bas)"
+
+#~ msgid "Granularity"
+#~ msgstr "Granularité"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Échelle du graphe"
+
+#~ msgid "Grids X"
+#~ msgstr "Grille X"
+
+#~ msgid "Grids Y"
+#~ msgstr "Grille Y"
+
+#~ msgid "Height"
+#~ msgstr "Hauteur"
+
+#~ msgid "Hexagons"
+#~ msgstr "Hexagones"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Balance accentuation"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Couleur d'accentuation"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Opacité d'accentuation"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Décalage X accentuation"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Décalage Y accentuation"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Taux de touches"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Taux de nuance"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Hauteur de l'image"
+
+#~ msgid "Image Size"
+#~ msgstr "Taille de l'image"
+
+#~ msgid "Image Width"
+#~ msgstr "Largeur de l'image"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Image à entailler"
+
+#~ msgid "Index Image"
+#~ msgstr "Image index"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Index à n Couleurs (0 = reste en RVB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Insèrer le nom des calques"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Séquences intermédaires"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpoler"
+
+#~ msgid "Invert direction"
+#~ msgstr "Inverse la direction"
+
+#~ msgid "Invert"
+#~ msgstr "Inverser"
+
+#~ msgid "Keep Background"
+#~ msgstr "Garder l'arrière-plan"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Conserve calque de relief"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Garder la sélection"
+
+#~ msgid "Land Height"
+#~ msgstr "Hauteur du terrain"
+
+#~ msgid "Left"
+#~ msgstr "Gauche"
+
+#~ msgid "Looped"
+#~ msgstr "Bouclé"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Couleur du bas (Actif)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Couleur du bas"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Couleur du bas à droite"
+
+#~ msgid "Make New Background"
+#~ msgstr "Créer un nouvel arrière-plan"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Opacité du masque"
+
+#~ msgid "Mask Size"
+#~ msgstr "Taille du masque"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Rayon max. du flou"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Type de fichier mosaique"
+
+#~ msgid "Mottle"
+#~ msgstr "Marbrer"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Aucun arrière-plan (seulement pour le calque separe)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Normal"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Inactif"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Nombre de bandes"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Nombres de couleurs"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Nombre de copies"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Nombre de trames"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Nombres de lignes"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Nombre de tourbillons"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "Nombre de carreaux en X"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Nombre de carreaux en Y"
+
+#~ msgid "Number"
+#~ msgstr "Nombre"
+
+#~ msgid "Octagons"
+#~ msgstr "Octogones"
+
+#~ msgid "Odd"
+#~ msgstr "Impair"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Décalage (pixels)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Décalage du rayon"
+
+#~ msgid "Offset X"
+#~ msgstr "Décalage X"
+
+#~ msgid "Offset Y"
+#~ msgstr "Décalage Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Décalages (pixels x 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Taille de masque"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacité"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientation"
+
+#~ msgid "Outer Border"
+#~ msgstr "Contour"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Rayon de flou de contour"
+
+#~ msgid "Outline Color"
+#~ msgstr "Couleur de contour"
+
+#~ msgid "Outline Size"
+#~ msgstr "Taille de contour"
+
+#~ msgid "Pad Color"
+#~ msgstr "Couleur des filtres"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Opacité des filtres"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Marge autour du texte"
+
+#~ msgid "Padding X"
+#~ msgstr "Marge X"
+
+#~ msgid "Padding Y"
+#~ msgstr "Marge Y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Marge pour zones transparentes"
+
+#~ msgid "Padding"
+#~ msgstr "Marge"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Motif (contour)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Motif (Recouvrant)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Motif (texte)"
+
+#~ msgid "Pattern"
+#~ msgstr "Motif"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Rayon de crayon / roue [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Nombre de pixels"
+
+#~ msgid "Pixelize"
+#~ msgstr "Pixeliser"
+
+#~ msgid "Pressed"
+#~ msgstr "Activé"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Taille du quartier"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Rayon"
+
+#~ msgid "Random Seed"
+#~ msgstr "Graine aléatoire"
+
+#~ msgid "Randomness"
+#~ msgstr "Aléa"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Distance relative de l'horizon"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Longueur relative de l'ombre"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Rayon relatif"
+
+#~ msgid "Remove Background"
+#~ msgstr "Supprimer l'arrière-plan"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Espacement bandes"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Largeur des bandes"
+
+#~ msgid "Right"
+#~ msgstr "Droite"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Vigueur de l'ondulation"
+
+#~ msgid "Roughness"
+#~ msgstr "Rugosité"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Proportion de l'arrondi"
+
+#~ msgid "Rows"
+#~ msgstr "Rangées"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Rangées/Colonnes"
+
+#~ msgid "Scale X"
+#~ msgstr "Échelle en X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Échelle en Y"
+
+#~ msgid "Sea Depth"
+#~ msgstr "Profondeur de la mer"
+
+#~ msgid "Seed"
+#~ msgstr "Germe"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Seuil sélection par couleur"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Calque séparé"
+
+#~ msgid "Sepia"
+#~ msgstr "Sépia"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Rayon de flou d'ombre"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Couleur de l'ombre"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Obscurité de l'ombre"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Profondeur de l'ombre"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Épaisseur de l'ombre (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Décalage de l'ombre en X"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Décalage de l'ombre en Y"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Dégré d'acuité"
+
+#~ msgid "Shear Length"
+#~ msgstr "Longueur de coupe"
+
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Adoucir horizontalement"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Adoucir verticalement"
+
+#~ msgid "Smooth"
+#~ msgstr "Adoucir"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Espace entre les calques"
+
+#~ msgid "Spacing"
+#~ msgstr "Espacement"
+
+#~ msgid "Spots density X"
+#~ msgstr "Densité de points en X"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Densité de points en Y"
+
+#~ msgid "Spread"
+#~ msgstr "Dispersion"
+
+#~ msgid "Squares"
+#~ msgstr "Carrés"
+
+#~ msgid "Stains"
+#~ msgstr "Tâches"
+
+#~ msgid "Start Angle"
+#~ msgstr "Angle de départ"
+
+#~ msgid "Start Blend"
+#~ msgstr "Départ mélange"
+
+#~ msgid "Start X"
+#~ msgstr "Début X"
+
+#~ msgid "Start Y"
+#~ msgstr "Début Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Début mélange"
+
+#~ msgid "Supersample"
+#~ msgstr "Super-échantillonage"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Couleur du texte (actif)"
+
+#~ msgid "Text Color"
+#~ msgstr "Couleur du texte"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Motif du texte"
+
+#~ msgid "Text"
+#~ msgstr "Texte"
+
+#~ msgid "Thickness"
+#~ msgstr "Épaisseur"
+
+#~ msgid "Thread Density"
+#~ msgstr "Densité fil"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Intensité fil"
+
+#~ msgid "Thread Length"
+#~ msgstr "Longueur fil"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Seuil (Plus grand 1<-->255 Plus petit)"
+
+#~ msgid "Tile"
+#~ msgstr "Carreau"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Arriere-plan transparent"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Tourne de gauche à droite"
+
+#~ msgid "Up"
+#~ msgstr "Haut"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Couleur du haut (actif)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Couleur du haut"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Couleur du haut à gauche"
+
+#~ msgid "Use Brush"
+#~ msgstr "Utiliser une brosse"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Utiliser le dégradé en cours"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Utiliser une sélection croissante"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Utiliser Motif de recouvrement"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Utiliser un Motif pour le contour au lieu du Dégradé"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Utiliser un Motif pour le texte au lieu du Dégradé"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "Utiliser les limites de la Sélection au lieu ci-dessous"
+
+#~ msgid "Wavelength"
+#~ msgstr "Longueur d'onde"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Rayon de rotation (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Quantité de tourbillons"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Angle de tourbillon"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Largeur des bandes"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Largeur des brèches"
+
+#~ msgid "Width"
+#~ msgstr "Largeur"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Travailler sur une copie"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/FAQ Développeur"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/Tutoriaux GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Exts/Navigateur Web/FAQ utilisateur"

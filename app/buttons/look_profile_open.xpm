@@ -1,0 +1,25 @@
+/* XPM */
+static char *look_profile_open_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"15 15 4 1",
+"  c #000200",
+". c none",
+"X c #898584",
+"o c gray100",
+/* pixels */
+"...............",
+"...............",
+"........   ....",
+"....... ... . .",
+".   ........  .",
+" ooo      .   .",
+" oooooooo .....",
+" oooooooo .....",
+" oooo          ",
+" ooo XXXXXXXX .",
+" oo XXXXXXXX ..",
+" o XXXXXXXX ...",
+"  XXXXXXXX ....",
+".         .....",
+"..............."
+};

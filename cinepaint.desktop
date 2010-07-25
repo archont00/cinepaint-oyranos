@@ -1,0 +1,22 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CinePaint
+Name[de]=CinePaint
+
+GenericName=CinePaint
+
+Comment=Edit high resolution and HDR pictures
+Comment[de]=Bearbeiten Sie farblich und geometrisch hochauflösende Bilder
+Comment[cs]=Upravujte obrázky s vysokou bitovou hloubokou a HDR
+Type=Application
+Categories=Application;Graphics;RasterGraphics;
+
+
+Exec=cinepaint-remote %U
+TryExec=cinepaint
+Icon=cinepaint.png
+StartupNotify=false
+Terminal=false
+
+MimeType=image/bmp;image/crw;image/jpeg;image/jpg;image/nef;image/pjpeg;image/png;image/sti;image/tiff;image/x-bmp;image/x-compressed-xcf;image/x-fits;image/x-gray;application/pdf;image/x-png;image/x-psd;image/x-sgi;image/x-tga;image/x-xbitmap;image/x-xcf;image/x-xpixmap;image/x-xwindowdump;image/x-cin;application/dicom;image/x-dpx;image/x-gbr;application/gbr;image/x-exr;image/x-pic;
+

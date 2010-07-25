@@ -1,0 +1,10 @@
+TODO list for CinePaint plug-in "bracketing_to_hdr"
+Last revision: 2006/10/07
+
+See the TODO and BUG lists in the doxygen output. Generation of doxygen output
+is described in the README file.
+
+In addition:
+- Instead of the Sammelsurium file "gui_rest.cpp" it would be better to have
+   one file per class declared in gui.fl like "gui_MainWinClass.cpp", 
+   "gui_TestSuiteWinClass.cpp" etc.

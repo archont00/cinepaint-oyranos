@@ -1,0 +1,767 @@
+# Slovenian translations of GIMP sfript-fu messages.
+# Copyright (C) 2000,2002 Free Software Foundation, Inc.
+# Miha Tom¹iè <miha.tomsic@guest.arnes.si>, 2000,2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP Script-Fu 1.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2002-08-28 15:14+0200\n"
+"Last-Translator: Miha Tom¹iè <miha.tomsic@guest.arnes.si>\n"
+"Language-Team: Language-Team: Slovenian <translation-team-sl@lists."
+"sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Skript-fu konzola"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Zapri"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "Izpis SIOD"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Skript-fu konzola"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Trenutni ukaz"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Brskam..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Ne morem odpreti SIODove izpisne cevi"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Ne morem odpreti toka na SIODovo izpisno cev"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Nacin dela izraèuna skript-fu dovoljuje sano neinteraktvne klice"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Brskalnik DB (init...)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "I¹èi:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "I¹èi po imenih"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by blurb"
+msgstr "I¹èi po kratkih opisih"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Uporabi"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Ime:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Kratek opis:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "Noter:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "Ven:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Avtor:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Datum:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Copyright:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "Brskalnik DB (po imenih - prosim poèakajte)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "Brskalnik DB (po kratkih opisih - prosim poèakajte)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "Brskalnik DB (prosim poèakajte)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "Brskalnik DB"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Barva ozadja"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Lighting (degrees)"
+msgstr "Ostrina (stopinj)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Radij (pikslov)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Senca"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Barva krogle"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Naèin dela skript-fu konzole dop¹èa samo interaktivno klicanje"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Skript-fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Skript-fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Argumenti skripta"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Izbira barve v skript-fuju"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Izbira datoteke v skript-fuju"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Izbira vzorva v skript-fuju"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Izbira gradienta v skript-fuju"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Izbira èopièa v skript-fuju"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Ponastavi na privzete vrednosti"
+
+#~ msgid "About"
+#~ msgstr "O skriptu"
+
+#~ msgid "OK"
+#~ msgstr "V redu"
+
+#~ msgid "Cancel"
+#~ msgstr "Preklièi"
+
+#~ msgid "NOT SET"
+#~ msgstr "NI NASTAVLJENO"
+
+#~ msgid "Image Types:"
+#~ msgstr "Tipi slik:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Izbira pisav v skript-fuju"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Napaka med izvajanjem skript-fuja\n"
+#~ " %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Mo¾nosti stre¾nika za skript-fu"
+
+#~ msgid "Server Port:"
+#~ msgstr "Stre¾nikova port:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Stre¾nikov dnevnik:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Konzola..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Stre¾nik..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Osve¾i"
+
+#~ msgid "Help:"
+#~ msgstr "Pomoè:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Gumbi/Zaobljen gumb..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Gumbi/Enostaven gumb s po¹evnim robom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/3D obroba..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Nezemeljski ¾ar..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Nezemeljski neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Osnovni I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Osnovni II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/S prelivom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Govej..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Izrezljan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/S kredo..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Oglodan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Kromiran..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Stripovski..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Hladen kovinski..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Kristalni..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Zamrznjen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Zlo¹èen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/®areè..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Z gladkim po¹evnim robom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Pretresen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Neonski..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Èasopisni..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Sledi delcev..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Vrhunski kromiran..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Hitro besedilo..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Zvezdni izbruh..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Zvezdna pokrajina..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Besedilo v krogu..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Besedilo z vzorcem..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Logotipi/Spletno vzglavje..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Izdelaj èopiè/Eliptièen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Izdelaj èopiè/Eliptièen zmehèan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Izdelaj èopiè/Pravokoten zmehèan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Izdelaj èopiè/Pravokoten..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Razno/Krogla..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/3D Truchetov..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Maskirni..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Flatland..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Ozemlje..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Ustvari zemljevid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Zvrtinèene plo¹èice..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Zvrtinèen (za polaganje)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Trochoid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Vzorci/Trchetov..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Pripomoèki/ASCII v sliko..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Pripomoèki/Lastni gradienti..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Veè/Skript-fu/Pripomoèki/Vzorec pisave..."
+
+#~ msgid "Bar Height"
+#~ msgstr "Vi¹ina letve"
+
+#~ msgid "Bar Length"
+#~ msgstr "Dol¾ina letve"
+
+#~ msgid "Base Color"
+#~ msgstr "Osnovna barva"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Radij osnove (pikslov)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Obna¹anje"
+
+#~ msgid "Color"
+#~ msgstr "Barva"
+
+#~ msgid "Columns"
+#~ msgstr "Stolpci"
+
+#~ msgid "Create New Image"
+#~ msgstr "Ustvari novo sliko"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Ustvari senco"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Uporabni¹ki gradient"
+
+#~ msgid "Dark Color"
+#~ msgstr "Temna barva"
+
+#~ msgid "Defocus"
+#~ msgstr "Razostri"
+
+#~ msgid "Density (%)"
+#~ msgstr "Gostota (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Globina"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#~ msgid "Detail Level"
+#~ msgstr "Stopnja podrobnosti"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Podrobnostv sredini"
+
+#~ msgid "Diameter"
+#~ msgstr "Premer"
+
+#~ msgid "Down"
+#~ msgstr "Dol"
+
+#~ msgid "Erase"
+#~ msgstr "Izbri¹i"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Izbri¹i/Zapolni"
+
+#~ msgid "Even"
+#~ msgstr "Sodo"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Sodo/Liho"
+
+#~ msgid "Filename"
+#~ msgstr "Ime datoteke"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Zapolni ozadje z vzorcem"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Zapolni z barvo ozadja"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Zapolni z ozadjem"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Velikost pisave (pikslov)"
+
+#~ msgid "Font"
+#~ msgstr "Pisava"
+
+#~ msgid "Fonts"
+#~ msgstr "Pisave"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Barva ospredja"
+
+#~ msgid "Frame Color"
+#~ msgstr "Barva okvirja"
+
+#~ msgid "Frame Size"
+#~ msgstr "Velikost okvirja"
+
+#~ msgid "Frames"
+#~ msgstr "Okvirjev"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Zgoraj-levo do spodaj-desno"
+
+#~ msgid "Glow Color"
+#~ msgstr "Barva ¾arenja"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Radij ¾arenja"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Velikost ¾arenja (pikslov x 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Gradient"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Zrnatost (1 je nizka)"
+
+#~ msgid "Granularity"
+#~ msgstr "Zrnatost"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Skala diagrama"
+
+#~ msgid "Grids X"
+#~ msgstr "Mre¾a X"
+
+#~ msgid "Grids Y"
+#~ msgstr "Mre¾a Y"
+
+#~ msgid "Height"
+#~ msgstr "Vi¹ina"
+
+#~ msgid "Hexagons"
+#~ msgstr "©estkotniki"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Ravnote¾je odseva"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Barva odseva"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Neprosojnost odseva"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Zamik odseva po X"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Zamik odseva po Y"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Dele¾ zadetkov"
+
+#~ msgid "Image Height"
+#~ msgstr "Vi¹ina slike"
+
+#~ msgid "Image Size"
+#~ msgstr "Velikost slike"
+
+#~ msgid "Image Width"
+#~ msgstr "©irina slike"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Vmesne slike"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpoliraj"
+
+#~ msgid "Invert direction"
+#~ msgstr "Obrni smer"
+
+#~ msgid "Invert"
+#~ msgstr "Obrni"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Ohrani izbiro"
+
+#~ msgid "Land Height"
+#~ msgstr "Vi¹ina terena"
+
+#~ msgid "Left"
+#~ msgstr "Levo"
+
+#~ msgid "Looped"
+#~ msgstr "Ponavljajoèe"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Barva spodaj (aktivno)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Barva spodaj "
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Barva desno-spodaj"
+
+#~ msgid "Make New Background"
+#~ msgstr "Napravi novo ozadje"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Neprosojnost maske"
+
+#~ msgid "Mask Size"
+#~ msgstr "Velikost maske"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Nepritisnjen (aktivno)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Nepritisnjen"
+
+#~ msgid "Number of Bands"
+#~ msgstr "©tevilo trakov"
+
+#~ msgid "Number"
+#~ msgstr "©tevilka"
+
+#~ msgid "Octagons"
+#~ msgstr "Osemkotniki"
+
+#~ msgid "Odd"
+#~ msgstr "Liho"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Zamik (pikslov)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Radij zamika"
+
+#~ msgid "Offset X"
+#~ msgstr "Zamik po X"
+
+#~ msgid "Offset Y"
+#~ msgstr "Zamik po Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Zamik (pikslov x 2)"
+
+#~ msgid "Opacity"
+#~ msgstr "Neprosojnost"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientacija"
+
+#~ msgid "Outer Border"
+#~ msgstr "Zunanji rob"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Vzorec (besedilo)"
+
+#~ msgid "Pattern"
+#~ msgstr "Vzorec"
+
+#~ msgid "Pressed"
+#~ msgstr "Pritisnjen"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Èetrtinska veliksot"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Radij"
+
+#~ msgid "Random Seed"
+#~ msgstr "Seme nakljuèja"
+
+#~ msgid "Randomness"
+#~ msgstr "Nakljuènost"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "©irina traku"
+
+#~ msgid "Right"
+#~ msgstr "Desno"
+
+#~ msgid "Roughness"
+#~ msgstr "Grobost"
+
+#~ msgid "Rows"
+#~ msgstr "Vrstice"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Vrstice/stolpci"
+
+#~ msgid "Scale X"
+#~ msgstr "Merilo X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Merilo Y"
+
+#~ msgid "Sea Depth"
+#~ msgstr "Globina morja"
+
+#~ msgid "Seed"
+#~ msgstr "Seme"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Barva sence"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Temnost sence"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Globina sence"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Te¾a sence (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Zamik sence po X"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Zamik sence po Y"
+
+#~ msgid "Size"
+#~ msgstr "Veliksot"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Razdalja med sloji"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Barva besedila (aktivno)"
+
+#~ msgid "Text Color"
+#~ msgstr "Barva besedila"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Vzorec v tekstu"
+
+#~ msgid "Text"
+#~ msgstr "Besedilo"
+
+#~ msgid "Up"
+#~ msgstr "Gor"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Barva spodaj (aktivno)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Barva zgoraj"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Barva levo-zgoraj"
+
+#~ msgid "Wavelength"
+#~ msgstr "Valovna dol¾ina"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Radij kolesa (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Kolièina vrtinèenja"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Kot vrtinèenja"
+
+#~ msgid "Width of Bands"
+#~ msgstr "©irina trakov"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "©irina presledkov"
+
+#~ msgid "Width"
+#~ msgstr "©irina"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Obdeluj kopijo"
+
+#~ msgid ""
+#~ "Script-Fu Error\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Napaka v skript-fuju\n"
+#~ "%s"

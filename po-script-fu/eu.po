@@ -1,0 +1,153 @@
+# translation of cinepaint-script-fu_eu.po to Basque
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: cinepaint-script-fu_eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2007-10-17 16:25+0200\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu kontsola"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Itxi"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD irteera"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+msgid "Script-Fu Console - "
+msgstr "Script-a kontsola - "
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+"Eskema elkarreragilearen garapena\n"
+"\n"
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Uneko komandoa"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Arakatu..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Ezin da SIOD irteerako kanalizazioa ireki"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Ezin da korrontea ireki SIOD irteerako kanalizazioan"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+"Script-Fu-ren ebaluatze-moduak dei ez-elkarreragileak soilik baimentzen ditu"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+msgid "DB Browser (init)"
+msgstr "DB arakatzailea (hasiera)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr "Bilatu:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr "Bilatu izenaren arabera"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr "Bilatu azalpenaren arabera"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Aplikatu"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+msgid "Name :"
+msgstr "Izena:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+msgid "Blurb :"
+msgstr "Azalpena:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr "Sarrera:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr "Irteera:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+msgid "Author :"
+msgstr "Egilea:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+msgid "Date :"
+msgstr "Data:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+msgid "Copyright :"
+msgstr "Copyright-a:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "DB arakatzailea (izenaren arabera - itxaron)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "DB arakatzailea (azalpenaren arabera - itxaron)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "DB arakatzailea (itxaron)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "DB arakatzailea"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Atzeko planoaren kolorea"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Argitasuna (gradutan)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Radius (in pixels)"
+msgstr "Erradioa (pixeletan)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Shadow?"
+msgstr "Itzala?"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Esferaren kolorea"

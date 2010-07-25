@@ -1,0 +1,43 @@
+CINEPAINT BUILD AND INSTALLATION
+Robin.Rowe@cinepaint.org
+2008.01.28
+
+Instructions for building on Debian. Other distros will be similar
+
+$ apt-get install libc6-dev libglib1.2-dev libgtk1.2-dev libjpeg62-dev libpng-dev libtiff3g-dev xlibs-dev zlib1g-dev libfltk1.1-dev
+
+
+$ ./configure
+$ make
+# make install
+$ cinepaint
+
+/opt
+
+CinePaint is installed in Linux in the traditional way sprinkled across various directories in /usr. Doing so can make CinePaint components difficult to find, and requires being root during installation. An alternative is to install as user in the directory /opt or /opt/version# if you want to install multiple versions of CinePaint side-by-side.
+
+./configure --prefix=/opt
+
+CinePaint wiki for Fedora.
+http://repos.opensuse.org/home:/bekun/Fedora_Extras_6/repodata/index.html
+
+Latest packages:
+
+    * 14-Nov-2007: oyranos-devel-0.1.7-93.3: Headers, configuration and static libs + documentation
+    * 14-Nov-2007: oyranos-debug-0.1.7-93.3: Debug information for package oyranos
+    * 14-Nov-2007: oyranos-0.1.7-93.3: Colour Management System
+    * 14-Nov-2007: fltk-threaded-devel-1.1.7-69.1: Include Files and Libraries mandatory for Development.
+    * 14-Nov-2007: fltk-threaded-debug-1.1.7-69.1: Debug information for package fltk-threaded
+    * 14-Nov-2007: fltk-threaded-1.1.7-69.1: Free C++ GUI Toolkit for the X Window System, OpenGL, and WIN32 (Windows 95,98,NT)
+    * 06-Apr-2007: cinepaint-devel-0.22-19.1: CinePaint is a tool for manipulating images.
+    * 06-Apr-2007: cinepaint-0.22-19.1: CinePaint is a tool for manipulating images.
+    * 04-Apr-2007: oyranos-lcmsLAB-0.4-20.1: Oyranos standard PCS profiles
+    * 04-Apr-2007: oyranos-eci-offset2004-1.1-20.1: ECI Offset-Profiles 2004
+    * 04-Apr-2007: oyranos-RGB-0.4-20.1: Oyranos standard sRGB ICC profile +
+    * 04-Apr-2007: oyranos-PhotoGamutRGB-0.4-20.1: Oyranos additional ICC Profile for Photoediting
+    * 04-Apr-2007: oyranos-LStarRGB-0.4-20.1: Oyranos standard Editing RGB profile
+    * 04-Apr-2007: oyranos-Cineon-0.4-20.1: Oyranos additional Cineon ICC Profiles
+    * 04-Apr-2007: oyranos-0.1.7-20.1: Colour Management System
+
+
+###

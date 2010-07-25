@@ -1,0 +1,250 @@
+Deutsch/Enlish
+
+
+CinePaint ICC gimp-print plug-in:
+
+    Dieses plug-in ermöglicht es, die meisten CinePaint Bilder auszudrucken.
+
+    Farbprofile können in einem eigenen Dialog gestzt werden. Es lässt sich 
+    auch einfach aus dem RGB Farbraum bei 8/16 bit Farbtiefe drucken.
+
+
+Start:
+
+    Das Drucken mit Farbprofilen benötigt eine vorherige Kalibration des Aus-
+    gabegerätes. Die Summe aller farbbeeinflussenden Einstellungen gehören mit
+    zu dem dabei zu erstellenden Farbprofil.
+    Die Einstellungen für eine farbverbindliche Umgebung umfassen:
+    - Drucker
+    - Papiersorte (Hersteller, Sorte, manchmal auch die Charge)
+    - Tinte (Hersteller, Sorte, öfters auch die Charge)
+    - Drucktreiber (gimp-print mit korrekter Version)
+    - Treibereinstellungen ( wie Druckqualität, Papiertyp, Tinte, Auflösung,
+                        Tintenyp, Korrektur der Punktgrösse
+                        und alle Einstellungen im "Output" Dialog ) 
+    Die Änderung eines Teils dieser Kette hebt die Farbverbindlichkeit auf.
+    Für andere Zwecke hängt die weitere Nutzbarkeit von den Ansprüchen ab.
+
+    Die Qualität der Farbumwandlung hängt stark von der Qualität der verwendeten
+    Farbprofile ab und der genauen Wiederholung der oben genannten
+    Einstellungen.  
+
+
+
+Benutzung:
+
+    um das Bild einer Kamera oder eines Scanners auf einen kalibrierten Drucker
+    zu drucken:
+
+     - falls in CinePaint noch kein Profil für das Bild ausgewählt wurde:
+              my_scanner.icc als "Work Space Profile" , sonst bleibt diese
+              Option verdeckt und
+              my_printer.icc als "Separation Profile"
+     - danach geht es weiter mit dem gimp-print Dialog und dem Warten auf das
+       Fertigstellen auf dem Drucker 
+
+    für die Separation eines Bildes zur Auslieferung an eine Druckerei:
+     - fragen Sie die Druckerei ob sie nach:
+         - ICC Standard druckt
+         - ein ICC Farbprofil mitgeben kann und
+         - das hier verwendete Dateiformat versteht (Tiff)
+     - Bild laden und den Druckdialog aufrufen
+     - Farbprofile aussuchen wie oben und für das Separationsprofil das
+       gelieferte Profil der Druckerei oder ein Standard Offsetprofil einstellen
+       (SWOP, EuroScala ...)
+     - "Save Tiff" drücken und anschliessend die Separation speichern
+       Offtmals empfielt es sich keine Komprimierung einzustellen, da sie nicht
+       immer in der Druckerei verstanden wird (testen).
+ 
+   Bitte auf die Version des tiff plug-ins achten. Sie sollte höher als
+   v1.4.8 seien um das Einbinden von Profilen zu unterstützen.
+
+    einen anderen Drucker simulieren (Proof):
+     - ein bild öffnen und den Druckdialog aufrufen
+     - als Separationsprofil nicht das des aktuellen Druckers verwenden sondern
+       eines des nachzustellenden Gerätes (meinst die Offsetmaschine der
+       Druckerei)
+     - "Save Tiff" drücken
+     Falls der Monitor bereits kalibriert ist und das Farbmanegement korrekt
+     funktioniert, kann das neu erscheinende Bild für den "Softproof" genutzt
+     werden.
+       und danach speichern
+     - das Bild wieder öffnen und mit dem Profil des Proofgerätes ausgeben
+
+     Hinweis: bei jedem Druckvorgang wird ein CMYK Bild errechnet, welches bei
+              kalibriertem Bildschirm immer als gute Annäherung genutzt werden
+              kann. Je nach dem vorhanden Umgebungslicht sind die Ergebniss gut
+              bis sehr gut vohersehbar.
+
+
+    Auch ohne ICC profile lässt es sich aus CinePaint heraus drucken. einfach
+    die Farbtiefe auf 16-bit reduzieren und "Direct printing" einstellen - alle
+    Profileinstellungen erscheinen danach vergraut. Die Separation findet damit
+    in der gimp-print Bibliothek statt. Die Arbeitsweise ist gut für nicht
+    kalibrierte Systeme anwendbar.
+
+
+--------------------------------------------------------------------------------
+
+Voraussetzungen:
+
+    lcms version 1.12 (besser 1.13)
+    http://www.littlecms.com
+
+    gimp-print-5.0.0alpha2 
+    http://gimp-print.sf.net
+
+
+Zusätze:
+
+    Profile gibt es zum Beispiel auf der Adobe Webseite:
+    http://www.adobe.com/support/downloads/main.html
+    und an vielen anderen Plätzen im Internet
+
+
+Fehler (bugs):
+
+    Bitte an die CinePaint Emailliste oder mich schicken.
+
+
+Pläne:
+
+    - Linearisierungsdialog
+    - Profile Verschelzung
+    - Druckvorschau vor der Separierung
+    - Integration in den gimp-print Dialog + Umstellen auf fltk
+    - Tonemapping
+
+--------------------------------------------------------------------------------
+
+
+lcms Farbumwandlungsbibliothek: 
+            entwickelt von Marti Maria
+
+gimp-print:
+            programmiert von Mike Sweet und Robert Krawitz, und vielen anderen,
+            welche in der AUTHORS Datei im gimp-print Quellbaum nachzulesen sind
+
+ICC Optionsdialog und Konvertierungsfunktionen:
+            von Kai-Uwe Behrmann
+
+
+
+================================================================================
+
+
+CinePaint ICC gimp-print plug-in:
+
+    This plug-in let You print of most of CinePaints data types.
+
+    You can select an profiles for color conversion or print in RGB mode.
+
+
+
+Setup:
+
+    Printing with profiles needs an calibration called procedure which in its
+    end deliveres You an profile, matching Your special setup. This setup
+    includes all color relevant variables and materials like:
+    - printer model
+    - sort of paper (producer, brand and charge)
+    - ink set (producer, brand and charge)
+    - driver (gimp-print version)
+    - driver settings ( like Print Quality, Media Type, Ink Set, Resolution,
+                        Ink Type, Adjust Dotsize option
+                        and all settings behind the "Output" tab ) 
+    Changing one of this parts of Your setup may make the printer calibration
+    unuseable - the setup is not longer calibrated.
+
+    Please consider, the color conversion relys mostly on the quality of
+    profiles and the correctness of the above mentioned settings.
+    Different printers need an different setup.
+
+
+
+Usage:
+
+    to print from Your camera or scanner to an calibratet printer:
+
+     - if image profile is not yet set in CinePaint select You see two profile
+       selection entries; Select
+              my_scanner.icc as "Work Space Profile" and
+              my_printer.icc as "Separation Profile"
+     - proceede with the gimp-print dialog and print
+
+    to separate an image for delivery to an print house:
+     - ask Your printhouse if the prints get out conform with the ICC standard
+     - ask there for an appropriate profile of theyre offset machine
+     - ask if the print house can handle tiff
+     - load an image and call the print plug-in
+     - select the appropriate "Work Space Profile" (if the dialog is available)
+       and the profile of the offset printer (SWOP, EuroScale ...)
+     - press "Save Tiff" and store the separation to disk
+     - avoid compression in the first place, ask for it; as well 16-bit can
+       sometimes cause trouble - simply reopen the tiff, reduce to 8-bit, save
+ 
+   Please note Your tiff plug-in should have at least version v1.4.8 to embedd
+   profiles in CinePaint.
+
+    to simulate an other printer (proof):
+     - load an image and call the print plug-in
+     - select the appropriate "Work Space Profile" (if available) and the
+       profile of the printer, which shall be simulated
+     - press "Save Tiff" and store the separation to disk
+     - reopen the separation and run the print plug-in
+     - select eventually the "Work Space Profile" and 
+       my_printer.icc as "Separation Profile"
+     - proceede with the gimp-print dialog and print
+     Hint: The arrising image You see on Your monitor after finishing the
+           separation dialog is, provided You use an calibrated monitor with an
+           correct profile, allready an soft proof. This preview should match 
+           the expected print on printmedia. The value is very dependend on the
+           lightning of Your sourrounding.
+
+
+    You can explicitely switch the ICC profile based conversion off, with the 
+    "Direct printing" checkbutton. This delegates the separation to gimp-print.
+    It is mostly recommended for users without an calibrated system.
+
+
+Requirements:
+
+    lcms version 1.12
+    http://www.littlecms.com
+
+    gimp-print-5.0.0alpha2
+    http://gimp-print.sf.net
+
+
+Additionals:
+
+    Profile are available for instance at the Adobe web site:
+    http://www.adobe.com/support/downloads/main.html
+    and many other places on the internet
+
+
+Bugs:
+
+    email them to the cinepaint email list or directly to me
+
+
+TODO:
+
+    - linearisation dialog
+    - profile merging
+    - previewing (soft proof) befor color conversion
+    - integration in the gimp-print dialog and swicth to fltk
+    - tonemapping
+
+-------------------------------------------------------------------------------
+
+
+lcms color conversion library: written by Marti Maria
+
+gimp-print: written by Mike Sweet and Robert Krawitz, please look
+            as well in the AUTHORS file in the gimp-print source tree
+
+ICC Options dialog and conversion functions: written by Kai-Uwe Behrmann
+
+
+

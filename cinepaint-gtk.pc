@@ -1,0 +1,16 @@
+prefix=/opt/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/cinepaint
+datarootdir=${prefix}/share
+programdotdir=.cinepaint
+programplugindir=${exec_prefix}/lib/cinepaint/0.25.0
+programdatadir=${datarootdir}/cinepaint/0.25.0
+datadir=${datarootdir}
+
+Name: cinepaint-gtk
+Description: Cinepaint Plug-In Library Using GTK+
+Version: 0.25
+Libs: -L${libdir} -lcinepaint -L/opt/local/lib -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -ldl -lglib-2.0  
+Cflags: -I${includedir} -I/opt/local/include/cairo -I/opt/local/include/glib-2.0 -I/opt/local/lib/glib-2.0/include -I/opt/local/include/pixman-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/atk-1.0 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng12  
+

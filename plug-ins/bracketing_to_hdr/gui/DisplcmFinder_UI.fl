@@ -1,0 +1,158 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0108 
+i18n_type 1 
+i18n_include ../br_core/i18n.hpp 
+i18n_function _ 
+header_name {.h} 
+code_name {.cxx}
+comment {my comment} {in_source in_header
+} 
+
+decl {\#include <FL/Fl_Int_Input.H>} {public
+} 
+
+decl {\#include <FL/Fl_Float_Input.H>} {public
+} 
+
+decl {\#include "buttons.hpp" // ImageNumberChoice} {public
+} 
+
+decl {\#include "../br_core/DisplcmFinderCorrel.hpp"} {public
+} 
+
+decl {\#include "../br_core/Run_DisplcmFinder.hpp"} {} 
+
+decl {br::Br2HdrManager & theBr2Hdr = br::Br2Hdr::Instance();} {} 
+
+class DisplcmFinder_UI {open
+} {
+  Function {DisplcmFinder_UI()} {open
+  } {
+    Fl_Window window_ {
+      label {Offset Computation (Br2HDR)} open
+      private xywh {457 90 455 335} type Double
+      code0 {getValuesFromParams (DisplcmFinderCorrel_::init_params());} visible
+    } {
+      Fl_Tabs {} {open
+        private xywh {0 0 455 290} selection_color 7
+        code0 {//o->clear_visible_focus();}
+      } {
+        Fl_Group {} {
+          label Parameters open selected
+          private xywh {0 25 445 260}
+        } {
+          Fl_Group grp_input_ {open
+            private xywh {10 40 405 195}
+          } {
+            Fl_Value_Input input_M_start_ {
+              label {Start size M of the Search areas (M x M)}
+              callback {putValuesToParams();}
+              private xywh {15 50 35 20} align 8
+              class Fl_Int_Input
+            }
+            Fl_Value_Input input_N_start_ {
+              label {Start size N of the Correlation areas (N x N)}
+              callback {putValuesToParams();}
+              private xywh {15 80 35 20} align 8
+              class Fl_Int_Input
+            }
+            Fl_Value_Input input_max_num_ {
+              label {Maximum number of Search areas in each dimension}
+              callback {putValuesToParams();}
+              private xywh {15 110 35 20} align 8
+              class Fl_Int_Input
+            }
+            Fl_Value_Input input_subtr_ {
+              label {Size to subtract from Search areas after each cycle}
+              callback {putValuesToParams();}
+              private xywh {15 140 35 20} align 8
+              class Fl_Int_Input
+            }
+            Fl_Value_Input input_add_ {
+              label {Size to add to Correlation areas after each cycle}
+              callback {putValuesToParams();}
+              private xywh {15 170 35 20} align 8
+              class Fl_Int_Input
+            }
+            Fl_Value_Input input_min_rho_ {
+              label {Minimum accepted correlation coefficient [-1...+1]}
+              callback {putValuesToParams();}
+              private xywh {15 200 35 25} align 8
+              class Fl_Float_Input
+            }
+          }
+          Fl_Button bttn_default_ {
+            label {Default values}
+            callback {default_values();}
+            private xywh {295 250 130 20}
+          }
+          Fl_Choice choice_verbose_ {
+            label {verbose (console)}
+            callback {putValuesToParams();} open
+            private xywh {25 250 45 20} down_box BORDER_BOX align 8
+          } {
+            MenuItem {} {
+              label 0
+              private xywh {0 0 30 20}
+            }
+            MenuItem {} {
+              label 1
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label 2
+              private xywh {20 20 30 20}
+            }
+          }
+        }
+        Fl_Group {} {
+          label {Single Run} open
+          private xywh {0 25 455 255} hide
+        } {
+          Fl_Choice choice_imgA_ {
+            label {Image A}
+            callback {o->last_set_value(o->value());} open
+            private xywh {165 180 50 20} down_box BORDER_BOX
+            class ImageNumberChoice
+          } {}
+          Fl_Choice choice_imgB_ {
+            label {Image B}
+            callback {o->last_set_value(o->value());} open
+            private xywh {240 180 50 20} down_box BORDER_BOX align 8
+            class ImageNumberChoice
+          } {}
+          Fl_Button {} {
+            label {Single Run}
+            callback {run_single();}
+            private xywh {160 215 135 25}
+          }
+        }
+      }
+      Fl_Button {} {
+        label {Run for all active images}
+        callback {Run_DisplcmFinder::run_for_all_actives();}
+        private xywh {45 300 180 25}
+      }
+      Fl_Button {} {
+        label {Single Run}
+        callback {run_single();}
+        private xywh {265 300 145 25}
+      }
+    }
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+  decl {void getValuesFromParams(const DisplcmFinderCorrel::Params &);} {public
+  }
+  decl {void putValuesToParams();} {public
+  }
+  decl {void default_values();} {public
+  }
+  decl {void run_single();} {public
+  }
+  decl {\#include "../br_core/Run_DisplcmFinder.hpp"} {}
+} 
+
+decl {\#include "DisplcmFinder_UI_rest.cpp"} {} 

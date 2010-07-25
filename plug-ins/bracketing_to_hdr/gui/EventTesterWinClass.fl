@@ -1,0 +1,33 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0107 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include "WidgetWrapper.hpp"} {public
+} 
+
+decl {\#include "EventTester.hpp"} {} 
+
+class EventTesterWinClass {open : {public WidgetWrapper}
+} {
+  Function {EventTesterWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {EventDebugger (Br2Hdr)}
+      callback {o->hide();
+WidgetWrapper::delete_wrapper(this);} open selected
+      private tooltip {Debugging and testing tool.} xywh {716 198 275 155} type Single visible
+    } {
+      Fl_Group {} {open
+        private xywh {5 5 265 145}
+        class EventTester
+      } {}
+    }
+  }
+  Function {~EventTesterWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+} 

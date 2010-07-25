@@ -1,0 +1,676 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP Script-Fu 1.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2002-08-28 15:15+0200\n"
+"Last-Translator: Sung-Hyun Nam <namsh@kldp.org>\n"
+"Language-Team: <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=euc-kr\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu 콘솔"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "닫기"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD 출력"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu 콘솔"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "현재 명령"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "찾아보기..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "SIOD 출력 파이프를 열수 없습니다."
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "SIOD 출력 파이프에서 스트림을 열수 없습니다."
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu 평가 모드는 오직 상호작용을 하지 않는 작용에서만 가능"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "찾아보기..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "날짜 :"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+msgid "Blurb :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "저자 :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "날짜 :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "저작권 :"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "DB Browser (please wait)"
+msgstr "찾아보기..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+#, fuzzy
+msgid "DB Browser"
+msgstr "찾아보기..."
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Background Color"
+msgstr "닫기"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Radius (in pixels)"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Shadow?"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Sphere Color"
+msgstr "닫기"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu 콘솔 모드는 오직 상호작용적 작용에서만 허용됩니다."
+
+#, fuzzy
+#~ msgid "/Script-Fu/"
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu 콘솔"
+
+#~ msgid "Script Arguments"
+#~ msgstr "스크립트 인수"
+
+#, fuzzy
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu 패턴 셀렉션"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu 색감변화도 셀렉션"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu 브러쉬 셀렉션"
+
+#, fuzzy
+#~ msgid "Reset to Defaults"
+#~ msgstr " 초기값으로 재설정"
+
+#~ msgid "About"
+#~ msgstr "대하여"
+
+#~ msgid "OK"
+#~ msgstr "확인"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid "NOT SET"
+#~ msgstr "결정않됨"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "적어도 당신이 선택한 한 글꼴이 잘못되었다\n"
+#~ "설정을 검사해보세요\n"
+
+#, fuzzy
+#~ msgid "Image Types:"
+#~ msgstr "이미지 유형: "
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu 폰트 셀렉션"
+
+#, fuzzy
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu 서버 옵션"
+
+#, fuzzy
+#~ msgid "Server Port:"
+#~ msgstr "서버 포트:"
+
+#, fuzzy
+#~ msgid "Server Logfile:"
+#~ msgstr "서버 로그파일:"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "Script-Fu 폰트 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "Script-Fu 파일 셀렉션"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "Script-Fu 콘솔"
+
+#, fuzzy
+#~ msgid "AutoCrop"
+#~ msgstr "저자 :"
+
+#, fuzzy
+#~ msgid "Base Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Burst Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Chalk Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Color 1"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Color 2"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Color 3"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Dark Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Diameter"
+#~ msgstr "날짜 :"
+
+#, fuzzy
+#~ msgid "Font Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Frame Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Frame Size"
+#~ msgstr "이미지 유형: "
+
+#, fuzzy
+#~ msgid "Glow Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Image Height"
+#~ msgstr "이미지 유형: "
+
+#, fuzzy
+#~ msgid "Image Size"
+#~ msgstr "이미지 유형: "
+
+#, fuzzy
+#~ msgid "Image Width"
+#~ msgstr "이미지 유형: "
+
+#, fuzzy
+#~ msgid "Keep Selection"
+#~ msgstr "Script-Fu 색감변화도 셀렉션"
+
+#, fuzzy
+#~ msgid "Lower Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Mask Size"
+#~ msgstr "이미지 유형: "
+
+#, fuzzy
+#~ msgid "Quarter Size"
+#~ msgstr "이미지 유형: "
+
+#, fuzzy
+#~ msgid "Text Color"
+#~ msgstr "닫기"
+
+#, fuzzy
+#~ msgid "Use Growing Selection"
+#~ msgstr "Script-Fu 색감변화도 셀렉션"
+
+#, fuzzy
+#~ msgid ""
+#~ "Script-Fu Error\n"
+#~ "%s"
+#~ msgstr "Script-Fu 콘솔"
+
+#~ msgid "Script Toggle"
+#~ msgstr "스크립트 토글"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Test/Sphere..."
+#~ msgstr "Script-Fu 콘솔"

@@ -1,0 +1,10261 @@
+# Norwegian (Nynorsk) KDE translation.
+# Copyright (C) 2000 Gaute Hvoslef Kvalnes.
+# Gaute Hvoslef Kvalnes <ai98ghk@stud.hib.no>, 2000.
+# Kjartan Maraas  <kmaraas@gnome.org>, 2001.
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-plugins 1.2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-30 12:51+0200\n"
+"PO-Revision-Date: 2000-09-07 20:17+02:00\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian (Nynorsk)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lib/export.c:181 lib/export.c:217
+#, fuzzy
+msgid "can't handle layers"
+msgstr "Tittellinje og ramme:"
+
+#: lib/export.c:182 lib/export.c:191 lib/export.c:200
+#, fuzzy
+msgid "Merge Visible Layers"
+msgstr "Kopla saman &synlege lag"
+
+#: lib/export.c:190
+msgid "can't handle layer offsets, size or opacity"
+msgstr ""
+
+#: lib/export.c:199 lib/export.c:208
+#, fuzzy
+msgid "can only handle layers as animation frames"
+msgstr "Lagrar alle endra filer ..."
+
+#: lib/export.c:200 lib/export.c:209
+#, fuzzy
+msgid "Save as Animation"
+msgstr "Nytt mønster"
+
+#: lib/export.c:209 lib/export.c:218 lib/export.c:227
+#, fuzzy
+msgid "Flatten Image"
+msgstr "Omdøyp bilete"
+
+#: lib/export.c:226
+#, fuzzy
+msgid "can't handle transparency"
+msgstr "Bruk &nettverkstransparens"
+
+#: lib/export.c:235
+msgid "can only handle RGB images"
+msgstr ""
+
+#: lib/export.c:236 lib/export.c:264 lib/export.c:273
+#, fuzzy
+msgid "Convert to RGB"
+msgstr "Konverter LF til CRLF"
+
+#: lib/export.c:244
+msgid "can only handle grayscale images"
+msgstr ""
+
+#: lib/export.c:245 lib/export.c:264 lib/export.c:285
+#, fuzzy
+msgid "Convert to Grayscale"
+msgstr "Konverter til kurvar"
+
+#: lib/export.c:253
+msgid "can only handle indexed images"
+msgstr ""
+
+#: lib/export.c:254 lib/export.c:273 lib/export.c:283
+msgid ""
+"Convert to Indexed using default settings\n"
+"(Do it manually to tune the result)"
+msgstr ""
+
+#: lib/export.c:263
+msgid "can only handle RGB or grayscale images"
+msgstr ""
+
+#: lib/export.c:272
+msgid "can only handle RGB or indexed images"
+msgstr ""
+
+#: lib/export.c:282
+msgid "can only handle grayscale or indexed images"
+msgstr ""
+
+#: lib/export.c:293
+#, fuzzy
+msgid "needs an alpha channel"
+msgstr "A&lfa-kanal:"
+
+#: lib/export.c:294
+#, fuzzy
+msgid "Add Alpha Channel"
+msgstr "A&lfa-kanal:"
+
+#.
+#. *  Plug-ins must have called gtk_init () before calling gimp_export ().
+#. *  Otherwise bad things will happen now!!
+#.
+#. the dialog
+#: lib/export.c:367
+msgid "Confirm Save"
+msgstr ""
+
+#: lib/export.c:371
+msgid "Confirm"
+msgstr ""
+
+#. Button #2
+#: lib/export.c:373 lib/export.c:434 plug-ins/bmp/bmpwrite.c:570
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:414
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:140
+#: plug-ins/cineon/cineon.c:884 plug-ins/edge/edge.c:966
+#: plug-ins/gauss_rle/gauss_rle.c:329 plug-ins/gfig/gfig.c:3952
+#: plug-ins/gfig/gfig.c:4099 plug-ins/gfig/gfig.c:4446
+#: plug-ins/gfig/gfig.c:4529 plug-ins/gfig/gfig.c:5040
+#: plug-ins/jpeg/jpeg.c:785 plug-ins/mblur/mblur.c:1351
+#: plug-ins/noisify/noisify.c:590 plug-ins/pdf/pdf_dialog.cxx:165
+#: plug-ins/png/png.c:1523 plug-ins/rawphoto/rawphoto.c:423
+#: plug-ins/screenshot/screenshot.c:378 plug-ins/sgi/sgi.c:818
+#: plug-ins/snoise/snoise.c:679 plug-ins/sobel/sobel.c:272
+#: plug-ins/spread/spread.c:442 plug-ins/tga/tga.c:1412 plug-ins/tiff/gui.c:86
+#: plug-ins/tiff/gui.c:279 plug-ins/unsharp/unsharp.c:1276
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: lib/export.c:387
+#, c-format
+msgid ""
+"You are about to save %s as %s.\n"
+"This will not save the visible layers."
+msgstr ""
+
+#.
+#. *  Plug-ins must have called gtk_init () before calling gimp_export ().
+#. *  Otherwise bad things will happen now!!
+#.
+#. the dialog
+#: lib/export.c:425
+#, fuzzy
+msgid "Export File"
+msgstr "Eksporter område"
+
+#: lib/export.c:430
+#, fuzzy
+msgid "Export"
+msgstr "Eksponentiell"
+
+#: lib/export.c:432
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: lib/export.c:449
+msgid ""
+"Your image should be exported before it can be saved for the following "
+"reasons:"
+msgstr ""
+
+#. the footline
+#: lib/export.c:512
+msgid "The export conversion won't modify your original image."
+msgstr ""
+
+#: lib/export.c:580
+#, fuzzy
+msgid "a layer mask"
+msgstr "Lagra speleliste"
+
+#: lib/export.c:582
+msgid "a channel (saved selection)"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:204
+msgid "osX locale obtained: "
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:207
+msgid "osX locale not obtained"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:328
+msgid "try to set LANG"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:347
+msgid "try locale in "
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:356
+msgid "set codeset for"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:392
+msgid "Add to Favorites"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:393
+#, fuzzy
+msgid "All Files (*)"
+msgstr "Alle filer"
+
+#: lib/fl_i18n/fl_i18n.cxx:394
+#, fuzzy
+msgid "Custom Filter"
+msgstr "Last palett"
+
+#: lib/fl_i18n/fl_i18n.cxx:395
+msgid "Please choose an existing file!"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:396
+#, fuzzy
+msgid "Favorites"
+msgstr "Flytt punkt"
+
+#: lib/fl_i18n/fl_i18n.cxx:397
+#, fuzzy
+msgid "Filename"
+msgstr "Filnamn:"
+
+#: lib/fl_i18n/fl_i18n.cxx:398
+msgid "Manage Favorites"
+msgstr ""
+
+#: lib/fl_i18n/fl_i18n.cxx:400
+#, fuzzy
+msgid "My Computer"
+msgstr "&Rediger"
+
+#: lib/fl_i18n/fl_i18n.cxx:402
+#, fuzzy
+msgid "Filesystems"
+msgstr "Fil-liste"
+
+#: lib/fl_i18n/fl_i18n.cxx:404
+msgid "New Directory?"
+msgstr ""
+
+#. gtk_widget_show (xframe);
+#. Start building the frame for the preview area
+#: lib/fl_i18n/fl_i18n.cxx:405 plug-ins/gfig/gfig.c:1904
+#: plug-ins/gfig/gfig.c:3975
+msgid "Preview"
+msgstr "Førehandsvising"
+
+#. Fl_Menu_Button* o
+#: lib/fl_i18n/fl_i18n.cxx:407 plug-ins/bracketing_to_hdr/gui/gui.cxx:1189
+#: plug-ins/gfig/gfig.c:3946 plug-ins/gfig/gfig.c:5275
+msgid "Save"
+msgstr "Lagra"
+
+#: lib/fl_i18n/fl_i18n.cxx:409
+#, fuzzy
+msgid "Show:"
+msgstr "Vis"
+
+#: plug-ins/bmp/bmpread.c:50 plug-ins/psd/psd.c:1757 plug-ins/xwd/xwd.c:439
+#, fuzzy, c-format
+msgid "Loading %s:"
+msgstr "Lastar meldingar"
+
+#: plug-ins/bmp/bmpread.c:62
+#, fuzzy, c-format
+msgid "%s: can't open \"%s\""
+msgstr "kan ikkje opna %1"
+
+#: plug-ins/bmp/bmpread.c:73 plug-ins/bmp/bmpread.c:81
+#: plug-ins/bmp/bmpread.c:86 plug-ins/bmp/bmpread.c:93
+#: plug-ins/bmp/bmpread.c:106
+#, fuzzy, c-format
+msgid "%s: %s is not a valid BMP file"
+msgstr ""
+"Dette er inga gyldig PO-fil:\n"
+"%1"
+
+#: plug-ins/bmp/bmpread.c:118 plug-ins/bmp/bmpread.c:136
+#: plug-ins/bmp/bmpread.c:156 plug-ins/bmp/bmpread.c:174
+#: plug-ins/bmp/bmpread.c:192 plug-ins/bmp/bmpread.c:197
+#: plug-ins/bmp/bmpread.c:202
+#, fuzzy, c-format
+msgid "%s: error reading BMP file header"
+msgstr "feil ved lesing frå fila %1"
+
+#: plug-ins/bmp/bmpread.c:277
+#, c-format
+msgid "%s: bad colormap"
+msgstr ""
+
+#.
+#. * Create the "background" layer to hold the image...
+#.
+#. (char*) "CMYK"
+#. Create the "background" layer to hold the image...
+#.
+#. * Create the "background" layer to hold the image...
+#.
+#: plug-ins/bmp/bmpread.c:319 plug-ins/bmp/bmpread.c:326
+#: plug-ins/bmp/bmpread.c:333 plug-ins/cineon/cineon.c:564
+#: plug-ins/gfig/gfig.c:2851 plug-ins/gfig/gfig.c:3204 plug-ins/hdr/hdr.c:303
+#: plug-ins/jpeg/jpeg.c:384 plug-ins/openexr/openexr.cxx:448
+#: plug-ins/png/png.c:598 plug-ins/print/print-lcms-funcs.c:748
+#: plug-ins/psd/psd.c:2147 plug-ins/rawphoto/rawphoto.c:326
+#: plug-ins/sgi/sgi.c:411 plug-ins/tga/tga.c:955
+msgid "Background"
+msgstr "Bakgrunn"
+
+#: plug-ins/bmp/bmpwrite.c:109
+msgid "BMP: cannot operate on unknown image types or alpha images"
+msgstr ""
+
+#: plug-ins/bmp/bmpwrite.c:172
+#, fuzzy, c-format
+msgid "Can't open %s"
+msgstr "kan ikkje opna %1"
+
+#: plug-ins/bmp/bmpwrite.c:184 plug-ins/xwd/xwd.c:543
+#, fuzzy, c-format
+msgid "Saving %s:"
+msgstr "Lagrar %1"
+
+#: plug-ins/bmp/bmpwrite.c:563
+#, fuzzy
+msgid "Save as BMP"
+msgstr "Lagra som"
+
+#. Action area
+#.
+#. * OK/cancel buttons...
+#.
+#. Button #1
+#. Action area
+#: plug-ins/bmp/bmpwrite.c:568 plug-ins/cineon/cineon.c:876
+#: plug-ins/edge/edge.c:957 plug-ins/gauss_rle/gauss_rle.c:320
+#: plug-ins/gfig/gfig.c:4099 plug-ins/gfig/gfig.c:4444
+#: plug-ins/gfig/gfig.c:4527 plug-ins/gfig/gfig.c:4832
+#: plug-ins/jpeg/jpeg.c:776 plug-ins/mblur/mblur.c:1342
+#: plug-ins/noisify/noisify.c:581 plug-ins/pdf/pdf_dialog.cxx:160
+#: plug-ins/png/png.c:1521 plug-ins/rawphoto/rawphoto.c:422
+#: plug-ins/screenshot/screenshot.c:376 plug-ins/sgi/sgi.c:809
+#: plug-ins/snoise/snoise.c:669 plug-ins/sobel/sobel.c:263
+#: plug-ins/spread/spread.c:433 plug-ins/tga/tga.c:1403 plug-ins/tiff/gui.c:84
+#: plug-ins/tiff/gui.c:277 plug-ins/unsharp/unsharp.c:1274
+msgid "OK"
+msgstr "OK"
+
+#. parameter settings
+#: plug-ins/bmp/bmpwrite.c:579
+msgid "Save Options"
+msgstr "Lagra val"
+
+#: plug-ins/bmp/bmpwrite.c:587
+#, fuzzy
+msgid "RLE encoded"
+msgstr "Koding"
+
+#. To get this menupath atom in the ~.po file
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:161
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:543
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1573
+msgid "Bracketing to HDR"
+msgstr ""
+
+#. To avoid unsubtantial multi-line entries in the .po-file due to '\n' format
+#. chars we define coherent strings without format specifiers separately.
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:302
+#, fuzzy
+msgid "More than one layer in image."
+msgstr "Søk i filer"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:303
+#, fuzzy
+msgid "No layer in image."
+msgstr "Overføringsfart:"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:304
+msgid "Image contains no data."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:305
+msgid "Not an RGB image."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:306
+msgid "Image has other dimension than the previous loaded images:"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:307
+msgid "Image has other data type than the previous loaded images:"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:308
+msgid "Image has different RGB/Gray layout."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:309
+msgid "16-bit input data"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:310
+msgid "Downsampling to 8-bit will happen"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:349
+#, c-format
+msgid "Sorry, input images of data type '%s' are not supported."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:414
+msgid "Downsample"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:414
+#, fuzzy
+msgid "No more warn"
+msgstr "Atom ned"
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:659
+#, c-format
+msgid "Precision #%d ('%s') not supported."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/bracketing_to_hdr.cpp:668
+#, fuzzy
+msgid "Could not create a new image"
+msgstr "Lag ny side"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:381
+#, fuzzy
+msgid "&File"
+msgstr "Fil"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:382
+#, fuzzy
+msgid "Open Image(s)..."
+msgstr "Kopierer filer ..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:383
+#, fuzzy
+msgid "Clear Image Container"
+msgstr "Midten"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:384
+msgid "Clear external response curves"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:385
+msgid "Quit"
+msgstr "Avslutt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:387
+#, fuzzy
+msgid "Make"
+msgstr "Klassefil"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:388
+#, fuzzy
+msgid "Init Calctor"
+msgstr "Tilbakestill fargar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:389
+#, fuzzy
+msgid "Compute Response "
+msgstr "&Fjern oppføring"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:390
+msgid "Compute HDR"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:391
+msgid "Compute log HDR"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:392
+msgid "Weight curve 'Response comp.'"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:393
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:401
+#, fuzzy
+msgid "Identity"
+msgstr "Intensitet:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:394
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:402
+msgid "Identity with 0-borders"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:395
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:403
+#, fuzzy
+msgid "Triangle"
+msgstr "Tabell"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:396
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:404
+#, fuzzy
+msgid "Sinus"
+msgstr "Minus"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:397
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:405
+msgid "Identity_0_Param"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:398
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:406
+msgid "Triangle_Param"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:400
+msgid "Weight curve 'HDR merging'"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:408
+msgid "Report  (console)"
+msgstr ""
+
+#. Fl_IntInput_Slider* input_ydim_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:409
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:612
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1487
+#, fuzzy
+msgid "Images"
+msgstr "Bilete"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:410
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:429
+#, fuzzy
+msgid "Numerics"
+msgstr "Nummerering"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:411
+msgid "Calctor's Numerics"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:412
+#, fuzzy
+msgid "Indices"
+msgstr "&Indeks"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:413
+#, fuzzy
+msgid "Pack"
+msgstr "Tilbake"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:414
+msgid "Status Response Curves"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:415
+#, fuzzy
+msgid "Weight Functions"
+msgstr "Funksjon"
+
+#. Fl_Group* tab_exif_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:416
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:648
+#, fuzzy
+msgid "Offsets"
+msgstr "Offset:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:417
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:168
+#, fuzzy
+msgid "Intersection area"
+msgstr "&Vekselverknad"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:420
+#, fuzzy
+msgid "&Tools"
+msgstr "Verktøy"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:421
+msgid "Follow-up Curves..."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:422
+#, fuzzy
+msgid "Response Curves..."
+msgstr "Sett inn fil ..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:423
+#, fuzzy
+msgid "Histogram..."
+msgstr "Tøm historie"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:424
+#, fuzzy
+msgid "Displacements"
+msgstr "Erstatning:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:425
+#, fuzzy
+msgid "Offset Computation..."
+msgstr "Gjennomsiktig "
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:426
+#, fuzzy
+msgid "TestSuite..."
+msgstr "Erstatt ..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:427
+msgid "EventDebugger..."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:430
+#, fuzzy
+msgid "Pack-Format"
+msgstr "Format"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:431
+#, fuzzy
+msgid "Single Images + interleave"
+msgstr "Del teksten i 2 element"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:432
+#, fuzzy
+msgid "Channel-wise"
+msgstr "Kanalar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:435 plug-ins/gfig/gfig.c:3986
+msgid "Settings"
+msgstr "Innstillingar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:436
+msgid "Show time setting bar"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:437
+#, fuzzy
+msgid "Show Offset bar"
+msgstr "Offset:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:438
+msgid "Auto-update follow-up curves"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:439
+msgid "Auto-load last external response curves at start"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:440
+msgid "Downsample 16-bit input images"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:441
+msgid "Method for solving the least square fit"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:442
+msgid "auto (try QR; if rank defect use SVD)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:443
+msgid "QR (abborts if rank defect)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:444
+msgid "SVD (a bit faster than 'auto' if QR fails)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:445
+msgid "testmode (QR + SVD + compare)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:447
+msgid "Method for Z-Matrix generation"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:448
+msgid "selection along refpic line (recommended!)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:449
+msgid "overlapp criterion (default until version 0.5.1)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:451
+msgid "Enforce progress refreshes"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:452
+msgid "Auto-save settings at plug-in end"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:453
+#, fuzzy
+msgid "Save current settings"
+msgstr "Snur om på merkinga"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:454
+#, fuzzy
+msgid "Default settings"
+msgstr "Innstillingar for KArchie"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:455
+#, fuzzy
+msgid "Reset window positions"
+msgstr "Generelle val"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:457 plug-ins/mblur/mblur.c:1359
+#: plug-ins/print/print-lcms-options.c:248
+msgid "Help"
+msgstr "Hjelp"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:458
+msgid "About..."
+msgstr "Om ..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:459
+msgid "HDR-Tutorial...."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:613
+msgid ""
+"Table of input images, ordered by average brightness per pixel. Column "
+"'Brightness' shows the relative brightness compared to the darkest image. "
+"Column 'Wk-Range' shows the percentage of pixels within the working range."
+msgstr ""
+
+#. Fl_Group* tab_images_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:633
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:675
+msgid "EXIF"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:649
+msgid ""
+"Offset of the images. Column 1 lists the computed value - computed against "
+"the image at position \"to pos\". Column 3 shows the global offset relative "
+"to the first active image."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:672
+#, fuzzy
+msgid "Times by:"
+msgstr "Brikke"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:676
+msgid ""
+"Determines exposure times from the EXIF data. For shutter speeds = 0 result "
+"times = 0!"
+msgstr ""
+
+#. Fl_Round_Button* radio_timesByEXIF_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:683
+#, fuzzy
+msgid "Stops"
+msgstr "Steg"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:684
+msgid "Generates times for all images using the current \"stops\" value."
+msgstr ""
+
+#. Fl_Round_Button* radio_timesByStop_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:690
+msgid "Stops active"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:691
+msgid ""
+"Generates times for the *activated* images using the current \"stops\" value."
+msgstr ""
+
+#. StopvalueChoicer* stopvalueChoicer_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:711
+#, fuzzy
+msgid "normed"
+msgstr "raud"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:712
+msgid "Scales times so, that the first time of a series becomes 1."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:724
+#, fuzzy
+msgid "use offsets"
+msgstr "Vinkel :"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:725
+msgid "If checked, computed offsets are used in HDR calculator initalisation."
+msgstr ""
+
+#. Fl_Check_Button* bttn_use_offsets_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:730
+#, fuzzy
+msgid "Compute Offsets"
+msgstr "Offset:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:731
+msgid "Computes offsets (displacements) for all activated images."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:751
+#, fuzzy
+msgid "Init"
+msgstr "Eining"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:752
+msgid "Init the HDR-Calculator with the activated input images"
+msgstr ""
+
+#. InitCalctorButton* o
+#. Fl_Value_Slider* slider_smoothing_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:764
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1154
+#, fuzzy
+msgid "Compute Response"
+msgstr "&Fjern oppføring"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:765
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1155
+msgid "Compute the response curves"
+msgstr ""
+
+#. ComputeResponseButton* bttn_init_calctor_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:777
+msgid "HDR"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:778
+msgid ""
+"Assemble the HDR image using the \"using next\" response curves. If they are "
+"incomplete, they are computed before, except \"use external curves\" is on."
+msgstr ""
+
+#. HDRButton* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:791
+msgid "M"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:792
+msgid "Mark cropped (zero-weighted, unresolved) HDR-values by contrast colors"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:970
+msgid "using next"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:971
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:165
+msgid "computed"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:972
+#, fuzzy
+msgid "external"
+msgstr "Generelt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:973
+#, fuzzy
+msgid "calctor's"
+msgstr "X-faktor:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1006
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1042
+#, fuzzy
+msgid "All channels"
+msgstr "Kanalar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1007
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1043
+#, fuzzy
+msgid "R channel"
+msgstr "Kanalar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1008
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1044
+#, fuzzy
+msgid "G channel"
+msgstr "Kanalar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1009
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1045
+#, fuzzy
+msgid "B channel"
+msgstr "Kanalar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1109
+msgid "Response Curves (Br2HDR)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1112
+msgid ""
+"Red, green, blue the (inverse) response curves for the R, G, B channel: "
+"exposure X over pixel value z. White the weight function for HDR-merging, "
+"dark gray the weight function for response computation (the white can hide "
+"the dark). --- Type \"1\", \"2\"... to see the single curves, \"0\" shows "
+"all."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1130
+#, fuzzy
+msgid "Spot Points"
+msgstr "Poeng:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1131
+msgid ""
+"Number of spots to select for response curve computation (vertical sections "
+"through the follow-up curves diagram)"
+msgstr ""
+
+#. Fl_Value_Slider* slider_grid_points_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1143 plug-ins/jpeg/jpeg.c:818
+#, fuzzy
+msgid "Smoothing"
+msgstr "Jamnar ut ..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1144
+msgid "Smoothing coefficient for response curve computation"
+msgstr ""
+
+#. ComputeResponseButton* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1167
+#, fuzzy
+msgid "Use external curves"
+msgstr "Noverande verdi"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1168
+msgid "Deactivate the response curve computing stuff"
+msgstr ""
+
+#. Fl_Group* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1175
+#, fuzzy
+msgid "Plotted:"
+msgstr "Roter"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1176
+#, fuzzy
+msgid "Select the curves to plot"
+msgstr "Slett bok"
+
+#. Fl_Choice* choice_plot_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1182 plug-ins/gfig/gfig.c:3567
+msgid "Load"
+msgstr "Last inn"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1183
+msgid ""
+"Load external response curves from file. For \"load all\" the filename "
+"endings \"_R\", \"_G_\", \"_B\" are handled automatically (removed & "
+"completed)."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1190
+msgid ""
+"Save the PLOTTED response curves to file. The filenames are completed "
+"automatically by the channel endings \"_R\", \"_G\", \"_B\"."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1197
+msgid "Select the response curves using next for HDR merging"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1199
+msgid "Curves using next:"
+msgstr ""
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1201
+#, fuzzy
+msgid "external:"
+msgstr "Generelt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1202
+msgid "Make all external response curves to \"using next\" curves"
+msgstr ""
+
+#. Fl_Button* button_extern_all_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1207
+msgid "computed:"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1208
+msgid "Make all computed response curves to \"using next\" curves"
+msgstr ""
+
+#. Fl_Light_Button* radio_computed_[0]
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1214
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1221
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1297
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1674
+msgid "R"
+msgstr ""
+
+#. Fl_Light_Button* radio_computed_[1]
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1231
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1237
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1298
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1675
+msgid "G"
+msgstr ""
+
+#. Fl_Light_Button* radio_computed_[2]
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1246
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1252
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1299
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1676
+msgid "B"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1304
+msgid "Follow-up Curves (Br2HDR)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1308
+msgid "Follow-up curves for the chosen reference image and channel"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1323
+msgid "Ref-Img"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1324
+msgid "Reference image for calculation of follow-up curves"
+msgstr ""
+
+#. RefpicChoicer* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1337
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1706
+#, fuzzy
+msgid "Channel"
+msgstr "Avbryt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1338
+msgid "Channel for which follow-up curves shall be displayed"
+msgstr ""
+
+#. Fl_Choice* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1343
+#, fuzzy
+msgid "Compute"
+msgstr "&Rediger"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1344
+msgid "Compute follow-up curves"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1386
+msgid "XY-Slope"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1387
+#, fuzzy
+msgid "Random Values"
+msgstr "Tilfeldig"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1392 plug-ins/mblur/mblur.c:1419
+msgid "Linear"
+msgstr "Lineær"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1393
+#, fuzzy
+msgid "Cosinus"
+msgstr "Lukkar"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1436
+#, fuzzy
+msgid "uint8"
+msgstr "Avslutt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1437
+#, fuzzy
+msgid "uint16"
+msgstr "Avslutt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1444
+#, fuzzy
+msgid "TestSuite (Br2HDR)"
+msgstr "Erstatt ..."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1448
+#, fuzzy
+msgid "Add Test Images"
+msgstr "Namn på rammesett"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1449
+msgid ""
+"Create a simulated series of bracketed exposures and add it to the image "
+"container. The therein used exposure times correspond a 'stop' value of 1."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1451
+msgid "x-dim"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1452
+#, fuzzy
+msgid "x-dimension of the images"
+msgstr "Første kontor"
+
+#. Fl_IntInput_Slider* input_xdim_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1469
+msgid "y-dim"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1470
+#, fuzzy
+msgid "y-dimension of the imagess"
+msgstr "Første kontor"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1488
+#, fuzzy
+msgid "Number of images of a series"
+msgstr "Tal på rammer å sjå framover:"
+
+#. Fl_Value_Slider* input_N_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1498
+msgid "Clear image container before"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1499
+msgid "Clear image container before adding"
+msgstr ""
+
+#. Fl_Check_Button* check_clear_old_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1503
+msgid "Radiance Scene"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1504
+msgid "Simulated Radiance Scene"
+msgstr ""
+
+#. Fl_Choice* choice_scene_
+#. Fl_Choice* choice_response_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1509
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1518
+#, fuzzy
+msgid "Details..."
+msgstr "Detaljar:"
+
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1512
+#, fuzzy
+msgid "Response Function"
+msgstr "Funksjon"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1513
+msgid "The (simulated) response function used for image generation"
+msgstr ""
+
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1521 plug-ins/gfig/gfig.c:3156
+msgid "Add"
+msgstr "Legg til"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1522
+msgid "Add the above specified test images"
+msgstr ""
+
+#. Fl_Button* bttn_add_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1525
+msgid "123... Images"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1526
+msgid "Add images with 1,2,3... values"
+msgstr ""
+
+#. Fl_Button* bttn_add_simple_
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1529
+#, fuzzy
+msgid "Bad Images"
+msgstr "Tid for å lasta ny"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1530
+msgid ""
+"Creates an image series, which produces an exception while response "
+"computation."
+msgstr ""
+
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1534
+#, fuzzy
+msgid "Data type"
+msgstr "Datatype"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1535
+#, fuzzy
+msgid "Data type of the images"
+msgstr "set klientgeometrien til hovudelementet."
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1568
+msgid "About \"Bracketing to HDR\""
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1573
+#, fuzzy
+msgid "Version"
+msgstr "versjon"
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1576
+msgid "Plugin for CinePaint"
+msgstr ""
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1579
+msgid "(c) 2005/06  Hartmut Sbosny"
+msgstr ""
+
+#. Fl_Output* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1587
+msgid ""
+"Merges bracketed exposures of a (still) scene into one High Dynamic Range "
+"image (radiance map)"
+msgstr ""
+
+#. Fl_Box* o
+#. Action area
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1591
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1640
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168 plug-ins/gfig/gfig.c:1971
+#: plug-ins/gfig/gfig.c:2031 plug-ins/iol/interface.c:340
+#: plug-ins/script-fu/script-fu-console.c:216
+msgid "Close"
+msgstr "Lukk"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1616
+msgid "HDR-Tutorial"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1618
+msgid "HDR-Tutorial..."
+msgstr ""
+
+#. Fl_Box* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1622
+msgid "An english tutorial you will find at:"
+msgstr ""
+
+#. Fl_Output* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1637
+msgid "Eine deutsche Anleitung finden Sie unter:"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1673
+msgid "all"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1689
+msgid "Histogram (Br2HDR)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1692
+#, fuzzy
+msgid "Histogram: percentage of pixels with value x"
+msgstr "Prosentdel filer installert:"
+
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1707
+msgid "Channel for which histogram shall be displayed"
+msgstr ""
+
+#. Fl_Choice* o
+#: plug-ins/bracketing_to_hdr/gui/gui.cxx:1713
+msgid "Image"
+msgstr "Bilete"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:120
+#, fuzzy, c-format
+msgid "Could not read response curve file \"%s\"."
+msgstr "Kunne ikkje lagra fil"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:139
+#, fuzzy, c-format
+msgid "A file \"%s\" already exists."
+msgstr "Fila finst alt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:140
+#, fuzzy
+msgid "Overwrite"
+msgstr "Overskriv alt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:140
+#, fuzzy
+msgid "Overwrite all"
+msgstr "Overskriv alt"
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:174
+msgid "Save response curves under basename..."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:239
+#, c-format
+msgid "Load response curve for channel %c"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:259
+msgid "Load all response curves. Choose basename"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/gui_rest.cpp:309
+msgid "Open Images for Bracketing to HDR"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:66
+#: plug-ins/pdf/pdf_dialog.cxx:92
+msgid "0"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:67
+#: plug-ins/pdf/pdf_dialog.cxx:93
+msgid "1"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:68
+#: plug-ins/pdf/pdf_dialog.cxx:94
+msgid "2"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:108
+msgid "Offset Computation (Br2HDR)"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:112
+msgid "Parameters"
+msgstr "Parametrar"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:114
+msgid "Start size M of the Search areas (M x M)"
+msgstr ""
+
+#. Fl_Int_Input* input_M_start_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:126
+msgid "Start size N of the Correlation areas (N x N)"
+msgstr ""
+
+#. Fl_Int_Input* input_N_start_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:138
+msgid "Maximum number of Search areas in each dimension"
+msgstr ""
+
+#. Fl_Int_Input* input_max_num_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:150
+msgid "Size to subtract from Search areas after each cycle"
+msgstr ""
+
+#. Fl_Int_Input* input_subtr_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:162
+msgid "Size to add to Correlation areas after each cycle"
+msgstr ""
+
+#. Fl_Int_Input* input_add_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:174
+msgid "Minimum accepted correlation coefficient [-1...+1]"
+msgstr ""
+
+#. Fl_Group* grp_input_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:188
+#, fuzzy
+msgid "Default values"
+msgstr "Datatype"
+
+#. Fl_Button* bttn_default_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:191
+msgid "verbose (console)"
+msgstr ""
+
+#. Fl_Group* o
+#. ImageNumberChoice* choice_imgB_
+#. Fl_Button* o
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:199
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:227
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:238
+#, fuzzy
+msgid "Single Run"
+msgstr "&Flislegg vindauga"
+
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:201
+#, fuzzy
+msgid "Image A"
+msgstr "Bilete"
+
+#. ImageNumberChoice* choice_imgA_
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:214
+#, fuzzy
+msgid "Image B"
+msgstr "Bilete"
+
+#. Fl_Tabs* o
+#: plug-ins/bracketing_to_hdr/gui/DisplcmFinder_UI.cxx:235
+msgid "Run for all active images"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/br_messages_gui.cpp:112
+#, fuzzy
+msgid "Image ignored."
+msgstr "Biletestorleik"
+
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:167
+msgid "Name"
+msgstr "Namn"
+
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:168
+#, fuzzy
+msgid "Pixel"
+msgstr "Pikslar"
+
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:169
+#: plug-ins/rawphoto/rawphoto.c:408
+#, fuzzy
+msgid "Brightness"
+msgstr "Lysare"
+
+#. "Wk-Range" for 'working range'
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:171
+msgid "Wk-Range"
+msgstr ""
+
+#. "Time" for 'exposure time'
+#: plug-ins/bracketing_to_hdr/gui/ImageTable.cpp:173
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:179
+#: plug-ins/snoise/snoise.c:584
+#, fuzzy
+msgid "Time"
+msgstr "Brikke"
+
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:166
+#, fuzzy
+msgid "to pos"
+msgstr "Steg"
+
+#: plug-ins/bracketing_to_hdr/gui/OffsetTable.cpp:167
+#, fuzzy
+msgid "active offset"
+msgstr "Lagra speleliste"
+
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:176
+msgid "Shutter speed [s]"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:177
+msgid "Aperture"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/ExifTable.cpp:178
+msgid "ISO"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/gui/StopvalueChoicer.cpp:41
+msgid ""
+"Here you can generate exposure times increasing by a constant factor F=2^"
+"(stop). F is stated traditionally by specifying the exponent \"stop\", which "
+"corresponds to differences of aperture values."
+msgstr ""
+
+#. hint, that the shown computed curves reflect no more current params
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:295
+#, fuzzy
+msgid "outdated"
+msgstr "Roter"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:411
+msgid "no curves"
+msgstr ""
+
+#. The following response curves are missed
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:423
+#, fuzzy
+msgid "missing:"
+msgstr "sig"
+
+#. ****************************************************************************
+#. static elements:
+#. *****************************************************************************
+#. Title of the response curve diagrams
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+#, fuzzy
+msgid "Using next"
+msgstr "sig"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+#, fuzzy
+msgid "Computed"
+msgstr "&Rediger"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+#, fuzzy
+msgid "External"
+msgstr "Generelt"
+
+#: plug-ins/bracketing_to_hdr/gui/ResponsePlot.cpp:456
+#, fuzzy
+msgid "Calctor's"
+msgstr "X-faktor:"
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:47
+msgid "Please provide first a complete set of \"using next\" response curves."
+msgstr ""
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:50
+#: plug-ins/bracketing_to_hdr/br_core/FollowUpValues_RGB_U8.cpp:106
+#: plug-ins/bracketing_to_hdr/br_core/FollowUpValues_RGB_U16_as_U8.cpp:105
+msgid "Computing follow-up values..."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:572
+msgid "Image to add has other dimension than the existing image(s):"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:573
+msgid "Image to add has other type than the existing image(s):"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:574
+msgid "Image to add has other data type than the existing image(s):"
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:579
+#, c-format
+msgid "Images of data type \"%s\" can not be added."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:586
+#, c-format
+msgid "Images of type \"%s\" can not be added."
+msgstr ""
+
+#: plug-ins/bracketing_to_hdr/br_core/Br2HdrManager.cpp:1258
+#, fuzzy
+msgid "Computing response functions..."
+msgstr "&Fjern oppføring"
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U8.cpp:122
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U16_as_U8.cpp:130
+#, fuzzy
+msgid "Computing response curves..."
+msgstr "Sett inn fil ..."
+
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U8.cpp:164
+#: plug-ins/bracketing_to_hdr/br_core/HdrCalctor_RGB_U16_as_U8.cpp:168
+#, c-format
+msgid ""
+"Exception while computing of response curves.\n"
+"\tProbably unsuitable image data.\n"
+"\tContext: %s"
+msgstr ""
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U8.cpp:222
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U16.cpp:120
+#, fuzzy
+msgid "Merging HDR image..."
+msgstr "Søker ..."
+
+#. Init progress info
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U8.cpp:524
+#: plug-ins/bracketing_to_hdr/br_core/mergeHdr_PackSch2D_RGB_U16.cpp:331
+msgid "Merging logarithmic HDR image..."
+msgstr ""
+
+#. progress info text
+#: plug-ins/bracketing_to_hdr/br_core/testtools.cpp:39
+#, fuzzy
+msgid "Computing simulated images..."
+msgstr "Lagar nytt diagram ..."
+
+#. ============================================
+#. Local helpers to centralize some messages
+#. ============================================
+#: plug-ins/bracketing_to_hdr/br_core/Run_DisplcmFinder.cpp:41
+#, fuzzy
+msgid "Compute Displacements..."
+msgstr "Erstatning:"
+
+#: plug-ins/bracketing_to_hdr/br_core/Run_DisplcmFinder.cpp:48
+#, c-format
+msgid "Sorry, could not compute offset: image #%d <=> image #%d. Error %d."
+msgstr ""
+
+#: plug-ins/cineon/cineon.c:501 plug-ins/cineon/cineon.c:503
+#: plug-ins/iff/iff.c:956 plug-ins/jpeg/jpeg.c:305 plug-ins/png/png.c:433
+#: plug-ins/png/png.c:435 plug-ins/sgi/sgi.c:364 plug-ins/sgi/sgi.c:366
+#: plug-ins/tga/tga.c:382
+#, fuzzy
+msgid "Loading"
+msgstr "Les"
+
+#: plug-ins/cineon/cineon.c:709 plug-ins/cineon/cineon.c:711
+#: plug-ins/hdr/hdr.c:461 plug-ins/iff/iff.c:1360 plug-ins/jpeg/jpeg.c:504
+#: plug-ins/png/png.c:846 plug-ins/png/png.c:848 plug-ins/sgi/sgi.c:626
+#: plug-ins/sgi/sgi.c:628 plug-ins/tga/tga.c:1138 plug-ins/tiff/tiff.c:2880
+#: plug-ins/tiff/tiff.c:2881
+#, fuzzy
+msgid "Saving"
+msgstr "Skalering"
+
+#: plug-ins/cineon/cineon.c:891
+#, fuzzy
+msgid "Conversion"
+msgstr "versjon"
+
+#: plug-ins/cineon/cineon.c:908 plug-ins/rawphoto/rawphoto.c:407
+#, fuzzy
+msgid "Gamma"
+msgstr "Gamma"
+
+#: plug-ins/cineon/cineon.c:921
+#, fuzzy
+msgid "Hi there"
+msgstr "Anna"
+
+#: plug-ins/cineon/cineon.c:927 plug-ins/edge/edge.c:1059
+#: plug-ins/gfig/gfig.c:3339
+#, fuzzy
+msgid "Black"
+msgstr "Tilbake"
+
+#: plug-ins/cineon/cineon.c:938 plug-ins/gfig/gfig.c:2853
+#: plug-ins/gfig/gfig.c:3340
+#, fuzzy
+msgid "White"
+msgstr "Plystring"
+
+#: plug-ins/cineon/cineon.c:952
+#, fuzzy
+msgid "  Reset  "
+msgstr "Nullstill"
+
+#. translation workaround
+#: plug-ins/collect/collect.cpp:126
+msgid "File"
+msgstr "Fil"
+
+#: plug-ins/collect/collect.cpp:126
+#, fuzzy
+msgid "New From"
+msgstr "Frå"
+
+#: plug-ins/collect/collect.cpp:126
+#, fuzzy
+msgid "Collect..."
+msgstr "S&amlingar"
+
+#: plug-ins/collect/collect.cpp:242
+msgid ""
+"The \"rawphoto\" plugin won't work because there is no \"dcraw\" executable "
+"in your path."
+msgstr "Das \"rawphoto\" plugin kann ohne \"dcraw\" nicht arbeiten."
+
+#: plug-ins/collect/collect.cpp:275
+#, fuzzy
+msgid "Select images"
+msgstr "Vel ei biletefil"
+
+#: plug-ins/collect/collect.cpp:295
+#, fuzzy
+msgid "Collect"
+msgstr "S&amlingar"
+
+#: plug-ins/dbbrowser/dbbrowser.c:87
+#, fuzzy
+msgid "Scripts"
+msgstr "&Java/JavaScript"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "Procedure Browser (init)"
+msgstr "Gå til ..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "Søk:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "Sorter etter &namn"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by summary"
+msgstr "Søkelin&je"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Bruk"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Navn:"
+
+#. show the short description (aka Blurb)
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+msgid "Summary :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "Ikon:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "Ut"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Forfattar:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Dato:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Opphavsrett"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+#, fuzzy
+msgid "Procedure Browser (by name - please wait)"
+msgstr "Gå til ..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+#, fuzzy
+msgid "Procedure Browser (by summary - please wait)"
+msgstr "Gå til ..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "Procedure Browser (please wait)"
+msgstr "Gå til ..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "Procedure Browser"
+msgstr ""
+
+#: plug-ins/edge/edge.c:174
+#, fuzzy
+msgid "Edge"
+msgstr "Auge"
+
+#: plug-ins/edge/edge.c:175 plug-ins/sobel/sobel.c:145
+#, fuzzy
+msgid "Edge-Detect"
+msgstr "Inaktiv-overvaking"
+
+#: plug-ins/edge/edge.c:237
+#, fuzzy
+msgid "Edge detection..."
+msgstr "Inaktiv-overvaking"
+
+#: plug-ins/edge/edge.c:950
+#, fuzzy
+msgid "Edge Detection"
+msgstr "Inaktiv-overvaking"
+
+#. parameter settings
+#: plug-ins/edge/edge.c:975
+#, fuzzy
+msgid "Edge Detection Options"
+msgstr "Inaktiv-overvaking"
+
+#.
+#. Label, scale, entry for	evals.amount
+#.
+#: plug-ins/edge/edge.c:988 plug-ins/unsharp/unsharp.c:1308
+#, fuzzy
+msgid "Amount:"
+msgstr "Mengd"
+
+#: plug-ins/edge/edge.c:1041
+#, fuzzy
+msgid "Wrap"
+msgstr "Graf"
+
+#: plug-ins/edge/edge.c:1050
+#, fuzzy
+msgid "Smear"
+msgstr "Smart"
+
+#: plug-ins/gauss_rle/gauss_rle.c:155
+#, fuzzy
+msgid "Blur"
+msgstr "Blå"
+
+#: plug-ins/gauss_rle/gauss_rle.c:156
+#, fuzzy
+msgid "Gaussian Blur"
+msgstr "Gaussisk"
+
+#: plug-ins/gauss_rle/gauss_rle.c:197 plug-ins/gauss_rle/gauss_rle.c:268
+msgid "gauss_rle: cannot operate on other than 8-/16-bit images."
+msgstr ""
+
+#: plug-ins/gauss_rle/gauss_rle.c:240 plug-ins/gauss_rle/gauss_rle.c:313
+#, fuzzy
+msgid "RLE Gaussian Blur"
+msgstr "Gaussisk"
+
+#. parameter settings
+#.
+#. * Compression type...
+#.
+#. parameter settings
+#: plug-ins/gauss_rle/gauss_rle.c:338 plug-ins/jpeg/jpeg.c:794
+#: plug-ins/noisify/noisify.c:599 plug-ins/png/png.c:1532
+#: plug-ins/sgi/sgi.c:829 plug-ins/sobel/sobel.c:281
+#: plug-ins/spread/spread.c:451 plug-ins/unsharp/unsharp.c:1285
+#, fuzzy
+msgid "Parameter Settings"
+msgstr "Skrivaroppsett"
+
+#: plug-ins/gauss_rle/gauss_rle.c:346
+#, fuzzy
+msgid "Blur Horizontally"
+msgstr "Horisontalt"
+
+#: plug-ins/gauss_rle/gauss_rle.c:354
+#, fuzzy
+msgid "Blur Vertically"
+msgstr "Vertikalt"
+
+#: plug-ins/gauss_rle/gauss_rle.c:365
+#, fuzzy
+msgid "Blur Radius: "
+msgstr "Radius:"
+
+#: plug-ins/gbr/gbr.c:503
+msgid "Need a flat Gray image."
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:682
+msgid "<Image>/Filters/Render/Gfig..."
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:837
+#, c-format
+msgid ""
+"No gfig-path in gimprc:\n"
+"You need to add an entry like\n"
+"(gfig-path \"%s\")\n"
+"to your %s file."
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:854
+msgid "gfig-path misconfigured - the following directories were not found"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:1077
+#, fuzzy
+msgid "First Gfig"
+msgstr "Førenamn"
+
+#: plug-ins/gfig/gfig.c:1477
+#, fuzzy, c-format
+msgid "Error opening: %s"
+msgstr "Feil ved opning av fil!"
+
+#: plug-ins/gfig/gfig.c:1479
+#, fuzzy
+msgid "Could not save."
+msgstr ""
+"Kunne ikkje lagra\n"
+"%1"
+
+#: plug-ins/gfig/gfig.c:1578
+#, fuzzy
+msgid "Save Gfig drawing"
+msgstr "Slett denne teksten"
+
+#. More Buttons
+#: plug-ins/gfig/gfig.c:1933 plug-ins/gfig/gfig.c:5315
+msgid "Edit"
+msgstr "Rediger"
+
+#: plug-ins/gfig/gfig.c:1938
+msgid "Edit Gfig object collection"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:1941
+#, fuzzy
+msgid "Merge"
+msgstr "Distanse"
+
+#: plug-ins/gfig/gfig.c:1946
+msgid "Merge Gfig Object collection into the current edit session"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:1985
+#, fuzzy
+msgid "Number of Sides/Points/Turns:"
+msgstr "Tal på punkt:"
+
+#: plug-ins/gfig/gfig.c:2001
+#, fuzzy
+msgid "Clockwise"
+msgstr "Klokke"
+
+#: plug-ins/gfig/gfig.c:2002
+#, fuzzy
+msgid "Anti-Clockwise"
+msgstr "Roter mot klokka"
+
+#: plug-ins/gfig/gfig.c:2006
+#, fuzzy
+msgid "Orientation:"
+msgstr ""
+"\n"
+"Orientering:"
+
+#: plug-ins/gfig/gfig.c:2026
+#, fuzzy
+msgid "Bezier Settings"
+msgstr "Tenarinnstillingar"
+
+#: plug-ins/gfig/gfig.c:2046
+#, fuzzy
+msgid "Closed"
+msgstr "Lukk"
+
+#: plug-ins/gfig/gfig.c:2051
+#, fuzzy
+msgid "Close curve on completion"
+msgstr "&Lukk samband"
+
+#: plug-ins/gfig/gfig.c:2056
+#, fuzzy
+msgid "Show Line Frame"
+msgstr "Vis &ramme"
+
+#: plug-ins/gfig/gfig.c:2061
+msgid "Draws lines between the control points. Only during curve creation"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2077
+msgid "Regular Polygon Number of Sides"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2089
+#, fuzzy
+msgid "Star Number of Points"
+msgstr "Tal på punkt:"
+
+#: plug-ins/gfig/gfig.c:2101
+#, fuzzy
+msgid "Spiral Number of Points"
+msgstr "Tal på punkt:"
+
+#: plug-ins/gfig/gfig.c:2125
+#, fuzzy
+msgid "Ops"
+msgstr "Val"
+
+#: plug-ins/gfig/gfig.c:2138
+#, fuzzy
+msgid "Create line"
+msgstr "Lag multilinje"
+
+#: plug-ins/gfig/gfig.c:2143
+#, fuzzy
+msgid "Create circle"
+msgstr "Lag sirkel"
+
+#: plug-ins/gfig/gfig.c:2148
+#, fuzzy
+msgid "Create ellipse"
+msgstr "Lag ellipse"
+
+#: plug-ins/gfig/gfig.c:2153
+#, fuzzy
+msgid "Create arc"
+msgstr "Lag sirkel"
+
+#: plug-ins/gfig/gfig.c:2162
+#, fuzzy
+msgid "Create reg polygon"
+msgstr "Lag mangekant"
+
+#: plug-ins/gfig/gfig.c:2170
+#, fuzzy
+msgid "Create star"
+msgstr "Lag sirkel"
+
+#: plug-ins/gfig/gfig.c:2179
+#, fuzzy
+msgid "Create spiral"
+msgstr "Lag sirkel"
+
+#: plug-ins/gfig/gfig.c:2189
+msgid "Create bezier curve. Shift + Button ends object creation."
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2195
+#, fuzzy
+msgid "Move an object"
+msgstr "Flytt objekt"
+
+#: plug-ins/gfig/gfig.c:2200
+#, fuzzy
+msgid "Move a single point"
+msgstr "Flytt denne teksten ned"
+
+#: plug-ins/gfig/gfig.c:2205
+#, fuzzy
+msgid "Copy an object"
+msgstr "Utklippsbilde"
+
+#: plug-ins/gfig/gfig.c:2210
+#, fuzzy
+msgid "Delete an object"
+msgstr "Slett objekt"
+
+#: plug-ins/gfig/gfig.c:2373 plug-ins/gfig/gfig.c:2808
+#: plug-ins/gfig/gfig.c:4016
+msgid "Brush"
+msgstr "Pensel"
+
+#: plug-ins/gfig/gfig.c:2374
+#, fuzzy
+msgid "Airbrush"
+msgstr "Spr&ayboksverktøy"
+
+#: plug-ins/gfig/gfig.c:2375
+#, fuzzy
+msgid "Pencil"
+msgstr "Penn"
+
+#: plug-ins/gfig/gfig.c:2376 plug-ins/gfig/gfig.c:3202
+msgid "Pattern"
+msgstr "Mønster"
+
+#: plug-ins/gfig/gfig.c:2383
+msgid ""
+"Use the brush/pencil or the airbrush when drawing on the image. Pattern "
+"paints with currently selected brush with a pattern. Only applies to circles/"
+"ellipses if Approx. Circles/Ellipses toggle is set."
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2789
+#, fuzzy
+msgid "Original"
+msgstr "Opprinneleg storleik"
+
+#: plug-ins/gfig/gfig.c:2790 plug-ins/gfig/gfig.c:3577
+msgid "New"
+msgstr "Ny"
+
+#: plug-ins/gfig/gfig.c:2791
+#, fuzzy
+msgid "Multiple"
+msgstr "&Fleire:"
+
+#: plug-ins/gfig/gfig.c:2796
+msgid "Draw all objects on one layer (original or new) or one object per layer"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2801
+#, fuzzy
+msgid "Draw on:"
+msgstr "Lengd:"
+
+#: plug-ins/gfig/gfig.c:2810
+msgid "Selection"
+msgstr "Val"
+
+#: plug-ins/gfig/gfig.c:2812
+#, fuzzy
+msgid "Selection+Fill"
+msgstr "Val"
+
+#: plug-ins/gfig/gfig.c:2839
+msgid ""
+"Draw type. Either a brush or a selection. See brush page or selection page "
+"for more options"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2843
+#, fuzzy
+msgid "Using:"
+msgstr "sig"
+
+#: plug-ins/gfig/gfig.c:2850
+#, fuzzy
+msgid "Transparent"
+msgstr "Gjennomsiktig "
+
+#: plug-ins/gfig/gfig.c:2852 plug-ins/gfig/gfig.c:3203
+msgid "Foreground"
+msgstr "Framgrunn"
+
+#: plug-ins/gfig/gfig.c:2854 plug-ins/gfig/gfig.c:5302
+msgid "Copy"
+msgstr "Kopier"
+
+#: plug-ins/gfig/gfig.c:2858
+msgid ""
+"Layer background type. Copy causes previous layer to be copied before the "
+"draw is performed"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2863
+#, fuzzy
+msgid "With Background of:"
+msgstr "Bakgrunn:"
+
+#: plug-ins/gfig/gfig.c:2866
+#, fuzzy
+msgid "Reverse Line"
+msgstr "Omvendt"
+
+#: plug-ins/gfig/gfig.c:2873
+#, fuzzy
+msgid "Draw lines in reverse order"
+msgstr "Skriv dokumentet i omvend rekkjefølgje"
+
+#: plug-ins/gfig/gfig.c:2881
+#, fuzzy
+msgid "Scale to Image"
+msgstr "Lagra bilete som"
+
+#: plug-ins/gfig/gfig.c:2889
+msgid "Scale drawings to images size"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2911
+#, fuzzy
+msgid "Approx. Circles/Ellipses"
+msgstr "&Sirkel/ellipse"
+
+#: plug-ins/gfig/gfig.c:2918
+msgid ""
+"Approx. circles & ellipses using lines. Allows the use of brush fading with "
+"these types of objects."
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2953
+msgid "Gfig brush selection"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:2994
+#, fuzzy
+msgid "Fade out:"
+msgstr "Name=Fade Plot"
+
+#: plug-ins/gfig/gfig.c:3017
+#, fuzzy
+msgid "Gradient:"
+msgstr "Gradvis overgang"
+
+#: plug-ins/gfig/gfig.c:3037
+#, fuzzy
+msgid "Pressure:"
+msgstr "Professor"
+
+#: plug-ins/gfig/gfig.c:3055
+#, fuzzy
+msgid "No Options..."
+msgstr "Val ..."
+
+#. Start of new brush selection code
+#: plug-ins/gfig/gfig.c:3070
+#, fuzzy
+msgid "Set Brush..."
+msgstr "Lagra som: %s"
+
+#: plug-ins/gfig/gfig.c:3157
+msgid "Subtract"
+msgstr "Trekk frå"
+
+#: plug-ins/gfig/gfig.c:3158
+msgid "Replace"
+msgstr "Erstatt"
+
+#: plug-ins/gfig/gfig.c:3159
+#, fuzzy
+msgid "Intersect"
+msgstr "Omvendt"
+
+#: plug-ins/gfig/gfig.c:3163
+#, fuzzy
+msgid "Selection Type:"
+msgstr "Utval:"
+
+#. 2
+#: plug-ins/gfig/gfig.c:3167
+msgid "Antialiasing"
+msgstr "Anti-aliasing"
+
+#. 3
+#: plug-ins/gfig/gfig.c:3176
+#, fuzzy
+msgid "Feather"
+msgstr "Større enn"
+
+#: plug-ins/gfig/gfig.c:3194 plug-ins/unsharp/unsharp.c:1299
+msgid "Radius:"
+msgstr "Radius:"
+
+#: plug-ins/gfig/gfig.c:3208
+#, fuzzy
+msgid "Fill Type:"
+msgstr "Filtype"
+
+#: plug-ins/gfig/gfig.c:3221
+#, fuzzy
+msgid "Fill Opacity:"
+msgstr "Transparens"
+
+#: plug-ins/gfig/gfig.c:3229
+#, fuzzy
+msgid "Each Selection"
+msgstr "Val av spor"
+
+#: plug-ins/gfig/gfig.c:3230
+#, fuzzy
+msgid "All Selections"
+msgstr "Områdeval"
+
+#: plug-ins/gfig/gfig.c:3234
+#, fuzzy
+msgid "Fill after:"
+msgstr "Fyll-mønster:"
+
+#: plug-ins/gfig/gfig.c:3241
+#, fuzzy
+msgid "Segment"
+msgstr "Sendt"
+
+#: plug-ins/gfig/gfig.c:3242
+#, fuzzy
+msgid "Sector"
+msgstr "Poengsum"
+
+#: plug-ins/gfig/gfig.c:3246
+#, fuzzy
+msgid "Arc as:"
+msgstr "Arkiver:"
+
+#. Put buttons in
+#: plug-ins/gfig/gfig.c:3300
+#, fuzzy
+msgid "Show Image"
+msgstr "Vis dato"
+
+#: plug-ins/gfig/gfig.c:3311
+#, fuzzy
+msgid "Reload Image"
+msgstr "Tid for å lasta ny"
+
+#: plug-ins/gfig/gfig.c:3323
+msgid "Rectangle"
+msgstr "Rektangel"
+
+#: plug-ins/gfig/gfig.c:3324
+msgid "Polar"
+msgstr "Polar"
+
+#: plug-ins/gfig/gfig.c:3325
+#, fuzzy
+msgid "Isometric"
+msgstr "Geometrisk"
+
+#: plug-ins/gfig/gfig.c:3329
+#, fuzzy
+msgid "Grid Type:"
+msgstr "Storleik på rutenett:"
+
+#: plug-ins/gfig/gfig.c:3338
+msgid "Normal"
+msgstr "Normal"
+
+#: plug-ins/gfig/gfig.c:3341
+#, fuzzy
+msgid "Grey"
+msgstr "Grep"
+
+#: plug-ins/gfig/gfig.c:3342
+#, fuzzy
+msgid "Darker"
+msgstr "ark"
+
+#: plug-ins/gfig/gfig.c:3343
+#, fuzzy
+msgid "Lighter"
+msgstr "Niger"
+
+#: plug-ins/gfig/gfig.c:3344
+msgid "Very Dark"
+msgstr "Svært mørkt"
+
+#: plug-ins/gfig/gfig.c:3348
+#, fuzzy
+msgid "Grid Color:"
+msgstr "&Rutenettfarge"
+
+#: plug-ins/gfig/gfig.c:3352
+#, fuzzy
+msgid "Max Undo:"
+msgstr "Angra"
+
+#: plug-ins/gfig/gfig.c:3360
+#, fuzzy
+msgid "Show Position"
+msgstr "Posisjon"
+
+#: plug-ins/gfig/gfig.c:3371
+#, fuzzy
+msgid "Hide Control Points"
+msgstr "Tidskontroll"
+
+#: plug-ins/gfig/gfig.c:3383
+msgid "Show Tooltips"
+msgstr "Vis verktøytips"
+
+#: plug-ins/gfig/gfig.c:3393 plug-ins/gfig/gfig.c:4827
+msgid "About"
+msgstr "Om"
+
+#: plug-ins/gfig/gfig.c:3415
+msgid "Grid"
+msgstr "Rutenett"
+
+#: plug-ins/gfig/gfig.c:3426
+#, fuzzy
+msgid "Snap to Grid"
+msgstr "Juster til rutenett"
+
+#: plug-ins/gfig/gfig.c:3434
+#, fuzzy
+msgid "Display Grid"
+msgstr "Vis"
+
+#: plug-ins/gfig/gfig.c:3445
+#, fuzzy
+msgid "Lock on Grid"
+msgstr "Rutenett"
+
+#: plug-ins/gfig/gfig.c:3460
+#, fuzzy
+msgid "Grid Spacing:"
+msgstr "Mellomrom:"
+
+#: plug-ins/gfig/gfig.c:3525
+msgid "Object"
+msgstr "Objekt"
+
+#. Put buttons in
+#: plug-ins/gfig/gfig.c:3556
+#, fuzzy
+msgid "Rescan"
+msgstr "Rektangel"
+
+#: plug-ins/gfig/gfig.c:3561
+msgid "Select directory and rescan Gfig object collection"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:3572
+msgid "Load a single Gfig object collection"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:3581
+#, fuzzy
+msgid "Create a new Gfig object collection for editing"
+msgstr ""
+"Lagar eit nytt oppringt samband\n"
+"til internett"
+
+#: plug-ins/gfig/gfig.c:3587 plug-ins/gfig/gfig.c:5040
+msgid "Delete"
+msgstr "Slett"
+
+#: plug-ins/gfig/gfig.c:3591
+#, fuzzy
+msgid "Delete currently selected Gfig Object collection"
+msgstr "Slett valt post?"
+
+#. Position labels
+#: plug-ins/gfig/gfig.c:3705
+#, fuzzy
+msgid "XY Position:"
+msgstr "X-posisjon:"
+
+#: plug-ins/gfig/gfig.c:3726
+#, fuzzy
+msgid "Object Details"
+msgstr "Detaljar"
+
+#: plug-ins/gfig/gfig.c:3755
+#, fuzzy
+msgid "Collection Details"
+msgstr "S&amlingar"
+
+#: plug-ins/gfig/gfig.c:3762
+#, fuzzy
+msgid "Draw Name:"
+msgstr "Nytt namn:"
+
+#: plug-ins/gfig/gfig.c:3768
+msgid "Filename:"
+msgstr "Filnamn:"
+
+#: plug-ins/gfig/gfig.c:3774 plug-ins/gfig/gfig.c:3780
+msgid "(none)"
+msgstr "(ingen)"
+
+#. Start buildng the dialog up
+#: plug-ins/gfig/gfig.c:3937
+#, fuzzy
+msgid "GFig"
+msgstr "Finger"
+
+#: plug-ins/gfig/gfig.c:3942
+msgid "Done"
+msgstr "Ferdig"
+
+#: plug-ins/gfig/gfig.c:3944 plug-ins/gfig/gfig.c:4011
+#, fuzzy
+msgid "Paint"
+msgstr "KPaint"
+
+#: plug-ins/gfig/gfig.c:3948
+msgid "Clear"
+msgstr "Nullstill"
+
+#: plug-ins/gfig/gfig.c:3950
+msgid "Undo"
+msgstr "Angra"
+
+#: plug-ins/gfig/gfig.c:4024
+msgid "Select"
+msgstr "Vel"
+
+#: plug-ins/gfig/gfig.c:4029 plug-ins/mblur/mblur.c:1376
+#: plug-ins/pdf/pdf_dialog.cxx:134
+msgid "Options"
+msgstr "Val"
+
+#: plug-ins/gfig/gfig.c:4092
+#, c-format
+msgid ""
+"%d unsaved Gfig objects.\n"
+"Continue with exiting?"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:4094
+msgid "Warning"
+msgstr "Åtvaring"
+
+#: plug-ins/gfig/gfig.c:4439
+#, fuzzy
+msgid "Enter Gfig Entry Name"
+msgstr "Oppgi eit namn"
+
+#: plug-ins/gfig/gfig.c:4463
+#, fuzzy
+msgid "Gfig Object Name:"
+msgstr "Prosjektnamn"
+
+#. the dialog
+#: plug-ins/gfig/gfig.c:4522
+msgid "Rescan for Gfig Objects"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:4540
+msgid "Add Gfig Path"
+msgstr ""
+
+#. Load a single object
+#: plug-ins/gfig/gfig.c:4618
+#, fuzzy
+msgid "Load Gfig object"
+msgstr "&Hent oppsett"
+
+#: plug-ins/gfig/gfig.c:4643
+msgid "Error in copy layer for onlayers"
+msgstr ""
+
+#. RGBA or GRAYA type
+#. opacity
+#. mode
+#: plug-ins/gfig/gfig.c:4675
+#, fuzzy
+msgid "Error in creating layer"
+msgstr "Feil ved laging av sokkel"
+
+#: plug-ins/gfig/gfig.c:4754
+#, fuzzy, c-format
+msgid "Gfig Layer %d"
+msgstr "Lag #"
+
+#: plug-ins/gfig/gfig.c:4851
+msgid "Gfig - GIMP plug-in"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:4856
+#, fuzzy
+msgid "Release 1.3"
+msgstr "Utgåve"
+
+#: plug-ins/gfig/gfig.c:4866
+msgid "Email alt@picnic.demon.co.uk"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:4876
+msgid "Isometric grid By Rob Saunders"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:4909
+#, fuzzy
+msgid "New gfig object"
+msgstr "Ny poengtavle"
+
+#: plug-ins/gfig/gfig.c:5031
+#, fuzzy, c-format
+msgid ""
+"Are you sure you want to delete\n"
+"\"%s\" from the list and from disk?"
+msgstr "Er du sikker på at du vil sletta denne overføringa?"
+
+#: plug-ins/gfig/gfig.c:5035
+#, fuzzy
+msgid "Delete Gfig Drawing"
+msgstr "Slett denne teksten"
+
+#: plug-ins/gfig/gfig.c:5063 plug-ins/gfig/gfig.c:5103
+#, c-format
+msgid "<NONE>"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:5141
+msgid "Editing read-only object - you will not be able to save it"
+msgstr ""
+
+#. Create new entry with name + copy at end & copy object into it
+#: plug-ins/gfig/gfig.c:5244
+#, c-format
+msgid "%s copy"
+msgstr ""
+
+#: plug-ins/gfig/gfig.c:5289
+msgid "Save as..."
+msgstr "Lagra som ..."
+
+#: plug-ins/gfig/gfig.c:6172
+#, fuzzy
+msgid "Error reading file"
+msgstr ""
+"Feil ved lesing a fil:\n"
+"%1"
+
+#: plug-ins/gfig/gfig.c:6529
+msgid "Hey where has the object gone ?"
+msgstr ""
+
+#. load image
+#: plug-ins/hdr/hdr.c:319
+#, fuzzy
+msgid "Loading "
+msgstr "Les"
+
+#: plug-ins/hdr/hdr.c:452
+msgid "HDR supports only 32-bit IEEE Float RGB image type."
+msgstr ""
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:195
+#, fuzzy
+msgid "Image Profile..."
+msgstr "Førehandsvis b&ilete"
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:196
+#, fuzzy
+msgid "Proof Profile..."
+msgstr "Vel eit tema"
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:197
+#, fuzzy
+msgid "Watch Colours 3D..."
+msgstr "Fargar"
+
+#: plug-ins/icc_examin/icc_examin/icc_cinepaint.cpp:198
+#, fuzzy
+msgid "Watch Colours 3D.2..."
+msgstr "Fargar"
+
+#: plug-ins/iff/iff.c:1053
+msgid "Z-Buffer"
+msgstr ""
+
+#: plug-ins/iff/iff.c:1336
+#, fuzzy
+msgid "Greyscale images are not supported\n"
+msgstr "Metoden %1 er ikkje støtta."
+
+#: plug-ins/iol/interface.c:40
+#, fuzzy
+msgid "IOL - Image Operation Language"
+msgstr "Kompilatoråtvaringar"
+
+#: plug-ins/iol/interface.c:73
+#, fuzzy
+msgid "Load..."
+msgstr "Last inn"
+
+#: plug-ins/iol/interface.c:81
+msgid "Save..."
+msgstr "Lagra ..."
+
+#: plug-ins/iol/interface.c:89
+msgid "Go!"
+msgstr ""
+
+#: plug-ins/iol/interface.c:97
+#, fuzzy
+msgid "Help..."
+msgstr "&Hjelp ..."
+
+#: plug-ins/iol/interface.c:112
+#, fuzzy
+msgid "Stay Open"
+msgstr "Opna"
+
+#: plug-ins/iol/interface.c:152
+#, fuzzy
+msgid "Load File..."
+msgstr "&Last nivå ..."
+
+#: plug-ins/iol/interface.c:183
+#, fuzzy
+msgid "Save File..."
+msgstr "Lagra ..."
+
+#: plug-ins/iol/interface.c:229
+#, fuzzy
+msgid "IOL Help"
+msgstr "Hjelp"
+
+#: plug-ins/iol/interface.c:245
+msgid "Some Information About Variables"
+msgstr ""
+
+#: plug-ins/iol/interface.c:268
+msgid ""
+"There can be up to 50 variables.\n"
+"\n"
+"Variables are always 32-bit floating-point.\n"
+"\n"
+"Variables can have any name of any length, as long as its name\n"
+"a)Does not have spaces in it, and contains only alphanumeric\n"
+"   characters\n"
+"b)Starts with a letter\n"
+"c)Is not already used by a keyword\n"
+"\n"
+"Variables do not have to be declared before they can be used.\n"
+"\n"
+"Variable names are case sensitive"
+msgstr ""
+
+#: plug-ins/iol/interface.c:270
+#, fuzzy
+msgid "Variables"
+msgstr "Tabell"
+
+#: plug-ins/iol/interface.c:277
+msgid "IOL Keywords"
+msgstr ""
+
+#: plug-ins/iol/interface.c:299
+msgid ""
+"There are two kinds of keywords: those that return a floating-point\n"
+"number and can therefor be used in mathematical expressions (such\n"
+"as sqrt, clip, etc.), and those that do not (input, output, and size).\n"
+"\n"
+"IF...ELSE statements must be in the form of:\n"
+"\tif condition { statements } else { statements }\n"
+"or\n"
+"\tif condition { statements }\n"
+"\n"
+"*** Keywords that _can't_ be used in expressions ***\n"
+"\n"
+"input\n"
+"Parameters: red green blue alpha\n"
+"Fetch the image's red, green, blue, and alpha values, convert\n"
+"them to floating-point if necessary, and then stick them in their\n"
+"respective variables.\n"
+"\n"
+"output\n"
+"Parameters: red green blue alpha\n"
+"Take the parameters and use their values for the image's\n"
+"respective channels.\n"
+"\n"
+"size\n"
+"Parameters: x y\n"
+"Load the image's width and height into the x and y\n"
+"variables, respectively.\n"
+"\n"
+"pos\n"
+"Parameters: x y\n"
+"Fetches the coordinates of the current pixel; the X axis goes in x,\n"
+"the Y axis goes in y.\n"
+"\n"
+"*** Keywords that _can_ be used in expressions ***\n"
+"\n"
+"clip\n"
+"Parameters: val\n"
+"If val is less than 0.0, clip returns 0.0. If val is greater than 1.0,\n"
+"val returns 1.0. Otherwise, clip returns val.\n"
+"\n"
+"sqrt\n"
+"Parameters: val\n"
+"Compute the square root of val, and then return it.\n"
+"\n"
+"abs\n"
+"Parameters: val\n"
+"Calculates the absolute value of val, and then returns it.\n"
+"\n"
+"sin\n"
+"Parameters: val\n"
+"Return the sine of val.\n"
+"\n"
+"cos\n"
+"Parameters: val\n"
+"Return the cosine of val\n"
+"\n"
+"tan\n"
+"Parameters: val\n"
+"Return the tangent of val\n"
+"\n"
+"log\n"
+"Parameters: val\n"
+"Return the natural logarithm of val\n"
+"\n"
+"log10\n"
+"Parameters: val\n"
+"Return the base-10 logarithm of val\n"
+"\n"
+"pow\n"
+"Parameters: x y\n"
+"Return the value of x raised to the power of y\n"
+"\n"
+"min\n"
+"Parameters: x y\n"
+"If x is less than y, returns x. If y is less than x, returns y. If x and y\n"
+"are the same, returns x.\n"
+"\n"
+"max\n"
+"Parameters: x y\n"
+"If x is greater than y, returns x. If y is greater than x, returns y. If x\n"
+"and y are the same, returns x."
+msgstr ""
+
+#: plug-ins/iol/interface.c:301
+msgid "Keywords"
+msgstr ""
+
+#: plug-ins/iol/interface.c:308
+#, fuzzy
+msgid "Miscellaneous"
+msgstr "Ymse val"
+
+#: plug-ins/iol/interface.c:317
+msgid ""
+"IOL - Image Operation Language\n"
+"\n"
+"Author: Sean Ridenour <s__ridenour@distortedpictures.com>\n"
+"\n"
+"Website: http://iol.kewlpc.org\n"
+"\n"
+"Copyright (C) 2003 Sean Ridenour. Released under the terms of the GNU "
+"General Public License. Read the included file COPYING for more information."
+msgstr ""
+
+#: plug-ins/iol/interface.c:326
+#, fuzzy
+msgid "Misc."
+msgstr "Ymse"
+
+#: plug-ins/jpeg/jpeg.c:769
+#, fuzzy
+msgid "Save as Jpeg"
+msgstr "Lagra som"
+
+#: plug-ins/jpeg/jpeg.c:802
+#, fuzzy
+msgid "Quality"
+msgstr "Stad:"
+
+#: plug-ins/jpeg/jpeg.c:834
+#, fuzzy
+msgid "Optimize"
+msgstr "optimer"
+
+#: plug-ins/mblur/mblur.c:211 plug-ins/mblur/mblur.c:1335
+#, fuzzy
+msgid "Motion Blur"
+msgstr "Storleik på rørslebuffer"
+
+#: plug-ins/mblur/mblur.c:1082
+#, fuzzy
+msgid "Bluring..."
+msgstr "&Nummerering ..."
+
+#: plug-ins/mblur/mblur.c:1385
+#, fuzzy
+msgid "Length"
+msgstr "Lengd:"
+
+#. ***
+#: plug-ins/mblur/mblur.c:1406
+#, fuzzy
+msgid "Blur Type"
+msgstr "Verditype"
+
+#: plug-ins/mblur/mblur.c:1420
+msgid "Radial"
+msgstr "Radius"
+
+#: plug-ins/mblur/mblur.c:1421
+msgid "Zoom"
+msgstr "Forstørring"
+
+#. ***
+#: plug-ins/mblur/mblur.c:1447
+#, fuzzy
+msgid "Angle"
+msgstr "Vinkel:"
+
+#: plug-ins/noisify/noisify.c:137
+#, fuzzy
+msgid "Noise"
+msgstr "Påminning"
+
+#: plug-ins/noisify/noisify.c:138 plug-ins/noisify/noisify.c:574
+#, fuzzy
+msgid "Noisify"
+msgstr "Påminning"
+
+#: plug-ins/noisify/noisify.c:207
+#, fuzzy
+msgid "Adding Noise..."
+msgstr "Legg &til fi ..."
+
+#: plug-ins/noisify/noisify.c:607
+#, fuzzy
+msgid "Independent"
+msgstr "Innrykk"
+
+#: plug-ins/noisify/noisify.c:624 plug-ins/noisify/noisify.c:630
+#, fuzzy, c-format
+msgid "Gray"
+msgstr "Tyskland"
+
+#: plug-ins/noisify/noisify.c:632
+#, fuzzy, c-format
+msgid "Alpha"
+msgstr "Alarm"
+
+#: plug-ins/noisify/noisify.c:638 plug-ins/noisify/noisify.c:648
+#, fuzzy, c-format
+msgid "1. Channel"
+msgstr "Kanalar"
+
+#: plug-ins/noisify/noisify.c:640 plug-ins/noisify/noisify.c:650
+#, fuzzy, c-format
+msgid "2. Channel"
+msgstr "Kanalar"
+
+#: plug-ins/noisify/noisify.c:642 plug-ins/noisify/noisify.c:652
+#, fuzzy, c-format
+msgid "3. Channel"
+msgstr "Kanalar"
+
+#: plug-ins/noisify/noisify.c:654
+#, fuzzy, c-format
+msgid "4. Channel"
+msgstr "Kanalar"
+
+#: plug-ins/noisify/noisify.c:662
+#, fuzzy, c-format
+msgid "Channel #%d"
+msgstr "Kanal A:"
+
+#: plug-ins/openexr/openexr.cxx:209 plug-ins/openexr/openexr.cxx:212
+#, fuzzy, c-format
+msgid "Loading %s"
+msgstr "Lastar meldingar"
+
+#: plug-ins/openexr/openexr.cxx:749
+msgid "Please convert the image to float before saving as OpenEXR\n"
+msgstr ""
+
+#: plug-ins/openexr/openexr.cxx:762
+msgid "OpenEXR dont supports different layer geometries!"
+msgstr ""
+
+#: plug-ins/openexr/openexr.cxx:825
+#, c-format
+msgid ""
+"Found non supported gamma of %.02f %.02f %.02f!\n"
+"Your ICC image profile needs a gamma of 1.0 ."
+msgstr ""
+
+#: plug-ins/openexr/openexr.cxx:833
+msgid "Adding of colour primaries to EXR failed."
+msgstr ""
+
+#: plug-ins/openexr/openexr.cxx:875 plug-ins/openexr/openexr.cxx:878
+#, fuzzy, c-format
+msgid "Saving %s"
+msgstr "Lagrar %1"
+
+#: plug-ins/pdf/pdf_dialog.cxx:25
+#, fuzzy
+msgid "Ghostscript"
+msgstr "Last skript på nytt"
+
+#: plug-ins/pdf/pdf_dialog.cxx:26
+msgid "xPDF"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:51
+msgid "TIFF cmyk/rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:52
+msgid "PSD cmyk/rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:53
+msgid "PPM rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:54
+msgid "PS rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:55
+msgid "PNG48 rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:56 plug-ins/pdf/pdf_dialog.cxx:81
+#, fuzzy
+msgid "[none]"
+msgstr "ingen"
+
+#: plug-ins/pdf/pdf_dialog.cxx:71
+msgid "Cmyk"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:72
+msgid "Rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:82
+msgid "AA4"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:83
+#, fuzzy
+msgid "AA4+Interpolation"
+msgstr "Gjentakingar:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:119
+msgid "gv (ghostscript)"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:120
+msgid "xpdf"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:121
+#, fuzzy
+msgid "Acroread"
+msgstr "Område:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:132
+#, fuzzy
+msgid "PDF Load Settings"
+msgstr "Tenarinnstillingar"
+
+#: plug-ins/pdf/pdf_dialog.cxx:142
+#, fuzzy
+msgid "Interpreter Command:"
+msgstr "Gjentakingar:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:171
+#, fuzzy
+msgid "Ghostscript Options"
+msgstr "Make-val"
+
+#: plug-ins/pdf/pdf_dialog.cxx:174
+#, fuzzy
+msgid "Intermediate Format:"
+msgstr "Gjentakingar:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:182
+msgid "TIFF rgb"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:184
+#, fuzzy
+msgid "Select Colorspace:"
+msgstr "Vel farge"
+
+#: plug-ins/pdf/pdf_dialog.cxx:195
+#, fuzzy
+msgid "Resolution:"
+msgstr "Oppløysing"
+
+#: plug-ins/pdf/pdf_dialog.cxx:204
+#, fuzzy
+msgid "Soften:"
+msgstr "Gate:"
+
+#: plug-ins/pdf/pdf_dialog.cxx:207
+msgid "Graphics"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:212
+#, fuzzy
+msgid "Text"
+msgstr "Tekst"
+
+#: plug-ins/pdf/pdf_dialog.cxx:217
+#, fuzzy
+msgid "GridFitTT"
+msgstr "Rutenett"
+
+#: plug-ins/pdf/pdf_dialog.cxx:226
+msgid "View (external)"
+msgstr ""
+
+#: plug-ins/pdf/pdf_dialog.cxx:234
+msgid "View"
+msgstr "Vis"
+
+#: plug-ins/pdf/pdf_dialog.cxx:235
+msgid "View the document in an external viewer."
+msgstr ""
+
+#: plug-ins/png/png.c:1516
+#, fuzzy
+msgid "Save as PNG"
+msgstr "Lagra som"
+
+#: plug-ins/png/png.c:1545
+msgid "Interlacing (Adam7)"
+msgstr ""
+
+#: plug-ins/png/png.c:1554
+#, fuzzy
+msgid "Save background color"
+msgstr "Bakgrunnsfarge"
+
+#: plug-ins/png/png.c:1563
+#, fuzzy
+msgid "Save gamma"
+msgstr "&Lagra spel."
+
+#: plug-ins/png/png.c:1572
+#, fuzzy
+msgid "Save layer offset"
+msgstr "Lagra speleliste"
+
+#: plug-ins/png/png.c:1581
+#, fuzzy
+msgid "Save resolution"
+msgstr "Oppløysing"
+
+#: plug-ins/png/png.c:1590
+#, fuzzy
+msgid "Save creation time"
+msgstr "Lagra bok"
+
+#: plug-ins/png/png.c:1607
+#, fuzzy
+msgid "Compression Level:"
+msgstr "Komprimert fil"
+
+#: plug-ins/print/print-lcms-funcs.c:515
+#, fuzzy, c-format
+msgid "Profile %s can not be found or is not readable."
+msgstr ""
+"\n"
+"finst ikkje eller kan ikkje lesast.\n"
+
+#: plug-ins/print/print-lcms-funcs.c:526
+#, c-format
+msgid "Profile %s is incorrect."
+msgstr ""
+
+#: plug-ins/print/print-lcms-funcs.c:651
+#, fuzzy
+msgid "separating ..."
+msgstr "Lagrar ..."
+
+#. test for device class
+#: plug-ins/print/print-lcms-funcs.c:1012
+#: plug-ins/print/print-lcms-options.c:1238
+#: plug-ins/print/print-lcms-options.c:1553
+#: plug-ins/print/print-lcms-options.c:1572
+#, fuzzy, c-format
+msgid "Work Space"
+msgstr "Mellomrom:"
+
+#: plug-ins/print/print-lcms-funcs.c:1016
+msgid ""
+"Your \"Work Space Profile\" is eighter not valid or does not exist. If in "
+"doubt clear the text in the \"Work Space Profile\" entry. This will switch "
+"to standard sRGB mode."
+msgstr ""
+
+#. &&
+#. icSig4colorData != cmsGetColorSpace(hOut)
+#: plug-ins/print/print-lcms-funcs.c:1025
+msgid "Your \"Separation Profile\" is not in CMYK color space."
+msgstr ""
+
+#: plug-ins/print/print-lcms-funcs.c:1027
+#: plug-ins/print/print-lcms-options.c:1246
+#: plug-ins/print/print-lcms-options.c:1550
+#: plug-ins/print/print-lcms-options.c:1571
+#, fuzzy, c-format
+msgid "Separation"
+msgstr "Metting"
+
+#: plug-ins/print/print-lcms-funcs.c:1035
+msgid "Your \"Separation Profile\" is eighter not valid or does not exist."
+msgstr ""
+
+#: plug-ins/print/print-lcms-funcs.c:1043
+msgid "Your \"Linearisation Profile\" does not exist."
+msgstr ""
+
+#: plug-ins/print/print-lcms-funcs.c:1048
+#: plug-ins/print/print-lcms-options.c:1254
+#: plug-ins/print/print-lcms-options.c:1556
+#: plug-ins/print/print-lcms-options.c:1573
+#, fuzzy, c-format
+msgid "Linearisation"
+msgstr "Variasjon:"
+
+#: plug-ins/print/print-lcms-funcs.c:1053
+msgid "Your \"Linearisation Profile\" is not valid."
+msgstr ""
+
+#: plug-ins/print/print-lcms-funcs.c:1101
+#, c-format
+msgid "drawable type %d is not supported for direct printing."
+msgstr ""
+
+#. ... and ask for an filename
+#: plug-ins/print/print-lcms-options.c:230
+#: plug-ins/print/print-lcms-options.c:1360
+#, fuzzy, c-format
+msgid "Save as"
+msgstr "Lagra som ..."
+
+#: plug-ins/print/print-lcms-options.c:231
+#, fuzzy
+msgid "Select filename"
+msgstr "Vel fil"
+
+#: plug-ins/print/print-lcms-options.c:233
+#, fuzzy
+msgid "Chose Profile"
+msgstr "Vel eit tema"
+
+#. gtk_widget_show (file_help_button);
+#: plug-ins/print/print-lcms-options.c:256
+#, fuzzy
+msgid "Shows some helpful information."
+msgstr "Litt informasjon om dialogredigeraren ..."
+
+#: plug-ins/print/print-lcms-options.c:343
+#, fuzzy
+msgid "Direct printing"
+msgstr "Retning:"
+
+#: plug-ins/print/print-lcms-options.c:350
+msgid ""
+"Do NOT separate this image by an ICC profile.\n"
+"This button is useful in the following cases:\n"
+"- CMYK 8/16-bit - You have allready separated image data and dont need any "
+"separation\n"
+"- RGB 8/16-bit - to let gutenprint do the separation."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:355
+#, fuzzy
+msgid "RGB"
+msgstr "GB"
+
+#. gtk_widget_add_accelerator (color_mode_rgb_radiobutton, "toggled", accel_group,
+#. GDK_r, GDK_MOD1_MASK,
+#. GTK_ACCEL_VISIBLE);
+#: plug-ins/print/print-lcms-options.c:366
+msgid "CMYK"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:384
+#, fuzzy
+msgid "Profiles"
+msgstr "Profil"
+
+#: plug-ins/print/print-lcms-options.c:406
+msgid "Editing Space Profile"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:415
+#, fuzzy
+msgid "Separation Profile"
+msgstr "Vis la&gingstid"
+
+#: plug-ins/print/print-lcms-options.c:424
+msgid "Linearisation Profile"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:449
+msgid ""
+"This is the workspace profile.--- You dont need to change if Your image is "
+"in RGB mode. ---\n"
+"If needed, select here an profile which matches to the current images "
+"workspace."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:459
+msgid ""
+"This is the separation profile. You need to select an Printer / CMYK profile "
+"to be able to do high quality separation of Your image data.\n"
+"--- Currently You need an profile here to be able to print at all. ---\n"
+"Profiles have the icc or icm extension. On mac/windows You can search for "
+"profiles in Your system folders. On any system You can download profiles "
+"from the Adobe website <http://www.adobe.com/support/downloads/main.html>.\n"
+"As the quality of the data output depends highly on Your profile chosen, the "
+"best is to do an third party calibration of Your special printer. Otherwise "
+"You can use any generic output profile and may or may not have to tweak the "
+"settings in the second dialog."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:472
+msgid ""
+"This is the linearisation profile.\n"
+"--- You need it only if You used CinePaints linearisation option while "
+"calibrating Your printer. ---\n"
+"If needed, select here an profile which belongs to the current printer "
+"profile."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:482
+#: plug-ins/print/print-lcms-options.c:495
+#: plug-ins/print/print-lcms-options.c:508
+msgid "...\n"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:490
+msgid "Select a new profile for Your workspace."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:503
+msgid "Select a new profile for separation."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:518
+msgid "Select a new profile for linearisation."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:523
+msgid "Select rendering intent:"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:538
+#, fuzzy
+msgid "Perceptual"
+msgstr "Prosent"
+
+#: plug-ins/print/print-lcms-options.c:545
+msgid ""
+"Hue hopefully maintained (but not required), lightness and saturation "
+"sacrificed to maintain the perceived color. White point changed to result in "
+"neutral grays. Intended for images.\n"
+"In lcms: Default intent of profiles is used"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:547
+#, fuzzy
+msgid "Relative colorimetric"
+msgstr "Relativ posisjon"
+
+#: plug-ins/print/print-lcms-options.c:554
+msgid ""
+"Within and outside gamut; same as Absolute Colorimetric. White point changed "
+"to result in neutral grays.\n"
+"In lcms: If adequate table is present in profile, then, it is used. Else "
+"reverts to perceptual intent."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:556
+msgid "Saturation"
+msgstr "Metting"
+
+#: plug-ins/print/print-lcms-options.c:563
+msgid ""
+"Hue and saturation maintained with lightness sacrificed to maintain "
+"saturation. White point changed to result in neutral grays. Intended for "
+"business graphics (make it colorful charts, graphs, overheads, ...)\n"
+"In lcms: If adequate table is present in profile, then, it is used. Else "
+"reverts to perceptual intent."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:565
+msgid "Absolute colorimetric"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:572
+msgid ""
+"Within the destination device gamut; hue, lightness and saturation are "
+"maintained. Outside the gamut; hue and lightness are maintained, saturation "
+"is sacrificed. White point for source and destination; unchanged. Intended "
+"for spot colors (Pantone, TruMatch, logo colors, ...)\n"
+"In lcms: relative colorimetric intent is used with undoing of chromatic "
+"adaptation."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:574
+#, fuzzy
+msgid "Options:"
+msgstr "Val"
+
+#: plug-ins/print/print-lcms-options.c:596
+#, fuzzy
+msgid "Matrix Input"
+msgstr "Matrise"
+
+#: plug-ins/print/print-lcms-options.c:603
+msgid ""
+"CLUT ignored on input profile, matrix-shaper used instead (for speed, and "
+"debugging purposes)"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:605
+#, fuzzy
+msgid "Matrix Output"
+msgstr "Resultat"
+
+#: plug-ins/print/print-lcms-options.c:612
+msgid ""
+"CLUT ignored on output profile, matrix-shaper used instead (for speed, and "
+"debugging purposes)"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:614
+#, fuzzy
+msgid "Matrix only"
+msgstr "Matrise"
+
+#: plug-ins/print/print-lcms-options.c:621
+msgid "Both input and output are forced to matrix-shaper."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:623
+msgid "Null transform"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:630
+msgid ""
+"Don't transform anyway, only apply pack/unpack routines (usefull to "
+"deactivate color correction but keep formatting capabilities)"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:646
+msgid "High resolution precalculation"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:653
+msgid ""
+"Use 48 points instead of 33 for device-link CLUT precalculation. Not needed "
+"but for the most extreme cases of mismatch of \"impedance\" between profiles."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:655
+msgid "Middle resolution precalculation"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:662
+msgid "Use 33 points for device-link CLUT precalculation. Standard."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:664
+msgid "Low resolution precalculation"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:671
+msgid ""
+"Use lower resolution table. Usefull when memory is a preciated resource."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:673
+msgid "No precalculation"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:680
+msgid ""
+"By default, lcms smelt luts into a device-link CLUT. This speedup whole "
+"transform greatly. If you don't wanna this, and wish every value to be "
+"translated to PCS and back to output space, include this flag."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:689
+#, fuzzy
+msgid "Black point compensation"
+msgstr "&Lukk samband"
+
+#: plug-ins/print/print-lcms-options.c:695
+msgid ""
+"BPC does scale full image across gray axis in order to accommodate the "
+"darkest tone origin media can render to darkest tone destination media can "
+"render."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:697
+msgid "Preserve Black"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:704
+msgid ""
+"Preserve Black channel of a Cmyk image to maintain K information. Useful "
+"only for Cmyk->Cmyk conversion."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:706
+#: plug-ins/print/print-lcms-options.c:1664
+#, fuzzy
+msgid "Print Options"
+msgstr "Make-val"
+
+#: plug-ins/print/print-lcms-options.c:725
+msgid "use printer linearisation"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:733
+msgid ""
+"This option is only usefull to linearise an printer before an calibration.  "
+"Print out an test chart and look for sufficiant coverage at bright and light "
+"patches. After this is good for all printing colors, set the gamma values by "
+"repeatedly printing out an usefull chart. You can use this sliders to give "
+"bright patches recognisable difference. The same should appear to the dark "
+"patches."
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:738
+#, fuzzy
+msgid "MinBrightness settings"
+msgstr "Opplysingsinnstillingar"
+
+#: plug-ins/print/print-lcms-options.c:754
+#: plug-ins/print/print-lcms-options.c:805
+#: plug-ins/print/print-lcms-options.c:857
+msgid "Cyan:"
+msgstr "Cyan:"
+
+#: plug-ins/print/print-lcms-options.c:763
+#: plug-ins/print/print-lcms-options.c:814
+#: plug-ins/print/print-lcms-options.c:866
+msgid "Magenta:"
+msgstr "Magenta:"
+
+#: plug-ins/print/print-lcms-options.c:772
+#: plug-ins/print/print-lcms-options.c:823
+#: plug-ins/print/print-lcms-options.c:875
+msgid "Yellow:"
+msgstr "Gul:"
+
+#: plug-ins/print/print-lcms-options.c:781
+#: plug-ins/print/print-lcms-options.c:832
+#: plug-ins/print/print-lcms-options.c:884
+#, fuzzy
+msgid "Black:"
+msgstr "Tilbake"
+
+#: plug-ins/print/print-lcms-options.c:790
+#, fuzzy
+msgid "MaxBrightness settings"
+msgstr "Opplysingsinnstillingar"
+
+#: plug-ins/print/print-lcms-options.c:842
+#, fuzzy
+msgid "Gamma settings"
+msgstr "Visingsinnstillingar"
+
+#: plug-ins/print/print-lcms-options.c:894
+#, fuzzy
+msgid "Linearisation Options"
+msgstr "Sambandsval"
+
+#: plug-ins/print/print-lcms-options.c:909
+#, fuzzy
+msgid "Chancel"
+msgstr "Avbryt"
+
+#: plug-ins/print/print-lcms-options.c:919
+msgid "Ok"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:928
+msgid "Reset"
+msgstr "Nullstill"
+
+#: plug-ins/print/print-lcms-options.c:934
+msgid "reset rendering intend and options to defaults"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:936
+#, fuzzy
+msgid "Save Tiff"
+msgstr "Lagra bilete"
+
+#: plug-ins/print/print-lcms-options.c:942
+msgid "Save as separated tiff including the separation profile"
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:1663
+msgid "You need to be in \""
+msgstr ""
+
+#: plug-ins/print/print-lcms-options.c:1663
+#, fuzzy
+msgid "Direct print"
+msgstr "Retning:"
+
+#: plug-ins/print/print-lcms-options.c:1664
+msgid ""
+"\" mode in order to linearise an printer.\n"
+"This can be done in the tab \""
+msgstr ""
+
+#: plug-ins/print/print-image-gimp.c:412
+msgid "Printing..."
+msgstr "Skriv ut ..."
+
+#: plug-ins/print/print.c:155
+msgid "<Image>/File/Print..."
+msgstr ""
+
+#: plug-ins/print/print.c:160
+#, fuzzy
+msgid "Print..."
+msgstr "Skriv ut ..."
+
+#: plug-ins/psd/psd.c:1630 plug-ins/psd/psd.c:1680
+#, fuzzy
+msgid "Unnamed channel"
+msgstr "Ulagra endringar"
+
+#: plug-ins/rawphoto/rawphoto.c:204
+#, fuzzy, c-format
+msgid ""
+"The \"rawphoto\" plugin won't work because there is no \"%s\" executable in "
+"your path."
+msgstr "Das \"rawphoto\" plugin kann ohne \"dcraw\" nicht arbeiten."
+
+#: plug-ins/rawphoto/rawphoto.c:400
+#, fuzzy
+msgid "Quick interpolation"
+msgstr "Gjentakingar:"
+
+#: plug-ins/rawphoto/rawphoto.c:401
+#, fuzzy
+msgid "Half-size interpolation"
+msgstr "Gjentakingar:"
+
+#: plug-ins/rawphoto/rawphoto.c:402
+#, fuzzy
+msgid "Four color interpolation"
+msgstr "Sorter aukande"
+
+#: plug-ins/rawphoto/rawphoto.c:403
+#, fuzzy
+msgid "Grayscale document"
+msgstr "Gråtonar"
+
+#: plug-ins/rawphoto/rawphoto.c:404
+msgid "Automatic white balance"
+msgstr ""
+
+#: plug-ins/rawphoto/rawphoto.c:405
+msgid "Camera white balance"
+msgstr ""
+
+#: plug-ins/rawphoto/rawphoto.c:406
+#, fuzzy
+msgid "Convert to WideRGB"
+msgstr "Konverter LF til CRLF"
+
+#: plug-ins/rawphoto/rawphoto.c:409
+#, fuzzy
+msgid "Red Multiplier"
+msgstr "&Fleire:"
+
+#: plug-ins/rawphoto/rawphoto.c:410
+#, fuzzy
+msgid "Blue Multiplier"
+msgstr "&Fleire:"
+
+#: plug-ins/rawphoto/rawphoto.c:418
+msgid "Raw Photo Loader 1.0"
+msgstr "Raw Photo Lader 1.0"
+
+#: plug-ins/rawphoto/rawphoto.c:466
+#, fuzzy
+msgid "bit depth:"
+msgstr "Djupne:"
+
+#: plug-ins/rotate/rotate.c:165
+msgid "<Image>/Layers/Rotate/90 degrees"
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:176
+msgid "<Image>/Layers/Rotate/180 degrees"
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:187
+msgid "<Image>/Layers/Rotate/270 degrees"
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:199
+msgid "<Image>/Image/Transforms/Rotate/90 degrees"
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:210
+msgid "<Image>/Image/Transforms/Rotate/180 degrees"
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:221
+msgid "<Image>/Image/Transforms/Rotate/270 degrees"
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:530
+#, fuzzy
+msgid "You can not rotate the whole image if there's a selection."
+msgstr "Du kan ikkje fjerna den einaste tabellen i kartet."
+
+#: plug-ins/rotate/rotate.c:537
+msgid "You can not rotate the whole image if there's a floating selection."
+msgstr ""
+
+#: plug-ins/rotate/rotate.c:547
+#, fuzzy
+msgid "Sorry, channels and masks can not be rotated."
+msgstr "Orsak, denne artikkelen kan ikkje redigerast."
+
+#: plug-ins/rotate/rotate.c:553
+#, fuzzy
+msgid "Rotating..."
+msgstr "&Rotering ..."
+
+#: plug-ins/screenshot/screenshot.c:141
+msgid "<Toolbox>/File/Acquire/Screen Shot..."
+msgstr ""
+
+#: plug-ins/screenshot/screenshot.c:146
+#, fuzzy
+msgid "Screen Shot..."
+msgstr "Skjermskot"
+
+#. main dialog
+#: plug-ins/screenshot/screenshot.c:371
+#, fuzzy
+msgid "Screen Shot"
+msgstr "Skjermskot"
+
+#. single window
+#: plug-ins/screenshot/screenshot.c:394
+#, fuzzy
+msgid "Grab"
+msgstr "&Ta bilete"
+
+#: plug-ins/screenshot/screenshot.c:402
+#, fuzzy
+msgid "Single Window"
+msgstr "&Flislegg vindauga"
+
+#: plug-ins/screenshot/screenshot.c:416
+#, fuzzy
+msgid "With Decorations"
+msgstr "&Dekorasjon"
+
+#. root window
+#: plug-ins/screenshot/screenshot.c:432
+#, fuzzy
+msgid "Whole Screen"
+msgstr "Lås skjerm"
+
+#: plug-ins/screenshot/screenshot.c:448
+#, fuzzy
+msgid "after"
+msgstr "Vatn"
+
+#: plug-ins/screenshot/screenshot.c:460
+#, fuzzy
+msgid "Seconds Delay"
+msgstr "Sekund"
+
+#: plug-ins/script-fu/script-fu.c:1152 plug-ins/script-fu/script-fu.c:1153
+msgid "Re-read all available scripts"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:172
+msgid "Script-Fu console mode allows only interactive invocation"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:203
+msgid "Script-Fu Console"
+msgstr ""
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:224
+msgid "SIOD Output"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:307
+#, fuzzy
+msgid "Current Command"
+msgstr "Gjentakingar:"
+
+#: plug-ins/script-fu/script-fu-console.c:328
+#, fuzzy
+msgid "Browse..."
+msgstr "Bla gjennom"
+
+#: plug-ins/script-fu/script-fu-console.c:600
+#, fuzzy
+msgid "Unable to open SIOD output pipe"
+msgstr "Finn ikkje "
+
+#: plug-ins/script-fu/script-fu-console.c:604
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:649
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+
+#: plug-ins/sgi/sgi.c:777
+msgid "No Compression"
+msgstr "Inga kompresjon"
+
+#: plug-ins/sgi/sgi.c:778
+msgid "RLE Compression"
+msgstr "RLE-kompresjon"
+
+#: plug-ins/sgi/sgi.c:779
+msgid ""
+"Advanced RLE\n"
+"(Not supported by SGI)"
+msgstr ""
+
+#: plug-ins/sgi/sgi.c:800
+#, fuzzy
+msgid "SGI Options"
+msgstr "GL-val"
+
+#: plug-ins/snoise/snoise.c:195
+#, fuzzy
+msgid "Render"
+msgstr "Vising"
+
+#: plug-ins/snoise/snoise.c:196 plug-ins/snoise/snoise.c:553
+#, fuzzy
+msgid "Solid Noise"
+msgstr "Heil linje"
+
+#: plug-ins/snoise/snoise.c:313
+#, fuzzy
+msgid "Solid Noise..."
+msgstr "Heil linje"
+
+#. Entry #1
+#: plug-ins/snoise/snoise.c:565
+#, fuzzy
+msgid "Seed"
+msgstr "Fart:"
+
+#. Entry #2
+#: plug-ins/snoise/snoise.c:594
+#, fuzzy
+msgid "Detail"
+msgstr "Detaljar:"
+
+#. Check button #1
+#: plug-ins/snoise/snoise.c:611
+#, fuzzy
+msgid "Turbulent"
+msgstr "Snu brett"
+
+#. Check button #2
+#: plug-ins/snoise/snoise.c:620
+#, fuzzy
+msgid "Tilable"
+msgstr "Tabell"
+
+#. Scale #1
+#: plug-ins/snoise/snoise.c:629
+#, fuzzy
+msgid "X Size"
+msgstr "Storleik:"
+
+#. Scale #2
+#: plug-ins/snoise/snoise.c:649
+#, fuzzy
+msgid "Y Size"
+msgstr "Storleik:"
+
+#: plug-ins/sobel/sobel.c:146
+#, fuzzy
+msgid "Sobel"
+msgstr "Einsfarga"
+
+#: plug-ins/sobel/sobel.c:256
+#, fuzzy
+msgid "Sobel Edge Detection"
+msgstr "Inaktiv-overvaking"
+
+#: plug-ins/sobel/sobel.c:289
+#, fuzzy
+msgid "Sobel Horizontally"
+msgstr "Horisontalt"
+
+#: plug-ins/sobel/sobel.c:297
+#, fuzzy
+msgid "Sobel Vertically"
+msgstr "Vertikalt"
+
+#: plug-ins/sobel/sobel.c:305
+msgid "Keep sign of result (one direction only)"
+msgstr ""
+
+#: plug-ins/sobel/sobel.c:435
+#, fuzzy
+msgid "Sobel Edge Detect"
+msgstr "Inaktiv-overvaking"
+
+#: plug-ins/spread/spread.c:136 plug-ins/spread/spread.c:426
+#, fuzzy
+msgid "Spread"
+msgstr "KSpread"
+
+#: plug-ins/spread/spread.c:204
+#, fuzzy
+msgid "Spreading..."
+msgstr "Startar ..."
+
+#. Horizontal Amount
+#: plug-ins/spread/spread.c:463
+#, fuzzy
+msgid "Horizontal Spread Amount"
+msgstr "Skjold"
+
+#. Vertical Amount
+#: plug-ins/spread/spread.c:500
+#, fuzzy
+msgid "Vertical Spread Amount"
+msgstr "Skjold"
+
+#: plug-ins/tga/tga.c:1396
+#, fuzzy
+msgid "Save as Tga"
+msgstr "Lagra som"
+
+#. regular tga parameter settings
+#: plug-ins/tga/tga.c:1421
+#, fuzzy
+msgid "Targa Options"
+msgstr "Tar-val"
+
+#. rle
+#: plug-ins/tga/tga.c:1430
+#, fuzzy
+msgid "RLE compression"
+msgstr "Ikkje bruk VJ-komprimering"
+
+#: plug-ins/tiff/gui.c:70 plug-ins/tiff/gui.c:79
+#, fuzzy
+msgid "Save as TIFF"
+msgstr "Lagra som"
+
+#. compression
+#: plug-ins/tiff/gui.c:102 plug-ins/tiff/gui.c:127 plug-ins/tiff/gui.c:309
+#, fuzzy
+msgid "Compression"
+msgstr "Fullføring"
+
+#: plug-ins/tiff/gui.c:106
+#, fuzzy
+msgid "_None"
+msgstr "Ingen"
+
+#: plug-ins/tiff/gui.c:107
+msgid "_LZW"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:108
+msgid "_Pack Bits"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:109
+#, fuzzy
+msgid "_Deflate"
+msgstr "Delegat"
+
+#: plug-ins/tiff/gui.c:110
+msgid "_JPEG"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:111
+msgid "_JP2000"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:112
+msgid "_Adobe"
+msgstr ""
+
+#. fillorder
+#: plug-ins/tiff/gui.c:117 plug-ins/tiff/gui.c:143 plug-ins/tiff/gui.c:356
+#, fuzzy
+msgid "Fill Order"
+msgstr "Fyll-mønster:"
+
+#: plug-ins/tiff/gui.c:121
+msgid "_LSB to MSB"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:122
+msgid "_MSB to LSB"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:131 plug-ins/tiff/gui.c:312
+msgid "None"
+msgstr "Ingen"
+
+#: plug-ins/tiff/gui.c:132 plug-ins/tiff/gui.c:314
+msgid "LZW"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:133 plug-ins/tiff/gui.c:317
+msgid "Pack Bits"
+msgstr ""
+
+#. #ifdef ZIP_SUPPORT
+#: plug-ins/tiff/gui.c:134 plug-ins/tiff/gui.c:320
+#, fuzzy
+msgid "Deflate"
+msgstr "Delegat"
+
+#. #ifdef JPEG_SUPPORT
+#: plug-ins/tiff/gui.c:135 plug-ins/tiff/gui.c:343
+msgid "JPEG"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:136 plug-ins/tiff/gui.c:347
+msgid "JP2000"
+msgstr ""
+
+#. #endif
+#: plug-ins/tiff/gui.c:137 plug-ins/tiff/gui.c:350
+msgid "Adobe"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:147 plug-ins/tiff/gui.c:359
+msgid "LSB to MSB"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:148 plug-ins/tiff/gui.c:360
+msgid "MSB to LSB"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:161 plug-ins/tiff/gui.c:403
+msgid "Comment:"
+msgstr "Kommentar:"
+
+#: plug-ins/tiff/gui.c:272
+#, fuzzy
+msgid "Save as Tiff"
+msgstr "Lagra som"
+
+#. attach profile
+#. LIST_FRAME (_("ICC Profile data"))
+#: plug-ins/tiff/gui.c:290
+#, fuzzy
+msgid "ICC Profile data"
+msgstr "Vel eit tema"
+
+#: plug-ins/tiff/gui.c:300
+msgid "embedd ICC Profile"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:301
+msgid "dont attach ICC color data"
+msgstr ""
+
+#. #endif
+#. #ifdef LOGLUV_SUPPORT
+#: plug-ins/tiff/gui.c:323
+msgid "SGILOG (32-bit)"
+msgstr ""
+
+#. #ifdef PIXARLOG_SUPPORT
+#: plug-ins/tiff/gui.c:337
+msgid "PixarLOG (11-bit)"
+msgstr ""
+
+#. premultiply
+#: plug-ins/tiff/gui.c:366
+#, fuzzy
+msgid "Transparency Computation"
+msgstr "Gjennomsiktig "
+
+#: plug-ins/tiff/gui.c:369
+#, c-format
+msgid "Premultiply Colour (associate)"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:373
+msgid "Dont Premultiply"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:384
+msgid "Write Separate Planes per Channel"
+msgstr ""
+
+#: plug-ins/tiff/gui.c:401
+#, fuzzy
+msgid "Artist:"
+msgstr "Artikkelliste"
+
+#: plug-ins/tiff/gui.c:402
+#, fuzzy
+msgid "Copyright:"
+msgstr "Opphavsrett"
+
+#: plug-ins/tiff/gui.c:530
+msgid "Your string is too long.\n"
+msgstr ""
+
+#: plug-ins/tiff/info.c:156
+#, fuzzy, c-format
+msgid "Description:    "
+msgstr "Skildring:"
+
+#: plug-ins/tiff/info.c:171
+#, c-format
+msgid "Product:        "
+msgstr ""
+
+#: plug-ins/tiff/info.c:177
+#, c-format
+msgid "Manufacturer:   "
+msgstr ""
+
+#: plug-ins/tiff/info.c:182
+#, c-format
+msgid "Model:          "
+msgstr ""
+
+#: plug-ins/tiff/info.c:189
+#, fuzzy, c-format
+msgid "Copyright:      "
+msgstr "Opphavsrett"
+
+#: plug-ins/tiff/info.c:729
+#, fuzzy
+msgid "layer"
+msgstr "Lag"
+
+#: plug-ins/tiff/tiff.c:457
+#, c-format
+msgid "created with CinePaint"
+msgstr ""
+
+#: plug-ins/tiff/tiff.c:823 plug-ins/tiff/tiff.c:1546
+#, fuzzy
+msgid "Opening"
+msgstr "Sender %1"
+
+#: plug-ins/tiff/tiff.c:830
+#, fuzzy, c-format
+msgid "Could not open '%s' for reading: %s"
+msgstr "Kan ikkje opna fila %1 for lesing"
+
+#: plug-ins/tiff/tiff.c:896
+#, c-format
+msgid ""
+"WARNING! This Image has %d bits per channel. CinePaint \n"
+"can only handle 32 bit, so it will be converted for you.\n"
+"Information will be lost because of this conversion."
+msgstr ""
+
+#: plug-ins/tiff/tiff.c:1267
+#, fuzzy
+msgid "TIFF Channel"
+msgstr "Kanalar"
+
+#: plug-ins/tiff/tiff.c:2906
+#, fuzzy, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr "Kan ikkje opna fila %1 for skriving."
+
+#: plug-ins/tiff/tiff.c:3066
+msgid ""
+"The TIFF format only supports comments in\n"
+"7bit ASCII encoding. No comment is saved."
+msgstr ""
+
+#: plug-ins/unsharp/unsharp.c:196
+msgid "Unsharp Mask..."
+msgstr ""
+
+#: plug-ins/unsharp/unsharp.c:197
+#, fuzzy
+msgid "Enhance"
+msgstr "Avbryt"
+
+#: plug-ins/unsharp/unsharp.c:298
+#, fuzzy
+msgid "Blurring..."
+msgstr "&Nummerering ..."
+
+#: plug-ins/unsharp/unsharp.c:404
+#, fuzzy
+msgid "Merging..."
+msgstr "Søker ..."
+
+#: plug-ins/unsharp/unsharp.c:1269
+msgid "Unsharp Mask"
+msgstr ""
+
+#: plug-ins/unsharp/unsharp.c:1317
+msgid "Threshold:"
+msgstr "Terskel:"
+
+#: plug-ins/xwd/xwd.c:382
+#, fuzzy
+msgid "can't open file for reading"
+msgstr "Kan ikkje opna fila %1 for lesing"
+
+#: plug-ins/xwd/xwd.c:389
+#, fuzzy
+msgid "can't open file as XWD file"
+msgstr "Kan ikkje opna fila %1"
+
+#: plug-ins/xwd/xwd.c:411
+msgid "can't get memory for colormap"
+msgstr ""
+
+#: plug-ins/xwd/xwd.c:430
+#, fuzzy
+msgid "can't read color entries"
+msgstr "Deler og sorterer fargeoppføringar"
+
+#: plug-ins/xwd/xwd.c:490
+#, c-format
+msgid ""
+"load_image (xwd): XWD-file %s has format %d, depth %d\n"
+"and bits per pixel %d.\n"
+"Currently this is not supported.\n"
+msgstr ""
+
+#: plug-ins/xwd/xwd.c:517
+msgid "XWD save cannot handle images with alpha channels"
+msgstr ""
+
+#: plug-ins/xwd/xwd.c:528
+#, fuzzy
+msgid "cannot operate on unknown image types"
+msgstr "Kan ikkje gjera ferdig uklart eller ukjend kallenamn."
+
+#: plug-ins/xwd/xwd.c:537
+#, fuzzy
+msgid "can't open file for writing"
+msgstr "Kan ikkje opna fila %1 for skriving."
+
+#: plug-ins/xwd/xwd.c:1242
+#, fuzzy
+msgid "EOF encountered on "
+msgstr "Avmontert-ikon"
+
+#: plug-ins/xwd/xwd.c:1340 plug-ins/xwd/xwd.c:1502 plug-ins/xwd/xwd.c:1699
+#: plug-ins/xwd/xwd.c:1950
+#, fuzzy
+msgid "EOF encountered on reading"
+msgstr "Fila kunne ikkje opnast for lesing"
+
+#: plug-ins/xwd/xwd.c:1388
+#, fuzzy
+msgid "No memory for mapping colors"
+msgstr "S&tandardfargar"
+
+#: plug-ins/xwd/xwd.c:2074
+#, fuzzy
+msgid "Error during writing indexed/grey image"
+msgstr "Feil ved skriving av fil!"
+
+#: plug-ins/xwd/xwd.c:2163
+#, fuzzy
+msgid "Error during writing rgb image"
+msgstr "Feil ved skriving av fil!"
+
+#, fuzzy
+#~ msgid "Blurb :"
+#~ msgstr "B&lå:"
+
+#, fuzzy
+#~ msgid "DB Browser"
+#~ msgstr "Nettlesar"
+
+#~ msgid "Prev"
+#~ msgstr "Førre"
+
+#, fuzzy
+#~ msgid "With BG of:"
+#~ msgstr "Breidd:"
+
+#, fuzzy
+#~ msgid "About GFig"
+#~ msgstr "Om"
+
+#, fuzzy
+#~ msgid "No profil assigned to image."
+#~ msgstr "Overføringsfart:"
+
+#, fuzzy
+#~ msgid "&Windows"
+#~ msgstr "Vindauge"
+
+#, fuzzy
+#~ msgid "Expert bar"
+#~ msgstr "Eksponentiell"
+
+#, fuzzy
+#~ msgid "Watch Colours 3D"
+#~ msgstr "Fargar"
+
+#, fuzzy
+#~ msgid "Convert to sRGB"
+#~ msgstr "Konverter LF til CRLF"
+
+#, fuzzy
+#~ msgid "Saveing"
+#~ msgstr "Lagra"
+
+#, fuzzy
+#~ msgid "Background_("
+#~ msgstr "Bakgrunn"
+
+#, fuzzy
+#~ msgid "Opening '%s'..."
+#~ msgstr "Sender %1"
+
+#, fuzzy
+#~ msgid "Realtime Preview"
+#~ msgstr "Verkeleg filvising"
+
+#, fuzzy
+#~ msgid "Redraw"
+#~ msgstr "Raud"
+
+#, fuzzy
+#~ msgid "Redraw preview"
+#~ msgstr "Verkeleg filvising"
+
+#, fuzzy
+#~ msgid "Zoom Options"
+#~ msgstr "ZIP-val"
+
+#, fuzzy
+#~ msgid "Undo Zoom"
+#~ msgstr "Gjer om trekk"
+
+#, fuzzy
+#~ msgid "Undo last zoom"
+#~ msgstr "Angreliste"
+
+#, fuzzy
+#~ msgid "Redo Zoom"
+#~ msgstr "Gjer om siste trekk."
+
+#, fuzzy
+#~ msgid "Redo last zoom"
+#~ msgstr "Gjer om-liste"
+
+#~ msgid "Step In"
+#~ msgstr "Gå inn"
+
+#~ msgid "Step Out"
+#~ msgstr "Gå ut"
+
+#, fuzzy
+#~ msgid "Fractal Parameters"
+#~ msgstr "Parametrar"
+
+#, fuzzy
+#~ msgid "XMIN:"
+#~ msgstr "MSN:"
+
+#, fuzzy
+#~ msgid "YMIN:"
+#~ msgstr "MSN:"
+
+#, fuzzy
+#~ msgid "ITER:"
+#~ msgstr "TERM"
+
+#, fuzzy
+#~ msgid "Load a fractal from file"
+#~ msgstr "Last nivå frå fil"
+
+#, fuzzy
+#~ msgid "Reset parameters to default values"
+#~ msgstr "Gjenopprett standardlydstyrkar"
+
+#, fuzzy
+#~ msgid "Save active fractal to file"
+#~ msgstr "Lagrar prosjektet"
+
+#~ msgid "Mandelbrot"
+#~ msgstr "Mandelbrot"
+
+#~ msgid "Julia"
+#~ msgstr "Julia"
+
+#, fuzzy
+#~ msgid "Barnsley 1"
+#~ msgstr "Lett 1"
+
+#, fuzzy
+#~ msgid "Barnsley 2"
+#~ msgstr "Lett 2"
+
+#, fuzzy
+#~ msgid "Barnsley 3"
+#~ msgstr "Lett 3"
+
+#~ msgid "Spider"
+#~ msgstr "Vevkjerring"
+
+#, fuzzy
+#~ msgid "Man'o'war"
+#~ msgstr "Myanmar"
+
+#, fuzzy
+#~ msgid "Lambda"
+#~ msgstr "Kambodsja"
+
+#, fuzzy
+#~ msgid "Sierpinski"
+#~ msgstr "Smiletris"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Tal på fargar"
+
+#~ msgid "Number of Colors:"
+#~ msgstr "Tal på fargar:"
+
+#, fuzzy
+#~ msgid "Change the number of colors in the mapping"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Use loglog Smoothing"
+#~ msgstr "Brukaridentitet"
+
+#, fuzzy
+#~ msgid "Color Density"
+#~ msgstr "Fargedjupne:"
+
+#, fuzzy
+#~ msgid "Red:"
+#~ msgstr "&Raud:"
+
+#, fuzzy
+#~ msgid "Change the intensity of the red channel"
+#~ msgstr "Endra namnet på spelarane"
+
+#~ msgid "Green:"
+#~ msgstr "Grøn:"
+
+#, fuzzy
+#~ msgid "Change the intensity of the green channel"
+#~ msgstr "Endra namnet på spelarane"
+
+#~ msgid "Blue:"
+#~ msgstr "Blå:"
+
+#, fuzzy
+#~ msgid "Change the intensity of the blue channel"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Color Function"
+#~ msgstr "Funksjon"
+
+#~ msgid "Red"
+#~ msgstr "Raud"
+
+#, fuzzy
+#~ msgid "Sine"
+#~ msgstr "Storleik"
+
+#~ msgid "Green"
+#~ msgstr "Grøn"
+
+#, fuzzy
+#~ msgid "Color Mode"
+#~ msgstr "Konsoll-modus"
+
+#, fuzzy
+#~ msgid "As Specified above"
+#~ msgstr "Ved oppgitt kolonne"
+
+#, fuzzy
+#~ msgid "FractalExplorer Gradient"
+#~ msgstr "Sirkelforma gradvis overgang"
+
+#, fuzzy
+#~ msgid "Fractals"
+#~ msgstr "Name=Fraktalkart"
+
+#, fuzzy
+#~ msgid "Failed to write file\n"
+#~ msgstr "Kan ikkje skriva til fila."
+
+#, fuzzy
+#~ msgid "Save: No filename given"
+#~ msgstr "Lagra til fil"
+
+#, fuzzy
+#~ msgid "Save: Can't save to a directory"
+#~ msgstr "Du må velja ein katalog"
+
+#, fuzzy
+#~ msgid "Load Fractal Parameters"
+#~ msgstr "3D-parametrar"
+
+#, fuzzy
+#~ msgid "Click here to load your file"
+#~ msgstr "Klikk her for å leggja til ein ny filtype."
+
+#, fuzzy
+#~ msgid "Click here to cancel load procedure"
+#~ msgstr "Vel denne for å leggja til eller endra ein søkemotor."
+
+#, fuzzy
+#~ msgid "Save Fractal Parameters"
+#~ msgstr "3D-parametrar"
+
+#, fuzzy
+#~ msgid "Click here to save your file"
+#~ msgstr "Trykk her for å setja opp det regulære uttrykket"
+
+#, fuzzy
+#~ msgid "Click here to cancel save procedure"
+#~ msgstr "Trykk her for å setja opp det regulære uttrykket"
+
+#, fuzzy
+#~ msgid "File '%s' is not a FractalExplorer file"
+#~ msgstr "Fila '%1' kan ikkje lesast"
+
+#, fuzzy
+#~ msgid "Rendering Fractal..."
+#~ msgstr "Spolar bandet tilbake ..."
+
+#, fuzzy
+#~ msgid "Delete Fractal"
+#~ msgstr "Fjern ramme"
+
+#, fuzzy
+#~ msgid "Edit fractal name"
+#~ msgstr "Rediger sportittel"
+
+#, fuzzy
+#~ msgid "Fractal name:"
+#~ msgstr "Fornamn:"
+
+#, fuzzy
+#~ msgid "New Fractal"
+#~ msgstr "Name=Fraktalkart"
+
+#, fuzzy
+#~ msgid "Delete currently selected fractal"
+#~ msgstr "Slett valt post?"
+
+#~ msgid "General Options"
+#~ msgstr "Generelle val"
+
+#, fuzzy
+#~ msgid "Transparent Background"
+#~ msgstr "Gjennomsiktig, lys bakgrunn"
+
+#, fuzzy
+#~ msgid "Create New Image"
+#~ msgstr "Lag ny side"
+
+#, fuzzy
+#~ msgid "Create a new image when applying filter"
+#~ msgstr "Lag ny profil"
+
+#, fuzzy
+#~ msgid "High Quality Preview"
+#~ msgstr "Skru av førehandsvising"
+
+#, fuzzy
+#~ msgid "Enable/disable high quality preview"
+#~ msgstr "Skrur treoversikten av/på"
+
+#, fuzzy
+#~ msgid "Antialiasing Options"
+#~ msgstr "Anti-aliasing"
+
+#, fuzzy
+#~ msgid "Enable Antialiasing"
+#~ msgstr "Anti-aliasing"
+
+#, fuzzy
+#~ msgid "Directional"
+#~ msgstr "Retning:"
+
+#~ msgid "Point"
+#~ msgstr "Peikar"
+
+#, fuzzy
+#~ msgid "Spot"
+#~ msgstr "Sorter"
+
+#, fuzzy
+#~ msgid "Light Type:"
+#~ msgstr "Mime-typar:"
+
+#, fuzzy
+#~ msgid "Select Lightsource Color"
+#~ msgstr "Vel farge"
+
+#, fuzzy
+#~ msgid "Light Color:"
+#~ msgstr "Mange fargar"
+
+#, fuzzy
+#~ msgid "Set light source color"
+#~ msgstr "Set generell farge"
+
+#~ msgid "Position"
+#~ msgstr "Posisjon"
+
+#, fuzzy
+#~ msgid "Z:"
+#~ msgstr "EAZ:"
+
+#, fuzzy
+#~ msgid "Direction Vector"
+#~ msgstr "Retning:"
+
+#, fuzzy
+#~ msgid "Intensity Levels"
+#~ msgstr "Intensitet:"
+
+#, fuzzy
+#~ msgid "Ambient:"
+#~ msgstr "Argument:"
+
+#, fuzzy
+#~ msgid "Diffuse:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Reflectivity"
+#~ msgstr "Gradering"
+
+#, fuzzy
+#~ msgid "Specular:"
+#~ msgstr "Spesiell:"
+
+#~ msgid "Highlight:"
+#~ msgstr "Opplysing:"
+
+#, fuzzy
+#~ msgid "Enable Bump Mapping"
+#~ msgstr "Skru av tekstbryting"
+
+#, fuzzy
+#~ msgid "Logarithmic"
+#~ msgstr "Logisk"
+
+#, fuzzy
+#~ msgid "Sinusoidal"
+#~ msgstr "Signal"
+
+#, fuzzy
+#~ msgid "Spherical"
+#~ msgstr "Spesiell"
+
+#, fuzzy
+#~ msgid "Curve:"
+#~ msgstr "Kurve"
+
+#, fuzzy
+#~ msgid "Maximum Height:"
+#~ msgstr "Høgste lengd"
+
+#, fuzzy
+#~ msgid "Minimum Height:"
+#~ msgstr "&Minimumslengd:"
+
+#, fuzzy
+#~ msgid "Environment Settings"
+#~ msgstr "Skriftinnstillingar"
+
+#, fuzzy
+#~ msgid "Enable Environment Mapping"
+#~ msgstr "Skru på kontering"
+
+#, fuzzy
+#~ msgid "Enable/disable environment-mapping (reflection)"
+#~ msgstr "Skru av/på utklippstavlehandlingar"
+
+#, fuzzy
+#~ msgid "Environment Image:"
+#~ msgstr "Miljø"
+
+#, fuzzy
+#~ msgid "Environment image to use"
+#~ msgstr "Miljøvariablar"
+
+#, fuzzy
+#~ msgid "Light"
+#~ msgstr "Høgre"
+
+#, fuzzy
+#~ msgid "Material"
+#~ msgstr "seriell"
+
+#, fuzzy
+#~ msgid "Environment Map"
+#~ msgstr "Miljø"
+
+#, fuzzy
+#~ msgid "Lighting Effects"
+#~ msgstr "Lyssetjing 1"
+
+#, fuzzy
+#~ msgid "Update Preview"
+#~ msgstr "Førehandsvis side"
+
+#, fuzzy
+#~ msgid "Recompute preview image"
+#~ msgstr "Fjern bilete"
+
+#, fuzzy
+#~ msgid "Box"
+#~ msgstr "Postboks"
+
+#, fuzzy
+#~ msgid "Cylinder"
+#~ msgstr "lineær"
+
+#, fuzzy
+#~ msgid "Map to:"
+#~ msgstr " til:"
+
+#, fuzzy
+#~ msgid "Plane"
+#~ msgstr "Panel"
+
+#~ msgid "Sphere"
+#~ msgstr "Kule"
+
+#, fuzzy
+#~ msgid "Type of object to map to"
+#~ msgstr "Sambandstype"
+
+#, fuzzy
+#~ msgid "Tile Source Image"
+#~ msgstr "Lukk bilete"
+
+#, fuzzy
+#~ msgid "Enable Tooltips"
+#~ msgstr "&Aktiver informasjonskapslar"
+
+#, fuzzy
+#~ msgid "Enable/disable tooltip messages"
+#~ msgstr "Skru av/på verktøylinja."
+
+#, fuzzy
+#~ msgid "Point Light"
+#~ msgstr "Liste over skrifttypar"
+
+#, fuzzy
+#~ msgid "Directional Light"
+#~ msgstr "Retning:"
+
+#, fuzzy
+#~ msgid "No Light"
+#~ msgstr "Notathøgd"
+
+#, fuzzy
+#~ msgid "Lightsource Color:"
+#~ msgstr "Mange fargar"
+
+#, fuzzy
+#~ msgid "Object X position in XYZ space"
+#~ msgstr "Vel posisjonen i toppblokka."
+
+#, fuzzy
+#~ msgid "Object Y position in XYZ space"
+#~ msgstr "Vel posisjonen i toppblokka."
+
+#, fuzzy
+#~ msgid "Object Z position in XYZ space"
+#~ msgstr "Vel posisjonen i toppblokka."
+
+#~ msgid "Rotation"
+#~ msgstr "Rotering"
+
+#, fuzzy
+#~ msgid "Front:"
+#~ msgstr "Skrifttype:"
+
+#, fuzzy
+#~ msgid "Back:"
+#~ msgstr "Tilbake"
+
+#~ msgid "Top:"
+#~ msgstr "Topp:"
+
+#~ msgid "Bottom:"
+#~ msgstr "Botn:"
+
+#~ msgid "Left:"
+#~ msgstr "Venstre:"
+
+#~ msgid "Right:"
+#~ msgstr "Høgre:"
+
+#, fuzzy
+#~ msgid "Scale X:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "X scale (size)"
+#~ msgstr "liten"
+
+#, fuzzy
+#~ msgid "Y scale (size)"
+#~ msgstr "liten"
+
+#, fuzzy
+#~ msgid "Z scale (size)"
+#~ msgstr "liten"
+
+#, fuzzy
+#~ msgid "Images for the Cap Faces"
+#~ msgstr "Bruk %s for namnet til ringaren"
+
+#~ msgid "Size"
+#~ msgstr "Storleik"
+
+#, fuzzy
+#~ msgid "Cylinder length"
+#~ msgstr "Nøkkelstyrke:"
+
+#~ msgid "Orientation"
+#~ msgstr "Retning"
+
+#, fuzzy
+#~ msgid "Map to Object"
+#~ msgstr "Pixmap-objekt"
+
+#, fuzzy
+#~ msgid "Preview!"
+#~ msgstr "Førehandsvising"
+
+#, fuzzy
+#~ msgid "Show Preview Wireframe"
+#~ msgstr "&Førehandsvis"
+
+#, fuzzy
+#~ msgid "AlienMap"
+#~ msgstr "Juster"
+
+#, fuzzy
+#~ msgid "Change intensity of the red channel"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Change intensity of the green channel"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Change intensity of the blue channel"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "About AlienMap"
+#~ msgstr "Om KView"
+
+#, fuzzy
+#~ msgid "R/H-Frequency:"
+#~ msgstr "Frekvens"
+
+#, fuzzy
+#~ msgid "G/S-Frequency:"
+#~ msgstr "Frekvens"
+
+#, fuzzy
+#~ msgid "B/L-Frequency:"
+#~ msgstr "Frekvens"
+
+#~ msgid "Mode"
+#~ msgstr "Modus"
+
+#, fuzzy
+#~ msgid "Modify Red/Hue Channel"
+#~ msgstr "Raud kanal:"
+
+#, fuzzy
+#~ msgid "About AlienMap2"
+#~ msgstr "Om KView"
+
+#, fuzzy
+#~ msgid "Load KISS Palette"
+#~ msgstr "Last palett"
+
+#, fuzzy
+#~ msgid "Unsupported number of colors (%d)"
+#~ msgstr "Ustøtta video-codec."
+
+#, fuzzy
+#~ msgid ""
+#~ "CEL Couldn't write image to\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kunne ikkje skriva til\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "Keep the first value"
+#~ msgstr "Lagra fila"
+
+#, fuzzy
+#~ msgid "Fill with parameter k"
+#~ msgstr "Utskriftsparametrar"
+
+#, fuzzy
+#~ msgid "Delta function"
+#~ msgstr "&Fjern handling"
+
+#, fuzzy
+#~ msgid "Delta function stepped"
+#~ msgstr "Virtuelle funksjonar"
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#, fuzzy
+#~ msgid "Use average value"
+#~ msgstr "Endra verdiar for rektangel"
+
+#, fuzzy
+#~ msgid "All black"
+#~ msgstr "svart"
+
+#, fuzzy
+#~ msgid "All gray"
+#~ msgstr "Algerie"
+
+#, fuzzy
+#~ msgid "All white"
+#~ msgstr "Alle filer"
+
+#, fuzzy
+#~ msgid "Continuous gradient"
+#~ msgstr "Fortset lasting"
+
+#, fuzzy
+#~ msgid "Random shared"
+#~ msgstr "&Tilfeldig brett"
+
+#, fuzzy
+#~ msgid "Randoms from seed"
+#~ msgstr "&Tilfeldig brett"
+
+#~ msgid "Hue"
+#~ msgstr "Nyanse"
+
+#~ msgid "Value"
+#~ msgstr "Verdi"
+
+#, fuzzy
+#~ msgid "Random Seed"
+#~ msgstr "Tilfeldig"
+
+#, fuzzy
+#~ msgid "Fix Seed"
+#~ msgstr "Fast"
+
+#, fuzzy
+#~ msgid "New Seed"
+#~ msgstr "Ny teneste"
+
+#, fuzzy
+#~ msgid "Hue Settings"
+#~ msgstr "HSV-innstillingar"
+
+#, fuzzy
+#~ msgid "Saturation Settings"
+#~ msgstr "Handlingsinnstillingar"
+
+#~ msgid "Advanced"
+#~ msgstr "Avansert"
+
+#, fuzzy
+#~ msgid "Other Parameter Settings"
+#~ msgstr "Andre innstillingar"
+
+#, fuzzy
+#~ msgid "Initial Value:"
+#~ msgstr "Startsum"
+
+#, fuzzy
+#~ msgid "Zoom Scale:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "Start Offset:"
+#~ msgstr "Offset:"
+
+#~ msgid "Others"
+#~ msgstr "Andre"
+
+#, fuzzy
+#~ msgid "Misc Operations"
+#~ msgstr "Operasjonar"
+
+#, fuzzy
+#~ msgid "Copy Settings"
+#~ msgstr "Fargeinnstillngar"
+
+#, fuzzy
+#~ msgid "Source Channel:"
+#~ msgstr "Blå kanal:"
+
+#, fuzzy
+#~ msgid "Destination Channel:"
+#~ msgstr "Mål:"
+
+#, fuzzy
+#~ msgid "Copy Parameters"
+#~ msgstr "Parametrar"
+
+#, fuzzy
+#~ msgid "Misc Ops."
+#~ msgstr "Ymse"
+
+#, fuzzy
+#~ msgid "Function Type:"
+#~ msgstr "Funksjon"
+
+#, fuzzy
+#~ msgid "Composition:"
+#~ msgstr "posisjon"
+
+#, fuzzy
+#~ msgid "Misc Arrange:"
+#~ msgstr "&Arranger"
+
+#, fuzzy
+#~ msgid "Mod. Rate:"
+#~ msgstr "Modus:"
+
+#, fuzzy
+#~ msgid "Env. Sensitivity:"
+#~ msgstr "Gradering"
+
+#, fuzzy
+#~ msgid "P(ower Factor):"
+#~ msgstr "S&kru av etter:"
+
+#, fuzzy
+#~ msgid "Parameter k:"
+#~ msgstr "Parameter"
+
+#, fuzzy
+#~ msgid "Range Low:"
+#~ msgstr "Områdefeil"
+
+#, fuzzy
+#~ msgid "Range High:"
+#~ msgstr "Biletehøgd:"
+
+#, fuzzy
+#~ msgid "Ch. Sensitivity:"
+#~ msgstr "Gradering"
+
+#, fuzzy
+#~ msgid "Mutation Rate:"
+#~ msgstr "Utgjevingsdato:"
+
+#, fuzzy
+#~ msgid "Mutation Dist.:"
+#~ msgstr "Gjentakingar:"
+
+#, fuzzy
+#~ msgid "The Graph"
+#~ msgstr "Graf"
+
+#, fuzzy
+#~ msgid "Save Parameters to"
+#~ msgstr "Parametrar"
+
+#, fuzzy
+#~ msgid "Error: could not open \"%s\""
+#~ msgstr ""
+#~ "Kunne ikkje opna\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Parameters were Saved to\n"
+#~ "\"%s\""
+#~ msgstr "Resultata vart lagra til fila\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s\n"
+#~ "exists, Overwrite?"
+#~ msgstr "Loggfil eksisterer, overskriv?"
+
+#, fuzzy
+#~ msgid "Load Parameters from"
+#~ msgstr "Ingen parametrar funne"
+
+#, fuzzy
+#~ msgid "Selective Load from"
+#~ msgstr "&Vel frå:"
+
+#, fuzzy
+#~ msgid "Error: failed to load parameters"
+#~ msgstr "Feil: Kunne ikkje lagra biletet"
+
+#, fuzzy
+#~ msgid "Save as Text"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Data Formatting"
+#~ msgstr "Dataformat"
+
+#, fuzzy
+#~ msgid "Fill (left to right)"
+#~ msgstr "Venstre til høgre"
+
+#, fuzzy
+#~ msgid "Fill (right to left)"
+#~ msgstr "Høgre til venstre"
+
+#, fuzzy
+#~ msgid "Horizontal Style:"
+#~ msgstr "Vassrett delingslinje"
+
+#~ msgid "Left Edge"
+#~ msgstr "Venstre kant"
+
+#~ msgid "Center"
+#~ msgstr "Sentrert"
+
+#~ msgid "Right Edge"
+#~ msgstr "Høgre kant"
+
+#, fuzzy
+#~ msgid "Horizontal Base:"
+#~ msgstr "Horisontal raster:"
+
+#, fuzzy
+#~ msgid "Fill (top to bottom)"
+#~ msgstr "Slett mot botnen"
+
+#, fuzzy
+#~ msgid "Vertical Style:"
+#~ msgstr "Vertikal tekst"
+
+#, fuzzy
+#~ msgid "Top Edge"
+#~ msgstr "Avrunda kantar"
+
+#, fuzzy
+#~ msgid "Bottom Edge"
+#~ msgstr "Nede til venstre"
+
+#, fuzzy
+#~ msgid "Vertical Base:"
+#~ msgstr "Vertikal raster:"
+
+#, fuzzy
+#~ msgid "Grid Size:"
+#~ msgstr "Rutestorleik:"
+
+#, fuzzy
+#~ msgid "Animation Playback: "
+#~ msgstr "&Animasjon"
+
+#, fuzzy
+#~ msgid "Playback: "
+#~ msgstr "Plassert:"
+
+#, fuzzy
+#~ msgid "Play/Stop"
+#~ msgstr "Spel lyd"
+
+#~ msgid "Rewind"
+#~ msgstr "Spol attende"
+
+#, fuzzy
+#~ msgid "Frame %v of %u"
+#~ msgstr "Side %1 av %2"
+
+#, fuzzy
+#~ msgid "Optimizing Animation..."
+#~ msgstr "Optimeringsnivå"
+
+#, fuzzy
+#~ msgid "UnOptimizing Animation..."
+#~ msgstr "Optimeringsnivå"
+
+#, fuzzy
+#~ msgid "Applying lens..."
+#~ msgstr "Kopierer filer ..."
+
+#, fuzzy
+#~ msgid "Lens Effect"
+#~ msgstr "Ingen effekt"
+
+#, fuzzy
+#~ msgid "Set Surroundings to Background Color"
+#~ msgstr "Bakgrunnsfarge i planleggjarvising"
+
+#, fuzzy
+#~ msgid "Make Surroundings Transparent"
+#~ msgstr "Viskelær (gjennomsiktig)"
+
+#, fuzzy
+#~ msgid "Lens Refraction Index:"
+#~ msgstr "Opprettar indeks"
+
+#, fuzzy
+#~ msgid "Cropping..."
+#~ msgstr "Kopierer"
+
+#, fuzzy
+#~ msgid "Auto-Stretching HSV..."
+#~ msgstr "Søkjer ..."
+
+#, fuzzy
+#~ msgid "Adding Blinds..."
+#~ msgstr "pussar linsa ..."
+
+#, fuzzy
+#~ msgid "Blinds"
+#~ msgstr "Overgang"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horisontalt"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertikalt"
+
+#, fuzzy
+#~ msgid "Num Segments:"
+#~ msgstr "Argument:"
+
+#, fuzzy
+#~ msgid "Random Seed:"
+#~ msgstr "Tilfeldig"
+
+#, fuzzy
+#~ msgid "Randomization %:"
+#~ msgstr "Organisasjon:"
+
+#, fuzzy
+#~ msgid "Repeat:"
+#~ msgstr "&Repeter:"
+
+#, fuzzy
+#~ msgid "Border Average..."
+#~ msgstr "&Kantlinjer ..."
+
+#, fuzzy
+#~ msgid "Borderaverage"
+#~ msgstr "snitt"
+
+#, fuzzy
+#~ msgid "Border Size"
+#~ msgstr "Venstre kant"
+
+#~ msgid "Thickness:"
+#~ msgstr "Tjukkleik:"
+
+#, fuzzy
+#~ msgid "Bucket Size:"
+#~ msgstr "Blokk-storleik"
+
+#, fuzzy
+#~ msgid "1 (nonsense?)"
+#~ msgstr "(ingen)"
+
+#, fuzzy
+#~ msgid "Map Type"
+#~ msgstr "Mime-type"
+
+#, fuzzy
+#~ msgid "Linear Map"
+#~ msgstr "Lineær"
+
+#, fuzzy
+#~ msgid "Spherical Map"
+#~ msgstr "Lim inn spesiell"
+
+#, fuzzy
+#~ msgid "Compensate for Darkening"
+#~ msgstr "Kompilatoråtvaringar"
+
+#, fuzzy
+#~ msgid "Invert Bumpmap"
+#~ msgstr "Sett inn pixmap"
+
+#, fuzzy
+#~ msgid "Tile Bumpmap"
+#~ msgstr "Fjesingar"
+
+#, fuzzy
+#~ msgid "Azimuth:"
+#~ msgstr "Forfattar:"
+
+#, fuzzy
+#~ msgid "Elevation:"
+#~ msgstr "Utval:"
+
+#, fuzzy
+#~ msgid "X Offset:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Y Offset:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Waterlevel:"
+#~ msgstr "automatisk avsløring"
+
+#, fuzzy
+#~ msgid "Adding Checkerboard..."
+#~ msgstr "Legg til ny oppføring ..."
+
+#, fuzzy
+#~ msgid "Checkerboard"
+#~ msgstr "Avmerkingsboks"
+
+#, fuzzy
+#~ msgid "Check Size:"
+#~ msgstr "Mellomlager&storleik:"
+
+#, fuzzy
+#~ msgid "Color Enhance..."
+#~ msgstr "Farge for spelar 1 ..."
+
+#, fuzzy
+#~ msgid "Colorifying..."
+#~ msgstr "Fargar ..."
+
+#, fuzzy
+#~ msgid "Colorify"
+#~ msgstr "Farge"
+
+#~ msgid "Color"
+#~ msgstr "Farge"
+
+#, fuzzy
+#~ msgid "Custom Color:"
+#~ msgstr "Eigendefinerte fargar"
+
+#, fuzzy
+#~ msgid "Colorify Custom Color"
+#~ msgstr "Eigendefinerte fargar"
+
+#, fuzzy
+#~ msgid "Removing color..."
+#~ msgstr "Sorterer fargar ..."
+
+#, fuzzy
+#~ msgid "Color to Alpha"
+#~ msgstr "Farge ved "
+
+#~ msgid "From:"
+#~ msgstr "Frå:"
+
+#, fuzzy
+#~ msgid "Color to Alpha Color Picker"
+#~ msgstr "kSirc Fargeveljar"
+
+#, fuzzy
+#~ msgid "rgb-compose"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "RGBA"
+#~ msgstr "GB"
+
+#, fuzzy
+#~ msgid "Alpha:"
+#~ msgstr "lpq:"
+
+#, fuzzy
+#~ msgid "rgba-compose"
+#~ msgstr "&Rediger"
+
+#~ msgid "Hue:"
+#~ msgstr "Nyanse:"
+
+#~ msgid "Saturation:"
+#~ msgstr "Metting:"
+
+#~ msgid "Value:"
+#~ msgstr "Verdi:"
+
+#, fuzzy
+#~ msgid "hsv-compose"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "cmy-compose"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "cmyk-compose"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "compose: Could not get layers for image %d"
+#~ msgstr "Kunne ikkje lasta bilete %1"
+
+#, fuzzy
+#~ msgid "Composing..."
+#~ msgstr "Fargar ..."
+
+#, fuzzy
+#~ msgid "Compose: Drawables have different size"
+#~ msgstr ""
+#~ "Områda\n"
+#~ "%1\n"
+#~ "og\n"
+#~ "%2\n"
+#~ "har ulik storleik"
+
+#, fuzzy
+#~ msgid "Compose: Images have different size"
+#~ msgstr ""
+#~ "Områda\n"
+#~ "%1\n"
+#~ "og\n"
+#~ "%2\n"
+#~ "har ulik storleik"
+
+#, fuzzy
+#~ msgid "Compose Channels"
+#~ msgstr "Teiknsett i redigerar"
+
+#, fuzzy
+#~ msgid "Channel Representations"
+#~ msgstr "Lag vevpresentasjon"
+
+#, fuzzy
+#~ msgid "Extend"
+#~ msgstr "Utvida"
+
+#~ msgid "Crop"
+#~ msgstr "Kutt"
+
+#, fuzzy
+#~ msgid "Applying convolution"
+#~ msgstr "Applikasjon"
+
+#, fuzzy
+#~ msgid "Convolution Matrix"
+#~ msgstr "Om KMatrix"
+
+#, fuzzy
+#~ msgid "Divisor:"
+#~ msgstr "Deling:"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#, fuzzy
+#~ msgid "Alpha-weighting"
+#~ msgstr "Name=Lyn"
+
+#~ msgid "Border"
+#~ msgstr "Kant"
+
+#, fuzzy
+#~ msgid "Save as C-Source"
+#~ msgstr "Biletekjelde"
+
+#, fuzzy
+#~ msgid "Prefixed Name:"
+#~ msgstr "Skrivarnamn:"
+
+#, fuzzy
+#~ msgid "Save Comment to File"
+#~ msgstr "Lagra til fil"
+
+#, fuzzy
+#~ msgid "Opacity:"
+#~ msgstr "Transparens"
+
+#, fuzzy
+#~ msgid "Cubistic Transformation"
+#~ msgstr "Kontaktinformasjon"
+
+#, fuzzy
+#~ msgid "Cubism"
+#~ msgstr "Tilpassa"
+
+#, fuzzy
+#~ msgid "Use Background Color"
+#~ msgstr "Bakgrunnsfarge"
+
+#, fuzzy
+#~ msgid "Tile Size:"
+#~ msgstr "Tittel:"
+
+#, fuzzy
+#~ msgid "Tile Saturation:"
+#~ msgstr "Metting:"
+
+#~ msgid "Upper"
+#~ msgstr "Øvst"
+
+#~ msgid "Lower"
+#~ msgstr "Senk"
+
+#~ msgid "Smooth"
+#~ msgstr "Jamn"
+
+#~ msgid "Free"
+#~ msgstr "Ledig"
+
+#, fuzzy
+#~ msgid "Curve Bend"
+#~ msgstr "Kurve"
+
+#, fuzzy
+#~ msgid "CopyInv"
+#~ msgstr "Kopier"
+
+#~ msgid "Swap"
+#~ msgstr "Veksleminne"
+
+#, fuzzy
+#~ msgid "LoadCurve"
+#~ msgstr "Kurve"
+
+#, fuzzy
+#~ msgid "SaveCurve"
+#~ msgstr "Kurve"
+
+#, fuzzy
+#~ msgid "Rotate: "
+#~ msgstr "Roter"
+
+#, fuzzy
+#~ msgid "Curve for Border: "
+#~ msgstr "Farge/ramme"
+
+#, fuzzy
+#~ msgid "Curve Type: "
+#~ msgstr "Kodetype"
+
+#, fuzzy
+#~ msgid "PreviewOnce"
+#~ msgstr "Førehandsvising"
+
+#, fuzzy
+#~ msgid "Load Curve Points from file"
+#~ msgstr "Last nivå frå fil"
+
+#, fuzzy
+#~ msgid "Save Curve Points to file"
+#~ msgstr "Lagra til fil"
+
+#, fuzzy
+#~ msgid "Curve Bend..."
+#~ msgstr "Lag ..."
+
+#~ msgid "green"
+#~ msgstr "grøn"
+
+#~ msgid "blue"
+#~ msgstr "blå"
+
+#, fuzzy
+#~ msgid "hue"
+#~ msgstr "den"
+
+#, fuzzy
+#~ msgid "saturation"
+#~ msgstr "Metting"
+
+#, fuzzy
+#~ msgid "value"
+#~ msgstr "Verdi"
+
+#~ msgid "cyan"
+#~ msgstr "cyan"
+
+#~ msgid "magenta"
+#~ msgstr "magenta"
+
+#~ msgid "yellow"
+#~ msgstr "gul"
+
+#, fuzzy
+#~ msgid "Cyan"
+#~ msgstr "Cyan:"
+
+#, fuzzy
+#~ msgid "Magenta"
+#~ msgstr "Magenta:"
+
+#~ msgid "Yellow"
+#~ msgstr "Gul"
+
+#, fuzzy
+#~ msgid "cyan_k"
+#~ msgstr "cyan"
+
+#, fuzzy
+#~ msgid "magenta_k"
+#~ msgstr "magenta"
+
+#, fuzzy
+#~ msgid "yellow_k"
+#~ msgstr "gul"
+
+#~ msgid "black"
+#~ msgstr "svart"
+
+#, fuzzy
+#~ msgid "Cyan_K"
+#~ msgstr "Cyan:"
+
+#, fuzzy
+#~ msgid "Magenta_K"
+#~ msgstr "Magenta:"
+
+#, fuzzy
+#~ msgid "Yellow_K"
+#~ msgstr "Gul"
+
+#, fuzzy
+#~ msgid "alpha"
+#~ msgstr "Japan"
+
+#, fuzzy
+#~ msgid "Decomposing..."
+#~ msgstr "Søker ..."
+
+#, fuzzy
+#~ msgid "Decompose"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "Extract Channels:"
+#~ msgstr "Ut-kanalar"
+
+#, fuzzy
+#~ msgid "Deinterlace..."
+#~ msgstr "Erstatt ..."
+
+#, fuzzy
+#~ msgid "Deinterlace"
+#~ msgstr "KDE brukarmiljø"
+
+#, fuzzy
+#~ msgid "Keep Odd Fields"
+#~ msgstr "Vel felt"
+
+#, fuzzy
+#~ msgid "Keep Even Fields"
+#~ msgstr "Vel felt"
+
+#, fuzzy
+#~ msgid "Depth-merging..."
+#~ msgstr "&Nummerering ..."
+
+#, fuzzy
+#~ msgid "Depth Merge"
+#~ msgstr "Djupne"
+
+#, fuzzy
+#~ msgid "Source 1:"
+#~ msgstr "Kjelde:"
+
+#, fuzzy
+#~ msgid "Depth Map:"
+#~ msgstr "Djupne:"
+
+#, fuzzy
+#~ msgid "Source 2:"
+#~ msgstr "Kjelde:"
+
+#, fuzzy
+#~ msgid "Overlap:"
+#~ msgstr "Overtrekk"
+
+#, fuzzy
+#~ msgid "Scale 1:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "Scale 2:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "Despeckling..."
+#~ msgstr "&Stavekontroll ..."
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#, fuzzy
+#~ msgid "Adaptive"
+#~ msgstr "Aktiv"
+
+#, fuzzy
+#~ msgid "Recursive"
+#~ msgstr "&Rekursivt"
+
+#, fuzzy
+#~ msgid "Black Level:"
+#~ msgstr "&1. nivå:"
+
+#, fuzzy
+#~ msgid "White Level:"
+#~ msgstr "&Snill-nivå"
+
+#, fuzzy
+#~ msgid "Destriping..."
+#~ msgstr "Skildring"
+
+#, fuzzy
+#~ msgid "Destripe"
+#~ msgstr "Skrivebord"
+
+#~ msgid "Width:"
+#~ msgstr "Breidd:"
+
+#, fuzzy
+#~ msgid "Creating diffraction pattern..."
+#~ msgstr "Lagar ny katalog"
+
+#, fuzzy
+#~ msgid "Frequencies"
+#~ msgstr "Frekvens"
+
+#, fuzzy
+#~ msgid "Contours"
+#~ msgstr "Kontrast"
+
+#, fuzzy
+#~ msgid "Sharp edges"
+#~ msgstr "Kontrast:"
+
+#, fuzzy
+#~ msgid "Brightness:"
+#~ msgstr "MAGIC-lysstyrke:"
+
+#, fuzzy
+#~ msgid "Scattering:"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~ msgid "Polatization:"
+#~ msgstr "Partisjonar"
+
+#~ msgid "Other options"
+#~ msgstr "Andre val"
+
+#, fuzzy
+#~ msgid "Displacing..."
+#~ msgstr "viser ..."
+
+#, fuzzy
+#~ msgid "Displace"
+#~ msgstr "Vis"
+
+#, fuzzy
+#~ msgid "Displace Options"
+#~ msgstr "Make-val"
+
+#, fuzzy
+#~ msgid "X Displacement:"
+#~ msgstr "Erstatning:"
+
+#, fuzzy
+#~ msgid "Emboss"
+#~ msgstr "Tap"
+
+#~ msgid "Function"
+#~ msgstr "Funksjon"
+
+#, fuzzy
+#~ msgid "Bumpmap"
+#~ msgstr "'Bitmap'"
+
+#, fuzzy
+#~ msgid "Do Preview"
+#~ msgstr "Førehandsvising"
+
+#, fuzzy
+#~ msgid "Engraving..."
+#~ msgstr "Lagrar ..."
+
+#, fuzzy
+#~ msgid "Engrave"
+#~ msgstr "alvorleg"
+
+#, fuzzy
+#~ msgid "Limit Line Width"
+#~ msgstr "Linjebreidd:"
+
+#~ msgid "Height:"
+#~ msgstr "Høgd:"
+
+#, fuzzy
+#~ msgid "Color Exchange..."
+#~ msgstr "Endra ..."
+
+#, fuzzy
+#~ msgid "Color Exchange"
+#~ msgstr "Fargeoppsett"
+
+#, fuzzy
+#~ msgid "To Color"
+#~ msgstr "Ingen farge"
+
+#, fuzzy
+#~ msgid "From Color"
+#~ msgstr "Ingen farge"
+
+#, fuzzy
+#~ msgid "Color Exchange: To Color"
+#~ msgstr "fargen for spelar %1 er endra"
+
+#, fuzzy
+#~ msgid "Color Exchange: From Color"
+#~ msgstr "fargen for spelar %1 er endra"
+
+#, fuzzy
+#~ msgid "Red Threshold:"
+#~ msgstr "Terskel:"
+
+#, fuzzy
+#~ msgid "Green Threshold:"
+#~ msgstr "Terskel:"
+
+#, fuzzy
+#~ msgid "Blue Threshold:"
+#~ msgstr "Terskel:"
+
+#, fuzzy
+#~ msgid "Lock Thresholds"
+#~ msgstr "Terskel:"
+
+#~ msgid "Untitled"
+#~ msgstr "Utan tittel"
+
+#, fuzzy
+#~ msgid "Temporary"
+#~ msgstr "Minne"
+
+#, fuzzy
+#~ msgid "Available Images:"
+#~ msgstr "Tilgjengelege miksarar"
+
+#, fuzzy
+#~ msgid "On Film:"
+#~ msgstr "Ei fil"
+
+#, fuzzy
+#~ msgid "Add >>"
+#~ msgstr "&Legg til >>"
+
+#~ msgid "Remove"
+#~ msgstr "Fjern"
+
+#, fuzzy
+#~ msgid "Film"
+#~ msgstr "Fil"
+
+#, fuzzy
+#~ msgid "Select Film Color"
+#~ msgstr "Vel farge"
+
+#~ msgid "Color:"
+#~ msgstr "Farge:"
+
+#, fuzzy
+#~ msgid "Start Index:"
+#~ msgstr "KDat: Indeks"
+
+#~ msgid "Font:"
+#~ msgstr "Skrifttype:"
+
+#, fuzzy
+#~ msgid "Select Number Color"
+#~ msgstr "Vel farge"
+
+#, fuzzy
+#~ msgid "At Bottom"
+#~ msgstr "Botn"
+
+#, fuzzy
+#~ msgid "At Top"
+#~ msgstr "Topp"
+
+#, fuzzy
+#~ msgid "Image Selection"
+#~ msgstr "Områdeval"
+
+#~ msgid "Image Height:"
+#~ msgstr "Biletehøgd:"
+
+#, fuzzy
+#~ msgid "Image Spacing:"
+#~ msgstr "Mellomrom:"
+
+#, fuzzy
+#~ msgid "Hole Width:"
+#~ msgstr "Notatbreidd"
+
+#~ msgid "Hole Height:"
+#~ msgstr "Høgd på hol:"
+
+#, fuzzy
+#~ msgid "Hole Spacing:"
+#~ msgstr "Mellomrom:"
+
+#, fuzzy
+#~ msgid "Number Height:"
+#~ msgstr "Biletehøgd:"
+
+#, fuzzy
+#~ msgid "Reset to Defaults"
+#~ msgstr "Gjenopprett standardinnstillingar"
+
+#, fuzzy
+#~ msgid "FlareFX"
+#~ msgstr "stor"
+
+#, fuzzy
+#~ msgid "Center of FlareFX"
+#~ msgstr "Sentrert flislagt"
+
+#, fuzzy
+#~ msgid "Show Cursor"
+#~ msgstr "&Vis brukarar"
+
+#, fuzzy
+#~ msgid "Fractal Trace"
+#~ msgstr "Formater band"
+
+#, fuzzy
+#~ msgid "Outside Type"
+#~ msgstr "Mime-type"
+
+#, fuzzy
+#~ msgid "Warp"
+#~ msgstr "Gi åtvaring"
+
+#, fuzzy
+#~ msgid "Mandelbrot Parameters"
+#~ msgstr "Mandelbrot-sett"
+
+#, fuzzy
+#~ msgid "Blur Radius"
+#~ msgstr "Radius:"
+
+#~ msgid "Unnamed"
+#~ msgstr "Utan namn"
+
+#, fuzzy
+#~ msgid "Save as Brush"
+#~ msgstr "Lagra som: %s"
+
+#~ msgid "Spacing:"
+#~ msgstr "Mellomrom:"
+
+#, fuzzy
+#~ msgid "Save as GIcon"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Icon Name:"
+#~ msgstr "Brukarnamn:"
+
+#, fuzzy
+#~ msgid "GIF: can't open %s\n"
+#~ msgstr "kan ikkje opna %1"
+
+#, fuzzy
+#~ msgid "GIF Warning"
+#~ msgstr "PGP-åtvaring"
+
+#, fuzzy
+#~ msgid "Save as GIF"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Interlace"
+#~ msgstr "Integral"
+
+#, fuzzy
+#~ msgid "GIF Comment:"
+#~ msgstr "Kommentar:"
+
+#, fuzzy
+#~ msgid "Animated GIF Options"
+#~ msgstr "Avanserte val"
+
+#, fuzzy
+#~ msgid "Loop forever"
+#~ msgstr "Repeterer for alltid"
+
+#~ msgid "Milliseconds"
+#~ msgstr "Millisekund"
+
+#, fuzzy
+#~ msgid "Frame Disposal where Unspecified: "
+#~ msgstr "Name=Vis i oppgitt vindauge"
+
+#, fuzzy
+#~ msgid "GIF: error writing output file\n"
+#~ msgstr "Feil ved skriving av fil!"
+
+#, fuzzy
+#~ msgid "Error in GIMP brush pipe file."
+#~ msgstr "Feil ved lasting av biletefil."
+
+#, fuzzy
+#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgstr "Biletet er øydelagd."
+
+#, fuzzy
+#~ msgid "Save as Brush Pipe"
+#~ msgstr "Lagra ei fil"
+
+#, fuzzy
+#~ msgid "Spacing (Percent):"
+#~ msgstr "Drapsprosent: "
+
+#, fuzzy
+#~ msgid "Cell Size:"
+#~ msgstr "Cella er"
+
+#, fuzzy
+#~ msgid "Number of Cells:"
+#~ msgstr "Tal på bier:"
+
+#, fuzzy
+#~ msgid " Rows of "
+#~ msgstr "# Rader: "
+
+#, fuzzy
+#~ msgid "Display as:"
+#~ msgstr "Vis"
+
+#, fuzzy
+#~ msgid "Dimension:"
+#~ msgstr "Dimensjon"
+
+#, fuzzy
+#~ msgid "Ranks:"
+#~ msgstr "Rang:"
+
+#~ msgid "Selection:"
+#~ msgstr "Utval:"
+
+#, fuzzy
+#~ msgid "Background (%dms)"
+#~ msgstr "Bakgrunn"
+
+#, fuzzy
+#~ msgid "Frame %d"
+#~ msgstr "Rammesett %d"
+
+#, fuzzy
+#~ msgid "Frame %d (%dms)"
+#~ msgstr "Rammesett %d"
+
+#, fuzzy
+#~ msgid "Glass Tile..."
+#~ msgstr "Klassefil"
+
+#, fuzzy
+#~ msgid "Glass Tile"
+#~ msgstr "Klassefil"
+
+#, fuzzy
+#~ msgid "Tile Width:"
+#~ msgstr "Linjebreidd:"
+
+#~ msgid "Tile Height:"
+#~ msgstr "Høgd på flis:"
+
+#, fuzzy
+#~ msgid "Qbist..."
+#~ msgstr "&Liste ..."
+
+#, fuzzy
+#~ msgid "Gradient Map..."
+#~ msgstr "Gradvis overgang"
+
+#, fuzzy
+#~ msgid "Drawing Grid..."
+#~ msgstr "Opprettar indeks ..."
+
+#, fuzzy
+#~ msgid "Width: "
+#~ msgstr "Breidd:"
+
+#, fuzzy
+#~ msgid "Spacing: "
+#~ msgstr "Mellomrom:"
+
+#, fuzzy
+#~ msgid "Horizontal Color"
+#~ msgstr "Berre vassrett"
+
+#, fuzzy
+#~ msgid "Vertical Color"
+#~ msgstr "Berre loddrett"
+
+#, fuzzy
+#~ msgid "Intersection Color"
+#~ msgstr "Tilbakestill fargar"
+
+#, fuzzy
+#~ msgid "GIMP Table Magic"
+#~ msgstr "Tabelltaggar"
+
+#, fuzzy
+#~ msgid "HTML Page Options"
+#~ msgstr "Make-val"
+
+#, fuzzy
+#~ msgid "Generate Full HTML Document"
+#~ msgstr "Berre lag HTML-del"
+
+#, fuzzy
+#~ msgid "Use Cellspan"
+#~ msgstr "Brukarklasse"
+
+#, fuzzy
+#~ msgid "Compress TD tags"
+#~ msgstr "Kommentartaggar"
+
+#~ msgid "Caption"
+#~ msgstr "Tittel"
+
+#, fuzzy
+#~ msgid "The text for the table caption."
+#~ msgstr "Vel ein tast for den valte handlinga"
+
+#, fuzzy
+#~ msgid "Cell Content:"
+#~ msgstr "Cellekommentar"
+
+#, fuzzy
+#~ msgid "Table Options"
+#~ msgstr "Tar-val"
+
+#, fuzzy
+#~ msgid "Border:"
+#~ msgstr "Kantlinjer:"
+
+#, fuzzy
+#~ msgid "Cell-Padding:"
+#~ msgstr "Padding"
+
+#, fuzzy
+#~ msgid "Cell-Spacing:"
+#~ msgstr "Cellemellomrom"
+
+#, fuzzy
+#~ msgid "Guillotine..."
+#~ msgstr "&Gå til linje ..."
+
+#, fuzzy
+#~ msgid "Hot"
+#~ msgstr "Vert"
+
+#, fuzzy
+#~ msgid "Create New Layer"
+#~ msgstr "Lag ny mappe"
+
+#~ msgid "Action"
+#~ msgstr "Handling"
+
+#, fuzzy
+#~ msgid "Reduce Saturation"
+#~ msgstr "Metting"
+
+#, fuzzy
+#~ msgid "Blacken"
+#~ msgstr "Tilbake"
+
+#, fuzzy
+#~ msgid "Illusion..."
+#~ msgstr "Insinuering ..."
+
+#, fuzzy
+#~ msgid "Illusion"
+#~ msgstr "Spørsmål"
+
+#~ msgid "Division:"
+#~ msgstr "Deling:"
+
+#, fuzzy
+#~ msgid "Mode 1"
+#~ msgstr "Modus"
+
+#, fuzzy
+#~ msgid "Mode 2"
+#~ msgstr "Modus"
+
+#, fuzzy
+#~ msgid "Warping..."
+#~ msgstr "Startar ..."
+
+#, fuzzy
+#~ msgid "Warping Frame Nr %d ..."
+#~ msgstr "Skriv ut ramme ..."
+
+#, fuzzy
+#~ msgid "Ping Pong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Animate"
+#~ msgstr "Animer"
+
+#, fuzzy
+#~ msgid "Number of Frames:"
+#~ msgstr "Tal på plan:"
+
+#~ msgid "Reverse"
+#~ msgstr "Omvendt"
+
+#, fuzzy
+#~ msgid "Deform Radius:"
+#~ msgstr "Radius:"
+
+#, fuzzy
+#~ msgid "Deform Amount:"
+#~ msgstr "Energi"
+
+#, fuzzy
+#~ msgid "Deform Mode"
+#~ msgstr "&Demonstrasjon"
+
+#~ msgid "Move"
+#~ msgstr "Flytt"
+
+#, fuzzy
+#~ msgid "Grow"
+#~ msgstr "Veks "
+
+#, fuzzy
+#~ msgid "Shrink"
+#~ msgstr "Sri Lanka"
+
+#, fuzzy
+#~ msgid "Bilinear"
+#~ msgstr "lineær"
+
+#, fuzzy
+#~ msgid "Max Depth:"
+#~ msgstr "Djupne:"
+
+#, fuzzy
+#~ msgid "IWarp"
+#~ msgstr "Icap"
+
+#, fuzzy
+#~ msgid "Number of Tiles"
+#~ msgstr "Tal på røyr"
+
+#, fuzzy
+#~ msgid "Number of pieces going across"
+#~ msgstr "Tal på repetisjonar"
+
+#, fuzzy
+#~ msgid "Number of pieces going down"
+#~ msgstr "Tal på klassar: "
+
+#, fuzzy
+#~ msgid "Bevel Width:"
+#~ msgstr "Cellebreidd:"
+
+#, fuzzy
+#~ msgid "Jigsaw Style"
+#~ msgstr "Vindaugsstil"
+
+#~ msgid "Square"
+#~ msgstr "Firkant"
+
+#, fuzzy
+#~ msgid "Curved"
+#~ msgstr "Kurve"
+
+#, fuzzy
+#~ msgid "Disable Tooltips"
+#~ msgstr "Skru av alarm"
+
+#, fuzzy
+#~ msgid "Toggle Tooltips on/off"
+#~ msgstr "Skru skrifttypeverktøylinje av/på"
+
+#, fuzzy
+#~ msgid "can't open \"%s\"\n"
+#~ msgstr "kan ikkje opna %1"
+
+#, fuzzy
+#~ msgid "JPEG preview"
+#~ msgstr "Førehandsvising"
+
+#, fuzzy
+#~ msgid "Size: unknown"
+#~ msgstr "ukjend"
+
+#, fuzzy
+#~ msgid "Save as JPEG"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Preview (in image window)"
+#~ msgstr "Vis i nytt vindauge"
+
+#, fuzzy
+#~ msgid "Smoothing:"
+#~ msgstr "Jamnar ut ..."
+
+#, fuzzy
+#~ msgid "Restart markers"
+#~ msgstr "&Start på nytt"
+
+#, fuzzy
+#~ msgid "Restart frequency (rows):"
+#~ msgstr "Frekvens for sjekking (sek)"
+
+#, fuzzy
+#~ msgid "Progressive"
+#~ msgstr "Framgong:"
+
+#, fuzzy
+#~ msgid "Subsampling:"
+#~ msgstr "Understreng"
+
+#, fuzzy
+#~ msgid "Fast Integer"
+#~ msgstr "Base-N-heiltal"
+
+#~ msgid "Integer"
+#~ msgstr "Heiltal"
+
+#, fuzzy
+#~ msgid "Floating-Point"
+#~ msgstr "Flyttal"
+
+#, fuzzy
+#~ msgid "Image comments"
+#~ msgstr "I kommentarar"
+
+#, fuzzy
+#~ msgid "Laplace..."
+#~ msgstr "Erstatt ..."
+
+#, fuzzy
+#~ msgid "Cleanup..."
+#~ msgstr "Opprensking"
+
+#, fuzzy
+#~ msgid ""
+#~ "Create\n"
+#~ "New Image"
+#~ msgstr "Lag ny side"
+
+#, fuzzy
+#~ msgid "Effect Channel"
+#~ msgstr "Venstre-kanal"
+
+#, fuzzy
+#~ msgid "Effect Operator"
+#~ msgstr "Operator"
+
+#, fuzzy
+#~ msgid "Derivative"
+#~ msgstr "Privat"
+
+#~ msgid "Gradient"
+#~ msgstr "Gradvis overgang"
+
+#, fuzzy
+#~ msgid "Convolve"
+#~ msgstr "Konsole"
+
+#, fuzzy
+#~ msgid "With Source Image"
+#~ msgstr "Skriptkjelde"
+
+#, fuzzy
+#~ msgid "Effect Image:"
+#~ msgstr "&Effekt:"
+
+#, fuzzy
+#~ msgid "Filter Length:"
+#~ msgstr "Nøkkelstyrke:"
+
+#, fuzzy
+#~ msgid "Integration Steps:"
+#~ msgstr "Gjentakingar:"
+
+#, fuzzy
+#~ msgid "Minimum Value:"
+#~ msgstr "&Minimumslengd:"
+
+#, fuzzy
+#~ msgid "Maximum Value:"
+#~ msgstr "Høgste satsing:"
+
+#, fuzzy
+#~ msgid "Send to Mail"
+#~ msgstr "&Send e-post"
+
+#, fuzzy
+#~ msgid "Recipient:"
+#~ msgstr "Kvittering:"
+
+#, fuzzy
+#~ msgid "Sender:"
+#~ msgstr "Avsendar"
+
+#~ msgid "Subject:"
+#~ msgstr "Emne:"
+
+#~ msgid "Encapsulation:"
+#~ msgstr "Protokoll:"
+
+#, fuzzy
+#~ msgid "Uuencode"
+#~ msgstr "&Unicode"
+
+#, fuzzy
+#~ msgid "MIME"
+#~ msgstr "MIME-type"
+
+#, fuzzy
+#~ msgid "First Source Color"
+#~ msgstr "Farge på rammekantlinje"
+
+#, fuzzy
+#~ msgid "Second Source Color"
+#~ msgstr "&Last kjelde om att"
+
+#, fuzzy
+#~ msgid "First Destination Color"
+#~ msgstr "Målmappe:"
+
+#, fuzzy
+#~ msgid "Second Destination Color"
+#~ msgstr "Målmappe:"
+
+#, fuzzy
+#~ msgid "Map Color Range"
+#~ msgstr "Fargenamn"
+
+#, fuzzy
+#~ msgid "Destination color range"
+#~ msgstr "Målmappe:"
+
+#~ msgid "To:"
+#~ msgstr "Til:"
+
+#, fuzzy
+#~ msgid "Max RGB"
+#~ msgstr "Dobbel RGB"
+
+#, fuzzy
+#~ msgid "Hold the Minimal Channels"
+#~ msgstr "Fargelegg kallenamn i kanalar"
+
+#, fuzzy
+#~ msgid "Blur Parameters"
+#~ msgstr "Parametrar"
+
+#, fuzzy
+#~ msgid "Loading MPEG movie..."
+#~ msgstr "Lastar symbol ..."
+
+#, fuzzy
+#~ msgid "Round"
+#~ msgstr "Køyr"
+
+#~ msgid "Line"
+#~ msgstr "Linje"
+
+#~ msgid "Diamond"
+#~ msgstr "Diamant"
+
+#, fuzzy
+#~ msgid "PS Diamond"
+#~ msgstr "Diamant"
+
+#, fuzzy
+#~ msgid "Newsprintifing..."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "Newsprint"
+#~ msgstr "Nettverk"
+
+#~ msgid "Resolution"
+#~ msgstr "Oppløysing"
+
+#, fuzzy
+#~ msgid "Input SPI:"
+#~ msgstr "&Innskuff:"
+
+#, fuzzy
+#~ msgid "Output LPI:"
+#~ msgstr "Utdata til:"
+
+#~ msgid "Screen"
+#~ msgstr "Skjerm"
+
+#, fuzzy
+#~ msgid "Separate to:"
+#~ msgstr "Delt"
+
+#, fuzzy
+#~ msgid "Factory Defaults"
+#~ msgstr "Gjenopprett standardinnstillingar"
+
+#, fuzzy
+#~ msgid "Oversample:"
+#~ msgstr "Brukarnamn:"
+
+#, fuzzy
+#~ msgid "NL Filter"
+#~ msgstr "Nytt filter"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#, fuzzy
+#~ msgid "Optimal Estimation"
+#~ msgstr "Optimeringsnivå"
+
+#, fuzzy
+#~ msgid "Edge Enhancement"
+#~ msgstr "Forbetra oppløysing:"
+
+#, fuzzy
+#~ msgid "Gray:"
+#~ msgstr "Tyskland"
+
+#, fuzzy
+#~ msgid "Normalizing..."
+#~ msgstr "Lastar ..."
+
+#, fuzzy
+#~ msgid "Rendering SuperNova..."
+#~ msgstr "Spolar bandet tilbake ..."
+
+#, fuzzy
+#~ msgid "SuperNova Color Picker"
+#~ msgstr "kSirc Fargeveljar"
+
+#, fuzzy
+#~ msgid "Spokes:"
+#~ msgstr "Ektefelle"
+
+#, fuzzy
+#~ msgid "Oil Painting..."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "Mask Size:"
+#~ msgstr "Storleik:"
+
+#, fuzzy
+#~ msgid "Paper Tile"
+#~ msgstr "Papir&storleik"
+
+#~ msgid "Division"
+#~ msgstr "Divisjon"
+
+#~ msgid "Size:"
+#~ msgstr "Storleik:"
+
+#, fuzzy
+#~ msgid "Fractional Pixels"
+#~ msgstr "Sammefarge-piksel:"
+
+#, fuzzy
+#~ msgid "Force"
+#~ msgstr "For"
+
+#, fuzzy
+#~ msgid "Centering"
+#~ msgstr "Sentrert"
+
+#, fuzzy
+#~ msgid "Movement"
+#~ msgstr "Flytt mot venstre"
+
+#, fuzzy
+#~ msgid "Max (%):"
+#~ msgstr "Faks:"
+
+#, fuzzy
+#~ msgid "Wrap Around"
+#~ msgstr "uavgjort"
+
+#, fuzzy
+#~ msgid "Background Type"
+#~ msgstr "Bakgrunntype:"
+
+#, fuzzy
+#~ msgid "Inverted Image"
+#~ msgstr "&Sett inn side ..."
+
+#, fuzzy
+#~ msgid "Foreground Color"
+#~ msgstr "&Framgrunnsfarge"
+
+#~ msgid "Background Color"
+#~ msgstr "Bakgrunnsfarge"
+
+#, fuzzy
+#~ msgid "Paper Tile..."
+#~ msgstr "Papir&storleik"
+
+#, fuzzy
+#~ msgid "September 31, 1999"
+#~ msgstr "September"
+
+#, fuzzy
+#~ msgid "Pixelizing..."
+#~ msgstr "Avsluttar ..."
+
+#, fuzzy
+#~ msgid "Pixelize"
+#~ msgstr "Pixie"
+
+#, fuzzy
+#~ msgid "Pixel Width:"
+#~ msgstr "Pennbreidd:"
+
+#, fuzzy
+#~ msgid "Plasma..."
+#~ msgstr "Vent ..."
+
+#, fuzzy
+#~ msgid "Plasma"
+#~ msgstr "Panama"
+
+#, fuzzy
+#~ msgid "Internal GIMP procedure"
+#~ msgstr "Intern feil"
+
+#, fuzzy
+#~ msgid "GIMP Extension"
+#~ msgstr "Etternamn"
+
+#, fuzzy
+#~ msgid "Temporary Procedure"
+#~ msgstr "Mellombels ikkje funne"
+
+#, fuzzy
+#~ msgid "Details <<"
+#~ msgstr "Detaljar"
+
+#, fuzzy
+#~ msgid "Details >>"
+#~ msgstr "Detaljar"
+
+#, fuzzy
+#~ msgid "Number of Plugin Interfaces: %d"
+#~ msgstr "Tal på punkt:"
+
+#, fuzzy
+#~ msgid "Menu Path:"
+#~ msgstr " Sti: "
+
+#, fuzzy
+#~ msgid "Help:"
+#~ msgstr "Hjelp"
+
+#~ msgid "Type:"
+#~ msgstr "Type:"
+
+#, fuzzy
+#~ msgid "Plugin Descriptions"
+#~ msgstr "Feilskildring:"
+
+#, fuzzy
+#~ msgid "Ins Date"
+#~ msgstr "Sett inn dato"
+
+#, fuzzy
+#~ msgid "Menu Path"
+#~ msgstr "Mbox-sti"
+
+#, fuzzy
+#~ msgid "Image Types"
+#~ msgstr "Biletetaggar"
+
+#~ msgid "List View"
+#~ msgstr "Vis liste"
+
+#, fuzzy
+#~ msgid "Menu Path/Name"
+#~ msgstr "Menynamn"
+
+#, fuzzy
+#~ msgid "Tree View"
+#~ msgstr "&Trevising"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s\n"
+#~ "PNG error. Couldn't save image"
+#~ msgstr "Feil: Kunne ikkje lagra biletet"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s\n"
+#~ "Couldn't create file"
+#~ msgstr "Kunne ikkje lesa fil.\n"
+
+#, fuzzy
+#~ msgid "PNM: Can't open file %s."
+#~ msgstr "Kan ikkje opna fila %1"
+
+#, fuzzy
+#~ msgid "PNM: Invalid file."
+#~ msgstr "Ugyldig biletefil"
+
+#, fuzzy
+#~ msgid "PNM: Invalid maximum value."
+#~ msgstr "Alarm for maksimumsverdi"
+
+#, fuzzy
+#~ msgid "PNM: Error reading file."
+#~ msgstr "Feil ved lesing av filinfo."
+
+#, fuzzy
+#~ msgid "Save as PNM"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Raw"
+#~ msgstr "Rå IP"
+
+#, fuzzy
+#~ msgid "Ascii"
+#~ msgstr "Tilde"
+
+#, fuzzy
+#~ msgid "Polarizing..."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "Polarize"
+#~ msgstr "Fargelegg"
+
+#, fuzzy
+#~ msgid "Offset Angle:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Map Backwards"
+#~ msgstr "Bakover"
+
+#, fuzzy
+#~ msgid "Map from Top"
+#~ msgstr "Slett frå toppen"
+
+#, fuzzy
+#~ msgid "To Polar"
+#~ msgstr "Verktøylinje"
+
+#, fuzzy
+#~ msgid "PS: can't open file for reading"
+#~ msgstr "Kan ikkje opna fila %1 for lesing"
+
+#, fuzzy
+#~ msgid "PS: can't interprete file"
+#~ msgstr "Kan ikkje skriva oppsettfila\n"
+
+#, fuzzy
+#~ msgid "PS: can't open file for writing"
+#~ msgstr "Kunne ikkje opna fil for skriving"
+
+#, fuzzy
+#~ msgid "write error occured"
+#~ msgstr ""
+#~ "Ein feil oppstod:\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "Pages:"
+#~ msgstr "Sider"
+
+#, fuzzy
+#~ msgid "Try Bounding Box"
+#~ msgstr "Grenseboks"
+
+#, fuzzy
+#~ msgid "Coloring"
+#~ msgstr "Lukkar"
+
+#, fuzzy
+#~ msgid "Text Antialiasing"
+#~ msgstr "Anti-aliasing"
+
+#, fuzzy
+#~ msgid "Weak"
+#~ msgstr "Veke"
+
+#, fuzzy
+#~ msgid "Strong"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~ msgid "Graphic Antialiasing"
+#~ msgstr "Anti-aliasing"
+
+#, fuzzy
+#~ msgid "Save as PostScript"
+#~ msgstr "Skriv ut som postscr&ipt"
+
+#, fuzzy
+#~ msgid "X-Offset:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Y-Offset:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid ""
+#~ "When toggled, the resulting image will be scaled to fit into the given "
+#~ "size without changing the aspect ratio."
+#~ msgstr ""
+#~ "Dersom du merkar av her vil biletet skalerast slik at det passar den "
+#~ "totale diagramstorleiken."
+
+#, fuzzy
+#~ msgid "Inch"
+#~ msgstr "tommar"
+
+#, fuzzy
+#~ msgid "Millimeter"
+#~ msgstr "Millimeter (mm)"
+
+#, fuzzy
+#~ msgid "PostScript Level 2"
+#~ msgstr "Tryggleiksnivå"
+
+#, fuzzy
+#~ msgid "Encapsulated PostScript"
+#~ msgstr "Comment=Encapsulated PostScript-bilete"
+
+#, fuzzy
+#~ msgid "Preview Size:"
+#~ msgstr "Førehandsvis i"
+
+#, fuzzy
+#~ msgid "Save as PSP"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Data Compression"
+#~ msgstr "Ikkje bruk BSD-komprimering"
+
+#, fuzzy
+#~ msgid "RLE"
+#~ msgstr "URL"
+
+#, fuzzy
+#~ msgid "Random Hurl 1.7"
+#~ msgstr "Vilkårleg avspeling"
+
+#, fuzzy
+#~ msgid "Random Pick 1.7"
+#~ msgstr "Tilfeldig avspeling"
+
+#, fuzzy
+#~ msgid "Random Slur 1.7"
+#~ msgstr "Vilkårleg avspeling"
+
+#, fuzzy
+#~ msgid "Randomization (%):"
+#~ msgstr "Organisasjon:"
+
+#, fuzzy
+#~ msgid "Rippling..."
+#~ msgstr "Erstattar ..."
+
+#, fuzzy
+#~ msgid "Ripple"
+#~ msgstr "Applet"
+
+#, fuzzy
+#~ msgid "Wave Type"
+#~ msgstr "Verditype"
+
+#, fuzzy
+#~ msgid "Sawtooth"
+#~ msgstr "Sagtann-bølgje"
+
+#, fuzzy
+#~ msgid "Period:"
+#~ msgstr "Punktum"
+
+#, fuzzy
+#~ msgid "Amplitude:"
+#~ msgstr "Amplitude"
+
+#, fuzzy
+#~ msgid "Sample Colorize"
+#~ msgstr "Prøvefarge"
+
+#, fuzzy
+#~ msgid "Get Sample Colors"
+#~ msgstr "Prøvefarge"
+
+#~ msgid "Destination:"
+#~ msgstr "Mål:"
+
+#, fuzzy
+#~ msgid "Sample:"
+#~ msgstr "Prøve"
+
+#, fuzzy
+#~ msgid "Show Selection"
+#~ msgstr "Val"
+
+#, fuzzy
+#~ msgid "Show Color"
+#~ msgstr "Få fargar"
+
+#, fuzzy
+#~ msgid "In Level:"
+#~ msgstr "Info-nivå"
+
+#, fuzzy
+#~ msgid "Out Level:"
+#~ msgstr "&1. nivå:"
+
+#, fuzzy
+#~ msgid "Hold Intensity"
+#~ msgstr "Intensitet:"
+
+#, fuzzy
+#~ msgid "Original Intensity"
+#~ msgstr "Opprinneleg storleik"
+
+#, fuzzy
+#~ msgid "Use Subcolors"
+#~ msgstr "Bruk fargar"
+
+#, fuzzy
+#~ msgid "Smooth Samplecolors"
+#~ msgstr "Prøvefarge"
+
+#, fuzzy
+#~ msgid "Sample Analyze..."
+#~ msgstr "Endra tabellnamn ..."
+
+#, fuzzy
+#~ msgid "Remap Colorized..."
+#~ msgstr "&Farge på pennen ..."
+
+#, fuzzy
+#~ msgid "Holdness:"
+#~ msgstr "Avrunding:"
+
+#, fuzzy
+#~ msgid "Max. Delta:"
+#~ msgstr "Høgste tal på &resultat"
+
+#, fuzzy
+#~ msgid "Semi-Flatten..."
+#~ msgstr "Lim inn spesiell ..."
+
+#, fuzzy
+#~ msgid "Sharpening..."
+#~ msgstr "Startar ..."
+
+#, fuzzy
+#~ msgid "Sharpen - %s"
+#~ msgstr "Kontrast:"
+
+#~ msgid "Sharpness:"
+#~ msgstr "Kontrast:"
+
+#, fuzzy
+#~ msgid "Shifting..."
+#~ msgstr "Avsluttar ..."
+
+#~ msgid "Shift"
+#~ msgstr "Shift"
+
+#, fuzzy
+#~ msgid "Shift Horizontally"
+#~ msgstr "Horisontalt"
+
+#, fuzzy
+#~ msgid "Shift Vertically"
+#~ msgstr "Vertikalt"
+
+#, fuzzy
+#~ msgid "Shift Amount:"
+#~ msgstr "Skjold"
+
+#, fuzzy
+#~ msgid "Sinus: rendering..."
+#~ msgstr "pussar linsa ..."
+
+#, fuzzy
+#~ msgid "Drawing Settings"
+#~ msgstr "Hovudinnstillingar"
+
+#, fuzzy
+#~ msgid "X Scale:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "Y Scale:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "Complexity:"
+#~ msgstr "Ferdig"
+
+#, fuzzy
+#~ msgid "Calculation Settings"
+#~ msgstr "Handlingsinnstillingar"
+
+#, fuzzy
+#~ msgid "Force Tiling?"
+#~ msgstr "Sorter aukande"
+
+#, fuzzy
+#~ msgid "Ideal"
+#~ msgstr "Omstokk"
+
+#, fuzzy
+#~ msgid "Distorted"
+#~ msgstr "Distribuer"
+
+#, fuzzy
+#~ msgid "Black & White"
+#~ msgstr "Svart på kvitt"
+
+#, fuzzy
+#~ msgid "Foreground & Background"
+#~ msgstr "&Felles bakgrunn"
+
+#, fuzzy
+#~ msgid "Second Color"
+#~ msgstr "Vel farge"
+
+#, fuzzy
+#~ msgid "First Color:"
+#~ msgstr "Penselfarge:"
+
+#, fuzzy
+#~ msgid "Second Color:"
+#~ msgstr "Pennfarge:"
+
+#, fuzzy
+#~ msgid "Blend Settings"
+#~ msgstr "Skriftinnstillingar"
+
+#~ msgid "Blend"
+#~ msgstr "Overgang"
+
+#, fuzzy
+#~ msgid "Deriving smooth palette..."
+#~ msgstr "Hentar farge frå paletten ..."
+
+#, fuzzy
+#~ msgid "Smooth Palette"
+#~ msgstr "Avrunda brikker"
+
+#, fuzzy
+#~ msgid "Search Time:"
+#~ msgstr "Tidsavgrensing for søk:"
+
+#, fuzzy
+#~ msgid "Sobel Edge Detecting..."
+#~ msgstr "&Polygoninnstillingar ..."
+
+#, fuzzy
+#~ msgid "Sparkle"
+#~ msgstr "Mellomrom"
+
+#, fuzzy
+#~ msgid "Luminosity Threshold:"
+#~ msgstr "Peikarterskel"
+
+#, fuzzy
+#~ msgid "Flare Intensity:"
+#~ msgstr "Intensitet:"
+
+#, fuzzy
+#~ msgid "Spike Length:"
+#~ msgstr "Lengd:"
+
+#, fuzzy
+#~ msgid "Adjust the Number of Spikes"
+#~ msgstr "Tal på kopiar:"
+
+#, fuzzy
+#~ msgid "Spike Density:"
+#~ msgstr "Tettleik:"
+
+#, fuzzy
+#~ msgid "Random Saturation:"
+#~ msgstr "Metting:"
+
+#, fuzzy
+#~ msgid "Preserve Luminosity"
+#~ msgstr "Ta vare på løyve"
+
+#~ msgid "Inverse"
+#~ msgstr "Omvendt"
+
+#, fuzzy
+#~ msgid "Add Border"
+#~ msgstr "Legg til mappe"
+
+#, fuzzy
+#~ msgid "Natural Color"
+#~ msgstr "Standardfarge"
+
+#, fuzzy
+#~ msgid "Use the Foreground Color"
+#~ msgstr "&Framgrunnsfarge"
+
+#, fuzzy
+#~ msgid "Use the Background Color"
+#~ msgstr "&Tekstbakgrunnsfarge:"
+
+#, fuzzy
+#~ msgid "Applying Canvas..."
+#~ msgstr "viser ..."
+
+#, fuzzy
+#~ msgid "Apply Canvas"
+#~ msgstr "Bruk innstillingane"
+
+#, fuzzy
+#~ msgid "Top-Right"
+#~ msgstr "Oppe til høgre"
+
+#, fuzzy
+#~ msgid "Top-Left"
+#~ msgstr "Oppe til venstre"
+
+#, fuzzy
+#~ msgid "Bottom-Left"
+#~ msgstr "Nede til venstre"
+
+#, fuzzy
+#~ msgid "Bottom-Right"
+#~ msgstr "Nede til høgre"
+
+#, fuzzy
+#~ msgid "Can't open file as SUN-raster-file"
+#~ msgstr "Kan ikkje opna signaturfila."
+
+#, fuzzy
+#~ msgid "The type of this SUN-rasterfile is not supported"
+#~ msgstr "Kanalen %1 er ikkje støtta."
+
+#, fuzzy
+#~ msgid "Can't read color entries"
+#~ msgstr "Kan ikkje lesa miljø"
+
+#, fuzzy
+#~ msgid "Type of colormap not supported"
+#~ msgstr ""
+#~ "Protokollen %1\n"
+#~ "er ikkje støtta"
+
+#, fuzzy
+#~ msgid "Write error occured"
+#~ msgstr "Skrivefeil"
+
+#, fuzzy
+#~ msgid "Save as SUNRAS"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "TGA: can't open \"%s\"\n"
+#~ msgstr "kan ikkje opna %1"
+
+#, fuzzy
+#~ msgid "Origin at bottom left"
+#~ msgstr "Nede til venstre"
+
+#, fuzzy
+#~ msgid "Threshold Alpha"
+#~ msgstr "&Grense [sider]"
+
+#, fuzzy
+#~ msgid "Tiling..."
+#~ msgstr "Avsluttar ..."
+
+#, fuzzy
+#~ msgid "TileIt"
+#~ msgstr "Brikke"
+
+#, fuzzy
+#~ msgid "Flipping"
+#~ msgstr "Filippinane"
+
+#, fuzzy
+#~ msgid "Applied to Tile"
+#~ msgstr "skriv til fil"
+
+#, fuzzy
+#~ msgid "Alternate Tiles"
+#~ msgstr "Alternativ tekst"
+
+#, fuzzy
+#~ msgid "Explicit Tile"
+#~ msgstr "Rediger fil"
+
+#~ msgid "Row:"
+#~ msgstr "Rad:"
+
+#~ msgid "Column:"
+#~ msgstr "Kolonne:"
+
+#, fuzzy
+#~ msgid "Segment Setting"
+#~ msgstr "Tenarinnstillingar"
+
+#, fuzzy
+#~ msgid "Tiler..."
+#~ msgstr "Filer ..."
+
+#, fuzzy
+#~ msgid "New Unit"
+#~ msgstr "Ny liste"
+
+#, fuzzy
+#~ msgid "ID:"
+#~ msgstr "UID"
+
+#, fuzzy
+#~ msgid "Factor:"
+#~ msgstr "X-faktor:"
+
+#, fuzzy
+#~ msgid "Digits:"
+#~ msgstr "&Digital"
+
+#, fuzzy
+#~ msgid "Symbol:"
+#~ msgstr "Symbol"
+
+#, fuzzy
+#~ msgid "Abbreviation:"
+#~ msgstr "Forkorting"
+
+#, fuzzy
+#~ msgid "Singular:"
+#~ msgstr "Singapore"
+
+#, fuzzy
+#~ msgid "Unit factor must not be 0."
+#~ msgstr "Lysfaktoren må vera positiv"
+
+#, fuzzy
+#~ msgid "Unit Editor"
+#~ msgstr "SysV-init-redigering"
+
+#~ msgid "Refresh"
+#~ msgstr "Oppfrisk"
+
+#, fuzzy
+#~ msgid "ID"
+#~ msgstr "UID"
+
+#, fuzzy
+#~ msgid "Digits"
+#~ msgstr "&Digital"
+
+#~ msgid "Symbol"
+#~ msgstr "Symbol"
+
+#, fuzzy
+#~ msgid "Abbr."
+#~ msgstr "Avbrote."
+
+#, fuzzy
+#~ msgid "Singular"
+#~ msgstr "Singapore"
+
+#, fuzzy
+#~ msgid "Plural"
+#~ msgstr "Journal"
+
+#, fuzzy
+#~ msgid "Create a new unit from scratch."
+#~ msgstr "Lag frå botnen av"
+
+#, fuzzy
+#~ msgid "Duplicate Unit"
+#~ msgstr "Lag kopi"
+
+#, fuzzy
+#~ msgid "Create a new unit with the currently seleted unit as template."
+#~ msgstr "Slett den valte brukarklassen"
+
+#, fuzzy
+#~ msgid "Don't Save Unit"
+#~ msgstr "Ikkje oppdater skrifttypar"
+
+#, fuzzy
+#~ msgid "Don't save the currently selected unit before GIMP exits."
+#~ msgstr "Slett den valte brukarklassen"
+
+#, fuzzy
+#~ msgid "Save the currently selected unit before GIMP exits."
+#~ msgstr "Slett den valte brukarklassen"
+
+#, fuzzy
+#~ msgid "Staggered"
+#~ msgstr "Starta"
+
+#, fuzzy
+#~ msgid "Large staggered"
+#~ msgstr "Innliming av mange linjer"
+
+#, fuzzy
+#~ msgid "Striped"
+#~ msgstr "Starta"
+
+#, fuzzy
+#~ msgid "Wide-striped"
+#~ msgstr "Element topp"
+
+#, fuzzy
+#~ msgid "Large 3x3"
+#~ msgstr "Stor"
+
+#~ msgid "Hex"
+#~ msgstr "Hex"
+
+#, fuzzy
+#~ msgid "Dots"
+#~ msgstr "Notat"
+
+#, fuzzy
+#~ msgid "Video/RGB..."
+#~ msgstr "Sjå ..."
+
+#, fuzzy
+#~ msgid "Video"
+#~ msgstr "Vis"
+
+#, fuzzy
+#~ msgid "RGB Pattern Type"
+#~ msgstr "Mønster"
+
+#, fuzzy
+#~ msgid "Additive"
+#~ msgstr "Legg til"
+
+#, fuzzy
+#~ msgid "Value Invert..."
+#~ msgstr "Reknar ut ..."
+
+#, fuzzy
+#~ msgid "Foreground to Peaks"
+#~ msgstr "Framgrunn"
+
+#, fuzzy
+#~ msgid "Only Foreground"
+#~ msgstr "Framgrunn"
+
+#, fuzzy
+#~ msgid "Only Background"
+#~ msgstr "Bakgrunn"
+
+#, fuzzy
+#~ msgid "More Transparent"
+#~ msgstr "FG til gjennomsiktig"
+
+#, fuzzy
+#~ msgid "Value propagating..."
+#~ msgstr "Reknar ut ..."
+
+#, fuzzy
+#~ msgid "Value Propagate"
+#~ msgstr "Verditype"
+
+#, fuzzy
+#~ msgid "Propagate Mode"
+#~ msgstr "Rekkjefølgje for sider"
+
+#, fuzzy
+#~ msgid "Lower Threshold:"
+#~ msgstr "Peikarterskel"
+
+#, fuzzy
+#~ msgid "Upper Threshold:"
+#~ msgstr "Terskel:"
+
+#, fuzzy
+#~ msgid "Propagating Rate:"
+#~ msgstr "Spør %1"
+
+#, fuzzy
+#~ msgid "To Left"
+#~ msgstr "Oppe til venstre"
+
+#, fuzzy
+#~ msgid "To Right"
+#~ msgstr "Oppe til høgre"
+
+#, fuzzy
+#~ msgid "To Top"
+#~ msgstr "Topp"
+
+#, fuzzy
+#~ msgid "To Bottom"
+#~ msgstr "Botn"
+
+#, fuzzy
+#~ msgid "Propagating Alpha Channel"
+#~ msgstr "A&lfa-kanal:"
+
+#, fuzzy
+#~ msgid "Step Size:"
+#~ msgstr "Stegstorleik"
+
+#, fuzzy
+#~ msgid "Displacement Map:"
+#~ msgstr "Erstatning:"
+
+#, fuzzy
+#~ msgid "FG Color"
+#~ msgstr "Farge"
+
+#, fuzzy
+#~ msgid "Secondary Options"
+#~ msgstr "Søkeval"
+
+#, fuzzy
+#~ msgid "Dither Size:"
+#~ msgstr "Punktstorleik:"
+
+#, fuzzy
+#~ msgid "Rotation Angle:"
+#~ msgstr "Z-rotering:"
+
+#, fuzzy
+#~ msgid "Substeps:"
+#~ msgstr "Steg"
+
+#, fuzzy
+#~ msgid "Magnitude Map:"
+#~ msgstr "Magenta:"
+
+#, fuzzy
+#~ msgid "Use Mag Map"
+#~ msgstr "Bruk midi-mapper"
+
+#, fuzzy
+#~ msgid "Other Options"
+#~ msgstr "Andre val"
+
+#, fuzzy
+#~ msgid "Gradient Scale:"
+#~ msgstr "Overgangsstil:"
+
+#, fuzzy
+#~ msgid "Gradient map selection menu"
+#~ msgstr "KArchie: feil val"
+
+#, fuzzy
+#~ msgid "Vector Mag:"
+#~ msgstr "Gjenopprettingslogg:"
+
+#, fuzzy
+#~ msgid "Smoothing X gradient..."
+#~ msgstr "Jamnar ut ..."
+
+#, fuzzy
+#~ msgid "Smoothing Y gradient..."
+#~ msgstr "Jamnar ut ..."
+
+#, fuzzy
+#~ msgid "Finding XY gradient..."
+#~ msgstr "Avsluttar spel ..."
+
+#, fuzzy
+#~ msgid "Waves"
+#~ msgstr "Bølge"
+
+#, fuzzy
+#~ msgid "Reflective"
+#~ msgstr "Motta"
+
+#, fuzzy
+#~ msgid "Phase:"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~ msgid "Wavelength:"
+#~ msgstr "Lengd:"
+
+#, fuzzy
+#~ msgid "Waving..."
+#~ msgstr "Lagrar ..."
+
+#, fuzzy
+#~ msgid "Whirl Angle:"
+#~ msgstr "Vinkel:"
+
+#, fuzzy
+#~ msgid "Pinch Amount:"
+#~ msgstr "Betalingssum"
+
+#, fuzzy
+#~ msgid "<Image>/Edit/Copy to Clipboard"
+#~ msgstr "Kopier til utklippstavla"
+
+#, fuzzy
+#~ msgid "<Image>/Edit/Paste from Clipboard"
+#~ msgstr "Lim inn automatisk frå utklippstavle"
+
+#, fuzzy
+#~ msgid "Copying ..."
+#~ msgstr "Kopierer filer ..."
+
+#, fuzzy
+#~ msgid "Pasted"
+#~ msgstr "Lim inn"
+
+#, fuzzy
+#~ msgid "Pasting..."
+#~ msgstr "Limar inn"
+
+#, fuzzy
+#~ msgid "Rendering Blast..."
+#~ msgstr "pussar linsa ..."
+
+#, fuzzy
+#~ msgid "Rendering Wind..."
+#~ msgstr "Opprettar indeks ..."
+
+#~ msgid "Wind"
+#~ msgstr "Vind"
+
+#~ msgid "Style"
+#~ msgstr "Stil"
+
+#, fuzzy
+#~ msgid "Blast"
+#~ msgstr "Kviterussland"
+
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#~ msgid "Right"
+#~ msgstr "Høgre"
+
+#, fuzzy
+#~ msgid "Edge Affected"
+#~ msgstr "Effektar"
+
+#, fuzzy
+#~ msgid "Trailing"
+#~ msgstr "&Sporing"
+
+#~ msgid "Both"
+#~ msgstr "Begge"
+
+#, fuzzy
+#~ msgid "PrintDlg failed: %d"
+#~ msgstr "Utskriftsfeil: %1"
+
+#, fuzzy
+#~ msgid "StartPage failed"
+#~ msgstr "Mislukka søk."
+
+#, fuzzy
+#~ msgid "CreateDIBSection failed"
+#~ msgstr "Feil ved sletting"
+
+#, fuzzy
+#~ msgid "EndPage failed"
+#~ msgstr "Pakkefil"
+
+#, fuzzy
+#~ msgid "Load Windows Metafile"
+#~ msgstr "Windows-metafiler (*.wmf)"
+
+#, fuzzy
+#~ msgid "Rendering %s"
+#~ msgstr "Vising"
+
+#, fuzzy
+#~ msgid "XBM: cannot open \"%s\"\n"
+#~ msgstr "kan ikkje opna %1"
+
+#, fuzzy
+#~ msgid "XBM: no image width specified\n"
+#~ msgstr "kppp: inga regelfil oppgitt\n"
+
+#, fuzzy
+#~ msgid "XBM: no image height specified\n"
+#~ msgstr "kppp: inga regelfil oppgitt\n"
+
+#, fuzzy
+#~ msgid "XBM: cannot create \"%s\"\n"
+#~ msgstr "kan ikkje laga sokkel"
+
+#, fuzzy
+#~ msgid "Save as XBM"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "XBM Options"
+#~ msgstr "Make-val"
+
+#, fuzzy
+#~ msgid "X10 Format Bitmap"
+#~ msgstr "Formater band"
+
+#, fuzzy
+#~ msgid "Identifier Prefix:"
+#~ msgstr "Identifikator"
+
+#, fuzzy
+#~ msgid "Write Hot Spot Values"
+#~ msgstr "Skriv til fil"
+
+#, fuzzy
+#~ msgid "Write Extra Mask File"
+#~ msgstr "Skriv til fil"
+
+#, fuzzy
+#~ msgid "Mask File Extension:"
+#~ msgstr "Filetternamn:"
+
+#, fuzzy
+#~ msgid "Save as XPM"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Alpha Threshold:"
+#~ msgstr "Terskel:"
+
+#, fuzzy
+#~ msgid "Error during open of FITS file"
+#~ msgstr "Feil ved skriving av fil!"
+
+#, fuzzy
+#~ msgid "Cannot operate on unknown image types"
+#~ msgstr "Kan ikkje gjera ferdig uklart eller ukjend kallenamn."
+
+#, fuzzy
+#~ msgid "Load FITS File"
+#~ msgstr "Last ei &anna fil"
+
+#, fuzzy
+#~ msgid "Image Composing"
+#~ msgstr "Bilete manglar"
+
+#, fuzzy
+#~ msgid "Drawing Flame..."
+#~ msgstr "Skriv ut ramme ..."
+
+#, fuzzy
+#~ msgid "%s: Is not a regular file"
+#~ msgstr "%1 finst, men er inga vanleg fil"
+
+#, fuzzy
+#~ msgid "Edit Flame"
+#~ msgstr "Rediger rammer"
+
+#, fuzzy
+#~ msgid "Directions"
+#~ msgstr "Retning:"
+
+#~ msgid "Controls"
+#~ msgstr "Kontroller"
+
+#~ msgid "Speed:"
+#~ msgstr "Fart:"
+
+#~ msgid "Randomize"
+#~ msgstr "Tilfeldiggjer"
+
+#~ msgid "Same"
+#~ msgstr "Same"
+
+#~ msgid "Random"
+#~ msgstr "Tilfeldig"
+
+#~ msgid "Swirl"
+#~ msgstr "Swirl"
+
+#~ msgid "Horseshoe"
+#~ msgstr "Hestesko"
+
+#~ msgid "Bent"
+#~ msgstr "Bøygd"
+
+#, fuzzy
+#~ msgid "Load Flame"
+#~ msgstr "Opna spel."
+
+#, fuzzy
+#~ msgid "Save Flame"
+#~ msgstr "Lagra fil"
+
+#, fuzzy
+#~ msgid "Flame"
+#~ msgstr "Ramme"
+
+#, fuzzy
+#~ msgid "Contrast:"
+#~ msgstr "Kontrast"
+
+#, fuzzy
+#~ msgid "Sample Density:"
+#~ msgstr "Tettleik:"
+
+#, fuzzy
+#~ msgid "Spatial Filter Radius:"
+#~ msgstr "Rediger filterreglar"
+
+#, fuzzy
+#~ msgid "Colormap:"
+#~ msgstr "Farge:"
+
+#, fuzzy
+#~ msgid "Custom Gradient"
+#~ msgstr "Gradvis overgang"
+
+#, fuzzy
+#~ msgid "Camera"
+#~ msgstr "Kamerun"
+
+#, fuzzy
+#~ msgid "Zoom:"
+#~ msgstr "Forstørring"
+
+#, fuzzy
+#~ msgid "Darker:"
+#~ msgstr "Dato:"
+
+#, fuzzy
+#~ msgid "Lighter:"
+#~ msgstr "Høgre:"
+
+#, fuzzy
+#~ msgid "More Sat:"
+#~ msgstr "Format:"
+
+#, fuzzy
+#~ msgid "Less Sat:"
+#~ msgstr "Mindre enn"
+
+#, fuzzy
+#~ msgid "Current:"
+#~ msgstr "Gjeldande"
+
+#~ msgid "Before and After"
+#~ msgstr "Før og etter"
+
+#, fuzzy
+#~ msgid "Original:"
+#~ msgstr "Opprinneleg storleik"
+
+#, fuzzy
+#~ msgid "Hue Variations"
+#~ msgstr "Musnavigering"
+
+#, fuzzy
+#~ msgid "Roughness"
+#~ msgstr "Avrunding:"
+
+#, fuzzy
+#~ msgid "Affected Range"
+#~ msgstr "Dato-område"
+
+#, fuzzy
+#~ msgid "Shadows"
+#~ msgstr "Skugge"
+
+#, fuzzy
+#~ msgid "Midtones"
+#~ msgstr "KMines"
+
+#, fuzzy
+#~ msgid "Highlights"
+#~ msgstr "Opplysing:"
+
+#, fuzzy
+#~ msgid "Value Variations"
+#~ msgstr "Aktiver animasjonar"
+
+#, fuzzy
+#~ msgid "Saturation Variations"
+#~ msgstr "Metting"
+
+#, fuzzy
+#~ msgid "Select Pixels by"
+#~ msgstr "Vel felt"
+
+#, fuzzy
+#~ msgid "Entire Image"
+#~ msgstr "Skriv melding"
+
+#, fuzzy
+#~ msgid "Selection Only"
+#~ msgstr "Val"
+
+#, fuzzy
+#~ msgid "Selection In Context"
+#~ msgstr "Merka tekst"
+
+#~ msgid "Display"
+#~ msgstr "Vis"
+
+#, fuzzy
+#~ msgid "CirclePalette"
+#~ msgstr "&Palett"
+
+#, fuzzy
+#~ msgid "Filter Pack Simulation"
+#~ msgstr "Slå av/på &simulering"
+
+#, fuzzy
+#~ msgid "Shadows:"
+#~ msgstr "Skugge"
+
+#, fuzzy
+#~ msgid "Midtones:"
+#~ msgstr "Pengar:"
+
+#, fuzzy
+#~ msgid "Highlights:"
+#~ msgstr "Opplysing:"
+
+#, fuzzy
+#~ msgid "Advanced Filter Pack Options"
+#~ msgstr "Avanserte val"
+
+#, fuzzy
+#~ msgid "Preview as You Drag"
+#~ msgstr "Førehandsvis dialog"
+
+#, fuzzy
+#~ msgid "Preview Size"
+#~ msgstr "Førehandsvis i"
+
+#, fuzzy
+#~ msgid "File-Browser"
+#~ msgstr "Nettlesar"
+
+#, fuzzy
+#~ msgid "Enter Values"
+#~ msgstr "Oppgi ein verdi:"
+
+#, fuzzy
+#~ msgid "Value: "
+#~ msgstr "Verdi:"
+
+#, fuzzy
+#~ msgid "Press Button"
+#~ msgstr "Trykknapp"
+
+#, fuzzy
+#~ msgid "Gen Code by name"
+#~ msgstr "Stigande på namn"
+
+#, fuzzy
+#~ msgid "Overwrite Frame"
+#~ msgstr "Overskrivingsmodus"
+
+#, fuzzy
+#~ msgid "GAP Question"
+#~ msgstr "Spørsmål"
+
+#, fuzzy
+#~ msgid "Framenames:"
+#~ msgstr "Namn på rammesett"
+
+#, fuzzy
+#~ msgid "Open the 1st one of the extracted frames"
+#~ msgstr "Vel stilen til linjebrotverdien."
+
+#, fuzzy
+#~ msgid "Select Frame Range"
+#~ msgstr "Merk alle meldingane"
+
+#, fuzzy
+#~ msgid "An ERROR occured while trying to call xanim:"
+#~ msgstr "Ein feil oppstod ved lagring."
+
+#, fuzzy
+#~ msgid "XANIM Information"
+#~ msgstr "Informasjon"
+
+#, fuzzy
+#~ msgid "Video:"
+#~ msgstr "Visingsmodus:"
+
+#, fuzzy
+#~ msgid "Extract Frames"
+#~ msgstr "Rediger rammer"
+
+#, fuzzy
+#~ msgid "Enable extraction of Frames"
+#~ msgstr "Aktiver &handlingar"
+
+#, fuzzy
+#~ msgid "Extract Audio"
+#~ msgstr "Pakk ut til:"
+
+#, fuzzy
+#~ msgid "Run asynchronously"
+#~ msgstr "&Asynkron"
+
+#, fuzzy
+#~ msgid "failed to write %s (check permissions ?)"
+#~ msgstr ""
+#~ "Kunne ikkje laga symlink %1.\n"
+#~ "Kontroller løyva."
+
+#, fuzzy
+#~ msgid "videofile %s not existent or empty\n"
+#~ msgstr "Fila finst ikkje\n"
+
+#, fuzzy
+#~ msgid "extracting frames..."
+#~ msgstr "&Trekk ut tekstar ..."
+
+#, fuzzy
+#~ msgid ""
+#~ "could not start xanim process\n"
+#~ "(program=%s)"
+#~ msgstr ""
+#~ "Kunne ikkje starta prosess\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "renaming frames..."
+#~ msgstr "Skriv ut ramme ..."
+
+#, fuzzy
+#~ msgid "converting frames..."
+#~ msgstr "Konverterar til gråtonar ..."
+
+#, fuzzy
+#~ msgid "backup to file"
+#~ msgstr "Profilar for reservekopiering"
+
+#, fuzzy
+#~ msgid "Make backup of the image after each step"
+#~ msgstr "Lag reservekopi ved lagring"
+
+#~ msgid "Continue"
+#~ msgstr "Fortset"
+
+#, fuzzy
+#~ msgid "Select Filter for Animated apply"
+#~ msgstr "Vel filer som skal spelast"
+
+#, fuzzy
+#~ msgid "Apply Constant"
+#~ msgstr "Bruk innstillingane"
+
+#, fuzzy
+#~ msgid "Apply Varying"
+#~ msgstr "Bruk innstillingane"
+
+#, fuzzy
+#~ msgid "GAP Message"
+#~ msgstr "Legg til melding"
+
+#, fuzzy
+#~ msgid "Save Flattened"
+#~ msgstr "Lagra fil"
+
+#, fuzzy
+#~ msgid "Save As Is"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Error: could not rename frame %ld to %ld"
+#~ msgstr "feil: kunne ikkje lesa databasepost\n"
+
+#, fuzzy
+#~ msgid "Error: could not save frame %s"
+#~ msgstr "feil: kunne ikkje lesa databasepost\n"
+
+#, fuzzy
+#~ msgid "Duplicating frames..."
+#~ msgstr "Set opp nytt spel ..."
+
+#, fuzzy
+#~ msgid "Renumber Framesequence..."
+#~ msgstr "Nytt spel (nummerert) ..."
+
+#~ msgid "Number:"
+#~ msgstr "Tal:"
+
+#, fuzzy
+#~ msgid "Delete Frames (%ld/%ld)"
+#~ msgstr "Fjern ramme"
+
+#, fuzzy
+#~ msgid "Duplicate Frames (%ld/%ld)"
+#~ msgstr "Oppdater side"
+
+#, fuzzy
+#~ msgid "N times:"
+#~ msgstr "Notat:"
+
+#, fuzzy
+#~ msgid "Duplicate Frame Range"
+#~ msgstr "Oppdater side"
+
+#, fuzzy
+#~ msgid "With Frame (number)"
+#~ msgstr "Oppgi spelnummer"
+
+#, fuzzy
+#~ msgid "Affected Range ends at this framenumber"
+#~ msgstr "Lag eit nytt rammesett med denne ramma"
+
+#, fuzzy
+#~ msgid "N-Shift:"
+#~ msgstr "Shift"
+
+#, fuzzy
+#~ msgid "Pattern is equal to LayerName"
+#~ msgstr "Mønsterfilnamn:"
+
+#, fuzzy
+#~ msgid "Pattern is End of Layername"
+#~ msgstr "Mønsterfilnamn:"
+
+#, fuzzy
+#~ msgid "Select all visible Layers"
+#~ msgstr "Kopla saman &synlege lag"
+
+#, fuzzy
+#~ msgid "Set Layer(s) visible"
+#~ msgstr "&Ver synleg"
+
+#, fuzzy
+#~ msgid "Set Layer(s) invisible"
+#~ msgstr "&Ver synleg"
+
+#, fuzzy
+#~ msgid "Raise Layer(s)"
+#~ msgstr "&Hev objekt"
+
+#, fuzzy
+#~ msgid "Lower Layer(s)"
+#~ msgstr "Nedre skuff"
+
+#, fuzzy
+#~ msgid "Apply filter on Layer(s)"
+#~ msgstr "Bruk filter"
+
+#, fuzzy
+#~ msgid "Duplicate Layer(s)"
+#~ msgstr "Oppdater side"
+
+#, fuzzy
+#~ msgid "Delete Layer(s)"
+#~ msgstr "Slett overføring"
+
+#, fuzzy
+#~ msgid "Rename Layer(s)"
+#~ msgstr "Fjern lag"
+
+#, fuzzy
+#~ msgid "From Frame:"
+#~ msgstr "Frå side:"
+
+#, fuzzy
+#~ msgid "first handled frame"
+#~ msgstr "Tittellinje og ramme:"
+
+#, fuzzy
+#~ msgid "To Frame:"
+#~ msgstr "Ramme"
+
+#, fuzzy
+#~ msgid "Select Layer(s):"
+#~ msgstr "Vel filer:"
+
+#, fuzzy
+#~ msgid "Select Pattern:"
+#~ msgstr "Fyll-mønster:"
+
+#, fuzzy
+#~ msgid "Case sensitive"
+#~ msgstr "Oms&yn til bokstavstorleik"
+
+#, fuzzy
+#~ msgid "Invert Selection"
+#~ msgstr "&Snu om på merking"
+
+#, fuzzy
+#~ msgid "Function:"
+#~ msgstr "Funksjon"
+
+#, fuzzy
+#~ msgid "New Layername:"
+#~ msgstr "Nytt namn:"
+
+#, fuzzy
+#~ msgid "Frames Modify"
+#~ msgstr "Rammesett %d"
+
+#, fuzzy
+#~ msgid "Modifying Frames/Layer(s)..."
+#~ msgstr "Endrar oppføring ..."
+
+#~ msgid "Dissolve"
+#~ msgstr "Oppløys"
+
+#~ msgid "Multiply"
+#~ msgstr "Multipliser"
+
+#~ msgid "Overlay"
+#~ msgstr "Overtrekk"
+
+#~ msgid "Difference"
+#~ msgstr "Skilnad"
+
+#~ msgid "Addition"
+#~ msgstr "Legg til"
+
+#~ msgid "Darken Only"
+#~ msgstr "Gjer berre mørkare"
+
+#~ msgid "Lighten Only"
+#~ msgstr "Gjer berre lysare"
+
+#, fuzzy
+#~ msgid "Left  Top"
+#~ msgstr "Venstre Opp"
+
+#, fuzzy
+#~ msgid "Left  Bottom"
+#~ msgstr "Venstre knapp"
+
+#~ msgid "Right Top"
+#~ msgstr "Høgre topp"
+
+#~ msgid "Right Bottom"
+#~ msgstr "Høgre botn"
+
+#~ msgid "Loop"
+#~ msgstr "Repeter"
+
+#, fuzzy
+#~ msgid "Loop Reverse"
+#~ msgstr "Omvendt repetisjon"
+
+#, fuzzy
+#~ msgid "Once"
+#~ msgstr "sidan"
+
+#, fuzzy
+#~ msgid "OnceReverse"
+#~ msgstr "Omvendt"
+
+#, fuzzy
+#~ msgid "PingPong"
+#~ msgstr "Ping"
+
+#, fuzzy
+#~ msgid "Frame Loop"
+#~ msgstr "Øvre rammekantlinje"
+
+#, fuzzy
+#~ msgid "Frame Loop Reverse"
+#~ msgstr "Rammeeigenskapar ..."
+
+#, fuzzy
+#~ msgid "Frame Once"
+#~ msgstr "Frankrike"
+
+#, fuzzy
+#~ msgid "Frame OnceReverse"
+#~ msgstr "Name=Reversi"
+
+#, fuzzy
+#~ msgid "Frame PingPong"
+#~ msgstr "Ramma flyt"
+
+#, fuzzy
+#~ msgid "Frame None"
+#~ msgstr "Rammekjelde"
+
+#, fuzzy
+#~ msgid "Move Path"
+#~ msgstr "Mbox-sti"
+
+#, fuzzy
+#~ msgid "Anim Preview"
+#~ msgstr "Førehandsvising"
+
+#, fuzzy
+#~ msgid "Start Frame:"
+#~ msgstr "Start spel"
+
+#, fuzzy
+#~ msgid "First handled frame"
+#~ msgstr "Fornamn:"
+
+#, fuzzy
+#~ msgid "End Frame:"
+#~ msgstr "Slutt spel"
+
+#, fuzzy
+#~ msgid "Last handled frame"
+#~ msgstr "Siste hand: "
+
+#, fuzzy
+#~ msgid "Preview Frame:"
+#~ msgstr "Program for førehandsvising:"
+
+#, fuzzy
+#~ msgid "Layerstack:"
+#~ msgstr "Lagdeling"
+
+#, fuzzy
+#~ msgid "Force visibility"
+#~ msgstr "Synleg bokmerke"
+
+#, fuzzy
+#~ msgid "Clip To Frame"
+#~ msgstr "Last ramme om att"
+
+#, fuzzy
+#~ msgid "Object on empty frames"
+#~ msgstr "Knyt tekstrammer saman"
+
+#, fuzzy
+#~ msgid "Object on one frame"
+#~ msgstr "Knyt tekstrammer saman igjen"
+
+#, fuzzy
+#~ msgid "Anim Preview Mode"
+#~ msgstr "Førehandsvis kart"
+
+#, fuzzy
+#~ msgid "Scale Preview"
+#~ msgstr "Aktiver førehandsvising"
+
+#, fuzzy
+#~ msgid "Framerate"
+#~ msgstr "Ramme"
+
+#, fuzzy
+#~ msgid "Copy to Video Buffer"
+#~ msgstr "Kopier til mappe"
+
+#, fuzzy
+#~ msgid "Load Path Points from file"
+#~ msgstr "Last nivå frå fil"
+
+#, fuzzy
+#~ msgid "Save Path Points to file"
+#~ msgstr "Lagra til fil"
+
+#, fuzzy
+#~ msgid "Source Select"
+#~ msgstr "Kjeldefil"
+
+#~ msgid "Mode:"
+#~ msgstr "Modus:"
+
+#, fuzzy
+#~ msgid "Paintmode"
+#~ msgstr "Lim inn-modus"
+
+#, fuzzy
+#~ msgid "Stepmode:"
+#~ msgstr "Hopp over"
+
+#, fuzzy
+#~ msgid "Handle:"
+#~ msgstr "Overskrift:"
+
+#, fuzzy
+#~ msgid "Move Path Preview"
+#~ msgstr "Førehandsvis side"
+
+#, fuzzy
+#~ msgid "X Coordinate"
+#~ msgstr "Koordinatar"
+
+#, fuzzy
+#~ msgid "Y Coordinate"
+#~ msgstr "Koordinatar"
+
+#, fuzzy
+#~ msgid "Keyframe:"
+#~ msgstr "Brukarnamn:"
+
+#, fuzzy
+#~ msgid "Add Point"
+#~ msgstr "Rediger punkt"
+
+#, fuzzy
+#~ msgid "Show Path"
+#~ msgstr "Vis s&ti"
+
+#~ msgid "Insert Point"
+#~ msgstr "Sett inn punkt"
+
+#, fuzzy
+#~ msgid "Delete Point"
+#~ msgstr "Slett slot"
+
+#, fuzzy
+#~ msgid "Prev Point"
+#~ msgstr "Førre månad"
+
+#, fuzzy
+#~ msgid "Show Previous Controlpoint"
+#~ msgstr "Førre oppføring"
+
+#, fuzzy
+#~ msgid "Next Point"
+#~ msgstr "Neste månad"
+
+#, fuzzy
+#~ msgid "Show Next Controlpoint"
+#~ msgstr "Vis neste brikke"
+
+#, fuzzy
+#~ msgid "First Point"
+#~ msgstr "Rediger punkt"
+
+#, fuzzy
+#~ msgid "Last Point"
+#~ msgstr "Sett inn punkt"
+
+#, fuzzy
+#~ msgid "Show Last Controlpoint"
+#~ msgstr "Vis Java-konsoll"
+
+#, fuzzy
+#~ msgid "Clear Point"
+#~ msgstr "Tøm liste"
+
+#, fuzzy
+#~ msgid "Clear All Points"
+#~ msgstr "Fjern alle brotpunkt"
+
+#, fuzzy
+#~ msgid "Rotate Follow"
+#~ msgstr "Roter ned"
+
+#, fuzzy
+#~ msgid "Delete All Points"
+#~ msgstr "Slett slot"
+
+#, fuzzy
+#~ msgid "Delete all Controlpoints"
+#~ msgstr "Slett alle fullførte oppføringar i hugselista?"
+
+#, fuzzy
+#~ msgid "Load Points"
+#~ msgstr "Rediger punkt"
+
+#, fuzzy
+#~ msgid "Load Controlpoints from file"
+#~ msgstr "Last nivå frå fil"
+
+#, fuzzy
+#~ msgid "Save Controlpoints to file"
+#~ msgstr "Lagra til fil"
+
+#, fuzzy
+#~ msgid "Reset Keyframes"
+#~ msgstr "Endra storleiken på siste ramme"
+
+#, fuzzy
+#~ msgid "Errors:"
+#~ msgstr "Feil"
+
+#, fuzzy
+#~ msgid "Copying Layers into Frames..."
+#~ msgstr "Set opp spelarnamn ..."
+
+#, fuzzy
+#~ msgid "Generating Animated Preview..."
+#~ msgstr "Opprettar indeks ..."
+
+#, fuzzy
+#~ msgid "1.) mpeg_encode 1.5 must be installed"
+#~ msgstr "kan ikkje installera %1"
+
+#, fuzzy
+#~ msgid "1.) mpeg2encode 1.2 must be installed"
+#~ msgstr "kan ikkje installera %1"
+
+#, fuzzy
+#~ msgid "MPEG_ENCODE Information"
+#~ msgstr "KDE-SSL-informasjon"
+
+#, fuzzy
+#~ msgid "GenParams"
+#~ msgstr "Parametrar"
+
+#, fuzzy
+#~ msgid "Gen + Encode"
+#~ msgstr "Koding"
+
+#, fuzzy
+#~ msgid "To   Frame:"
+#~ msgstr "Vis &ramme"
+
+#, fuzzy
+#~ msgid "Framerate :"
+#~ msgstr "Format:"
+
+#, fuzzy
+#~ msgid "Bitrate:"
+#~ msgstr "Stat:"
+
+#, fuzzy
+#~ msgid "Outputfile:"
+#~ msgstr "Ut-fil:"
+
+#, fuzzy
+#~ msgid "Startscript:"
+#~ msgstr "Heva"
+
+#, fuzzy
+#~ msgid "Constant Bitrate :"
+#~ msgstr "konstant verdi"
+
+#, fuzzy
+#~ msgid "Pattern:"
+#~ msgstr "&Mønster:"
+
+#, fuzzy
+#~ msgid "P-Search :"
+#~ msgstr "Søk:"
+
+#, fuzzy
+#~ msgid "B-Search :"
+#~ msgstr "Søk:"
+
+#, fuzzy
+#~ msgid "Gen MPEG_ENCODE Parameters"
+#~ msgstr "3D-parametrar"
+
+#, fuzzy
+#~ msgid "Encode Values"
+#~ msgstr "Sluttverdi"
+
+#, fuzzy
+#~ msgid "MPEG-type :"
+#~ msgstr "MIME-type"
+
+#, fuzzy
+#~ msgid "Videoformat :"
+#~ msgstr "Videoinformasjon"
+
+#, fuzzy
+#~ msgid "Videoformat"
+#~ msgstr "Videoinformasjon"
+
+#, fuzzy
+#~ msgid "Gen MPEG2ENCODE Parameters"
+#~ msgstr "3D-parametrar"
+
+#, fuzzy
+#~ msgid "Duplicate selected Frames"
+#~ msgstr "Fjern ramme"
+
+#, fuzzy
+#~ msgid "Delete selected Frames"
+#~ msgstr "Slett valt profil"
+
+#, fuzzy
+#~ msgid "Goto 1st Frame"
+#~ msgstr "Snøgglistenamn"
+
+#, fuzzy
+#~ msgid "Goto last Frame"
+#~ msgstr "Endra storleiken på siste ramme"
+
+#~ msgid "Cut"
+#~ msgstr "Klipp ut"
+
+#, fuzzy
+#~ msgid "Paste before"
+#~ msgstr "Lim inn-modus"
+
+#, fuzzy
+#~ msgid "Paste after"
+#~ msgstr "Kva skal limast inn:"
+
+#, fuzzy
+#~ msgid "Paste replace"
+#~ msgstr "For&mat (erstatt)"
+
+#, fuzzy
+#~ msgid "Videoframes:"
+#~ msgstr "Trådramme"
+
+#, fuzzy
+#~ msgid "Framerate:"
+#~ msgstr "Format:"
+
+#, fuzzy
+#~ msgid "Timezoom:"
+#~ msgstr "Tidssone:"
+
+#, fuzzy
+#~ msgid "Video Navigator"
+#~ msgstr "Finn (Navigator)"
+
+#, fuzzy
+#~ msgid "New Width:"
+#~ msgstr "Notatbreidd"
+
+#, fuzzy
+#~ msgid "New Height:"
+#~ msgstr "Notathøgd"
+
+#, fuzzy
+#~ msgid "Offset X:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Offset Y:"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Generate Optimal Palette"
+#~ msgstr "Vel ein palett"
+
+#, fuzzy
+#~ msgid "WEB Palette"
+#~ msgstr "&Palett"
+
+#, fuzzy
+#~ msgid "Use Custom Palette"
+#~ msgstr "Bruk annan nettlesar:"
+
+#, fuzzy
+#~ msgid "Positioned Color Dithering"
+#~ msgstr "Start-posisjon"
+
+#, fuzzy
+#~ msgid "No Color Dithering"
+#~ msgstr "Fargeinnstillngar"
+
+#, fuzzy
+#~ msgid "Palette Type"
+#~ msgstr "Verditype"
+
+#, fuzzy
+#~ msgid "Remove Unused"
+#~ msgstr "Fjern felt"
+
+#, fuzzy
+#~ msgid "Dither Options"
+#~ msgstr "Andre val"
+
+#, fuzzy
+#~ msgid "Enable dithering of transparency"
+#~ msgstr "Bruk &nettverkstransparens"
+
+#, fuzzy
+#~ msgid "Convert Frames to Indexed"
+#~ msgstr "Konverter filnamn til små bokstavar"
+
+#, fuzzy
+#~ msgid "Palette and Dither Settings"
+#~ msgstr "Comment=Innstilling av dato og tid"
+
+#, fuzzy
+#~ msgid "Keep Type"
+#~ msgstr "Ta vare på tråd"
+
+#, fuzzy
+#~ msgid "Convert to Indexed"
+#~ msgstr "Konverter til kurvar"
+
+#, fuzzy
+#~ msgid "Basename:"
+#~ msgstr "Brukarnamn:"
+
+#~ msgid "Extension:"
+#~ msgstr "Etternamn:"
+
+#, fuzzy
+#~ msgid "Imagetype:"
+#~ msgstr "Bilete"
+
+#, fuzzy
+#~ msgid "Flatten:"
+#~ msgstr "Fyll-mønster:"
+
+#, fuzzy
+#~ msgid "Convert Frames to other Formats"
+#~ msgstr "Konverter filnamn til små bokstavar"
+
+#, fuzzy
+#~ msgid "Convert Settings"
+#~ msgstr "Skriftinnstillingar"
+
+#, fuzzy
+#~ msgid "Clipped to image"
+#~ msgstr "Tid gått:"
+
+#, fuzzy
+#~ msgid "Clipped to bottom layer"
+#~ msgstr "Slett mot botnen"
+
+#, fuzzy
+#~ msgid "select all visible Layers"
+#~ msgstr "Kopla saman &synlege lag"
+
+#, fuzzy
+#~ msgid "Layer Basename:"
+#~ msgstr "Spelarnamn"
+
+#, fuzzy
+#~ msgid "Create Multilayer-Image from Frames"
+#~ msgstr "Lag ramme for utklippsbilete"
+
+#, fuzzy
+#~ msgid "Flattening Frames..."
+#~ msgstr "Formaterar band ..."
+
+#, fuzzy
+#~ msgid "Converting Frames..."
+#~ msgstr "Konverterar til gråtonar ..."
+
+#, fuzzy
+#~ msgid "Cropping all Animation Frames..."
+#~ msgstr "Lukkar alle filer ..."
+
+#, fuzzy
+#~ msgid "Flatten Frames"
+#~ msgstr "Fjern ramme"
+
+#, fuzzy
+#~ msgid "Delete Layers in Frames"
+#~ msgstr "Fjern ramme"
+
+#, fuzzy
+#~ msgid "Splitting into Frames..."
+#~ msgstr "Startar nytt spel ..."
+
+#, fuzzy
+#~ msgid "Inverse Order:"
+#~ msgstr "I rekkjefølgje"
+
+#, fuzzy
+#~ msgid "Start frame 0001 at Top Layer"
+#~ msgstr "Startsum for spelarane"
+
+#, fuzzy
+#~ msgid "Split Settings"
+#~ msgstr "Tryggleiksinnstillingar"
+
+#~ msgid "Scale"
+#~ msgstr "Skaler"
+
+#~ msgid "Resize"
+#~ msgstr "Endra storleik"
+
+#, fuzzy
+#~ msgid "New width:"
+#~ msgstr "Linjebreidd:"
+
+#~ msgid "New height:"
+#~ msgstr "Ny høgd:"
+
+#, fuzzy
+#~ msgid "X ratio:"
+#~ msgstr "Lengd:"
+
+#, fuzzy
+#~ msgid "Y ratio:"
+#~ msgstr "Lengd:"
+
+#, fuzzy
+#~ msgid "Constrain Ratio"
+#~ msgstr "Samantrekking"
+
+#, fuzzy
+#~ msgid "Selected char:"
+#~ msgstr "Valt:"
+
+#~ msgid "Insert"
+#~ msgstr "Set inn"
+
+#, fuzzy
+#~ msgid "Insert the selected char at the cursor position"
+#~ msgstr "Set inn ei fil ved den gjeldande posisjonen"
+
+#~ msgid "pixels"
+#~ msgstr "pikslar"
+
+#~ msgid "points"
+#~ msgstr "punkt"
+
+#, fuzzy
+#~ msgid "GIMP Dynamic Text"
+#~ msgstr "Vanleg tekst"
+
+#, fuzzy
+#~ msgid "bottom-left"
+#~ msgstr "Nede til venstre"
+
+#, fuzzy
+#~ msgid "bottom-center"
+#~ msgstr "midten"
+
+#, fuzzy
+#~ msgid "bottom-right"
+#~ msgstr "Nede til høgre"
+
+#, fuzzy
+#~ msgid "middle-left"
+#~ msgstr "Element til venstre"
+
+#~ msgid "center"
+#~ msgstr "midten"
+
+#, fuzzy
+#~ msgid "middle-right"
+#~ msgstr "Element til høgre"
+
+#, fuzzy
+#~ msgid "top-left"
+#~ msgstr "Oppe til venstre"
+
+#, fuzzy
+#~ msgid "top-center"
+#~ msgstr "midten"
+
+#, fuzzy
+#~ msgid "top-right"
+#~ msgstr "Oppe til høgre"
+
+#, fuzzy
+#~ msgid "Toggle creation of a new layer"
+#~ msgstr "Skru av/på hev og senk"
+
+#, fuzzy
+#~ msgid "Load text from file"
+#~ msgstr "Last nivå frå fil"
+
+#, fuzzy
+#~ msgid "GDynText: Select Color"
+#~ msgstr "Vel farge"
+
+#~ msgid "Text color"
+#~ msgstr "Tekstfarge"
+
+#, fuzzy
+#~ msgid "Toggle anti-aliased text"
+#~ msgstr "Skru av/på hev og senk"
+
+#, fuzzy
+#~ msgid "Left aligned text"
+#~ msgstr "Venstrehendt"
+
+#, fuzzy
+#~ msgid "Centered text"
+#~ msgstr "Sentrert"
+
+#, fuzzy
+#~ msgid "Right aligned text"
+#~ msgstr "Høgrehendt"
+
+#, fuzzy
+#~ msgid "Toggle CharMap window"
+#~ msgstr "Skru av/på hev og senk"
+
+#, fuzzy
+#~ msgid ""
+#~ "Layer\n"
+#~ "Alignment"
+#~ msgstr "Justering"
+
+#, fuzzy
+#~ msgid "Set layer alignment"
+#~ msgstr "Namnet til den neste spelaren"
+
+#, fuzzy
+#~ msgid ""
+#~ "Line\n"
+#~ "Spacing"
+#~ msgstr "Linjemellomrom"
+
+#, fuzzy
+#~ msgid "Editable text sample"
+#~ msgstr "Skru på testmodus"
+
+#, fuzzy
+#~ msgid "Clear preview"
+#~ msgstr "Klassevising"
+
+#, fuzzy
+#~ msgid "Error opening \"%s\"!\n"
+#~ msgstr "Feil ved opning av fil!"
+
+#~ msgid "Dismiss"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error opening file '%s':\n"
+#~ "%s"
+#~ msgstr "Feil ved opning av fil!"
+
+#, fuzzy
+#~ msgid "Gradient Flare..."
+#~ msgstr "Gradvis fyll"
+
+#, fuzzy
+#~ msgid "not valid GFlare file: %s"
+#~ msgstr "Ugyldig biletefil"
+
+#, fuzzy
+#~ msgid "could not open \"%s\""
+#~ msgstr ""
+#~ "Kunne ikkje opna\n"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "error reading GFlare directory \"%s\""
+#~ msgstr "feil ved lesing frå fila %1"
+
+#, fuzzy
+#~ msgid "GFlare"
+#~ msgstr "stor"
+
+#, fuzzy
+#~ msgid "`Default' is created."
+#~ msgstr "(Standard skjerm)"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#, fuzzy
+#~ msgid "Rotation:"
+#~ msgstr "Rotering"
+
+#, fuzzy
+#~ msgid "Hue Rotation:"
+#~ msgstr "Rotering"
+
+#, fuzzy
+#~ msgid "Vector Angle:"
+#~ msgstr "Vinkel"
+
+#, fuzzy
+#~ msgid "Vector Length:"
+#~ msgstr "Lengd:"
+
+#, fuzzy
+#~ msgid "Auto Update Preview"
+#~ msgstr "Førehandsvis side"
+
+#, fuzzy
+#~ msgid "Selector"
+#~ msgstr "Vel"
+
+#, fuzzy
+#~ msgid "New GFlare"
+#~ msgstr "Ny fil"
+
+#, fuzzy
+#~ msgid "Enter a Name for the New GFlare:"
+#~ msgstr "Oppgi eit namn på profilen."
+
+#~ msgid "untitled"
+#~ msgstr "utan tittel"
+
+#, fuzzy
+#~ msgid "The name '%s' is used already!"
+#~ msgstr "Dette namnet er alt i bruk."
+
+#, fuzzy
+#~ msgid "Copy GFlare"
+#~ msgstr "Kopier filer"
+
+#, fuzzy
+#~ msgid "Enter a Name for the Copied GFlare:"
+#~ msgstr "Oppgi eit namn på profilen."
+
+#, fuzzy
+#~ msgid "The name `%s' is used already!"
+#~ msgstr "Dette namnet er alt i bruk."
+
+#, fuzzy
+#~ msgid "Delete GFlare"
+#~ msgstr "Fjern ramme"
+
+#, fuzzy
+#~ msgid "GFlare Editor"
+#~ msgstr "Stilredigerar"
+
+#, fuzzy
+#~ msgid "Rescan Gradients"
+#~ msgstr "RektangulÂµr gradvis overgang"
+
+#, fuzzy
+#~ msgid "Glow Paint Options"
+#~ msgstr "Monteringsval"
+
+#, fuzzy
+#~ msgid "Paint Mode:"
+#~ msgstr "Peikar til:"
+
+#, fuzzy
+#~ msgid "Rays Paint Options"
+#~ msgstr "KPilot-val"
+
+#, fuzzy
+#~ msgid "Second Flares Paint Options"
+#~ msgstr "Val for oppkopling på nytt"
+
+#~ msgid "Gradients"
+#~ msgstr "Gradvise overgangar"
+
+#, fuzzy
+#~ msgid "Radial Gradient:"
+#~ msgstr "Gradvis overgang vertikalt"
+
+#, fuzzy
+#~ msgid "Angular Gradient:"
+#~ msgstr "RektangulÂµr gradvis overgang"
+
+#, fuzzy
+#~ msgid "Angular Size Gradient:"
+#~ msgstr "RektangulÂµr gradvis overgang"
+
+#, fuzzy
+#~ msgid "Size (%):"
+#~ msgstr "Storleik (%1):"
+
+#~ msgid "Glow"
+#~ msgstr "Glød"
+
+#, fuzzy
+#~ msgid "# of Spikes:"
+#~ msgstr "Kopiar:"
+
+#, fuzzy
+#~ msgid "Spike Thickness:"
+#~ msgstr "Tjukkleik:"
+
+#, fuzzy
+#~ msgid "Rays"
+#~ msgstr "Hev"
+
+#, fuzzy
+#~ msgid "Size Factor Gradient:"
+#~ msgstr "Røyrkross-forma gradvis overgang"
+
+#, fuzzy
+#~ msgid "Probability Gradient:"
+#~ msgstr "Pyramideforma gradvis overgang"
+
+#~ msgid "Circle"
+#~ msgstr "Sirkel"
+
+#~ msgid "Polygon"
+#~ msgstr "Mangekant"
+
+#, fuzzy
+#~ msgid "Second Flares"
+#~ msgstr "Sekund"
+
+#~ msgid "More..."
+#~ msgstr "Meir ..."
+
+#, fuzzy
+#~ msgid "FLI: Can't open \"%s\""
+#~ msgstr ""
+#~ "Kunne ikkje opna\n"
+#~ "\"%1\""
+
+#, fuzzy
+#~ msgid "Frame (%i)"
+#~ msgstr "Ramme"
+
+#, fuzzy
+#~ msgid "Save brush"
+#~ msgstr "Lagra som"
+
+#, fuzzy
+#~ msgid "Brush Preview:"
+#~ msgstr "Førehandsvising:"
+
+#, fuzzy
+#~ msgid "Changes the gamma (brightness) of the selected brush"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Select:"
+#~ msgstr "Vel"
+
+#, fuzzy
+#~ msgid "Aspect ratio:"
+#~ msgstr "Deklarasjon:"
+
+#, fuzzy
+#~ msgid "Relief:"
+#~ msgstr "Svart på"
+
+#, fuzzy
+#~ msgid "(None)"
+#~ msgstr "(ingen)"
+
+#, fuzzy
+#~ msgid "Specifies the aspect ratio of the brush"
+#~ msgstr "Kopierer det merkte området til utklippstavla"
+
+#, fuzzy
+#~ msgid "Center of brush"
+#~ msgstr "Midten"
+
+#, fuzzy
+#~ msgid "Color noise:"
+#~ msgstr "Brukte fargar:"
+
+#, fuzzy
+#~ msgid "Adds random noise to the color"
+#~ msgstr "Legg ei fil til prosjektet"
+
+#, fuzzy
+#~ msgid "Color Selection Dialog"
+#~ msgstr "Fargeinnstillngar"
+
+#, fuzzy
+#~ msgid "Keep original"
+#~ msgstr "Slett signal"
+
+#, fuzzy
+#~ msgid "Preserve the original image as a background"
+#~ msgstr "KPresenter - Sidebakgrunn"
+
+#, fuzzy
+#~ msgid "From paper"
+#~ msgstr "Frå side:"
+
+#, fuzzy
+#~ msgid "Solid colored background"
+#~ msgstr "Farga bakgrunn"
+
+#, fuzzy
+#~ msgid "Paint edges"
+#~ msgstr "Lim inn element"
+
+#, fuzzy
+#~ msgid "Drop Shadow"
+#~ msgstr "Slepp ned"
+
+#, fuzzy
+#~ msgid "Shadow depth:"
+#~ msgstr "Skuggefil:"
+
+#, fuzzy
+#~ msgid "Shadow blur:"
+#~ msgstr "&Skuggefarge:"
+
+#, fuzzy
+#~ msgid "Deviation threshold:"
+#~ msgstr "Målmappe:"
+
+#, fuzzy
+#~ msgid "Painting..."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "Run with the selected settings"
+#~ msgstr "Køyr den valte oppgåva no."
+
+#, fuzzy
+#~ msgid "Quit the program"
+#~ msgstr "Avsluttar programmet"
+
+#, fuzzy
+#~ msgid "Directions:"
+#~ msgstr "Retning:"
+
+#, fuzzy
+#~ msgid "Start angle:"
+#~ msgstr "Start-dato:"
+
+#, fuzzy
+#~ msgid "Angle span:"
+#~ msgstr "Vinkel :"
+
+#, fuzzy
+#~ msgid "The angle of the first brush to create"
+#~ msgstr "Namnet på fila programmet skal skriva til"
+
+#, fuzzy
+#~ msgid "Radius"
+#~ msgstr "Radius:"
+
+#, fuzzy
+#~ msgid "Flowing"
+#~ msgstr "Flygande"
+
+#, fuzzy
+#~ msgid "The hue of the region determines the direction of the stroke"
+#~ msgstr ""
+#~ "len()-funksjonen returnerer\n"
+#~ "lengda på tekststrengen.\n"
+
+#~ msgid "Manual"
+#~ msgstr "Manuell"
+
+#~ msgid "Edit..."
+#~ msgstr "Endra ..."
+
+#, fuzzy
+#~ msgid "Opens up the Orientation Map Editor"
+#~ msgstr "opna spelelisteredigeraren"
+
+#, fuzzy
+#~ msgid "Orientation Map Editor"
+#~ msgstr "Retning"
+
+#, fuzzy
+#~ msgid "Vectors"
+#~ msgstr "Katalogar"
+
+#, fuzzy
+#~ msgid "Select previous vector"
+#~ msgstr "Vel katalog"
+
+#, fuzzy
+#~ msgid "Select next vector"
+#~ msgstr "Velg ein katalog"
+
+#, fuzzy
+#~ msgid "Add new vector"
+#~ msgstr "Legg til ei ny oppføring"
+
+#~ msgid "Kill"
+#~ msgstr "Drep"
+
+#, fuzzy
+#~ msgid "Delete selected vector"
+#~ msgstr "Slett valt post?"
+
+#, fuzzy
+#~ msgid "Change the angle of the selected vector"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Change the strength of the selected vector"
+#~ msgstr "Vel ein tast for den valte handlinga"
+
+#, fuzzy
+#~ msgid "Vortex"
+#~ msgstr "Ingen tekst"
+
+#, fuzzy
+#~ msgid "Cancel all changes and exit"
+#~ msgstr "Lagrar alle endra filer"
+
+#, fuzzy
+#~ msgid "Strength exp.:"
+#~ msgstr "Gate:"
+
+#, fuzzy
+#~ msgid "Change the exponent of the strength"
+#~ msgstr "Endra namnet på spelarane"
+
+#~ msgid "Paper"
+#~ msgstr "Papir"
+
+#, fuzzy
+#~ msgid "Paper Preview:"
+#~ msgstr "Førehandsvis side"
+
+#, fuzzy
+#~ msgid "Inverts the Papers texture"
+#~ msgstr "Avbryt køyringa av applikasjonen"
+
+#, fuzzy
+#~ msgid "Scale:"
+#~ msgstr "Skaler"
+
+#, fuzzy
+#~ msgid "Placement"
+#~ msgstr "Erstatning:"
+
+#, fuzzy
+#~ msgid "Placement:"
+#~ msgstr "Erstatning:"
+
+#, fuzzy
+#~ msgid "Randomly"
+#~ msgstr "Tilfeldig"
+
+#, fuzzy
+#~ msgid "Evenly distributed"
+#~ msgstr "Distribuer"
+
+#, fuzzy
+#~ msgid "Stroke density:"
+#~ msgstr "Ny identitet"
+
+#, fuzzy
+#~ msgid "Centerize"
+#~ msgstr "Sentrert"
+
+#~ msgid "Presets"
+#~ msgstr "Førehandsdefinerte"
+
+#, fuzzy
+#~ msgid "Save the current settings to the specified file"
+#~ msgstr "Kan ikkje setja rette løyve for oppsett-fila\n"
+
+#, fuzzy
+#~ msgid "Reads the selected Preset into memory"
+#~ msgstr "Kopierer det merkte området til utklippstavla"
+
+#, fuzzy
+#~ msgid "Deletes the selected Preset"
+#~ msgstr "Slettar den valte fila"
+
+#, fuzzy
+#~ msgid "Reread the directory of Presets"
+#~ msgstr "Rot av katalogtreet"
+
+#, fuzzy
+#~ msgid "(Desc)"
+#~ msgstr "Des"
+
+#~ msgid "Update"
+#~ msgstr "Oppdater"
+
+#, fuzzy
+#~ msgid "Refresh the Preview window"
+#~ msgstr "Oppfriskar vindauget"
+
+#, fuzzy
+#~ msgid "Revert to the original image"
+#~ msgstr "er lik den opprinnelege meldinga"
+
+#, fuzzy
+#~ msgid "Sizes:"
+#~ msgstr "Storleik:"
+
+#, fuzzy
+#~ msgid "Min size:"
+#~ msgstr "Punktstorleik:"
+
+#, fuzzy
+#~ msgid "Max size:"
+#~ msgstr "&Maks storleik"
+
+#, fuzzy
+#~ msgid "The number of sizes of brushes to use"
+#~ msgstr "Namnet på fila programmet skal skriva til"
+
+#, fuzzy
+#~ msgid "The hue of the region determines the size of the stroke"
+#~ msgstr ""
+#~ "len()-funksjonen returnerer\n"
+#~ "lengda på tekststrengen.\n"
+
+#, fuzzy
+#~ msgid "Manually specify the stroke size"
+#~ msgstr "&Manuelt bytte til neste steg"
+
+#, fuzzy
+#~ msgid "Opens up the Size Map Editor"
+#~ msgstr "opna spelelisteredigeraren"
+
+#, fuzzy
+#~ msgid "Size Map Editor"
+#~ msgstr "Stilredigerar"
+
+#, fuzzy
+#~ msgid "Smvectors"
+#~ msgstr "Poeng"
+
+#, fuzzy
+#~ msgid "Select previous smvector"
+#~ msgstr "Vel katalog"
+
+#, fuzzy
+#~ msgid "Select next smvector"
+#~ msgstr "Velg ein katalog"
+
+#, fuzzy
+#~ msgid "Add new smvector"
+#~ msgstr "Legg til ei ny oppføring"
+
+#, fuzzy
+#~ msgid "Delete selected smvector"
+#~ msgstr "Slett valt post?"
+
+#, fuzzy
+#~ msgid "Change the angle of the selected smvector"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Change the strength of the selected smvector"
+#~ msgstr "Vel ein tast for den valte handlinga"
+
+#~ msgid "Contents"
+#~ msgstr "Innhald"
+
+#, fuzzy
+#~ msgid "<Untitled>"
+#~ msgstr "Utan tittel"
+
+#~ msgid "Forward"
+#~ msgstr "Fram"
+
+#, fuzzy
+#~ msgid "Shear:"
+#~ msgstr "Klipp"
+
+#, fuzzy
+#~ msgid "Flip"
+#~ msgstr "Folio"
+
+#~ msgid "Simple"
+#~ msgstr "Enkel"
+
+#, fuzzy
+#~ msgid "IfsCompose: Target"
+#~ msgstr "Teiknsett i redigerar"
+
+#, fuzzy
+#~ msgid "Full"
+#~ msgstr "Full %"
+
+#, fuzzy
+#~ msgid "IfsCompose: Red"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "IfsCompose: Green"
+#~ msgstr "Redigerar"
+
+#, fuzzy
+#~ msgid "IfsCompose: Black"
+#~ msgstr "Bakgrunn i redigerar"
+
+#, fuzzy
+#~ msgid "IfsCompose"
+#~ msgstr "&Rediger"
+
+#, fuzzy
+#~ msgid "Rotate/Scale"
+#~ msgstr "Roter mot venstre"
+
+#, fuzzy
+#~ msgid "Stretch"
+#~ msgstr "Veg"
+
+#~ msgid "Auto"
+#~ msgstr "Auto"
+
+#, fuzzy
+#~ msgid "Spatial Transformation"
+#~ msgstr "Systeminformasjon"
+
+#, fuzzy
+#~ msgid "Color Transformation"
+#~ msgstr "Stadfesting"
+
+#, fuzzy
+#~ msgid "Relative Probability:"
+#~ msgstr "Relativ posisjon"
+
+#~ msgid "Select All"
+#~ msgstr "Vel alle"
+
+#~ msgid "Redo"
+#~ msgstr "Gjer om"
+
+#, fuzzy
+#~ msgid "IfsCompose Options"
+#~ msgstr "Kompilatorval"
+
+#, fuzzy
+#~ msgid "Max. Memory:"
+#~ msgstr "Veksleminne"
+
+#, fuzzy
+#~ msgid "Spot Radius:"
+#~ msgstr "Radius:"
+
+#, fuzzy
+#~ msgid "Copying IFS to image (%d/%d)..."
+#~ msgstr "Kopierer ..."
+
+#, fuzzy
+#~ msgid "Center x:"
+#~ msgstr "Midten"
+
+#, fuzzy
+#~ msgid "Center y:"
+#~ msgstr "Midten"
+
+#, fuzzy
+#~ msgid "Create"
+#~ msgstr "Laga"
+
+#, fuzzy
+#~ msgid "Edit Object"
+#~ msgstr "Inkluder objekt"
+
+#, fuzzy
+#~ msgid "Create Guides"
+#~ msgstr "Laga"
+
+#~ msgid "Width"
+#~ msgstr "Breidd"
+
+#, fuzzy
+#~ msgid "Left Start at"
+#~ msgstr "Start-dato"
+
+#~ msgid "Height"
+#~ msgstr "Høgd"
+
+#, fuzzy
+#~ msgid "Top Start at"
+#~ msgstr "Start-dato"
+
+#, fuzzy
+#~ msgid "Vert. Spacing"
+#~ msgstr "Linjemellomrom"
+
+#, fuzzy
+#~ msgid "Base URL:"
+#~ msgstr "URL:"
+
+#, fuzzy
+#~ msgid "Guides"
+#~ msgstr "Gjest"
+
+#~ msgid "Move Down"
+#~ msgstr "Flytt nedover"
+
+#, fuzzy
+#~ msgid "Move Sash"
+#~ msgstr "Flytt til papirkorga"
+
+#, fuzzy
+#~ msgid "Move Selected Objects"
+#~ msgstr "Valte tabellar"
+
+#, fuzzy
+#~ msgid "Move To Front"
+#~ msgstr "Lengst &fram"
+
+#~ msgid "Move Up"
+#~ msgstr "Flytt oppover"
+
+#~ msgid "Paste"
+#~ msgstr "Lim inn"
+
+#, fuzzy
+#~ msgid "Select Next"
+#~ msgstr "Merka tekst"
+
+#, fuzzy
+#~ msgid "Select Previous"
+#~ msgstr "Vel katalog"
+
+#, fuzzy
+#~ msgid "Select Region"
+#~ msgstr "Val"
+
+#, fuzzy
+#~ msgid "Send To Back"
+#~ msgstr "Lengst &bak"
+
+#~ msgid "Unselect"
+#~ msgstr "Fjern merking"
+
+#, fuzzy
+#~ msgid "Unselect All"
+#~ msgstr "Ta &bort val av alt"
+
+#, fuzzy
+#~ msgid "Link Type"
+#~ msgstr " Lenkje "
+
+#, fuzzy
+#~ msgid "Web Site"
+#~ msgstr "Name=Nettstader"
+
+#, fuzzy
+#~ msgid "Ftp Site"
+#~ msgstr "FTP"
+
+#, fuzzy
+#~ msgid "Gopher"
+#~ msgstr "Kule"
+
+#, fuzzy
+#~ msgid "Telnet"
+#~ msgstr "Telex"
+
+#, fuzzy
+#~ msgid "e-mail"
+#~ msgstr "E-post"
+
+#~ msgid "Link"
+#~ msgstr "Lenkje"
+
+#~ msgid "Dimensions"
+#~ msgstr "Dimensjonar"
+
+#, fuzzy
+#~ msgid "Area #%d Settings"
+#~ msgstr "Innstillingar for KArchie"
+
+#, fuzzy
+#~ msgid "Error opening file"
+#~ msgstr "Feil ved opning av fil!"
+
+#, fuzzy
+#~ msgid "Load Imagemap"
+#~ msgstr "Legg til bilete"
+
+#, fuzzy
+#~ msgid ""
+#~ "File already exists.\n"
+#~ "  Do you really want to overwrite?  "
+#~ msgstr ""
+#~ "Fila finst alt.\n"
+#~ "Vil du skriva over den?"
+
+#, fuzzy
+#~ msgid "Save Imagemap"
+#~ msgstr "Lagra bilete som"
+
+#~ msgid "Error"
+#~ msgstr "Feil"
+
+#, fuzzy
+#~ msgid "Grid Settings"
+#~ msgstr "Innstillingar"
+
+#, fuzzy
+#~ msgid "Snap-To Grid Enabled"
+#~ msgstr "Juster til rutenett"
+
+#~ msgid "Hidden"
+#~ msgstr "Skjult"
+
+#~ msgid "Lines"
+#~ msgstr "Linjer"
+
+#, fuzzy
+#~ msgid "Crosses"
+#~ msgstr "Kross"
+
+#, fuzzy
+#~ msgid "Grid Offset"
+#~ msgstr "Gå til offset"
+
+#, fuzzy
+#~ msgid "pixels from left"
+#~ msgstr "Slett frå venstre"
+
+#, fuzzy
+#~ msgid "pixels from top"
+#~ msgstr "Slett frå toppen"
+
+#, fuzzy
+#~ msgid "Data changed"
+#~ msgstr "Endringsdato"
+
+#, fuzzy
+#~ msgid ""
+#~ "Some data has been changed.\n"
+#~ "Do you really want to discard your changes?"
+#~ msgstr ""
+#~ "Cella er ikkje tom.\n"
+#~ "Vil du fortsetja?"
+
+#, fuzzy
+#~ msgid "File \"%s\" saved."
+#~ msgstr "Fil lagra."
+
+#, fuzzy
+#~ msgid "Couldn't save file:"
+#~ msgstr "Kunne ikkje lagra fil"
+
+#, fuzzy
+#~ msgid "Image size changed"
+#~ msgstr "Fil endra"
+
+#, fuzzy
+#~ msgid "Couldn't read file:"
+#~ msgstr ""
+#~ "Kunne ikkje lesa fil:\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgid "URL: %s"
+#~ msgstr "URL:"
+
+#~ msgid "Open..."
+#~ msgstr "Opna ..."
+
+#, fuzzy
+#~ msgid "Save As..."
+#~ msgstr "Lagra &som ..."
+
+#~ msgid "Preferences..."
+#~ msgstr "Innstillingar ..."
+
+#, fuzzy
+#~ msgid "Undo %s"
+#~ msgstr "Angra: %s"
+
+#, fuzzy
+#~ msgid "Redo %s"
+#~ msgstr "Gjer om: %s"
+
+#, fuzzy
+#~ msgid "Edit Area Info..."
+#~ msgstr "&Rediger oppføring ..."
+
+#, fuzzy
+#~ msgid "Source..."
+#~ msgstr "Vis kjelde ..."
+
+#~ msgid "Zoom In"
+#~ msgstr "Forstørr"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Forminsk"
+
+#~ msgid "Zoom To"
+#~ msgstr "Endra storleik til"
+
+#, fuzzy
+#~ msgid "Mapping"
+#~ msgstr "Hovud"
+
+#~ msgid "Arrow"
+#~ msgstr "Pil"
+
+#, fuzzy
+#~ msgid "Edit Map Info..."
+#~ msgstr "R&ediger tagg ..."
+
+#~ msgid "Goodies"
+#~ msgstr "Godsaker"
+
+#, fuzzy
+#~ msgid "Grid Settings..."
+#~ msgstr "Innstillingar ..."
+
+#, fuzzy
+#~ msgid "Create Guides..."
+#~ msgstr "Lag ..."
+
+#, fuzzy
+#~ msgid "About ImageMap..."
+#~ msgstr "Om KDevelop ..."
+
+#, fuzzy
+#~ msgid "x (pixels)"
+#~ msgstr " pikslar"
+
+#, fuzzy
+#~ msgid "y (pixels)"
+#~ msgstr " pikslar"
+
+#~ msgid "Append"
+#~ msgstr "Legg til"
+
+#, fuzzy
+#~ msgid "In"
+#~ msgstr "Heiltal"
+
+#~ msgid "Out"
+#~ msgstr "Ut"
+
+#, fuzzy
+#~ msgid "Guides..."
+#~ msgstr "R&utenett ..."
+
+#, fuzzy
+#~ msgid "Prompt for area info"
+#~ msgstr "Spør ved erstatting"
+
+#, fuzzy
+#~ msgid "Require default URL"
+#~ msgstr "Gjenopprett standardinnstillingar"
+
+#, fuzzy
+#~ msgid "Show area handles"
+#~ msgstr "Vis &heile meldingshovudet"
+
+#, fuzzy
+#~ msgid "Show area URL tip"
+#~ msgstr "Vis tilfeldige tips"
+
+#, fuzzy
+#~ msgid "Number of Undo levels (1 - 99):"
+#~ msgstr "Tal på bier:"
+
+#, fuzzy
+#~ msgid "Number of MRU entries (1 - 16):"
+#~ msgstr "tal på forsøk :"
+
+#~ msgid "Menu"
+#~ msgstr "Meny"
+
+#~ msgid "Normal:"
+#~ msgstr "Normal:"
+
+#~ msgid "Selected:"
+#~ msgstr "Valt:"
+
+#, fuzzy
+#~ msgid "General Preferences"
+#~ msgstr "Innstillingar for KMedia"
+
+#, fuzzy
+#~ msgid "Upper left x:"
+#~ msgstr "Store bokstavar"
+
+#, fuzzy
+#~ msgid "Upper left y:"
+#~ msgstr "Øvre skuff"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Target"
+#~ msgstr "Mål"
+
+#~ msgid "Comment"
+#~ msgstr "Kommentar"
+
+#, fuzzy
+#~ msgid "Settings for this Mapfile"
+#~ msgstr "Val for lagring av fil"
+
+#, fuzzy
+#~ msgid "Image name:"
+#~ msgstr "Band-namn:"
+
+#~ msgid "Title:"
+#~ msgstr "Tittel:"
+
+#, fuzzy
+#~ msgid "Default URL:"
+#~ msgstr "Standard"
+
+#, fuzzy
+#~ msgid "Map file format"
+#~ msgstr "Utfil-format:"
+
+#, fuzzy
+#~ msgid "View Source"
+#~ msgstr "Vis kjelde ..."
+
+#~ msgid "Preferences"
+#~ msgstr "Innstillingar"
+
+#, fuzzy
+#~ msgid "Edit Map Info"
+#~ msgstr "Annan info"
+
+#, fuzzy
+#~ msgid "Select existing area"
+#~ msgstr "Merk område"
+
+#, fuzzy
+#~ msgid "Define Rectangle area"
+#~ msgstr "Endra verdiar for rektangel"
+
+#, fuzzy
+#~ msgid "Define Polygon area"
+#~ msgstr "Lag mangekant"
+
+#, fuzzy
+#~ msgid "Edit selected area info"
+#~ msgstr "Rediger valt skrivar"
+
+#, fuzzy
+#~ msgid "Delete selected area"
+#~ msgstr "Slett valt profil"
+
+#, fuzzy
+#~ msgid "Drawing Maze..."
+#~ msgstr "Formaterar band ..."
+
+#, fuzzy
+#~ msgid "Width (Pixels):"
+#~ msgstr "Breidd:"
+
+#, fuzzy
+#~ msgid "Pieces:"
+#~ msgstr "&Brikker"
+
+#, fuzzy
+#~ msgid "Height (Pixels):"
+#~ msgstr "Høgd:"
+
+#, fuzzy
+#~ msgid "Multiple (57):"
+#~ msgstr "&Fleire:"
+
+#, fuzzy
+#~ msgid "Offset (1):"
+#~ msgstr "Offset:"
+
+#, fuzzy
+#~ msgid "Depth First"
+#~ msgstr "Erstatt &første"
+
+#, fuzzy
+#~ msgid "Prim's Algorithm"
+#~ msgstr "Algoritme"
+
+#, fuzzy
+#~ msgid "Selection is %dx%d"
+#~ msgstr "Valg-modus"
+
+#, fuzzy
+#~ msgid "See %s"
+#~ msgstr "Område %1"
+
+#, fuzzy
+#~ msgid "Finding Edges..."
+#~ msgstr "Avsluttar spel ..."
+
+#, fuzzy
+#~ msgid "Rendering Tiles..."
+#~ msgstr "pussar linsa ..."
+
+#, fuzzy
+#~ msgid "Mosaic"
+#~ msgstr "Monaco"
+
+#, fuzzy
+#~ msgid "Color Averaging"
+#~ msgstr "Fargeinnstillngar"
+
+#, fuzzy
+#~ msgid "Pitted Surfaces"
+#~ msgstr "USA"
+
+#, fuzzy
+#~ msgid "FG/BG Lighting"
+#~ msgstr "Lyssetjing"
+
+#, fuzzy
+#~ msgid "Squares"
+#~ msgstr "Firkant"
+
+#, fuzzy
+#~ msgid "Hexagons"
+#~ msgstr "Overskriftskolonnar"
+
+#, fuzzy
+#~ msgid "Octagons & Squares"
+#~ msgstr "Tom boks"
+
+#, fuzzy
+#~ msgid "Tile Spacing:"
+#~ msgstr "Linjemellomrom"
+
+#, fuzzy
+#~ msgid "Tile Neatness:"
+#~ msgstr "Filtypar:"
+
+#, fuzzy
+#~ msgid "Light Direction:"
+#~ msgstr "Retning:"
+
+#, fuzzy
+#~ msgid "Color Variation:"
+#~ msgstr "Fargerate:"
+
+#, fuzzy
+#~ msgid "Unable to add additional point.\n"
+#~ msgstr "Kan ikkje ta skjermskot!"
+
+#, fuzzy
+#~ msgid "Curl Location"
+#~ msgstr "Kodeplassering"
+
+#, fuzzy
+#~ msgid "Upper Left"
+#~ msgstr "Øvre grense"
+
+#, fuzzy
+#~ msgid "Upper Right"
+#~ msgstr "Øvre grense"
+
+#, fuzzy
+#~ msgid "Lower Left"
+#~ msgstr "Nedre grense"
+
+#, fuzzy
+#~ msgid "Lower Right"
+#~ msgstr "Høgre kant"
+
+#, fuzzy
+#~ msgid "Curl Orientation"
+#~ msgstr "Retning"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use Current Gradient\n"
+#~ "instead of FG/BG-Color"
+#~ msgstr "Bruk ein annan redigerar enn kmail sin eigen"
+
+#, fuzzy
+#~ msgid "Curl Opacity"
+#~ msgstr "Transparens"
+
+#, fuzzy
+#~ msgid "Page Curl..."
+#~ msgstr "&Side ..."
+
+#, fuzzy
+#~ msgid "Print Color Adjust"
+#~ msgstr "Overgangsfargar:"
+
+#, fuzzy
+#~ msgid "Set Defaults"
+#~ msgstr "Set som standard"
+
+#, fuzzy
+#~ msgid "Image preview"
+#~ msgstr "Førehandsvis b&ilete"
+
+#, fuzzy
+#~ msgid "Set the contrast of the print"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Adjust the cyan balance of the print"
+#~ msgstr "Tal på kopiar:"
+
+#, fuzzy
+#~ msgid "Adjust the magenta balance of the print"
+#~ msgstr "Tal på kopiar:"
+
+#~ msgid "Density:"
+#~ msgstr "Tettleik:"
+
+#, fuzzy
+#~ msgid "Dither Algorithm:"
+#~ msgstr "Algoritme"
+
+#, fuzzy
+#~ msgid ""
+#~ "Print and\n"
+#~ "Save Settings"
+#~ msgstr "Skrivaroppsett"
+
+#, fuzzy
+#~ msgid ""
+#~ "Save\n"
+#~ "Settings"
+#~ msgstr "Lagra innstillingar"
+
+#~ msgid "Print"
+#~ msgstr "Skriv ut"
+
+#~ msgid "Portrait"
+#~ msgstr "Ståande"
+
+#~ msgid "Landscape"
+#~ msgstr "Liggjande"
+
+#~ msgid "Upside down"
+#~ msgstr "Opp-ned"
+
+#~ msgid "Seascape"
+#~ msgstr "Liggjande opp-ned"
+
+#, fuzzy
+#~ msgid "Right Border:"
+#~ msgstr "Høgre side"
+
+#, fuzzy
+#~ msgid "Bottom Border:"
+#~ msgstr "Botn:"
+
+#, fuzzy
+#~ msgid "Center:"
+#~ msgstr "Sentrert"
+
+#, fuzzy
+#~ msgid "Vertically"
+#~ msgstr "Vertikalt"
+
+#, fuzzy
+#~ msgid "Horizontally"
+#~ msgstr "Horisontalt"
+
+#, fuzzy
+#~ msgid "Setup Printer"
+#~ msgstr "Skrivar:"
+
+#, fuzzy
+#~ msgid "Printer Model:"
+#~ msgstr "Skrivartype:"
+
+#, fuzzy
+#~ msgid "PPD File:"
+#~ msgstr "Fil:"
+
+#~ msgid "Command:"
+#~ msgstr "Kommando:"
+
+#, fuzzy
+#~ msgid "Print To File?"
+#~ msgstr "Utskrift til fil"
+
+#, fuzzy
+#~ msgid "PPD File?"
+#~ msgstr " Fil "
+
+#, fuzzy
+#~ msgid "Define New Printer"
+#~ msgstr "Slett slot"
+
+#, fuzzy
+#~ msgid "Printer Name:"
+#~ msgstr "Skrivar:"
+
+#, fuzzy
+#~ msgid "Printer Settings"
+#~ msgstr "Skrivaroppsett"
+
+#, fuzzy
+#~ msgid "New Printer..."
+#~ msgstr "Skriv ut ..."
+
+#, fuzzy
+#~ msgid "Media Size:"
+#~ msgstr "Medium:"
+
+#, fuzzy
+#~ msgid "Dimensions:"
+#~ msgstr "Dimensjonar"
+
+#, fuzzy
+#~ msgid "Media Type:"
+#~ msgstr "Mime-typar:"
+
+#, fuzzy
+#~ msgid "Media Source:"
+#~ msgstr "Kjelde:"
+
+#, fuzzy
+#~ msgid "Ink Type:"
+#~ msgstr "Type:"
+
+#, fuzzy
+#~ msgid "Scaling:"
+#~ msgstr "Skalering"
+
+#, fuzzy
+#~ msgid "Set the scale (size) of the image"
+#~ msgstr "set klientgeometrien til hovudelementet."
+
+#, fuzzy
+#~ msgid "Scale the print to the size of the page"
+#~ msgstr ""
+#~ "len()-funksjonen returnerer\n"
+#~ "lengda på tekststrengen.\n"
+
+#, fuzzy
+#~ msgid "PPI"
+#~ msgstr "PPP"
+
+#, fuzzy
+#~ msgid "Set the height of the print"
+#~ msgstr "Endra namnet på spelarane"
+
+#, fuzzy
+#~ msgid "Units:"
+#~ msgstr "Einingar"
+
+#~ msgid "cm"
+#~ msgstr "cm"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use Original\n"
+#~ "Image Size"
+#~ msgstr "Biletestorleik"
+
+#, fuzzy
+#~ msgid "Set the print size to the size of the image"
+#~ msgstr "Kan ikkje setja rette løyve for oppsett-fila\n"
+
+#, fuzzy
+#~ msgid "Image / Output Settings"
+#~ msgstr "Innstillingar"
+
+#, fuzzy
+#~ msgid "Image Type:"
+#~ msgstr "Biletetaggar"
+
+#, fuzzy
+#~ msgid "Line Art"
+#~ msgstr "Lineær"
+
+#, fuzzy
+#~ msgid "Solid Colors"
+#~ msgstr "Feriefarge"
+
+#, fuzzy
+#~ msgid "Photograph"
+#~ msgstr "Avsnitt"
+
+#, fuzzy
+#~ msgid "Output Type:"
+#~ msgstr "&Utskuff:"
+
+#, fuzzy
+#~ msgid "Color output"
+#~ msgstr "Konsoll-modus"
+
+#, fuzzy
+#~ msgid "Black and White"
+#~ msgstr "Svart på kvitt"
+
+#, fuzzy
+#~ msgid "Rotating the colormap..."
+#~ msgstr "Sorterer fargar ..."
+
+#, fuzzy
+#~ msgid "Switch to clockwise"
+#~ msgstr "Roter &med klokka"
+
+#, fuzzy
+#~ msgid "Switch to c/clockwise"
+#~ msgstr "Roter &med klokka"
+
+#, fuzzy
+#~ msgid "Change order of arrows"
+#~ msgstr "Endra brettoppsett"
+
+#~ msgid "Select all"
+#~ msgstr "Vel alle"
+
+#~ msgid "To"
+#~ msgstr "Til"
+
+#, fuzzy
+#~ msgid "Treat as this"
+#~ msgstr "Kva er dette?"
+
+#, fuzzy
+#~ msgid "Change to this"
+#~ msgstr "Endra tekstar"
+
+#, fuzzy
+#~ msgid "What is Gray?"
+#~ msgstr "Kva er ...?"
+
+#~ msgid "Units"
+#~ msgstr "Einingar"
+
+#, fuzzy
+#~ msgid "Radians"
+#~ msgstr "Radius"
+
+#, fuzzy
+#~ msgid "Radians/Pi"
+#~ msgstr "Radianer/Pi"
+
+#~ msgid "Degrees"
+#~ msgstr "Grader"
+
+#~ msgid "Continuous update"
+#~ msgstr "Fortset oppdatering"
+
+#, fuzzy
+#~ msgid "Entire Layer"
+#~ msgstr "Skriv melding"
+
+#~ msgid "Context"
+#~ msgstr "Samanhang"
+
+#~ msgid "Colormap Rotation"
+#~ msgstr "Rotering av fargekart"
+
+#~ msgid "Main"
+#~ msgstr "Hovud"
+
+#, fuzzy
+#~ msgid "Selection to Path..."
+#~ msgstr "Vel ikontype"
+
+#, fuzzy
+#~ msgid "No selection to convert"
+#~ msgstr "Kopier mal til heimekatalog"
+
+#, fuzzy
+#~ msgid "Selection To Path Advanced Settings"
+#~ msgstr "Avanserte innstillingar"
+
+#, fuzzy
+#~ msgid "Save as SGI"
+#~ msgstr "Lagra som"
+
+#~ msgid "Compression Type"
+#~ msgstr "Type kompresjon:"
+
+#~ msgid "Open URL"
+#~ msgstr "Opna URL"
+
+#~ msgid "URL:"
+#~ msgstr "URL:"
+
+#, fuzzy
+#~ msgid "Window:"
+#~ msgstr "Vindauge"
+
+#~ msgid "Current"
+#~ msgstr "Gjeldande"
+
+#, fuzzy
+#~ msgid "Grab a single window"
+#~ msgstr " (I nytt vindauge)"
+
+#, fuzzy
+#~ msgid "Include decorations"
+#~ msgstr "Inkluder &underkatalogar"
+
+#, fuzzy
+#~ msgid "Grab the whole screen"
+#~ msgstr "Ta musa"
+
+#, fuzzy
+#~ msgid "No data captured"
+#~ msgstr "Ingen data er markert"
+
+#, fuzzy
+#~ msgid "Clear Transparent"
+#~ msgstr "Gjennomsiktig "
+
+#, fuzzy
+#~ msgid "Can't open (write): %s"
+#~ msgstr "Kan ikkje opna fila %1"
+
+#, fuzzy
+#~ msgid "Can't create working dir: %s"
+#~ msgstr "Kan ikkje laga mappe "
+
+#, fuzzy
+#~ msgid "Can't open: %s"
+#~ msgstr "kan ikkje opna %1"
+
+#, fuzzy
+#~ msgid "Can't open (read): %s"
+#~ msgstr "Datamaskin (raud): %1"
+
+#, fuzzy
+#~ msgid "Set Image Scale"
+#~ msgstr "Biletekjelde"
+
+#~ msgid "Monochrome"
+#~ msgstr "Svart/kvit"
+
+#, fuzzy
+#~ msgid "Adjust Color"
+#~ msgstr "Juster kolonne"
+
+#~ msgid "Setup"
+#~ msgstr "Oppsett"
+
+#, fuzzy
+#~ msgid "selection_to_path"
+#~ msgstr "Vel ikontype"
+
+#, fuzzy
+#~ msgid "gimp_image_get_selection failed"
+#~ msgstr "Feil ved sletting"
+
+#, fuzzy
+#~ msgid "Internal error. Selection bpp > 1"
+#~ msgstr "(Intern feil i kab)"
+
+#, fuzzy
+#~ msgid "Sinusodial"
+#~ msgstr "Signal"

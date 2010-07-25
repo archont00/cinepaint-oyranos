@@ -1,0 +1,1614 @@
+# Danish translation of GIMP script-fu.
+# Copyright (C) 2000, '01 Free Software Foundation, Inc.
+# Birger Langkjer <birger.langkjer@image.dk>, 2000.
+# Keld Simonsen <keld@dkuug.dk>, 2000.
+# Ole Laursen <olau@hardworking.dk>, 2001.
+#
+# Se ../po/da.po for en konventionsliste til hele Gimp'en.
+#
+# Konventioner:
+#
+# script -> program
+# utils -> værktøjer
+# web page themes -> hjemmesidetemaer
+# DB Browser -> proceduredatabase (browser er overflødigt)
+#
+# Bemærk at en hel del af oversættelserne af programnavnene optræder to
+# sammenhænge og derfor skal synkroniseres.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP script-fu/gnome-cvs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2002-04-14 19:42+0200\n"
+"Last-Translator: Ole Laursen <olau@hardworking.dk>\n"
+"Language-Team: Danish <sslug-locale@sslug.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu-konsol"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Luk"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD-uddata"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu-konsol"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Nuværende kommando"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Gennemse..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Kan ikke åbne SIOD-uddataledning"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Kan ikke åbne en strøm til SIOD-uddataledning"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu evalueringstilstand kan kun startes ikke-interaktivt"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Proceduredatabase (klargør...)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "Søg:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "Søg efter navn"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by blurb"
+msgstr "Søg efter beskrivelse"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Anvend"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Navn:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Beskrivelse:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "Ind:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "Ud:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Udvikler:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Dato:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Ophavsret:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "Proceduredatabase (efter navn - vent venligst)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "Proceduredatabase (efter beskrivelse - vent venligst)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "Proceduredatabase (vent venligst)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "Proceduredatabase"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Baggrundsfarve"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Belysning (grader)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Radius (skærmpunkter)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Skygge"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Kuglefarve"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu-konsoltilstand kan kun startes interaktivt"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Programparametre"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu-farvevælger"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu-filvælger"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu-mønstervælger"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu-farveovergangsvælger"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu-penselvælger"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Gendan standarder"
+
+#~ msgid "About"
+#~ msgstr "Om"
+
+#~ msgid "OK"
+#~ msgstr "O.k."
+
+#~ msgid "Cancel"
+#~ msgstr "Annullér"
+
+#~ msgid "NOT SET"
+#~ msgstr "IKKE ANGIVET"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "En eller flere af de skrifttyper du har valgt\n"
+#~ "er ugyldige. Tjek venligst indstillingerne.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Billedtyper:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu-skrifttypevælger"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Script-Fu-fejl ved kørsel af\n"
+#~ " %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu-tjenesteindstillinger"
+
+#~ msgid "Server Port:"
+#~ msgstr "Tjenesteport: "
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Tjenestelogfil:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Konsol..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Server..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Genindlæs alle tilgængelige programmer"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Genopfrisk"
+
+#~ msgid "Help:"
+#~ msgstr "Hjælp:"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Redigér/Kopiér synlige"
+
+# 'tileable' er ikke let at oversætte
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Filtre/Slør/Fliselægbart slør..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/Alkymi/Stofmaleri..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/Alkymi/Slet hver anden række..."
+
+# effekten ligner noget fra predator
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script-Fu/Alkymi/Predator..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/Alkymi/Uskarp maske..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/Alkymi/Fletværk..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/3D-omrids..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Alienglød..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Alienneon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Basal I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Basal II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Blandet..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Kopletter..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Kridt..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Afhugning..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Krom..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Tegneserie..."
+
+# det er næsten umuligt at oversætte "cool" på en måde så det ikke lyder
+# bøvet i sammenhængen
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Metal..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Frost..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Glittet..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Glohed..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Farveovergangskant..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Partikelspor..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Stjerneeksplosion..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Stjernehimmel..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/Alfa til logo/Tekstureret..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/Animering/Bland..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/Animering/Krusninger..."
+
+# "Selection to AnimImage" dækker over at der laves en ordentlig portion
+# billeder af det markerede
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/Animering/Mangfoldiggør markering..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/Animering/Drejende globus..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/Animering/Bølger..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Tilføj skråkant..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Tilføj kant..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Kaffepletter..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Sløret kant..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Gammelt foto..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Runde hjørner..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/Dekoration/Dias..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/Generér/Kredsløb..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/Generér/Lava..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/Generér/Linjeeksplosion..."
+
+# "make" er overflødigt (faktisk lidt dobbeltkonfekt)
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/Generér/Gittersystem..."
+
+# ditto for "selection"
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/Markering/Urolig..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/Markering/Falmende omrids..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/Markering/Afrund..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/Markering/Til pensel..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/Markering/Til billede"
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/Skygger/Baggrundsskygge..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/Skygger/Perspektivisk..."
+
+# dækker vist bedre end Xach (hvad i alverden er det?)
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/Skygger/Fremhævning..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/Skabelon/Udskæring..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/Skabelon/Forkromning..."
+
+# ASCII er efterhånden et amerikansk idiom
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/Værktøjer/Tekst til billedlag..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/Værktøjer/HSV-analysegraf..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/Værktøjer/Vis billedstruktur..."
+
+# anden 'button' er overflødig
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Knapper/Rund..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Knapper/Simpel skrånende..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/3d-omrids..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Alienglød..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Alienneon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Grundlæggende I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Grundlæggende II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Blandet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Ko-pletter..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Udhugget..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Kridt..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Afhugning..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Krom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Tegneserie..."
+
+# det er næsten umuligt at oversætte "cool" på en måde så det ikke lyder
+# bøvet i sammenhængen
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Metal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Krystal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Frost..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Glittet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Glohed..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Farveovergangskant..."
+
+# intetsigende original - effekten er en tuschtegning
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Tuschtegning..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Avistryk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Partikelspor..."
+
+# SOTA står for state-of-the-art - programmet giver en yderst fornemt
+# udseende skiltelignende forkromet tekst
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Distingveret krom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Farttekst..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Stjerneeksplosion..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Stjernehimmel..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Cirkeltekst..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Tekstureret..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Logoer/Hjemmesideoverskrift..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Penselkreering/Elliptisk, udvisket..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Penselkreering/Elliptisk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Penselkreering/Firkantet, udvisket..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Penselkreering/Firkantet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Diverse/Kugle..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/3D-Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Kamuflage..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Fladt land..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Land..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Landkort..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Hvirvelflise..."
+
+# genererer sådan nogle krummelureagtige tingester
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Krummelureflise..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Trochoid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Mønstre/Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Værktøjer/Tekst til billede..."
+
+# værktøjet viser farveovergangen ved at oprette en firkant med den i
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Værktøjer/Vis farveovergang..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Værktøjer/Skrifttypekort..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Alienglød/Pil..."
+
+# 'bullet' som i punktopstilling
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Alienglød/Punkt..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Alienglød/Knap..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Alienglød/Vandret linje..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Skråkantet mønster/Pil..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Skråkantet mønster/"
+#~ "Punkt..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Skråkantet mønster/Knap..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Skråkantet mønster/"
+#~ "Overskrift..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Skråkantet mønster/"
+#~ "Vandret linie..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Gimp.org/Stor "
+#~ "overskrift..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Gimp.org/Generelle "
+#~ "røretiketter..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Gimp.org/Lille "
+#~ "overskrift..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Gimp.org/Røretiket til "
+#~ "knap..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Gimp.org/Røretiket til "
+#~ "underknap..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Udvidelser/Script-Fu/Hjemmesidetemaer/Gimp.org/Røretiket til "
+#~ "underunderknap..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp-fejl"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp-brugervejledning"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp-nyheder"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Dokumentation"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Hentning"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Gimp-kunst"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Gtk+"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Henvisninger"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Postlister"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Resurser"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp.org/Gimp'en"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp-Savvy.com"
+
+# bogtitel
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Udvidelsesmodulregistrering"
+
+#~ msgid "Add Background"
+#~ msgstr "Tilføj baggrund"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Tilføj baggrundsskygge"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Tilføj skygge"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Tillad størrelsesændring"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplitude"
+
+#~ msgid "Angle"
+#~ msgstr "Vinkel"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Animeringsfilter for alle kopier"
+
+#~ msgid "Antialias"
+#~ msgstr "Udjævning"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Anvend genereret lagmaske"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Anvend (eller fjern) genereret lagmaske"
+
+#~ msgid "AutoCrop"
+#~ msgstr "Automatisk beskæring"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimut"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Baggrundsugennemsigtighed"
+
+#~ msgid "Background Image"
+#~ msgstr "Baggrundsbillede"
+
+#~ msgid "Bar Height"
+#~ msgstr "Bjælkehøjde"
+
+#~ msgid "Bar Length"
+#~ msgstr "Bjælkelængde"
+
+#~ msgid "Base Color"
+#~ msgstr "Grundfarve"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Grundradius (skærmpunkter)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Opførsel"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Skråkantshøjde (skarphed)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Skråkantsbredde"
+
+# 'blend' er vist overflødigt
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Farveovergang (omrids)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Farveovergang (tekst)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Blandingsmåde"
+
+#~ msgid "Block Size"
+#~ msgstr "Blokstørrelse"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Sløringsstyrke"
+
+#~ msgid "Blur Border"
+#~ msgstr "Sløret kant"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Vandret sløring"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Sløringsradius"
+
+#~ msgid "Blur Type"
+#~ msgstr "Sløringstype"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Lodret sløring"
+
+#~ msgid "Blur X"
+#~ msgstr "Sløring x"
+
+#~ msgid "Blur Y"
+#~ msgstr "Sløring y"
+
+#~ msgid "Border Color"
+#~ msgstr "Kantfarve"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Kantstørrelse (skærmpunkter)"
+
+#~ msgid "Border Size"
+#~ msgstr "Kantstørrelse"
+
+#~ msgid "Border X Size"
+#~ msgstr "Kantstørrelse x"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Kantstørrelse y"
+
+#~ msgid "Border"
+#~ msgstr "Kant"
+
+# det dækker 'buffer amount' faktisk over
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Margin (% af teksthøjde)"
+
+# hm, dækker vist nogenlunde
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Sløringsradius for højdekort (alfalag)"
+
+#~ msgid "Burst Color"
+#~ msgstr "Explosionsfarve"
+
+# man kan enten få hugget teksten ind i baggrunden eller baggrunden
+# hugget væk så teksten står ud
+#~ msgid "Carve Raised Text"
+#~ msgstr "Udhug tekstomgivelser"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Udhug hvide flader"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Cellestørrelse (skærmpunkter)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Kridtfarve"
+
+# dækker så nogenlunde
+#~ msgid "Chip Amount"
+#~ msgstr "Afskalning"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Krombalance"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Forkromningsfaktor"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Forkromningslysstyrke"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Forkromningsmætning"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Forkrom hvide flader"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Kredsløbsstartværdi"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Ryd ikke-markeret maskeareal"
+
+#~ msgid "Color 1"
+#~ msgstr "Farve 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Farve 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Farve 3"
+
+#~ msgid "Color"
+#~ msgstr "Farve"
+
+#~ msgid "Columns"
+#~ msgstr "Kolonner"
+
+#~ msgid "Create New Image"
+#~ msgstr "Opret nyt billede"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Generér skygger"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Brugerdefineret farveovergang"
+
+#~ msgid "Dark Color"
+#~ msgstr "Mørk farve"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Gør kun mørkere\n"
+#~ "(Bedre, men kun for billeder med meget hvidt)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Standardindstillinger for højdekort"
+
+#~ msgid "Defocus"
+#~ msgstr "Stil uskarpt"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Farveændring"
+
+#~ msgid "Density (%)"
+#~ msgstr "Tæthed (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Dybde"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivelse"
+
+#~ msgid "Detail Level"
+#~ msgstr "Detaljerigdom"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Detaljer i midten"
+
+#~ msgid "Diameter"
+#~ msgstr "Diameter"
+
+#~ msgid "Down"
+#~ msgstr "Ned"
+
+# 'Drop' er overflødigt
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Skyggesløringsradius"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Skyggefarve"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Skyggeugennemsigtighed"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Skyggeafstand x"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Skyggeafstand y"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Baggrundsskygge"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Kantmængde"
+
+#~ msgid "Edge Only"
+#~ msgstr "Kun kant"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Kantradius"
+
+#~ msgid "Edge Width"
+#~ msgstr "Kantbredde"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Effektstørrelse (skærmpunkter * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Effektstørrelse (skærmpunkter * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Effektstørrelse (skærmpunkter * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Effektstørrelse (skærmpunkter * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Effektstørrelse (skærmpunkter)"
+
+#~ msgid "Elevation"
+#~ msgstr "Hævning"
+
+#~ msgid "End Blend"
+#~ msgstr "Afslut blanding"
+
+#~ msgid "End X"
+#~ msgstr "Slut x"
+
+#~ msgid "End Y"
+#~ msgstr "Slut y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Afslutter blanding"
+
+#~ msgid "Environment Map"
+#~ msgstr "Miljøafbildning"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Slet før tegning"
+
+#~ msgid "Erase"
+#~ msgstr "Slet"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Slet/udfyld"
+
+#~ msgid "Even"
+#~ msgstr "Lige"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Lige/ulige"
+
+# forskellige blandingsmåder
+#~ msgid "FG-BG-HSV"
+#~ msgstr "Forgrund-baggrund (HSV)"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "Forgrund-baggrund (RGB)"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "Forgrund-gennemsigtig"
+
+#~ msgid "Fade Away"
+#~ msgstr "Fade ud"
+
+#~ msgid "Fade From %"
+#~ msgstr "Fade fra %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "Fade til %"
+
+#~ msgid "Feathering"
+#~ msgstr "Udviskning"
+
+#~ msgid "Filename"
+#~ msgstr "Filnavn"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Udfyldningsvinkel"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Udfyld baggrund med mønster"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Udfyld med baggrundsfarve"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Udfyld med baggrund"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Fladgør billede"
+
+#~ msgid "Font Color"
+#~ msgstr "Skriftfarve"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Skriftstørrelse (skærmpunkter)"
+
+#~ msgid "Font"
+#~ msgstr "Skrifttype"
+
+#~ msgid "Fonts"
+#~ msgstr "Skrifttyper"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Forgrundsfarve"
+
+#~ msgid "Frame Color"
+#~ msgstr "Rammefarve"
+
+#~ msgid "Frame Size"
+#~ msgstr "Rammestørrelse"
+
+#~ msgid "Frames"
+#~ msgstr "Rammer"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Fra øverste-venstre til nederste-højre"
+
+#~ msgid "Glow Color"
+#~ msgstr "Glødefarve"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Gløderadius"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Glødestørrelse (skærmpunkter * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Farveovergang"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Kornethed (1 er lav)"
+
+#~ msgid "Granularity"
+#~ msgstr "Kornethed"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Grafskala"
+
+#~ msgid "Grids X"
+#~ msgstr "Gitterlinjer x"
+
+#~ msgid "Grids Y"
+#~ msgstr "Gitterlinjer y"
+
+#~ msgid "Height"
+#~ msgstr "Højde"
+
+#~ msgid "Hexagons"
+#~ msgstr "Hexagoner"
+
+# nogle områder er stærkt belyste
+#~ msgid "Highlight Balance"
+#~ msgstr "Højlysbalance"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Højlysfarve"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Højlysugennemsigtighed"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Højlysafstand x"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Højlysafstand y"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Sammenstødsgrad"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Farvetonegrad"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Billedhøjde"
+
+#~ msgid "Image Size"
+#~ msgstr "Billedstørrelse"
+
+#~ msgid "Image Width"
+#~ msgstr "Billedbredde"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Billede der skal udhugges"
+
+#~ msgid "Index Image"
+#~ msgstr "Indeksbillede"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Indeks til n farver (0 = forbliv RGB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Indsæt lagnavne"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Mellembilleder"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpolér"
+
+#~ msgid "Invert direction"
+#~ msgstr "Vend retning"
+
+#~ msgid "Invert"
+#~ msgstr "Omvend"
+
+#~ msgid "Keep Background"
+#~ msgstr "Behold baggrund"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Behold højdelag"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Behold markering"
+
+#~ msgid "Land Height"
+#~ msgstr "Landhøjde"
+
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#~ msgid "Looped"
+#~ msgstr "Løkket"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Nederste farve (aktiv)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Nederste farve"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Nederste-højre farve"
+
+#~ msgid "Make New Background"
+#~ msgstr "Opret ny baggrund"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Maskeugennemsigtighed"
+
+#~ msgid "Mask Size"
+#~ msgstr "Maskestørrelse"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Maks. sløringsradius"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Mosaikflisetype"
+
+# tilføjer uregelmæssigt plettelignende støj
+#~ msgid "Mottle"
+#~ msgstr "Spætter"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Ingen baggrund (kun for separate lag)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Ikke trykket (aktiv)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Ikke trykket"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Antal bånd"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Antal farver"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Antal kopier"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Antal rammer"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Antal linjer"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Omdrejninger"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "Antal x-fliser"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Antal y-fliser"
+
+#~ msgid "Number"
+#~ msgstr "Antal"
+
+#~ msgid "Octagons"
+#~ msgstr "Oktagoner"
+
+#~ msgid "Odd"
+#~ msgstr "Ulige"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Afstand (skærmpunkter)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Afsætsradius"
+
+#~ msgid "Offset X"
+#~ msgstr "Afstand x"
+
+#~ msgid "Offset Y"
+#~ msgstr "Afstand y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Afstand (skærmpunkter * 2)"
+
+# 'oilify' er næsten uoversætteligt
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Maskestørrelse"
+
+#~ msgid "Opacity"
+#~ msgstr "Ugennemsigtighed"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientering"
+
+#~ msgid "Outer Border"
+#~ msgstr "Ydre kant"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Omridssløringsradius"
+
+#~ msgid "Outline Color"
+#~ msgstr "Omridsfarve"
+
+#~ msgid "Outline Size"
+#~ msgstr "Omridsstørrelse"
+
+#~ msgid "Pad Color"
+#~ msgstr "Fyldningsfarve"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Fyldningsgennemsigtighed"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Fyldning omkring tekst"
+
+#~ msgid "Padding X"
+#~ msgstr "Fyldning x"
+
+#~ msgid "Padding Y"
+#~ msgstr "Fyldning y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Fyldning for gennemsigtige områder"
+
+#~ msgid "Padding"
+#~ msgstr "Fyldning"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Mønster (omrids)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Mønster (overlægning)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Mønster (tekst)"
+
+#~ msgid "Pattern"
+#~ msgstr "Mønster"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Pen radius/hjul radius [0.0;1.0]"
+
+# hører sammen med næste
+#~ msgid "Pixel Amount"
+#~ msgstr "Opdelingsstyrke"
+
+#~ msgid "Pixelize"
+#~ msgstr "Opdel i små firkanter"
+
+#~ msgid "Pressed"
+#~ msgstr "Trykket"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Størrelse på fjerdedel"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Radius"
+
+#~ msgid "Random Seed"
+#~ msgstr "Startværdi for tilfældighedsgenerator"
+
+#~ msgid "Randomness"
+#~ msgstr "Tilfældighed"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Relativ afstand til horisont"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Relativ skyggelængde"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Relativ radius"
+
+#~ msgid "Remove Background"
+#~ msgstr "Fjern baggrund"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Båndmellemrum"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Båndbredde"
+
+#~ msgid "Right"
+#~ msgstr "Højre"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Krusningsstyrke"
+
+#~ msgid "Roughness"
+#~ msgstr "Ruhed"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Afrundingsforhold"
+
+#~ msgid "Rows"
+#~ msgstr "Rækker"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Rækker/kolonner"
+
+#~ msgid "Scale X"
+#~ msgstr "Skalering x"
+
+#~ msgid "Scale Y"
+#~ msgstr "Skalering y"
+
+# 'sea' er havet her (drejer sig om landkort)
+#~ msgid "Sea Depth"
+#~ msgstr "Havdybde"
+
+#~ msgid "Seed"
+#~ msgstr "Startværdi"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Vælg efter farve-tærskel"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Separate lag"
+
+#~ msgid "Sepia"
+#~ msgstr "Sepia"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Skyggesløringsradius"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Skyggefarve"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Skyggemørkhed"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Skyggedybde"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Skyggevægt (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Skyggeafstand x"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Skyggeafstand y"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Skarphed (grader)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Trapezeringslængde"
+
+#~ msgid "Size"
+#~ msgstr "Størrelse"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Vandret udjævning"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Lodret udjævning"
+
+#~ msgid "Smooth"
+#~ msgstr "Udjævn"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Afstand mellem lag"
+
+#~ msgid "Spacing"
+#~ msgstr "Mellemrum"
+
+#~ msgid "Spots density X"
+#~ msgstr "Plettæthed x"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Plettæthed y"
+
+#~ msgid "Spread"
+#~ msgstr "Spredning"
+
+#~ msgid "Squares"
+#~ msgstr "Firkanter"
+
+#~ msgid "Stains"
+#~ msgstr "Stænk"
+
+#~ msgid "Start Angle"
+#~ msgstr "Startvinkel"
+
+#~ msgid "Start Blend"
+#~ msgstr "Start blanding"
+
+#~ msgid "Start X"
+#~ msgstr "Start x"
+
+#~ msgid "Start Y"
+#~ msgstr "Start y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Starter farveblanding"
+
+# 'supersampling' dækker over 'adaptive supersampling' som vist nok går
+# ud på en intelligent form for udjævning vha. ekstra prøver der hvor
+# det er nødvendigt
+#~ msgid "Supersample"
+#~ msgstr "Adaptiv udjævning"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Tekstfarve (aktiv)"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekstfarve"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Tekstmønster"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Thickness"
+#~ msgstr "Tykkelse"
+
+#~ msgid "Thread Density"
+#~ msgstr "Trådtæthed"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Trådintensitet"
+
+#~ msgid "Thread Length"
+#~ msgstr "Trådlængde"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Tærskel (større 1<-->255 mindre)"
+
+#~ msgid "Tile"
+#~ msgstr "Flise"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Gennemsigtig baggrund"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Drej fra venstre mod højre"
+
+#~ msgid "Up"
+#~ msgstr "Op"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Øverste farve (aktiv)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Øverste farve"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Øverste-venstre farve"
+
+#~ msgid "Use Brush"
+#~ msgstr "Benyt pensel"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Benyt aktiv farveovergang"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Benyt voksende markering"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Benyt mønsteroverlægning"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Benyt mønster til omrids i stedet for farveovergang"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Benyt mønster til tekst i stedet for farveovergang"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "Benyt markeringsgrænser i stedet for nedre"
+
+#~ msgid "Wavelength"
+#~ msgstr "Bølgelængde"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Hjulradius (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Omdrejningsgrad"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Omdrejningsvinkel"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Båndbredde"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Mellemrumsbredde"
+
+#~ msgid "Width"
+#~ msgstr "Bredde"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Arbejd på kopi"
+
+# 'internet' dækker fint i stedet for 'web browser'
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/OSS for udviklere"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/Gimp-selvstudier"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Udvidelser/Internet/OSS for brugere"

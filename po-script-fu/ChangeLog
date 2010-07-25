@@ -1,0 +1,776 @@
+2003-04-09  Sven Neumann  <sven@gimp.org>
+
+	* Makefile.in.in: respect $(DESTDIR) in install target.
+
+2003-03-03  Tomas Ogren <stric@ing.umu.se>
+
+	* sv.po: Wrongly translated menu
+
+2002-09-22  Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>
+
+	* nl.po: Dutch translation updated by Branko Collin
+
+2002-09-18  Sven Neumann  <sven@gimp.org>
+
+	* de.po: fixed german translation (bug #93543).
+
+2002-08-28  Sven Neumann  <sven@gimp.org>
+
+	* ca.po
+	* de.po
+	* fr.po: updated with the correct gimp-script-fu.pot.
+	intltool-update doesn't work here, please use update.sh.
+
+	* ga.po
+	* ko.po
+	* ro.po
+	* sl.po: fixed fatal errors.
+
+2002-08-28  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2002-08-24  Sven Neumann  <sven@gimp.org>
+
+	* de.po: Updated german translation.
+
+2002-06-18  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* ca.po: Updated Catalan file
+
+2002-05-07  Sven Neumann  <sven@gimp.org>
+
+	* sl.po: added Slovenian translation from miha.tomsic@guest.arnes.si.
+
+2002-05-05  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* ja.po: Updated Japanese translation.
+
+2002-04-14  Ole Laursen  <olau@hardworking.dk>
+
+	* da.po: Fixed a couple of bugs in Danish translation.
+
+2001-03-29  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation by
+	GNOME PL Team <translators@gnome.pl>.
+
+2002-03-07  Duarte Loreto <happyguy_pt@hotmail.com>
+
+	* pt.po: Added Portuguese translation by filipe Maia <fmaia@gmx.net>
+
+2002-02-14  Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>
+
+	* nl.po: Minor updates to Dutch translation by Branko Collin
+
+2002-02-18  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: Updated French translation from work of
+	Raymond Ostertag <r.ostertag@caramail.com>.
+
+2002-02-14  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Updated Slovak translation from Zdenko Podobny <zdpo@mailbox.sk>.
+
+2002-02-07  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Updated Slovak translation from Zdenko Podobny <zdpo@mailbox.sk>.
+
+2002-01-31  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian (bokmål) translation.
+
+2001-12-27  Simos Xenitellis  <simos@hellug.gr>
+
+	* el.po: Added initial Green translation.
+
+2001-12-20  Marius Andreiana  <mandreiana@yahoo.com>
+
+	* ro.po: added
+
+2001-12-13  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian (bokmål) translation.
+
+2001-12-12  Roy-Magne Mo  <rmo@sunnmore.net>
+
+	* nn.po: Major revision of the Norwegian (nynorsk)
+		 translation by Karl Trygve Kalleberg
+
+2001-12-09  Abel Cheung  <maddog@linux.org.hk>
+
+	* zh_TW.po: Updated traditional Chinese translation.
+
+2001-12-01  Abel Cheung  <maddog@linux.org.hk>
+
+	* zh_CN.po: Take simplified Chinese translation from HEAD branch.
+	* zh_TW.po: Updated traditional Chinese translation.
+
+2001-11-29  Abel Cheung  <maddog@linux.org.hk>
+
+	* zh_TW.po: Updated traditional Chinese translation.
+
+2001-11-18  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2001-11-18  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2001-11-18  Abel Cheung  <maddog@linux.org.hk>
+
+	* zh_TW.po: Updated traditional Chinese translation.
+
+2001-11-17  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2001-11-10  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2001-11-08  Abel Cheung  <maddog@linux.org.hk>
+
+	* zh_TW.po: Updated traditional Chinese translation.
+
+2001-11-02  Tor Lillqvist  <tml@iki.fi>
+
+	* makefile.cygwin: Remove
+
+	* makefile.mingw: Use this instead. Includes ../po/makefile.mingw.
+
+2001-10-30  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2001-10-28  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* ca.po: Updated Catalan file
+
+2001-10-27  Tomas Ögren  <stric@ing.umu.se>
+
+	* sv.po: s/satndard/standard/
+
+2001-10-26  Ole Laursen  <olau@hardworking.dk>
+
+	* da.po: Updated Danish translation.
+
+2001-10-25  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation by
+	GNOME PL Team <translators@gnome.pl>.
+
+2001-10-24  Sven Neumann  <sven@gimp.org>
+
+	* POTFILES.in: added missing file (you probably already have 
+	translations for the new messages in the po-plug-ins domain).
+	Fixes bug #62920.
+	
+	* de.po: updated german translation
+
+2001-10-24  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2001-10-20  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* ca.po: Updated Catalan file
+
+2001-10-14  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation.
+
+2001-10-13  Ole Laursen  <olau@hardworking.dk>
+
+	* da.po: Updated Danish translation.
+
+2001-10-10  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Fixed the Swedish translation. Thanks to
+	Fredrik Wendt <fredrik.wendt@linux.se> for his comment.
+
+2001-10-10  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Fixed Swedish translation, thanks to
+	Göran Uddeborg <goeran@uddeborg.pp.se> for his review.
+
+2001-10-09  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2001-10-02  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation.
+
+2001-09-28  Almer S. Tigelaar  <almer@gnome.org>
+
+	* nl.po: Updated Dutch translation from
+	Branko Collin <collin@xs4all.nl>
+
+2001-09-22  Emese Kovacs  <emese@gnome.hu>
+
+	* hu.po: And some more update
+
+2001-09-22  Emese Kovacs  <emese@gnome.hu>
+
+	* hu.po: Some more update
+
+2001-09-22  Emese Kovacs  <emese@gnome.hu>
+
+	* hu.po: Updated Hungarian translation
+
+2001-09-16  Carlos Perelló Marín <carlos@gnome-db.org>
+
+	* es.po: Header fix.
+
+2001-09-05  Abel Cheung  <maddog@linux.org.hk>
+
+	* zh_TW.Big5.po: Rename to....
+	* zh_TW.po: this, to prevent future encoding naming problem.
+
+2001-08-30  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Translated some more.
+
+2001-08-30  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation.
+
+2001-07-26  Sven Neumann  <sven@gimp.org>
+
+	* zh_TW.Big5.po: don't translate <Toolbox> and <Image> !!
+
+2001-07-26  Sven Neumann  <sven@gimp.org>
+
+	* zh_TW.Big5.po: added traditional chinese translation provided by
+	"R.I.P. Deaddog" <maddog@linuxhall.org>.
+
+2001-07-19  Sven Neumann  <sven@gimp.org>
+
+	* lt.po: added empty po file.
+
+2001-07-17  Fatih Demir <kabalak@gtranslator.org>
+
+	* tr.po: Updated Turkish translation by Alper Ersoy.
+
+2001-07-14  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* nn.po: Updated Norwegian (nynorsk) translation.
+	
+2001-06-26  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2001-06-25  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation.
+
+2001-06-25  Sven Neumann  <sven@gimp.org>
+
+	* nl.po: 
+	updates to the dutch translation by Branko Collin <collin@xs4all.nl>
+
+2001-06-22  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2001-06-18  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2001-05-29  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* sk.po: Fill in "charset" field in header.
+	* nl.po: Fill in "charset" field in header.
+	* hr.po: Correct "charset" field in header.
+	
+2001-05-22  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian (bokmål) translation.
+	* nn.po: Updated Norwegian (nynorsk) translation.
+	
+2001-04-26  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2001-03-20  Jesus Bravo Alvarez  <jba@pobox.com>
+
+        * gl.po: Added Galician translation from
+	  Francisco Xose Vazquez Grandal <grandal@mundivia.es>
+
+2001-03-15  Fatih Demir <kabalak@gtranslator.org>
+
+	* tr.po: Added first steps of a Turkish translation.
+
+2001-02-17  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2001-02-03  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2001-01-30  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* nn.po: Added Norwegian (nynorsk) translation.
+	
+2001-01-09  Szabolcs Ban  <shooby@gnome.hu>
+
+	* hu.po: Updated Hungarian translation from
+	  Andras Timar, <timar@gnome.hu>
+
+2001-01-15  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation
+
+2001-01-09  Szabolcs Ban  <shooby@gnome.hu>
+
+	* hu.po: Updated Hungarian translation from
+	  Andras Timar, <timar@gnome.hu>
+
+2001-01-04  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2001-01-02  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-12-31  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-12-21  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2000-12-21  Tor Lillqvist  <tml@iki.fi>
+
+	* fi.po: Update Finnish translation a bit.
+
+2000-12-19  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-12-19  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation.
+
+2000-12-15  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-12-07  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* ja.po: updated Japanese translation.
+
+2000-11-24  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+Wed Nov 22 23:49:21 CET 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-11-14  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2000-11-13  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation
+
+2000-11-08  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-11-08  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation
+
+2000-11-05  Daniel Egger <egger@suse.de>
+
+	* hr.po: Added Croatian translation
+	by Zeljan Rikalo <zeljko@orebeach-club.com>.
+
+2000-11-01  Rodrigo Sancho Senosiain  <ruy_ikari@bigfoot.com>
+
+	* es.po: Updated translation
+
+Thu Oct 19 22:49:41 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-10-17  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2000-10-09  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2000-10-06  Sven Neumann  <sven@gimp.org>
+
+	* pl.po: applied gimp-art-20000926-0 -> Updates to the polish 
+	translation by Artur Polaczynski <artie@kmfms.com>
+
+2000-10-02  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: updated French translation.
+
+2000-09-28  Rodrigo Sancho Senosiain  <ruy_ikari@bigfoot.com>
+
+	* es.po: updated spanish translation.
+
+Wed Sep 27 22:37:23 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-09-04  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+Mon Aug 28 12:16:00 CEST 2000  Marc Lehmann <pcg@goof.com>
+
+	* ga.po: fixed bug that caused the build to fail.
+
+2000-08-26  Sven Neumann <sven@gimp.org>
+
+	* update.sh: subtle changes
+
+Fri Aug 25 11:15:08 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-08-22  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-08-05  Rodrigo Sancho Senosiain  <ruy_ikari@bigfoot.com>
+
+	* es.po: Updated spanish translation
+
+Sun Jul 30 20:41:29 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-07-20  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+Mon Jul 10 22:40:27 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-07-04  Sven Neumann  <sven@gimp.org>
+
+	* it.po: updates from Daniele Medri <madrid@linux.it>
+
+Fri Jun 23 16:18:18 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* Makefile.in.in: Fix of building in separate directory.
+
+2000-06-22  Sven Neumann  <sven@gimp.org>
+	
+	* en_GB.po: applied gimp-cornwell-000620-0, updates
+	to the british translation from Piers Cornwell
+
+2000-06-16 Ville Hautamäki <villeh@cs.joensuu.fi>
+
+	* fi.po: started da finnish translation
+	
+2000-06-13  Sven Neumann  <sven@gimp.org>
+
+	* Makefile.in.in: (hopefully) fixed bug #13762.
+
+2000-06-13  Sven Neumann  <sven@gimp.org>
+
+	* it.po: updates to italian translation by Daniele Medri
+
+2000-06-10  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+	
+2000-06-10  Sven Neumann  <sven@gimp.org>
+
+	* it.po: updates to italian translation by Daniele Medri
+
+Fri Jun  9 15:30:28 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-06-08  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-06-06   Artur Polaczynski   <artie@kmfms.com>
+
+	* pl.po: updated translation
+
+2000-05-31  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* ja.po: Updated translation.
+
+Wed May 31 13:38:48 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-05-29  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2000-05-24  Artur Polaczyñski  <artie@kmfms.com>
+
+	* pl.po: Updated translation.
+	+ Updated translation by Krzysztof Jakubowski 
+	<psi0873@orca.mila.edu.pl>
+
+Mon May 22 11:55:29 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-05-17  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+Tue May 16 21:07:06 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-05-13  Sven Neumann  <sven@gimp.org>
+
+	* update.sh: updated update.sh
+
+2000-05-13  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+Wed May 10 23:08:00 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+Tue May  9 19:52:52 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-05-08  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-05-07  Sven Neumann  <sven@gimp.org>
+
+	* de.po: fixed german translation
+
+2000-05-04  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-05-04  Tor Lillqvist  <tml@iki.fi>
+
+	* makefile.cygwin: Update to match the included makefile from gtk+.
+
+2000-05-02  Valek Filippov  <frob@df.ru>
+
+	* ru.po: Polished russian translation.
+
+Mon May  1 20:14:00 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-05-01  Valek Filippov  <frob@df.ru>
+
+	* ru.po: Updated russian translation.
+
+2000-04-29  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-04-28  Sven Neumann  <sven@gimp.org>
+
+	* Makefile.in.in: made the Makefile update the pot-file if a
+	script changes, so hopefully the next release will include
+	a complete pot-file.
+
+2000-04-28  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-04-26  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updates from Felix Natter <fnatter@gmx.net>
+
+2000-04-25  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-04-23  Tor Lillqvist  <tml@iki.fi>
+
+	* makefile.cygwin: No need to have LOCALEDIR.
+
+Sun Apr 23 21:27:56 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-04-23  Sven Neumann <sven@gimp.org>
+
+	* es.po: added spanish translation
+	
+2000-04-22  Valek Filippov  <frob@df.ru>
+
+	* ru.po: Cleaned translation.
+
+2000-04-18  Valek Filippov  <frob@df.ru>
+
+	* ru.po: Updated translation.
+
+2000-04-18  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-04-14  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-04-12  Valek Filippov <frob@df.ru>
+
+	* ru.po: Updated Russian translation.
+
+2000-04-11  Sven Neumann  <sven@gimp.org>
+
+	* script-fu-xgettext: set all linenumbers to 0 since they
+	were bogus anyway
+
+	* de.po: updated german translation
+
+2000-04-04  Kjartan Maraas  <kmaraas@online.no>
+
+	* ru.po: Updated Russian translation from Valek Filippov
+	<frob@df.ru>.
+	
+2000-04-03  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updates/corrections
+
+2000-04-03  Fellmann Joaquim <joaquim@hrnet.fr>
+
+	* fr.po : Updated French translation
+
+2000-04-03  Sven Neumann  <sven@gimp.org>
+
+	* de.po: more updates/corrections
+
+2000-04-02  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-04-01  Sven Neumann  <sven@gimp.org>
+
+	* it.po: updates from Daniele Medri <madrid@linux.it>
+
+2000-03-31  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+2000-03-30  Tor Lillqvist  <tml@iki.fi>
+
+	* makefile.cygwin: New file, same as in the other ../po* dirs.
+
+Thu Mar 30 21:29:16 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-03-30  Sven Neumann  <sven@gimp.org>
+
+	* *.po: something went wrong when Yosh updated the po-files for the
+	1.1.19 release. Bring them uptodate.
+
+2000-03-30  Kjartan Maraas  <kmaraas@online.no>
+
+	* ru.po: Updated Russian translation from Valek Filippov
+	<frob@df.ru>.
+	* no.po: Updated Norwegian translation.	
+
+2000-03-29  Sven Neumann  <sven@gimp.org>
+
+	* script-fu-xgettext: removed the check for broken versions of 
+	perl, since it seems to work. If make or update.sh goes into an 
+	infinite loop on your machine, please report your version of perl.
+
+2000-03-28  Sven Neumann  <sven@gimp.org>
+
+	* Makefile.in.in
+        * script-fu-xgettext
+	* update.sh: adapted to the new scheme of Script-Fu i18n
+	
+	* de.po: updated german translation
+
+2000-03-28  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* ja.po: updated Japanese translation.
+
+2000-03-27  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+Sun Mar 26 18:32:51 CEST 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-03-25  Sven Neumann  <sven@gimp.org>
+
+	* de.po: updated german translation
+
+Fri Mar 24 15:25:55 CET 2000  Sven Neumann <sven@gimp.org>
+
+	* update.sh: call script-fu-xgettext. Should probably read the
+	scripts from a central file instead of duplicating the list here...
+
+2000-03-21  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* Makefile.in.in: added missing plug-ins/gap/sel-to-anim-img.scm
+
+2000-03-17  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* ja.po: updated Japanese translation.
+
+2000-03-15  Sven Neumann  <sven@gimp.org>
+
+	* po-script-fu/Makefile.in.in
+	* po-script-fu/script-fu-xgettext: new script which extracts the
+	menu paths for translation. Thanks to Marc!
+
+Wed Mar  8 22:51:30 CET 2000  Sven Neumann <sven@gimp.org>
+
+        * fr.po: s/<Images>/<Image>/   
+                 s/<Boite a utils>/<Toolbox>/
+
+2000-03-08  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+Mon Mar  6 22:35:50 CET 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Updated translation.
+
+2000-03-06  David Monniaux  <monniaux@quatramaran.ens.fr>
+
+	* fr.po: Completed French translation.
+
+Mon Mar  6 10:07:12 CET 2000  Sven Neumann <sven@gimp.org>
+
+	* de.po: updated german translation
+
+	* it.po: applied patches provided by Daniele Medri <madrid@linux.it>
+	
+Thu Mar  2 22:05:51 CET 2000  Stanislav Brabec  <utx@penguin.cz>
+
+	* cs.po: Completed translation.
+
+2000-02-29  Shirasaki Yasuhiro  <yasuhiro@gnome.gr.jp>
+
+	* ja.po: Updated Japanese translation.
+
+Sun Feb 27 20:19:40 CET 2000  Sven Neumann <sven@gimp.org>
+
+	* Initial domain creation

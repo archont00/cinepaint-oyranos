@@ -1,0 +1,66 @@
+#!/bin/sh
+
+#  Script to perform the default installation steps for the
+#   specified user home directory.
+#
+#  1) Create ~/.cinepaint if it doesn't exist
+#  2) Copy system cinepaintrc file to ~/.cinepaint
+#  3) Create brushes, gradients, palettes, patterns, plug-ins subdirs
+#  4) Create the tmp subdirectory for disk-swapping undo buffers
+#  5) Copy the palette files in system palette directory
+#  6) Copy the vbr brush files in system vbr to ~/.cinepaint/brushes directory
+#
+
+echo "mkdir $2"
+mkdir $2
+
+echo "cp $1/gimprc_user $2/gimprc"
+cp $1/gimprc_user $2/gimprc
+
+echo "cp $1/gtkrc $2/gtkrc"
+cp $1/gtkrc $2/gtkrc
+
+echo "cp $1/printrc_user $2/printrc"
+cp $1/printrc_user $2/printrc
+
+echo "mkdir $2/brushes"
+mkdir $2/brushes
+echo "mkdir $2/curves"
+mkdir $2/curves
+echo "mkdir $2/gradients"
+mkdir $2/gradients
+echo "mkdir $2/iol"
+mkdir $2/iol
+echo "mkdir $2/palettes"
+mkdir $2/palettes
+echo "mkdir $2/patterns"
+mkdir $2/patterns
+echo "mkdir $2/plug-ins"
+mkdir $2/plug-ins 
+if [ -n "@platform@" ]; then
+  echo "mkdir $2/plug-ins/@platform@"
+  mkdir $2/plug-ins/@platform@
+fi
+echo "mkdir $2/gfig"
+mkdir $2/gfig
+echo "mkdir $2/tmp"
+mkdir $2/tmp
+#echo "mkdir $2/scripts"
+#mkdir $2/scripts
+echo "mkdir $2/gflares"
+mkdir $2/gflares
+
+echo "cp $1/palettes/* $2/palettes"
+cp $1/palettes/* $2/palettes
+
+if [ -d "$1/vbr/" ]; then
+  echo "cp $1/vbr/* $2/brushes"
+  cp $1/vbr/* $2/brushes
+fi
+
+echo "cp $1/curves/* $2/curves"
+cp $1/curves/* $2/curves
+
+echo "cp $1/iol/* $2/iol"
+cp $1/iol/* $2/iol
+

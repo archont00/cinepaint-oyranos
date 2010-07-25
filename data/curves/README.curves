@@ -1,0 +1,75 @@
+To use these curves with Cinepaint, just untar/bunzip2 the
+archive into the ~/.cinepaint directory.
+
+These tone curves were acquired from various web sites and
+are in the public domain.  They have all been converted from
+Nikon ntc or ncv file format to the Cinepaint format.
+
+Although these curves were originally intended for use with
+Nikon cameras, they should be applicable to the images from
+any digital source.
+
+Also included is a directory containing PNG image files
+that show plots of the tone curve functions versus a linear
+function (i.e. no change).  These graphs should help in determining
+the suitability of any curve for a particular digital image file.
+
+Each curve only modifies the Value channel.  To use them for
+the modification of the Red, Green, or Blue channels, just
+load the curve file into a text editor and copy the first line
+into the second, third, and/or fourth line (whichever is
+appropriate).
+
+
+------------------------------------------
+Origin of the curves (most of them anyway)
+------------------------------------------
+
+http://www.mastersphoto.net/curves/
+
+    Most are found right here
+
+http://www.planetneil.com/nikon/custom-curves.html
+
+    basic-curve-159,152,141
+
+    midtone enhance
+
+http://fotogenetic.dearingfilm.com/downloads.html
+
+    fotogenetic_s_curves.zip
+    fotogenetic_correction_curves_v4.zip
+    fotogenetic_curve_archive.zip
+
+http://www5e.biglobe.ne.jp/~komin/curve/D70/d70download.htm
+
+    curve114d.ntc
+    curve039.ntc
+
+    midtone enhance with some shadow depression
+
+http://www.digitalkb.com/nikon_d70/tone_curves/
+
+    sRealav1.zip
+    sReala_version2.zip
+    jt_all-in-1Curve.zip
+    Optimav1.zip
+    astiav1.zip
+
+    cf. 0digitalkb.jpg
+
+http://www.jtgraphics.net/all_digital.htm
+
+    jt_all-in-1Curve.ntc
+    jtg_curves.zip
+    d100curves.zip
+
+http://members.aol.com/bhaber/D70/mycurves/bh_filmcurves.html
+
+    bh_filmcurve1.zip
+    bh_filmcurve2.zip
+
+http://www.blackdiamondproductions.net/d100info.htm
+
+    CourbeCurves.zip
+    d100curves.zip

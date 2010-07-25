@@ -1,0 +1,1533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# ®eljan Rikalo <zeljko@linuxfreak.com>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp 1.1.29\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2000-11-04 18:50+0100\n"
+"Last-Translator: ®eljan Rikalo <zeljko@linuxfreak.com>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu Konzola"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Zatvori"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD Izlaz"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu Konzola"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Trenutna Naredba"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Tra¾i..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Ne mogu otvoriti cjevovod SIOD izlaza"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Ne mogu otvoriti stream na cjevovodu SIOD izlaza"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu provjera je dozvoljena samo kao ne-interaktivni poziv"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Tra¾i..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Datum:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Zamuæenje Y"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Autor:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Datum:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Autorska prava:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "DB Browser (please wait)"
+msgstr "Tra¾i..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+#, fuzzy
+msgid "DB Browser"
+msgstr "Tra¾i..."
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Boja Pozadine"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Osvjetljenje(stupnjevi)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Polumjer (pikseli)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Sjena"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Boja Kugle"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu konzola dozvoljava samo interaktivno kori¹tenje"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Argumenti Skripte"
+
+#
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu odabir boje"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu Odabir Datoteke"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu Odabir Uzorka"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu Odabir Gradijenta"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu Odabir Kista"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Vrati na standardno"
+
+#~ msgid "About"
+#~ msgstr "O..."
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Odustani"
+
+#~ msgid "NOT SET"
+#~ msgstr "NIJE PODE©ENO"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Najmanje jedan font koji ste izabrali je nepravilan.\n"
+#~ "Molim provjerite postavke.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Vrste Slika:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu Odabir Fonta"
+
+#, fuzzy
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr "Script-Fu Odabir Datoteke"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu postavke Servera"
+
+#~ msgid "Server Port:"
+#~ msgstr "Serverski Port:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Serverska Zabilje¹ka(log):"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Konzola..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Server..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Ponovno uèitaj sve dostupne skripte"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Osvje¾i"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Uredi/Kopiraj Vidljivo"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Filteri/Zamuæenje/Ploèasto Zamuæenje..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/Alkemija/Prekrivanje..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/Alkemija/Izbri¹i sve ostale Retke..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script-Fu/Alkemija/Predator..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/Alkemija/Skini O¹trinu..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/Alkemija/Pleter..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/3D Outline..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Alien Glow..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Alien Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/Animatori/Waves..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Basic II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Blended..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Bovination..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Chalk..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Chip Away..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Chrome..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Comic Book..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Cool Metal..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Frosty..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Glossy..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Glowing Hot..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Gradient Bevel..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Particle Trace..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Starburst..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Starscape..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/Alfa u Logo/Teksture..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/Animatori/Mije¹anje..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/Animatori/Umno¾avanje..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/Animatori/Odabir u Animiranu sliku..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/Animatori/Oblik Globusa..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/Animatori/Valovi..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Uko¹eno..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Dodaj Rub..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Proliveno Kavom..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Èarobni Rub..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Stara Slika..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Zaobljeni Kutevi..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Slajd..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/Render/Spoj..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/Render/Lava..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/Render/Line Nova..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/Render/Sistem mre¾e..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/Odabir/Oskudni Odabir..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/Odabir/I¹èezavanje..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/Odabir/Kru¾no..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/Odabir/U kist..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/Odabir/U Sliku"
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/Sjena/Kapljica sjene..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/Sjena/Perspective..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/Sjena/Xach-Effect..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/Matrica/Carve-It..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/Matrica/Chrome-It..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/Uslu¾ni/ASCII u sloj slike..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/Uslu¾ni/Crtaj HSV Graf..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/Uslu¾ni/Prika¾i Strukturu Slike..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Dugmad/Okruglo dugme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Dugmad/Jednostavno Dugme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/3D Prikaz..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Alien Glow..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Alien Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Basic I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Basic II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Blended..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Bovination..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Carved..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Chalk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Chip Away..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Chrome..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Comic Book..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Cool Metal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Crystal..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Frosty..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Glossy..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Glowing Hot..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Gradient Bevel..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Newsprint Text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Particle Trace..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/SOTA Chrome..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Speed Text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Starburst..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Starscape..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Text Circle..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Textured..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Logotip/Web Title Header..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Napravi Kist/Eliptièan, Ispunjen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Napravi Kist/Eliptièan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Napravi Kist/Pravokutan, Ispunjen..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Napravi Kist/Pravokutan..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Ostalo/Kugla..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/3D Vijuge..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Kamufla¾a..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Ravnica..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Zemlja..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Render. Mapa..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Zavijutak..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Uvojci (rastavljivo)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Trochoid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uzorci/Vijuga..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uslu¾ni/ASCII u Sliku..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uslu¾ni/Posebni Gradijent..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Uslu¾ni/Mapa Fontova..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Alien Glow/Strelica..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Alien Glow/Kuglica..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Alien Glow/Dugme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Alien Glow/Hor. Crta..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Beveled Pattern/Strelica..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Beveled Pattern/Kuglica..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Beveled Pattern/Dugme..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Beveled Pattern/Zaglavlje..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Beveled Pattern/Hor. Crta..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Gimp.Org/Veliko Zaglavlje..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Gimp.Org/Valjci s oznakom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Gimp.Org/Malo Zaglavlje..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Gimp.Org/Oznaka Valjk. Dugmeta..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Teme/Gimp.Org/Oznaka Drugog Dugmeta...."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/Web Teme/Gimp.Org/Oznaka Treæeg Dugmeta..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP Novosti"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Dokumentacija"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Linkovi"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Liste"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Izvori Podataka"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+
+#~ msgid "Add Background"
+#~ msgstr "Dodaj Pozadinu"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Dodaj Kapljicu Sjene"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Dodaj Sjenu"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Dozvoli Promjenu Velièine"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplituda"
+
+#~ msgid "Angle"
+#~ msgstr "Kut"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Anim-Filter za sve Kopije"
+
+#~ msgid "Antialias"
+#~ msgstr "Antialias"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Prihvati generiranu masku sloja"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Prihvati Masku Sloja (ili nemoj)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "AutoCrop"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimut"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Neprozirnost Pozadine"
+
+#~ msgid "Background Image"
+#~ msgstr "Slika Pozadine"
+
+#~ msgid "Bar Height"
+#~ msgstr "Visina Linije"
+
+#~ msgid "Bar Length"
+#~ msgstr "©irina Linije"
+
+#~ msgid "Base Color"
+#~ msgstr "Bazna Boja"
+
+#, fuzzy
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Osnovni Polumjer (piksel)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Pona¹anje"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Visina Kosine (O¹tro)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Duljina Kosine"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Izmje¹aj Gradijent (Van crte)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Izmje¹aj Gradijent (Tekst)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Razina Mije¹anja"
+
+#~ msgid "Block Size"
+#~ msgstr "Velièina Bloka"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Vrijednost Zamuæenja"
+
+#~ msgid "Blur Border"
+#~ msgstr "Rub Zamuæenja"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Horizontalno Zamuæenje"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Polumjer Zamuæenja"
+
+#~ msgid "Blur Type"
+#~ msgstr "Vrsta Zamuæenja"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Vertikalno Zamuæenje"
+
+#~ msgid "Blur X"
+#~ msgstr "Zamuæenje X"
+
+#~ msgid "Blur Y"
+#~ msgstr "Zamuæenje Y"
+
+#~ msgid "Border Color"
+#~ msgstr "Boja Ruba"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Velièina Ruba (piksela)"
+
+#~ msgid "Border Size"
+#~ msgstr "Velièina Ruba"
+
+#~ msgid "Border X Size"
+#~ msgstr "Velièina Ruba X"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Velièina Ruba Y"
+
+#~ msgid "Border"
+#~ msgstr "Rub"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Vrijednost Spremnika (%Visine Teksta)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "BumpMap (Alfa sloj) Polumjer Zamuæenja"
+
+#~ msgid "Burst Color"
+#~ msgstr "Pojaèanje Boje"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Izrezbari Tekst"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Izrezbari Bijelo Podruèje"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Velièina æelije (piksela)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Chalk Boja"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Vrijednost Chip"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Balans Chrome"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Faktor Chrome"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Svjetlina Chrome"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Zasiæenje Chrome"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Bijela podruèja Chrome"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Stvori Krug"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Oèisti neodabrano podruèje maske"
+
+#~ msgid "Color 1"
+#~ msgstr "Boja 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Boja 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Boja 3"
+
+#~ msgid "Color"
+#~ msgstr "Boja"
+
+#~ msgid "Columns"
+#~ msgstr "Stupaca"
+
+#~ msgid "Create New Image"
+#~ msgstr "Kreiraj Novu Sliku"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Kreiraj Sjenu"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Posebni Gradijent"
+
+#~ msgid "Dark Color"
+#~ msgstr "Tamna Boja"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Samo Tamno\n"
+#~ "(Bolje,ali samo za slike sa puno Bijelog)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Standardne postavke Bumpmap"
+
+#~ msgid "Defocus"
+#~ msgstr "Defokusiraj"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Delta Vrijednost Boje"
+
+#~ msgid "Density (%)"
+#~ msgstr "Osjetljivost (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Dubina"
+
+#~ msgid "Description"
+#~ msgstr "Poja¹njenje"
+
+#~ msgid "Detail Level"
+#~ msgstr "Nivo Detalja"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Detalj u Sredini"
+
+#~ msgid "Diameter"
+#~ msgstr "Promjer"
+
+#~ msgid "Down"
+#~ msgstr "Dolje"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Daj Sjenu Polumjeru Zamuæenja"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Daj Boju Sjene"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Daj Sjeni Neprozirnost"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Daj Sjeni X Ofset"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Daj Sjeni Y Ofset"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Daj Sjenu"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Vrijednost Ruba"
+
+#~ msgid "Edge Only"
+#~ msgstr "Samo Rub"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Polumjer Ruba"
+
+#~ msgid "Edge Width"
+#~ msgstr "©irina Ruba"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Efektivna Velièina (piksela * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Efektivna Velièina (piksela * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Efektivna Velièina (piksela * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Efektivna Velièina (piksela * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Efektivna Velièina (piksela)"
+
+#~ msgid "Elevation"
+#~ msgstr "Nagib"
+
+#~ msgid "End Blend"
+#~ msgstr "Kraj Mije¹anja"
+
+#~ msgid "End X"
+#~ msgstr "Kraj X"
+
+#~ msgid "End Y"
+#~ msgstr "Kraj Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Zavr¹no Mije¹anje"
+
+#~ msgid "Environment Map"
+#~ msgstr "Mapa Suèelja"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Izbri¹i prije Crtanja"
+
+#~ msgid "Even"
+#~ msgstr "Parni"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Parni/Neparni"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "FG-BG-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "FG-BG-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "Prozirna Pozadina"
+
+#~ msgid "Fade Away"
+#~ msgstr "I¹èezavanje"
+
+#~ msgid "Fade From %"
+#~ msgstr "I¹ezavanje Iz %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "I¹èezavanje U %"
+
+#~ msgid "Feathering"
+#~ msgstr "Pokrivanje"
+
+#~ msgid "Filename"
+#~ msgstr "Naziv Datoteke"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Ispuni Kut"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Ispuni Pozadinu Uzorkom"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Ispuni Bojom Pozadine"
+
+#, fuzzy
+#~ msgid "Fill with BG"
+#~ msgstr "Ispuni Bojom Pozadine"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Ravna Slika"
+
+#~ msgid "Font Color"
+#~ msgstr "Boja Pisma"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Velièina Pisma (pikseli)"
+
+#~ msgid "Font"
+#~ msgstr "Pismo"
+
+#~ msgid "Fonts"
+#~ msgstr "Pisma"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Boja Prednjeg Plana"
+
+#~ msgid "Frame Color"
+#~ msgstr "Boja Okvira"
+
+#~ msgid "Frame Size"
+#~ msgstr "Velièina Okvira"
+
+#~ msgid "Frames"
+#~ msgstr "Okvira"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Od Vrha-Lijevo do Dna-Desno"
+
+#~ msgid "Glow Color"
+#~ msgstr "Boja Isijanja"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Polumjer Isijanja"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Velièina Isijanja (pikseli * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Gradijent"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Granulacija (1 je Mala)"
+
+#~ msgid "Granularity"
+#~ msgstr "Granulacija"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Graph Skala"
+
+#~ msgid "Grids X"
+#~ msgstr "Mre¾e X"
+
+#~ msgid "Grids Y"
+#~ msgstr "Mre¾e Y"
+
+#~ msgid "Height"
+#~ msgstr "Visina"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Balans Osvjetljenog"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Boja Osvjetljenog"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Neprozirnost Osvjetljenog"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Osvijetli X ofset"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Osvijetli Y ofset"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Vrijednost Pogotka"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Vrijednost Nijanse"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Visina Slike"
+
+#~ msgid "Image Size"
+#~ msgstr "Velièina Slike"
+
+#~ msgid "Image Width"
+#~ msgstr "©irina Slike"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Izrezbarena Slika"
+
+#~ msgid "Index Image"
+#~ msgstr "Indeksiraj Sliku"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Indeks u n Boja (0 = zahtijevam RGB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Ubaci Imena Slojeva"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Centriraj Okvire"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpolacija"
+
+#~ msgid "Invert direction"
+#~ msgstr "Obratni Smjer"
+
+#~ msgid "Invert"
+#~ msgstr "Obratno"
+
+#~ msgid "Keep Background"
+#~ msgstr "Zadr¾i Pozadinu"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Zadr¾i Bump Sloj"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Zadr¾i Odabir"
+
+#~ msgid "Land Height"
+#~ msgstr "Visina Plohe"
+
+#~ msgid "Left"
+#~ msgstr "Lijevo"
+
+#~ msgid "Looped"
+#~ msgstr "Petlja"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Ni¾a Boja (Aktivna)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Ni¾a Boja"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Najmanja-Desna boja"
+
+#~ msgid "Make New Background"
+#~ msgstr "Napravi Novu Pozadinu"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Neprozirna Maska"
+
+#~ msgid "Mask Size"
+#~ msgstr "Velièina Maske"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Maks. Polumjer Zamuæenja"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Djelovi Mozaika"
+
+#~ msgid "Mottle"
+#~ msgstr "I¹aran"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Nema Pozadine (samo za odvojeni sloj)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Nije Stisnuto (Aktivno)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Nije Stisnuto"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Broj Veza"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Broj Boja"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Broj Kopija"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Broj Okvira"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Broj Linija"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Koliko Puta æu Zavrtiti"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "Broj X djeliæa"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Broj Y djeliæa"
+
+#~ msgid "Number"
+#~ msgstr "Broj"
+
+#~ msgid "Odd"
+#~ msgstr "Neparni"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Ofset (piksela)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Polumjer Ofseta"
+
+#~ msgid "Offset X"
+#~ msgstr "Ofset X"
+
+#~ msgid "Offset Y"
+#~ msgstr "Ofset Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Ofseti (pikseli * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Velièina Uljene Maske"
+
+#~ msgid "Opacity"
+#~ msgstr "Neprozirnost"
+
+#~ msgid "Orientation"
+#~ msgstr "Orijentacija"
+
+#~ msgid "Outer Border"
+#~ msgstr "Vanjski Rub"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Polumjer Zamuæenja na Slici"
+
+#~ msgid "Outline Color"
+#~ msgstr "Vanjska Boja"
+
+#~ msgid "Outline Size"
+#~ msgstr "Vanjska Velièina"
+
+#~ msgid "Pad Color"
+#~ msgstr "Boja Podloge"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Neprozirnost Podloge"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Podloga oko Teksta"
+
+#~ msgid "Padding X"
+#~ msgstr "Podloga X"
+
+#~ msgid "Padding Y"
+#~ msgstr "Podloga Y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Podloga za Prozirne regije"
+
+#~ msgid "Padding"
+#~ msgstr "Podloga"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Uzorak (Outline)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Uzorak (Overlay)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Uzorak (Tekst)"
+
+#~ msgid "Pattern"
+#~ msgstr "Uzorak"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Pen Rad. / Wheel Rad. [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Vrijednost Piksela"
+
+#~ msgid "Pixelize"
+#~ msgstr "Pikseliziraj"
+
+#~ msgid "Pressed"
+#~ msgstr "Stisnuto"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Velièina Èetvrtine"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Polumjer"
+
+#~ msgid "Random Seed"
+#~ msgstr "Nasumièna Kreacija"
+
+#~ msgid "Randomness"
+#~ msgstr "Nasumiènost"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Relativna Udaljenost od Horizonta"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Relativna Duljina Sjene"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Relativni Polumjer"
+
+#~ msgid "Remove Background"
+#~ msgstr "Ukloni Pozadinu"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Razmak Vrpce"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "©irina Vrpce"
+
+#~ msgid "Right"
+#~ msgstr "Desno"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Jaèina Sme¾uravanja"
+
+#~ msgid "Roughness"
+#~ msgstr "Hrapavost"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Zaokru¾ivanje"
+
+#~ msgid "Rows"
+#~ msgstr "Redova"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Redova/Stupaca"
+
+#~ msgid "Scale X"
+#~ msgstr "Omjer X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Omjer Y"
+
+#, fuzzy
+#~ msgid "Sea Depth"
+#~ msgstr "Dubina Sjene"
+
+#~ msgid "Seed"
+#~ msgstr "Poèetak"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Odaberi po Pragu boje"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Odvoji Sloj"
+
+#~ msgid "Sepia"
+#~ msgstr "Sepia"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Polumjer Sjene Zamuæenja"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Boja Sjene"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Zatamnjenje Sjene"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Dubina Sjene"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Te¾ina Sjene (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "X Ofset Sjene"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Y Ofset Sjene"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Izo¹travanje (stupnjeva)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Du¾ina Stri¾enja"
+
+#~ msgid "Size"
+#~ msgstr "Velièina"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Ugladi Horizontalno"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Ugladi Vertikalno"
+
+#~ msgid "Smooth"
+#~ msgstr "Ugladi"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Razmak Meðu Slojevima"
+
+#~ msgid "Spacing"
+#~ msgstr "Razmak"
+
+#~ msgid "Spots density X"
+#~ msgstr "Osjetljivost Spota X"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Osjetljivost Spota Y"
+
+#~ msgid "Spread"
+#~ msgstr "Rastezanje"
+
+#~ msgid "Squares"
+#~ msgstr "Èetverokuti"
+
+#~ msgid "Stains"
+#~ msgstr "Mrlje"
+
+#~ msgid "Start Angle"
+#~ msgstr "Poèetni Kut"
+
+#~ msgid "Start Blend"
+#~ msgstr "Poèetna Blenda"
+
+#~ msgid "Start X"
+#~ msgstr "Poèetni X"
+
+#~ msgid "Start Y"
+#~ msgstr "Poèetni Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Poèinjem Mje¹anje"
+
+#~ msgid "Supersample"
+#~ msgstr "Super Sempliranje"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Boja Teksta (Aktivni)"
+
+#~ msgid "Text Color"
+#~ msgstr "Boja Teksta"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Uzorak Teksta"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Thickness"
+#~ msgstr "Gustoæa"
+
+#~ msgid "Thread Density"
+#~ msgstr "Osjetljivost Niti"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Intezitet Niti"
+
+#~ msgid "Thread Length"
+#~ msgstr "Duljina Niti"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Prag (Veæi 1<-->255 Manji)"
+
+#~ msgid "Tile"
+#~ msgstr "Djeliæ"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Prozirna Pozadina"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Ajde s lijeva na Desno"
+
+#~ msgid "Up"
+#~ msgstr "Gore"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Gornja Boja (Aktivna)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Gornja Boja"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Boja Gore-Lijevo"
+
+#~ msgid "Use Brush"
+#~ msgstr "Koristi Kist"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Koristi Aktivni Gradijent"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Koristi Rastuæi Odabir"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Koristi Prekrivanje Uzorkom"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Koristi Uzorak za Crte¾ , a ne Gradijent"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Koristi Uzorak za Tekst ,a ne Gradijent"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "Koristi Odabrana Ogranièenja bez obzira..."
+
+#~ msgid "Wavelength"
+#~ msgstr "Valna Duljina"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Polumjer Kotaèa (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Vrijednost Vrtnje"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Kut Vrtnje"
+
+#~ msgid "Width of Bands"
+#~ msgstr "©irina Pojasa"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "©irina Pukotina"
+
+#~ msgid "Width"
+#~ msgstr "©irina"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Rad na kopiji"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/FAQ za programere"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/GIMP Uèitelji"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Xtns/Web Browser/Korisnièki FAQ"
+
+#~ msgid ""
+#~ "Script-Fu Error\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Script-Fu Gre¹ka\n"
+#~ "%s"

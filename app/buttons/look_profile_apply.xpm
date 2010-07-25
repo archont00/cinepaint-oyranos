@@ -1,0 +1,27 @@
+/* XPM */
+static char *look_profile_apply_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"29 15 6 1",
+"  c black",
+". c none",
+"X c #BDBEBD",
+"o c #FF8080",
+"O c #DEDBDE",
+"+ c gray100",
+/* pixels */
+"...............  ............",
+".............. +  ...........",
+"............. +   ...........",
+"............ ++  ............",
+"...oooooooo ++  o............",
+"   o       ++   o            ",
+"+++o ++++ ++  + o++++++++++  ",
+"+++o ++++ +  ++ o++++++++++  ",
+"+++o +++    +++ o++++++++++  ",
+"++Oo +++  ++++O o+++++++++O  ",
+"++Oo +++++++++O o+++++++++O  ",
+"OOOo +++++++OOO o+++++++OOO  ",
+"OOXo ++++OOOOOX o++++OOOOOX  ",
+"   o            o            ",
+"...oooooooooooooo............"
+};

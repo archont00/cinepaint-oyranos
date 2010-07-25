@@ -1,0 +1,1286 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0108 
+i18n_type 1 
+i18n_include ../br_core/i18n.hpp 
+i18n_function _ 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include "../br_core/Br2Hdr.hpp"} {public
+} 
+
+decl {\#include "../br_core/testtools.hpp"} {public
+} 
+
+decl {\#include "../br_core/ResponseSolverBase.hpp"} {public
+} 
+
+decl {\#include "../br_core/EventReceiver.hpp"} {public
+} 
+
+decl {\#include "../FL_adds/Fl_IntInput_Slider.hpp"} {public
+} 
+
+decl {\#include "ImageTable.hpp"} {public
+} 
+
+decl {\#include "OffsetTable.hpp"} {public
+} 
+
+decl {\#include "ExifTable.hpp"} {public
+} 
+
+decl {\#include "WidgetWrapper.hpp"} {public
+} 
+
+decl {\#include "gui_rest.hpp"} {public
+} 
+
+decl {\#include "AllWindows.hpp"} {} 
+
+decl {\#include "preferences.hpp"} {} 
+
+decl {\#include "fl_translate_menu.cpp"} {} 
+
+decl {\#include "../br_core/br_version.hpp"} {} 
+
+decl {\#include "../br_core/WeightFuncBase.hpp"} {} 
+
+decl {\#include "../br_core/Run_DisplcmFinder.hpp"} {} 
+
+decl {\#include "../bracketing_to_hdr.hpp"} {} 
+
+decl {using namespace br;} {} 
+
+decl {Br2HdrManager & theBr2Hdr = Br2Hdr::Instance();} {} 
+
+class MainWinClass {: {public br::EventReceiver}
+} {
+  decl {friend class MainWinMenubarWatcher;} {}
+  decl {//MainWinMenubarWatcher  menubar_watcher;} {}
+  decl {int h_offsetbar_; // target height} {}
+  decl {int h_timesbar_; // target height} {}
+  Function {MainWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {Bracketing to HDR} open
+      private xywh {711 28 485 410} type Double resizable visible
+    } {
+      Fl_Menu_Bar menubar_ {
+        private xywh {0 0 485 30} when 4
+        code0 {fl_translate_menu ((Fl_Menu_Item*)o->menu());}
+      } {
+        Submenu {} {
+          label {&File} open
+          private xywh {0 0 63 20}
+        } {
+          MenuItem {} {
+            label {Open Image(s)...}
+            callback {load_input_images();}
+            private tooltip {Load the images of a bracketing series} xywh {0 0 30 20} shortcut 0x8006f
+          }
+          MenuItem {} {
+            label {Clear Image Container}
+            callback {theBr2Hdr.clear_ContAndCalc();}
+            private tooltip {Clear the imput image container} xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label {Clear external response curves}
+            callback {theBr2Hdr.clear_ResponseExtern();
+allWins.response->update_after_clear_response_extern();
+// assume, allWins.response exists !?}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label Quit
+            callback {window_->do_callback();}
+            private tooltip {Quit the plug-in} xywh {0 0 30 20}
+          }
+        }
+        Submenu {} {
+          label Make open
+          private xywh {0 0 63 20}
+        } {
+          MenuItem mbar_item_Init_Calctor_ {
+            label {Init Calctor}
+            callback {Br2Hdr::Instance().init_Calctor();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem mbar_item_Compute_Response_ {
+            label {Compute Response }
+            callback {Br2Hdr::Instance().compute_Response();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem mbar_item_Compute_HDR_ {
+            label {Compute HDR}
+            callback {cpaint_show_image (Br2Hdr::Instance().complete_HDR());}
+            private xywh {0 0 30 20}
+          }
+          MenuItem mbar_item_Compute_logHDR_ {
+            label {Compute log HDR}
+            callback {cpaint_show_image (Br2Hdr::Instance().complete_LogHDR());}
+            private xywh {0 0 30 20} divider
+          }
+          Submenu {} {
+            label {Weight curve 'Response comp.'} open
+            private xywh {0 0 63 20}
+          } {
+            MenuItem {} {
+              label Identity
+              callback {theBr2Hdr.setWeightResp(WeightFuncBase::IDENTITY);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeResp()==WeightFuncBase::IDENTITY) o->setonly();}
+            }
+            MenuItem {} {
+              label {Identity with 0-borders}
+              callback {theBr2Hdr.setWeightResp(WeightFuncBase::IDENTITY_0);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeResp()==WeightFuncBase::IDENTITY_0) o->setonly();}
+            }
+            MenuItem {} {
+              label Triangle
+              callback {theBr2Hdr.setWeightResp(WeightFuncBase::TRIANGLE);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeResp()==WeightFuncBase::TRIANGLE) o->setonly();}
+            }
+            MenuItem {} {
+              label Sinus
+              callback {theBr2Hdr.setWeightResp(WeightFuncBase::SINUS);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeResp()==WeightFuncBase::SINUS) o->setonly();}
+            }
+            MenuItem {} {
+              label Identity_0_Param
+              callback {theBr2Hdr.setWeightResp(WeightFuncBase::IDENTITY_0_PARAM);}
+              private xywh {10 10 30 20} type Radio hide
+              code0 {if (theBr2Hdr.weightShapeResp()==WeightFuncBase::IDENTITY_0_PARAM) o->setonly();}
+            }
+            MenuItem {} {
+              label Triangle_Param
+              callback {theBr2Hdr.setWeightResp(WeightFuncBase::TRIANGLE_PARAM);}
+              private xywh {20 20 30 20} type Radio hide
+              code0 {if (theBr2Hdr.weightShapeResp()==WeightFuncBase::TRIANGLE_PARAM) o->setonly();}
+            }
+          }
+          Submenu {} {
+            label {Weight curve 'HDR merging'} open
+            private xywh {10 10 63 20} divider
+          } {
+            MenuItem {} {
+              label Identity
+              callback {theBr2Hdr.setWeightMerge(WeightFuncBase::IDENTITY);}
+              private xywh {10 10 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeMerge()==WeightFuncBase::IDENTITY) o->setonly();}
+            }
+            MenuItem {} {
+              label {Identity with 0-borders}
+              callback {theBr2Hdr.setWeightMerge(WeightFuncBase::IDENTITY_0);}
+              private xywh {10 10 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeMerge()==WeightFuncBase::IDENTITY_0) o->setonly();}
+            }
+            MenuItem {} {
+              label Triangle
+              callback {theBr2Hdr.setWeightMerge(WeightFuncBase::TRIANGLE);}
+              private xywh {10 10 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeMerge()==WeightFuncBase::TRIANGLE) o->setonly();}
+            }
+            MenuItem {} {
+              label Sinus
+              callback {theBr2Hdr.setWeightMerge(WeightFuncBase::SINUS);}
+              private xywh {10 10 30 20} type Radio
+              code0 {if (theBr2Hdr.weightShapeMerge()==WeightFuncBase::SINUS) o->setonly();}
+            }
+            MenuItem {} {
+              label Identity_0_Param
+              callback {theBr2Hdr.setWeightMerge(WeightFuncBase::IDENTITY_0_PARAM);}
+              private xywh {20 20 30 20} type Radio hide
+              code0 {if (theBr2Hdr.weightShapeMerge()==WeightFuncBase::IDENTITY_0_PARAM) o->setonly();}
+            }
+            MenuItem {} {
+              label Triangle_Param
+              callback {theBr2Hdr.setWeightMerge(WeightFuncBase::TRIANGLE_PARAM);}
+              private xywh {30 30 30 20} type Radio hide
+              code0 {if (theBr2Hdr.weightShapeMerge()==WeightFuncBase::TRIANGLE_PARAM) o->setonly();}
+            }
+          }
+          Submenu {} {
+            label {Report  (console)} open
+            private xywh {10 10 63 20}
+          } {
+            MenuItem {} {
+              label Images
+              callback {theBr2Hdr.report_Images();}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label Numerics
+              callback {theBr2Hdr.report_NumericParams();}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label {Calctor's Numerics}
+              callback {theBr2Hdr.report_CalctorParams();}
+              private xywh {20 20 30 20}
+            }
+            MenuItem {} {
+              label Indices
+              callback {theBr2Hdr.report_Indices();}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label Pack
+              callback {if (theBr2Hdr.calctor())
+  theBr2Hdr.calctor()->packBase().report();}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label {Status Response Curves}
+              callback {theBr2Hdr.report_StatusResponseCurves();}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label {Weight Functions}
+              callback {theBr2Hdr.report_WeightFunc();}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label Offsets
+              callback {theBr2Hdr.imgVector().report_offsets();}
+              private xywh {0 0 30 20}
+            }
+            MenuItem {} {
+              label {Intersection area}
+              callback {theBr2Hdr.imgVector().report_intersection();}
+              private xywh {0 0 30 20}
+            }
+          }
+        }
+        Submenu {} {
+          label {&Tools} open
+          private xywh {0 0 63 20}
+        } {
+          MenuItem {} {
+            label {Follow-up Curves...}
+            callback {allWins.do_followUp();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label {Response Curves...}
+            callback {allWins.do_response();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label {Histogram...}
+            callback {allWins.do_histogram();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label Displacements
+            callback {//allWins.do_displacements();}
+            private xywh {0 0 30 20} hide deactivate divider
+          }
+          MenuItem {} {
+            label {Offset Computation...}
+            callback {allWins.do_displcmFinderUI();}
+            private xywh {0 0 30 20} divider
+          }
+          MenuItem {} {
+            label {TestSuite...}
+            callback {allWins.do_testSuite();}
+            private xywh {10 10 30 20}
+          }
+          MenuItem {} {
+            label {EventDebugger...}
+            callback {allWins.do_eventTester();}
+            private xywh {0 0 30 20}
+          }
+        }
+        Submenu {} {
+          label Numerics open
+          private xywh {0 0 63 20} hide deactivate
+        } {
+          Submenu {} {
+            label {Pack-Format} open
+            private xywh {0 0 63 20}
+          } {
+            MenuItem {} {
+              label {Single Images + interleave}
+              private xywh {0 0 30 20} type Radio value 1
+            }
+            MenuItem {} {
+              label {Channel-wise}
+              private xywh {0 0 30 20} type Radio deactivate
+            }
+          }
+        }
+        Submenu {} {
+          label Settings open
+          private xywh {0 0 63 20}
+        } {
+          MenuItem mbar_item_timesbar_ {
+            label {Show time setting bar}
+            callback {if (mbar_item_timesbar_->value()) 
+     timesbar_on();
+else timesbar_off();}
+            private xywh {10 10 30 20} type Toggle value 1
+          }
+          MenuItem mbar_item_offsetbar_ {
+            label {Show Offset bar}
+            callback {if (mbar_item_offsetbar_->value()) 
+     offsetbar_on();
+else offsetbar_off();}
+            private xywh {0 0 30 20} type Toggle value 1
+          }
+          MenuItem mbar_item_auto_update_followup_ {
+            label {Auto-update follow-up curves}
+            callback {theBr2Hdr.setAutoUpdateFollowUp(mbar_item_auto_update_followup_->value());}
+            private xywh {0 0 30 20} type Toggle value 1
+            code0 {if (theBr2Hdr.isAutoUpdateFollowUp()) o->set(); else o->clear();}
+          }
+          MenuItem mbar_item_auto_load_response_ {
+            label {Auto-load last external response curves at start}
+            private xywh {0 0 30 20} type Toggle value 1
+          }
+          MenuItem mbar_item_downsample_U16_ {
+            label {Downsample 16-bit input images}
+            private xywh {0 0 30 20} type Toggle divider
+          }
+          Submenu {} {
+            label {Method for solving the least square fit}
+            private xywh {0 0 63 20}
+          } {
+            MenuItem mbar_item_solvemode_auto_ {
+              label {auto (try QR; if rank defect use SVD)}
+              callback {theBr2Hdr.solve_mode(ResponseSolverBase::AUTO);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.solve_mode()==ResponseSolverBase::AUTO) o->setonly();}
+            }
+            MenuItem mbar_item_solvemode_use_qr_ {
+              label {QR (abborts if rank defect)}
+              callback {theBr2Hdr.solve_mode(ResponseSolverBase::USE_QR);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.solve_mode()==ResponseSolverBase::USE_QR) o->setonly();}
+            }
+            MenuItem mbar_item_solvemode_use_svd_ {
+              label {SVD (a bit faster than 'auto' if QR fails)}
+              callback {theBr2Hdr.solve_mode(ResponseSolverBase::USE_SVD);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.solve_mode()==ResponseSolverBase::USE_SVD) o->setonly();}
+            }
+            MenuItem {} {
+              label {testmode (QR + SVD + compare)}
+              callback {theBr2Hdr.solve_mode(ResponseSolverBase::TEST_BOTH);}
+              private xywh {0 0 30 20} type Radio hide deactivate
+              code0 {if (theBr2Hdr.solve_mode()==ResponseSolverBase::TEST_BOTH) o->setonly();}
+            }
+          }
+          Submenu {} {
+            label {Method for Z-Matrix generation} open
+            private xywh {0 0 63 20} divider
+          } {
+            MenuItem mbar_item_methodZ_refpic_ {
+              label {selection along refpic line (recommended!)}
+              callback {theBr2Hdr.method_Z(1);}
+              private xywh {10 10 30 20} type Radio
+              code0 {if (theBr2Hdr.method_Z()==1) o->setonly();}
+            }
+            MenuItem mbar_item_methodZ_overlap_ {
+              label {overlapp criterion (default until version 0.5.1)}
+              callback {theBr2Hdr.method_Z(2);}
+              private xywh {0 0 30 20} type Radio
+              code0 {if (theBr2Hdr.method_Z()==2) o->setonly();}
+            }
+          }
+          MenuItem mbar_item_enforce_refresh_ {
+            label {Enforce progress refreshes}
+            callback {progress_resizing_support(mbar_item_enforce_refresh_->value());
+printf("support = %d\\n", progress_resizing_support());}
+            private xywh {0 0 30 20} type Toggle hide deactivate
+            code0 {\#include "ProgressBar.hpp"}
+            code1 {if (progress_resizing_support()) o->set(); else o->clear();}
+          }
+          MenuItem mbar_item_auto_save_prefs_ {
+            label {Auto-save settings at plug-in end}
+            private xywh {0 0 30 20} type Toggle divider
+          }
+          MenuItem {} {
+            label {Save current settings}
+            callback {write_preferences();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label {Default settings}
+            callback {default_settings();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label {Reset window positions}
+            callback {allWins.reset_win_positions();}
+            private xywh {0 0 30 20}
+          }
+        }
+        Submenu {} {
+          label Help open
+          private xywh {0 0 63 20}
+        } {
+          MenuItem {} {
+            label {About...}
+            callback {allWins.do_helpAbout();}
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label {HDR-Tutorial....}
+            callback {allWins.do_helpTutorial();}
+            private xywh {0 0 30 20}
+          }
+        }
+      }
+      Fl_Tabs the_tab_ {open
+        private xywh {0 35 485 255} selection_color 7 resizable
+        code0 {o->value(o->child(0)); // activate the first}
+      } {
+        Fl_Group tab_images_ {
+          label Images open
+          private tooltip {Table of input images, ordered by average brightness per pixel. Column 'Brightness' shows the relative brightness compared to the darkest image. Column 'Wk-Range' shows the percentage of pixels within the working range.} xywh {0 60 485 230} hide resizable
+        } {
+          Fl_Group table_images_ {open
+            private xywh {0 65 485 224} resizable
+            class ImageTable
+          } {}
+        }
+        Fl_Group tab_exif_ {
+          label EXIF open
+          private xywh {0 60 485 230}
+        } {
+          Fl_Group table_exif_ {open
+            private xywh {0 65 485 224}
+            class ExifTable
+          } {}
+        }
+        Fl_Group tab_offsets_ {
+          label Offsets open
+          private tooltip {Offset of the images. Column 1 lists the computed value - computed against the image at position "to pos". Column 3 shows the global offset relative to the first active image.} xywh {0 60 485 230} hide
+        } {
+          Fl_Group table_offsets_ {open
+            private xywh {0 65 485 224}
+            class OffsetTable
+          } {}
+        }
+      }
+      Fl_Group grp_timesbar_ {
+        private xywh {0 290 485 30}
+        code0 {h_timesbar_ = o->h(); // FLUID's h. as target h.}
+      } {
+        Fl_Box {} {
+          label {Times by:}
+          private xywh {10 294 65 20}
+        }
+        Fl_Group {} {open
+          private xywh {75 294 250 21}
+        } {
+          Fl_Round_Button radio_timesByEXIF_ {
+            label EXIF
+            callback {theBr2Hdr.timesSetting(Br2Hdr::BY_EXIF);
+theBr2Hdr.setTimes();
+stopvalueChoicer_->deactivate();}
+            private tooltip {Determines exposure times from the EXIF data. For shutter speeds = 0 result times = 0!} xywh {85 294 60 20} type Radio down_box ROUND_DOWN_BOX when 6
+          }
+          Fl_Round_Button radio_timesByStop_ {
+            label Stops
+            callback {theBr2Hdr.timesSetting(Br2Hdr::BY_STOP);
+theBr2Hdr.forActiveTimes(false);
+theBr2Hdr.setTimes();
+stopvalueChoicer_->activate();}
+            private tooltip {Generates times for all images using the current "stops" value.} xywh {150 294 65 20} type Radio down_box ROUND_DOWN_BOX when 6
+          }
+          Fl_Round_Button radio_timesActiveByStop_ {
+            label {Stops active}
+            callback {theBr2Hdr.timesSetting(Br2Hdr::BY_STOP);
+theBr2Hdr.forActiveTimes(true);
+theBr2Hdr.setTimes();
+stopvalueChoicer_->activate();}
+            private tooltip {Generates times for the *activated* images using the current "stops" value.} xywh {220 294 105 20} type Radio down_box ROUND_DOWN_BOX when 6
+          }
+        }
+        Fl_Choice stopvalueChoicer_ {open
+          private xywh {330 294 70 20} down_box BORDER_BOX when 6
+          code0 {\#include "StopvalueChoicer.hpp"}
+          class StopvalueChoicer
+        } {}
+        Fl_Check_Button tggl_normedTimes_ {
+          label normed
+          callback {theBr2Hdr.normedTimes(o->value());
+theBr2Hdr.setTimes();}
+          private tooltip {Scales times so, that the first time of a series becomes 1.} xywh {410 294 75 20} down_box DOWN_BOX value 1
+        }
+        Fl_Box {} {
+          private xywh {0 318 485 2} box ENGRAVED_BOX
+        }
+      }
+      Fl_Group grp_offsetbar_ {open
+        private xywh {0 320 485 30}
+        code0 {h_offsetbar_ = o->h(); // FLUID's h. as target h.}
+      } {
+        Fl_Check_Button bttn_use_offsets_ {
+          label {use offsets}
+          callback {theBr2Hdr.use_offsets(o->value());}
+          private tooltip {If checked, computed offsets are used in HDR calculator initalisation.} xywh {155 324 175 20} down_box DOWN_BOX
+          code0 {if (theBr2Hdr.use_offsets()) o->set(); else o->clear();}
+        }
+        Fl_Button {} {
+          label {Compute Offsets}
+          callback {the_tab_->value(tab_offsets_);
+Run_DisplcmFinder::run_for_all_actives();
+theBr2Hdr.use_offsets(true);
+bttn_use_offsets_->value(1);}
+          private tooltip {Computes offsets (displacements) for all activated images.} xywh {5 324 140 20}
+          code0 {o->extra_init();}
+          class ComputeOffsetsButton
+        }
+        Fl_Box {} {
+          private xywh {0 348 485 2} box ENGRAVED_BOX
+        }
+      }
+      Fl_Group {} {open
+        private xywh {0 355 485 25}
+      } {
+        Fl_Button {} {
+          label Init
+          private tooltip {Init the HDR-Calculator with the activated input images} xywh {5 355 90 25}
+          code0 {\#include "buttons.hpp"}
+          code1 {o->extra_init();}
+          class InitCalctorButton
+        }
+        Fl_Button bttn_init_calctor_ {
+          label {Compute Response}
+          private tooltip {Compute the response curves} xywh {110 355 140 25}
+          code0 {\#include "buttons.hpp"}
+          code1 {o->extra_init();}
+          class ComputeResponseButton
+        }
+        Fl_Button {} {
+          label HDR
+          private tooltip {Assemble the HDR image using the "using next" response curves. If they are incomplete, they are computed before, except "use external curves" is on.} xywh {250 355 70 25}
+          code0 {\#include "buttons.hpp"}
+          code1 {o->extra_init();}
+          class HDRButton
+        }
+        Fl_Button {} {
+          label M
+          callback {theBr2Hdr.mark_bad_pixel(o->value());}
+          private tooltip {Mark cropped (zero-weighted, unresolved) HDR-values by contrast colors} xywh {320 355 25 25} type Toggle selection_color 92
+          code0 {o->value(theBr2Hdr.mark_bad_pixel());}
+        }
+      }
+      Fl_Output {} {
+        private xywh {0 385 485 25} box THIN_DOWN_BOX color 49 when 0
+        code0 {\#include "StatusLine.hpp"}
+        code1 {theBr2Hdr.set_statusline(o);}
+        class StatusLine
+      }
+      Fl_Progress {} {
+        private xywh {0 385 485 25} box THIN_DOWN_BOX color 49
+        code0 {\#include "TheProgressBar.hpp"}
+        code1 {o->with_cursor(true);}
+        class TheProgressBar
+      }
+    }
+    comment {Here we realize Properties default values:} {in_source in_header
+    }
+    code {if (!mbar_item_offsetbar_->value()) offsetbar_off();} {}
+    code {if (!mbar_item_timesbar_->value()) timesbar_off();} {}
+  }
+  Function {~MainWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {show()} {return_type void
+  } {
+    code {window_->show();} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+  Function {downsample_U16()} {return_type bool
+  } {
+    code {return mbar_item_downsample_U16_->value();} {}
+  }
+  decl {void load_input_images();} {public
+  }
+  decl {void solve_mode (br::ResponseSolverBase::SolveMode);} {public
+  }
+  Function {method_Z(int m)} {return_type void
+  } {
+    code {theBr2Hdr.method_Z(m);
+switch(m) {
+ case 1: mbar_item_methodZ_refpic_->setonly(); break;
+ case 2: mbar_item_methodZ_overlap_->setonly(); break;
+ default: ;
+}} {}
+  }
+  Function {offsetbar_on()} {private return_type void
+  } {
+    code {if (grp_offsetbar_->visible()) return;
+Fl_Window* w = window_;
+Fl_Widget* save = w->resizable();
+w->init_sizes();
+w->resizable(grp_offsetbar_);
+w->size(w->w(), w->h()+h_offsetbar_-1);
+grp_offsetbar_->set_visible();
+w->init_sizes();
+w->resizable(save);} {}
+  }
+  Function {offsetbar_off()} {private return_type void
+  } {
+    code {if (!grp_offsetbar_->visible()) return;
+Fl_Window* w = window_;
+Fl_Widget* save = w->resizable();
+w->init_sizes();
+w->resizable(grp_offsetbar_);
+grp_offsetbar_->hide();
+w->size(w->w(), w->h()-h_offsetbar_+1);
+w->init_sizes();
+w->resizable(save);} {}
+  }
+  Function {timesbar_on()} {private return_type void
+  } {
+    code {//printf("TIMESBAR_ON()\\n");
+if (grp_timesbar_->visible()) return;
+Fl_Window* w = window_;
+Fl_Widget* save = w->resizable();
+w->init_sizes();
+w->resizable(grp_timesbar_);
+w->size(w->w(), w->h()+h_timesbar_-1);
+grp_timesbar_->set_visible();
+w->init_sizes();
+w->resizable(save);} {}
+  }
+  Function {timesbar_off()} {private return_type void
+  } {
+    code {//printf("TIMESBAR_OFF()\\n");
+if (!grp_timesbar_->visible()) return;
+Fl_Window* w = window_;
+Fl_Widget* save = w->resizable();
+w->init_sizes();
+w->resizable(grp_timesbar_);
+grp_timesbar_->hide();
+w->size(w->w(), w->h()-h_timesbar_+1);
+w->init_sizes();
+w->resizable(save);} {}
+  }
+  Function {is_show_offset_buttons() const} {return_type bool
+  } {
+    code {return mbar_item_offsetbar_->value();} {}
+  }
+  Function {set_show_offset_buttons(bool b)} {return_type void
+  } {
+    code {if (b) mbar_item_offsetbar_->set();
+else   mbar_item_offsetbar_->clear();
+mbar_item_offsetbar_->do_callback(menubar_);} {}
+  }
+  Function {is_auto_load_response() const} {return_type bool
+  } {
+    code {return mbar_item_auto_load_response_->value();} {}
+  }
+  Function {set_auto_load_response(bool b)} {return_type void
+  } {
+    code {if (b) mbar_item_auto_load_response_->set();
+else   mbar_item_auto_load_response_->clear();} {}
+  }
+  Function {is_auto_save_prefs() const} {return_type bool
+  } {
+    code {return mbar_item_auto_save_prefs_->value();} {}
+  }
+  Function {set_auto_save_prefs(bool b)} {return_type void
+  } {
+    code {if (b) mbar_item_auto_save_prefs_->set();
+else   mbar_item_auto_save_prefs_->clear();} {}
+  }
+  Function {set_auto_update_followup(bool b)} {return_type void
+  } {
+    code {if (b) mbar_item_auto_update_followup_->set();
+else   mbar_item_auto_update_followup_->clear();} {}
+  }
+  decl {void default_settings();} {}
+  decl {void handle_Event(br::Br2Hdr::Event);} {}
+} 
+
+class ResponseWinClass {: {public br::EventReceiver}
+} {
+  Function {ResponseWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {Response Curves (Br2HDR)} open
+      private xywh {452 28 390 505} type Double resizable
+      code0 {update_activation_radios_Computed();}
+      code1 {update_activation_radios_External();}
+      code2 {update_save_menu();} visible
+    } {
+      Fl_Group plot_ {open
+        private tooltip {Red, green, blue the (inverse) response curves for the R, G, B channel: exposure X over pixel value z. White the weight function for HDR-merging, dark gray the weight function for response computation (the white can hide the dark). --- Type "1", "2"... to see the single curves, "0" shows all.} xywh {0 0 390 310} box FLAT_BOX align 0 resizable
+        code0 {\#include "ResponsePlot.hpp"}
+        class ResponsePlot
+      } {}
+      Fl_Group {} {open
+        private xywh {-5 310 400 95} box ENGRAVED_FRAME
+      } {
+        Fl_Value_Slider slider_grid_points_ {
+          label {Spot Points}
+          callback {theBr2Hdr.set_nSelectPoints(int(o->value()+0.5));}
+          private tooltip {Number of spots to select for response curve computation (vertical sections through the follow-up curves diagram)} xywh {80 320 305 20} type Horizontal color 7 align 4 minimum 2 maximum 256 step 1 textsize 14
+          code0 {o->value(theBr2Hdr.nSelectPoints());}
+        }
+        Fl_Value_Slider slider_smoothing_ {
+          label Smoothing
+          callback {theBr2Hdr.set_smoothing(o->value());}
+          private tooltip {Smoothing coefficient for response curve computation} xywh {80 345 305 20} type Horizontal color 7 align 4 maximum 100 step 0.5 textsize 14
+          code0 {o->value(theBr2Hdr.smoothing());}
+        }
+        Fl_Button {} {
+          label {Compute Response}
+          private tooltip {Compute the response curves} xywh {240 370 140 25}
+          code0 {\#include "buttons.hpp"}
+          code1 {o->extra_init();}
+          class ComputeResponseButton
+        }
+        Fl_Check_Button toggle_use_extern_curves_ {
+          label {Use external curves}
+          callback {theBr2Hdr.setUseExternResponse(o->value());}
+          private tooltip {Deactivate the response curve computing stuff} xywh {10 375 175 20} down_box DOWN_BOX
+          code0 {o->value(theBr2Hdr.isUseExternResponse());}
+        }
+      }
+      Fl_Choice choice_plot_ {
+        label {Plotted:}
+        callback {plot_->which_curves(Br2Hdr::WhichCurves(o->value()));
+plot_->update();
+update_save_menu();} open
+        private tooltip {Select the curves to plot} xywh {290 425 95 25} down_box BORDER_BOX
+        code0 {fl_translate_menu((Fl_Menu_Item*)o->menu());}
+      } {
+        MenuItem {} {
+          label {using next}
+          private xywh {20 20 30 20}
+        }
+        MenuItem {} {
+          label computed
+          private xywh {20 20 30 20}
+        }
+        MenuItem {} {
+          label external
+          private xywh {20 20 30 20}
+        }
+        MenuItem {} {
+          label {calctor's}
+          private xywh {30 30 30 20}
+        }
+      }
+      Fl_Menu_Button {} {
+        label Load open
+        private tooltip {Load external response curves from file. For "load all" the filename endings "_R", "_G_", "_B" are handled automatically (removed & completed).} xywh {105 475 90 25} align 16
+        code0 {fl_translate_menu((Fl_Menu_Item*)o->menu());}
+      } {
+        MenuItem {} {
+          label {All channels}
+          callback {load_all_response_curves_dialog();}
+          private xywh {10 10 30 20}
+        }
+        MenuItem {} {
+          label {R channel}
+          callback {load_response_curve_dialog (0);}
+          private xywh {10 10 30 20} labelcolor 1
+        }
+        MenuItem {} {
+          label {G channel}
+          callback {load_response_curve_dialog (1);}
+          private xywh {10 10 30 20} labelcolor 61
+        }
+        MenuItem {} {
+          label {B channel}
+          callback {load_response_curve_dialog (2);}
+          private xywh {10 10 30 20} labelcolor 177
+        }
+      }
+      Fl_Menu_Button menubttn_save_ {
+        label Save open
+        private tooltip {Save the PLOTTED response curves to file. The filenames are completed automatically by the channel endings "_R", "_G", "_B".} xywh {205 475 90 25} align 16
+        code0 {fl_translate_menu ((Fl_Menu_Item*)o->menu());}
+      } {
+        MenuItem {} {
+          label {All channels}
+          callback {save_response_curves_dialog(plot().which_curves(), -1);}
+          private xywh {20 20 30 20}
+        }
+        MenuItem menubttn_save_item_channel_0 {
+          label {R channel}
+          callback {save_response_curves_dialog (plot().which_curves(), 0);}
+          private xywh {20 20 30 20} labelcolor 1
+        }
+        MenuItem menubttn_save_item_channel_1 {
+          label {G channel}
+          callback {save_response_curves_dialog (plot().which_curves(), 1);}
+          private xywh {20 20 30 20} labelcolor 61
+        }
+        MenuItem menubttn_save_item_channel_2 {
+          label {B channel}
+          callback {save_response_curves_dialog (plot().which_curves(), 2);}
+          private xywh {20 20 30 20} labelcolor 177
+        }
+      }
+      Fl_Group group_using_next_ {open
+        private tooltip {Select the response curves using next for HDR merging} xywh {5 408 200 64} deactivate
+      } {
+        Fl_Box {} {
+          label {Curves using next:}
+          private xywh {35 409 145 16}
+        }
+        Fl_Button button_extern_all_ {
+          label {external:}
+          callback {applyResponseCurveExtern(-1);}
+          private tooltip {Make all external response curves to "using next" curves} xywh {5 450 75 20} box THIN_UP_BOX align 24
+        }
+        Fl_Button button_computed_all_ {
+          label {computed:}
+          callback {applyResponseCurveComputed(-1);}
+          private tooltip {Make all computed response curves to "using next" curves} xywh {5 425 75 20} box THIN_UP_BOX align 24
+        }
+        Fl_Group {} {open
+          private xywh {80 424 40 46}
+        } {
+          Fl_Light_Button {radio_computed_[0]} {
+            label R
+            callback {applyResponseCurveComputed(0);}
+            private xywh {80 425 40 20} type Radio selection_color 3 labelcolor 1 when 6
+          }
+          Fl_Light_Button {radio_extern_[0]} {
+            label R
+            callback {applyResponseCurveExtern(0);}
+            private xywh {80 450 40 20} type Radio selection_color 3 labelcolor 1 when 6
+          }
+        }
+        Fl_Group {} {open
+          private xywh {120 424 40 46}
+        } {
+          Fl_Light_Button {radio_computed_[1]} {
+            label G
+            callback {applyResponseCurveComputed(1);}
+            private xywh {120 425 40 20} type Radio labelcolor 61 when 6
+          }
+          Fl_Light_Button {radio_extern_[1]} {
+            label G
+            callback {applyResponseCurveExtern(1);}
+            private xywh {120 450 40 20} type Radio labelcolor 61 when 6
+          }
+        }
+        Fl_Group {} {open
+          private xywh {160 424 40 46}
+        } {
+          Fl_Light_Button {radio_computed_[2]} {
+            label B
+            callback {applyResponseCurveComputed(2);}
+            private xywh {160 425 40 20} type Radio labelcolor 4 when 6
+          }
+          Fl_Light_Button {radio_extern_[2]} {
+            label B
+            callback {applyResponseCurveExtern(2);}
+            private xywh {160 450 40 20} type Radio labelcolor 4 when 6
+          }
+        }
+      }
+    }
+  }
+  decl {void update_activation_radios_Computed();} {public
+  }
+  decl {void update_activation_radios_External();} {public
+  }
+  decl {void update_onoff_radios_Using_Next();} {public
+  }
+  decl {void update_activation_group_Using_Next();} {public
+  }
+  decl {void do_which_curves(br::Br2Hdr::WhichCurves which);} {public
+  }
+  decl {void update_after_clear_response_extern();} {public
+  }
+  Function {show()} {return_type void
+  } {
+    code {window_->show();} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+  Function {plot()} {return_type {ResponsePlot &}
+  } {
+    code {return *plot_;} {}
+  }
+  decl {void handle_Event(br::Br2Hdr::Event);} {}
+  decl {void applyResponseCurveComputed(int channel);} {}
+  decl {void applyResponseCurveExtern(int channel_like);} {}
+  decl {void update_save_menu();} {}
+} 
+
+class FollowUpWinClass {} {
+  Function {FollowUpWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {Follow-up Curves (Br2HDR)} open
+      private xywh {756 28 520 415} type Double align 17
+      code0 {o->resizable(plot_);} visible
+    } {
+      Fl_Group plot_ {open
+        private tooltip {Follow-up curves for the chosen reference image and channel} xywh {0 1 520 377} box FLAT_BOX color 48
+        code0 {\#include "FllwUpCrvPlot.hpp"}
+        class FollowUpCurvePlot
+      } {}
+      Fl_Group {} {open
+        private xywh {-5 380 530 40} box ENGRAVED_FRAME
+      } {
+        Fl_Group {} {open
+          private xywh {65 385 444 30}
+        } {
+          Fl_Choice {} {
+            label {Ref-Img}
+            callback {theBr2Hdr.set_refpic(o->value());} open
+            private tooltip {Reference image for calculation of follow-up curves} xywh {70 385 55 25} down_box BORDER_BOX
+            code0 {\#include "RefpicChoicer.hpp"}
+            class RefpicChoicer
+          } {}
+          Fl_Choice {} {
+            label Channel
+            callback {plot_->set_channel(o->value());
+plot_->update();} open
+            private tooltip {Channel for which follow-up curves shall be displayed} xywh {200 385 50 25} down_box BORDER_BOX
+          } {
+            MenuItem {} {
+              label R
+              private xywh {0 0 30 20} labelcolor 1
+            }
+            MenuItem {} {
+              label G
+              private xywh {0 0 30 20} labelcolor 61
+            }
+            MenuItem {} {
+              label B
+              private xywh {0 0 30 20} labelcolor 4
+            }
+          }
+          Fl_Button {} {
+            label Compute
+            private tooltip {Compute follow-up curves} xywh {395 385 114 25}
+            code0 {o->extra_init();}
+            class ComputeFllwUpButton
+          }
+        }
+      }
+    }
+  }
+  Function {~FollowUpWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {show()} {return_type void
+  } {
+    code {window_->show();} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+} 
+
+class TestSuiteWinClass {: {public WidgetWrapper}
+} {
+  decl {br::Br2HdrManager & m_Br2Hdr;} {}
+  decl {br::ParamResponseLinear param_resp_lin_;} {}
+  decl {br::ParamResponseHalfCos param_resp_cos_;} {}
+  Function {TestSuiteWinClass(br::Br2HdrManager& m) : m_Br2Hdr(m)} {} {
+    comment {Wenn doch nicht lokal, "theBr2Hdr" benutzen!} {in_source in_header
+    }
+    code {init_params();} {}
+    Fl_Window window_ {
+      label {TestSuite (Br2HDR)}
+      callback {o->hide();
+WidgetWrapper::delete_wrapper(this);} open
+      private xywh {472 130 535 305} type Double resizable visible
+    } {
+      Fl_Tabs {} {open
+        private xywh {0 0 535 310} selection_color 7
+      } {
+        Fl_Group {} {
+          label {Add Test Images} open
+          private tooltip {Create a simulated series of bracketed exposures and add it to the image container. The therein used exposure times correspond a 'stop' value of 1.} xywh {0 25 535 275}
+        } {
+          Fl_Value_Slider input_xdim_ {
+            label {x-dim}
+            private tooltip {x-dimension of the images} xywh {70 170 445 20} type Horizontal color 7 align 4 minimum 1 maximum 3000 step 1 value 200 textsize 14
+            class Fl_IntInput_Slider
+          }
+          Fl_Value_Slider input_ydim_ {
+            label {y-dim}
+            private tooltip {y-dimension of the imagess} xywh {70 200 445 20} type Horizontal color 7 align 4 minimum 1 maximum 3000 step 1 value 200 textsize 14
+            class Fl_IntInput_Slider
+          }
+          Fl_Value_Slider input_N_ {
+            label Images
+            private tooltip {Number of images of a series} xywh {70 235 150 20} type Horizontal color 7 align 4 minimum 1 maximum 15 step 1 value 3 textsize 14
+          }
+          Fl_Check_Button check_clear_old_ {
+            label {Clear image container before}
+            private tooltip {Clear image container before adding} xywh {20 45 240 25} down_box DOWN_BOX value 1
+          }
+          Fl_Choice choice_scene_ {
+            label {Radiance Scene} open
+            private tooltip {Simulated Radiance Scene} xywh {140 95 95 25} down_box BORDER_BOX
+            code0 {fl_translate_menu((Fl_Menu_Item*)o->menu());}
+          } {
+            MenuItem {} {
+              label {XY-Slope}
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label {Random Values}
+              private xywh {0 0 30 20}
+            }
+          }
+          Fl_Button {} {
+            label {Details...}
+            private xywh {235 95 70 25} deactivate
+          }
+          Fl_Choice choice_response_ {
+            label {Response Function} open
+            private tooltip {The (simulated) response function used for image generation} xywh {140 125 95 25} down_box BORDER_BOX
+            code0 {fl_translate_menu((Fl_Menu_Item*)o->menu());}
+          } {
+            MenuItem {} {
+              label Linear
+              private xywh {10 10 30 20}
+            }
+            MenuItem {} {
+              label Cosinus
+              private xywh {0 0 30 20}
+            }
+          }
+          Fl_Button {} {
+            label {Details...}
+            private xywh {235 125 70 25} deactivate
+          }
+          Fl_Button bttn_add_ {
+            label Add
+            callback {if (check_clear_old_->value())
+  m_Br2Hdr.clear_ContAndCalc();
+  
+do_add();}
+            private tooltip {Add the above specified test images} xywh {70 270 110 25}
+          }
+          Fl_Button bttn_add_simple_ {
+            label {123... Images}
+            callback {if (check_clear_old_->value())
+  m_Br2Hdr.clear_ContAndCalc();
+  
+add_TestImages (m_Br2Hdr,
+  int(input_xdim_->value()+0.5),
+  int(input_ydim_->value()+0.5),
+  int(input_N_->value()+0.5),
+  ImageType(choice_data_type_->value()+1));}
+            private tooltip {Add images with 1,2,3... values} xywh {285 270 110 25}
+          }
+          Fl_Button {} {
+            label {Bad Images}
+            callback {if (check_clear_old_->value())
+  m_Br2Hdr.clear_ContAndCalc();
+  
+add_BadImages (m_Br2Hdr,
+  int(input_xdim_->value()+0.5),
+  int(input_ydim_->value()+0.5),
+  int(input_N_->value()+0.5),
+  ImageType(choice_data_type_->value()+1));}
+            private tooltip {Creates an image series, which produces an exception while response computation.} xywh {405 270 110 25}
+          }
+          Fl_Choice choice_data_type_ {
+            label {Data type} open
+            private tooltip {Data type of the images} xywh {420 45 75 25} down_box BORDER_BOX
+          } {
+            MenuItem {} {
+              label uint8
+              private xywh {0 0 30 20}
+            }
+            MenuItem {} {
+              label uint16
+              private xywh {0 0 30 20}
+            }
+          }
+        }
+      }
+    }
+  }
+  Function {~TestSuiteWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {show()} {return_type void
+  } {
+    code {window_->show();} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+  decl {void init_params();} {}
+  decl {void do_add();} {}
+} 
+
+class HelpAboutWinClass {} {
+  Function {HelpAboutWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {About "Bracketing to HDR"} open
+      private xywh {416 385 400 245} type Single resizable
+      code0 {o->position((Fl::w()-o->w())/2, (Fl::h()-o->h())/2);} visible
+    } {
+      Fl_Box {} {
+        private xywh {30 29 340 25} labelsize 21
+        code0 {static char s[80];}
+        code1 {sprintf(s,"\\"%s\\"  -  %s %s", _("Bracketing to HDR"), _("Version"), BR_VERSION_STRING);}
+        code2 {o->label(s);}
+      }
+      Fl_Box {} {
+        label {Plugin for CinePaint}
+        private xywh {30 55 340 25} labelsize 21
+      }
+      Fl_Box {} {
+        label {(c) 2005/06  Hartmut Sbosny}
+        private xywh {92 150 215 20}
+      }
+      Fl_Output {} {
+        private xywh {107 168 185 20} box FLAT_BOX color 49
+        code0 {o->value(" <hartmut.sbosny@gmx.de>");}
+        code1 {o->clear_visible_focus();}
+      }
+      Fl_Box {} {
+        label {Merges bracketed exposures of a (still) scene into one High Dynamic Range image (radiance map)}
+        private xywh {27 94 345 42} align 128
+      }
+      Fl_Button {} {
+        label Close
+        callback {window_->do_callback();}
+        private xywh {155 210 90 25}
+      }
+    }
+  }
+  Function {~HelpAboutWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+} 
+
+class HelpTutorialWinClass {open
+} {
+  Function {HelpTutorialWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {HDR-Tutorial} open
+      private xywh {488 84 505 245} type Single resizable visible
+    } {
+      Fl_Box {} {
+        label {HDR-Tutorial...}
+        private xywh {20 33 330 27} labelsize 18 align 20
+      }
+      Fl_Box {} {
+        label {An english tutorial you will find at:}
+        private xywh {20 75 380 20} align 20
+      }
+      Fl_Output {} {
+        private xywh {20 95 470 20} box FLAT_BOX align 20
+        code0 {o->value(" http://freenet-homepage.de/hsbosny/HDR_Tutorial/HDR_Tutorial-en.html ");}
+        code1 {o->clear_visible_focus();}
+      }
+      Fl_Output {} {
+        private xywh {20 150 470 20} box FLAT_BOX align 20
+        code0 {o->value(" http://freenet-homepage.de/hsbosny/HDR_Tutorial/HDR_Tutorial-de.html ");}
+        code1 {o->clear_visible_focus();}
+      }
+      Fl_Box {} {
+        label {Eine deutsche Anleitung finden Sie unter:}
+        private xywh {20 130 380 20} align 20
+      }
+      Fl_Button {} {
+        label Close
+        callback {window_->do_callback();} selected
+        private xywh {207 210 90 25}
+      }
+    }
+  }
+  Function {~HelpTutorialWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+} 
+
+class HistogramWinClass {: {public br::EventReceiver, public WidgetWrapper}
+} {
+  Function {HistogramWinClass()} {open
+  } {
+    Fl_Window window_ {
+      label {Histogram (Br2HDR)}
+      callback {o->hide();
+WidgetWrapper::delete_wrapper(this);} open
+      private xywh {406 28 450 370} type Double
+      code0 {o->resizable(plot_);} visible
+    } {
+      Fl_Group plot_ {
+        private tooltip {Histogram: percentage of pixels with value x} xywh {0 0 450 335} box FLAT_BOX
+        code0 {\#include "HistogramPlot.hpp"}
+        class HistogramPlot
+      } {}
+      Fl_Group {} {open
+        private xywh {-5 335 465 40} box ENGRAVED_FRAME
+      } {
+        Fl_Choice {} {
+          label Channel
+          callback {plot_->set_channel(o->value()-1);
+plot_->update();} open
+          private tooltip {Channel for which histogram shall be displayed} xywh {175 340 50 25} down_box BORDER_BOX
+          code0 {fl_translate_menu((Fl_Menu_Item*)o->menu());}
+        } {
+          MenuItem {} {
+            label all
+            private xywh {0 0 30 20}
+          }
+          MenuItem {} {
+            label R
+            private xywh {10 10 30 20} labelcolor 1
+          }
+          MenuItem {} {
+            label G
+            private xywh {10 10 30 20} labelcolor 61
+          }
+          MenuItem {} {
+            label B
+            private xywh {10 10 30 20} labelcolor 4
+          }
+        }
+        Fl_Choice choice_image_ {
+          label Image
+          callback {plot_->set_image(o->value());
+plot_->update();} open
+          private xywh {55 340 50 25} down_box BORDER_BOX when 6
+          code0 {build_choice_image();}
+        } {}
+      }
+    }
+  }
+  Function {~HistogramWinClass()} {} {
+    code {delete window_;} {}
+  }
+  Function {window()} {return_type {Fl_Window*}
+  } {
+    code {return window_;} {}
+  }
+  decl {void handle_Event (br::Br2Hdr::Event);} {}
+  decl {void build_choice_image();} {}
+} 
+
+decl {\#include "gui_rest.cpp"} {} 

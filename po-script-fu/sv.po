@@ -1,0 +1,1593 @@
+# Swedish messages for GIMP Script-Fu.
+# Copyright (C) 2000, 2001 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2000, 2001.
+# Tomas Ögren <stric@ing.umu.se>, 2001.
+#
+# $Id: sv.po,v 1.3 2007/01/08 23:26:20 beku Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-script-fu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2001-10-30 17:53+0100\n"
+"Last-Translator: Christian Rose <menthos@menthos.com>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu-konsoll"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Stäng"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD-utdata"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu-konsoll"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Aktuellt kommando"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Bläddra..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "Kan inte öppna SIOD-utdataröret"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "Kan inte öppna en ström på SIOD-utdataröret"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu-evalueringsläget tillåter endast interaktiv användning"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "DB-bläddrare (init...)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "Sök:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "Sök efter namn"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by blurb"
+msgstr "Sök efter blurb"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "Verkställ"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Namn:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Blurb:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "In:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "Ut:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Författare:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Datum:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Copyright:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "DB-bläddrare (efter namn - var vänlig vänta)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "DB-bläddrare (efter blurb - var vänlig vänta)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "DB-bläddrare (var vänlig vänta)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "DB-bläddrare"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Ljussättning (grader)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Radie (bildpunkter)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Skugga"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Färg på sfär"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu-konsolläget tillåter endast interaktiv användning"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Skriptargument"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu-färgväljare"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu-filväljare"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu-mönsterväljare"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu-färgskaleväljare"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu-penselväljare"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Återställ till standardvärden"
+
+#~ msgid "About"
+#~ msgstr "Om"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "NOT SET"
+#~ msgstr "INTE SATT"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Åtminstone en av typsnitten du angett är ogiltigt.\n"
+#~ "Var vänlig och kontrollera dina inställningar.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Bildtyper:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu-typsnittsväljare"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Script-Fu-fel under körning\n"
+#~ " %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu-serveralternativ"
+
+#~ msgid "Server Port:"
+#~ msgstr "Serverport:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Serverloggfil:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Konsoll..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Server..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Läs om alla tillgängliga skript..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Uppdatera"
+
+#~ msgid "Help:"
+#~ msgstr "Hjälp:"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Redigera/Kopiera synligt"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Filter/Utsmetning/Brickutsmetning..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/Alkemi/Klädgör..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/Alkemi/Ta bort varannan rad..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script-Fu/Alkemi/Rovdjur..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/Alkemi/Oskärpemask..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/Alkemi/Väv..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/3D-kontur..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Rymdglöd..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Rymdneon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Grundläggande I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Grundläggande I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Färgtonad..."
+
+# Kommer inte på något bättre
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Koskinn..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Krita..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Hacka loss..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Krom..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Seriebok..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Kall metall..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Frostig..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Glansig..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Glödande hett..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Färgtoningsavfasning..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Partikelspår..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Stjärnutbrott..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Stjärnlandskap..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/Alfa till logotyp/Textur..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/Animatörer/Färgtoning..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/Animatörer/Krusning..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/Animatörer/Markering till AnimeraBild..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/Animatörer/Roterande jordglob..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/Animatörer/Vågor..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Lägg till avfasning..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Lägg till kant..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Kaffestänk..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Suddig kant..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Gammalt foto..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Runda hörn..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Bildspel..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/Rendering/Krets..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/Rendering/Lava..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/Rendering/Linjenova..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/Rendering/Skapa rutnätssystem..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/Markering/Matta ut markering..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/Markering/Fasa ut kontur..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/Markering/Runda..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/Markering/Till pensel..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/Markering/Till bild"
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/Skugga/Kasta skugga..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/Skugga/Perspektiv..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/Skugga/Xach-effekt..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/Stencilåtgärder/Karva den..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/Stencilåtgärder/Kroma den..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/Verktyg/ASCII till bildlager..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/Verktyg/Rita HSV-graf..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/Verktyg/Visa bildstruktur..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Knappar/Runda knapp..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Knappar/Enkel avfasad knapp..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/3D-kontur..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Rymdglöd..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Rymdneon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Grundläggande I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Grundläggande II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Färgtonad..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Koskinn..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Karvad..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Krita..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Hacka loss..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Krom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Seriebok..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Kall metall..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Kristall..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Frostig..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Glansig..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Glödande het..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Färgtoningsavfasning..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Nyhetstext..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Partikelspår..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/SOTA-krom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Snabb text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Stjärnutbrott..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Stjärnlandskap..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Textcirkel..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Textur..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Logotyper/Webbtitelhuvud..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Skapa pensel/Elliptisk, fjädrad..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Skapa pensel/Elliptisk..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Skapa pensel/Rektangulär, fjädrad..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Skapa pensel/Rektangulär..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Diverse/Sfär..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/3D-truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Kamouflage..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Slätt..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Land..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Rendera karta..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Virvelbricka..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Virvlande (brickor)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Trokoid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Mönster/Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Verktyg/ASCII till bild..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Verktyg/Anpassad färgtoning..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Verktyg/Typsnittstabell..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Rymdglöd/Pil..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Rymdglöd/Punkt..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Rymdglöd/Knapp..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Rymdglöd/Horisontell linje..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Avfasat mönster/Pil..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Avfasat mönster/Punkt..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Avfasat mönster/Knapp..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Avfasat mönster/Rubrik..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Avfasat mönster/Horisontell "
+#~ "linje..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Gimp.org/Stor rubrik..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Gimp.org/Generella "
+#~ "röretiketter..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Gimp.org/Liten rubrik..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Gimp.org/Etikett för "
+#~ "rörknapp..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Gimp.org/Etikett för "
+#~ "rörunderknapp..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Utökningar/Script-Fu/Webbsideteman/Gimp.org/Etikett för "
+#~ "rörunderunderknapp..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Fel i GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP-manual"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP-nyheter"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/Dokumentation"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/Hämta"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/GIMP-grafik"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/Länkar"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/Sändlistor"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/Resurser"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Gimp-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Förstå GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Register över insticksmoduler"
+
+#~ msgid "Add Background"
+#~ msgstr "Lägg till bakgrund"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Lägg till kastad skugga"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Lägg till skugga"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Tillåt storleksändring"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplitud"
+
+#~ msgid "Angle"
+#~ msgstr "Vinkel"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Animeringsfilter för alla kopior"
+
+#~ msgid "Antialias"
+#~ msgstr "Antialias"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Tillämpa genererad lagermask"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Tillämpa lagermask (eller kasta bort)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "Beskär automatiskt"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimut"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Bakgrundsopacitet"
+
+#~ msgid "Background Image"
+#~ msgstr "Bakgrundsbild"
+
+#~ msgid "Bar Height"
+#~ msgstr "Stapelhöjd"
+
+#~ msgid "Bar Length"
+#~ msgstr "Stapellängd"
+
+#~ msgid "Base Color"
+#~ msgstr "Basfärg"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Basradie (bildpunkter)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Beteende"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Avfasningshöjd (skärpa)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Avfasningsbredd"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Färgtoningsskala (kontur)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Färgtoningsskala (text)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Färgtoningsläge"
+
+#~ msgid "Block Size"
+#~ msgstr "Blockstorlek"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Mängd utsmetning"
+
+#~ msgid "Blur Border"
+#~ msgstr "Smeta ut kant"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Smeta ut horisontellt"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Utsmetningsradie"
+
+#~ msgid "Blur Type"
+#~ msgstr "Utsmetningstyp"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Smeta ut vertikalt"
+
+#~ msgid "Blur X"
+#~ msgstr "Utsmetning i X-led"
+
+#~ msgid "Blur Y"
+#~ msgstr "Utsmetning i Y-led"
+
+#~ msgid "Border Color"
+#~ msgstr "Kantfärg"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Kantstorlek (bildpunkter)"
+
+#~ msgid "Border Size"
+#~ msgstr "Kantstorlek"
+
+#~ msgid "Border X Size"
+#~ msgstr "X-storlek för kant"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Y-storlek för kant"
+
+#~ msgid "Border"
+#~ msgstr "Kant"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "Buffertmängd (% höjd av text)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Bumpmappsutsmetningsradie (alfalager)"
+
+#~ msgid "Burst Color"
+#~ msgstr "Utbrottsfärg"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Skär ut höjd text"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Skär ut vita ytor"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Cellstorlek (bildpunkter)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Kritfärg"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Hackmängd"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Krombalans"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Kromfaktor"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Kromljusstyrka"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Krommättnad"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Krom på vita ytor"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "Kretsfrö"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Töm omarkerad maskyta"
+
+#~ msgid "Color 1"
+#~ msgstr "Färg 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Färg 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Färg 3"
+
+#~ msgid "Color"
+#~ msgstr "Färg"
+
+#~ msgid "Columns"
+#~ msgstr "Kolumner"
+
+#~ msgid "Create New Image"
+#~ msgstr "Skapa ny bild"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Skapa skugga"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Anpassad färgskala"
+
+#~ msgid "Dark Color"
+#~ msgstr "Mörk färg"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Gör endast mörkare\n"
+#~ "(bättre, men bara för bilder med mycket vitt)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Standardinställningar för bumpmapp"
+
+#~ msgid "Defocus"
+#~ msgstr "Avfokusera"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Deltavärde på färg"
+
+#~ msgid "Density (%)"
+#~ msgstr "Densitet (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Djup"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid "Detail Level"
+#~ msgstr "Detaljnivå"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Detalj i mitten"
+
+#~ msgid "Diameter"
+#~ msgstr "Diameter"
+
+#~ msgid "Down"
+#~ msgstr "Ner"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Utsmetningsradie för skuggkastning"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Skuggkastningsfärg"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Skuggkastningsopacitet"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "X-avstånd för skuggkastning"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Y-avstånd för skuggkastning"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Skuggkastning"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Hörnmängd"
+
+#~ msgid "Edge Only"
+#~ msgstr "Endast hörn"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Hörnradie"
+
+#~ msgid "Edge Width"
+#~ msgstr "Hörnbredd"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Effektstorlek (bildpunkter × 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Effektstorlek (bildpunkter × 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Effektstorlek (bildpunkter × 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Effektstorlek (bildpunkter × 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Effektstorlek (bildpunkter)"
+
+#~ msgid "Elevation"
+#~ msgstr "Höjd"
+
+#~ msgid "End Blend"
+#~ msgstr "Avsluta färgtoning"
+
+#~ msgid "End X"
+#~ msgstr "X-slut"
+
+#~ msgid "End Y"
+#~ msgstr "Y-slut"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Avslutar färgtoning"
+
+#~ msgid "Environment Map"
+#~ msgstr "Miljökarta"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Ta bort innan ritande"
+
+#~ msgid "Erase"
+#~ msgstr "Ta bort"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Ta bort/Fyll"
+
+#~ msgid "Even"
+#~ msgstr "Jämn"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Jämn/Udda"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "FG-BG-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "FG-BG-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "FG-Transparent"
+
+#~ msgid "Fade Away"
+#~ msgstr "Tyna bort"
+
+#~ msgid "Fade From %"
+#~ msgstr "Tyna från %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "Tyna till   %"
+
+#~ msgid "Feathering"
+#~ msgstr "Fjäder"
+
+#~ msgid "Filename"
+#~ msgstr "Filnamn"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Fyllningsvinkel"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Fyll bakgrund med mönster"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Fyll med bakgrundsfärg"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Fyll med bakgrund"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Platta till bilden"
+
+#~ msgid "Font Color"
+#~ msgstr "Typsnittsfärg"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Typsnittsstorlek (bildpunkter)"
+
+#~ msgid "Font"
+#~ msgstr "Typsnitt"
+
+#~ msgid "Fonts"
+#~ msgstr "Typsnitt"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Förgrundsfärg"
+
+#~ msgid "Frame Color"
+#~ msgstr "Ramfärg"
+
+#~ msgid "Frame Size"
+#~ msgstr "Ramstorlek"
+
+#~ msgid "Frames"
+#~ msgstr "Ramar"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Från övre vänsterkant till nedre högerkant"
+
+#~ msgid "Glow Color"
+#~ msgstr "Glödfärg"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Glödradie"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Glödstorlek (bildpunkter × 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Färgskala"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Granularitet (1 är låg)"
+
+#~ msgid "Granularity"
+#~ msgstr "Granularitet"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Grafskala"
+
+#~ msgid "Grids X"
+#~ msgstr "Rutor i X-led"
+
+#~ msgid "Grids Y"
+#~ msgstr "Rutor i Y-led"
+
+#~ msgid "Height"
+#~ msgstr "Höjd"
+
+#~ msgid "Hexagons"
+#~ msgstr "Hexagoner"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Markeringsbalans"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Markeringsfärg"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Markeringsopacitet"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "X-avstånd för markering"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Y-avstånd för markering"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Mängd träffar"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Mängd nyans"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Bildhöjd"
+
+#~ msgid "Image Size"
+#~ msgstr "Bildstorlek"
+
+#~ msgid "Image Width"
+#~ msgstr "Bildbredd"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Bild att skära ut"
+
+#~ msgid "Index Image"
+#~ msgstr "Indexbild"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Indexera till n färger (0 = behåll RGB)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Infoga lagernamn"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Mellanramar"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpolera"
+
+#~ msgid "Invert direction"
+#~ msgstr "Invertera riktning"
+
+#~ msgid "Invert"
+#~ msgstr "Invertera"
+
+#~ msgid "Keep Background"
+#~ msgstr "Behåll bakgrund"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Behåll bumplager"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Behåll markering"
+
+#~ msgid "Land Height"
+#~ msgstr "Landhöjd"
+
+#~ msgid "Left"
+#~ msgstr "Vänster"
+
+#~ msgid "Looped"
+#~ msgstr "Evig slinga"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Nedre färg (aktiv)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Nedre färg"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Nedre högra färg"
+
+#~ msgid "Make New Background"
+#~ msgstr "Skapa ny bakgrund"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Maskopacitet"
+
+#~ msgid "Mask Size"
+#~ msgstr "Maskstorlek"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Maximal utsmetningsradie"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Mosaikbricktyp"
+
+#~ msgid "Mottle"
+#~ msgstr "Fläck"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Ingen bakgrund (endast för separat lager)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Inte nedtryckt (aktiv)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Inte nedtryckt"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Antal band"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Antal färger"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Antal kopior"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Antal ramar"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Antal linjer"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Antal gånger att virvla"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "Antal X-brickor"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Antal Y-brickor"
+
+#~ msgid "Number"
+#~ msgstr "Nummer"
+
+#~ msgid "Octagons"
+#~ msgstr "Oktagoner"
+
+#~ msgid "Odd"
+#~ msgstr "Udda"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Avstånd (bildpunkter)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Avståndsradie"
+
+#~ msgid "Offset X"
+#~ msgstr "Avstånd i X-led"
+
+#~ msgid "Offset Y"
+#~ msgstr "Avstånd i Y-led"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Avstånd (bildpunkter × 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Storlek på oljningsmask"
+
+#~ msgid "Opacity"
+#~ msgstr "Opacitet"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientering"
+
+#~ msgid "Outer Border"
+#~ msgstr "Yttre kant"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Utsmetningsradie för kontur"
+
+#~ msgid "Outline Color"
+#~ msgstr "Konturfärg"
+
+#~ msgid "Outline Size"
+#~ msgstr "Konturstorlek"
+
+#~ msgid "Pad Color"
+#~ msgstr "Utfyllnadsfärg"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Utfyllnadsopacitet"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Utfyllnad runt text"
+
+#~ msgid "Padding X"
+#~ msgstr "Utfyllnad i X-led"
+
+#~ msgid "Padding Y"
+#~ msgstr "Utfyllnad i Y-led"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Utfyllnad för genomskinliga områden"
+
+#~ msgid "Padding"
+#~ msgstr "Utfyllnad"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Mönster (kontur)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Mönster (överlagring)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Mönster (text)"
+
+#~ msgid "Pattern"
+#~ msgstr "Mönster"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "Pennradie / Hjulradie [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Mängd bildpunkter"
+
+#~ msgid "Pixelize"
+#~ msgstr "Pixelisera"
+
+#~ msgid "Pressed"
+#~ msgstr "Nedtryckt"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Kvartsstor"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Radie"
+
+#~ msgid "Random Seed"
+#~ msgstr "Slumpfrö"
+
+#~ msgid "Randomness"
+#~ msgstr "Slumpmässighet"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Relativt avstånd till horisont"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Relativ längd på skugga"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Relativ radie"
+
+#~ msgid "Remove Background"
+#~ msgstr "Ta bort bakgrund"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Mellanrum mellan remsor"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Bredd på remsor"
+
+#~ msgid "Right"
+#~ msgstr "Höger"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Krusningsstyrka"
+
+#~ msgid "Roughness"
+#~ msgstr "Strävhet"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Rundningsförhållande"
+
+#~ msgid "Rows"
+#~ msgstr "Rader"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Rader/Kolumner"
+
+#~ msgid "Scale X"
+#~ msgstr "Skala X"
+
+#~ msgid "Scale Y"
+#~ msgstr "Skala Y"
+
+#~ msgid "Sea Depth"
+#~ msgstr "Havsdjup"
+
+#~ msgid "Seed"
+#~ msgstr "Slumptalsfrö"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Tröskel för markera-med-färg"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Separat lager"
+
+#~ msgid "Sepia"
+#~ msgstr "Sepia"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Skuggutsmetningsradie"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Skuggfärg"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Skuggmörkhet"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Skuggdjup"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Skuggvikt (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "X-avstånd för skugga"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Y-avstånd för skugga"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Skärpa (grader)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Skärlängd"
+
+#~ msgid "Size"
+#~ msgstr "Storlek"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Utjämna horisontellt"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Utjämna vertikalt"
+
+#~ msgid "Smooth"
+#~ msgstr "Utjämna"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Mellanrum mellan lager"
+
+#~ msgid "Spacing"
+#~ msgstr "Mellanrum"
+
+#~ msgid "Spots density X"
+#~ msgstr "X-densitet för punkter"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Y-densitet för punkter"
+
+#~ msgid "Spread"
+#~ msgstr "Spridning"
+
+#~ msgid "Squares"
+#~ msgstr "Fyrkanter"
+
+#~ msgid "Stains"
+#~ msgstr "Stänk"
+
+#~ msgid "Start Angle"
+#~ msgstr "Startvinkel"
+
+#~ msgid "Start Blend"
+#~ msgstr "Starta färgtoning"
+
+#~ msgid "Start X"
+#~ msgstr "Start i X-led"
+
+#~ msgid "Start Y"
+#~ msgstr "Start i Y-led"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Startar färgtoning"
+
+#~ msgid "Supersample"
+#~ msgstr "Översampla"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Textfärg (aktiv)"
+
+#~ msgid "Text Color"
+#~ msgstr "Textfärg"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Textmönster"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Thickness"
+#~ msgstr "Tjocklek"
+
+#~ msgid "Thread Density"
+#~ msgstr "Tråddensitet"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Trådintensitet"
+
+#~ msgid "Thread Length"
+#~ msgstr "Trådlängd"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Tröskel (större 1<-->255 mindre)"
+
+#~ msgid "Tile"
+#~ msgstr "Bricka"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Genomskinlig bakgrund"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Vänd från vänster till höger"
+
+#~ msgid "Up"
+#~ msgstr "Upp"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Övre färg (aktiv)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Övre färg"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Övre vänstra färg"
+
+#~ msgid "Use Brush"
+#~ msgstr "Använd pensel"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Använd aktuell färgtoning"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Använd växande markering"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "Använd mönsteröverlagring"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Använd mönster för kontur istället för färgtoning"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Använd mönster för text istället för färgtoning"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "Använd markeringsgränser istället för trösklar"
+
+#~ msgid "Wavelength"
+#~ msgstr "Våglängd"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "Hjulradie (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "Virvelmängd"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "Virvelvinkel"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Bredd på band"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Bredd på mellanrum"
+
+#~ msgid "Width"
+#~ msgstr "Bredd"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Arbeta på kopia"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Frågor och svar för utvecklare"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Kom igång med GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/Frågor och svar för användare"
+
+#~ msgid ""
+#~ "Burn-In: Need two layers in total!\n"
+#~ "        A foreground text layer with transparency\n"
+#~ "        and a background layer.\n"
+#~ msgstr ""
+#~ "Inbränning: Behöver totalt två lager!\n"
+#~ "        Ett förgrundstextlager med transparens\n"
+#~ "        och ett bakgrundslager.\n"
+
+#~ msgid "Add Glowing"
+#~ msgstr "Lägg till glöd"
+
+#~ msgid "After Glow"
+#~ msgstr "Efterglöd"
+
+#~ msgid "Corona Width"
+#~ msgstr "Koronabredd"
+
+#~ msgid "Fadeout Width"
+#~ msgstr "Utfasningsbredd"
+
+#~ msgid "Fadeout"
+#~ msgstr "Utfasning"
+
+#~ msgid "Prepare for GIF"
+#~ msgstr "Förbered för GIF"
+
+#~ msgid "Speed (pixels/frame)"
+#~ msgstr "Hastighet (bildpunkter/ram)"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documentation"
+#~ msgstr "<Toolbox>/Utökningar/Webbläsare/GIMP.ORG/Dokumentation"

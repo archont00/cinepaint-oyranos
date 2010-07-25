@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Xie Yuheng <phycommusyee@263.net>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-script-fu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2001-11-10 10:00+0800\n"
+"Last-Translator: Xie Yuheng <phycommusyee@263.net>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=gb2312\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Translator: Xie Yuheng <phycommusyee@263.net>\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu 控制台"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr ""
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD 输出"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu 控制台"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "当前命令"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "浏览..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+#, fuzzy
+msgid "Unable to open SIOD output pipe"
+msgstr "无法打开 SIOD 输出管道"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "无法在 SIOD 输出管道中打开一个流"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "DB 浏览器 (初始化...)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "搜索："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "按名字搜索"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by blurb"
+msgstr "按描述搜索"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "名字"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "描述："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "输入："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "输出："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "作者："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "日期："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "版权所有："
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "DB 浏览器 (按名字 - 请等待)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "DB 浏览器 (按描述 - 请等待)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "DB 浏览器 (请等待)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "DB 浏览器"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Radius (in pixels)"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Shadow?"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr ""
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu：%s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "脚本参数"
+
+#~ msgid "%s:"
+#~ msgstr "%s："
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu 颜色选择"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu 文件选择"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu 图案选择"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu 渐变选择"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu 画笔选择"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "复位到缺省值"
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "你所选的字体中至少有一种是无效的。\n"
+#~ "请检查你的设置。\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "图像类型："
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu 字体选择"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Script-Fu 在执行\n"
+#~ "%s 时出错\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu 服务器选项"
+
+#~ msgid "Server Port:"
+#~ msgstr "服务器端口："
+
+#~ msgid "Server Logfile:"
+#~ msgstr "服务器日志文件："
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/控制台..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/服务器..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "重新读入所有可用的脚本"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Xtns/Script-Fu/刷新"
+
+#~ msgid "Help:"
+#~ msgstr "帮助："
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/编辑/可见复制"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/滤镜/模糊/可平铺模糊..."
+
+#~ msgid "Add Background"
+#~ msgstr "添加背景"
+
+#~ msgid "Background Image"
+#~ msgstr "背景图像"
+
+#, fuzzy
+#~ msgid "Script-Fu Directory Selection"
+#~ msgstr "Script-Fu 文件选择"
+
+#~ msgid ""
+#~ "Burn-In: Need two layers in total!\n"
+#~ "        A foreground text layer with transparency\n"
+#~ "        and a background layer.\n"
+#~ msgstr ""
+#~ "Burn-In: 总共需要两个图层！\n"
+#~ "        一个带透明的文本前景图层\n"
+#~ "        和一个背景图层。\n"

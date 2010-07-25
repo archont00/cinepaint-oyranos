@@ -1,0 +1,48 @@
+CinePaint plug-in "bracketing_to_hdr" - README
+Last revision: 2006/10/07  
+Hartmut Sbosny  <hartmut.sbosny@gmx.de>
+
+Plug-in to create an HDR image from a series of bracketed exposures.
+
+Tutorial: http://people.freenet.de/hsbosny/HDR_Tutorial
+
+Programmer's notes:
+==================
+The plug-in consists of a GUI-independent "computing kernel" and a GUI
+layer. For the plug-in GUI we use the toolkit Fltk, whereas the CinePaint
+main programm was written in Gtk. So we have some interfaces, reflected by
+a directory structure as follows:
+
+./         - Main source file of the plug-in. Here resides the only file with
+              explicite references to the Gtk-CinePaint: "bracketing_to_hdr.cpp".
+
+./br_core/ - The GUI independent "computing kernel".
+
+./gui/     - The Fltk-depending GUI stuff.
+
+./FL_adds/ - General additions to Fltk like Greg Ercolano's Fl_Table and my
+              Fl_Cartesius, see ./gui/README.
+
+./TNT/	   - Subset of the 'Template Numerical Toolkit'. TNT-files are included
+ 	      by ./br_core/ and ./gui/ files via "TNT/___", i.e. the local
+              makefiles in ./br_core/ and ./gui/ must have the TNT dir in their
+              include path (eg. via "-I.."). License and source link see any
+              TNT file header.
+
+Documentation:
+=============
+The source code is documented in the doxygen style. Use the program `doxygen' to
+create a code documentation from the sources. Doxygen is available from
+
+	http://www.doxygen.org/
+
+To make the documentation, cd to this directory and type:
+
+	doxygen
+
+The doxygen output will be in the ./html/ subdirectory. To read it just point
+your browser at the "index.html" file. The generated doxygen output is
+controlled by the "Doxyfile" file (output language, call graphs, included/
+excluded files etc). You can edit "Doxyfile" directly or you can use the
+GUI frontend `doxywizard'. Doxywizard is available also from the above site.
+ 

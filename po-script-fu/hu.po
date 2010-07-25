@@ -1,0 +1,1498 @@
+# GIMP script-fu in Hungarian 
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Andras Timar <timar@gnome.hu>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP script-fu/gnome-cvs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2001-09-22 23:42+02:00\n"
+"Last-Translator: Emese Kovacs  <emese@gnome.hu>\n"
+"Language-Team: Hungarian  <hu@gnome.hu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu konzol"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "Bezárás"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD kimenet"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu konzol"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "Aktuális parancs"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "Tallózás..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "A SIOD kimeneti csõvezeték megnyitása sikertelen"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "A folyam megnyitása a SIOD kimeneti csõvezetéken sikertelen"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+"A Script-Fu kiértékelõ módja csak nem-interaktív meghívást tesz lehetõvé"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "Tallózás..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "Dátum:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "Y elmosás"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "Szerzõ:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "Dátum:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "Copyright:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+#, fuzzy
+msgid "DB Browser (please wait)"
+msgstr "Tallózás..."
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+#, fuzzy
+msgid "DB Browser"
+msgstr "Tallózás..."
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "Megvilágítás (fokban)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "Sugár (képpont)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Árnyék"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Gömb színe"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "A Script-Fu konzol módja csak interaktív meghívást tesz lehetõvé"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "Szkriptargumentumok"
+
+#~ msgid "%s:"
+#~ msgstr "%s"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu Színválasztó"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu Fájlválasztó"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu Mintaválasztó"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu Színátmenet-választó"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu Ecsetválasztó"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Alapértékek visszaállítása"
+
+#~ msgid "About"
+#~ msgstr "Névjegy"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégse"
+
+#~ msgid "NOT SET"
+#~ msgstr "NINCS BEÁLLÍTVA"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "Legalább egy kiválasztott betûkészlet érvénytelen.\n"
+#~ "Ellenõrizd a beállításokat!\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "Képtípusok:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu Betûkészlet-választó"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Script-Fu hiba végrehajtás közben\n"
+#~ " %s\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu Kiszolgáló beállításai"
+
+#~ msgid "Server Port:"
+#~ msgstr "Kiszolgáló által használt port:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "Kiszolgáló által használt naplófájl:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Konzol..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Kiszolgáló..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "Az összes elérhetõ szkript újraolvasása"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Frissítés"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/Szerkesztés/Látható másolása"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/Szûrõk/Elmosás/Tileable Blur..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/Alchemy/Clothify..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script-Fu/Alchemy/Predator..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/Alchemy/Weave..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/3D Outline..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Idegen ragyogás..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Idegen Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Egyszerû I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Egyszerû II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Színátmenetes..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Tehenes..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Kréta..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Morzsolás..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Króm..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Képregény..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Hûvös fém..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Fagyos..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Fényes..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Izzó forró..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/3D Színátmenet..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Neon..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Részecskenyom..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Csillagkitörés..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Starscape..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/Alfából logót/Textúrás..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/Animators/Színkeverés..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/Animators/Rippling..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/Animators/Kijelölésbõl AnimImage..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/Animators/Forgó földgömb..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/Animators/Hullámok..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Add Bevel..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Keret hozzáadása..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Kávéfolt..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Fuzzy Border..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Régi fénykép..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Gömbölyített sarok..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/Dekor/Dia..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/Megjelenítés/Circuit..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/Megjelenítés/Láva..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/Megjelenítés/Line Nova..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/Megjelenítés/Rácsrendszer készítése..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/Kijelölés/Distress Selection..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/Kijelölés/Fade Outline..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/Kijelölés/Köralakú..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/Kijelölés/To Brush..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/Kijelölés/Képre"
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/Árnyék/Vetett árnyék..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/Árnyék/Perspektívikus..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/Árnyék/Xach-effektus..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/Stencil Ops/Vésés..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/Stencil Ops/Krómozás..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/Segédeszközök/ASCII-ból kép réteg..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/Segédeszközök/HSV grafikon rajzolása..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/Segédeszközök/Képfelépítés mutatása..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Gombok/Lekerekített..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Gombok/Egyszerû 3D..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/3D keret..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Idegen ragyogás..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Idegen Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Egyszerû I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Egyszerû II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Színátmenet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Tehenes..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Vésett..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Kréta..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Morzsolás..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Króm..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Képregény..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Hûvös fém..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Kristály..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Fagyos..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Fényes..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Izzó forró..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/3D Színátmenet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Imigre-26..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Neon..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Newsprint Text..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Részecskenyom..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/SOTA Chrome..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Száguldó szöveg..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Csillagkitörés..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Starscape..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Text Circle..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Textured..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Logók/Webes fejléc..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Ecsetkészítés/Elliptikus, elmosott..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Ecsetkészítés/Elliptikus..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Ecsetkészítés/Téglalp, elmosott..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Ecsetkészítés/Téglalap..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Egyéb/Gömb..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/3D Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Kamuflázs..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Lapos térkép..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Térkép..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Térkép megjelenítése..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Örvénycsempe..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Örvénylõ (mozaikhoz)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Trochoid..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Minták/Truchet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Segédeszközök/ASCII-ból kép..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Segédeszközök/Testreszabott színátmenet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Segédeszközök/Font Map..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Idegen ragyogás/Nyíl..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Idegen ragyogás/Bullet..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Idegen ragyogás/Gomb..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Kit./Script-Fu/Weblap témák/Idegen ragyogás/Vízszintes "
+#~ "elválasztó..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Lekerekített minta/Nyíl..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Lekerekített minta/Golyó..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Lekerekített minta/Gomb..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Lekerekített minta/Fejléc..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr ""
+#~ "<Toolbox>/Kit./Script-Fu/Weblap témák/Lekerekített minta/Vízszintes "
+#~ "elválasztó..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Gimp.Org/Nagy fejléc..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr ""
+#~ "<Toolbox>/Kit./Script-Fu/Weblap témák/Gimp.Org/General Tube Labels..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Gimp.Org/Kis fejléc..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr "<Toolbox>/Kit./Script-Fu/Weblap témák/Gimp.Org/Tube Button Label..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Kit./Script-Fu/Weblap témák/Gimp.Org/Tube Sub-Button Label..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/Kit./Script-Fu/Weblap témák/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP Hibák"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP Kézikönyv"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP Hírek"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/Leírások"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/Letöltés"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/GIMP Art"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/Hivatkozások"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/Levelezõlisták"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/További információ"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP.ORG/A GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/Gimp-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/Grokking the GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/Plug-In bejegyzés"
+
+#~ msgid "Add Background"
+#~ msgstr "Háttér hozzáadása"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "Vetett árnyék hozzáadása"
+
+#~ msgid "Add Shadow"
+#~ msgstr "Árnyék hozzáadása"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "Átméretezés engedélyezése"
+
+#~ msgid "Amplitude"
+#~ msgstr "Amplitúdó"
+
+#~ msgid "Angle"
+#~ msgstr "Szög"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "Anim-Filer minden másolatra"
+
+#~ msgid "Antialias"
+#~ msgstr "Élsimítás"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "Generált rétegmaszk alkalmazása"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "Rétegmaszk alkalmazása (vagy eldobása)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "Automatikus levágás"
+
+#~ msgid "Azimuth"
+#~ msgstr "Azimut"
+
+#~ msgid "BG Opacity"
+#~ msgstr "Háttér átlátszatlansága"
+
+#~ msgid "Background Image"
+#~ msgstr "Háttérkép"
+
+#~ msgid "Bar Height"
+#~ msgstr "Oszlop magassága"
+
+#~ msgid "Bar Length"
+#~ msgstr "Oszlop hosszúsága"
+
+#~ msgid "Base Color"
+#~ msgstr "Alapszín"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "Alapsugár (képpont)"
+
+#~ msgid "Behaviour"
+#~ msgstr "Viselkedés"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "Rézsútos rész magassága (élesség)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "Rézsútos rész szélessége"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "Színátmenet (körvonal)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "Színátmenet (szöveg)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "Színátmenet mód"
+
+#~ msgid "Block Size"
+#~ msgstr "Blokkméret"
+
+#~ msgid "Blur Amount"
+#~ msgstr "Elmosás mértéke"
+
+#~ msgid "Blur Border"
+#~ msgstr "Szélek elmosása"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "Vízszintes elmosás"
+
+#~ msgid "Blur Radius"
+#~ msgstr "Elmosás sugara"
+
+#~ msgid "Blur Type"
+#~ msgstr "Elmosás típusa"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "Függõleges elmosás"
+
+#~ msgid "Blur X"
+#~ msgstr "X elmosás"
+
+#~ msgid "Blur Y"
+#~ msgstr "Y elmosás"
+
+#~ msgid "Border Color"
+#~ msgstr "Keret színe"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "Keret mérete (képpont)"
+
+#~ msgid "Border Size"
+#~ msgstr "Keret mérete"
+
+#~ msgid "Border X Size"
+#~ msgstr "Keret X mérete"
+
+#~ msgid "Border Y Size"
+#~ msgstr "Keret Y mérete"
+
+#~ msgid "Border"
+#~ msgstr "Keret"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "Domborúság (alfa csatorna) elmosásának sugara"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "Emelt szöveg vésése"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "Fehér részek vésése"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "Cellaméret (képpont)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Kréta színe"
+
+#~ msgid "Chip Amount"
+#~ msgstr "Morzsolás mértéke"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "Króm egyensúly"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "Krómtényezõ"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "Króm világossága"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "Króm színtelítettsége"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "Fehér részek krómozása"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "Nem kijelölt maszkterület törlése"
+
+#~ msgid "Color 1"
+#~ msgstr "1. szín"
+
+#~ msgid "Color 2"
+#~ msgstr "2. szín"
+
+#~ msgid "Color 3"
+#~ msgstr "3. szín"
+
+#~ msgid "Color"
+#~ msgstr "Szín"
+
+#~ msgid "Columns"
+#~ msgstr "Oszlop"
+
+#~ msgid "Create New Image"
+#~ msgstr "Új kép létrehozása"
+
+#~ msgid "Create Shadow"
+#~ msgstr "Árnyék létrehozása"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "Egyéni színátmenet"
+
+#~ msgid "Dark Color"
+#~ msgstr "Sötét szín"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "Csak sötétít\n"
+#~ "(jobb, de csak sok fehéret tartalmazó képeknél)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "Domborúság alapértelmezett beállításai"
+
+#~ msgid "Defocus"
+#~ msgstr "Fókuszból ki"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Delta érték a szÍnen"
+
+#~ msgid "Density (%)"
+#~ msgstr "Sûrûség (%)"
+
+#~ msgid "Depth"
+#~ msgstr "Mélység"
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid "Detail Level"
+#~ msgstr "Részletezettség"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "Részlet középre"
+
+#~ msgid "Diameter"
+#~ msgstr "Átmérõ"
+
+#~ msgid "Down"
+#~ msgstr "Le"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "Vetett árnyék elmosásának sugara"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Vetett árnyék színe"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "Vetett árnyék átlátszatlansága"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "Vettett árnyék X eltolása"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "Vetett árnyék Y eltolása"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Vetett árnyék"
+
+#~ msgid "Edge Amount"
+#~ msgstr "Szél mértéke"
+
+#~ msgid "Edge Only"
+#~ msgstr "Csak szél"
+
+#~ msgid "Edge Radius"
+#~ msgstr "Szél sugara"
+
+#~ msgid "Edge Width"
+#~ msgstr "Szél szélessége"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "Hatás mérete (képpont * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "Hatás mérete (képpont * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "Hatás mérete (képpont * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "Hatás mérete (képpont * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "Hatás mérete (képpont)"
+
+#~ msgid "Elevation"
+#~ msgstr "Megemelés"
+
+#~ msgid "End Blend"
+#~ msgstr "Befejezõ szín"
+
+#~ msgid "End X"
+#~ msgstr "Befejezõ X"
+
+#~ msgid "End Y"
+#~ msgstr "Befejezõ Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "Színátmenet befejezése"
+
+#~ msgid "Environment Map"
+#~ msgstr "Környezet"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "Törlés rajzolás elõtt"
+
+#~ msgid "Erase"
+#~ msgstr "Törlés"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "Törlés/Kitöltés"
+
+#~ msgid "Even"
+#~ msgstr "Páros"
+
+#~ msgid "Even/Odd"
+#~ msgstr "Páros/Páratlan"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "FG-BG-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "FG-BG-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "FG-Átlátszó"
+
+#~ msgid "Fade Away"
+#~ msgstr "Áttûnés"
+
+#~ msgid "Feathering"
+#~ msgstr "Elmosottság"
+
+#~ msgid "Filename"
+#~ msgstr "Fájlnév"
+
+#~ msgid "Fill Angle"
+#~ msgstr "Feltöltés szöge"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "Háttér feltöltése mintával"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Feltöltés háttérszínnel"
+
+#~ msgid "Fill with BG"
+#~ msgstr "Feltöltés háttérszínnel"
+
+#~ msgid "Flatten Image"
+#~ msgstr "Kép lapítása"
+
+#~ msgid "Font Color"
+#~ msgstr "Betû színe"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "Betûméret (képpont)"
+
+#~ msgid "Font"
+#~ msgstr "Betûtípus"
+
+#~ msgid "Fonts"
+#~ msgstr "Betûtípusok"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Elõtérszín"
+
+#~ msgid "Frame Color"
+#~ msgstr "Keret színe"
+
+#~ msgid "Frame Size"
+#~ msgstr "Keret mérete"
+
+#~ msgid "Frames"
+#~ msgstr "Keret"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "Bal felsõtõl jobb alsóig"
+
+#~ msgid "Glow Color"
+#~ msgstr "Ragyogás színe"
+
+#~ msgid "Glow Radius"
+#~ msgstr "Ragyogás sugara"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "Ragyogás mérete (képpont * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "Színátmenet"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "Szemcsézettség (1 a legkisebb)"
+
+#~ msgid "Granularity"
+#~ msgstr "Szemcsézettség"
+
+#~ msgid "Graph Scale"
+#~ msgstr "Grafikon léptéke"
+
+#~ msgid "Grids X"
+#~ msgstr "X rács"
+
+#~ msgid "Grids Y"
+#~ msgstr "Y rács"
+
+#~ msgid "Height"
+#~ msgstr "Magasság"
+
+#~ msgid "Hexagons"
+#~ msgstr "Hatszög"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "Megvilágosítás egyensúlya"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Megvilágosítás színe"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "Megvilágosítás átlátszatlansága"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "Megvilágosítás X eltolása"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "Megvilgosítás Y eltolása"
+
+#~ msgid "Hit Rate"
+#~ msgstr "Találati arány"
+
+#~ msgid "Hue Rate"
+#~ msgstr "Telítettség aránya"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "Kép magassága"
+
+#~ msgid "Image Size"
+#~ msgstr "Képméret"
+
+#~ msgid "Image Width"
+#~ msgstr "Kép szélessége"
+
+#~ msgid "Image to Carve"
+#~ msgstr "Kivésendõ kép"
+
+#~ msgid "Index Image"
+#~ msgstr "Kép indexelése"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Kép indexelése n színre (0 = RGB marad)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "Rétegnevek beszúrása"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "Közbülsõ képkockák"
+
+#~ msgid "Interpolate"
+#~ msgstr "Interpolálás"
+
+#~ msgid "Invert direction"
+#~ msgstr "Irány megfordítása"
+
+#~ msgid "Invert"
+#~ msgstr "Megfordít"
+
+#~ msgid "Keep Background"
+#~ msgstr "Háttér megtartása"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "Domború réteg megtartása"
+
+#~ msgid "Keep Selection"
+#~ msgstr "Kijelölés megtartása"
+
+#~ msgid "Land Height"
+#~ msgstr "Terepmagasság"
+
+#~ msgid "Left"
+#~ msgstr "Bal"
+
+#~ msgid "Looped"
+#~ msgstr "Ismétlés"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Alsó szín (aktív)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Alsó szín"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Jobb alsó szín"
+
+#~ msgid "Make New Background"
+#~ msgstr "Új háttér készítése"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "Maszk átlátszatlansága"
+
+#~ msgid "Mask Size"
+#~ msgstr "Maszk mérte"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "Max. elmosás sugara"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "Mozaikcsempe típusa"
+
+#~ msgid "Mottle"
+#~ msgstr "Márványos"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "Nincs háttér (csak külön rétegre)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "Nem lenyomott (aktív)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "Nem lenyomott"
+
+#~ msgid "Number of Bands"
+#~ msgstr "Sávok száma"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Színek száma"
+
+#~ msgid "Number of Copies"
+#~ msgstr "Másolatok száma"
+
+#~ msgid "Number of Frames"
+#~ msgstr "Képkockák száma"
+
+#~ msgid "Number of Lines"
+#~ msgstr "Sorok száma"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "Csavarások száma"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "X csempék száma"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Y csempék száma"
+
+#~ msgid "Number"
+#~ msgstr "Szám"
+
+#~ msgid "Octagons"
+#~ msgstr "Nyolcszög"
+
+#~ msgid "Odd"
+#~ msgstr "Páratlan"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "Eltolás (képpont)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "Eltolás sugara"
+
+#~ msgid "Offset X"
+#~ msgstr "X eltolás"
+
+#~ msgid "Offset Y"
+#~ msgstr "Y eltolás"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "Eltolás (képpont * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "Olajozó maszk mérete"
+
+#~ msgid "Opacity"
+#~ msgstr "Átlátszatlanság"
+
+#~ msgid "Orientation"
+#~ msgstr "Irány"
+
+#~ msgid "Outer Border"
+#~ msgstr "Külsõ szél"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "Körvonal elmosásának sugara"
+
+#~ msgid "Outline Color"
+#~ msgstr "Körvonal színe"
+
+#~ msgid "Outline Size"
+#~ msgstr "Körvonal mérete"
+
+#~ msgid "Pad Color"
+#~ msgstr "Kitöltés színe"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "Kitöltés átlátszatlansága"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "Helykitöltés a szöveg körül"
+
+#~ msgid "Padding X"
+#~ msgstr "X helykitöltés"
+
+#~ msgid "Padding Y"
+#~ msgstr "Y helykitöltés"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "Helykitöltés az átlátszó részeknél"
+
+#~ msgid "Padding"
+#~ msgstr "Helykitöltés"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "Minta (körvonal)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "Minta (átfedés)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "Minta (szöveg)"
+
+#~ msgid "Pattern"
+#~ msgstr "Minta"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "Képpontok mennyisége"
+
+#~ msgid "Pixelize"
+#~ msgstr "Képpontosítás"
+
+#~ msgid "Pressed"
+#~ msgstr "Lenyomott"
+
+#~ msgid "Quarter Size"
+#~ msgstr "Negyed méret"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "Sugár"
+
+#~ msgid "Random Seed"
+#~ msgstr "Véletlenszám generátor"
+
+#~ msgid "Randomness"
+#~ msgstr "Véletlen mennyisége"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "Horizont viszonylagos távolsága"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "Árnyék viszonylagos hossza"
+
+#~ msgid "Relative Radius"
+#~ msgstr "Viszonylagos sugár"
+
+#~ msgid "Remove Background"
+#~ msgstr "Háttér törlése"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "Szallagok közti hely"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "Szallagok szélessége"
+
+#~ msgid "Right"
+#~ msgstr "Jobb"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "Fordozás erõssége"
+
+#~ msgid "Roughness"
+#~ msgstr "Érdesség"
+
+#~ msgid "Round Ratio"
+#~ msgstr "Lekerekítés mértéke"
+
+#~ msgid "Rows"
+#~ msgstr "Sorok"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "Sorok/Oszlopok"
+
+#~ msgid "Sea Depth"
+#~ msgstr "Mély tenger"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Kijelölés szín alapján küszöbértéke"
+
+#~ msgid "Separate Layer"
+#~ msgstr "Külön réteg"
+
+#~ msgid "Sepia"
+#~ msgstr "Tintahal"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "Árnyék elmosásának sugara"
+
+#~ msgid "Shadow Color"
+#~ msgstr "Árnyék színe"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "Árnyék sötétsége"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "Árnyék mélysége"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "Árnyék szélessége (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "Árnyék X eltolása"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "Árnyék Y eltolása"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "Élesség (fokban)"
+
+#~ msgid "Shear Length"
+#~ msgstr "Nyírás hossza"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "Vízszintes simítás"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "Függõleges simítás"
+
+#~ msgid "Smooth"
+#~ msgstr "Simítás"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "Rétegek közötti tér"
+
+#~ msgid "Spacing"
+#~ msgstr "Térköz"
+
+#~ msgid "Spots density X"
+#~ msgstr "Pöttyök X sûrûsége"
+
+#~ msgid "Spots density Y"
+#~ msgstr "Pöttyök Y sûrûsége"
+
+#~ msgid "Spread"
+#~ msgstr "Szórás"
+
+#~ msgid "Squares"
+#~ msgstr "Négyzetek"
+
+#~ msgid "Stains"
+#~ msgstr "Foltok"
+
+#~ msgid "Start Angle"
+#~ msgstr "Kezdõ szög"
+
+#~ msgid "Start Blend"
+#~ msgstr "Kezdõ szín"
+
+#~ msgid "Start X"
+#~ msgstr "Kezdõ X"
+
+#~ msgid "Start Y"
+#~ msgstr "Kezdõ Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "Színátmenet indítása"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Szöveg színe (aktív)"
+
+#~ msgid "Text Color"
+#~ msgstr "Szöveg színe"
+
+#~ msgid "Text Pattern"
+#~ msgstr "Szöveg mintája"
+
+#~ msgid "Text"
+#~ msgstr "Szöveg"
+
+#~ msgid "Thickness"
+#~ msgstr "Vastagság"
+
+#~ msgid "Thread Density"
+#~ msgstr "Szálsûrûség"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "Szálintenzitás"
+
+#~ msgid "Thread Length"
+#~ msgstr "Szálhosszúság"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "Küszöb (nagyobb 1 <-->255 kisebb)"
+
+#~ msgid "Tile"
+#~ msgstr "Csempe"
+
+#~ msgid "Transparent Background"
+#~ msgstr "Átlátszó háttér"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "Fordítás balról jobbra"
+
+#~ msgid "Up"
+#~ msgstr "Fel"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Felsõ szín (aktív)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Felsõ szín"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Bal felsõ szín"
+
+#~ msgid "Use Brush"
+#~ msgstr "Ecset használata"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "Aktuális színátmenet használata"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "Növekvõ kijelölés használata"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "Körvonalhoz minta használata színátmenet helyett"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "Szöveghez minta használata színátmenet helyett"
+
+#~ msgid "Wavelength"
+#~ msgstr "Hullámhossz"
+
+#~ msgid "Width of Bands"
+#~ msgstr "Sávok szélesságe"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "Rések szélessége"
+
+#~ msgid "Width"
+#~ msgstr "Szélesség"
+
+#~ msgid "Work on Copy"
+#~ msgstr "Munka a másolaton"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/Fejlesztõi FAQ"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/GIMP útmutatók"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/Kit./Webböngészõ/Felhasználói FAQ"

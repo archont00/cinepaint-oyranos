@@ -1,0 +1,58 @@
+IOL -  Plug-in for CinePaint (aka Film Gimp)
+by Sean Ridenour <s_ridenour@kewlpc.org>
+
+"What is IOL?"
+IOL stands for Image Operation Language. It is a plug-in for CinePaint that
+allows users to quickly write simple scripts that modify an image.
+
+IOL is not intended to be a replacement for normal CinePaint plug-ins, or
+even as a replacement for Script-Fu. Rather, it is meant to be used
+when you need to modify an image in a procedural way, but whatever it is
+that you need to do doesn't justify writing an entire plug-in.
+
+Additionally, there are some things that IOL can't do (at least, not yet).
+For example, IOL provides no way for scripts to access files, it has no
+loop statements, etc.
+
+The IOL plug-in has only been tested on Linux CinePaint 0.18, but it
+may work with other versions. I don't have a Mac, so I can't test IOL on
+Mac CinePaint (though, if any generous Apple employees read this, I'd be
+more than happy to accept a hardware donation ;-).
+
+"What image modes does it support?"
+IOL supports U8, U16, Float16, and Float32 modes, with and without an alpha
+channel. The grayscale modes aren't currently supported, but if you need them
+they won't be hard to add.
+
+"Is there anything besides CinePaint that I need to use IOL?"
+If all you want to do is compile IOL, then no. If you want to make changes to
+the parser, you'll need BYACC (Berkely YACC). If you want to make changes to
+the lexical analyzer, you'll need GNU Flex.
+
+"My distro doesn't come with BYACC, but it does have Bison. Can I use that
+instead?"
+It *should* work, but isn't guaranteed to.
+
+"I don't have BYACC, Bison, or Flex. Where can I get them?"
+You could probably find BYACC via a search on Google.com. You can get Bison and
+Flex from www.gnu.org
+
+"How do I write IOL scripts?"
+Read iol.txt
+
+"Are there some example scripts?"
+Yes, look in the examples directory.
+
+"What is this 'iol_temp' file?"
+It's just a temporary file that IOL uses. It gets left behind if your IOL script
+has an error, and is just a copy of the script that was in the IOL editor when
+you hit the "Go!" button.
+
+"Will IOL work with The Gimp?"
+No. While they are similar, and CinePaint started life as an experimental fork
+of The Gimp, they are now two completely separate projects. Because of this,
+the way that plug-ins are written is slightly different.
+
+Porting the IOL plug-in to The Gimp should not be too hard. Although I have no
+plans to do this myself, you are more than welcome to try. I'd love to hear
+about it if anyone decides to do the port.

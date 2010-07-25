@@ -1,0 +1,244 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0107 
+i18n_type 1 
+i18n_include <libintl.h> 
+i18n_function _ 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include <FL/Fl_Multiline_Input.H>} {public
+} 
+
+decl {\#include "pdf.h"} {} 
+
+decl {\#include "libgimp/stdplugins-intl.h"} {} 
+
+Function {make_window()} {open
+} {
+  Fl_Window window {
+    label {PDF Load Settings} open
+    xywh {746 199 385 455} type Double resizable
+    code0 {o->show();} size_range {385 455 0 0} visible
+  } {
+    Fl_Group {} {
+      label Options open
+      xywh {10 10 365 125} box ENGRAVED_FRAME align 21 resizable
+    } {
+      Fl_Choice choice_interpreter {open
+        xywh {210 30 156 25} down_box BORDER_BOX
+        code0 {o->value( vals.interpreter );}
+      } {
+        MenuItem {} {
+          label Ghostscript
+          callback {interpreter_text->position(0,1024);
+interpreter_text->cut();
+interpreter_text->insert(GS_COMMAND_BASE, 0);}
+          xywh {0 0 100 20}
+        }
+        MenuItem {} {
+          label xpdf
+          callback {interpreter_text->position(0,1024);
+interpreter_text->cut();
+interpreter_text->insert(XPDF_COMMAND_BASE, 0);}
+          xywh {10 10 100 20} deactivate
+        }
+      }
+      Fl_Value_Input interpreter_text {
+        label {Interpreter Command:}
+        xywh {20 55 345 70} align 5 resizable
+        code0 {o->insert( vals.command ,0 );}
+        code1 {o->wrap(1);}
+        class Fl_Multiline_Input
+      }
+    }
+    Fl_Group {} {open
+      xywh {216 420 160 25}
+    } {
+      Fl_Return_Button {} {
+        label Ok
+        user_data w
+        callback {take_opts();
+window->hide();}
+        xywh {301 420 75 25} shortcut 0xff0d hotspot
+      }
+      Fl_Button {} {
+        label Cancel
+        callback {exit(1);}
+        xywh {216 420 75 25} shortcut 0xff1b
+        code0 {\#include <stdlib.h>}
+      }
+    }
+    Fl_Group {} {
+      label {Ghostscript Options} open
+      xywh {10 145 365 190} box ENGRAVED_FRAME align 21
+    } {
+      Fl_Box {} {
+        label {Intermetiate Format:}
+        xywh {20 185 205 25} align 20
+      }
+      Fl_Choice choice_export_format {
+        callback {if((choice_export_format->value() == 0 &&
+   !vals.gs_has_tiff32nc) ||
+    choice_export_format->value() > 1)
+ choice_colourspace->value(1);} open
+        xywh {210 185 155 25} down_box BORDER_BOX
+        code0 {o->value( vals.export_format );}
+        code1 {if(!vals.gs_has_tiff32nc) menu_choice_export_format[0].label(_("TIFF rgb"));}
+      } {
+        MenuItem {} {
+          label {TIFF cmyk/rgb}
+          xywh {20 20 100 20}
+        }
+        MenuItem {} {
+          label {PSD cmyk/rgb}
+          xywh {30 30 100 20}
+        }
+        MenuItem {} {
+          label {PPM rgb}
+          xywh {40 40 100 20}
+        }
+        MenuItem {} {
+          label {PS rgb}
+          xywh {50 50 100 20}
+        }
+        MenuItem {} {
+          label {PNG48 rgb}
+          xywh {60 60 100 20}
+        }
+        MenuItem {} {
+          label {[none]}
+          xywh {60 60 100 20}
+        }
+      }
+      Fl_Box {} {
+        label {Select Colorspace:}
+        xywh {20 210 205 25} align 20
+      }
+      Fl_Choice choice_colourspace {
+        callback {if((choice_export_format->value() == 0 &&
+   !vals.gs_has_tiff32nc) ||
+    choice_export_format->value() > 1)
+   o->value(1);
+ printf("%d %d\\n",choice_export_format->value(),o->value());} open
+        xywh {210 210 155 25} down_box BORDER_BOX
+        code0 {o->value( vals.colourspace );}
+        code1 {if(vals.export_format>1) o->value(1);}
+        code2 {if(vals.export_format == 0 && !vals.gs_has_tiff32nc) o->value(1);}
+      } {
+        MenuItem {} {
+          label Cmyk
+          xywh {30 30 100 20}
+        }
+        MenuItem {} {
+          label Rgb selected
+          xywh {40 40 100 20}
+        }
+      }
+      Fl_Value_Slider slider_resolution {
+        label {Resolution:}
+        xywh {105 245 260 25} type Horizontal align 4 minimum 36 maximum 1440 step 10 value 72
+        code0 {if(vals.resolution) o->value(vals.resolution);}
+      }
+      Fl_Box {} {
+        label {Soften:}
+        xywh {20 275 60 25} align 20
+      }
+      Fl_Choice choice_aa_graphic {
+        label Graphics
+        xywh {210 275 155 25} down_box BORDER_BOX
+        code0 {o->value( vals.aa_graphic );}
+      } {
+        MenuItem {} {
+          label {[none]}
+          xywh {40 40 100 20}
+        }
+        MenuItem {} {
+          label AA4
+          xywh {50 50 100 20}
+        }
+        MenuItem {} {
+          label {AA4+Interpolation}
+          xywh {60 60 100 20}
+        }
+      }
+      Fl_Check_Button check_aa_text {
+        label Text
+        xywh {210 300 145 25} down_box DOWN_BOX align 4
+        code0 {o->value(vals.aa_text);}
+      }
+      Fl_Choice choice_aa_gridfit {
+        label GridFitTT
+        xywh {320 300 45 25} down_box BORDER_BOX hide deactivate
+        code0 {o->value( vals.aa_text );}
+      } {
+        MenuItem {} {
+          label 0
+          xywh {50 50 100 20}
+        }
+        MenuItem {} {
+          label 1
+          xywh {60 60 100 20}
+        }
+        MenuItem {} {
+          label 2
+          xywh {70 70 100 20}
+        }
+      }
+    }
+    Fl_Group {} {
+      label {View (external)} open
+      xywh {11 345 365 65} box ENGRAVED_FRAME align 21
+    } {
+      Fl_Choice choice_viewer {open
+        xywh {60 375 150 25} down_box BORDER_BOX
+        code0 {o->value( vals.viewer );}
+      } {
+        MenuItem {} {
+          label {gv (ghostscript)}
+          callback {interpreter_text->position(0,1024);
+interpreter_text->cut();
+interpreter_text->insert(XPDF_COMMAND_BASE, 0);}
+          xywh {20 20 100 20}
+        }
+        MenuItem {} {
+          label xpdf
+          callback {interpreter_text->position(0,1024);
+interpreter_text->cut();
+interpreter_text->insert(XPDF_COMMAND_BASE, 0);}
+          xywh {30 30 100 20}
+        }
+        MenuItem {} {
+          label Acroread
+          callback {interpreter_text->position(0,1024);
+interpreter_text->cut();
+interpreter_text->insert(GS_COMMAND_BASE, 0);}
+          xywh {10 10 100 20}
+        }
+      }
+      Fl_Button {} {
+        label View
+        callback {take_opts();
+view_doc();}
+        tooltip {View the document in an external viewer.} xywh {291 375 75 25}
+      }
+    }
+  }
+} 
+
+Function {take_opts()} {open
+} {
+  code {const char* text = interpreter_text->value();
+  snprintf( vals.command, 1024, text );
+
+  vals.resolution = (int) slider_resolution->value();
+  vals.ok = 1;
+  vals.interpreter = choice_interpreter->value();
+  vals.viewer = choice_viewer->value();
+  vals.export_format = choice_export_format->value();
+  vals.colourspace = choice_colourspace->value();
+  vals.aa_graphic = choice_aa_graphic->value();
+  vals.aa_text = check_aa_text->value();
+  \#ifdef DEBUG
+  printf(vals.command);
+  printf("\\n resolution: %d\\n",vals.resolution);
+  \#endif} {}
+} 

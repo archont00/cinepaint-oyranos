@@ -1,0 +1,36 @@
+CinePaint README
+1/1/05 Robin.Rowe@MovieEditor.com
+
+www.cinepaint.org
+
+CinePaint is a painting and retouching tool primarily used for motion 
+picture frame-by-frame retouching and dust-busting. It was used on THE 
+LAST SAMURAI, HARRY POTTER and many other films. 
+
+CinePaint runs on all popular flavors of Linux and on Mac OS X as an 
+X11 application. The Windows port of CinePaint is currently broken, 
+sorry.
+
+CinePaint is different from other painting tools because it supports 
+deep color depth image formats up to 32 bits per channel deep. For 
+comparison, GIMP is limited 8-bit, and Photoshop to 16-bit. 
+
+CinePaint was originally based on GIMP and consequently is a GTK1-based 
+application. A new FLTK-based version of CinePaint, called Glasgow,
+is nearing alpha. There's also a new image core in development, called 
+img_img, That will enable CinePaint to operate on images from the 
+command-line and to integrate with other projects such as Blender.
+
+Support from the film industry launched development in 1998. Motion 
+picture technology company Silicon Grail (later acquired by Apple) and 
+motion picture studio Rhythm & Hues led the development, with a goal 
+of creating a deep paint alternative to the recently discontined SGI 
+IRIX version of Adobe Photoshop and to support the emerging Linux 
+platform. Although continuously in use in the film industry, it 
+never had much awareness in the open source community. On July 4, 
+2002, Robin Rowe released CinePaint as a SourceForge project.
+
+
+For documentation see:
+<http://cinepaint.bigasterisk.com/CinePaintDocumentation>
+

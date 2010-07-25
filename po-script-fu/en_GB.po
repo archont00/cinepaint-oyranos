@@ -1,0 +1,249 @@
+# This is the English, British catalog for GIMP Script-Fu.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Piers Cornwell <piers.cornwell@usa.net>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP 1.1.23\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2000-06-20 15:39+0000\n"
+"Last-Translator: Piers Cornwell <piers.cornwell@usa.net>\n"
+"Language-Team: English, British\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+#, fuzzy
+msgid "Script-Fu Console"
+msgstr "Script-Fu Colour Selection"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+#, fuzzy
+msgid "Close"
+msgstr "Colour"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu Colour Selection"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr ""
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+msgid "DB Browser (init)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+msgid "Search :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+msgid "Search by name"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+msgid "Search by blurb"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr ""
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+msgid "Name :"
+msgstr ""
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+msgid "Blurb :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+msgid "In :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+msgid "Out :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+msgid "Author :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+msgid "Date :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+msgid "Copyright :"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr ""
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "Background Colour"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Radius (in pixels)"
+msgstr ""
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "Shadow Colour"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "Sphere Colour"
+
+#, fuzzy
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr "Script-Fu Colour Selection"
+
+#~ msgid "Base Color"
+#~ msgstr "Base Colour"
+
+#~ msgid "Border Color"
+#~ msgstr "Border Colour"
+
+#~ msgid "Burst Color"
+#~ msgstr "Burst Colour"
+
+#~ msgid "Chalk Color"
+#~ msgstr "Chalk Colour"
+
+#~ msgid "Color 1"
+#~ msgstr "Colour 1"
+
+#~ msgid "Color 2"
+#~ msgstr "Colour 2"
+
+#~ msgid "Color 3"
+#~ msgstr "Colour 3"
+
+#~ msgid "Dark Color"
+#~ msgstr "Dark Colour"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "Delta Value on Colour"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "Drop Shadow Colour"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "Fill with BG Colour"
+
+#, fuzzy
+#~ msgid "Fill with BG"
+#~ msgstr "Fill with BG Colour"
+
+#~ msgid "Font Color"
+#~ msgstr "Font Colour"
+
+#~ msgid "Foreground Color"
+#~ msgstr "Foreground Colour"
+
+#~ msgid "Frame Color"
+#~ msgstr "Frame Colour"
+
+#~ msgid "Glow Color"
+#~ msgstr "Glow Colour"
+
+#~ msgid "Highlight Color"
+#~ msgstr "Highlight Colour"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "Index to n Colours (0 = Remain RGB)"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "Lower Colour (Active)"
+
+#~ msgid "Lower Color"
+#~ msgstr "Lower Colour"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "Lower-Right colour"
+
+#~ msgid "Number of Colors"
+#~ msgstr "Number of Colours"
+
+#~ msgid "Outline Color"
+#~ msgstr "Outline Colour"
+
+#~ msgid "Pad Color"
+#~ msgstr "Pad Colour"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "Select-By-Colour Threshold"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "Text Colour (Active)"
+
+#~ msgid "Text Color"
+#~ msgstr "Text Colour"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "Upper Colour (Active)"
+
+#~ msgid "Upper Color"
+#~ msgstr "Upper Colour"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "Upper-Left colour"

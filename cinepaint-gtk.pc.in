@@ -1,0 +1,16 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=${exec_prefix}/lib
+includedir=@includedir@/cinepaint
+datarootdir=@datarootdir@
+programdotdir=@programdotdir@
+programplugindir=@programplugindir@
+programdatadir=@programdatadir@
+datadir=@datadir@
+
+Name: cinepaint-gtk
+Description: Cinepaint Plug-In Library Using GTK+
+Version: @MAJOR_VERSION@.@MINOR_VERSION@
+Libs: -L${libdir} -lcinepaint @GTK_LIBS@
+Cflags: -I${includedir} @GTK_CFLAGS@
+

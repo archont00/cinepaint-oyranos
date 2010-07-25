@@ -1,0 +1,1544 @@
+# GIMP Script-Fu Japanese message catalog
+# Copyright (C) 2000, 2002 Free Software Foundation, Inc.
+# Shirasaki Yasuhiro <yasuhiro@gnome.gr.jp>, 2000, 2002
+# Takashi Kido <yositaka@yd5.so-net.ne.jp>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-01 11:17+0100\n"
+"PO-Revision-Date: 2002-05-05 17:12+0900\n"
+"Last-Translator: 白崎 泰弘 <yasuhiro@gnome.gr.jp>\n"
+"Language-Team: Japanese <translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plug-ins/script-fu/script-fu-console.c:176
+msgid "Script-Fu Console"
+msgstr "Script-Fu コンソール"
+
+#. Action area
+#: plug-ins/script-fu/script-fu-console.c:188
+#: plug-ins/dbbrowser/dbbrowser_utils.c:168
+msgid "Close"
+msgstr "閉じる"
+
+#. The info vbox
+#: plug-ins/script-fu/script-fu-console.c:196
+msgid "SIOD Output"
+msgstr "SIOD 出力"
+
+#: plug-ins/script-fu/script-fu-console.c:264
+#, fuzzy
+msgid "Script-Fu Console - "
+msgstr "Script-Fu コンソール"
+
+#: plug-ins/script-fu/script-fu-console.c:266
+msgid ""
+"Interactive Scheme Development\n"
+"\n"
+msgstr ""
+
+#. The current command
+#: plug-ins/script-fu/script-fu-console.c:273
+msgid "Current Command"
+msgstr "現在実行しているコマンド"
+
+#: plug-ins/script-fu/script-fu-console.c:295
+msgid "Browse..."
+msgstr "場所を指定..."
+
+#: plug-ins/script-fu/script-fu-console.c:539
+msgid "Unable to open SIOD output pipe"
+msgstr "SIOD 出力パイプが開けません"
+
+#: plug-ins/script-fu/script-fu-console.c:543
+msgid "Unable to open a stream on the SIOD output pipe"
+msgstr "SIOD 出力パイプ上のストリームが開けません"
+
+#: plug-ins/script-fu/script-fu-console.c:588
+msgid "Script-Fu evaluate mode allows only noninteractive invocation"
+msgstr "Script-Fu 評価モードは非インタラクティブ動作しかできません"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:69
+#, fuzzy
+msgid "DB Browser (init)"
+msgstr "DB ブラウザ (初期化中...)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:115
+#, fuzzy
+msgid "Search :"
+msgstr "検索:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:142
+#, fuzzy
+msgid "Search by name"
+msgstr "名前で検索"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:150
+#, fuzzy
+msgid "Search by blurb"
+msgstr "説明で検索"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:159
+msgid "Apply"
+msgstr "適用"
+
+#. show the name
+#: plug-ins/dbbrowser/dbbrowser_utils.c:273
+#, fuzzy
+msgid "Name :"
+msgstr "名前:"
+
+#. show the description
+#: plug-ins/dbbrowser/dbbrowser_utils.c:289
+#, fuzzy
+msgid "Blurb :"
+msgstr "説明:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:311
+#, fuzzy
+msgid "In :"
+msgstr "入力:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:357
+#, fuzzy
+msgid "Out :"
+msgstr "出力:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:405
+#, fuzzy
+msgid "Author :"
+msgstr "作者:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:420
+#, fuzzy
+msgid "Date :"
+msgstr "日付:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:435
+#, fuzzy
+msgid "Copyright :"
+msgstr "著作権表示:"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:527
+msgid "DB Browser (by name - please wait)"
+msgstr "DB ブラウザ (名前で - お待ちください)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:551
+msgid "DB Browser (by blurb - please wait)"
+msgstr "DB ブラウザ (説明で - お待ちください)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:559
+msgid "DB Browser (please wait)"
+msgstr "DB ブラウザ (お待ちください)"
+
+#: plug-ins/dbbrowser/dbbrowser_utils.c:622
+msgid "DB Browser"
+msgstr "DB ブラウザ"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Background Color"
+msgstr "背景色"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Lighting (degrees)"
+msgstr "照明 (角度)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Radius (in pixels)"
+msgstr "半径 (ピクセル)"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+#, fuzzy
+msgid "Shadow?"
+msgstr "影"
+
+#: plug-ins/script-fu/scripts/sphere.scm:0
+msgid "Sphere Color"
+msgstr "球体色"
+
+#~ msgid "Script-Fu console mode allows only interactive invocation"
+#~ msgstr "Script-Fu コンソールモードはインタラクティブ動作しかしません"
+
+#~ msgid "/Script-Fu/"
+#~ msgstr "/Script-Fu/"
+
+#~ msgid "Script-Fu: %s"
+#~ msgstr "Script-Fu: %s"
+
+#~ msgid "Script Arguments"
+#~ msgstr "スクリプト引数"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Script-Fu Color Selection"
+#~ msgstr "Script-Fu 色選択"
+
+#~ msgid "Script-Fu File Selection"
+#~ msgstr "Script-Fu ファイル選択"
+
+#~ msgid "Script-fu Pattern Selection"
+#~ msgstr "Script-Fu パターン選択"
+
+#~ msgid "Script-Fu Gradient Selection"
+#~ msgstr "Script-Fu グラデーション選択"
+
+#~ msgid "Script-Fu Brush Selection"
+#~ msgstr "Script-Fu ブラシ選択"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "初期値に戻す"
+
+#~ msgid "About"
+#~ msgstr "このプラグインについて"
+
+#~ msgid "OK"
+#~ msgstr "了解"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "NOT SET"
+#~ msgstr "未指定"
+
+#~ msgid ""
+#~ "At least one font you've choosen is invalid.\n"
+#~ "Please check your settings.\n"
+#~ msgstr ""
+#~ "少なくとも選択したフォント中に一つ以上\n"
+#~ "不正なものがあります.設定を確認して下さい.\n"
+
+#~ msgid "Image Types:"
+#~ msgstr "画像種:"
+
+#~ msgid "Script-Fu Font Selection"
+#~ msgstr "Script-Fu フォント選択"
+
+#~ msgid ""
+#~ "Script-Fu Error while executing\n"
+#~ " %s\n"
+#~ "%s"
+#~ msgstr ""
+#~ "%s\n"
+#~ "実行中に Script-Fu エラー発生\n"
+#~ "%s"
+
+#~ msgid "Script-Fu Server Options"
+#~ msgstr "Script-Fu サーバオプション"
+
+#~ msgid "Server Port:"
+#~ msgstr "サーバポート:"
+
+#~ msgid "Server Logfile:"
+#~ msgstr "サーバログファイル:"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Console..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/コンソール..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Server..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/サーバ..."
+
+#~ msgid "Re-read all available scripts"
+#~ msgstr "全てのスクリプトを再読み込み"
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Refresh"
+#~ msgstr "<Toolbox>/拡張/Script-Fu/再読み込み"
+
+#~ msgid "Help:"
+#~ msgstr "ヘルプ:"
+
+#~ msgid "<Image>/Edit/Copy Visible"
+#~ msgstr "<Image>/編集/レイヤを 1 つにしてコピー"
+
+#~ msgid "<Image>/Filters/Blur/Tileable Blur..."
+#~ msgstr "<Image>/フィルタ/ぼかし/タイル化可能ぼかし..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Clothify..."
+#~ msgstr "<Image>/Script-Fu/魔術/覆布化..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Erase every other Row..."
+#~ msgstr "<Image>/Script-Fu/魔術/一行おきに消す..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Predator..."
+#~ msgstr "<Image>/Script/魔術/プレデター..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Unsharp Mask..."
+#~ msgstr "<Image>/Script-Fu/魔術/非シャープ化マスク..."
+
+#~ msgid "<Image>/Script-Fu/Alchemy/Weave..."
+#~ msgstr "<Image>/Script-Fu/魔術/織物..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/3D Outline..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/立体縁取り..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Glow..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/エイリアン発光..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Alien Neon..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/エイリアンネオン..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic I..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/基本 I..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Basic II..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/基本 II..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Blended..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/ブレンド..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Bovination..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/牛模様..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chalk..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/チョーク..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chip Away..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/かじり取り..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Chrome..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/クローム..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Comic Book..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/コミック本..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Cool Metal..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/冷たい金属..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Frosty..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/霜..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glossy..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/光沢..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Glowing Hot..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/白熱の輝き..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Gradient Bevel..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/グラデーション面取り..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Neon..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/ネオン..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Particle Trace..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/粒子の軌跡..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starburst..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/超新星爆発..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Starscape..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/星のきらめき..."
+
+#~ msgid "<Image>/Script-Fu/Alpha to Logo/Textured..."
+#~ msgstr "<Image>/Script-Fu/透明度をロゴに/テクスチャ..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Blend..."
+#~ msgstr "<Image>/Script-Fu/動画/ブレンド..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Rippling..."
+#~ msgstr "<Image>/Script-Fu/動画/波紋..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Selection to AnimImage..."
+#~ msgstr "<Image>/Script-Fu/動画/選択領域を動画画像化..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Spinning Globe..."
+#~ msgstr "<Image>/Script-Fu/動画/回転球..."
+
+#~ msgid "<Image>/Script-Fu/Animators/Waves..."
+#~ msgstr "<Image>/Script-Fu/動画/波..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Bevel..."
+#~ msgstr "<Image>/Script-Fu/装飾/ベベル追加..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Add Border..."
+#~ msgstr "<Image>/Script-Fu/装飾/枠追加..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Coffee Stain..."
+#~ msgstr "<Image>/Script-Fu/装飾/コーヒーの染み..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Fuzzy Border..."
+#~ msgstr "<Image>/Script-Fu/装飾/ファジー縁取り..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Old Photo..."
+#~ msgstr "<Image>/Script-Fu/装飾/古い写真..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Round Corners..."
+#~ msgstr "<Image>/Script-Fu/装飾/角丸め..."
+
+#~ msgid "<Image>/Script-Fu/Decor/Slide..."
+#~ msgstr "<Image>/Script-Fu/装飾/スライド化..."
+
+#~ msgid "<Image>/Script-Fu/Render/Circuit..."
+#~ msgstr "<Image>/Script-Fu/下塗り/回路..."
+
+#~ msgid "<Image>/Script-Fu/Render/Lava..."
+#~ msgstr "<Image>/Script-Fu/下塗り/溶岩..."
+
+#~ msgid "<Image>/Script-Fu/Render/Line Nova..."
+#~ msgstr "<Image>/Script-Fu/下塗り/集中線..."
+
+#~ msgid "<Image>/Script-Fu/Render/Make Grid System..."
+#~ msgstr "<Image>/Script-Fu/下塗り/格子作成..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Distress Selection..."
+#~ msgstr "<Image>/Script-Fu/選択/ふらふら選択..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Fade Outline..."
+#~ msgstr "<Image>/Script-Fu/選択/フェード化..."
+
+#~ msgid "<Image>/Script-Fu/Selection/Round..."
+#~ msgstr "<Image>/Script-Fu/選択/丸める..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Brush..."
+#~ msgstr "<Image>/Script-Fu/選択/ブラシ化..."
+
+#~ msgid "<Image>/Script-Fu/Selection/To Image"
+#~ msgstr "<Image>/Script-Fu/選択/画像化"
+
+#~ msgid "<Image>/Script-Fu/Shadow/Drop-Shadow..."
+#~ msgstr "<Image>/Script-Fu/影/影付け..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Perspective..."
+#~ msgstr "<Image>/Script-Fu/影/遠近法..."
+
+#~ msgid "<Image>/Script-Fu/Shadow/Xach-Effect..."
+#~ msgstr "<Image>/Script-Fu/影/Xach 効果..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Carve-It..."
+#~ msgstr "<Image>/Script-Fu/ステンシル操作/彫刻化..."
+
+#~ msgid "<Image>/Script-Fu/Stencil Ops/Chrome-It..."
+#~ msgstr "<Image>/Script-Fu/ステンシル操作/クロームメタル化..."
+
+#~ msgid "<Image>/Script-Fu/Utils/ASCII to Image Layer..."
+#~ msgstr "<Image>/Script-Fu/ユーティリティ/ASCII を画像レイヤーに..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Draw HSV Graph..."
+#~ msgstr "<Image>/Script-Fu/ユーティリティ/HSV グラフ描画..."
+
+#~ msgid "<Image>/Script-Fu/Utils/Show Image Structure..."
+#~ msgstr "<Image>/Script-Fu/ユーティリティ/画像構造表示..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Round Button..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ボタン/丸ボタン..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Buttons/Simple Beveled Button..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ボタン/単純面取りボタン..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/3D Outline..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/立体縁取り..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Glow..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/エイリアン発光..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Alien Neon..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/エイリアンネオン..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic I..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/基本 I..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Basic II..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/基本 II..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Blended..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/ブレンド..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Bovination..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/牛模様..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Carved..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/彫刻..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chalk..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/チョーク..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chip Away..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/かじり取り..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Chrome..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/クローム..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Comic Book..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/コミック本..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Cool Metal..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/冷たい金属..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Crystal..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/水晶..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Frosty..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/霜..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glossy..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/光沢..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Glowing Hot..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/白熱の輝き..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Gradient Bevel..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/グラデーション面取り..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Imigre-26..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/ぐにゃぐにゃ..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Neon..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/ネオン..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Newsprint Text..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/新聞印刷..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Particle Trace..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/粒子の軌跡..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/SOTA Chrome..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/SOTA クローム..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Speed Text..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/スピード文字..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starburst..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/超新星爆発..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Starscape..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/星のきらめき..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Text Circle..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/文字円..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Textured..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/テクスチャ..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Logos/Web Title Header..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ロゴ/Web タイトル見出し..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical, Feathered..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ブラシ作成/ぼけた楕円形..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Elliptical..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ブラシ作成/楕円形..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular, Feathered..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ブラシ作成/ぼけた矩形..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Make Brush/Rectangular..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ブラシ作成/矩形..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Misc/Sphere..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/その他/球..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/3D Truchet..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/立体曲線タイル..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Camouflage..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/迷彩..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Flatland..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/平野地形図..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Land..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/地形図..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Render Map..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/地図..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirl-Tile..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/渦巻タイル..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Swirly (tileable)..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/渦巻 (タイル化可能)..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Trochoid..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/トロコイド曲線..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Patterns/Truchet..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/パターン/曲線タイル..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/ASCII to Image..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ユーティリティ/ASCII を画像に..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Custom Gradient..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ユーティリティ/カスタムグラデーション..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Utils/Font Map..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/ユーティリティ/フォントマップ..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Arrow..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/エイリアン発光/矢印..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Bullet..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/エイリアン発光/小球..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Button..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/エイリアン発光/ボタン..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Alien Glow/Hrule..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/エイリアン発光/水平線..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Arrow..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/面取りパターン/矢印..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Bullet..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/面取りパターン/小球..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Button..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/面取りパターン/ボタン..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Heading..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/面取りパターン/見出し..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Beveled Pattern/Hrule..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/面取りパターン/水平線..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Big Header..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/Gimp.Org/大見出し..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/General Tube Labels..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/Gimp.Org/汎用管ラベル..."
+
+#~ msgid "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Small Header..."
+#~ msgstr "<Toolbox>/拡張/Script-Fu/Web ページテーマ/Gimp.Org/小見出し..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/拡張/Script-Fu/Web ページテーマ/Gimp.Org/管ボタンラベル..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Button Label..."
+#~ msgstr ""
+#~ "<Toolbox>/拡張/Script-Fu/Web ページテーマ/Gimp.Org/管副ボタンラベル..."
+
+#~ msgid ""
+#~ "<Toolbox>/Xtns/Script-Fu/Web Page Themes/Gimp.Org/Tube Sub-Sub-Button "
+#~ "Label..."
+#~ msgstr ""
+#~ "<Toolbox>/拡張/Script-Fu/Web ページテーマ/Gimp.Org/管副々ボタンラベル..."
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Bugs"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP のバグ"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Manual"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP マニュアル"
+
+#, fuzzy
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP User Group"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP ニュース"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Documenation"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/関連文書"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Download"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/ダウンロード"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GIMP Art"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/GIMP 利用作品"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/GTK"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/GTK"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Links"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/リンク"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Mailing Lists"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/メーリングリスト"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/Resources"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/リソース"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP.ORG/The GIMP"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP.ORG/GIMP"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Gimp-Savvy.com"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP-Savvy.com"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Grokking the GIMP"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP を理解しよう"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Plug-In Registry"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/プラグイン登録所"
+
+#~ msgid "Add Background"
+#~ msgstr "背景追加"
+
+#~ msgid "Add Drop-Shadow"
+#~ msgstr "影を落す"
+
+#~ msgid "Add Shadow"
+#~ msgstr "影を付ける"
+
+#~ msgid "Allow Resizing"
+#~ msgstr "画像サイズ変更可"
+
+#~ msgid "Amplitude"
+#~ msgstr "強さ"
+
+#~ msgid "Angle"
+#~ msgstr "角度"
+
+#~ msgid "Anim-Filter for all Copies"
+#~ msgstr "全てのコピーに動画フィルタ適用"
+
+#~ msgid "Antialias"
+#~ msgstr "アンチエイリアス"
+
+#~ msgid "Apply Generated Layermask"
+#~ msgstr "生成したレイヤーマスクを適用"
+
+#~ msgid "Apply Layer Mask (or discard)"
+#~ msgstr "レイヤーマスク適用 (or 破棄)"
+
+#~ msgid "AutoCrop"
+#~ msgstr "自動切り抜き"
+
+#~ msgid "Azimuth"
+#~ msgstr "方向"
+
+#~ msgid "BG Opacity"
+#~ msgstr "背景不透明度"
+
+#~ msgid "Background Image"
+#~ msgstr "背景画像"
+
+#~ msgid "Bar Height"
+#~ msgstr "棒の高さ"
+
+#~ msgid "Bar Length"
+#~ msgstr "棒の長さ"
+
+#~ msgid "Base Color"
+#~ msgstr "基本色"
+
+#~ msgid "Base Radius (pixels)"
+#~ msgstr "基本半径 (ピクセル)"
+
+#~ msgid "Behaviour"
+#~ msgstr "振るまい"
+
+#~ msgid "Bevel Height (Sharpness)"
+#~ msgstr "ベベルの高さ (鋭さ)"
+
+#~ msgid "Bevel Width"
+#~ msgstr "ベベル幅"
+
+#~ msgid "Blend Gradient (Outline)"
+#~ msgstr "ブレンドグラデーション (輪郭)"
+
+#~ msgid "Blend Gradient (Text)"
+#~ msgstr "ブレンドグラデーション (文字)"
+
+#~ msgid "Blend Mode"
+#~ msgstr "ブレンドモード"
+
+#~ msgid "Block Size"
+#~ msgstr "ブロックサイズ"
+
+#~ msgid "Blur Amount"
+#~ msgstr "ぼかす量"
+
+#~ msgid "Blur Border"
+#~ msgstr "枠をぼかす"
+
+#~ msgid "Blur Horizontally"
+#~ msgstr "水平ぼかし"
+
+#~ msgid "Blur Radius"
+#~ msgstr "ぼかし半径"
+
+#~ msgid "Blur Type"
+#~ msgstr "ぼかしタイプ"
+
+#~ msgid "Blur Vertically"
+#~ msgstr "垂直ぼかし"
+
+#~ msgid "Blur X"
+#~ msgstr "ぼかし X"
+
+#~ msgid "Blur Y"
+#~ msgstr "ぼかし Y"
+
+#~ msgid "Border Color"
+#~ msgstr "枠の色"
+
+#~ msgid "Border Size (pixels)"
+#~ msgstr "枠の大きさ (ピクセル)"
+
+#~ msgid "Border Size"
+#~ msgstr "枠の大きさ"
+
+#~ msgid "Border X Size"
+#~ msgstr "枠 X サイズ"
+
+#~ msgid "Border Y Size"
+#~ msgstr "枠 Y サイズ"
+
+#~ msgid "Border"
+#~ msgstr "枠"
+
+#~ msgid "Buffer Amount (% Height of Text)"
+#~ msgstr "バッファ量 (% 文字の高さ)"
+
+#~ msgid "Bumpmap (Alpha Layer) Blur Radius"
+#~ msgstr "バンプマップ (アルファレイヤーの) ぼかし半径"
+
+#~ msgid "Burst Color"
+#~ msgstr "爆発色"
+
+#~ msgid "Carve Raised Text"
+#~ msgstr "文字を浮き彫りにして彫刻化"
+
+#~ msgid "Carve White Areas"
+#~ msgstr "白い部分を彫刻化"
+
+#~ msgid "Cell Size (pixels)"
+#~ msgstr "セルサイズ (ピクセル)"
+
+#~ msgid "Chalk Color"
+#~ msgstr "チョークの色"
+
+#~ msgid "Chip Amount"
+#~ msgstr "切り欠け量"
+
+#~ msgid "Chrome Balance"
+#~ msgstr "クロームバランス"
+
+#~ msgid "Chrome Factor"
+#~ msgstr "クローム率"
+
+#~ msgid "Chrome Lightness"
+#~ msgstr "クローム明度"
+
+#~ msgid "Chrome Saturation"
+#~ msgstr "クローム色相"
+
+#~ msgid "Chrome White Areas"
+#~ msgstr "白い部分をクローム化"
+
+#~ msgid "Circuit Seed"
+#~ msgstr "回路種"
+
+#~ msgid "Clear Unselected Maskarea"
+#~ msgstr "非選択マスク領域を消去する"
+
+#~ msgid "Color 1"
+#~ msgstr "色 1"
+
+#~ msgid "Color 2"
+#~ msgstr "色 2"
+
+#~ msgid "Color 3"
+#~ msgstr "色 3"
+
+#~ msgid "Color"
+#~ msgstr "色"
+
+#~ msgid "Columns"
+#~ msgstr "列"
+
+#~ msgid "Create New Image"
+#~ msgstr "新規画像を作成"
+
+#~ msgid "Create Shadow"
+#~ msgstr "影を作成"
+
+#~ msgid "Custom Gradient"
+#~ msgstr "カスタムグラデーション"
+
+#~ msgid "Dark Color"
+#~ msgstr "ダーク色"
+
+#~ msgid ""
+#~ "Darken Only\n"
+#~ "(Better, but only for Images with alot of White)"
+#~ msgstr ""
+#~ "暗いところのみ\n"
+#~ "(画像に白い部分がたくさんある場合のみ, 好ましい)"
+
+#~ msgid "Default Bumpmap Settings"
+#~ msgstr "標準のバンプマップ設定"
+
+#~ msgid "Defocus"
+#~ msgstr "ピンぼけ"
+
+#~ msgid "Delta Value on Color"
+#~ msgstr "色の三角値"
+
+#~ msgid "Density (%)"
+#~ msgstr "密度 (%)"
+
+#~ msgid "Depth"
+#~ msgstr "深さ"
+
+#~ msgid "Description"
+#~ msgstr "説明"
+
+#~ msgid "Detail Level"
+#~ msgstr "詳細度"
+
+#~ msgid "Detail in Middle"
+#~ msgstr "中央を詳しく"
+
+#~ msgid "Diameter"
+#~ msgstr "直径"
+
+#~ msgid "Down"
+#~ msgstr "下"
+
+#~ msgid "Drop Shadow Blur Radius"
+#~ msgstr "ドロップシャドウぼかし半径"
+
+#~ msgid "Drop Shadow Color"
+#~ msgstr "ドロップシャドウ色"
+
+#~ msgid "Drop Shadow Opacity"
+#~ msgstr "ドロップシャドウ不透明度"
+
+#~ msgid "Drop Shadow X Offset"
+#~ msgstr "ドロップシャドウ X オフセット"
+
+#~ msgid "Drop Shadow Y Offset"
+#~ msgstr "ドロップシャドウ Y オフセット"
+
+#~ msgid "Drop Shadow"
+#~ msgstr "ドロップシャドウ"
+
+#~ msgid "Edge Amount"
+#~ msgstr "エッジ量"
+
+#~ msgid "Edge Only"
+#~ msgstr "縁だけ"
+
+#~ msgid "Edge Radius"
+#~ msgstr "縁どり半径"
+
+#~ msgid "Edge Width"
+#~ msgstr "縁の幅"
+
+#~ msgid "Effect Size (pixels * 3)"
+#~ msgstr "効果サイズ (ピクセル * 3)"
+
+#~ msgid "Effect Size (pixels * 30)"
+#~ msgstr "効果サイズ (ピクセル * 30)"
+
+#~ msgid "Effect Size (pixels * 4)"
+#~ msgstr "効果サイズ (ピクセル * 4)"
+
+#~ msgid "Effect Size (pixels * 5)"
+#~ msgstr "効果サイズ (ピクセル * 5)"
+
+#~ msgid "Effect Size (pixels)"
+#~ msgstr "効果サイズ (ピクセル)"
+
+#~ msgid "Elevation"
+#~ msgstr "高度"
+
+#~ msgid "End Blend"
+#~ msgstr "ブレンド終了色"
+
+#~ msgid "End X"
+#~ msgstr "終了 X"
+
+#~ msgid "End Y"
+#~ msgstr "終了 Y"
+
+#~ msgid "Ending Blend"
+#~ msgstr "ブレンド終了色"
+
+#~ msgid "Environment Map"
+#~ msgstr "環境マップ"
+
+#~ msgid "Erase before Draw"
+#~ msgstr "描く前に消去する"
+
+#~ msgid "Erase"
+#~ msgstr "消去"
+
+#~ msgid "Erase/Fill"
+#~ msgstr "消去/塗り潰し"
+
+#~ msgid "Even"
+#~ msgstr "偶数"
+
+#~ msgid "Even/Odd"
+#~ msgstr "偶数/奇数"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "前景色-背景色-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "前景色-背景色-RGB"
+
+#~ msgid "FG-Transparent"
+#~ msgstr "前景色-透明"
+
+#~ msgid "Fade Away"
+#~ msgstr "次第にぼかす"
+
+#~ msgid "Fade From %"
+#~ msgstr "フェード開始 %"
+
+#~ msgid "Fade To   %"
+#~ msgstr "フェード終了 %"
+
+#~ msgid "Feathering"
+#~ msgstr "ぼかし"
+
+#~ msgid "Filename"
+#~ msgstr "ファイル名"
+
+#~ msgid "Fill Angle"
+#~ msgstr "充てん角度"
+
+#~ msgid "Fill BG with Pattern"
+#~ msgstr "背景をパターンで塗りつぶす"
+
+#~ msgid "Fill with BG Color"
+#~ msgstr "背景色で塗りつぶす"
+
+#~ msgid "Fill with BG"
+#~ msgstr "背景色で塗りつぶす"
+
+#~ msgid "Flatten Image"
+#~ msgstr "画像統合"
+
+#~ msgid "Font Color"
+#~ msgstr "フォント色"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "フォントサイズ (ピクセル)"
+
+#~ msgid "Font"
+#~ msgstr "フォント"
+
+#~ msgid "Fonts"
+#~ msgstr "フォント"
+
+#~ msgid "Foreground Color"
+#~ msgstr "前景色"
+
+#~ msgid "Frame Color"
+#~ msgstr "枠の色"
+
+#~ msgid "Frame Size"
+#~ msgstr "枠サイズ"
+
+#~ msgid "Frames"
+#~ msgstr "コマ数"
+
+#~ msgid "From Top-Left to Bottom-Right"
+#~ msgstr "左上から右下へ"
+
+#~ msgid "Glow Color"
+#~ msgstr "発光色"
+
+#~ msgid "Glow Radius"
+#~ msgstr "発光半径"
+
+#~ msgid "Glow Size (pixels * 4)"
+#~ msgstr "発光サイズ (ピクセル * 4)"
+
+#~ msgid "Gradient"
+#~ msgstr "グラデーション"
+
+#~ msgid "Granularity (1 is Low)"
+#~ msgstr "粒状度 (1 が最低)"
+
+#~ msgid "Granularity"
+#~ msgstr "粒状度"
+
+#~ msgid "Graph Scale"
+#~ msgstr "グラフ寸法"
+
+#~ msgid "Grids X"
+#~ msgstr "格子 X"
+
+#~ msgid "Grids Y"
+#~ msgstr "格子 Y"
+
+#~ msgid "Height"
+#~ msgstr "高さ"
+
+#~ msgid "Hexagons"
+#~ msgstr "六角形"
+
+#~ msgid "Highlight Balance"
+#~ msgstr "ハイライトバランス"
+
+#~ msgid "Highlight Color"
+#~ msgstr "ハイライト色"
+
+#~ msgid "Highlight Opacity"
+#~ msgstr "ハイライト不透明度"
+
+#~ msgid "Highlight X Offset"
+#~ msgstr "ハイライト X オフセット"
+
+#~ msgid "Highlight Y Offset"
+#~ msgstr "ハイライト Y オフセット"
+
+#~ msgid "Hit Rate"
+#~ msgstr "ヒット率"
+
+#~ msgid "Hue Rate"
+#~ msgstr "色相変化率"
+
+#~ msgid "IIR"
+#~ msgstr "IIR"
+
+#~ msgid "Image Height"
+#~ msgstr "画像高さ"
+
+#~ msgid "Image Size"
+#~ msgstr "画像サイズ"
+
+#~ msgid "Image Width"
+#~ msgstr "画像幅"
+
+#~ msgid "Image to Carve"
+#~ msgstr "彫刻化する画像"
+
+#~ msgid "Index Image"
+#~ msgstr "インデックス画像"
+
+#~ msgid "Index to n Colors (0 = Remain RGB)"
+#~ msgstr "n 色にインデックス化 (0 = RGB のまま)"
+
+#~ msgid "Insert Layer Names"
+#~ msgstr "レイヤー名の挿入"
+
+#~ msgid "Intermediate Frames"
+#~ msgstr "中間生成フレーム"
+
+#~ msgid "Interpolate"
+#~ msgstr "補間"
+
+#~ msgid "Invert direction"
+#~ msgstr "方向を反転"
+
+#~ msgid "Invert"
+#~ msgstr "反転"
+
+#~ msgid "Keep Background"
+#~ msgstr "背景を残す"
+
+#~ msgid "Keep Bump Layer"
+#~ msgstr "バンプマップ画像を残す"
+
+#~ msgid "Keep Selection"
+#~ msgstr "選択領域を残す"
+
+#~ msgid "Land Height"
+#~ msgstr "島の高さ"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgid "Looped"
+#~ msgstr "ループ化"
+
+#~ msgid "Lower Color (Active)"
+#~ msgstr "下の色 (アクティブ)"
+
+#~ msgid "Lower Color"
+#~ msgstr "下の色"
+
+#~ msgid "Lower-Right color"
+#~ msgstr "右下の色"
+
+#~ msgid "Make New Background"
+#~ msgstr "新規背景を作成"
+
+#~ msgid "Mask Opacity"
+#~ msgstr "マスク不透明度"
+
+#~ msgid "Mask Size"
+#~ msgstr "マスクサイズ"
+
+#~ msgid "Max. Blur Radius"
+#~ msgstr "最大ぼかし半径"
+
+#~ msgid "Mosaic Tile Type"
+#~ msgstr "モザイクタイル型"
+
+#~ msgid "Mottle"
+#~ msgstr "まだら状"
+
+#~ msgid "No Background (only for separate layer)"
+#~ msgstr "背景なし (レイヤーを分けるだけ)"
+
+#~ msgid "Not Pressed (Active)"
+#~ msgstr "押さない時 (アクティブ)"
+
+#~ msgid "Not Pressed"
+#~ msgstr "押さない時"
+
+#~ msgid "Number of Bands"
+#~ msgstr "帯数"
+
+#~ msgid "Number of Colors"
+#~ msgstr "色数"
+
+#~ msgid "Number of Copies"
+#~ msgstr "コピー回数"
+
+#~ msgid "Number of Frames"
+#~ msgstr "コマ数"
+
+#~ msgid "Number of Lines"
+#~ msgstr "線数"
+
+#~ msgid "Number of Times to Whirl"
+#~ msgstr "回転数"
+
+#~ msgid "Number of X Tiles"
+#~ msgstr "X タイルの数"
+
+#~ msgid "Number of Y Tiles"
+#~ msgstr "Y タイルの数"
+
+#~ msgid "Number"
+#~ msgstr "数"
+
+#~ msgid "Octagons"
+#~ msgstr "八角形"
+
+#~ msgid "Odd"
+#~ msgstr "奇数"
+
+#~ msgid "Offset (pixels)"
+#~ msgstr "オフセット (ピクセル)"
+
+#~ msgid "Offset Radius"
+#~ msgstr "オフセット半径"
+
+#~ msgid "Offset X"
+#~ msgstr "オフセット X"
+
+#~ msgid "Offset Y"
+#~ msgstr "オフセット Y"
+
+#~ msgid "Offsets (pixels * 2)"
+#~ msgstr "オフセット (ピクセル * 2)"
+
+#~ msgid "Oilify Mask Size"
+#~ msgstr "油絵化マスクサイズ"
+
+#~ msgid "Opacity"
+#~ msgstr "不透明度"
+
+#~ msgid "Orientation"
+#~ msgstr "方向"
+
+#~ msgid "Outer Border"
+#~ msgstr "外枠"
+
+#~ msgid "Outline Blur Radius"
+#~ msgstr "輪郭ぼかし半径"
+
+#~ msgid "Outline Color"
+#~ msgstr "輪郭色"
+
+#~ msgid "Outline Size"
+#~ msgstr "輪郭サイズ"
+
+#~ msgid "Pad Color"
+#~ msgstr "空間の色"
+
+#~ msgid "Pad Opacity"
+#~ msgstr "空間の不透明度"
+
+#~ msgid "Padding Around Text"
+#~ msgstr "文字周りの空間"
+
+#~ msgid "Padding X"
+#~ msgstr "空間 X"
+
+#~ msgid "Padding Y"
+#~ msgstr "空間 Y"
+
+#~ msgid "Padding for Transparent Regions"
+#~ msgstr "透明な領域のための空間"
+
+#~ msgid "Padding"
+#~ msgstr "空間"
+
+#~ msgid "Pattern (Outline)"
+#~ msgstr "パターン (輪郭)"
+
+#~ msgid "Pattern (Overlay)"
+#~ msgstr "パターン (オーバーレイ)"
+
+#~ msgid "Pattern (Text)"
+#~ msgstr "パターン (文字)"
+
+#~ msgid "Pattern"
+#~ msgstr "パターン"
+
+#~ msgid "Pen Rad. / Wheel Rad. [0.0:1.0]"
+#~ msgstr "囲い率 / 輪っか率 [0.0:1.0]"
+
+#~ msgid "Pixel Amount"
+#~ msgstr "ピクセル量"
+
+#~ msgid "Pixelize"
+#~ msgstr "ピクセル化"
+
+#~ msgid "Pressed"
+#~ msgstr "押した時"
+
+#~ msgid "Quarter Size"
+#~ msgstr "4 分の 1 サイズ"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Radius"
+#~ msgstr "半径"
+
+#~ msgid "Random Seed"
+#~ msgstr "ランダム種"
+
+#~ msgid "Randomness"
+#~ msgstr "複雑度"
+
+#~ msgid "Relative Distance of Horizon"
+#~ msgstr "地平線の相対的な距離"
+
+#~ msgid "Relative Length of Shadow"
+#~ msgstr "影の相対的な長さ"
+
+#~ msgid "Relative Radius"
+#~ msgstr "相対的な半径"
+
+#~ msgid "Remove Background"
+#~ msgstr "背景消去"
+
+#~ msgid "Ribbon Spacing"
+#~ msgstr "帯間隔"
+
+#~ msgid "Ribbon Width"
+#~ msgstr "帯幅"
+
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgid "Rippling Strength"
+#~ msgstr "波状強度"
+
+#~ msgid "Roughness"
+#~ msgstr "荒さ"
+
+#~ msgid "Round Ratio"
+#~ msgstr "円形比率"
+
+#~ msgid "Rows"
+#~ msgstr "行"
+
+#~ msgid "Rows/Cols"
+#~ msgstr "行/列"
+
+#~ msgid "Scale X"
+#~ msgstr "X 拡大縮小"
+
+#~ msgid "Scale Y"
+#~ msgstr "Y 拡大縮小"
+
+#~ msgid "Sea Depth"
+#~ msgstr "海の深さ"
+
+#~ msgid "Seed"
+#~ msgstr "種"
+
+#~ msgid "Select-By-Color Threshold"
+#~ msgstr "色による選択の閾値"
+
+#~ msgid "Separate Layer"
+#~ msgstr "レイヤーに分ける"
+
+#~ msgid "Sepia"
+#~ msgstr "セピア色"
+
+#~ msgid "Shadow Blur Radius"
+#~ msgstr "影ぼかし半径"
+
+#~ msgid "Shadow Color"
+#~ msgstr "影の色"
+
+#~ msgid "Shadow Darkness"
+#~ msgstr "影の暗さ"
+
+#~ msgid "Shadow Depth"
+#~ msgstr "影の深さ"
+
+#~ msgid "Shadow Weight (%)"
+#~ msgstr "影の幅 (%)"
+
+#~ msgid "Shadow X Offset"
+#~ msgstr "影 X オフセット"
+
+#~ msgid "Shadow Y Offset"
+#~ msgstr "影 Y オフセット"
+
+#~ msgid "Sharpness (degrees)"
+#~ msgstr "鋭さ (角度)"
+
+#~ msgid "Shear Length"
+#~ msgstr "刈り取る長さ"
+
+#~ msgid "Size"
+#~ msgstr "サイズ"
+
+#~ msgid "Smooth Horizontally"
+#~ msgstr "水平に滑らか"
+
+#~ msgid "Smooth Vertically"
+#~ msgstr "垂直に滑らか"
+
+#~ msgid "Smooth"
+#~ msgstr "滑らか"
+
+#~ msgid "Space Between Layers"
+#~ msgstr "レイヤー間の間隔"
+
+#~ msgid "Spacing"
+#~ msgstr "間隔"
+
+#~ msgid "Spots density X"
+#~ msgstr "斑点密度 X"
+
+#~ msgid "Spots density Y"
+#~ msgstr "斑点密度 Y"
+
+#~ msgid "Spread"
+#~ msgstr "拡散"
+
+#~ msgid "Squares"
+#~ msgstr "四角形"
+
+#~ msgid "Stains"
+#~ msgstr "しみ数"
+
+#~ msgid "Start Angle"
+#~ msgstr "開始角度"
+
+#~ msgid "Start Blend"
+#~ msgstr "ブレンド開始色"
+
+#~ msgid "Start X"
+#~ msgstr "開始 X"
+
+#~ msgid "Start Y"
+#~ msgstr "開始 Y"
+
+#~ msgid "Starting Blend"
+#~ msgstr "ブレンド開始色"
+
+#~ msgid "Supersample"
+#~ msgstr "スーパーサンプル"
+
+#~ msgid "Text Color (Active)"
+#~ msgstr "文字色 (アクティブ)"
+
+#~ msgid "Text Color"
+#~ msgstr "文字色"
+
+#~ msgid "Text Pattern"
+#~ msgstr "文字パターン"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Thickness"
+#~ msgstr "厚さ"
+
+#~ msgid "Thread Density"
+#~ msgstr "糸密度"
+
+#~ msgid "Thread Intensity"
+#~ msgstr "糸強度"
+
+#~ msgid "Thread Length"
+#~ msgstr "糸の長さ"
+
+#~ msgid "Threshold (Bigger 1<-->255 Smaller)"
+#~ msgstr "閾値 (大きい 1<-->255 小さい)"
+
+#~ msgid "Tile"
+#~ msgstr "タイル状"
+
+#~ msgid "Transparent Background"
+#~ msgstr "透過背景"
+
+#~ msgid "Turn from Left to Right"
+#~ msgstr "左から右に回転"
+
+#~ msgid "Up"
+#~ msgstr "上"
+
+#~ msgid "Upper Color (Active)"
+#~ msgstr "上の色 (アクティブ)"
+
+#~ msgid "Upper Color"
+#~ msgstr "上の色"
+
+#~ msgid "Upper-Left color"
+#~ msgstr "左上色"
+
+#~ msgid "Use Brush"
+#~ msgstr "使用するブラシ"
+
+#~ msgid "Use Current Gradient"
+#~ msgstr "カレントグラデーションを使う"
+
+#~ msgid "Use Growing Selection"
+#~ msgstr "拡大した選択領域の使用"
+
+#~ msgid "Use Pattern Overlay"
+#~ msgstr "パターンをオーバーレイで使う"
+
+#~ msgid "Use Pattern for Outline instead of Gradient"
+#~ msgstr "グラデーションの代わりにパターンを輪郭に使う"
+
+#~ msgid "Use Pattern for Text instead of Gradient"
+#~ msgstr "グラデーションの代わりにパターンを文字に使う"
+
+#~ msgid "Use Selection Bounds Instead of Belows"
+#~ msgstr "以下の設定ではなく選択領域を使用する"
+
+#~ msgid "Wavelength"
+#~ msgstr "波長"
+
+#~ msgid "Wheel Radius (hypo < 0 < epi)"
+#~ msgstr "輪半径 (hypo < 0 < epi)"
+
+#~ msgid "Whirl Amount"
+#~ msgstr "回転量"
+
+#~ msgid "Whirl Angle"
+#~ msgstr "回転角"
+
+#~ msgid "Width of Bands"
+#~ msgstr "帯幅"
+
+#~ msgid "Width of Gaps"
+#~ msgstr "隙間幅"
+
+#~ msgid "Width"
+#~ msgstr "幅"
+
+#~ msgid "Work on Copy"
+#~ msgstr "コピーで作業する"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/Developer FAQ"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/開発者向け FAQ"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/GIMP Tutorials"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/GIMP チュートリアル"
+
+#~ msgid "<Toolbox>/Xtns/Web Browser/User FAQ"
+#~ msgstr "<Toolbox>/拡張/Web ブラウザ/利用者向け FAQ"

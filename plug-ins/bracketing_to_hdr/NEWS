@@ -1,0 +1,171 @@
+CinePaint plug-in "bracketing_to_hdr"  -  NEWS
+Last revision: 2007/01/04
+Hartmut Sbosny <hartmut.sbosny@gmx.de>
+
+Version 0.7.0: 2007/01/04
+=============
+ Many changes, a short overview:
+ - Simple offset (displacement) calculation introduced (maximation of a
+    correlation coefficient) for automatic alignment of displaced images.
+    Several files added. New tool window "Offset Computation" for tuning
+    of some search parameters (experimental). New "Offsets" tab in the main
+    window.
+ - Reading of EXIF data introduced. For that we use the external programs
+    `jhead' (JPEG) (from "http://www.sentex.net/~mwandel/jhead/") and `dcraw'
+    (RAW and camera TIFFs) (from "http://www.cybercom.net/~dcoffin/dcraw/").
+    Both programs are part now of the CinePaint tarball; `jhead' sources
+    placed in plug_ins/bracketing_to_hdr/jhead/, `dcraw' source placed in
+    plug_ins/rawphoto/. The executables are installed in the directory
+    ${installtopdir}/lib/cinepaint/${version}/extra/.
+ - New "EXIF" tab in the main window inserted. If EXIF data are available, 
+    exposure times are determined from those.
+ - Setting of exposure times changed: If EXIF data are not available, a "time
+    setting bar" appears automatically offering the legacy "stops value"
+    option.
+ - Preview of RAW files in the file chooser introduced following Kai-Uwe's
+    way in his "collect" plug-in (requires `dcraw').
+ - The last chosen image directory as well as the last response directory are
+    saved now in the preferences file and offered as initial path at next
+    plug-in start. The same for the last file filter.
+ - Menu button "Default settings" inserted in the "Settings" menubar submenu.
+ - Tab heigths are fix now under resizing (done by resize switches in FLUID).
+ - Table columns and rows have now a minimal width and height.
+ - Something forgotten...?
+ 
+Version 0.6.2: 2006/11/07
+=============
+ - Files added: FL_adds/Fl_IntInput_Slider.[h|c]pp, 
+    Fl_adds/IntInput_Slider.[h|c]pp
+ - Input sliders allow now input via keyboard too.
+ - Fixed: br::not_impl_image_case() declaration differed from implementation.
+ - A new simulated radiance scene added: Random numbers.
+
+Version 0.6.1: 2006/11/02
+=============
+ - Files FL_adds/fl_misc.*pp added.
+ - Class ProgressInfo enhanced; "smart" value() function introduced. Classes
+    in ProgressBar.*pp adapted accordingly. These classes provide now also a
+    with_cursor() option.
+ - Class TheProgressInfo introduced for maintaining a global, singular abstract
+    ProgressInfo* pointer. Appropriate instantiations provided in 
+    gui/TheProgressBar.*pp.
+ - General progress info concept heavy reworked: We use now a global, singular
+    abstract ProgressInfo* pointer, maintained by TheProgressInfo. All local
+    ProgressInfo* arguments removed. All progress info and (abstract) cursor
+    stuff in Br2HdrManager removed --> class BrHdrManagerGui got unnecessary, 
+    Br2Hdr.hpp, EventReceiver.hpp, RefpicReceiver.hpp could be moved back to 
+    br_core/.
+ - Closer graining of ProgressInfo values in mergeHdr_*_U8/U16.cpp. Progress
+    infos now also from inside of follow-up values computation and of
+    simulated images computation (testtool.cpp). 
+ - HdrCalctor classes & ResponseSolver: "lambda" renamed to "smoothing".
+ - HdrCalctorBase: member variables made private; heirs access now via
+    protected member functions.
+ - Br2HdrManager.cpp::applyComputedCurveComputed(): setting of 
+    `is_usenext_curve_computed_[]' changed.
+ - bracketing_to_hdr.cpp::cpaint_load_image(): the "base_*" variables renamed
+    to "first_*". Handling of case `first_precis != precis' upgraded to new
+    U16-U8-downsampling situation.
+ - Several comments improved.
+
+Version 0.6.0: 2006/10/19  (CinePaint release 0.21-2)
+=============
+ - Internationalisation: 
+    + File "br_core/i18n.hpp" added.
+    + Files "gui/fl_translate_menu.*pp" added.
+    + The essential (all?) strings to translate wrapped by the _() or N_()
+       macro; some minor code reorganisations for smarter .po file entries
+       of the Br2HDR strings.
+    + The corresponding source files inscribed in ./po-plug-ins/POTFILES.in.
+    + German translations of Br2HDR strings provided in ./po-plug-ins/de.po.
+ - New "abstract" message function br::msg_image_ignored() for formated
+    output on console as well as on GUI desktop; "Br2HdrManager.cpp" and
+    "bracketing_to_hdr.cpp" changed accordingly.
+ - Fixed: Br2HdrManager.cpp: setting of `is_usenext_curve_computed_[]' in 
+    applyResponseCurveExtern() corrected.
+ - Fixed: Missing deallocation of 'default_text_' in Dtor of StatusLineBase.
+ - Fixed: spline.hpp was not included in spline.cpp.
+ - Code documentation:
+    + Wrong notations @NOTE, @BUG, @TODO of doxygen tags corrected into @note,
+       @bug, @todo at many places; generated TODO and BUG lists ok now. 
+    + Many comments improved and better formated using doxygen tags.
+    + More detailed guidiance in ./README to generate a code documentation via
+       doxygen.
+    + Doxygen control file "Doxyfile" included in the scope of delivery.
+ - testtool.*pp reorgenized. The TestSuite window offers now two simulated
+    response functions: "Linear" and "Cosinus".
+ - Tooltips improved.
+
+Version 0.5.2: 2006/09/30
+=============
+ - Alternative and better method for generating the "Z-matrix". For simulated
+    pictures it avoids now nearly completely the very annoying dependency of
+    calculated response functions on a smart chosen reference image for the
+    follow-up values statistics. And for real (noisy) pictures a very notable
+    improvement.
+ - Version string stored in preference file; allows to handle differences to
+    older versions.
+ - Switchable "expert bar" (set invisible for the moment); preparation for a
+    future "expert mode".
+
+Version 0.5.1: 2006/09/07
+=============
+User's Notes:
+ - Various modes for solving the least square fit within the response function
+    computation selectable now:
+    * QR decomposition (fast, but fails if matrix has rank defect)
+    * SVD (slow, but works also for matrices with rank defect)
+    * auto (try QR first, if it fails use SVD)
+ - Separat weight functions for 1.) response curve computation and 2.) HDR 
+    merging usable now. Both functions are shown in the "Response Curve" window.
+ - Renaming of the menubar item "Analyse" to "Windows". Menubar submenu item
+    `TestSuite' moved from "Make" to "Windows".
+ - More detailed tooltips particulary in the "Response Curve" window
+
+Programmer's Notes:
+ - Renaming of the subdirectory ./core/ into ./br_core/, because "core" is 
+    (according to Kai-Uwe) a reserved name in the CVS machinery.
+ - Deletion of widget-wrapper classes from the widget's callback is possible
+    now. (Adaption of Fltk's "widget_delete() + do_widget_deletion()" method.)
+    Used for the wrapper classes Histogram, TestSuite, EventTester.
+ - The merge_Hdr() functions have been prepared for weight functions with wider
+    zero-borders than [0,zmax].
+ - Many comments improved for better doxygen output
+ - Some fixes accordingly to g++ 4.1.1 compiler errors (missing #include
+    directives, more explicite identifier specifications in derived templates).
+ - Minor code reorganisations for more clarity.
+   
+
+Version 0.5.0: 2006/08/11  (CinePaint release 0.21-1)
+=============
+Completely rewritten: for the first time readable code - even for someone
+besides me. ;-) 
+
+User's Notes:
+ - Can work up now also 16-bit input images.
+ - New button "M" for marking of cropped (zero-weighted, unresolved) HDR-values
+    in the HDR image by contrast colors.
+ - "Response Curves" window heavy reworked. Response curves can be saved now, 
+    and external response curves are loadable now from file. Mixing usage of 
+    computed and external curves possibly.
+ - New option for automatic loading of external response curves at plug-in
+    start.
+ - Different weight functions can be applied (start-up).
+ - New pop-up menu "Settings" in the menubar. Settings or preferences can be 
+    saved. Window positions are reminded between calls.
+ - Histogram window added
+ - TestSuite for generation of simulated series of bracketed exposures for
+    testing added (start-up).
+
+Programmer's Notes:
+ - Much more modularized 
+ - Core stuff in namespace "br" 
+ - Separation into a data type independent class `BrImage' for storing of input
+    images and a data type dependent variants of `Pack's for performing the 
+    computation.
+ - Strict separation of computing kernel and GUI.
+ - Minimal interface to the (outgoing) Gkt-based CinePaint ("Film Gimp"), so
+    it should be easy to transfer it to Glasgow.
+ - GUI assembled completely with Fltk's visual editor FLUID, very easy 
+    changeable now. 
+
