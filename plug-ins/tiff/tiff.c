@@ -985,7 +985,7 @@ load_image ( gchar *filename)
               size_t size = 0;
 #ifdef OYRANOS_H
 # if OYRANOS_API > 12
-              if( !oyCheckProfile (profile_name, "Cmyk") )
+              if( !oyCheckProfile (profile_name, 0) )
                 prof_mem = (char*)oyGetProfileBlock( profile_name, &size, myAllocFunc );
 # endif
 #endif 
