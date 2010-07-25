@@ -660,7 +660,8 @@ load_image ( gchar *filename)
   {
     if (mem_n > fsize-fpos)
     {
-      g_message ("%s:%d  storage size of %s is too small: %d",__FILE__,__LINE__,filename , (int)mem_n-fsize-fpos);
+      g_message ("%s:%d  storage size of %s is too small: %d",
+                 __FILE__,__LINE__,filename , (int)(mem_n - fsize - fpos));
       m_free( data )
       return FALSE;
     }
@@ -1018,17 +1019,17 @@ save_image                  (   gchar           *filename,
       } while (--len); pt = 0;
 
         if(byteps == 1)
-          snprintf( bytes, 84, "255" );
+          snprintf( bytes, 48, "255" );
         else
         if(byteps == 2)
-          snprintf( bytes, 84, "65535" );
+          snprintf( bytes, 48, "65535" );
         else
         if (byteps == 4)
         {
           if(G_BYTE_ORDER == G_LITTLE_ENDIAN)
-            snprintf( bytes, 84, "-1.0" );
+            snprintf( bytes, 48, "-1.0" );
           else
-            snprintf( bytes, 84, "1.0" );
+            snprintf( bytes, 48, "1.0" );
         }
         else
           g_message ("Error: byteps: %d", byteps);
