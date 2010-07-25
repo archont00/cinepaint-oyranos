@@ -385,7 +385,9 @@ load_image(const char* filename)
     // set a default profile for cmyk
 #ifdef OYRANOS_H
 # if OYRANOS_API > 12
+#  if OYRANOS_API < 16
     using namespace oyranos;
+#  endif
 
     if( vals.colourspace == PDF_CMYK )
       profile_name = oyGetDefaultProfileName (oyEDITING_CMYK, myAllocFunc);
