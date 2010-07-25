@@ -763,11 +763,13 @@ cms_get_long_profile_info(cmsHPROFILE  hProfile)
               min_len = 24,  /* formatting */
               len, i;
 
+    return profile_info;
+
     text = malloc(256);
 
 
 #if LCMS_VERSION >= 113 /* formatting */
-    if (cmsIsTag(hProfile, icSigCopyrightTag)) {
+    if (0 && cmsIsTag(hProfile, icSigCopyrightTag)) {
         len = strlen (cmsTakeCopyright(hProfile)) /*rsr 16*/;
         if (len > min_len)
             min_len = len + 1;
@@ -817,7 +819,7 @@ cms_get_long_profile_info(cmsHPROFILE  hProfile)
     }
 #endif
 #if LCMS_VERSION >= 113
-    if (cmsIsTag(hProfile, icSigCopyrightTag)) {
+    if (0 && cmsIsTag(hProfile, icSigCopyrightTag)) {
       tmp = cmsTakeCopyright(hProfile);
       if(tmp && strlen(tmp))
       {
@@ -2570,10 +2572,7 @@ cms_gimage_open (GImage         * gimage)
 {
   if(gimage)
   {
-
-    if( !gimage_get_cms_profile( gimage ) )
-    {
-      CMSProfileType type = ICC_IMAGE_PROFILE;
+    CMSProfileType type = ICC_IMAGE_PROFILE;
 
 #ifdef HAVE_OY
       char * p_name = NULL;
@@ -2595,18 +2594,21 @@ cms_gimage_open (GImage         * gimage)
                break;
         }
 
-      switch(oyGetBehaviour( oyBEHAVIOUR_ACTION_UNTAGGED_ASSIGN ))
-      {
-        case oyNO:  /* do nothing, preserve numbers */
-             break;
-        case oyYES: /* assign assumed profile */
-             cms_gimage_check_profile( gimage, type );
-             break;
-        case oyASK: /* call dialog */
-             cms_open_assign_dialog( gimage );
-             break;
-      }
 
+    if( !gimage_get_cms_profile( gimage ) )
+    {
+      if ((cms_open_action == CMS_ASSIGN_DEFAULT) &&
+         (cms_default_image_profile_name != NULL)) 
+        { cms_gimage_check_profile(gimage, type);
+        }
+        else if (cms_open_action == CMS_ASSIGN_PROMPT)
+        { cms_open_assign_dialog(gimage);
+        }
+    }
+
+#endif
+
+#ifdef HAVE_OY
       if ((p_name != NULL) && (gimage_get_cms_profile(gimage) != NULL))
       {
         CMSProfile *editing_profile = cms_get_profile_from_file( p_name );
@@ -2621,18 +2623,7 @@ cms_gimage_open (GImage         * gimage)
                                    bpc ? cmsFLAGS_WHITEBLACKCOMPENSATION : 0 );
 	}
       }
-      if(p_name)
-        free(p_name); p_name = NULL;
-
 #else        
-
-      if ((cms_open_action == CMS_ASSIGN_DEFAULT) &&
-         (cms_default_image_profile_name != NULL)) 
-        { cms_gimage_check_profile(gimage, type);
-        }
-        else if (cms_open_action == CMS_ASSIGN_PROMPT)
-        { cms_open_assign_dialog(gimage);
-        }
 
       /* if a workspace profile is given and it's not equal the 
          image profile, check whether to convert */
@@ -2651,7 +2642,8 @@ cms_gimage_open (GImage         * gimage)
 
 #endif
 
-    }
+    if(p_name)
+      free(p_name); p_name = NULL;
 
     if(!gimage_get_cms_proof_profile( gimage ))
       cms_gimage_check_profile( gimage, ICC_PROOF_PROFILE );
