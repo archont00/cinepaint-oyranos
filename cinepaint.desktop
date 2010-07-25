@@ -1,9 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=CinePaint
-Name[de]=CinePaint
+Name=CinéPaint
+Name[de]=CinéPaint
 
-GenericName=CinePaint
+GenericName=Image editor
+GenericName[de]=Bildbearbeitung
 
 Comment=Edit high resolution and HDR pictures
 Comment[de]=Bearbeiten Sie farblich und geometrisch hochauflösende Bilder
