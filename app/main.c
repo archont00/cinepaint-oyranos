@@ -54,9 +54,15 @@ extern int _fmode;
 #endif   /*  WAIT_ANY  */
 
 #ifdef HAVE_OY
+# if OYRANOS_VERSION > 107
+#include <oyranos.h>
+#include <oyranos_config.h>
+#include <oyranos_version.h>
+# else
 #include <oyranos/oyranos.h>
 #include <oyranos/oyranos_config.h>
 #include <oyranos/oyranos_version.h>
+# endif
 char *oyranos_temp_path = NULL;
 void *myAlloc(size_t n) { return calloc(sizeof(char), n); }
 #endif

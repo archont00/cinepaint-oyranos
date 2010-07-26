@@ -488,7 +488,7 @@ dnl Test for Oyranos; beku
         else
           OYRANOS_LIBS="-DHAVE_OY `$OY_CONFIG --ldflags | sed  s/-O.\//`"
         fi
-        OYRANOS_CFLAGS="-DHAVE_OY -DOYRANOS_NVERSION=$OYRANOS_NVERSION `$OY_CONFIG --cflags | sed  s/-O.\//`"
+        OYRANOS_CFLAGS="-DHAVE_OY -DOYRANOS_VERSION=$OYRANOS_NVERSION `$OY_CONFIG --cflags | sed  s/-O.\//`"
     else
       AC_MSG_WARN([
 *** Check for oyranos-config failed.

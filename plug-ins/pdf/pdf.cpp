@@ -49,7 +49,7 @@ extern "C" {
 #include "libgimp/stdplugins-intl.h"
 
 #if HAVE_OY
-# if OYRANOS_NVERSION > 107
+# if OYRANOS_VERSION > 107
 #include <oyranos.h>
 # else
 #include <oyranos/oyranos.h>

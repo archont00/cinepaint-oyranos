@@ -169,7 +169,7 @@ static char Version_[] = "v1.5.1";
 #include "gui.h"
 
 #if HAVE_OY
-# if OYRANOS_NVERSION > 107
+# if OYRANOS_VERSION > 107
 #include <oyranos.h>
 # else
 #include <oyranos/oyranos.h>

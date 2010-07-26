@@ -37,15 +37,20 @@
 #endif
 
 #ifdef HAVE_OY
-#include <oyranos/oyranos.h>
 #ifndef OYRANOS_VERSION
 #define OYRANOS_VERSION 0
 #endif
 #if OYRANOS_VERSION < 108
+#include <oyranos/oyranos.h>
 #include <arpa/inet.h>  /* ntohl */
 #include <oyranos/oyranos_monitor.h>
 #else
-#include <oyranos/oyranos_alpha.h>
+#include <oyranos.h>
+#if OYRANOS_VERSION < 110
+#include <oyranos_alpha.h>
+#else
+#include <alpha/oyranos_alpha.h>
+#endif
 #endif
 #endif
 
