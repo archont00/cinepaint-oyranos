@@ -425,13 +425,13 @@ dnl Test for Xmu
   if test -z "$XMU_LIB"; then
     AC_CHECK_LIB(Xmu, XmuClientWindow,
       [AC_CHECK_HEADER(X11/Xmu/WinUtil.h,
-    CINEPAINT_REMOTE="cinepaint-remote"; XMU_LIB='-lXmu -lXt -lSM -lICE',
+    CINEPAINT_REMOTE="cinepaint-remote"; XMU_LIB='-lXmu -lXt -lSM -lICE -lX11',
     [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU header file not found) ***)])],
     [AC_CHECK_LIB(Xmu, XmuUpdateMapHints,
       [AC_CHECK_HEADER(X11/Xmu/WinUtil.h,
-        CINEPAINT_REMOTE="cinepaint-remote"; XMU_LIB='-lXmu -lXt',
+        CINEPAINT_REMOTE="cinepaint-remote"; XMU_LIB='-lXmu -lXt -lX11',
         [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU header file not found) ***)])],
-    [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU library not found) ***)], -lXt)], -lXt -lSM -lICE)
+    [AC_MSG_WARN(*** cinepaint-remote will not be built (XMU library not found) ***)], -lXt)], -lXt -lSM -lICE -lX11)
   fi
 
 dnl Test for gutenprint

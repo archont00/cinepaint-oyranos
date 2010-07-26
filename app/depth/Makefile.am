@@ -11,7 +11,9 @@ noinst_LTLIBRARIES = libdepth.la
 
 libdepth_la_LIBADD = \
 	$(top_builddir)/lib/libcinepaint.la \
-	$(GTK_LIBS)
+	$(GTK_LIBS) \
+	$(X_LIBS) \
+	$(XMU_LIB)
 
 libdepth_la_SOURCES = \
 	bezier_select.c \
