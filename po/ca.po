@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp1 1.2.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-11 13:37+0100\n"
+"POT-Creation-Date: 2010-07-26 11:22+0200\n"
 "PO-Revision-Date: 2001-09-07 17:29+0200\n"
 "Last-Translator: Softcatalà <tradgnome@softcatala.org>\n"
 "Language-Team: Catalan\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: app/about_dialog.c:187 app/main.c:252
+#: app/about_dialog.c:187 app/main.c:258
 #, fuzzy
 msgid "About"
 msgstr "/Ajuda/Quant a..."
@@ -448,7 +448,7 @@ msgstr "Carrega nivells"
 #. Action area
 #: app/store_frame_manager.c:2318 app/store_frame_manager.c:2592
 #: app/channel_ops.c:127 app/depth/color_select.c:355 app/depth/commands.c:422
-#: app/depth/commands.c:1579 app/cms.c:2799 app/convert.c:536
+#: app/depth/commands.c:1579 app/cms.c:2796 app/convert.c:536
 #: app/expose_image.c:255 app/interface.c:1312 app/interface.c:1502
 msgid "OK"
 msgstr "D'acord"
@@ -723,7 +723,7 @@ msgid "Offset"
 msgstr "Compensació"
 
 #: app/channel_ops.c:136 app/depth/color_select.c:356 app/depth/commands.c:432
-#: app/depth/commands.c:1599 app/cms.c:2804 app/convert.c:537
+#: app/depth/commands.c:1599 app/cms.c:2801 app/convert.c:537
 #: app/gradient.c:1506 app/gradient.c:4550 app/gradient.c:4907
 #: app/interface.c:1321 app/depth/plug_in.c:3805
 msgid "Cancel"
@@ -795,34 +795,34 @@ msgid "channels_dialog_update: gimage has FORMAT_NONE"
 msgstr ""
 
 #: app/channels_dialog.c:1087 app/depth/color_balance.c:1126
-#: app/depth/color_picker.c:182 app/cms.c:638 app/gimage.c:3307
+#: app/depth/color_picker.c:182 app/cms.c:643 app/gimage.c:3307
 #: app/histogram_tool.c:368 app/depth/levels.c:3377
 #, c-format
 msgid "Red"
 msgstr "Vermell"
 
 #: app/channels_dialog.c:1088 app/depth/color_balance.c:1153
-#: app/depth/color_picker.c:183 app/cms.c:639 app/gimage.c:3308
+#: app/depth/color_picker.c:183 app/cms.c:644 app/gimage.c:3308
 #: app/histogram_tool.c:369 app/depth/levels.c:3378
 #, c-format
 msgid "Green"
 msgstr "Verd"
 
 #: app/channels_dialog.c:1089 app/depth/color_balance.c:1180
-#: app/depth/color_picker.c:184 app/cms.c:640 app/gimage.c:3309
+#: app/depth/color_picker.c:184 app/cms.c:645 app/gimage.c:3309
 #: app/histogram_tool.c:370 app/depth/levels.c:3379
 #, c-format
 msgid "Blue"
 msgstr "Blau"
 
 #: app/channels_dialog.c:1090 app/depth/color_picker.c:181
-#: app/depth/color_picker.c:190 app/cms.c:619 app/gimage.c:3310
+#: app/depth/color_picker.c:190 app/cms.c:624 app/gimage.c:3310
 #: app/histogram_tool.c:371 app/depth/levels.c:3380 app/menus.c:531
 #, c-format
 msgid "Alpha"
 msgstr "Alfa"
 
-#: app/channels_dialog.c:1169 app/cms.c:579 app/depth/info_window.c:519
+#: app/channels_dialog.c:1169 app/cms.c:584 app/depth/info_window.c:519
 #, c-format
 msgid "Gray"
 msgstr "Gris"
@@ -955,19 +955,19 @@ msgid "Color Levels: "
 msgstr "Nivells de color:"
 
 #. Create the cyan-red scale widget
-#: app/depth/color_balance.c:1109 app/cms.c:648 app/cms.c:652
+#: app/depth/color_balance.c:1109 app/cms.c:653 app/cms.c:657
 #, c-format
 msgid "Cyan"
 msgstr "Cian"
 
 #. Create the magenta-green scale widget
-#: app/depth/color_balance.c:1136 app/cms.c:649 app/cms.c:653
+#: app/depth/color_balance.c:1136 app/cms.c:654 app/cms.c:658
 #, c-format
 msgid "Magenta"
 msgstr "Magenta"
 
 #. Create the yellow-blue scale widget
-#: app/depth/color_balance.c:1163 app/cms.c:650 app/cms.c:654
+#: app/depth/color_balance.c:1163 app/cms.c:655 app/cms.c:659
 #, c-format
 msgid "Yellow"
 msgstr "Groc"
@@ -1300,7 +1300,7 @@ msgstr "Tipus de transparència:"
 msgid "Check Size"
 msgstr "Comprovar la mida"
 
-#: app/depth/commands.c:1884 app/cms.c:691
+#: app/depth/commands.c:1884 app/cms.c:696
 #, c-format
 msgid "Display"
 msgstr "Pantalla"
@@ -1484,8 +1484,8 @@ msgid "Assumed Image Profile:"
 msgstr ""
 
 #: app/depth/commands.c:2268 app/depth/commands.c:2318
-#: app/depth/commands.c:2368 app/depth/commands.c:2417 app/cms.c:1214
-#: app/cms.c:2706 app/layers_dialog.c:888
+#: app/depth/commands.c:2368 app/depth/commands.c:2417 app/cms.c:1221
+#: app/cms.c:2703 app/layers_dialog.c:888
 #, fuzzy
 msgid "[none]"
 msgstr "cap"
@@ -1512,24 +1512,24 @@ msgstr ""
 msgid "Default Rendering Intent:"
 msgstr ""
 
-#: app/depth/commands.c:2467 app/cms.c:2752 app/menus.c:491
+#: app/depth/commands.c:2467 app/cms.c:2749 app/menus.c:491
 #, fuzzy
 msgid "Perceptual"
 msgstr "Percentil:"
 
-#: app/depth/commands.c:2479 app/cms.c:2758 app/menus.c:492
+#: app/depth/commands.c:2479 app/cms.c:2755 app/menus.c:492
 msgid "Relative Colorimetric"
 msgstr ""
 
 #. Create the saturation scale widget
-#: app/depth/commands.c:2491 app/cms.c:643 app/cms.c:647 app/cms.c:2764
+#: app/depth/commands.c:2491 app/cms.c:648 app/cms.c:652 app/cms.c:2761
 #: app/depth/curves.c:777 app/depth/hue_saturation.c:1267 app/menus.c:493
 #: app/tool_options.c:973
 #, c-format
 msgid "Saturation"
 msgstr "Saturació"
 
-#: app/depth/commands.c:2503 app/cms.c:2770 app/menus.c:494
+#: app/depth/commands.c:2503 app/cms.c:2767 app/menus.c:494
 msgid "Absolute Colorimetric"
 msgstr ""
 
@@ -1707,475 +1707,475 @@ msgstr ""
 "S'ha produït un error en l'escala: tant l'alçada com l'amplada han de ser "
 "més grans de zero."
 
-#: app/cms.c:198
+#: app/cms.c:203
 #, c-format
 msgid "%s:%d %s() entry->profile->cache_key allready freed or empty"
 msgstr ""
 
-#: app/cms.c:203
+#: app/cms.c:208
 #, c-format
 msgid "%s:%d %s() entry->profile->handle allready freed or empty"
 msgstr ""
 
-#: app/cms.c:285 app/cms.c:441
+#: app/cms.c:290 app/cms.c:446
 #, c-format
 msgid "Cannot open selected ICC assumed image profile: %s"
 msgstr ""
 
-#: app/cms.c:296 app/cms.c:454
+#: app/cms.c:301 app/cms.c:459
 #, c-format
 msgid "Cannot open selected ICC editing profile: %s"
 msgstr ""
 
-#: app/cms.c:307
+#: app/cms.c:312
 #, c-format
 msgid "Cannot open selected ICC display profile: %s"
 msgstr ""
 
-#: app/cms.c:313
+#: app/cms.c:318
 #, c-format
 msgid "Selected display profile is not a display profile: %s"
 msgstr ""
 
-#: app/cms.c:329 app/cms.c:495
+#: app/cms.c:334 app/cms.c:500
 #, fuzzy, c-format
 msgid "Cannot open selected ICC default proof profile: %s"
 msgstr "No es pot obtenir l'estat del fitxer %s"
 
-#: app/cms.c:376
+#: app/cms.c:381
 #, c-format
 msgid "WARNING: "
 msgstr ""
 
-#: app/cms.c:379
+#: app/cms.c:384
 #, c-format
 msgid "!!! ERROR: "
 msgstr ""
 
-#: app/cms.c:473
+#: app/cms.c:478
 msgid ""
 "Oyranos cannot find display ICC profile.\n"
 "  Using sRGB instead."
 msgstr ""
 
-#: app/cms.c:559 app/cms.c:573
+#: app/cms.c:564 app/cms.c:578
 #, c-format
 msgid "XYZ"
 msgstr ""
 
-#: app/cms.c:560 app/cms.c:574
+#: app/cms.c:565 app/cms.c:579
 #, c-format
 msgid "Lab"
 msgstr ""
 
-#: app/cms.c:575
+#: app/cms.c:580
 #, c-format
 msgid "Luv"
 msgstr ""
 
-#: app/cms.c:576
+#: app/cms.c:581
 #, c-format
 msgid "YCbCr"
 msgstr ""
 
-#: app/cms.c:577
+#: app/cms.c:582
 #, c-format
 msgid "Yxy"
 msgstr ""
 
-#: app/cms.c:578
+#: app/cms.c:583
 #, c-format
 msgid "Rgb"
 msgstr ""
 
-#: app/cms.c:580
+#: app/cms.c:585
 #, c-format
 msgid "Hsv"
 msgstr ""
 
-#: app/cms.c:581
+#: app/cms.c:586
 #, c-format
 msgid "Hls"
 msgstr ""
 
-#: app/cms.c:582
+#: app/cms.c:587
 #, c-format
 msgid "Cmyk"
 msgstr ""
 
-#: app/cms.c:583
+#: app/cms.c:588
 #, c-format
 msgid "Cmy"
 msgstr ""
 
-#: app/cms.c:584
+#: app/cms.c:589
 #, fuzzy, c-format
 msgid "2color"
 msgstr "colors"
 
-#: app/cms.c:585
+#: app/cms.c:590
 #, fuzzy, c-format
 msgid "3color"
 msgstr "colors"
 
-#: app/cms.c:586
+#: app/cms.c:591
 #, fuzzy, c-format
 msgid "4color"
 msgstr "colors"
 
-#: app/cms.c:587
+#: app/cms.c:592
 #, fuzzy, c-format
 msgid "5color"
 msgstr "colors"
 
-#: app/cms.c:588
+#: app/cms.c:593
 #, fuzzy, c-format
 msgid "6color"
 msgstr "colors"
 
-#: app/cms.c:589
+#: app/cms.c:594
 #, fuzzy, c-format
 msgid "7color"
 msgstr "colors"
 
-#: app/cms.c:590
+#: app/cms.c:595
 #, fuzzy, c-format
 msgid "8color"
 msgstr "colors"
 
-#: app/cms.c:591
+#: app/cms.c:596
 #, fuzzy, c-format
 msgid "9color"
 msgstr "colors"
 
-#: app/cms.c:592
+#: app/cms.c:597
 #, fuzzy, c-format
 msgid "10color"
 msgstr "colors"
 
-#: app/cms.c:593
+#: app/cms.c:598
 #, fuzzy, c-format
 msgid "11color"
 msgstr "colors"
 
-#: app/cms.c:594
+#: app/cms.c:599
 #, fuzzy, c-format
 msgid "12color"
 msgstr "colors"
 
-#: app/cms.c:595
+#: app/cms.c:600
 #, fuzzy, c-format
 msgid "13color"
 msgstr "colors"
 
-#: app/cms.c:596
+#: app/cms.c:601
 #, fuzzy, c-format
 msgid "14color"
 msgstr "colors"
 
-#: app/cms.c:597
+#: app/cms.c:602
 #, fuzzy, c-format
 msgid "15color"
 msgstr "colors"
 
-#: app/cms.c:623
+#: app/cms.c:628
 #, c-format
 msgid "CIE X"
 msgstr ""
 
-#: app/cms.c:624 app/cms.c:635
+#: app/cms.c:629 app/cms.c:640
 #, c-format
 msgid "CIE Y (Luminance)"
 msgstr ""
 
-#: app/cms.c:625
+#: app/cms.c:630
 #, c-format
 msgid "CIE Z"
 msgstr ""
 
-#: app/cms.c:626 app/cms.c:629
+#: app/cms.c:631 app/cms.c:634
 #, c-format
 msgid "CIE *L"
 msgstr ""
 
-#: app/cms.c:627
+#: app/cms.c:632
 #, c-format
 msgid "CIE *a"
 msgstr ""
 
-#: app/cms.c:628
+#: app/cms.c:633
 #, c-format
 msgid "CIE *b"
 msgstr ""
 
-#: app/cms.c:630
+#: app/cms.c:635
 #, c-format
 msgid "CIE *u"
 msgstr ""
 
-#: app/cms.c:631
+#: app/cms.c:636
 #, c-format
 msgid "CIE *v"
 msgstr ""
 
-#: app/cms.c:632
+#: app/cms.c:637
 #, c-format
 msgid "Luminance Y"
 msgstr ""
 
-#: app/cms.c:633
+#: app/cms.c:638
 #, fuzzy, c-format
 msgid "Colour b"
 msgstr "Color"
 
-#: app/cms.c:634
+#: app/cms.c:639
 #, fuzzy, c-format
 msgid "Colour r"
 msgstr "Color"
 
-#: app/cms.c:636
+#: app/cms.c:641
 #, c-format
 msgid "CIE x"
 msgstr ""
 
-#: app/cms.c:637
+#: app/cms.c:642
 #, c-format
 msgid "CIE y"
 msgstr ""
 
-#: app/cms.c:641 app/cms.c:651 app/palette.c:1532
+#: app/cms.c:646 app/cms.c:656 app/palette.c:1532
 #, c-format
 msgid "Black"
 msgstr "Negre"
 
 #. Create the hue scale widget
-#: app/cms.c:642 app/cms.c:645 app/depth/hue_saturation.c:1199
+#: app/cms.c:647 app/cms.c:650 app/depth/hue_saturation.c:1199
 #: app/tool_options.c:972
 #, c-format
 msgid "Hue"
 msgstr "Color"
 
-#: app/cms.c:644 app/histogram_tool.c:367 app/depth/levels.c:3376
+#: app/cms.c:649 app/histogram_tool.c:367 app/depth/levels.c:3376
 #: app/tool_options.c:975
 #, c-format
 msgid "Value"
 msgstr "Valor"
 
 #. Create the lightness scale widget
-#: app/cms.c:646 app/depth/hue_saturation.c:1233
+#: app/cms.c:651 app/depth/hue_saturation.c:1233
 #, fuzzy, c-format
 msgid "Lightness"
 msgstr "Lluminositat:"
 
-#: app/cms.c:655 app/cms.c:657 app/cms.c:660 app/cms.c:675
+#: app/cms.c:660 app/cms.c:662 app/cms.c:665 app/cms.c:680
 #, fuzzy, c-format
 msgid "1. Colour"
 msgstr "Color"
 
-#: app/cms.c:656 app/cms.c:658 app/cms.c:661 app/cms.c:676
+#: app/cms.c:661 app/cms.c:663 app/cms.c:666 app/cms.c:681
 #, fuzzy, c-format
 msgid "2. Colour"
 msgstr "Color"
 
-#: app/cms.c:659 app/cms.c:662 app/cms.c:677
+#: app/cms.c:664 app/cms.c:667 app/cms.c:682
 #, fuzzy, c-format
 msgid "3. Colour"
 msgstr "Color"
 
-#: app/cms.c:663 app/cms.c:678
+#: app/cms.c:668 app/cms.c:683
 #, fuzzy, c-format
 msgid "4. Colour"
 msgstr "Color"
 
-#: app/cms.c:690
+#: app/cms.c:695
 #, c-format
 msgid "Input"
 msgstr ""
 
-#: app/cms.c:692
+#: app/cms.c:697
 #, fuzzy, c-format
 msgid "Output"
 msgstr "Nivells de sortida:"
 
-#: app/cms.c:693
+#: app/cms.c:698
 #, fuzzy, c-format
 msgid "Link"
 msgstr "Linial"
 
-#: app/cms.c:694
+#: app/cms.c:699
 #, fuzzy, c-format
 msgid "Abstract"
 msgstr "Resta"
 
-#: app/cms.c:695
+#: app/cms.c:700
 #, fuzzy, c-format
 msgid "ColorSpace"
 msgstr "Balanç de color"
 
-#: app/cms.c:696
+#: app/cms.c:701
 #, fuzzy, c-format
 msgid "NamedColor"
 msgstr "Color"
 
-#: app/cms.c:781
+#: app/cms.c:788
 #, c-format
 msgid "Description:    "
 msgstr ""
 
-#: app/cms.c:797
+#: app/cms.c:804
 #, c-format
 msgid "Product:        "
 msgstr ""
 
-#: app/cms.c:806
+#: app/cms.c:813
 #, c-format
 msgid "Manufacturer:   "
 msgstr ""
 
-#: app/cms.c:814
+#: app/cms.c:821
 #, c-format
 msgid "Model:          "
 msgstr ""
 
-#: app/cms.c:824
+#: app/cms.c:831
 #, fuzzy, c-format
 msgid "Copyright:      "
 msgstr "Copyright:"
 
-#: app/cms.c:835
+#: app/cms.c:842
 #, fuzzy, c-format
 msgid "Device Class:   "
 msgstr "Estat del dispositiu"
 
-#: app/cms.c:838
+#: app/cms.c:845
 #, fuzzy, c-format
 msgid "Color Space:    "
 msgstr "Balanç de color"
 
-#: app/cms.c:841
+#: app/cms.c:848
 #, c-format
 msgid "PCS Space:      "
 msgstr ""
 
-#: app/cms.c:2841
+#: app/cms.c:2838
 msgid "Select Profile and Intent"
 msgstr ""
 
-#: app/cms.c:2849
+#: app/cms.c:2846
 msgid ""
 "Please select the profile to convert to and the rendering intent to use:"
 msgstr ""
 
-#: app/cms.c:2857
+#: app/cms.c:2854
 #, fuzzy
 msgid "Profile:"
 msgstr "Percentil:"
 
-#: app/cms.c:2864
+#: app/cms.c:2861
 msgid "Rendering Intent:"
 msgstr ""
 
 #. whether to blackpoint compensate
-#: app/cms.c:2872 app/menus.c:495
+#: app/cms.c:2869 app/menus.c:495
 msgid "Black Point Compensation"
 msgstr ""
 
-#: app/cms.c:2949
+#: app/cms.c:2946
 #, fuzzy, c-format
 msgid "Select Image Profile"
 msgstr "Selecciona el fitxer"
 
-#: app/cms.c:2950
+#: app/cms.c:2947
 #, fuzzy, c-format
 msgid "Select Proof Profile"
 msgstr "Selecciona el fitxer"
 
-#: app/cms.c:2972
+#: app/cms.c:2969
 msgid "[The currently assigned profile is: [none]]"
 msgstr ""
 
-#: app/cms.c:2975
+#: app/cms.c:2972
 #, c-format
 msgid "[The currently assigned profile is: %s]"
 msgstr ""
 
-#: app/cms.c:2987
+#: app/cms.c:2984
 #, fuzzy
 msgid "Please select the new image profile to assign:"
 msgstr "Seleccioneu el nombre de vegades que"
 
-#: app/cms.c:2989
+#: app/cms.c:2986
 #, fuzzy
 msgid "Please select the new proof profile to assign:"
 msgstr "Seleccioneu el nombre de vegades que"
 
-#: app/cms.c:3029
+#: app/cms.c:3026
 msgid ""
 "You set the image profile to [none]. Colormanagement will be\n"
 "switched off for all displays of this image."
 msgstr ""
 
-#: app/cms.c:3032
+#: app/cms.c:3029
 msgid ""
 "You set the proof profile to [none]. Proofing will be\n"
 "not available off for all displays of this image."
 msgstr ""
 
-#: app/cms.c:3087 app/cms.c:3236
+#: app/cms.c:3084 app/cms.c:3233
 #, fuzzy
 msgid "Select Profile"
 msgstr "Selecciona el fitxer"
 
 #. message
-#: app/cms.c:3095
+#: app/cms.c:3092
 #, fuzzy
 msgid "Please select the image profile to assign to the image:"
 msgstr "Seleccioneu el nombre de vegades que"
 
-#: app/cms.c:3103
+#: app/cms.c:3100
 #, fuzzy
 msgid "Profile: "
 msgstr "Percentil:"
 
-#: app/cms.c:3112
+#: app/cms.c:3109
 msgid "The assumed image profile: [none]"
 msgstr ""
 
-#: app/cms.c:3115
+#: app/cms.c:3112
 #, c-format
 msgid "The assumed image profile: %s"
 msgstr ""
 
 #. default check box
-#: app/cms.c:3126
+#: app/cms.c:3123
 msgid "always use default profile"
 msgstr ""
 
 #. message
-#: app/cms.c:3244
+#: app/cms.c:3241
 msgid ""
 "The profile that was assigned to this image does not match your editing "
 "profile."
 msgstr ""
 
-#: app/cms.c:3253
+#: app/cms.c:3250
 msgid "Editing profile:"
 msgstr ""
 
-#: app/cms.c:3263
+#: app/cms.c:3260
 msgid "Assigned profile:"
 msgstr ""
 
 #. alway convert checkbox
-#: app/cms.c:3274
+#: app/cms.c:3271
 msgid "Always convert automatically without asking"
 msgstr ""
 
-#: app/cms.c:3285
+#: app/cms.c:3282
 msgid "Yes"
 msgstr "Sí"
 
-#: app/cms.c:3290
+#: app/cms.c:3287
 msgid "No"
 msgstr "No"
 

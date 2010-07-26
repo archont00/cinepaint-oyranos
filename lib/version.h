@@ -35,8 +35,8 @@ extern "C" {
 
 #define MAJOR_VERSION				(0)
 #define MINOR_VERSION				(25)
-#define MICRO_VERSION				(0)
-#define PROGRAM_VERSION				"0.25-0"
+#define MICRO_VERSION				(1)
+#define PROGRAM_VERSION				"0.25-1"
 
 #ifdef __cplusplus
 }

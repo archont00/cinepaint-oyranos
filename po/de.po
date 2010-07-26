@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CinePaint 0.21-2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-11 13:37+0100\n"
+"POT-Creation-Date: 2010-07-26 11:22+0200\n"
 "PO-Revision-Date: 2003-01-02 17:21+0100\n"
 "Last-Translator: Kai-Uwe Behrmann <ku.b@gmx.de>\n"
 "Language-Team: German <cinepaint-devel@lists.sourceforge.net>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: app/about_dialog.c:187 app/main.c:252
+#: app/about_dialog.c:187 app/main.c:258
 msgid "About"
 msgstr "Über"
 
@@ -446,7 +446,7 @@ msgstr "Kopie des aktuellen Bildes laden"
 #. Action area
 #: app/store_frame_manager.c:2318 app/store_frame_manager.c:2592
 #: app/channel_ops.c:127 app/depth/color_select.c:355 app/depth/commands.c:422
-#: app/depth/commands.c:1579 app/cms.c:2799 app/convert.c:536
+#: app/depth/commands.c:1579 app/cms.c:2796 app/convert.c:536
 #: app/expose_image.c:255 app/interface.c:1312 app/interface.c:1502
 msgid "OK"
 msgstr "Ja"
@@ -706,7 +706,7 @@ msgid "Offset"
 msgstr "Versatz"
 
 #: app/channel_ops.c:136 app/depth/color_select.c:356 app/depth/commands.c:432
-#: app/depth/commands.c:1599 app/cms.c:2804 app/convert.c:537
+#: app/depth/commands.c:1599 app/cms.c:2801 app/convert.c:537
 #: app/gradient.c:1506 app/gradient.c:4550 app/gradient.c:4907
 #: app/interface.c:1321 app/depth/plug_in.c:3805
 msgid "Cancel"
@@ -775,34 +775,34 @@ msgid "channels_dialog_update: gimage has FORMAT_NONE"
 msgstr ""
 
 #: app/channels_dialog.c:1087 app/depth/color_balance.c:1126
-#: app/depth/color_picker.c:182 app/cms.c:638 app/gimage.c:3307
+#: app/depth/color_picker.c:182 app/cms.c:643 app/gimage.c:3307
 #: app/histogram_tool.c:368 app/depth/levels.c:3377
 #, c-format
 msgid "Red"
 msgstr "Rot"
 
 #: app/channels_dialog.c:1088 app/depth/color_balance.c:1153
-#: app/depth/color_picker.c:183 app/cms.c:639 app/gimage.c:3308
+#: app/depth/color_picker.c:183 app/cms.c:644 app/gimage.c:3308
 #: app/histogram_tool.c:369 app/depth/levels.c:3378
 #, c-format
 msgid "Green"
 msgstr "Grün"
 
 #: app/channels_dialog.c:1089 app/depth/color_balance.c:1180
-#: app/depth/color_picker.c:184 app/cms.c:640 app/gimage.c:3309
+#: app/depth/color_picker.c:184 app/cms.c:645 app/gimage.c:3309
 #: app/histogram_tool.c:370 app/depth/levels.c:3379
 #, c-format
 msgid "Blue"
 msgstr "Blau"
 
 #: app/channels_dialog.c:1090 app/depth/color_picker.c:181
-#: app/depth/color_picker.c:190 app/cms.c:619 app/gimage.c:3310
+#: app/depth/color_picker.c:190 app/cms.c:624 app/gimage.c:3310
 #: app/histogram_tool.c:371 app/depth/levels.c:3380 app/menus.c:531
 #, c-format
 msgid "Alpha"
 msgstr "Deckkraft"
 
-#: app/channels_dialog.c:1169 app/cms.c:579 app/depth/info_window.c:519
+#: app/channels_dialog.c:1169 app/cms.c:584 app/depth/info_window.c:519
 #, c-format
 msgid "Gray"
 msgstr "Grau"
@@ -926,19 +926,19 @@ msgid "Color Levels: "
 msgstr "Farbwerte: "
 
 #. Create the cyan-red scale widget
-#: app/depth/color_balance.c:1109 app/cms.c:648 app/cms.c:652
+#: app/depth/color_balance.c:1109 app/cms.c:653 app/cms.c:657
 #, c-format
 msgid "Cyan"
 msgstr "Zyan"
 
 #. Create the magenta-green scale widget
-#: app/depth/color_balance.c:1136 app/cms.c:649 app/cms.c:653
+#: app/depth/color_balance.c:1136 app/cms.c:654 app/cms.c:658
 #, c-format
 msgid "Magenta"
 msgstr "Magenta"
 
 #. Create the yellow-blue scale widget
-#: app/depth/color_balance.c:1163 app/cms.c:650 app/cms.c:654
+#: app/depth/color_balance.c:1163 app/cms.c:655 app/cms.c:659
 #, c-format
 msgid "Yellow"
 msgstr "Gelb"
@@ -1252,7 +1252,7 @@ msgstr "Transparenz Typ:"
 msgid "Check Size"
 msgstr "Schachbrett Größe"
 
-#: app/depth/commands.c:1884 app/cms.c:691
+#: app/depth/commands.c:1884 app/cms.c:696
 #, c-format
 msgid "Display"
 msgstr "Anzeige"
@@ -1414,8 +1414,8 @@ msgid "Assumed Image Profile:"
 msgstr "Vermutetes Bildprofil"
 
 #: app/depth/commands.c:2268 app/depth/commands.c:2318
-#: app/depth/commands.c:2368 app/depth/commands.c:2417 app/cms.c:1214
-#: app/cms.c:2706 app/layers_dialog.c:888
+#: app/depth/commands.c:2368 app/depth/commands.c:2417 app/cms.c:1221
+#: app/cms.c:2703 app/layers_dialog.c:888
 msgid "[none]"
 msgstr "[kein]"
 
@@ -1439,23 +1439,23 @@ msgstr "Simulationsprofil:"
 msgid "Default Rendering Intent:"
 msgstr "Übertragunsfunktion:"
 
-#: app/depth/commands.c:2467 app/cms.c:2752 app/menus.c:491
+#: app/depth/commands.c:2467 app/cms.c:2749 app/menus.c:491
 msgid "Perceptual"
 msgstr "Fotografisch"
 
-#: app/depth/commands.c:2479 app/cms.c:2758 app/menus.c:492
+#: app/depth/commands.c:2479 app/cms.c:2755 app/menus.c:492
 msgid "Relative Colorimetric"
 msgstr "Relativ Farbmetrisch"
 
 #. Create the saturation scale widget
-#: app/depth/commands.c:2491 app/cms.c:643 app/cms.c:647 app/cms.c:2764
+#: app/depth/commands.c:2491 app/cms.c:648 app/cms.c:652 app/cms.c:2761
 #: app/depth/curves.c:777 app/depth/hue_saturation.c:1267 app/menus.c:493
 #: app/tool_options.c:973
 #, c-format
 msgid "Saturation"
 msgstr "Sättigung"
 
-#: app/depth/commands.c:2503 app/cms.c:2770 app/menus.c:494
+#: app/depth/commands.c:2503 app/cms.c:2767 app/menus.c:494
 msgid "Absolute Colorimetric"
 msgstr "Absolut Farbmetrisch"
 
@@ -1640,52 +1640,52 @@ msgstr ""
 "Fehler beim Verändern der Bildgröße:\n"
 "Breite und Höhe müssen größer als Null sein."
 
-#: app/cms.c:198
+#: app/cms.c:203
 #, c-format
 msgid "%s:%d %s() entry->profile->cache_key allready freed or empty"
 msgstr ""
 
-#: app/cms.c:203
+#: app/cms.c:208
 #, c-format
 msgid "%s:%d %s() entry->profile->handle allready freed or empty"
 msgstr ""
 
-#: app/cms.c:285 app/cms.c:441
+#: app/cms.c:290 app/cms.c:446
 #, c-format
 msgid "Cannot open selected ICC assumed image profile: %s"
 msgstr "Kann das ausgewählte, vermutete ICC Quellprofil nicht öffnen: %s"
 
-#: app/cms.c:296 app/cms.c:454
+#: app/cms.c:301 app/cms.c:459
 #, c-format
 msgid "Cannot open selected ICC editing profile: %s"
 msgstr "Kann das ausgewählte, ICC Editierprofil nicht öffnen: %s"
 
-#: app/cms.c:307
+#: app/cms.c:312
 #, c-format
 msgid "Cannot open selected ICC display profile: %s"
 msgstr "Kann das ausgewählte, ICC Bildschirmprofil nicht öffnen: %s"
 
-#: app/cms.c:313
+#: app/cms.c:318
 #, c-format
 msgid "Selected display profile is not a display profile: %s"
 msgstr "Das ausgewählte Bildschirmprofil ist nicht vom Typ Monitor: %s"
 
-#: app/cms.c:329 app/cms.c:495
+#: app/cms.c:334 app/cms.c:500
 #, c-format
 msgid "Cannot open selected ICC default proof profile: %s"
 msgstr "Kann das Standard Profil nicht öffnen: %s"
 
-#: app/cms.c:376
+#: app/cms.c:381
 #, c-format
 msgid "WARNING: "
 msgstr ""
 
-#: app/cms.c:379
+#: app/cms.c:384
 #, c-format
 msgid "!!! ERROR: "
 msgstr ""
 
-#: app/cms.c:473
+#: app/cms.c:478
 msgid ""
 "Oyranos cannot find display ICC profile.\n"
 "  Using sRGB instead."
@@ -1693,355 +1693,355 @@ msgstr ""
 "Oyranos kann das Bildschirmprofil nicht finden.\n"
 "Benutze sRGB dafür."
 
-#: app/cms.c:559 app/cms.c:573
+#: app/cms.c:564 app/cms.c:578
 #, c-format
 msgid "XYZ"
 msgstr ""
 
-#: app/cms.c:560 app/cms.c:574
+#: app/cms.c:565 app/cms.c:579
 #, c-format
 msgid "Lab"
 msgstr ""
 
-#: app/cms.c:575
+#: app/cms.c:580
 #, c-format
 msgid "Luv"
 msgstr ""
 
-#: app/cms.c:576
+#: app/cms.c:581
 #, c-format
 msgid "YCbCr"
 msgstr ""
 
-#: app/cms.c:577
+#: app/cms.c:582
 #, c-format
 msgid "Yxy"
 msgstr ""
 
-#: app/cms.c:578
+#: app/cms.c:583
 #, c-format
 msgid "Rgb"
 msgstr ""
 
-#: app/cms.c:580
+#: app/cms.c:585
 #, c-format
 msgid "Hsv"
 msgstr ""
 
-#: app/cms.c:581
+#: app/cms.c:586
 #, c-format
 msgid "Hls"
 msgstr ""
 
-#: app/cms.c:582
+#: app/cms.c:587
 #, c-format
 msgid "Cmyk"
 msgstr ""
 
-#: app/cms.c:583
+#: app/cms.c:588
 #, c-format
 msgid "Cmy"
 msgstr ""
 
-#: app/cms.c:584
+#: app/cms.c:589
 #, c-format
 msgid "2color"
 msgstr "2farbig"
 
-#: app/cms.c:585
+#: app/cms.c:590
 #, c-format
 msgid "3color"
 msgstr "3farbig"
 
-#: app/cms.c:586
+#: app/cms.c:591
 #, c-format
 msgid "4color"
 msgstr "4farbig"
 
-#: app/cms.c:587
+#: app/cms.c:592
 #, c-format
 msgid "5color"
 msgstr "5farbig"
 
-#: app/cms.c:588
+#: app/cms.c:593
 #, c-format
 msgid "6color"
 msgstr "6farbig"
 
-#: app/cms.c:589
+#: app/cms.c:594
 #, c-format
 msgid "7color"
 msgstr "7farbig"
 
-#: app/cms.c:590
+#: app/cms.c:595
 #, c-format
 msgid "8color"
 msgstr "8farbig"
 
-#: app/cms.c:591
+#: app/cms.c:596
 #, c-format
 msgid "9color"
 msgstr "9farbig"
 
-#: app/cms.c:592
+#: app/cms.c:597
 #, c-format
 msgid "10color"
 msgstr "10farbig"
 
-#: app/cms.c:593
+#: app/cms.c:598
 #, c-format
 msgid "11color"
 msgstr "11farbig"
 
-#: app/cms.c:594
+#: app/cms.c:599
 #, c-format
 msgid "12color"
 msgstr "12farbig"
 
-#: app/cms.c:595
+#: app/cms.c:600
 #, c-format
 msgid "13color"
 msgstr "13farbig"
 
-#: app/cms.c:596
+#: app/cms.c:601
 #, c-format
 msgid "14color"
 msgstr "14farbig"
 
-#: app/cms.c:597
+#: app/cms.c:602
 #, c-format
 msgid "15color"
 msgstr "15farbig"
 
-#: app/cms.c:623
+#: app/cms.c:628
 #, c-format
 msgid "CIE X"
 msgstr ""
 
-#: app/cms.c:624 app/cms.c:635
+#: app/cms.c:629 app/cms.c:640
 #, c-format
 msgid "CIE Y (Luminance)"
 msgstr "CIE Y (Helligkeit)"
 
-#: app/cms.c:625
+#: app/cms.c:630
 #, c-format
 msgid "CIE Z"
 msgstr ""
 
-#: app/cms.c:626 app/cms.c:629
+#: app/cms.c:631 app/cms.c:634
 #, c-format
 msgid "CIE *L"
 msgstr ""
 
-#: app/cms.c:627
+#: app/cms.c:632
 #, c-format
 msgid "CIE *a"
 msgstr ""
 
-#: app/cms.c:628
+#: app/cms.c:633
 #, c-format
 msgid "CIE *b"
 msgstr ""
 
-#: app/cms.c:630
+#: app/cms.c:635
 #, c-format
 msgid "CIE *u"
 msgstr ""
 
-#: app/cms.c:631
+#: app/cms.c:636
 #, c-format
 msgid "CIE *v"
 msgstr ""
 
-#: app/cms.c:632
+#: app/cms.c:637
 #, c-format
 msgid "Luminance Y"
 msgstr "Helligkeit Y"
 
-#: app/cms.c:633
+#: app/cms.c:638
 #, c-format
 msgid "Colour b"
 msgstr "Farbe b"
 
-#: app/cms.c:634
+#: app/cms.c:639
 #, c-format
 msgid "Colour r"
 msgstr "Farbe r"
 
-#: app/cms.c:636
+#: app/cms.c:641
 #, c-format
 msgid "CIE x"
 msgstr ""
 
-#: app/cms.c:637
+#: app/cms.c:642
 #, c-format
 msgid "CIE y"
 msgstr ""
 
-#: app/cms.c:641 app/cms.c:651 app/palette.c:1532
+#: app/cms.c:646 app/cms.c:656 app/palette.c:1532
 #, c-format
 msgid "Black"
 msgstr "Schwarz"
 
 #. Create the hue scale widget
-#: app/cms.c:642 app/cms.c:645 app/depth/hue_saturation.c:1199
+#: app/cms.c:647 app/cms.c:650 app/depth/hue_saturation.c:1199
 #: app/tool_options.c:972
 #, c-format
 msgid "Hue"
 msgstr "Farbton"
 
-#: app/cms.c:644 app/histogram_tool.c:367 app/depth/levels.c:3376
+#: app/cms.c:649 app/histogram_tool.c:367 app/depth/levels.c:3376
 #: app/tool_options.c:975
 #, c-format
 msgid "Value"
 msgstr "Wert"
 
 #. Create the lightness scale widget
-#: app/cms.c:646 app/depth/hue_saturation.c:1233
+#: app/cms.c:651 app/depth/hue_saturation.c:1233
 #, c-format
 msgid "Lightness"
 msgstr "Helligkeit"
 
-#: app/cms.c:655 app/cms.c:657 app/cms.c:660 app/cms.c:675
+#: app/cms.c:660 app/cms.c:662 app/cms.c:665 app/cms.c:680
 #, c-format
 msgid "1. Colour"
 msgstr "1. Farbe"
 
-#: app/cms.c:656 app/cms.c:658 app/cms.c:661 app/cms.c:676
+#: app/cms.c:661 app/cms.c:663 app/cms.c:666 app/cms.c:681
 #, c-format
 msgid "2. Colour"
 msgstr "2. Farbe"
 
-#: app/cms.c:659 app/cms.c:662 app/cms.c:677
+#: app/cms.c:664 app/cms.c:667 app/cms.c:682
 #, c-format
 msgid "3. Colour"
 msgstr "3. Farbe"
 
-#: app/cms.c:663 app/cms.c:678
+#: app/cms.c:668 app/cms.c:683
 #, c-format
 msgid "4. Colour"
 msgstr "4. Farbe"
 
-#: app/cms.c:690
+#: app/cms.c:695
 #, c-format
 msgid "Input"
 msgstr "Eingabe"
 
-#: app/cms.c:692
+#: app/cms.c:697
 #, c-format
 msgid "Output"
 msgstr "Ausgabe"
 
-#: app/cms.c:693
+#: app/cms.c:698
 #, c-format
 msgid "Link"
 msgstr "Verknüpfung"
 
-#: app/cms.c:694
+#: app/cms.c:699
 #, c-format
 msgid "Abstract"
 msgstr "Abstrakt"
 
-#: app/cms.c:695
+#: app/cms.c:700
 #, c-format
 msgid "ColorSpace"
 msgstr "Farbraum"
 
-#: app/cms.c:696
+#: app/cms.c:701
 #, c-format
 msgid "NamedColor"
 msgstr "SonderFarbe"
 
-#: app/cms.c:781
+#: app/cms.c:788
 #, c-format
 msgid "Description:    "
 msgstr "Beschreibung:   "
 
-#: app/cms.c:797
+#: app/cms.c:804
 #, c-format
 msgid "Product:        "
 msgstr "Produkt:        "
 
-#: app/cms.c:806
+#: app/cms.c:813
 #, c-format
 msgid "Manufacturer:   "
 msgstr "Hersteller:     "
 
-#: app/cms.c:814
+#: app/cms.c:821
 #, c-format
 msgid "Model:          "
 msgstr "Modell:         "
 
-#: app/cms.c:824
+#: app/cms.c:831
 #, c-format
 msgid "Copyright:      "
 msgstr "Copyright:      "
 
-#: app/cms.c:835
+#: app/cms.c:842
 #, c-format
 msgid "Device Class:   "
 msgstr "Geräteklasse:   "
 
-#: app/cms.c:838
+#: app/cms.c:845
 #, c-format
 msgid "Color Space:    "
 msgstr "Farbraum:       "
 
-#: app/cms.c:841
+#: app/cms.c:848
 #, c-format
 msgid "PCS Space:      "
 msgstr "Kontaktfarbraum:"
 
-#: app/cms.c:2841
+#: app/cms.c:2838
 msgid "Select Profile and Intent"
 msgstr "Profile- und Übertragungsfunktionsauswahl"
 
-#: app/cms.c:2849
+#: app/cms.c:2846
 msgid ""
 "Please select the profile to convert to and the rendering intent to use:"
 msgstr "Bitte wählen Sie das Profil und die Übertragungsfunktion aus:"
 
-#: app/cms.c:2857
+#: app/cms.c:2854
 msgid "Profile:"
 msgstr "Profil:"
 
-#: app/cms.c:2864
+#: app/cms.c:2861
 msgid "Rendering Intent:"
 msgstr "Übertragungsfunktion:"
 
 #. whether to blackpoint compensate
-#: app/cms.c:2872 app/menus.c:495
+#: app/cms.c:2869 app/menus.c:495
 msgid "Black Point Compensation"
 msgstr "Schwarzpunktkompensation"
 
-#: app/cms.c:2949
+#: app/cms.c:2946
 #, c-format
 msgid "Select Image Profile"
 msgstr "Bildprofil Auswahl"
 
-#: app/cms.c:2950
+#: app/cms.c:2947
 #, c-format
 msgid "Select Proof Profile"
 msgstr "Simulationsprofil Auswahl"
 
-#: app/cms.c:2972
+#: app/cms.c:2969
 msgid "[The currently assigned profile is: [none]]"
 msgstr "[Das derzeitig zugewiesene Profil ist: [kein]]"
 
-#: app/cms.c:2975
+#: app/cms.c:2972
 #, c-format
 msgid "[The currently assigned profile is: %s]"
 msgstr "[Das derzeitig zugewiesene Profil ist: %s]"
 
-#: app/cms.c:2987
+#: app/cms.c:2984
 msgid "Please select the new image profile to assign:"
 msgstr "Bitte wählen Sie das neue Bildprofil:"
 
-#: app/cms.c:2989
+#: app/cms.c:2986
 msgid "Please select the new proof profile to assign:"
 msgstr "Bitte wählen Sie das neue Simulationsprofil:"
 
-#: app/cms.c:3029
+#: app/cms.c:3026
 msgid ""
 "You set the image profile to [none]. Colormanagement will be\n"
 "switched off for all displays of this image."
@@ -2049,7 +2049,7 @@ msgstr ""
 "Sie haben das Ansichtsprofil nicht gesetz. Farbmanagement wird ausgeschalten "
 "für alle Ansichten dieses Bildes."
 
-#: app/cms.c:3032
+#: app/cms.c:3029
 msgid ""
 "You set the proof profile to [none]. Proofing will be\n"
 "not available off for all displays of this image."
@@ -2057,58 +2057,58 @@ msgstr ""
 "Sie haben das Ansichtsprofil nicht gesetz. Farbmanagement wird ausgeschalten "
 "für alle Ansichten dieses Bildes."
 
-#: app/cms.c:3087 app/cms.c:3236
+#: app/cms.c:3084 app/cms.c:3233
 msgid "Select Profile"
 msgstr "Ausgewähltes Profil"
 
 #. message
-#: app/cms.c:3095
+#: app/cms.c:3092
 msgid "Please select the image profile to assign to the image:"
 msgstr "Bitte wählen Sie ein Profil für dieses Bild:"
 
-#: app/cms.c:3103
+#: app/cms.c:3100
 msgid "Profile: "
 msgstr "Profil:"
 
-#: app/cms.c:3112
+#: app/cms.c:3109
 msgid "The assumed image profile: [none]"
 msgstr "Der vermutete Farbraum: [keiner]"
 
-#: app/cms.c:3115
+#: app/cms.c:3112
 #, c-format
 msgid "The assumed image profile: %s"
 msgstr "Der vermutet Farbraum: %s"
 
 #. default check box
-#: app/cms.c:3126
+#: app/cms.c:3123
 msgid "always use default profile"
 msgstr "Immer das Standardprofil benutzen"
 
 #. message
-#: app/cms.c:3244
+#: app/cms.c:3241
 msgid ""
 "The profile that was assigned to this image does not match your editing "
 "profile."
 msgstr "Das zugewiesene ICC Profil entspricht nicht dem Editierfarbprofil."
 
-#: app/cms.c:3253
+#: app/cms.c:3250
 msgid "Editing profile:"
 msgstr "Editierprofil:"
 
-#: app/cms.c:3263
+#: app/cms.c:3260
 msgid "Assigned profile:"
 msgstr "Zugewiesenes Profil:"
 
 #. alway convert checkbox
-#: app/cms.c:3274
+#: app/cms.c:3271
 msgid "Always convert automatically without asking"
 msgstr "Immer automatisch konvertieren"
 
-#: app/cms.c:3285
+#: app/cms.c:3282
 msgid "Yes"
 msgstr "Ja"
 
-#: app/cms.c:3290
+#: app/cms.c:3287
 msgid "No"
 msgstr "Nein"
 

@@ -1,10 +1,10 @@
 Summary: CinePaint is a tool for manipulating images.
 Name: cinepaint
 Version: 0.25
-Release: 0
+Release: 1
 License: GPL,LGPL,MIT
 Group: Applications/Multimedia
-Source0: http://prdownloads.sourceforge.net/cinepaint/cinepaint-0.25.0.tar.gz
+Source0: http://prdownloads.sourceforge.net/cinepaint/cinepaint-0.25.1.tar.gz
 URL: http://www.cinepaint.org
 BuildRoot: %{_tmppath}/%{name}-root
 #Requires: /sbin/ldconfig FIXME: Find dependencies
@@ -80,7 +80,7 @@ rm -rf %{buildroot}
 %{_libdir}/*.so.*
 %{_prefix}/share/aclocal/cinepaint.m4
 %{_mandir}/man1/*
-%{_libdir}/cinepaint/0.25.0/*
+%{_libdir}/cinepaint/0.25.1/*
 %{_datadir}/applications/cinepaint.desktop
 %{_datadir}/pixmaps/cinepaint.png
 #%{_datadir}/fonts/FreeSans.ttf
@@ -101,7 +101,7 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}/%{version}.%{release}/palettes/
 %{_datadir}/%{name}/%{version}.%{release}/patterns/
 %{_datadir}/%{name}/%{version}.%{release}/scripts/
-%{_prefix}/%{_lib}/python2.5/site-packages
+%{_prefix}/%{_lib}/python2.6/site-packages
 
 %files devel
 %defattr(-, root, root)
