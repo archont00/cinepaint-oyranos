@@ -319,7 +319,7 @@ gdisplay_delete (GDisplay *gdisp)
       
       if(smr && (strstr(type,"MenuItem") || strstr(type,"GtkMenuItem")))
       {
-        snprintf( path, 64, fac_item->path );
+        snprintf( path, 64, "%s", fac_item->path );
         ptr = strchr( fac_item->path, '/' );
         if(ptr) *ptr=0;
 #     ifdef DEBUG

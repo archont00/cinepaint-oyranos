@@ -176,7 +176,7 @@ char* GetDirAbsoluteExec(const char *filename)
     char *text = (char*) calloc( sizeof(char), len );
     text[0] = 0;
     /* whats the path for the executeable ? */
-    snprintf (text, len-1, filename);
+    snprintf (text, len-1, "%s", filename);
 
     if(text[0] == '~')
     {
@@ -210,7 +210,7 @@ char* GetDirAbsoluteExec(const char *filename)
       {
         char* cn = (char*) calloc(2048, sizeof(char));
         sprintf (cn, "%s%s%s", getenv("PWD"), DIR_SEPARATOR, filename);
-        sprintf (text, cn);
+        strcpy (text, cn);
         if(cn) free(cn);
       }
     }

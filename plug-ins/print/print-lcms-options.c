@@ -1051,7 +1051,7 @@ void init_lcms_options (void)
   }
   else
     if ( (strcmp(vals.o_profile, "")) == 0)
-      snprintf (vals.o_profile, MAX_PATH, ptr);
+      snprintf (vals.o_profile, MAX_PATH, "%s", ptr);
 
 #ifndef USE_ALL_OPTIONS
   gtk_widget_hide (matrix_vbox);
@@ -1162,7 +1162,7 @@ on_select_iprofile_entry_insert_text   (GtkEditable     *editable,
                                         gpointer         user_data)
 {
 
-  sprintf (vals.i_profile, gtk_editable_get_chars(editable,0,
+  strcpy (vals.i_profile, gtk_editable_get_chars(editable,0,
                                       GTK_ENTRY(editable)->text_length));
   g_print ("%s %s:%d  %s\n",__func__,__FILE__,__LINE__,vals.i_profile);
 }
@@ -1181,7 +1181,7 @@ on_select_oprofile_entry_insert_text   (GtkEditable     *editable,
 
         point = text = g_new (char,MAX_PATH);
 
-        sprintf (text, vals.o_profile);
+        strcpy (text, vals.o_profile);
         g_print ("%s:%d %s\n",__FILE__,__LINE__,text);
 
         if (strchr(text, '.') && strlen (text) < MAX_PATH - 4) {
@@ -1561,7 +1561,7 @@ on_file_ok_button_clicked              (GtkButton       *button,
 
 
   filename = malloc(MAX_PATH);
-  sprintf (filename, gtk_file_selection_get_filename (GTK_FILE_SELECTION (fileselection1)) );
+  strcpy (filename, gtk_file_selection_get_filename (GTK_FILE_SELECTION (fileselection1)) );
 
 
   // test for a valid profile and give some informations
@@ -1662,7 +1662,7 @@ on_use_linearisation_checkbutton_clicked (GtkButton       *button,
   } else if (GTK_TOGGLE_BUTTON (button)->active && vals.icc) {
     sprintf (text, "%s%s%s%s%s", _("You need to be in \""), _("Direct print"),
              _("\" mode in order to linearise an printer.\nThis can be done in the tab \""), _("Print Options"), "\".");
-    g_message (text);
+    g_message ("%s", text);
   }
 
   linear.use_lin = thaw_widgets;

@@ -616,7 +616,7 @@ fl_set_codeset_    ( const char* lang, const char* codeset_,
       if(pos != 0)
       {
         /* 1 a. select an appropriate charset (needed for non UTF-8 fltk/gtk1)*/
-        sprintf (codeset, codeset_);
+        strcpy (codeset, codeset_);
  
           /* merge charset with locale string */
         if(set_locale)
@@ -645,7 +645,7 @@ fl_set_codeset_    ( const char* lang, const char* codeset_,
 #else
           char *ptr = setlocale (LC_ALL, "");
 #endif
-          if(ptr) snprintf( locale, TEXTLEN, ptr);
+          if(ptr) snprintf( locale, TEXTLEN, "%s", ptr);
         }
       }
     }
@@ -740,7 +740,7 @@ fl_initialise_locale( const char *domain, const char *locale_path,
 
     // .. or take locale info from environment
   if(getenv("LANG"))
-    snprintf(locale,TEXTLEN, getenv("LANG"));
+    snprintf(locale,TEXTLEN, "%s", getenv("LANG"));
 # endif
 
 

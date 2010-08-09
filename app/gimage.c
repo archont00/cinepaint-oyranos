@@ -2941,7 +2941,7 @@ gimage_add_layer_mask (GImage *gimage, Layer *layer, LayerMask *mask)
 
   if (error)
     {
-      g_message (error);
+      g_message ("%s", error);
       return NULL;
     }
 

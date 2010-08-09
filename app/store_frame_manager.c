@@ -2235,7 +2235,7 @@ sfm_stores_add (GDisplay* disp)
           len = strlen( s->gimage->filename ) + 1;
           if(s->gimage->filename) free( s->gimage->filename );
           s->gimage->filename = malloc( len );
-          sprintf( s->gimage->filename, new_fn );
+          strcpy( s->gimage->filename, new_fn );
           sfm_flipbook_store_update( disp, row+i+1 );
 	}
       break;

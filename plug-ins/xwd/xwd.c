@@ -490,7 +490,7 @@ load_image (gchar *filename)
     temp = g_strdup_printf (_("load_image (xwd): XWD-file %s has format %d, depth %d\n\
 and bits per pixel %d.\nCurrently this is not supported.\n"),
 			    filename, (int)xwdhdr.l_pixmap_format, depth, bpp);
-    g_message (temp);
+    g_message ("%s", temp);
     g_free (temp);
     return (-1);
   }

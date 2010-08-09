@@ -1289,7 +1289,7 @@ cms_get_profile_from_file(char *file_name)
     return_value = g_new(CMSProfile, 1);
     return_value->cache_key = strdup(cms_get_profile_keyname(profile,mem));
     return_value->handle = profile;
-    sprintf( return_value->cspace,
+    strcpy( return_value->cspace,
              cms_get_color_space_name( return_value->handle ) );
 
     /* save an copy of the original icc profile to mem */
@@ -1343,7 +1343,7 @@ cms_get_profile_from_mem(void *mem_pointer, DWORD size)
     return_value = g_new(CMSProfile, 1);
     return_value->cache_key = strdup(cms_get_profile_keyname(profile,mem_pointer));
     return_value->handle = profile;
-    sprintf( return_value->cspace,
+    strcpy( return_value->cspace,
              cms_get_color_space_name( return_value->handle ) );
 
     cache_entry = g_new(ProfileCacheEntry, 1);
@@ -1391,7 +1391,7 @@ cms_get_virtual_profile( void * mem, size_t size, const char * key_name )
 {   CMSProfile *return_value = 0;
     ProfileCacheEntry *cache_entry = 0;
     GString *hash_key = g_string_new(NULL); 
-    g_string_sprintf(hash_key, key_name);
+    g_string_sprintf(hash_key, "%s", key_name);
 
     /* generate new profile */
     return_value = g_new(CMSProfile, 1);

@@ -1184,7 +1184,7 @@ get_layer_info               (  gint32           image_ID,
     mem_profile = gimp_image_get_icc_profile_by_mem(image_ID, &size, ICC_IMAGE_PROFILE);
     if (mem_profile && size) {
       profile = cmsOpenProfileFromMem (mem_profile, size);
-      sprintf (color_space_name_,
+      strcpy (color_space_name_,
                gimp_image_get_icc_profile_color_space_name (image_ID, ICC_IMAGE_PROFILE));
       DBG (color_space_name_)
     
@@ -1195,7 +1195,7 @@ get_layer_info               (  gint32           image_ID,
       info->icc_profile_info = calloc (sizeof (char),
           strlen( gimp_image_get_icc_profile_info(image_ID, ICC_IMAGE_PROFILE) )
           + 1);
-      sprintf (info->icc_profile_info,
+      strcpy (info->icc_profile_info,
                   gimp_image_get_icc_profile_info(image_ID, ICC_IMAGE_PROFILE));
       memcpy (&info->colorspace[0], color_space_name_, 4);
       info->colorspace[4] = '\000';

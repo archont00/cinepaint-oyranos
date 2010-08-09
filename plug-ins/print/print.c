@@ -402,7 +402,7 @@ run (char   *name,		/* I - Name of print program. */
                                                              ICC_PROOF_PROFILE);
         if(description)
         {
-          sprintf (vals.o_profile, description);
+          strcpy (vals.o_profile, description);
           free( description );
         }
       }

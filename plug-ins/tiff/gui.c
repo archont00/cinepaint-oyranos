@@ -530,7 +530,7 @@ text_entry_callback   ( GtkWidget *widget,
       g_message (_("Your string is too long.\n"));
       return;
     } else {
-      sprintf ( string_ptr, text);
+      strcpy ( string_ptr, text);
     }
   } else {
     string_ptr[0] = '\000';

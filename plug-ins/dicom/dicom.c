@@ -347,7 +347,7 @@ load_image (gchar *filename)
   if (fd == -1)
     {
       temp = g_strdup_printf(_("Dicom: Can't open file %s."), filename);
-      g_message (temp);
+      g_message ("%s", temp);
       g_free(temp);
       return -1;
     }
@@ -362,7 +362,7 @@ load_image (gchar *filename)
   if (g_strncasecmp(buf, "PAPYRUS", 7) == 0)
     {
       temp = g_strdup_printf(_("Dicom: %s is a PAPYRUS DICOM file which this plug-in does not support yet."), filename);
-      g_message (temp);
+      g_message ("%s", temp);
       g_free(temp);
       return -1;
     }
@@ -371,7 +371,7 @@ load_image (gchar *filename)
   if (g_strncasecmp(buf,"DICM",4) != 0)
     {
       temp = g_strdup_printf(_("Dicom: %s is not a DICOM file."), filename);
-      g_message (temp);
+      g_message ("%s", temp);
       g_free(temp);
       return -1;
     }

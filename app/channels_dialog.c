@@ -330,7 +330,7 @@ channels_dialog_flush ()
 
   if(strstr(colour_sig,colour_sig_neu) == 0)
     {
-      sprintf(colour_sig, colour_sig_neu);
+      strcpy(colour_sig, colour_sig_neu);
       channelsD->gimage_id = -1;
       channels_dialog_update (gimage->ID);
     }

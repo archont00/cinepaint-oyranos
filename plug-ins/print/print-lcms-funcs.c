@@ -191,7 +191,7 @@ getLinearisationProfile   ( void )
               linear.Y_Min,linear.Y_Max,linear.K_Min,linear.K_Max,
               levels);
 
-    g_print (gamma_text);
+    g_print ("%s",gamma_text);
 
     gamma[0] = cmsBuildGamma (nEntries, linear.C_Gamma);
     gamma[1] = cmsBuildGamma (nEntries, linear.M_Gamma);
@@ -909,7 +909,7 @@ set_tiff_filename                      (int colour_space)
     sprintf (test1, "Lab");
     sprintf (test2, "lab");
   } else {
-    sprintf (vals.tiff_file, vals.image_filename);
+    strcpy (vals.tiff_file, vals.image_filename);
     change_tiff_fn = FALSE;
   }
 
@@ -917,7 +917,7 @@ set_tiff_filename                      (int colour_space)
     && strstr(vals.image_filename, test2) == NULL
     && change_tiff_fn ) {
 
-        sprintf (txt, vals.image_filename);
+        strcpy (txt, vals.image_filename);
 
         g_print ("%s:%d vals.tiff_file %s\n",__FILE__,__LINE__,vals.image_filename);
         if (strchr(txt, '.') && strlen (txt) < MAX_PATH - 9) {

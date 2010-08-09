@@ -69,7 +69,7 @@ static char* cp_char (char* text)
   char* string;
 
   string = malloc(sizeof(char)*strlen(text)+1);
-  sprintf(string, text);
+  strcpy(string, text);
 
   return string;
 }

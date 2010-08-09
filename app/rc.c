@@ -532,7 +532,7 @@ save_gimprc (GList **updated_options,
   error_msg = open_backup_file (name, &fp_new, &fp_old);
   if (error_msg != NULL)
     {
-      g_message (error_msg);
+      g_message ("%s", error_msg);
       return;
     }
 

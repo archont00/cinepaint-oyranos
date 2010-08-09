@@ -147,7 +147,7 @@ getTempFileName( const char* fname, const char* extension)
     ptr = strchr( tmpname, '.' );
     if(ptr)
       ptr[1] = 0;
-    sprintf( &tmpname[strlen(tmpname)], extension );
+    strcpy( &tmpname[strlen(tmpname)], extension );
     return tmpname;
 }
 
