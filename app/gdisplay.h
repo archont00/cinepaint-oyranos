@@ -86,6 +86,8 @@ struct GDisplay
   int disp_xoffset;
   int disp_yoffset;
 
+  int old_disp_geometry[4];
+
   int offset_x, offset_y;         /**<@brief  offset of display image into raw image*/
   int scale;        	          /**<@brief  scale factor from original raw image  */
 

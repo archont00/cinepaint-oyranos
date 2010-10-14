@@ -40,6 +40,11 @@
 #include "layers_dialog.h"      /* hsbo */
 #include "gtk_debug_helpers.h"  /* hsbo */
 
+#ifdef GDK_WINDOWING_X11
+#include "X11/Xcm/Xcm.h"
+#include <X11/Xlib.h>
+#include <X11/extensions/Xfixes.h>
+#endif
 
 #define HORIZONTAL  1
 #define VERTICAL    2
@@ -62,6 +67,7 @@ int middle_mouse_button;
 /* Function declarations */
 
 static void gdisplay_check_device_cursor (GDisplay *gdisp);
+static void gdisplay_set_colour_region( GDisplay * gdisp );
 
 static void
 redraw (GDisplay *gdisp,
@@ -217,6 +223,142 @@ gdisplay_check_device_cursor (GDisplay *gdisp)
     }
 }
 
+#define OY_DBG_FORMAT_ "%s:%d %s() "
+#define OY_DBG_ARGS_ __FILE__,__LINE__,strrchr(__func__,'/')?strrchr(__func__,'/')+1:__func__
+
+static void gdisplay_set_colour_region(GDisplay * gdisp)
+{
+#ifdef GDK_WINDOWING_X11
+  gint       i,j;
+
+  if( gdisp->old_disp_geometry[0] != gdisp->disp_xoffset ||
+      gdisp->old_disp_geometry[1] != gdisp->disp_yoffset ||
+      gdisp->old_disp_geometry[2] != gdisp->disp_width ||
+      gdisp->old_disp_geometry[3] != gdisp->disp_height )
+  {
+    GdkDisplay *display = gdk_display_get_default ();
+    GdkWindow * event_box = gtk_widget_get_window(gdisp->canvas);
+    GdkWindow * top_window = gdk_window_get_toplevel(event_box);
+    Window w = GDK_WINDOW_XID(top_window);
+    int offx = 0, offy = 0, offx2 = 0, offy2 = 0;
+    gdk_window_get_origin( event_box, &offx, &offy );
+    gdk_window_get_origin( top_window, &offx2, &offy2 );
+    Display    *xdisplay = gdk_x11_display_get_xdisplay (display);
+    GdkScreen  *screen  = gdk_screen_get_default ();
+    Window root = GDK_WINDOW_XID( gdk_screen_get_root_window (screen) );
+
+      XRectangle rec[2] = { { 0,0,0,0 }, { 0,0,0,0 } },
+               * rect = 0;
+      int nRect = 0;
+      XserverRegion reg = 0;
+      XcolorRegion region, *old_regions = 0;
+      unsigned long old_regions_n = 0;
+      int pos = -1;
+      const char * display_string = DisplayString(xdisplay);
+      int dim_corr_x, dim_corr_y,
+          inner_dis_x, inner_dist_y;
+
+      inner_dis_x = offx - offx2;
+      inner_dist_y = offy - offy2;
+      rec[0].x = gdisp->disp_xoffset + inner_dis_x;
+      rec[0].y = gdisp->disp_yoffset + inner_dist_y;
+      dim_corr_x = 2 * rec[0].x - 2 * inner_dis_x;
+      dim_corr_y = 2 * rec[0].y - 2 * inner_dist_y;
+      rec[0].width = gdisp->disp_width - dim_corr_x;
+      rec[0].height = gdisp->disp_height - dim_corr_y;
+
+      reg = XFixesCreateRegion( xdisplay, rec, 1);
+      rect = XFixesFetchRegion( xdisplay, reg, &nRect );
+      if(!nRect)
+      {
+        printf( OY_DBG_FORMAT_
+                 "Display: %s Window id: %d  Could not load Xregion:%d\n",
+                 OY_DBG_ARGS_,
+                 display_string, (int)w, (int)reg );
+
+      } else if(rect[0].x != rec[0].x ||
+                rect[0].y != rec[0].y )
+      {
+        printf( OY_DBG_FORMAT_
+                 "Display: %s Window id: %d  Xregion:%d has wrong position %d,%d\n",
+                 OY_DBG_ARGS_,
+                 display_string, (int)w, (int)reg, rect[0].x, rect[0].y );
+      } else
+        printf( OY_DBG_FORMAT_
+                 "Display: %s Window id: %d  Xregion:%d uploaded %dx%d+%d+%d"
+                 "  %d:%d %d:%d\n",
+                 OY_DBG_ARGS_,
+                 display_string, (int)w, (int)reg,
+                 rect[0].width, rect[0].height, rect[0].x, rect[0].y,
+                 offx, offx2, offy, offy2 );
+
+      region.region = htonl(reg);
+      memset( region.md5, 0, 16 );
+
+      /* look for old regions */
+      old_regions = XcolorRegionFetch( xdisplay, w, &old_regions_n );
+     /* remove our own old region */
+      for(i = 0; i < old_regions_n; ++i)
+      {
+
+        if(!old_regions[i].region || pos >= 0)
+          break;
+
+        rect = XFixesFetchRegion( xdisplay, ntohl(old_regions[i].region),
+                                  &nRect );
+
+        for(j = 0; j < nRect; ++j)
+        {
+          int * old_window_rectangle = gdisp->old_disp_geometry;
+
+          printf( OY_DBG_FORMAT_
+                 "reg[%d]: %dx%d+%d+%d %dx%d+%d+%d\n",
+                 OY_DBG_ARGS_, i,
+                 old_window_rectangle[2], old_window_rectangle[3],
+                 old_window_rectangle[0], old_window_rectangle[1],
+                 rect[j].width, rect[j].height, rect[j].x, rect[j].y
+                );
+          if(old_window_rectangle[0] == rect[j].x &&
+             old_window_rectangle[1] == rect[j].y &&
+             old_window_rectangle[2] == rect[j].width &&
+             old_window_rectangle[3] == rect[j].height )
+          {
+            pos = i;
+            break;
+          }
+        }
+      }
+      if(pos >= 0)
+      {
+        int undeleted_n = old_regions_n;
+        XcolorRegionDelete( xdisplay, w, pos, 1 );
+        old_regions = XcolorRegionFetch( xdisplay, w, &old_regions_n );
+        if(undeleted_n - old_regions_n != 1)
+          printf(  OY_DBG_FORMAT_"removed %d; have still %d\n", OY_DBG_ARGS_,
+                   pos, (int)old_regions_n );
+      }
+
+      /* upload the new or changed region to the X server */
+      int error = XcolorRegionInsert( xdisplay, w, 0, &region, 1 );
+      if(error)
+        printf( OY_DBG_FORMAT_
+                 "XcolorRegionInsert failed\n",
+                 OY_DBG_ARGS_ );
+      Atom netColorTarget = XInternAtom( xdisplay, "_NET_COLOR_TARGET", True );
+      XChangeProperty( xdisplay, w, netColorTarget, XA_STRING, 8,
+                       PropModeReplace,
+                       (unsigned char*) display_string, strlen(display_string));
+
+      XFlush(xdisplay);
+
+      /* remember the old rectangle */
+        gdisp->old_disp_geometry[0] = gdisp->disp_xoffset + offx - offx2;
+        gdisp->old_disp_geometry[1] = gdisp->disp_yoffset + offy - offy2;
+        gdisp->old_disp_geometry[2] = gdisp->disp_width - dim_corr_x;
+        gdisp->old_disp_geometry[3] = gdisp->disp_height - dim_corr_y;
+  }
+#endif
+}
 
 /**
 *   gdisplay_canvas_events()  -  handles the events concerning the 'canvas'
@@ -281,6 +423,7 @@ gdisplay_canvas_events (GtkWidget *canvas,
 
     /* set the zoom control's focus to this display since it is new */
     zoom_set_focus(gdisp);
+    gdisplay_set_colour_region(gdisp);
   }
 
   /*  Find out what device the event occurred upon  */
@@ -328,8 +471,8 @@ gdisplay_canvas_events (GtkWidget *canvas,
         gdisp->disp_width = gdisp->canvas->allocation.width;
         gdisp->disp_height = gdisp->canvas->allocation.height;
         resize_display (gdisp, 0, FALSE);
-      
       }
+      gdisplay_set_colour_region(gdisp);
       return_val = TRUE;
       break;
 

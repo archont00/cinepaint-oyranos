@@ -467,7 +467,26 @@ void cms_init_oyranos()
     {
       const char *display_name = gdk_get_display ();
 
+#if OYRANOS_VERSION > 110
+      oyOptions_s * options = 0;
+      oyConfig_s * device = 0;
+      oyProfile_s * p = 0;
+
+      int error = oyDeviceGet( OY_TYPE_STD, "monitor", display_name,
+                               options, &device );
+
+      /* obtain the net-color spec ICC device profile */
+      error = oyOptions_SetFromText( &options,
+                               "//"OY_TYPE_STD"/config/net_color_region_target",
+                                     "yes", OY_CREATE_NEW );
+      error = oyDeviceGetProfile( device, options, &p );
+      oyOptions_Release( &options );
+      test = oyProfile_GetMem( p, &test_size, 0, my_alloc_func );
+      oyProfile_Release( &p );
+      oyConfig_Release( &device );
+#else
       test = oyGetMonitorProfile( display_name, &test_size, my_alloc_func );
+#endif
       printf("%s:%d %s() monitor profile size: %d\n",__FILE__,__LINE__,__func__,
               test_size );
 
@@ -958,7 +977,7 @@ cms_read_standard_profile_dirs(icColorSpaceSignature space)
       for( i = 0; i < size; ++i)
       {
         temp_prof = oyProfiles_Get( iccs, i );
-#  ifdef DEBUG
+#  ifdef DEBUG_
         printf("%s %d: \"%s\" %s\n", i == current ? "*":" ", i,
                oyProfile_GetText( temp_prof, oyNAME_DESCRIPTION ),
                oyProfile_GetFileName(temp_prof, 0));
