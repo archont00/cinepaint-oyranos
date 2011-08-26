@@ -31,6 +31,9 @@ gint gdisplay_shell_events (GtkWidget *, GdkEvent *, GDisplay *);
 gint gdisplay_hruler_button_press (GtkWidget *, GdkEventButton *, gpointer);
 gint gdisplay_vruler_button_press (GtkWidget *, GdkEventButton *, gpointer);
 gboolean gdisplay_menubar_down(GtkWidget *widget, GdkEventButton *event, gpointer user_data);
+gboolean gdisplay_move_event_handler ( GtkWidget      *canvas,
+                              GdkEventMotion *event,
+                              gpointer        data );
 
 
 #endif /*  __DISP_CALLBACKS_H__  */
