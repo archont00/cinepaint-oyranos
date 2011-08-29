@@ -231,9 +231,6 @@ static void gdisplay_set_colour_region(GDisplay * gdisp)
 #ifdef GDK_WINDOWING_X11
   gint       i,j;
 
-  if(!gdk_window_is_visible(gdisp->canvas->window))
-    return;
-
   if( gdisp->old_disp_geometry[0] != gdisp->disp_xoffset ||
       gdisp->old_disp_geometry[1] != gdisp->disp_yoffset ||
       gdisp->old_disp_geometry[2] != gdisp->disp_width ||
@@ -243,16 +240,13 @@ static void gdisplay_set_colour_region(GDisplay * gdisp)
     GdkWindow * event_box = gtk_widget_get_window(gdisp->canvas);
     GdkWindow * top_window = gdk_window_get_toplevel(event_box);
     Window w = GDK_WINDOW_XID(top_window);
-    Display    *xdisplay;
-    GdkScreen  *screen;
     int offx = 0, offy = 0, offx2 = 0, offy2 = 0;
-
     gdk_window_get_origin( event_box, &offx, &offy );
     gdk_window_get_origin( top_window, &offx2, &offy2 );
-    xdisplay = gdk_x11_display_get_xdisplay (display);
-    screen  = gdk_screen_get_default ();
+    Display    *xdisplay = gdk_x11_display_get_xdisplay (display);
+    GdkScreen  *screen  = gdk_screen_get_default ();
+    Window root = GDK_WINDOW_XID( gdk_screen_get_root_window (screen) );
 
-    {
       XRectangle rec[2] = { { 0,0,0,0 }, { 0,0,0,0 } },
                * rect = 0;
       int nRect = 0;
@@ -263,8 +257,6 @@ static void gdisplay_set_colour_region(GDisplay * gdisp)
       const char * display_string = DisplayString(xdisplay);
       int dim_corr_x, dim_corr_y,
           inner_dis_x, inner_dist_y;
-      int error;
-      Atom netColorTarget;
 
       inner_dis_x = offx - offx2;
       inner_dist_y = offy - offy2;
@@ -347,20 +339,12 @@ static void gdisplay_set_colour_region(GDisplay * gdisp)
       }
 
       /* upload the new or changed region to the X server */
-      error = XcolorRegionInsert( xdisplay, w, 0, &region, 1 );
+      int error = XcolorRegionInsert( xdisplay, w, 0, &region, 1 );
       if(error)
         printf( OY_DBG_FORMAT_
                  "XcolorRegionInsert failed\n",
                  OY_DBG_ARGS_ );
-      netColorTarget = XInternAtom( xdisplay, "_NET_COLOR_TARGET", True );
-      if(!netColorTarget)
-      {
-        printf( OY_DBG_FORMAT_
-                 "XInternAtom(..\"_NET_COLOR_TARGET\"..) failed\n",
-                 OY_DBG_ARGS_ );
-        error = 1;
-      }
-      if(!error)
+      Atom netColorTarget = XInternAtom( xdisplay, "_NET_COLOR_TARGET", True );
       XChangeProperty( xdisplay, w, netColorTarget, XA_STRING, 8,
                        PropModeReplace,
                        (unsigned char*) display_string, strlen(display_string));
@@ -372,105 +356,8 @@ static void gdisplay_set_colour_region(GDisplay * gdisp)
         gdisp->old_disp_geometry[1] = gdisp->disp_yoffset + offy - offy2;
         gdisp->old_disp_geometry[2] = gdisp->disp_width - dim_corr_x;
         gdisp->old_disp_geometry[3] = gdisp->disp_height - dim_corr_y;
-    }
   }
 #endif
-}
-
-gboolean gdisplay_move_event_handler ( GtkWidget      *canvas,
-                              GdkEventMotion *event,
-                              gpointer        data )
-{
-  GDisplay *gdisp;
-  GdkEventMotion *mevent;
-  gdouble          tx            = 0;
-  gdouble          ty            = 0;
-  gint             tx_int, ty_int;
-  GdkModifierType  tmask;                   /* unused */
-  guint            state         = 0;
-  gint             return_val    = TRUE;
-
-  gdisp = (GDisplay *) gtk_object_get_user_data (GTK_OBJECT (canvas));
-
-  mevent = (GdkEventMotion *) event;
-  state = mevent->state;
-
-  /*  Find out what device the event occurred upon  */
-  if (!gdisp_busy && devices_check_change (event))
-      gdisplay_check_device_cursor (gdisp);
-#if 1
-  /*  get the pointer position  */      /* reanimated -hsbo */
-  if(gdk_window_is_visible( canvas->window ))
-  {
-    if (!current_device) {
-      gdk_window_get_pointer (canvas->window, &tx_int, &ty_int, &tmask);
-    }
-    else
-    {
-      gdk_window_get_pointer (canvas->window, &tx_int, &ty_int, &tmask);
-#if GTK_MAJOR_VERSION < 2
-      gdk_input_window_get_pointer (canvas->window, current_device, 
-        NULL, NULL, NULL, NULL, NULL, NULL);
-#endif
-    }
-  }
-  tx = tx_int;
-  ty = ty_int;
-#endif
-
-  if (no_cursor_updating == 0)
-  {
-    if (gdisp_busy == BUSY_UP)
-    {
-      gdisplay_install_tool_cursor (gdisp, GDK_WATCH);
-      gdisp_busy = BUSY_ON;
-    }
-    else if (active_tool && !gimage_is_empty (gdisp->gimage) &&
-        !(state & (GDK_BUTTON1_MASK | GDK_BUTTON2_MASK | GDK_BUTTON3_MASK)))
-    {
-      int can_cursor = 0;  /* check whether we are not rejected later */
-      GdkEventMotion me;
-      Layer *layer;
-      double x, y;
- 
- 
-      me.x = tx;  me.y = ty;
-      me.state = state;
-      gdisplay_untransform_coords_f (gdisp,
-                                me.x, me.y,
-                                &x, &y,
-                                FALSE);
-   
-      /* TODO move the checks below out of the active_tool->cursor_update_func's
-       */
-      if ((layer = gimage_get_active_layer (gdisp->gimage)))
-      {
-        int off_x, off_y;
-        drawable_offsets (GIMP_DRAWABLE(layer), &off_x, &off_y);
-        if (x >= off_x && y >= off_y &&
-            x < (off_x + drawable_width (GIMP_DRAWABLE(layer))) &&
-            y < (off_y + drawable_height (GIMP_DRAWABLE(layer))))
-          can_cursor = 1;
-      }
-#     ifndef DISP_DEBUG
-      /*if(active_tool->gdisp_ptr == gdisp)*/
-#     endif
-      if(can_cursor)
-      {
-        (* active_tool->cursor_update_func) (active_tool, &me, gdisp);
-      }
-    }
-    else if (gdisp_busy == BUSY_DOWN)
-    {
-      gdisplay_install_tool_cursor (gdisp, GDK_TOP_LEFT_ARROW);
-      gdisp_busy = BUSY_OFF;
-    }
-    else if (gimage_is_empty (gdisp->gimage))
-    {
-      gdisplay_install_tool_cursor (gdisp, GDK_TOP_LEFT_ARROW);
-    }
-  }
-  return return_val;
 }
 
 /**
@@ -542,6 +429,22 @@ gdisplay_canvas_events (GtkWidget *canvas,
   /*  Find out what device the event occurred upon  */
   if (!gdisp_busy && devices_check_change (event))
       gdisplay_check_device_cursor (gdisp);
+#if 1
+  /*  get the pointer position  */      /* reanimated -hsbo */
+  if (!current_device) {
+    gdk_window_get_pointer (canvas->window, &tx_int, &ty_int, &tmask);
+  }
+  else
+  {
+    gdk_window_get_pointer (canvas->window, &tx_int, &ty_int, &tmask);
+#if GTK_MAJOR_VERSION < 2
+    gdk_input_window_get_pointer (canvas->window, current_device, 
+        NULL, NULL, NULL, NULL, NULL, NULL);
+#endif
+  }
+  tx = tx_int;
+  ty = ty_int;
+#endif
 
 #ifdef DEBUG_
   print_gdk_event_type(event);
@@ -558,11 +461,6 @@ gdisplay_canvas_events (GtkWidget *canvas,
 #     endif
       redraw (gdisp, eevent->area.x, eevent->area.y,
           eevent->area.width, eevent->area.height);
-      if( gdisp->old_disp_geometry[0] == 0 &&
-          gdisp->old_disp_geometry[1] == 0 &&
-          gdisp->old_disp_geometry[2] == 0 &&
-          gdisp->old_disp_geometry[3] == 0 )
-        gdisplay_set_colour_region(gdisp);
       return_val = TRUE;
       break;
 
@@ -638,7 +536,7 @@ gdisplay_canvas_events (GtkWidget *canvas,
             {
 
               /* IMAGEWORKS hack to force tablet bevent->x, bevent-y to gdk_window_get_pointer values Allen R.*/
-              if ( CAST(int)current_device == 2 ) {
+              if ( current_device == 2 ) {
                 bevent->x = tx;
                 bevent->y = ty;
               }
@@ -941,6 +839,59 @@ gdisplay_canvas_events (GtkWidget *canvas,
     default:
       break;
   }          /*  switch(event->type)  */
+
+  if (no_cursor_updating == 0)
+  {
+    if (gdisp_busy == BUSY_UP)
+    {
+      gdisplay_install_tool_cursor (gdisp, GDK_WATCH);
+      gdisp_busy = BUSY_ON;
+    }
+    else if (active_tool && !gimage_is_empty (gdisp->gimage) &&
+        !(state & (GDK_BUTTON1_MASK | GDK_BUTTON2_MASK | GDK_BUTTON3_MASK)))
+    {
+      int can_cursor = 0;  /* check whether we are not rejected later */
+      GdkEventMotion me;
+      Layer *layer;
+      double x, y;
+ 
+ 
+      me.x = tx;  me.y = ty;
+      me.state = state;
+      gdisplay_untransform_coords_f (gdisp,
+                                me.x, me.y,
+                                &x, &y,
+                                FALSE);
+   
+      /* TODO move the checks below out of the active_tool->cursor_update_func's
+       */
+      if ((layer = gimage_get_active_layer (gdisp->gimage)))
+      {
+        int off_x, off_y;
+        drawable_offsets (GIMP_DRAWABLE(layer), &off_x, &off_y);
+        if (x >= off_x && y >= off_y &&
+            x < (off_x + drawable_width (GIMP_DRAWABLE(layer))) &&
+            y < (off_y + drawable_height (GIMP_DRAWABLE(layer))))
+          can_cursor = 1;
+      }
+#     ifndef DISP_DEBUG
+      /*if(active_tool->gdisp_ptr == gdisp)*/
+#     endif
+      if(can_cursor)
+      {
+        (* active_tool->cursor_update_func) (active_tool, &me, gdisp);
+      }
+    }
+    else if (gdisp_busy == BUSY_DOWN)
+    {
+      gdisplay_install_tool_cursor (gdisp, GDK_TOP_LEFT_ARROW);
+      gdisp_busy = BUSY_OFF;
+    }
+    else if (gimage_is_empty (gdisp->gimage))
+    {
+      gdisplay_install_tool_cursor (gdisp, GDK_TOP_LEFT_ARROW);
+    }
+  }
 
   return return_val;
 }

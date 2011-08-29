@@ -990,8 +990,6 @@ create_display_shell (int   gdisp_unique_id,
   gdisp->canvas = gtk_drawing_area_new ();
   gtk_drawing_area_size (GTK_DRAWING_AREA (gdisp->canvas), n_width, n_height);
 #if 1
-  g_signal_connect ( gdisp->canvas, "motion-notify-event",
-                        G_CALLBACK (gdisplay_move_event_handler), NULL);
   gtk_widget_set_events (gdisp->canvas, GDK_EXPOSURE_MASK | GDK_POINTER_MOTION_MASK | \
                            /*GDK_POINTER_MOTION_HINT_MASK |*/ GDK_BUTTON_PRESS_MASK | \
                            GDK_BUTTON_RELEASE_MASK | GDK_STRUCTURE_MASK | \
