@@ -1323,8 +1323,10 @@ menus_set_sensitive (char *path,
       if (widget)
 	gtk_widget_set_sensitive (widget, sensitive);
     }
+#ifdef DEBUG_
   if (!ifactory || !widget)
     e_printf ("Unable to set sensitivity for menu which doesn't exist:\n%s", tpath);
+#endif
 
   if(tpath) free(tpath);
 }
@@ -1351,8 +1353,10 @@ menus_set_state (char *path,
       else
 	widget = NULL;
     }
+#ifdef DEBUG_
   if (!ifactory || !widget)
     e_printf ("Unable to set state for menu which doesn't exist:\n%s", tpath);
+#endif
 
   if(tpath) free(tpath);
 }

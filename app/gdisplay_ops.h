@@ -28,5 +28,6 @@ void    gdisplay_new_view     (GDisplay *);
 void    gdisplay_close_window (GDisplay *, int);
 void    gdisplay_shrink_wrap  (GDisplay *);
 int     gdisplay_resize_image (GDisplay *);
+void    gdisplay_set_colour_region( GDisplay * );
 
 #endif  /* __GDISPLAY_OPS_H__ */

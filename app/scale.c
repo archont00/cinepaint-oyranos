@@ -66,6 +66,8 @@ resize_display (GDisplay *gdisp,
   /* re-enable the active tool */
   active_tool_control (RESUME, (void *) gdisp);
   zoom_view_changed(gdisp);
+  if (!resize_window)
+    gdisplay_set_colour_region(gdisp);
 }
 
 

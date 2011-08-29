@@ -1513,6 +1513,7 @@ gdisplay_expose_full (GDisplay *gdisp)
   gdisplay_add_display_area (gdisp, 0, 0,
 			     gdisp->disp_width,
 			     gdisp->disp_height);
+  gdisplay_set_colour_region (gdisp);
 }
 
 void

@@ -56,6 +56,7 @@
 #include "plug_in.h"
 #include "spline.h"
 #include "layer_pvt.h"
+#include "scale.h"
 
 #include "buttons/play_forward.xpm"
 #include "buttons/play_forward_is.xpm"
@@ -1663,12 +1664,12 @@ sfm_frame_create (GDisplay* disp, GImage* img, int num, int active,
 static void
 sfm_frame_make_cur (GDisplay *disp, int row)
 {
-  int i;
 
   gtk_clist_select_row (GTK_CLIST(disp->bfm->sfm->store_list), row, 5);
 
   /* update wait run */
 #if GTK_MAJOR_VERSION < 2
+  int i;
   for( i = 0; i < 12; ++i)
 #endif
     while (gtk_events_pending())
@@ -1683,6 +1684,8 @@ sfm_store_make_cur (GDisplay *gdisplay, int row)
   store_frame_manager *fm;
   char tmp[256];
   SplineTool *spline_tool=NULL;
+  int geo[2] = {0,0};
+  static int geo_changed = 0;
 
   if (row == -1)
     return;
@@ -1710,10 +1713,25 @@ sfm_store_make_cur (GDisplay *gdisplay, int row)
     }
 
   /* display the new store */
+  geo[0] = gdisplay->gimage->width;
+  geo[1] = gdisplay->gimage->height;
   gdisplay->gimage = item->gimage;
   gdisplay->ID = item->gimage->ID;
   gdisplays_update_title (gdisplay->gimage->ID);
-  gdisplay_add_update_area (gdisplay, fm->s_x, fm->s_y, fm->e_x, fm->e_y);
+  if(geo[0] == gdisplay->gimage->width &&
+     geo[1] == gdisplay->gimage->height)
+    gdisplay_add_update_area (gdisplay, fm->s_x, fm->s_y, fm->e_x, fm->e_y);
+  else
+  {
+    int resize_window = FALSE,
+        redisplay = TRUE;
+    geo_changed = 1;
+    resize_display (gdisplay, resize_window, redisplay );
+  }
+
+  if(geo_changed)
+    gdisplay_add_update_area( gdisplay, 0, 0,
+                              item->gimage->width, item->gimage->height );
 #if 0
   if (active_tool->type == CLONE)
     clone_flip_image ();
@@ -2392,6 +2410,14 @@ sfm_store_add_dialog_create (GDisplay *disp)
     }
 }
 
+#define NO_HARD_WM_BORDERS_X -52
+#define NO_HARD_WM_BORDERS_Y -75
+#define NO_HARD_WM_BORDERS_X2 +92
+#define NO_HARD_WM_BORDERS_Y2 +105
+
+/* useful for twm */
+/* #define WM_CAN_NO_FULLSCREEN 1 */
+
 void 
 sfm_slide_show_callback (GtkWidget *w, gpointer data)
 {
@@ -2408,25 +2434,47 @@ sfm_slide_show_callback (GtkWidget *w, gpointer data)
       display->slide_show = display->slide_show ? 0 : 1;
       if(display->slide_show)
 	{
+#ifdef WM_CAN_NO_FULLSCREEN
+          /* Just fit inside the available screen and show window title.
+           *  A real full screen mode is different. */
+          int add_x=0, add_x1=0, add_y=0, add_y2=0;
+          /* Modern window managers, like Compiz have hard y borders and move a 
+             window to the next virtual desktop if they feel good with that. */
+          add_x = NO_HARD_WM_BORDERS_X;
+          add_y = NO_HARD_WM_BORDERS_Y;
+          add_x1 = NO_HARD_WM_BORDERS_X2;
+          add_y2 = NO_HARD_WM_BORDERS_Y2;
+#endif
           if(GTK_WIDGET_VISIBLE(display->hrule))
             rulers_visible = 1;
 	  gdk_window_get_geometry(window->window, &win_x, &win_y, &win_w, &win_h, &win_d);
 
+	  gtk_container_set_border_width(GTK_CONTAINER(window), 0);
 	  gtk_widget_hide(display->menubar);
 	  gtk_widget_hide(display->hsb);
 	  gtk_widget_hide(display->vsb);
 	  gtk_widget_hide(display->hrule);
 	  gtk_widget_hide(display->vrule);
 
-	  gdk_window_move_resize (window->window, -50, -75, gdk_screen_width()+92, 
-				  gdk_screen_height()+105);
-	  gtk_window_set_default_size (GTK_WINDOW (window), gdk_screen_width()+92,
-				       gdk_screen_height()+105);
-	  gtk_widget_set_usize (GTK_WIDGET(window), gdk_screen_width()+92, 
-				gdk_screen_height()+105);
+#ifdef WM_CAN_NO_FULLSCREEN
+	  gdk_window_move_resize (window->window, add_x, add_y,
+                                  gdk_screen_width() + add_x1,
+				  gdk_screen_height() + add_y2);
+	  gtk_window_set_default_size (GTK_WINDOW (window),
+                                       gdk_screen_width() + add_x1,
+				       gdk_screen_height() + add_y2);
+	  gtk_widget_set_usize (GTK_WIDGET(window),
+                                gdk_screen_width() + add_x1, 
+				gdk_screen_height() + add_y2);
+#else
+          gtk_window_fullscreen( GTK_WINDOW(window) );
+#endif
 	}
       else
 	{
+#ifndef WM_CAN_NO_FULLSCREEN
+          gtk_window_unfullscreen( GTK_WINDOW(window) );
+#endif
 	  gdk_window_move_resize (window->window, win_x, win_y, win_w, win_h);
 	  gtk_window_set_default_size (GTK_WINDOW (window), win_w, win_h);
 	  gtk_widget_set_usize (GTK_WIDGET(window), win_w, win_h);
