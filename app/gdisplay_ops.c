@@ -522,11 +522,11 @@ void gdisplay_set_colour_region(GDisplay * gdisp)
         printf( OY_DBG_FORMAT_
                  "XcolorRegionInsert failed\n",
                  OY_DBG_ARGS_ );
-      netColorTarget = XInternAtom( xdisplay, "_NET_COLOR_TARGET", True );
+      netColorTarget = XInternAtom( xdisplay, "_ICC_COLOR_TARGET", True );
       if(!netColorTarget)
       {
         printf( OY_DBG_FORMAT_
-                 "XInternAtom(..\"_NET_COLOR_TARGET\"..) failed\n",
+                 "XInternAtom(..\"_ICC_COLOR_TARGET\"..) failed\n",
                  OY_DBG_ARGS_ );
         error = 1;
       }
