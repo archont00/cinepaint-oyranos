@@ -101,7 +101,7 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}/%{version}.%{release}/palettes/
 %{_datadir}/%{name}/%{version}.%{release}/patterns/
 %{_datadir}/%{name}/%{version}.%{release}/scripts/
-
+%{_prefix}/%{_lib}/python2.6/site-packages
 
 %files devel
 %defattr(-, root, root)

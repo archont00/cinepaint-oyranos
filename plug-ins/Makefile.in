@@ -295,7 +295,6 @@ pythondir = @pythondir@
 sbindir = @sbindir@
 sharedstatedir = @sharedstatedir@
 srcdir = @srcdir@
-subdirs = @subdirs@
 sysconfdir = @sysconfdir@
 target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
@@ -317,10 +316,10 @@ SUBDIRS = \
 	gbr \
 	gifload \
 	hdr \
-	@ICC_EXAMIN@ \
 	iff \
 	jpeg \
 	@IOL@ \
+	lraw \
 	mblur \
 	median \
 	minimum \
@@ -372,9 +371,9 @@ $(srcdir)/Makefile.in: @MAINTAINER_MODE_TRUE@ $(srcdir)/Makefile.am  $(am__confi
 	      exit 1;; \
 	  esac; \
 	done; \
-	echo ' cd $(top_srcdir) && $(AUTOMAKE) --foreign plug-ins/Makefile'; \
+	echo ' cd $(top_srcdir) && $(AUTOMAKE) --gnu plug-ins/Makefile'; \
 	$(am__cd) $(top_srcdir) && \
-	  $(AUTOMAKE) --foreign plug-ins/Makefile
+	  $(AUTOMAKE) --gnu plug-ins/Makefile
 .PRECIOUS: Makefile
 Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status
 	@case '$?' in \

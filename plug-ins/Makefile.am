@@ -18,10 +18,10 @@ SUBDIRS = \
 	gbr \
 	gifload \
 	hdr \
-	@ICC_EXAMIN@ \
 	iff \
 	jpeg \
 	@IOL@ \
+	lraw \
 	mblur \
 	median \
 	minimum \

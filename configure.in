@@ -493,6 +493,7 @@ dnl Test for Oyranos; beku
       AC_MSG_WARN([
 *** Check for oyranos-config failed.
 *** You can download Oyranos from http://www.oyranos.org/  .])
+      ERROR=1
     fi
 
 dnl Test for FLTK; beku
@@ -692,30 +693,6 @@ if test -n "$FLTK_LIBS" && test -n "$FLTK_CFLAGS"; then
 fi
 
 
-dnl pthread dependend plug-ins
-AC_MSG_CHECKING([thread dependend plug-ins ])
-if test "$THREAD"; then
-  AC_ARG_ENABLE(icc_examin, [  --disable-icc_examin    skip inbuild ICC Examin])
-  if test "x$enable_icc_examin" = "xno"; then
-    echo "... disabling inbuild ICC Examin"
-    ICC_EXAMIN=''
-  else
-    if test x$tmp_FLTK_THREAD_SUP = xyes; then
-      AC_CONFIG_SUBDIRS(plug-ins/icc_examin/icc_examin)
-      ICC_EXAMIN='icc_examin'
-      USE_THREADS="-DUSE_THREADS"
-      AC_MSG_RESULT([yes "$ICC_EXAMIN"])
-      MAKEFILE_ICC_EXAMIN=plug-ins/icc_examin/Makefile
-    else
-      ICC_EXAMIN=''
-    fi
-  fi
-else
-    AC_MSG_RESULT([no thread dependent plug-ins will be build (icc_examin,...)])
-fi
-THREAD_PLUG_INS="$ICC_EXAMIN"
-
-
 dnl flex dependend plug-ins
 AC_MSG_CHECKING([flex dependend plug-ins ])
 if test "$FLEX"; then
@@ -854,11 +831,11 @@ plug-ins/gauss_rle/Makefile
 plug-ins/gbr/Makefile
 plug-ins/gifload/Makefile
 plug-ins/hdr/Makefile
-$MAKEFILE_ICC_EXAMIN
 plug-ins/iff/Makefile
 plug-ins/iol/Makefile
 plug-ins/iol/examples/Makefile
 plug-ins/jpeg/Makefile
+plug-ins/lraw/Makefile
 plug-ins/mblur/Makefile
 plug-ins/median/Makefile
 plug-ins/minimum/Makefile
@@ -980,11 +957,6 @@ if test "$FLTK"; then
 echo "   FLTK dependent plug-ins:     yes    $FLTK"
 else
 echo "   FLTK dependent plug-ins:     no     !! CinePaint will not build without !!"
-fi
-if test "$THREAD"; then
-echo "   Thread dependent plug-ins:   yes    $THREAD_PLUG_INS"
-else
-echo "   Thread dependent plug-ins:   no     internal ICC Examin can not build"
 fi
 if test "$FLEX"; then
 echo "   Flex dependent plug-ins:     yes    $FLEX"
