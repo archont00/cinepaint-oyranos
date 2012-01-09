@@ -491,7 +491,7 @@ void cms_init_oyranos()
 
       /* obtain the net-color spec ICC device profile */
       error = oyOptions_SetFromText( &options,
-                               "//"OY_TYPE_STD"/config/net_color_region_target",
+                               "//"OY_TYPE_STD"/config/x_color_region_target",
                                      "yes", OY_CREATE_NEW );
       error = oyDeviceGetProfile( device, options, &p );
       oyOptions_Release( &options );
@@ -991,8 +991,8 @@ cms_read_standard_profile_dirs(icColorSpaceSignature space)
       for( i = 0; i < size; ++i)
       {
         temp_prof = oyProfiles_Get( iccs, i );
-#  ifdef DEBUG_
-        printf("%s %d: \"%s\" %s\n", i == current ? "*":" ", i,
+#  ifdef DEBUG
+        printf("%d: \"%s\" %s\n", i,
                oyProfile_GetText( temp_prof, oyNAME_DESCRIPTION ),
                oyProfile_GetFileName(temp_prof, 0));
 #  endif

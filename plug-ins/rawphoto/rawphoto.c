@@ -108,12 +108,22 @@ static void query (void)
 
   dependency_error = system(command);
 
-  free(command);
-
   if(!(dependency_error > 0x200))
     fprintf(stderr, "The camera RAW converter UFRaw (ufraw-cinepaint) is installed. Disabling distributed rawphoto plug-in.\n");
-  else
-    fprintf(stderr, "UFRaw for CinePaint (ufraw-cinepaint) is not found. Enabling distributed rawphoto plug-in.\n");
+
+  if(!(dependency_error > 0x200))
+  {
+    snprintf( command, 1024, "export PATH=~/.cinepaint/plug-ins:%s:$PATH; ufraw-cinepaint", text ? text : "");
+
+    dependency_error = system(command);
+    if(!(dependency_error > 0x200))
+      fprintf(stderr, "The camera RAW converter lraw (is installed. Disabling distributed rawphoto plug-in.\n");
+  }
+
+  free(command);
+
+  if((dependency_error > 0x200))
+    fprintf(stderr, "UFRaw for CinePaint (ufraw-cinepaint) and lraw are not found. Enabling distributed rawphoto plug-in.\n");
   #endif
 
 
