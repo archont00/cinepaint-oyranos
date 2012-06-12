@@ -207,7 +207,7 @@ gdisplay_active_invoker (Argument *args)
 
   success = ((gdisp = gdisplay_active ()) != NULL);
 
-# ifdef DEBUG
+# ifdef DEBUG_
   printf("%s:%d %s() disp %d success %d\n", __FILE__,__LINE__,__func__,(intptr_t)gdisp, success);
   if(gdisp)
     printf("%s:%d %s() disp->ID %d\n", __FILE__,__LINE__,__func__,gdisp->ID);

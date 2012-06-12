@@ -62,7 +62,7 @@ oyConversion_s * oyConversion_FromImageFileName  (
   /* add a file name argument */
   /* get the options of the input node */
   if(in)
-  options = oyFilterNode_OptionsGet( in, OY_SELECT_FILTER );
+  options = oyFilterNode_GetOptions( in, OY_SELECT_FILTER );
   /* add a new option with the appropriate value */
   error = oyOptions_SetFromText( &options, "//" OY_TYPE_STD "/file_read/filename",
                                  file_name, OY_CREATE_NEW );
@@ -258,7 +258,7 @@ static gint32 load_image (gchar *filename)
 
   w = oy_image->width;
   h = oy_image->height;
-  if(oyToDataType_m(oyImage_PixelLayoutGet(oy_image)) == oyUINT16)
+  if(oyToDataType_m(oyImage_GetPixelLayout(oy_image)) == oyUINT16)
   {
     image_type = U16_RGB;
     layer_type = U16_RGB_IMAGE;
@@ -302,7 +302,7 @@ static gint32 load_image (gchar *filename)
   }
 
   gimp_progress_update( .9 );
-  p = oyImage_ProfileGet( oy_image );
+  p = oyImage_GetProfile( oy_image );
   /* fallback */
   if(!p)
     p = oyProfile_FromStd( oyASSUMED_RGB, 0 );

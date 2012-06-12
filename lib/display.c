@@ -85,7 +85,7 @@ gimp_display_active ()
   return_vals = gimp_run_procedure ("gimp_display_active",
                                     &nreturn_vals,
                                     PARAM_END);
-#ifdef DEBUG
+#ifdef DEBUG_
   printf("%s:%d %s() %d  0x%x|%d\n",__FILE__,__LINE__,__func__,
         display_ID, return_vals[1].data.d_display, return_vals[1].data.d_int32);
 #endif
@@ -93,7 +93,7 @@ gimp_display_active ()
   if (return_vals[0].data.d_status == STATUS_SUCCESS)
     display_ID = return_vals[1].data.d_display;
 
-#ifdef DEBUG
+#ifdef DEBUG_
   printf("%s:%d %s() %d:%d ID:%d  0x%x|%d\n",__FILE__,__LINE__,__func__,
          return_vals[0].data.d_status, STATUS_SUCCESS, display_ID,
          return_vals[1].data.d_display, return_vals[1].data.d_int32);
