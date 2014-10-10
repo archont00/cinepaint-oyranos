@@ -52,6 +52,9 @@
 #include <alpha/oyranos_alpha.h>
 #endif
 #endif
+#if OYRANOS_VERSION > 107
+#include "oyProfiles_s.h"
+#endif
 #endif
 
 #include "config.h"
