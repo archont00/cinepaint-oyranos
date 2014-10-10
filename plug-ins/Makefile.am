@@ -21,7 +21,6 @@ SUBDIRS = \
 	iff \
 	jpeg \
 	@IOL@ \
-	lraw \
 	mblur \
 	median \
 	minimum \

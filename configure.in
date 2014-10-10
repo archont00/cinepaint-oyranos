@@ -835,7 +835,6 @@ plug-ins/iff/Makefile
 plug-ins/iol/Makefile
 plug-ins/iol/examples/Makefile
 plug-ins/jpeg/Makefile
-plug-ins/lraw/Makefile
 plug-ins/mblur/Makefile
 plug-ins/median/Makefile
 plug-ins/minimum/Makefile
