@@ -15,7 +15,7 @@ Categories=Application;Graphics;RasterGraphics;
 
 Exec=cinepaint-remote %U
 TryExec=cinepaint
-Icon=cinepaint.png
+Icon=cinepaint
 StartupNotify=false
 Terminal=false
 
