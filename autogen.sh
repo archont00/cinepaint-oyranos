@@ -4,7 +4,7 @@
 if [ -d ./aclocal ]; then
   aclocaldir="./aclocal"
 else
-  unset aclocaldir
+  aclocaldir="./"
 fi
 
 if [ $# -gt 0 ]; then
