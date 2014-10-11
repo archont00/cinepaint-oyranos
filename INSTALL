@@ -1,12 +1,13 @@
 CINEPAINT BUILD AND INSTALLATION
 Robin.Rowe@cinepaint.org
 2008.01.28
+Modified by knizek@volny.cz
 
 Instructions for building on Debian. Other distros will be similar
 
 $ apt-get install libc6-dev libglib1.2-dev libgtk1.2-dev libjpeg62-dev libpng-dev libtiff3g-dev xlibs-dev zlib1g-dev libfltk1.1-dev
 
-
+$ sh autogen.sh
 $ ./configure
 $ make
 # make install
@@ -14,7 +15,10 @@ $ cinepaint
 
 /opt
 
-CinePaint is installed in Linux in the traditional way sprinkled across various directories in /usr. Doing so can make CinePaint components difficult to find, and requires being root during installation. An alternative is to install as user in the directory /opt or /opt/version# if you want to install multiple versions of CinePaint side-by-side.
+CinePaint is installed in Linux in the traditional way sprinkled across various directories in /usr.
+Doing so can make CinePaint components difficult to find, and requires being root during installation.
+An alternative is to install as user in the directory /opt or /opt/version# if you want to install
+multiple versions of CinePaint side-by-side.
 
 ./configure --prefix=/opt
 
