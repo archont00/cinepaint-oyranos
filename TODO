@@ -5,13 +5,15 @@ bugs:
 entering File / Preferences or when trying to choose an ICC Profile from
 a drop-down list (Image / ..).
 
-Two workarounds:
+Workarounds (any should work):
 
-* Either try to find out, which ICC Profile causes the crash and remove it
+* Try to find out, which ICC Profile causes the crash and remove it
   from ICC Profile PATH.
 
-* Or run CinePaint w/ default "C" locale:
+* Run CinePaint w/ default "C" locale:
   $ LANG=C cinepaint
+
+* Recompile CinePaint with --enable-debug (it can make it run slowlier)
 
 
 PATCHES ARE WELCOME!
