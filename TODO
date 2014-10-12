@@ -1,0 +1,17 @@
+CinePaint 0.25.2 should generally work fine. Here is a list of known
+bugs:
+
+1) In locale other then "C", CinePaint may crash (buffer overflow) when  
+entering File / Preferences or when trying to choose an ICC Profile from
+a drop-down list (Image / ..).
+
+Two workarounds:
+
+* Either try to find out, which ICC Profile causes the crash and remove it
+  from ICC Profile PATH.
+
+* Or run CinePaint w/ default "C" locale:
+  $ LANG=C cinepaint
+
+
+PATCHES ARE WELCOME!
