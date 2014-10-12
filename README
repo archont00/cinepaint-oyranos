@@ -1,3 +1,34 @@
+This source code of CinePaint
+
+x is based on code, which used to be hosted by Kai-Uwe Behrmann on
+  Oyranos GIT server until 2014, latest version was numbered as
+  CinePaint 0.25.
+
+x includes additional patches to make it compile with Arch Linux.
+  ( https://aur.archlinux.org/packages/cinepaint-oyranos )
+
+x exists only to provide a tool for the ICC Examin plugin, which is
+  a nice standalone program, however, its functionality is greatly
+  extended when used within CinePaint.
+  ( https://aur.archlinux.org/packages/icc_examin )
+
+
+The code earlier maintained by Kai-Uwe Behrman was probably forked off
+the original CinePaint 0.22. The purpose was proper interaction with
+Oyranos and ICC Examin.
+
+The original CinePaint source tarballs linked on www.cinepaint.org do not
+work with ICC Examin anymore. Robin Rowe released a new version 1.0.4,
+which despite the different version number is only a maintenance release.
+
+The newly released version 1.0.4 on www.cinepaint.org is already quite
+different to Kai-Uwe's last version 0.25. There are no plans to port
+changes in the original 1.x series to cinepaint-oyranos.
+
+2014, Milan Knizek
+
+=== Original README ===
+
 CinePaint README
 1/1/05 Robin.Rowe@MovieEditor.com
 
@@ -33,4 +64,3 @@ never had much awareness in the open source community. On July 4,
 
 For documentation see:
 <http://cinepaint.bigasterisk.com/CinePaintDocumentation>
-
