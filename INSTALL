@@ -1,13 +1,21 @@
+This fork of CinePaint provides source code for AUR Arch Linux package:
+
+  https://aur.archlinux.org/packages/cinepaint-oyranos/
+
+It may compile also on other Linux distributions - see the original info
+below.
+
+=== Original INSTALL ===
+
 CINEPAINT BUILD AND INSTALLATION
 Robin.Rowe@cinepaint.org
 2008.01.28
-Modified by knizek@volny.cz
 
 Instructions for building on Debian. Other distros will be similar
 
 $ apt-get install libc6-dev libglib1.2-dev libgtk1.2-dev libjpeg62-dev libpng-dev libtiff3g-dev xlibs-dev zlib1g-dev libfltk1.1-dev
 
-$ sh autogen.sh
+$ sh autogen.sh # May not be neccessary and can be skipped
 $ ./configure
 $ make
 # make install
